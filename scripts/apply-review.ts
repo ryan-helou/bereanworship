@@ -38,6 +38,7 @@ async function main() {
     console.log(`  theological  ${r.theological}   communal ${r.communal}   clarity ${r.clarity}`);
     if (r.ceiling !== null) console.log(`  ceiling applied at ${r.ceiling} — a severe or major theological concern is present`);
     console.log(`  findings ${r.findingCount}  ·  sources ${r.sourceCount}  ·  version ${r.reviewVersion}`);
+    console.log(`  evidence ${r.evidence.quoted}/${r.evidence.total} findings quote the song (${Math.round(r.evidence.ratio * 100)}%)`);
     console.log(`  themes   ${r.themes.join(', ') || '(none)'}`);
     console.log(`  url      /songs/${r.slug}\n`);
   } else {

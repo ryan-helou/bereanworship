@@ -84,6 +84,54 @@ Where credible sources genuinely disagree, the disagreement is recorded in `evid
 
 A concern resting only on tier-4 evidence, or graded merely as an allegation or interpretation, is capped: scored as moderate, barred from imposing a ceiling, and published flagged as contested. See [SCORING.md](SCORING.md#the-source-quality-cap).
 
+## House style — learned from the first review
+
+The first published review was written, then rewritten twice. Both corrections
+are now enforced rather than remembered.
+
+### Quote the song
+
+If a finding is about something the song says, it carries the words. Not a
+paraphrase — the words, in `lyricExcerpt`, within the ten-word cap.
+
+This is not presentation. In the first draft of the *God the Uncreated One*
+review, a Christology concern criticised the phrase **"put on mortal flesh"**
+for clothing imagery that might imply Christ's humanity was worn rather than
+assumed. The song does not contain that phrase. It says **"Mighty God in
+mortal flesh"** — no clothing metaphor at all. The line had come from a
+secondary summary of the lyric, not the lyric, and it produced a criticism of
+words the songwriters never wrote. Removing it moved the score from 91 to 92.
+
+The rule that prevents a repeat: **if you cannot quote it, you may not assert
+it.** Where you are working from someone's description of a lyric rather than
+the lyric, either verify the wording or drop the finding.
+
+Only three kinds of finding may omit a quote, because nothing exists to quote:
+
+| Kind | Example |
+|---|---|
+| Absence | a doctrine the song never addresses |
+| Structure | verse count, form, how a refrain repeats |
+| Music | melody, range, arrangement, tempo |
+
+`evidenceCoverage()` reports the ratio, the CLI and the admin publish screen
+both display it, and anything below 60% logs `review.thin_evidence`. The
+reference review sits at 16/18 (89%) — the two exceptions being the absent
+Spirit and the four-verse length.
+
+### Be brief
+
+One claim, one sentence, roughly 25 words. A finding that will not fit is
+usually two findings. The schema enforces it: 320 characters for an
+explanation, 420 for a summary, 520 for a stage assessment. Over-long text
+fails validation the same way an over-long lyric excerpt does.
+
+### Verify the identity before analysing
+
+The same first review had the singing perspective wrong — recorded as
+third-person throughout when the fourth verse turns to direct address
+("We crown You…"). Read the whole text before characterising it.
+
 ## Copyright
 
 Enforced at the schema boundary, not left to the prompt:

@@ -39,6 +39,33 @@ them, not the way an essay would.
 If a finding will not fit in a sentence, it is usually two findings — split it.
 The schema enforces these limits, so over-long text fails validation outright.`;
 
+const EVIDENCE_RULE = `QUOTE THE SONG — this is what makes a review a review
+
+If a finding is about something the song says, it must carry the words. Not a
+paraphrase of the words, not a description of them: the words, in
+lyricExcerpt, within the ten-word limit.
+
+· Analysing a line? Quote the line.
+· Praising a doctrinal statement? Quote the statement.
+· Flagging an ambiguity? Quote the ambiguous phrase.
+
+A reader must be able to see what you saw and disagree with you. A finding
+that asserts what a song says without showing it is an opinion, and it is also
+the exact way a review goes wrong: a phrase remembered loosely, or lifted from
+someone else's summary, becomes a criticism of words the songwriter never
+wrote.
+
+So: if you cannot quote it, you may not assert it. Where you are working from
+a description of the lyric rather than the lyric itself, either verify the
+wording or drop the finding.
+
+The only findings that may omit a quote are those where nothing exists to
+quote:
+· absence — a doctrine the song never addresses;
+· structure — verse count, form, how a refrain repeats;
+· music — melody, range, arrangement, tempo.
+Everything else quotes.`;
+
 const FRAMEWORK = `THEOLOGICAL FRAMEWORK
 You evaluate from a conservative Protestant, broadly Reformed position — the theological
 world of confessional Reformed Baptist and Presbyterian churches. Scripture is the final
@@ -165,6 +192,9 @@ sits, because a claim in the chorus is sung far more often than one in a bridge.
 
 ${COPYRIGHT_RULE}
 
+Attach the actual words to every claim you can. Later stages quote what you capture here,
+so a claim recorded without its lyric leaves the whole review unable to show its evidence.
+
 Critical honesty requirement: if you do not reliably know this song's lyrics, set
 lyricsAvailable=false and return no claims. Do NOT reconstruct, guess at, or approximate
 lyrics you are unsure of. Inventing lyrics would poison every downstream stage.
@@ -212,6 +242,8 @@ ${BIAS_RULES}
 ${SEVERITY_GUIDE}
 
 ${BREVITY}
+
+${EVIDENCE_RULE}
 
 WHAT TO EXAMINE
 God and His character; the Trinity; Father, Son and Holy Spirit; the deity and humanity of
@@ -320,6 +352,8 @@ ${SEVERITY_GUIDE}
 
 ${BREVITY}
 
+${EVIDENCE_RULE}
+
 ${BIAS_RULES}
 
 ${COPYRIGHT_RULE}`;
@@ -376,6 +410,8 @@ described rather than explained. That is reverence, not vagueness.
 ${SEVERITY_GUIDE}
 
 ${BREVITY}
+
+${EVIDENCE_RULE}
 
 ${BIAS_RULES}
 

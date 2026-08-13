@@ -107,6 +107,19 @@ function AppliedSummary({ state }: { state: Extract<ApplyState, { status: 'appli
         findings · {r.sourceCount} sources · version {r.reviewVersion}
       </p>
 
+      {r.kind === 'song' && (
+        <p
+          className={cn(
+            'mt-2 px-3.5 py-2.5 text-xs leading-relaxed',
+            r.evidence.ratio < 0.6 ? 'bg-ochre-100 text-ochre-900' : 'bg-white/70 text-volt-900',
+          )}
+        >
+          {r.evidence.quoted} of {r.evidence.total} findings quote the song.
+          {r.evidence.ratio < 0.6 &&
+            ' That is low — only findings about absence, structure or music should omit the words they rest on.'}
+        </p>
+      )}
+
       {r.kind === 'song' && r.ceiling !== null && (
         <p className="mt-2 rounded-lg bg-ochre-100 px-3.5 py-2.5 text-xs leading-relaxed text-ochre-900">
           A score ceiling of {r.ceiling} was applied: a severe or major theological concern is present, so the weighted

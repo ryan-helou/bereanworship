@@ -141,6 +141,15 @@ export type ClaimExtraction = z.infer<typeof ClaimExtractionSchema>;
 // Stages 3-5 — component analyses
 // ---------------------------------------------------------------------------
 
+/**
+ * Evidence.
+ *
+ * A finding about what a song says must carry the words. The exception is
+ * narrow and real — you cannot quote an absence, a verse count or a melody —
+ * but everything else quotes, because a reader has to be able to see what the
+ * reviewer saw and disagree with it. `evidenceCoverage()` reports how well a
+ * review holds to this.
+ */
 const baseFinding = {
   category: z
     .string()
@@ -149,6 +158,7 @@ const baseFinding = {
     .describe('Short category, e.g. "Christology", "Atonement", "Singability", "Ambiguous pronouns".'),
   title: z.string().min(3).max(160),
   explanation: z.string().min(20).max(MAX_EXPLANATION_CHARS),
+  /** Required unless the finding is about absence, structure or music. */
   lyricExcerpt,
 };
 
@@ -341,3 +351,19 @@ export const THEME_VOCABULARY = [
   'Communion',
   'Baptism',
 ] as const;
+
+/**
+ * How many findings show their evidence.
+ *
+ * Not a hard schema rule, because absence, structure and music findings
+ * legitimately have nothing to quote — but a review where most findings assert
+ * what a song says without showing it is a weak review, and this makes that
+ * visible instead of letting it pass silently.
+ */
+export function evidenceCoverage(
+  findings: Array<{ lyricExcerpt?: string | null; category?: string }>,
+): { quoted: number; total: number; ratio: number } {
+  const total = findings.length;
+  const quoted = findings.filter((f) => Boolean(f.lyricExcerpt?.trim())).length;
+  return { quoted, total, ratio: total === 0 ? 1 : quoted / total };
+}

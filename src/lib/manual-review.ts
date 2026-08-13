@@ -10,6 +10,7 @@ import {
   SynthesisSchema,
   TheologicalAnalysisSchema,
   THEME_VOCABULARY,
+  evidenceCoverage,
 } from './ai/schemas';
 import {
   prepareArtistFindings,
@@ -79,6 +80,8 @@ export interface AppliedSong {
   findingCount: number;
   sourceCount: number;
   themes: string[];
+  /** How many findings show the words they rest on. */
+  evidence: { quoted: number; total: number; ratio: number };
 }
 
 export interface AppliedArtist {
@@ -121,6 +124,17 @@ async function applySong(payload: z.infer<typeof SongReviewPayload>): Promise<Ap
 
   const allowed = new Set<string>(THEME_VOCABULARY);
   const themes = [...new Set(synthesis.themes)].filter((t) => allowed.has(t));
+
+  // Visible rather than silent: a review whose findings mostly assert what a
+  // song says without quoting it is weak, and weakness should be reported.
+  const evidence = evidenceCoverage(findings);
+  if (evidence.ratio < 0.6) {
+    log.warn('review.thin_evidence', {
+      quoted: evidence.quoted,
+      total: evidence.total,
+      note: 'Most findings do not quote the song. Only absence, structure and music findings should omit a quote.',
+    });
+  }
 
   const result: SongReviewResult = {
     identification,
@@ -165,6 +179,7 @@ async function applySong(payload: z.infer<typeof SongReviewPayload>): Promise<Ap
     findingCount: findings.length,
     sourceCount: sources.length,
     themes,
+    evidence,
   };
 }
 

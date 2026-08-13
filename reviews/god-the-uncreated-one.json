@@ -16,8 +16,8 @@
 
   "claims": {
     "lyricsAvailable": true,
-    "perspective": "ABOUT_GOD",
-    "structuralNotes": "Four strophic verses, each closing on the same refrain shape with one word changed at the front ('He is King forever…', 'Crown him King forever…', 'Reign as King forever…'), resolving on 'King of Kings forevermore'. The verses run in sequence: creation, God's rule over history, the incarnation and cross, eternal reign.",
+    "perspective": "MIXED",
+    "structuralNotes": "Four verses, each closing on a refrain with one word changed at the front ('He is King', 'Crown Him King', 'Reign as King'), resolving on an outro of 'King of kings forever'. Verses 1-3 speak about God in the third person; verse 4 turns to direct address. Sequence: creation, God's rule over history, the cross and resurrection, eternal reign.",
     "gospelClarity": "EXPLICIT",
     "claims": [
       {
@@ -27,28 +27,52 @@
         "lyricExcerpt": "God the uncreated One"
       },
       {
-        "claim": "God spoke creation into being, and his attention runs from the stars to the smallest particulars.",
+        "claim": "God is the origin of salvation, not merely its announcer.",
+        "subject": "Soteriology",
+        "location": "VERSE",
+        "lyricExcerpt": "The Author of salvation"
+      },
+      {
+        "claim": "God set the stars in place; the image is domestic and deliberate.",
         "subject": "Creation",
         "location": "VERSE",
-        "lyricExcerpt": null
+        "lyricExcerpt": "Hung the stars like chandeliers"
+      },
+      {
+        "claim": "God's attention extends to the smallest particulars of creation.",
+        "subject": "Omniscience",
+        "location": "VERSE",
+        "lyricExcerpt": "Numbered every grain of sand"
       },
       {
         "claim": "The God who orders the cosmos also knows each person inwardly.",
         "subject": "Omniscience",
         "location": "VERSE",
-        "lyricExcerpt": "knows the heart of every man"
+        "lyricExcerpt": "Knows the heart of every man"
       },
       {
         "claim": "God is the refuge and strength of his people.",
         "subject": "Providence",
         "location": "VERSE",
-        "lyricExcerpt": "our fortress and our strength"
+        "lyricExcerpt": "God our fortress and our strength"
+      },
+      {
+        "claim": "God is a stable foundation that can be relied upon.",
+        "subject": "Providence",
+        "location": "VERSE",
+        "lyricExcerpt": "The Rock on which we can depend"
+      },
+      {
+        "claim": "God's majesty is without equal.",
+        "subject": "Doctrine of God",
+        "location": "VERSE",
+        "lyricExcerpt": "Matchless in His majesty"
       },
       {
         "claim": "God does not change; he is the same self-existent God who named himself to Moses.",
         "subject": "Immutability",
         "location": "VERSE",
-        "lyricExcerpt": "never-changing Great I AM"
+        "lyricExcerpt": "Never changing Great I Am"
       },
       {
         "claim": "Empires rise and collapse without affecting God's faithfulness.",
@@ -57,40 +81,76 @@
         "lyricExcerpt": "Kingdoms rise and kingdoms fall"
       },
       {
-        "claim": "The same almighty God took on real, mortal human nature.",
+        "claim": "God remains faithful through every upheaval.",
+        "subject": "Faithfulness of God",
+        "location": "REFRAIN",
+        "lyricExcerpt": "He is faithful through it all"
+      },
+      {
+        "claim": "The almighty God is himself present in real human flesh.",
         "subject": "Incarnation",
         "location": "VERSE",
-        "lyricExcerpt": "put on mortal flesh"
+        "lyricExcerpt": "Mighty God in mortal flesh"
       },
       {
-        "claim": "Christ died as a flawless sacrifice offered on behalf of others.",
+        "claim": "Christ was betrayed — the passion narrative is named concretely.",
+        "subject": "Passion",
+        "location": "VERSE",
+        "lyricExcerpt": "Forsaken by a traitor's kiss"
+      },
+      {
+        "claim": "The one pierced is the promised Prince of Peace.",
+        "subject": "Crucifixion",
+        "location": "VERSE",
+        "lyricExcerpt": "Pierce the lowly Prince of Peace"
+      },
+      {
+        "claim": "The crucified one was without sin.",
+        "subject": "Sinlessness of Christ",
+        "location": "REFRAIN",
+        "lyricExcerpt": "lifted high, the sinless man"
+      },
+      {
+        "claim": "Christ died as a spotless sacrificial victim.",
         "subject": "Substitutionary atonement",
-        "location": "VERSE",
-        "lyricExcerpt": "our perfect, spotless sacrifice"
+        "location": "REFRAIN",
+        "lyricExcerpt": "crucified the spotless Lamb"
       },
       {
-        "claim": "Christ was raised — the Father delivered him from death.",
+        "claim": "The Father raised him from death.",
         "subject": "Resurrection",
-        "location": "VERSE",
-        "lyricExcerpt": null
+        "location": "REFRAIN",
+        "lyricExcerpt": "rescued by the Father's hand"
       },
       {
-        "claim": "Christ is to be crowned as king, and his reign has no end.",
+        "claim": "Christ reigns as king without end.",
         "subject": "Kingship of Christ",
         "location": "REFRAIN",
         "lyricExcerpt": "He is King forever, He is King forevermore"
       },
       {
-        "claim": "The life God gives is everlasting and his rule is just.",
-        "subject": "Eternal life and justice",
+        "claim": "God is eternal king and the source of grace.",
+        "subject": "Grace",
         "location": "VERSE",
-        "lyricExcerpt": null
+        "lyricExcerpt": "King eternal, God of grace"
+      },
+      {
+        "claim": "The congregation crowns God with praise — the song turns to direct address.",
+        "subject": "Worship",
+        "location": "VERSE",
+        "lyricExcerpt": "We crown You with the highest praise"
+      },
+      {
+        "claim": "God is thrice holy, echoing the seraphim's cry.",
+        "subject": "Holiness",
+        "location": "VERSE",
+        "lyricExcerpt": "You're holy, holy, holy Lord"
       }
     ]
   },
 
   "theological": {
-    "assessment": "Unusually substantial for a contemporary song: aseity, creation, providence, immutability, incarnation, substitution, resurrection and reign, all orthodox and none muddled. Its limits are scope rather than accuracy — sin is assumed and the Spirit is absent.",
+    "assessment": "Unusually substantial for a contemporary song: aseity, creation, providence, immutability, incarnation, substitution, resurrection and reign, all orthodox and none muddled. Its limits are scope rather than accuracy — human sin is assumed and the Spirit is absent.",
     "doctrinesAffirmed": [
       "Aseity of God",
       "Eternality of God",
@@ -99,17 +159,19 @@
       "Immutability",
       "Providence over history",
       "Incarnation",
+      "Sinlessness of Christ",
       "Substitutionary atonement",
       "Resurrection",
       "Kingship of Christ",
-      "Divine justice",
+      "Holiness of God",
+      "Grace",
       "Eternal life"
     ],
     "strengths": [
       {
         "category": "Doctrine of God",
         "title": "Opens on aseity",
-        "explanation": "It asserts God is uncreated — the source of everything, dependent on nothing. Congregational song almost never attempts this, and rarely without muddling it.",
+        "explanation": "The first four words assert that God is uncreated — the source of everything, dependent on nothing. Congregational song almost never attempts this, and rarely without muddling it.",
         "magnitude": "MAJOR",
         "lyricExcerpt": "God the uncreated One",
         "scriptureReference": "Acts 17:24-25",
@@ -117,41 +179,41 @@
         "scriptureRationale": "Paul's argument in Athens is the hymn's opening claim exactly."
       },
       {
-        "category": "Gospel",
-        "title": "The whole gospel arc, in order",
-        "explanation": "Incarnation, cross, resurrection, reign — in sequence, with no stage collapsed into another. Many songs that reach the cross never reach the resurrection.",
-        "magnitude": "MAJOR",
-        "lyricExcerpt": null,
-        "scriptureReference": "Philippians 2:6-11",
-        "scriptureExcerpt": "He humbled himself by becoming obedient to the point of death… Therefore God has highly exalted him.",
-        "scriptureRationale": "Paul's hymn runs the same course and ends, as this one does, on kingship."
-      },
-      {
         "category": "Christology",
-        "title": "The one who dies is the one who was never made",
-        "explanation": "The hymn does not change subject at the incarnation. That continuity is a demanding claim about who Jesus is, and it is made structurally rather than merely asserted.",
-        "magnitude": "MODERATE",
-        "lyricExcerpt": "put on mortal flesh",
+        "title": "The incarnation stated without hedging",
+        "explanation": "Not 'like God' or 'sent by God' — the mighty God himself, in mortal flesh. Four words carrying Chalcedon: full deity and real, dying humanity in one subject.",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": "Mighty God in mortal flesh",
         "scriptureReference": "John 1:14",
         "scriptureExcerpt": "And the Word became flesh and dwelt among us, and we have seen his glory.",
         "scriptureRationale": "John makes the same identification of the eternal Word with the man."
       },
       {
         "category": "Atonement",
-        "title": "Substitution stated plainly",
-        "explanation": "A spotless sacrifice offered for us — not merely an example of love. That is the specific claim which makes the cross good news rather than only moving.",
-        "magnitude": "MODERATE",
-        "lyricExcerpt": "our perfect, spotless sacrifice",
+        "title": "Sinlessness and sacrifice named together",
+        "explanation": "The refrain pairs the sinless man with the spotless Lamb — stating both that Christ had no sin of his own and that he died as a sacrificial victim, which is what makes substitution coherent.",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": "crucified the spotless Lamb",
         "scriptureReference": "1 Peter 1:18-19",
         "scriptureExcerpt": "Ransomed… with the precious blood of Christ, like that of a lamb without blemish or spot.",
-        "scriptureRationale": "Peter supplies the exact sacrificial register the hymn borrows."
+        "scriptureRationale": "Peter supplies the exact register: an unblemished victim, and a ransom paid for others."
+      },
+      {
+        "category": "Resurrection",
+        "title": "The resurrection is the Father's act",
+        "explanation": "The hymn attributes the raising to the Father, which is the dominant New Testament idiom, and it does so in the same breath as the crucifixion rather than leaving the song at the cross.",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": "rescued by the Father's hand",
+        "scriptureReference": "Acts 2:24",
+        "scriptureExcerpt": "God raised him up, loosing the pangs of death, because it was not possible for him to be held by it.",
+        "scriptureRationale": "Peter at Pentecost frames the resurrection the same way — as the Father's deliverance."
       },
       {
         "category": "Providence",
         "title": "Immutability made pastoral",
-        "explanation": "Kingdoms rise and fall; God does not. The comfort offered is that God will hold, not that circumstances will — a far more durable consolation.",
+        "explanation": "The unchanging God is set directly against the turnover of empires, so the comfort offered is that God will hold, not that circumstances will.",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "he is faithful through it all",
+        "lyricExcerpt": "Kingdoms rise and kingdoms fall",
         "scriptureReference": "Daniel 2:21",
         "scriptureExcerpt": "He changes times and seasons; he removes kings and sets up kings.",
         "scriptureRationale": "Political instability as an instance of God's rule, not evidence against it."
@@ -159,23 +221,33 @@
       {
         "category": "Doctrine of God",
         "title": "Transcendence and immanence in one breath",
-        "explanation": "The first verse moves from the scale of the heavens to the count of the sand to the inside of a person, as one continuous thought rather than two competing ideas.",
+        "explanation": "The first verse moves from hanging the stars to counting sand to knowing a human heart, as one continuous thought rather than two competing ideas.",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "knows the heart of every man",
+        "lyricExcerpt": "Knows the heart of every man",
         "scriptureReference": "Psalm 147:4-5",
         "scriptureExcerpt": "He determines the number of the stars; he gives to all of them their names.",
         "scriptureRationale": "The psalm makes the identical move from cosmic scale to personal attention."
+      },
+      {
+        "category": "Worship",
+        "title": "Lands on the seraphim's cry",
+        "explanation": "The final verse turns from description to address and closes on the threefold holy, placing the congregation in the posture of Isaiah 6 rather than merely talking about it.",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": "You're holy, holy, holy Lord",
+        "scriptureReference": "Isaiah 6:3",
+        "scriptureExcerpt": "Holy, holy, holy is the LORD of hosts; the whole earth is full of his glory!",
+        "scriptureRationale": "The hymn ends where the seraphim begin."
       }
     ],
     "concerns": [
       {
         "category": "Hamartiology",
-        "title": "Sin is assumed, never named",
-        "explanation": "The sacrifice is stated but what it addresses is not, so a congregation can sing all four verses without facing its own guilt. Pair it with a song of confession.",
+        "title": "Sin is implied, never named",
+        "explanation": "'Sinless man' implies by contrast that we are not, but the hymn never says so. A congregation can sing all four verses without facing its own guilt; pair it with a song of confession.",
         "severity": "MINOR",
         "centrality": "IMPORTANT",
         "recurring": false,
-        "lyricExcerpt": null,
+        "lyricExcerpt": "lifted high, the sinless man",
         "scriptureReference": "Romans 3:23-25",
         "scriptureExcerpt": "All have sinned and fall short of the glory of God, and are justified by his grace as a gift.",
         "scriptureRationale": "Paul will not state the remedy without first stating the condition."
@@ -183,7 +255,7 @@
       {
         "category": "Trinity",
         "title": "The Spirit does not appear",
-        "explanation": "Four verses survey God's nature and works without the hymn ever becoming Trinitarian. A planning observation rather than a fault in the text.",
+        "explanation": "Four verses survey God's nature and works, and name the Father and the Son, without the hymn ever becoming Trinitarian. A planning observation rather than a fault in the text.",
         "severity": "MINOR",
         "centrality": "PERIPHERAL",
         "recurring": false,
@@ -191,24 +263,12 @@
         "scriptureReference": "Matthew 28:19",
         "scriptureExcerpt": "Baptizing them in the name of the Father and of the Son and of the Holy Spirit.",
         "scriptureRationale": "A diet of such songs leaves a congregation without the threefold name."
-      },
-      {
-        "category": "Christology",
-        "title": "Clothing imagery is imprecise if pressed",
-        "explanation": "Putting flesh on can suggest humanity worn rather than genuinely assumed. The hymn's own mortality and death language rules that reading out, and Wesley used the same idiom.",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "lyricExcerpt": "put on mortal flesh",
-        "scriptureReference": "Hebrews 2:14",
-        "scriptureExcerpt": "He himself likewise partook of the same things, that through death he might destroy the one who has the power of death.",
-        "scriptureRationale": "Only a genuinely human death accomplishes anything."
       }
     ]
   },
 
   "communal": {
-    "assessment": "Built for a congregation: strophic, one repeated refrain shape, declarative voice. Length invites cutting. The vocal range was not independently verified — published in E and F, so check the tessitura locally before introducing it.",
+    "assessment": "Built for a congregation: strophic, one repeated refrain shape, and a voice that moves from declaration to address. Length invites cutting. The vocal range was not independently verified — published in E and F, so check the tessitura locally before introducing it.",
     "singability": "UNKNOWN",
     "vocalRangeNote": "Not verified. Published arrangements appear in E and F; check locally and transpose without hesitation.",
     "repetitionAssessment": "What repeats is 'forever' — the claim the hymn exists to make. Meaningful repetition, not padding.",
@@ -217,19 +277,19 @@
       {
         "category": "Structure",
         "title": "One refrain, learned once",
-        "explanation": "Only the opening word changes between verses, so a congregation effectively learns one refrain and can join in from the first verse.",
+        "explanation": "Only the opening word changes between verses — 'He is King', then 'Crown Him King', then 'Reign as King' — so a congregation effectively learns one refrain and can join from the first verse.",
         "magnitude": "MODERATE",
-        "lyricExcerpt": null,
+        "lyricExcerpt": "He is King forever, He is King forevermore",
         "scriptureReference": null,
         "scriptureExcerpt": null,
         "scriptureRationale": null
       },
       {
         "category": "Corporate perspective",
-        "title": "Declarative, not confessional-personal",
-        "explanation": "It tells the truth about God rather than reporting private experience, so there is no feeling a singer must borrow in order to mean the words.",
+        "title": "Turns to 'we' at the climax",
+        "explanation": "Three verses declare who God is, then the fourth puts the act of crowning in the congregation's own mouth — corporate by grammar, not merely by convention.",
         "magnitude": "MODERATE",
-        "lyricExcerpt": null,
+        "lyricExcerpt": "We crown You with the highest praise",
         "scriptureReference": null,
         "scriptureExcerpt": null,
         "scriptureRationale": null
@@ -239,7 +299,7 @@
         "title": "The repeated word is the doctrine",
         "explanation": "'Forever' is the claim, not filler, and it lets a congregation sing each verse's close without looking at a page.",
         "magnitude": "MODERATE",
-        "lyricExcerpt": null,
+        "lyricExcerpt": "He is faithful through it all",
         "scriptureReference": null,
         "scriptureExcerpt": null,
         "scriptureRationale": null
@@ -267,13 +327,13 @@
     "strengths": [
       {
         "category": "Imagery",
-        "title": "Biblical pictures, not abstraction",
-        "explanation": "Stars, sand, fortress, rock — Scripture's own images for these attributes, so hard doctrine arrives already graspable.",
+        "title": "A domestic picture for a cosmic act",
+        "explanation": "Chandeliers make the hanging of the stars graspable without trivialising it, and the register is biblical — Isaiah stretches the heavens out like a curtain.",
         "magnitude": "MAJOR",
-        "lyricExcerpt": "our fortress and our strength",
-        "scriptureReference": "Psalm 18:2",
-        "scriptureExcerpt": "The LORD is my rock and my fortress and my deliverer, my God, my rock, in whom I take refuge.",
-        "scriptureRationale": "The images arrive carrying their biblical sense already."
+        "lyricExcerpt": "Hung the stars like chandeliers",
+        "scriptureReference": "Isaiah 40:22",
+        "scriptureExcerpt": "Who stretches out the heavens like a curtain, and spreads them like a tent to dwell in.",
+        "scriptureRationale": "Scripture uses household imagery for cosmic acts in exactly this way."
       },
       {
         "category": "Memorability",
@@ -288,19 +348,19 @@
       {
         "category": "Diction",
         "title": "Hymn weight without archaism",
-        "explanation": "Traditional structure and contemporary vocabulary — almost nothing a first-time visitor would need translated.",
+        "explanation": "Traditional structure and contemporary vocabulary — 'the Rock on which we can depend' is plain speech doing doctrinal work, and needs no translation.",
         "magnitude": "MODERATE",
-        "lyricExcerpt": null,
-        "scriptureReference": null,
-        "scriptureExcerpt": null,
-        "scriptureRationale": null
+        "lyricExcerpt": "The Rock on which we can depend",
+        "scriptureReference": "Psalm 18:2",
+        "scriptureExcerpt": "The LORD is my rock and my fortress and my deliverer, my God, my rock, in whom I take refuge.",
+        "scriptureRationale": "The image arrives already carrying its biblical sense."
       }
     ],
     "concerns": [
       {
         "category": "Vocabulary",
-        "title": "'Uncreated' needs a sentence of introduction",
-        "explanation": "The word does real theological work but is not everyday speech; some will sing it without registering the claim.",
+        "title": "'Uncreated' appears once and is never unpacked",
+        "explanation": "The word does the heaviest theological work in the song, sits in the opening line, and never returns — so some will sing it without registering the claim.",
         "severity": "MINOR",
         "centrality": "PERIPHERAL",
         "recurring": false,
@@ -311,12 +371,12 @@
       },
       {
         "category": "Pronoun clarity",
-        "title": "The referent shifts unannounced",
-        "explanation": "'He' becomes the crucified Christ mid-hymn while the Father appears as a distinct actor. Theologically the continuity is the point, but it is momentarily demanding.",
+        "title": "Two referents in one line",
+        "explanation": "The 'He' rescued and the Father doing the rescuing appear together without the distinction being introduced, and the song has spoken of God as one 'He' for two verses beforehand.",
         "severity": "MINOR",
         "centrality": "PERIPHERAL",
         "recurring": false,
-        "lyricExcerpt": null,
+        "lyricExcerpt": "rescued by the Father's hand",
         "scriptureReference": "Colossians 1:15-17",
         "scriptureExcerpt": "He is the image of the invisible God… by him all things were created… and in him all things hold together.",
         "scriptureRationale": "Paul makes the same identification, which is why the shift is defensible."
@@ -325,7 +385,7 @@
   },
 
   "synthesis": {
-    "summary": "A doctrinally dense modern hymn that runs from God's self-existence through creation, providence, the incarnation, a plainly substitutionary cross and Christ's unending reign — never changing subject along the way. Sin is assumed rather than named, so it sits best alongside a song of confession. Weighty content, unusually easy to sing.",
+    "summary": "A doctrinally dense modern hymn that runs from God's self-existence through creation, providence, the incarnation, a plainly substitutionary cross and Christ's unending reign — never changing subject along the way. Sin is implied rather than named, so it sits best alongside a song of confession. Weighty content, unusually easy to sing.",
     "themes": ["God", "Christ", "Sovereignty", "Providence", "Creation", "Cross", "Resurrection"],
     "scriptureReferences": [
       {
@@ -344,9 +404,9 @@
         "relevance": "Verse one's move from cosmic scale to personal knowledge."
       },
       {
-        "reference": "Malachi 3:6",
-        "excerpt": "For I the LORD do not change.",
-        "relevance": "The immutability verse two rests its comfort on."
+        "reference": "Isaiah 40:22",
+        "excerpt": "Who stretches out the heavens like a curtain, and spreads them like a tent to dwell in.",
+        "relevance": "The biblical precedent for the chandelier image."
       },
       {
         "reference": "Daniel 2:21",
@@ -359,33 +419,33 @@
         "relevance": "The incarnation as the same God entering creation."
       },
       {
-        "reference": "Philippians 2:6-11",
-        "excerpt": "He humbled himself by becoming obedient to the point of death… Therefore God has highly exalted him.",
-        "relevance": "The hymn follows this arc: descent, death, exaltation, kingship."
-      },
-      {
         "reference": "1 Peter 1:18-19",
         "excerpt": "Ransomed… with the precious blood of Christ, like that of a lamb without blemish or spot.",
-        "relevance": "The sacrificial register verse three borrows."
+        "relevance": "The spotless Lamb of the third refrain."
+      },
+      {
+        "reference": "Acts 2:24",
+        "excerpt": "God raised him up, loosing the pangs of death, because it was not possible for him to be held by it.",
+        "relevance": "The resurrection as the Father's act, as the hymn has it."
+      },
+      {
+        "reference": "Isaiah 6:3",
+        "excerpt": "Holy, holy, holy is the LORD of hosts; the whole earth is full of his glory!",
+        "relevance": "The threefold holy the final verse closes on."
       },
       {
         "reference": "Romans 3:23-25",
         "excerpt": "All have sinned and fall short of the glory of God, and are justified by his grace as a gift.",
-        "relevance": "The condition the hymn assumes but never states."
-      },
-      {
-        "reference": "Revelation 19:16",
-        "excerpt": "On his robe and on his thigh he has a name written, King of kings and Lord of lords.",
-        "relevance": "The title the hymn drives toward and closes on."
+        "relevance": "The condition the hymn implies but never states."
       }
     ]
   },
 
   "sources": [
     "https://commonhymnal.com/songs/god-the-uncreated-one-king-forevermore",
+    "https://lyricstranslate.com/en/aaron-keyes-god-uncreated-one-lyrics.html",
     "https://www.praisecharts.com/songs/details/70716/god-the-uncreated-one-king-forevermore-sheet-music",
     "https://www.fbchurch.org/resource/hymnology-god-the-uncreated-one",
-    "https://breadforbeggars.com/2020/11/monday-music-god-the-uncreated-one-king-forevermore/",
     "https://urcmusic.org/wp-content/uploads/2020/04/god-the-uncreated-one-king-forevermore.pdf"
   ]
 }
