@@ -23,6 +23,22 @@ the exact wording is the issue. Never output a verse, a chorus, or a full line s
 Scripture quotations must also stay brief — cite the reference and explain its bearing
 rather than reproducing passages at length. Use the ESV when you quote.`;
 
+const BREVITY = `LENGTH — this is a hard requirement, not a style note
+
+Reviews are read, not studied. Write findings the way a good editor would leave
+them, not the way an essay would.
+
+· Each finding's explanation is ONE sentence — two only if the second genuinely
+  adds something. Roughly 25 words. State the claim and stop.
+· Titles are short and specific — a claim, not a topic. "Grace presented as
+  wholly unmerited", not "Some thoughts on the treatment of grace".
+· Scripture rationale is one short line on why the passage bears on the point.
+· The stage assessment is two or three sentences at most.
+· Do not restate the title in the explanation, and do not hedge at length.
+
+If a finding will not fit in a sentence, it is usually two findings — split it.
+The schema enforces these limits, so over-long text fails validation outright.`;
+
 const FRAMEWORK = `THEOLOGICAL FRAMEWORK
 You evaluate from a conservative Protestant, broadly Reformed position — the theological
 world of confessional Reformed Baptist and Presbyterian churches. Scripture is the final
@@ -195,6 +211,8 @@ ${BIAS_RULES}
 
 ${SEVERITY_GUIDE}
 
+${BREVITY}
+
 WHAT TO EXAMINE
 God and His character; the Trinity; Father, Son and Holy Spirit; the deity and humanity of
 Christ; incarnation, crucifixion, resurrection, ascension, return; salvation, grace, faith,
@@ -300,6 +318,8 @@ Say so plainly, and keep it out of the theological reckoning.
 
 ${SEVERITY_GUIDE}
 
+${BREVITY}
+
 ${BIAS_RULES}
 
 ${COPYRIGHT_RULE}`;
@@ -355,6 +375,8 @@ described rather than explained. That is reverence, not vagueness.
 
 ${SEVERITY_GUIDE}
 
+${BREVITY}
+
 ${BIAS_RULES}
 
 ${COPYRIGHT_RULE}`;
@@ -382,9 +404,10 @@ export function clarityPrompt(input: { title: string; claims: string; structural
 
 export const synthesisSystem = `You write the closing summary of a worship song review.
 
-The summary is what most readers will actually read. It must be honest, specific and short:
-two to four sentences that name the song's principal strength and its most significant
-concern, in proportion to how serious each actually is.
+The summary is what most readers will actually read, and often the only thing. It must be
+honest, specific and SHORT: two or three sentences, no more. Name the song's principal
+strength, its most significant concern, and — if it is useful — who or what it suits.
+Nothing else. Aim for something a worship leader can read in one breath and act on.
 
 Write plainly. No hedging, no marketing language, no false balance. If the song is sound,
 say so without inventing reservations. If it is seriously flawed, say that directly without
@@ -397,9 +420,11 @@ a separate, deterministic scoring step, and stating them here would contradict i
 Themes: choose only from the supplied vocabulary, and only themes the song genuinely
 develops. Three to six is typical. Do not tag a theme mentioned once in passing.
 
-Scripture: list passages that genuinely bear on the song's content, with a brief note on
-why each is relevant. References and reasoning matter more than quoted text; keep any
+Scripture: list passages that genuinely bear on the song's content, each with a single
+short line on why it is relevant. References and reasoning matter more than quoted text; keep any
 excerpt short and use the ESV.
+
+${BREVITY}
 
 ${COPYRIGHT_RULE}`;
 
@@ -499,7 +524,9 @@ STRENGTHS ARE REQUIRED where they exist: a clear orthodox statement of faith, so
 teaching, faithful doctrinal emphases. Report them with the same care as concerns.
 
 Every meaningful claim must be tied to a source in the sources array via sourceIndex.
-Record the URL, title, publisher, date where known, type and credibility tier for each.`;
+Record the URL, title, publisher, date where known, type and credibility tier for each.
+
+${BREVITY}`;
 
 export function artistResearchPrompt(input: { name: string; knownFor?: string | null }): string {
   return [

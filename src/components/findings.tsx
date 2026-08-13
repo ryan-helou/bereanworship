@@ -13,6 +13,11 @@ import type { ArtistFinding, FindingType, SongFinding, Severity } from '@prisma/
  *
  * Severity is carried by a thick coloured spine down the left edge, so the
  * seriousness of a page's concerns is legible from across the room.
+ *
+ * Deliberately compact. A finding is one claim in one sentence, and the layout
+ * is tuned for scanning a column of them rather than reading an essay — the
+ * scripture citation sits on a rule rather than in a box, and nothing gets
+ * more vertical space than the claim itself.
  */
 
 const SEVERITY_BADGE: Record<Severity, { concern: string; strength: string }> = {
@@ -36,48 +41,35 @@ export function SongFindingItem({ finding }: { finding: SongFinding }) {
     <article className="flex border-2 border-ink-900 bg-bone-50">
       <div className={cn('w-2 shrink-0', isConcern ? SPINE[finding.severity] : 'bg-volt-500')} aria-hidden="true" />
 
-      <div className="min-w-0 flex-1 p-5">
-        <div className="flex flex-wrap items-center gap-2">
+      <div className="min-w-0 flex-1 p-4">
+        <div className="flex flex-wrap items-center gap-1.5">
           <SeverityBadge type={finding.type} severity={finding.severity} />
           <Badge tone="muted">{finding.category}</Badge>
-          {isConcern && finding.centrality === 'CORE' && <Badge tone="warn">Core doctrine</Badge>}
+          {isConcern && finding.centrality === 'CORE' && <Badge tone="warn">Core</Badge>}
           {isConcern && finding.recurring && <Badge tone="muted">Recurring</Badge>}
+          <ScoreImpact impact={finding.scoreImpact} />
         </div>
 
-        <h3 className="mt-4 text-xl font-bold leading-tight tracking-tight text-ink-900">{finding.title}</h3>
+        <h3 className="mt-3 text-[1.0625rem] font-bold leading-snug tracking-tight text-ink-900">{finding.title}</h3>
 
-        <p className="mt-3 font-serif text-[1.0625rem] leading-relaxed text-ink-700">{finding.explanation}</p>
+        <p className="mt-1.5 text-[0.9375rem] leading-normal text-ink-600">{finding.explanation}</p>
 
         {finding.lyricExcerpt && (
-          <figure className="mt-5">
-            <blockquote className="border-l-4 border-ink-900 pl-4 font-serif text-[1.0625rem] italic leading-relaxed text-ink-700">
-              “{finding.lyricExcerpt}”
-            </blockquote>
-            <figcaption className="mt-2 pl-4 text-[0.6875rem] font-bold uppercase tracking-[0.12em] text-ink-400">
-              Lyric excerpt — quoted briefly for analysis
-            </figcaption>
-          </figure>
+          <blockquote className="mt-2.5 border-l-2 border-ink-900 pl-3 font-serif text-sm italic text-ink-600">
+            “{finding.lyricExcerpt}”
+          </blockquote>
         )}
 
         {finding.scriptureReference && (
-          <div className="mt-5 border-l-4 border-volt-500 bg-volt-50 p-4">
-            <div className="eyebrow">Biblical basis</div>
-            <p className="mt-2 text-lg font-bold text-volt-700">{finding.scriptureReference}</p>
-            {finding.scriptureExcerpt && (
-              <p className="mt-3 font-serif text-[0.9375rem] italic leading-relaxed text-ink-600">
-                {finding.scriptureExcerpt}
-                <span className="ml-1.5 text-[0.625rem] font-bold uppercase not-italic tracking-widest text-ink-400">
-                  ESV
-                </span>
-              </p>
-            )}
-            {finding.scriptureRationale && (
-              <p className="mt-3 text-[0.9375rem] leading-relaxed text-ink-700">{finding.scriptureRationale}</p>
-            )}
+          <div className="mt-3 border-t border-line pt-2.5">
+            <p className="text-sm">
+              <span className="font-bold text-volt-600">{finding.scriptureReference}</span>
+              {finding.scriptureRationale && (
+                <span className="text-ink-500"> — {finding.scriptureRationale}</span>
+              )}
+            </p>
           </div>
         )}
-
-        <ScoreImpact impact={finding.scoreImpact} component={componentLabel(finding.component)} />
       </div>
     </article>
   );
@@ -96,70 +88,61 @@ export function ArtistFindingItem({
     <article className="flex border-2 border-ink-900 bg-bone-50">
       <div className={cn('w-2 shrink-0', isConcern ? SPINE[finding.severity] : 'bg-volt-500')} aria-hidden="true" />
 
-      <div className="min-w-0 flex-1 p-5">
-        <div className="flex flex-wrap items-center gap-2">
+      <div className="min-w-0 flex-1 p-4">
+        <div className="flex flex-wrap items-center gap-1.5">
           <SeverityBadge type={finding.type} severity={finding.severity} />
           <Badge tone="muted">{finding.category}</Badge>
           <EvidenceGradeBadge grade={finding.evidenceGrade} />
           {finding.contested && <Badge tone="warn">Contested</Badge>}
+          <ScoreImpact impact={finding.scoreImpact} />
         </div>
 
-        <h3 className="mt-4 text-xl font-bold leading-tight tracking-tight text-ink-900">{finding.title}</h3>
+        <h3 className="mt-3 text-[1.0625rem] font-bold leading-snug tracking-tight text-ink-900">{finding.title}</h3>
 
-        <p className="mt-3 font-serif text-[1.0625rem] leading-relaxed text-ink-700">{finding.explanation}</p>
+        <p className="mt-1.5 text-[0.9375rem] leading-normal text-ink-600">{finding.explanation}</p>
 
         {finding.evidence && (
-          <div className="mt-5 border-l-4 border-ink-900 bg-bone-200 p-4">
-            <div className="text-[0.6875rem] font-bold uppercase tracking-[0.12em] text-ink-500">Evidence</div>
-            <p className="mt-2 text-[0.9375rem] leading-relaxed text-ink-700">{finding.evidence}</p>
+          <p className="mt-2.5 border-l-2 border-ink-900 pl-3 text-sm text-ink-600">{finding.evidence}</p>
+        )}
+
+        {(source || finding.contested) && (
+          <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 border-t border-line pt-2.5 text-sm">
+            {source && (
+              <a
+                href={source.url}
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                className="font-bold text-volt-600 underline underline-offset-4 hover:text-volt-700"
+              >
+                {source.publisher ?? source.title}
+              </a>
+            )}
+            {finding.contested && (
+              <span className="text-xs text-ochre-700">Weight capped — evidence disputed or lower-tier.</span>
+            )}
           </div>
         )}
-
-        {source && (
-          <a
-            href={source.url}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            className="mt-4 inline-flex items-center gap-2 text-sm font-bold text-volt-600 underline underline-offset-4 hover:text-volt-700"
-          >
-            {source.publisher ?? source.title}
-            <svg viewBox="0 0 16 16" className="size-3.5" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M6 3h7v7M13 3 5 11M11 9v4H3V5h4" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-          </a>
-        )}
-
-        {finding.contested && (
-          <p className="mt-4 bg-ochre-100 px-4 py-3 text-xs leading-relaxed text-ochre-800">
-            The supporting evidence is disputed or rests on lower-tier sources. Its scoring weight has been capped
-            accordingly, and it is not treated as established fact.
-          </p>
-        )}
-
-        <ScoreImpact impact={finding.scoreImpact} component={artistComponentLabel(finding.component)} />
       </div>
     </article>
   );
 }
 
-function ScoreImpact({ impact, component }: { impact: number; component: string }) {
+/** The points this finding contributed, shown inline so the audit trail costs no vertical space. */
+function ScoreImpact({ impact }: { impact: number }) {
   if (impact === 0) return null;
   const positive = impact > 0;
 
   return (
-    <div className="mt-5 flex items-center gap-2.5 border-t-2 border-ink-900 pt-4 text-xs font-bold uppercase tracking-[0.1em] text-ink-400">
-      <span>Score impact</span>
-      <span
-        className={cn(
-          'tnum px-2 py-0.5 text-sm font-extrabold text-white',
-          positive ? 'bg-volt-500' : 'bg-flare-600',
-        )}
-      >
-        {positive ? '+' : ''}
-        {Number.isInteger(impact) ? impact : impact.toFixed(1)}
-      </span>
-      <span>on {component}</span>
-    </div>
+    <span
+      className={cn(
+        'tnum ml-auto px-2 py-1 text-[0.6875rem] font-extrabold text-white',
+        positive ? 'bg-volt-500' : 'bg-flare-600',
+      )}
+      title={`This finding contributed ${positive ? '+' : ''}${impact} points`}
+    >
+      {positive ? '+' : ''}
+      {Number.isInteger(impact) ? impact : impact.toFixed(1)}
+    </span>
   );
 }
 
@@ -233,7 +216,7 @@ export function FindingGroup({
           {emptyMessage}
         </p>
       ) : (
-        <div className="mt-6 space-y-5">{children}</div>
+        <div className="mt-5 space-y-3">{children}</div>
       )}
     </section>
   );

@@ -13,6 +13,22 @@ import { clampExcerpt, wordCount } from '../normalize';
 export const MAX_LYRIC_WORDS = 10;
 export const MAX_SCRIPTURE_WORDS = 45;
 
+/**
+ * Length ceilings.
+ *
+ * Reviews are read, not studied. An earlier version allowed 2500-character
+ * explanations and got them — findings that were paragraphs of argument, which
+ * nobody scans and which bury the actual claim. These caps force one or two
+ * sentences per finding and a summary you can read in a breath. A finding that
+ * genuinely will not fit is nearly always two findings.
+ */
+export const MAX_EXPLANATION_CHARS = 320;
+export const MAX_ASSESSMENT_CHARS = 520;
+export const MAX_SUMMARY_CHARS = 420;
+export const MAX_RATIONALE_CHARS = 200;
+export const MAX_RELEVANCE_CHARS = 170;
+export const MAX_EVIDENCE_CHARS = 300;
+
 const severity = z.enum(['MINOR', 'MODERATE', 'MAJOR', 'SEVERE']);
 const strengthMagnitude = z.enum(['MINOR', 'MODERATE', 'MAJOR']);
 const centrality = z.enum(['CORE', 'IMPORTANT', 'PERIPHERAL']);
@@ -132,7 +148,7 @@ const baseFinding = {
     .max(80)
     .describe('Short category, e.g. "Christology", "Atonement", "Singability", "Ambiguous pronouns".'),
   title: z.string().min(3).max(160),
-  explanation: z.string().min(20).max(2500),
+  explanation: z.string().min(20).max(MAX_EXPLANATION_CHARS),
   lyricExcerpt,
 };
 
@@ -143,7 +159,7 @@ export const StrengthSchema = z.object({
   ),
   scriptureReference: z.string().max(120).nullable().optional(),
   scriptureExcerpt,
-  scriptureRationale: z.string().max(1200).nullable().optional(),
+  scriptureRationale: z.string().max(MAX_RATIONALE_CHARS).nullable().optional(),
 });
 
 export const ConcernSchema = z.object({
@@ -162,17 +178,17 @@ export const ConcernSchema = z.object({
   scriptureExcerpt,
   scriptureRationale: z
     .string()
-    .max(1200)
+    .max(MAX_RATIONALE_CHARS)
     .nullable()
     .optional()
-    .describe('Why the cited passage bears on this concern.'),
+    .describe('One sentence on why the cited passage bears on this concern.'),
 });
 
 export const TheologicalAnalysisSchema = z.object({
   strengths: z.array(StrengthSchema).max(12),
   concerns: z.array(ConcernSchema).max(12),
   doctrinesAffirmed: z.array(z.string().max(80)).max(25).default([]),
-  assessment: z.string().min(20).max(3000),
+  assessment: z.string().min(20).max(MAX_ASSESSMENT_CHARS),
 });
 export type TheologicalAnalysis = z.infer<typeof TheologicalAnalysisSchema>;
 
@@ -180,15 +196,15 @@ export const CommunalAnalysisSchema = z.object({
   strengths: z.array(StrengthSchema).max(10),
   concerns: z.array(ConcernSchema).max(10),
   singability: z.enum(['EASY', 'MODERATE', 'DIFFICULT', 'VERY_DIFFICULT', 'UNKNOWN']).default('UNKNOWN'),
-  vocalRangeNote: z.string().max(500).nullable().optional(),
+  vocalRangeNote: z.string().max(MAX_RATIONALE_CHARS).nullable().optional(),
   repetitionAssessment: z
     .string()
-    .max(1200)
+    .max(MAX_RATIONALE_CHARS)
     .nullable()
     .optional()
     .describe('Distinguish meaningful/biblical repetition from empty repetition. Repetition is not a fault in itself.'),
   performanceOrientation: z.enum(['CONGREGATIONAL', 'BALANCED', 'PERFORMANCE_LEANING', 'PERFORMANCE']).default('BALANCED'),
-  assessment: z.string().min(20).max(3000),
+  assessment: z.string().min(20).max(MAX_ASSESSMENT_CHARS),
 });
 export type CommunalAnalysis = z.infer<typeof CommunalAnalysisSchema>;
 
@@ -196,7 +212,7 @@ export const ClarityAnalysisSchema = z.object({
   strengths: z.array(StrengthSchema).max(10),
   concerns: z.array(ConcernSchema).max(10),
   ambiguityLevel: z.enum(['LOW', 'MODERATE', 'HIGH']).default('LOW'),
-  assessment: z.string().min(20).max(3000),
+  assessment: z.string().min(20).max(MAX_ASSESSMENT_CHARS),
 });
 export type ClarityAnalysis = z.infer<typeof ClarityAnalysisSchema>;
 
@@ -208,8 +224,8 @@ export const SynthesisSchema = z.object({
   summary: z
     .string()
     .min(40)
-    .max(1800)
-    .describe('2-4 sentences naming the song\'s main strength and its most significant concern.'),
+    .max(MAX_SUMMARY_CHARS)
+    .describe('Two or three short sentences: the main strength, the most significant concern, and who it suits.'),
   themes: z
     .array(z.string().max(40))
     .max(8)
@@ -220,7 +236,7 @@ export const SynthesisSchema = z.object({
       z.object({
         reference: z.string().min(2).max(120),
         excerpt: scriptureExcerpt,
-        relevance: z.string().min(10).max(900),
+        relevance: z.string().min(10).max(MAX_RELEVANCE_CHARS).describe('One short line.'),
       }),
     )
     .max(10)
@@ -254,10 +270,10 @@ export const ArtistFindingSchema = z.object({
   component: z.enum(['DOCTRINE', 'AFFILIATIONS', 'PUBLIC_TEACHING', 'MINISTRY_CONTEXT']),
   category: z.string().min(2).max(80),
   title: z.string().min(3).max(160),
-  explanation: z.string().min(20).max(2500),
+  explanation: z.string().min(20).max(MAX_EXPLANATION_CHARS),
   evidence: z
     .string()
-    .max(1200)
+    .max(MAX_EVIDENCE_CHARS)
     .nullable()
     .optional()
     .describe('A short factual excerpt or precise paraphrase of what the source actually says.'),
@@ -280,13 +296,13 @@ export const ArtistResearchSchema = z.object({
   country: z.string().max(80).nullable().optional(),
   foundedYear: z.number().int().min(1000).max(2200).nullable().optional(),
   websiteUrl: z.string().max(500).nullable().optional(),
-  bio: z.string().max(2500).nullable().optional(),
+  bio: z.string().max(400).nullable().optional(),
   strengths: z.array(ArtistStrengthSchema).max(12),
   concerns: z.array(ArtistConcernSchema).max(15),
-  summary: z.string().min(40).max(2500),
+  summary: z.string().min(40).max(MAX_SUMMARY_CHARS),
   evidenceCaveat: z
     .string()
-    .max(1500)
+    .max(MAX_ASSESSMENT_CHARS)
     .nullable()
     .optional()
     .describe('Populate when sources genuinely disagree. State both positions and say why nothing is treated as settled.'),
