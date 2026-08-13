@@ -17,6 +17,20 @@ import { ButtonLink, SectionHeading } from '@/components/ui';
 // Revalidate hourly: the content changes when reviews land, not per request.
 export const revalidate = 3600;
 
+/**
+ * The homepage is pre-rendered at build time, and on a fresh deploy the schema
+ * is applied *after* the build — so these queries can legitimately have nothing
+ * to read. Failing the build over that would be wrong; the page simply renders
+ * its empty state and fills in on the next revalidation.
+ */
+async function safely<T>(fn: () => Promise<T>, fallback: T): Promise<T> {
+  try {
+    return await fn();
+  } catch {
+    return fallback;
+  }
+}
+
 export default function HomePage() {
   return (
     <>
@@ -85,7 +99,13 @@ function Hero() {
 }
 
 async function RecentlyReviewed() {
-  const { items } = await searchSongs({ sort: 'newest', perPage: 6 });
+  const { items } = await safely(() => searchSongs({ sort: 'newest', perPage: 6 }), {
+    items: [],
+    total: 0,
+    page: 1,
+    perPage: 6,
+    totalPages: 1,
+  });
   if (items.length === 0) return <NothingYet />;
 
   return (
@@ -113,7 +133,13 @@ async function RecentlyReviewed() {
 }
 
 async function HighestRated() {
-  const { items } = await searchSongs({ sort: 'score_desc', perPage: 6, minScore: 70 });
+  const { items } = await safely(() => searchSongs({ sort: 'score_desc', perPage: 6, minScore: 70 }), {
+    items: [],
+    total: 0,
+    page: 1,
+    perPage: 6,
+    totalPages: 1,
+  });
   if (items.length === 0) return null;
 
   return (
@@ -141,7 +167,10 @@ async function HighestRated() {
 }
 
 async function NothingYet() {
-  const pending = await prisma.reviewJob.count({ where: { status: { in: ['PENDING', 'RESEARCHING', 'ANALYZING'] } } });
+  const pending = await safely(
+    () => prisma.reviewJob.count({ where: { status: { in: ['PENDING', 'RESEARCHING', 'ANALYZING'] } } }),
+    0,
+  );
 
   return (
     <section className="py-20">

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://railway.com/railway.schema.json",
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "//": "Migrations, the raw-SQL search indexes and the theme vocabulary all run before the new version receives traffic. `npm run release` is idempotent, so a redeploy with no schema change is a no-op.",
+    "preDeployCommand": "npm run release",
+    "startCommand": "npm start",
+    "healthcheckPath": "/api/health",
+    "healthcheckTimeout": 120,
+    "restartPolicyType": "ON_FAILURE",
+    "restartPolicyMaxRetries": 5
+  }
+}

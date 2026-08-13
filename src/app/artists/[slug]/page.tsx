@@ -357,12 +357,17 @@ export default async function ArtistPage({ params }: { params: Params }) {
   );
 }
 
+/** Tolerant of a database that is not yet reachable — see the note in songs/[slug]. */
 export async function generateStaticParams() {
-  const artists = await prisma.artist.findMany({
-    where: { reviewStatus: 'COMPLETED' },
-    select: { slug: true },
-    take: 500,
-    orderBy: { reviewedAt: 'desc' },
-  });
-  return artists.map((artist) => ({ slug: artist.slug }));
+  try {
+    const artists = await prisma.artist.findMany({
+      where: { reviewStatus: 'COMPLETED' },
+      select: { slug: true },
+      take: 500,
+      orderBy: { reviewedAt: 'desc' },
+    });
+    return artists.map((artist) => ({ slug: artist.slug }));
+  } catch {
+    return [];
+  }
 }

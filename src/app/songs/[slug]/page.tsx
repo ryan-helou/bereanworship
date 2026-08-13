@@ -381,13 +381,26 @@ export default async function SongPage({ params }: { params: Params }) {
   );
 }
 
-/** Pre-renders the reviewed catalogue at build time; the rest render on demand. */
+/**
+ * Pre-renders the reviewed catalogue at build time; anything not listed here
+ * still renders on demand.
+ *
+ * Deliberately tolerant of a failure: the build must not depend on a running,
+ * migrated database. On a fresh deploy the schema is applied *after* the build
+ * (Railway's pre-deploy step), so this query has nothing to read — returning
+ * an empty list simply defers every page to on-demand rendering, which is the
+ * correct behaviour rather than a failed build.
+ */
 export async function generateStaticParams() {
-  const songs = await prisma.song.findMany({
-    where: { reviewStatus: 'COMPLETED' },
-    select: { slug: true },
-    take: 500,
-    orderBy: { reviewedAt: 'desc' },
-  });
-  return songs.map((song) => ({ slug: song.slug }));
+  try {
+    const songs = await prisma.song.findMany({
+      where: { reviewStatus: 'COMPLETED' },
+      select: { slug: true },
+      take: 500,
+      orderBy: { reviewedAt: 'desc' },
+    });
+    return songs.map((song) => ({ slug: song.slug }));
+  } catch {
+    return [];
+  }
 }
