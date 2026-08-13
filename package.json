@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "prisma generate && next build",
-    "start": "next start -p ${PORT:-3000}",
+    "start": "node scripts/start.mjs",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "worker": "tsx src/worker/index.ts",
@@ -28,7 +28,8 @@
     "test:e2e:install": "playwright install --with-deps chromium",
     "release": "prisma migrate deploy && node scripts/ensure-search-indexes.mjs && node scripts/seed-themes.mjs",
     "db:ensure-indexes": "node scripts/ensure-search-indexes.mjs",
-    "admin:hash": "node scripts/hash-password.mjs"
+    "admin:hash": "node scripts/hash-password.mjs",
+    "start:web": "next start -p ${PORT:-3000}"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
