@@ -21,6 +21,7 @@ export function SearchBar({
   autoFocus = false,
   className,
   action = '/songs',
+  onDark = false,
 }: {
   initialQuery?: string;
   placeholder?: string;
@@ -28,6 +29,8 @@ export function SearchBar({
   autoFocus?: boolean;
   className?: string;
   action?: string;
+  /** Rendered against an indigo band rather than the bone reading ground. */
+  onDark?: boolean;
 }) {
   const router = useRouter();
   const listId = useId();
@@ -105,7 +108,7 @@ export function SearchBar({
     }
   }
 
-  const inputHeight = size === 'lg' ? 'h-14 text-base pl-13 pr-4' : 'h-11 text-sm pl-11 pr-4';
+  const inputHeight = size === 'lg' ? 'h-16 text-lg pl-14 pr-4' : 'h-11 text-sm pl-11 pr-4';
 
   return (
     <div ref={containerRef} className={cn('relative w-full', className)}>
@@ -121,8 +124,9 @@ export function SearchBar({
         <div className="relative">
           <svg
             className={cn(
-              'pointer-events-none absolute top-1/2 -translate-y-1/2 text-ink-300',
-              size === 'lg' ? 'left-4.5 size-5' : 'left-3.5 size-4',
+              'pointer-events-none absolute top-1/2 -translate-y-1/2',
+              onDark ? 'text-indigo-400' : 'text-ink-400',
+              size === 'lg' ? 'left-5 size-6' : 'left-3.5 size-4',
             )}
             viewBox="0 0 20 20"
             fill="none"
@@ -152,10 +156,11 @@ export function SearchBar({
             aria-activedescendant={activeIndex >= 0 ? `${listId}-option-${activeIndex}` : undefined}
             role="combobox"
             className={cn(
-              'w-full rounded-xl border border-line bg-surface-0 text-ink-900 shadow-[0_1px_2px_rgb(10_12_16/0.03)]',
-              'placeholder:text-ink-300 focus:border-brand-400 focus:outline-none focus:ring-4 focus:ring-brand-100',
-              'transition-[border-color,box-shadow] duration-150',
+              'w-full font-semibold transition-colors duration-150 focus:outline-none',
               '[&::-webkit-search-cancel-button]:appearance-none',
+              onDark
+                ? 'border-2 border-indigo-600 bg-indigo-950 text-bone-100 placeholder:text-indigo-400 focus:border-volt-500'
+                : 'border-2 border-ink-900 bg-bone-50 text-ink-900 placeholder:text-ink-400 focus:border-volt-500',
               inputHeight,
             )}
           />
@@ -167,7 +172,7 @@ export function SearchBar({
           id={listId}
           role="listbox"
           aria-label="Search suggestions"
-          className="absolute z-50 mt-2 w-full overflow-hidden rounded-xl border border-line bg-surface-0 py-1.5 shadow-[0_4px_6px_-2px_rgb(10_12_16/0.05),0_16px_40px_-12px_rgb(10_12_16/0.2)]"
+          className="absolute z-50 mt-1 w-full overflow-hidden border-2 border-ink-900 bg-bone-50 shadow-[6px_6px_0_0_var(--color-volt-500)]"
         >
           {suggestions.map((suggestion, index) => (
             <li key={`${suggestion.type}-${suggestion.href}`}>
@@ -182,21 +187,49 @@ export function SearchBar({
                   router.push(suggestion.href);
                 }}
                 className={cn(
-                  'flex w-full items-center justify-between gap-3 px-3.5 py-2.5 text-left transition-colors',
-                  index === activeIndex ? 'bg-surface-100' : 'bg-transparent',
+                  'flex w-full items-center justify-between gap-3 border-b border-line px-4 py-3 text-left transition-colors last:border-0',
+                  index === activeIndex ? 'bg-volt-500 text-white' : 'bg-transparent',
                 )}
               >
                 <span className="min-w-0">
-                  <span className="block truncate text-sm font-medium text-ink-900">{suggestion.label}</span>
+                  <span
+                    className={cn(
+                      'block truncate text-sm font-bold',
+                      index === activeIndex ? 'text-white' : 'text-ink-900',
+                    )}
+                  >
+                    {suggestion.label}
+                  </span>
                   {suggestion.sublabel && (
-                    <span className="block truncate text-xs text-ink-400">{suggestion.sublabel}</span>
+                    <span
+                      className={cn(
+                        'block truncate text-xs font-semibold uppercase tracking-wider',
+                        index === activeIndex ? 'text-white/70' : 'text-ink-400',
+                      )}
+                    >
+                      {suggestion.sublabel}
+                    </span>
                   )}
                 </span>
-                <span className="flex shrink-0 items-center gap-2.5">
+                <span className="flex shrink-0 items-center gap-3">
                   {suggestion.score !== null && (
-                    <span className="tnum text-sm font-semibold text-ink-600">{suggestion.score}</span>
+                    <span
+                      className={cn(
+                        'tnum text-lg font-extrabold',
+                        index === activeIndex ? 'text-white' : 'text-ink-700',
+                      )}
+                    >
+                      {suggestion.score}
+                    </span>
                   )}
-                  <span className="eyebrow">{suggestion.type}</span>
+                  <span
+                    className={cn(
+                      'text-[0.625rem] font-bold uppercase tracking-[0.14em]',
+                      index === activeIndex ? 'text-white/70' : 'text-volt-600',
+                    )}
+                  >
+                    {suggestion.type}
+                  </span>
                 </span>
               </button>
             </li>

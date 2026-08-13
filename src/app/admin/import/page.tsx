@@ -19,7 +19,7 @@ export default async function AdminImportPage() {
       </header>
 
       {!env.aiConfigured && (
-        <div className="rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm leading-relaxed text-amber-900">
+        <div className="rounded-xl border border-ochre-200 bg-ochre-50 p-4 text-sm leading-relaxed text-ochre-900">
           <span className="font-semibold">Note:</span> <code className="font-mono text-xs">ANTHROPIC_API_KEY</code> is
           not set. Importing will queue jobs successfully, but they will fail until the key is configured and a worker
           is running.
@@ -30,9 +30,9 @@ export default async function AdminImportPage() {
         <ImportForm />
 
         <aside className="space-y-4">
-          <div className="rounded-xl border border-line bg-surface-0 p-5">
+          <div className="rounded-xl border border-line bg-bone-50 p-5">
             <h2 className="text-sm font-semibold text-ink-900">Accepted formats</h2>
-            <pre className="mt-3 overflow-x-auto rounded-lg bg-surface-100 p-3 font-mono text-xs leading-relaxed text-ink-700">
+            <pre className="mt-3 overflow-x-auto rounded-lg bg-bone-200 p-3 font-mono text-xs leading-relaxed text-ink-700">
               {`Amazing Grace — John Newton
 Amazing Grace - John Newton
 Amazing Grace | John Newton
@@ -46,7 +46,7 @@ Amazing Grace`}
             </p>
           </div>
 
-          <div className="rounded-xl border border-line bg-surface-0 p-5">
+          <div className="rounded-xl border border-line bg-bone-50 p-5">
             <h2 className="text-sm font-semibold text-ink-900">What happens</h2>
             <ol className="mt-3 space-y-2 text-xs leading-relaxed text-ink-500">
               <li>1. Each line is parsed and normalised.</li>
@@ -57,7 +57,7 @@ Amazing Grace`}
             </ol>
           </div>
 
-          <div className="rounded-xl border border-line bg-surface-0 p-5">
+          <div className="rounded-xl border border-line bg-bone-50 p-5">
             <h2 className="text-sm font-semibold text-ink-900">Limits</h2>
             <p className="mt-2 text-xs leading-relaxed text-ink-500">
               Up to {MAX_IMPORT_LINES.toLocaleString()} lines per submission. Batches of around{' '}

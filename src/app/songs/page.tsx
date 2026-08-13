@@ -34,28 +34,36 @@ export default async function SongsPage({ searchParams }: { searchParams: Search
   const query = params.q ?? '';
 
   return (
-    <div className="container-page py-12 sm:py-16">
-      <header className="max-w-3xl">
-        <div className="eyebrow">Database</div>
-        <h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Songs</h1>
-        <p className="mt-3 text-[1.0625rem] leading-relaxed text-ink-500">
-          Every song here has completed the review pipeline. Scores combine biblical soundness (60%), congregational
-          suitability (20%) and clarity (20%).
-        </p>
+    <>
+      <header className="band-dark border-b-4 border-volt-500">
+        <div className="container-page py-14 lg:py-20">
+          <div className="max-w-3xl">
+            <div className="eyebrow">Database</div>
+            <h1 className="text-display mt-5 text-bone-100">Songs</h1>
+            <p className="mt-6 max-w-2xl font-serif text-xl leading-relaxed text-indigo-200">
+              Every song here has completed the review pipeline. Scores combine biblical soundness (60%),
+              congregational suitability (20%) and clarity (20%).
+            </p>
+          </div>
+
+          <div className="mt-10 max-w-2xl">
+            <SearchBar initialQuery={query} placeholder="Search by song, artist, album, genre or theme…" onDark />
+          </div>
+        </div>
       </header>
 
-      <div className="mt-8 max-w-2xl">
-        <SearchBar initialQuery={query} placeholder="Search by song, artist, album, genre or theme…" />
-      </div>
+      <section className="band-bone">
+        <div className="container-page py-12">
+          <Suspense fallback={null}>
+            <Filters />
+          </Suspense>
 
-      <Suspense fallback={null}>
-        <Filters />
-      </Suspense>
-
-      <Suspense key={JSON.stringify(params)} fallback={<ResultsSkeleton />}>
-        <Results params={params} />
-      </Suspense>
-    </div>
+          <Suspense key={JSON.stringify(params)} fallback={<ResultsSkeleton />}>
+            <Results params={params} />
+          </Suspense>
+        </div>
+      </section>
+    </>
   );
 }
 
@@ -63,7 +71,7 @@ async function Filters() {
   const [themes, genres] = await Promise.all([listThemesWithCounts(), listGenres()]);
 
   return (
-    <div className="mt-6">
+    <div>
       <FilterBar
         sortOptions={SORT_OPTIONS}
         themes={themes.map((t) => ({ value: t.slug, label: t.name, count: t.count }))}
@@ -116,25 +124,25 @@ async function Results({ params }: { params: NormalizedParams }) {
 
   return (
     <>
-      <div className="mt-8 flex items-center justify-between border-b border-line pb-4">
-        <p className="text-sm text-ink-500 tnum">
+      <div className="mt-8 flex items-center justify-between border-b-4 border-ink-900 pb-4">
+        <p className="text-lg font-bold text-ink-900 tnum">
           {result.total} {result.total === 1 ? 'song' : 'songs'}
           {params.q && (
             <>
               {' '}
-              matching <span className="font-medium text-ink-800">“{params.q}”</span>
+              matching <span className="text-volt-600">“{params.q}”</span>
             </>
           )}
         </p>
       </div>
 
-      <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {result.items.map((song) => (
           <SongCard key={song.id} song={song} />
         ))}
       </div>
 
-      <div className="mt-10">
+      <div className="mt-12">
         <Pagination
           page={result.page}
           totalPages={result.totalPages}
@@ -150,7 +158,7 @@ async function Results({ params }: { params: NormalizedParams }) {
 
 function ResultsSkeleton() {
   return (
-    <div className="mt-14 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
       {Array.from({ length: 6 }, (_, i) => (
         <SongCardSkeleton key={i} />
       ))}

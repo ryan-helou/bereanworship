@@ -45,9 +45,17 @@ const MAXMEM = 128 * PARAMS.N * PARAMS.r * 2;
 
 export const HASH_SEPARATOR = ':';
 
+/**
+ * Hard floor. Below this a password is trivially brute-forced even through the
+ * login rate limit, so it is refused outright.
+ */
+export const MIN_PASSWORD_LENGTH = 8;
+/** Below this we still accept it, but say so — it is not a good password. */
+export const RECOMMENDED_PASSWORD_LENGTH = 12;
+
 export async function hashPassword(password: string): Promise<string> {
-  if (!password || password.length < 12) {
-    throw new Error('Admin password must be at least 12 characters.');
+  if (!password || password.length < MIN_PASSWORD_LENGTH) {
+    throw new Error(`Admin password must be at least ${MIN_PASSWORD_LENGTH} characters.`);
   }
   const salt = randomBytes(16);
   const derived = await scrypt(password.normalize('NFKC'), salt, KEY_LENGTH, { ...PARAMS, maxmem: MAXMEM });

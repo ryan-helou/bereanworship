@@ -23,8 +23,17 @@ describe('hashPassword', () => {
     expect(a).not.toBe(b);
   });
 
-  it('refuses a short password', async () => {
-    await expect(hashPassword('short')).rejects.toThrow(/at least 12/);
+  it('refuses a password below the hard floor', async () => {
+    await expect(hashPassword('short')).rejects.toThrow(/at least 8/);
+    await expect(hashPassword('')).rejects.toThrow(/at least 8/);
+  });
+
+  it('accepts a short-but-permitted password', async () => {
+    // 8 characters is weak and the generator warns, but it is not refused —
+    // the operator's call, not the library's.
+    const hash = await hashPassword('aebc3200');
+    expect(await verifyPassword('aebc3200', hash)).toBe(true);
+    expect(await verifyPassword('aebc3201', hash)).toBe(false);
   });
 
   /**

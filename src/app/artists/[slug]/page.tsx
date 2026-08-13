@@ -5,7 +5,7 @@ import { prisma } from '@/lib/db';
 import { env, SITE_NAME } from '@/lib/env';
 import { formatDate, hostname, humanize } from '@/lib/utils';
 import { ARTIST_WEIGHTS } from '@/lib/scoring';
-import { RecommendationCallout, ScoreBar, ScoreDial } from '@/components/score';
+import { RecommendationCallout, ScoreBar, ScoreBlock } from '@/components/score';
 import { ArtistFindingItem, FindingGroup } from '@/components/findings';
 import { SongRow } from '@/components/cards';
 import { Badge, DataRow, Panel, SampleDataNotice, isSample } from '@/components/ui';
@@ -79,78 +79,78 @@ export default async function ArtistPage({ params }: { params: Params }) {
   const concerns = artist.findings.filter((f) => f.type === 'CONCERN');
 
   return (
-    <article className="container-page py-10 sm:py-14">
-      <nav aria-label="Breadcrumb" className="mb-8 text-sm">
-        <ol className="flex flex-wrap items-center gap-2 text-ink-400">
-          <li>
-            <Link href="/artists" className="transition-colors hover:text-ink-700">
-              Artists
-            </Link>
-          </li>
-          <li aria-hidden="true">/</li>
-          <li className="text-ink-600">{artist.displayName}</li>
-        </ol>
-      </nav>
+    <article>
+      <header className="band-dark border-b-4 border-volt-500">
+        <div className="container-page py-12 lg:py-16">
+          <nav aria-label="Breadcrumb" className="mb-10 text-xs font-bold uppercase tracking-[0.14em]">
+            <ol className="flex flex-wrap items-center gap-3 text-indigo-400">
+              <li>
+                <Link href="/artists" className="transition-colors hover:text-volt-400">
+                  Artists
+                </Link>
+              </li>
+              <li aria-hidden="true">/</li>
+              <li className="text-indigo-200">{artist.displayName}</li>
+            </ol>
+          </nav>
 
-      {isSample(artist.reviewVersion) && (
-        <div className="mb-8">
-          <SampleDataNotice reviewVersion={artist.reviewVersion} />
-        </div>
-      )}
-
-      <header className="grid grid-cols-1 gap-10 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-start lg:gap-16">
+          <div className="grid grid-cols-1 gap-12 lg:grid-cols-[minmax(0,1fr)_20rem] lg:gap-16">
         <div className="min-w-0">
-          <h1 className="text-3xl font-semibold leading-tight tracking-tight sm:text-[2.5rem]">
-            {artist.displayName}
-          </h1>
-          <div className="mt-3 flex flex-wrap items-center gap-2">
+          <h1 className="text-display-sm text-bone-100">{artist.displayName}</h1>
+          <div className="mt-5 flex flex-wrap items-center gap-2">
             <Badge tone="muted">{humanize(artist.type)}</Badge>
             {artist.country && <Badge tone="muted">{artist.country}</Badge>}
             {artist.foundedYear && <Badge tone="muted">Since {artist.foundedYear}</Badge>}
-            <Badge tone="neutral">
+            <Badge tone="brand">
               {songs.total} reviewed {songs.total === 1 ? 'song' : 'songs'}
             </Badge>
           </div>
 
-          {artist.bio && <p className="mt-5 max-w-2xl text-[0.9375rem] leading-relaxed text-ink-600">{artist.bio}</p>}
+          {artist.bio && (
+            <p className="mt-6 max-w-2xl font-serif text-lg leading-relaxed text-indigo-200">{artist.bio}</p>
+          )}
 
           {researched ? (
             <>
-              <div className="mt-6">
-                <RecommendationCallout recommendation={artist.recommendation} />
+              <div className="mt-8">
+                <RecommendationCallout recommendation={artist.recommendation} onDark />
               </div>
 
-              <div className="mt-8 max-w-xl space-y-5">
+              <div className="mt-12 max-w-xl space-y-8">
                 <ScoreBar
                   label="Doctrinal soundness"
                   score={artist.doctrineScore}
                   weight={`${ARTIST_WEIGHTS.DOCTRINE * 100}%`}
                   description="Stated beliefs measured against Scripture."
+                  onDark
                 />
                 <ScoreBar
                   label="Public teaching"
                   score={artist.publicTeachingScore}
                   weight={`${ARTIST_WEIGHTS.PUBLIC_TEACHING * 100}%`}
                   description="Sermons, books and published teaching."
+                  onDark
                 />
                 <ScoreBar
                   label="Affiliations"
                   score={artist.affiliationScore}
                   weight={`${ARTIST_WEIGHTS.AFFILIATIONS * 100}%`}
                   description="Churches, movements and institutions they are formally tied to."
+                  onDark
                 />
                 <ScoreBar
                   label="Ministry context"
                   score={artist.ministryContextScore}
                   weight={`${ARTIST_WEIGHTS.MINISTRY_CONTEXT * 100}%`}
                   description="The environment the music is produced within."
+                  onDark
                 />
               </div>
             </>
           ) : (
-            <div className="mt-6 rounded-xl border border-dashed border-line-strong bg-surface-50 px-5 py-6">
-              <h2 className="text-base font-semibold text-ink-800">Artist research not yet published</h2>
-              <p className="mt-2 text-sm leading-relaxed text-ink-500">
+            <div className="mt-8 border-2 border-dashed border-indigo-600 px-6 py-7">
+              <h2 className="text-xl font-bold text-bone-100">Artist research not yet published</h2>
+              <p className="mt-3 text-[0.9375rem] leading-relaxed text-indigo-300">
                 This artist’s songs have been reviewed, but their own theological assessment has not been completed.
                 Song scores do not depend on it — the songs below are scored entirely on their own content.
               </p>
@@ -159,40 +159,53 @@ export default async function ArtistPage({ params }: { params: Params }) {
         </div>
 
         {researched && (
-          <div className="lg:sticky lg:top-24">
-            <div className="rounded-2xl border border-line bg-surface-50 px-8 py-8">
-              <ScoreDial
-                score={artist.overallScore}
-                label="Artist validity"
-                caption="Scored independently. Never affects any song's score."
-              />
-            </div>
+          <div className="lg:sticky lg:top-28 lg:self-start">
+            <ScoreBlock
+              score={artist.overallScore}
+              label="Artist validity"
+              caption="Scored independently. Never affects any song’s score."
+            />
           </div>
         )}
+          </div>
+        </div>
       </header>
 
+      {isSample(artist.reviewVersion) && (
+        <div className="band-bone border-b border-line">
+          <div className="container-page py-6">
+            <SampleDataNotice reviewVersion={artist.reviewVersion} />
+          </div>
+        </div>
+      )}
+
       {artist.summary && researched && (
-        <section className="mt-14 border-t border-line pt-10">
-          <h2 className="eyebrow">Why this score?</h2>
-          <p className="prose-review mt-4 max-w-3xl text-lg">{artist.summary}</p>
+        <section className="band-bone-light border-b-2 border-ink-900">
+          <div className="container-page py-16">
+            <h2 className="eyebrow">Why this score?</h2>
+            <p className="prose-review mt-6 max-w-4xl text-2xl leading-snug">{artist.summary}</p>
+          </div>
         </section>
       )}
 
       {artist.evidenceCaveat && (
-        <section className="mt-8">
-          <div className="rounded-xl border border-amber-200 bg-amber-50 p-5">
-            <h2 className="text-sm font-semibold text-amber-900">Evidence is mixed</h2>
-            <p className="mt-2 text-sm leading-relaxed text-amber-900">{artist.evidenceCaveat}</p>
-            <p className="mt-3 text-xs leading-relaxed text-amber-800">
+        <section className="band-bone border-b-2 border-ink-900">
+          <div className="container-page py-10">
+            <div className="border-l-8 border-ochre-600 bg-ochre-50 p-6">
+              <h2 className="text-2xl font-bold text-ochre-800">Evidence is mixed</h2>
+              <p className="mt-3 font-serif text-[1.0625rem] leading-relaxed text-ochre-800">{artist.evidenceCaveat}</p>
+              <p className="mt-4 text-xs leading-relaxed text-ochre-700">
               Where credible sources genuinely disagree, BereanWorship records the disagreement rather than picking a
-              side, and does not treat the contested claim as established fact.
-            </p>
+                side, and does not treat the contested claim as established fact.
+              </p>
+            </div>
           </div>
         </section>
       )}
 
       {researched && (
-        <div className="mt-14 grid grid-cols-1 gap-12 border-t border-line pt-10 lg:grid-cols-2 lg:gap-10">
+        <div className="band-bone border-b-2 border-ink-900">
+          <div className="container-page grid grid-cols-1 gap-16 py-16 lg:grid-cols-2 lg:gap-12">
           <FindingGroup
             title="Strengths"
             description="Documented doctrinal strengths, with the evidence grade for each."
@@ -214,22 +227,24 @@ export default async function ArtistPage({ params }: { params: Params }) {
               <ArtistFindingItem key={finding.id} finding={finding} source={finding.source} />
             ))}
           </FindingGroup>
+          </div>
         </div>
       )}
 
       {/* --- Songs ------------------------------------------------------- */}
-      <section className="mt-16 border-t border-line pt-10">
+      <section className="band-bone-light border-b-2 border-ink-900">
+        <div className="container-page py-16">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
-            <h2 className="text-xl font-semibold tracking-tight">Songs by {artist.displayName}</h2>
-            <p className="mt-1.5 text-sm text-ink-500">
+            <h2 className="text-display-sm">Songs by {artist.displayName}</h2>
+            <p className="mt-4 text-[0.9375rem] text-ink-600">
               Each scored on its own content. This artist’s rating plays no part in these numbers.
             </p>
           </div>
           {songs.total > 0 && (
             <Link
               href={`/songs?q=${encodeURIComponent(artist.displayName)}`}
-              className="text-sm font-medium text-brand-700 underline-offset-4 hover:underline"
+              className="text-sm font-bold uppercase tracking-[0.08em] text-volt-600 underline underline-offset-4"
             >
               Search all →
             </Link>
@@ -237,39 +252,41 @@ export default async function ArtistPage({ params }: { params: Params }) {
         </div>
 
         {songs.items.length === 0 ? (
-          <p className="mt-6 rounded-xl border border-dashed border-line-strong bg-surface-50 px-5 py-8 text-center text-sm text-ink-500">
+          <p className="mt-8 border-2 border-dashed border-line-strong bg-bone-50 px-5 py-10 text-center text-sm font-semibold text-ink-500">
             No songs by this artist have been reviewed yet.
           </p>
         ) : (
-          <div className="mt-4">
+          <div className="mt-8 border-2 border-ink-900 bg-bone-50 px-5">
             {songs.items.map((song) => (
               <SongRow key={song.id} song={song} />
             ))}
           </div>
         )}
+        </div>
       </section>
 
       {/* --- Sources ----------------------------------------------------- */}
       {artist.sources.length > 0 && (
-        <section className="mt-16 border-t border-line pt-10">
-          <h2 className="text-xl font-semibold tracking-tight">Sources</h2>
-          <p className="mt-1.5 text-sm text-ink-500">
+        <section className="band-bone border-b-2 border-ink-900">
+          <div className="container-page py-16">
+          <h2 className="text-display-sm">Sources</h2>
+          <p className="mt-4 max-w-2xl text-[0.9375rem] text-ink-600">
             Every source consulted, with its credibility tier. Tier 4 material cannot on its own establish a serious
             claim.
           </p>
 
-          <ul className="mt-6 space-y-3">
+          <ul className="mt-8 border-2 border-ink-900">
             {artist.sources.map(({ source, relevance }) => (
-              <li key={source.id}>
+              <li key={source.id} className="border-b border-line last:border-0">
                 <a
                   href={source.url}
                   target="_blank"
                   rel="noopener noreferrer nofollow"
-                  className="card-hover flex items-start justify-between gap-4 rounded-lg border border-line bg-surface-0 p-4"
+                  className="flex items-start justify-between gap-4 bg-bone-50 p-5 transition-colors hover:bg-bone-200"
                 >
                   <div className="min-w-0">
-                    <div className="text-sm font-medium text-ink-800">{source.title}</div>
-                    <div className="mt-1 flex flex-wrap items-center gap-x-2.5 gap-y-1 text-xs text-ink-400">
+                    <div className="font-bold text-ink-900">{source.title}</div>
+                    <div className="mt-1.5 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs font-semibold uppercase tracking-wider text-ink-400">
                       <span>{source.publisher ?? hostname(source.url)}</span>
                       <span aria-hidden="true">·</span>
                       <span>{humanize(source.sourceType)}</span>
@@ -284,19 +301,21 @@ export default async function ArtistPage({ params }: { params: Params }) {
                       <p className="mt-2 text-xs leading-relaxed text-ink-500">{relevance ?? source.summary}</p>
                     )}
                   </div>
-                  <Badge tone={source.credibilityTier === 'TIER_4' ? 'warn' : 'muted'}>
+                  <Badge tone={source.credibilityTier === 'TIER_4' ? 'warn' : 'dark'}>
                     {source.credibilityTier.replace('_', ' ')}
                   </Badge>
                 </a>
               </li>
             ))}
           </ul>
+          </div>
         </section>
       )}
 
       {/* --- Metadata ---------------------------------------------------- */}
       {researched && (
-        <section className="mt-16 grid grid-cols-1 gap-6 border-t border-line pt-10 md:grid-cols-2">
+        <section className="band-bone-light">
+          <div className="container-page grid grid-cols-1 gap-8 py-16 md:grid-cols-2">
           <Panel>
             <h2 className="text-base font-semibold">Research details</h2>
             <dl className="mt-4">
@@ -351,6 +370,7 @@ export default async function ArtistPage({ params }: { params: Params }) {
               </div>
             )}
           </Panel>
+          </div>
         </section>
       )}
     </article>

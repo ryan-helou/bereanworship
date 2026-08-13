@@ -9,9 +9,13 @@ import { SearchBar } from './search-bar';
 /**
  * Header and footer.
  *
+ * Both are full-bleed indigo, so the page opens and closes on the darkest
+ * colour in the system and the bone reading area sits between them like a
+ * printed page between covers.
+ *
  * The admin area is intentionally absent from the navigation. It is protected
  * by server-side authorization, not by being hard to find, but there is also
- * no reason to advertise it to readers.
+ * no reason to advertise it.
  */
 
 const NAV = [
@@ -38,11 +42,14 @@ export function SiteHeader() {
   }, [mobileOpen]);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-line bg-surface-0/85 backdrop-blur-xl">
+    <header className="band-dark sticky top-0 z-40 border-b-2 border-volt-500">
       <div className="container-page">
-        <div className="flex h-16 items-center gap-6">
-          <Link href="/" className="shrink-0 text-[1.0625rem] font-semibold tracking-tight text-ink-900">
-            Berean<span className="text-brand-700">Worship</span>
+        <div className="flex h-[4.5rem] items-center gap-8">
+          <Link
+            href="/"
+            className="shrink-0 text-lg font-extrabold uppercase tracking-[-0.02em] text-bone-100"
+          >
+            Berean<span className="text-volt-400">Worship</span>
           </Link>
 
           <nav aria-label="Primary" className="hidden md:flex md:items-center md:gap-1">
@@ -54,8 +61,8 @@ export function SiteHeader() {
                   href={item.href}
                   aria-current={active ? 'page' : undefined}
                   className={cn(
-                    'rounded-lg px-3 py-2 text-sm transition-colors',
-                    active ? 'font-medium text-ink-900' : 'text-ink-500 hover:text-ink-900',
+                    'px-3.5 py-2 text-[0.8125rem] font-bold uppercase tracking-[0.08em] transition-colors',
+                    active ? 'bg-volt-500 text-white' : 'text-indigo-200 hover:text-bone-100',
                   )}
                 >
                   {item.label}
@@ -68,7 +75,7 @@ export function SiteHeader() {
             {/* The homepage has its own hero search; a second one would be noise. */}
             {!isHome && (
               <div className="hidden w-64 lg:block xl:w-80">
-                <SearchBar />
+                <SearchBar onDark />
               </div>
             )}
 
@@ -78,14 +85,10 @@ export function SiteHeader() {
               aria-expanded={mobileOpen}
               aria-controls="mobile-nav"
               aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
-              className="-mr-2 inline-flex size-10 items-center justify-center rounded-lg text-ink-600 hover:bg-surface-100 md:hidden"
+              className="-mr-2 inline-flex size-11 items-center justify-center text-bone-100 hover:bg-indigo-800 md:hidden"
             >
-              <svg viewBox="0 0 24 24" className="size-5" fill="none" stroke="currentColor" strokeWidth="1.75">
-                {mobileOpen ? (
-                  <path d="M6 6l12 12M18 6L6 18" strokeLinecap="round" />
-                ) : (
-                  <path d="M4 7h16M4 12h16M4 17h16" strokeLinecap="round" />
-                )}
+              <svg viewBox="0 0 24 24" className="size-6" fill="none" stroke="currentColor" strokeWidth="2.25">
+                {mobileOpen ? <path d="M6 6l12 12M18 6L6 18" /> : <path d="M4 7h16M4 12h16M4 17h16" />}
               </svg>
             </button>
           </div>
@@ -93,9 +96,9 @@ export function SiteHeader() {
       </div>
 
       {mobileOpen && (
-        <div id="mobile-nav" className="border-t border-line bg-surface-0 md:hidden">
-          <div className="container-page py-4">
-            <SearchBar className="mb-4" />
+        <div id="mobile-nav" className="border-t-2 border-indigo-700 bg-indigo-950 md:hidden">
+          <div className="container-page py-5">
+            <SearchBar className="mb-5" onDark />
             <nav aria-label="Mobile" className="flex flex-col">
               {NAV.map((item) => {
                 const active = pathname === item.href || pathname.startsWith(`${item.href}/`);
@@ -105,8 +108,8 @@ export function SiteHeader() {
                     href={item.href}
                     aria-current={active ? 'page' : undefined}
                     className={cn(
-                      'rounded-lg px-3 py-3 text-[0.9375rem] transition-colors',
-                      active ? 'bg-surface-100 font-medium text-ink-900' : 'text-ink-600',
+                      'border-b border-indigo-800 px-1 py-4 text-base font-bold uppercase tracking-wider transition-colors',
+                      active ? 'text-volt-400' : 'text-indigo-200',
                     )}
                   >
                     {item.label}
@@ -123,30 +126,32 @@ export function SiteHeader() {
 
 export function SiteFooter() {
   return (
-    <footer className="mt-24 border-t border-line bg-surface-50">
-      <div className="container-page py-14">
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-[minmax(0,1.6fr)_repeat(2,minmax(0,1fr))]">
+    <footer className="band-darker border-t-4 border-volt-500">
+      <div className="container-page py-16">
+        <div className="grid grid-cols-1 gap-12 md:grid-cols-[minmax(0,1.6fr)_repeat(2,minmax(0,1fr))]">
           <div className="max-w-sm">
-            <div className="text-[1.0625rem] font-semibold tracking-tight text-ink-900">
-              Berean<span className="text-brand-700">Worship</span>
+            <div className="text-xl font-extrabold uppercase tracking-tight text-bone-100">
+              Berean<span className="text-volt-400">Worship</span>
             </div>
-            <p className="mt-3 text-sm leading-relaxed text-ink-500">
+            <p className="mt-4 text-[0.9375rem] leading-relaxed text-indigo-200">
               Worship songs examined against Scripture — for biblical soundness, congregational suitability, and
               clarity, with the evidence and reasoning behind every score.
             </p>
-            <p className="mt-5 border-l-2 border-brand-200 pl-4 font-serif text-sm italic leading-relaxed text-ink-500">
+            <blockquote className="mt-7 border-l-4 border-volt-500 pl-5 font-serif text-[0.9375rem] italic leading-relaxed text-indigo-200">
               “…they received the word with all eagerness, examining the Scriptures daily to see if these things were
               so.”
-              <span className="mt-1 block not-italic text-xs text-ink-400">Acts 17:11</span>
-            </p>
+              <span className="mt-2 block not-italic text-xs font-bold uppercase tracking-[0.14em] text-volt-400">
+                Acts 17:11
+              </span>
+            </blockquote>
           </div>
 
           <div>
-            <div className="eyebrow mb-4">Browse</div>
-            <ul className="space-y-2.5 text-sm">
+            <div className="eyebrow mb-5">Browse</div>
+            <ul className="space-y-3 text-sm">
               {NAV.map((item) => (
                 <li key={item.href}>
-                  <Link href={item.href} className="text-ink-500 transition-colors hover:text-ink-900">
+                  <Link href={item.href} className="font-semibold text-indigo-200 transition-colors hover:text-volt-400">
                     {item.label}
                   </Link>
                 </li>
@@ -155,20 +160,26 @@ export function SiteFooter() {
           </div>
 
           <div>
-            <div className="eyebrow mb-4">About</div>
-            <ul className="space-y-2.5 text-sm">
+            <div className="eyebrow mb-5">About</div>
+            <ul className="space-y-3 text-sm">
               <li>
-                <Link href="/methodology" className="text-ink-500 transition-colors hover:text-ink-900">
+                <Link href="/methodology" className="font-semibold text-indigo-200 transition-colors hover:text-volt-400">
                   How songs are scored
                 </Link>
               </li>
               <li>
-                <Link href="/methodology#artist" className="text-ink-500 transition-colors hover:text-ink-900">
+                <Link
+                  href="/methodology#artist"
+                  className="font-semibold text-indigo-200 transition-colors hover:text-volt-400"
+                >
                   How artists are researched
                 </Link>
               </li>
               <li>
-                <Link href="/methodology#limitations" className="text-ink-500 transition-colors hover:text-ink-900">
+                <Link
+                  href="/methodology#limitations"
+                  className="font-semibold text-indigo-200 transition-colors hover:text-volt-400"
+                >
                   Limitations
                 </Link>
               </li>
@@ -176,8 +187,8 @@ export function SiteFooter() {
           </div>
         </div>
 
-        <div className="mt-12 border-t border-line pt-6">
-          <p className="text-xs leading-relaxed text-ink-400">
+        <div className="mt-14 border-t border-indigo-800 pt-7">
+          <p className="max-w-4xl text-xs leading-relaxed text-indigo-300">
             Scripture is the ultimate authority. BereanWorship’s ratings are analytical judgements intended to assist
             Christians and churches, and they are not infallible. Readers should exercise biblical discernment
             themselves. Scripture quotations are from the ESV.

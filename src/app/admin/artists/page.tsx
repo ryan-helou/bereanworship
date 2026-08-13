@@ -77,11 +77,11 @@ export default async function AdminArtistsPage({ searchParams }: { searchParams:
           name="q"
           defaultValue={q}
           placeholder="Search artists…"
-          className="h-9 w-64 rounded-lg border border-line bg-surface-0 px-3 text-sm text-ink-900 focus:border-brand-400 focus:outline-none focus:ring-4 focus:ring-brand-100"
+          className="h-9 w-64 rounded-lg border border-line bg-bone-50 px-3 text-sm text-ink-900 focus:border-volt-400 focus:outline-none focus:ring-4 focus:ring-volt-100"
         />
         <button
           type="submit"
-          className="h-9 rounded-lg bg-ink-900 px-3.5 text-sm font-medium text-white transition-colors hover:bg-ink-800"
+          className="h-9 rounded-lg bg-indigo-900 px-3.5 text-sm font-medium text-white transition-colors hover:bg-indigo-800"
         >
           Search
         </button>
@@ -89,8 +89,8 @@ export default async function AdminArtistsPage({ searchParams }: { searchParams:
           href={staleOnly ? '/admin/artists' : '/admin/artists?stale=true'}
           className={`inline-flex h-9 items-center rounded-lg px-3 text-sm transition-colors ${
             staleOnly
-              ? 'bg-amber-100 font-medium text-amber-900'
-              : 'bg-surface-0 text-ink-600 ring-1 ring-inset ring-line hover:bg-surface-100'
+              ? 'bg-ochre-100 font-medium text-ochre-900'
+              : 'bg-bone-50 text-ink-600 ring-1 ring-inset ring-line hover:bg-bone-200'
           }`}
         >
           Stale or unresearched ({staleCount})
@@ -98,13 +98,13 @@ export default async function AdminArtistsPage({ searchParams }: { searchParams:
       </form>
 
       {artists.length === 0 ? (
-        <p className="rounded-xl border border-dashed border-line-strong bg-surface-0 px-5 py-12 text-center text-sm text-ink-500">
+        <p className="rounded-xl border border-dashed border-line-strong bg-bone-50 px-5 py-12 text-center text-sm text-ink-500">
           No artists match this filter.
         </p>
       ) : (
-        <div className="overflow-x-auto rounded-xl border border-line bg-surface-0">
+        <div className="overflow-x-auto rounded-xl border border-line bg-bone-50">
           <table className="w-full min-w-[52rem] text-sm">
-            <thead className="border-b border-line bg-surface-50">
+            <thead className="border-b border-line bg-bone-50">
               <tr>
                 <th scope="col" className="px-4 py-2.5 text-left font-medium text-ink-500">
                   Artist
@@ -136,17 +136,17 @@ export default async function AdminArtistsPage({ searchParams }: { searchParams:
                 return (
                   <tr key={artist.id} className="align-top">
                     <td className="px-4 py-3">
-                      <Link href={`/artists/${artist.slug}`} className="font-medium text-brand-700 hover:underline">
+                      <Link href={`/artists/${artist.slug}`} className="font-medium text-volt-700 hover:underline">
                         {artist.displayName}
                       </Link>
                       <div className="text-xs text-ink-400">{artist.type.toLowerCase()}</div>
                       {artist.reviewError && (
-                        <div className="mt-1 max-w-md rounded bg-red-50 px-2 py-1 text-xs leading-relaxed text-red-800">
+                        <div className="mt-1 max-w-md rounded bg-flare-50 px-2 py-1 text-xs leading-relaxed text-flare-800">
                           {artist.reviewError.slice(0, 200)}
                         </div>
                       )}
                       {artist.evidenceCaveat && (
-                        <div className="mt-1 max-w-md rounded bg-amber-50 px-2 py-1 text-xs leading-relaxed text-amber-900">
+                        <div className="mt-1 max-w-md rounded bg-ochre-50 px-2 py-1 text-xs leading-relaxed text-ochre-900">
                           Contested evidence recorded
                         </div>
                       )}
@@ -172,7 +172,7 @@ export default async function AdminArtistsPage({ searchParams }: { searchParams:
                     <td className="px-4 py-3 text-ink-500">
                       <div>{formatDate(artist.lastReviewedAt)}</div>
                       {artist.lastReviewedAt && (
-                        <div className={`text-xs ${stale ? 'text-amber-700' : 'text-ink-400'}`}>
+                        <div className={`text-xs ${stale ? 'text-ochre-700' : 'text-ink-400'}`}>
                           {stale ? 'Stale' : relativeTime(artist.lastReviewedAt)}
                         </div>
                       )}
@@ -183,7 +183,7 @@ export default async function AdminArtistsPage({ searchParams }: { searchParams:
                           <input type="hidden" name="artistId" value={artist.id} />
                           <button
                             type="submit"
-                            className="rounded-lg bg-surface-100 px-2.5 py-1.5 text-xs font-medium text-ink-700 ring-1 ring-inset ring-line transition-colors hover:bg-surface-200"
+                            className="rounded-lg bg-bone-200 px-2.5 py-1.5 text-xs font-medium text-ink-700 ring-1 ring-inset ring-line transition-colors hover:bg-bone-300"
                           >
                             {artist.reviewStatus === 'COMPLETED' ? 'Refresh research' : 'Research'}
                           </button>
@@ -207,7 +207,7 @@ export default async function AdminArtistsPage({ searchParams }: { searchParams:
             {page > 1 && (
               <Link
                 href={`/admin/artists?${new URLSearchParams({ ...(q ? { q } : {}), page: String(page - 1) })}`}
-                className="inline-flex h-9 items-center rounded-lg bg-surface-0 px-3 text-sm text-ink-700 ring-1 ring-inset ring-line hover:bg-surface-100"
+                className="inline-flex h-9 items-center rounded-lg bg-bone-50 px-3 text-sm text-ink-700 ring-1 ring-inset ring-line hover:bg-bone-200"
               >
                 Previous
               </Link>
@@ -215,7 +215,7 @@ export default async function AdminArtistsPage({ searchParams }: { searchParams:
             {page < totalPages && (
               <Link
                 href={`/admin/artists?${new URLSearchParams({ ...(q ? { q } : {}), page: String(page + 1) })}`}
-                className="inline-flex h-9 items-center rounded-lg bg-surface-0 px-3 text-sm text-ink-700 ring-1 ring-inset ring-line hover:bg-surface-100"
+                className="inline-flex h-9 items-center rounded-lg bg-bone-50 px-3 text-sm text-ink-700 ring-1 ring-inset ring-line hover:bg-bone-200"
               >
                 Next
               </Link>

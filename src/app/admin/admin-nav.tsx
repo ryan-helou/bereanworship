@@ -9,6 +9,7 @@ const LINKS = [
   { href: '/admin', label: 'Dashboard', exact: true },
   { href: '/admin/requests', label: 'Requests' },
   { href: '/admin/import', label: 'Bulk import' },
+  { href: '/admin/review', label: 'Publish review' },
   { href: '/admin/jobs', label: 'Queue' },
   { href: '/admin/songs', label: 'Songs' },
   { href: '/admin/artists', label: 'Artists' },
@@ -19,12 +20,12 @@ export function AdminNav({ email }: { email: string }) {
   const pathname = usePathname();
 
   return (
-    <div className="border-b border-line bg-surface-0">
+    <div className="border-b border-line bg-bone-50">
       <div className="container-page">
         <div className="flex h-14 items-center gap-4">
           <Link href="/admin" className="shrink-0 text-sm font-semibold tracking-tight text-ink-900">
-            Berean<span className="text-brand-700">Worship</span>
-            <span className="ml-2 rounded bg-ink-900 px-1.5 py-0.5 text-[0.625rem] font-medium uppercase tracking-wider text-white">
+            Berean<span className="text-volt-700">Worship</span>
+            <span className="ml-2 rounded bg-indigo-900 px-1.5 py-0.5 text-[0.625rem] font-medium uppercase tracking-wider text-white">
               Admin
             </span>
           </Link>
@@ -39,7 +40,7 @@ export function AdminNav({ email }: { email: string }) {
                   aria-current={active ? 'page' : undefined}
                   className={cn(
                     'shrink-0 rounded-lg px-3 py-1.5 text-sm transition-colors',
-                    active ? 'bg-surface-100 font-medium text-ink-900' : 'text-ink-500 hover:text-ink-900',
+                    active ? 'bg-bone-200 font-medium text-ink-900' : 'text-ink-500 hover:text-ink-900',
                   )}
                 >
                   {link.label}
@@ -56,7 +57,7 @@ export function AdminNav({ email }: { email: string }) {
             <form action={logout}>
               <button
                 type="submit"
-                className="rounded-lg px-2.5 py-1.5 text-sm text-ink-500 transition-colors hover:bg-surface-100 hover:text-ink-900"
+                className="rounded-lg px-2.5 py-1.5 text-sm text-ink-500 transition-colors hover:bg-bone-200 hover:text-ink-900"
               >
                 Sign out
               </button>

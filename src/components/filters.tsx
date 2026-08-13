@@ -130,7 +130,7 @@ export function FilterBar({
               router.push(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
             });
           }}
-          className="inline-flex h-9 items-center gap-1.5 rounded-lg px-3 text-sm text-ink-500 transition-colors hover:bg-surface-100 hover:text-ink-900"
+          className="inline-flex h-9 items-center gap-1.5 rounded-lg px-3 text-sm text-ink-500 transition-colors hover:bg-bone-200 hover:text-ink-900"
         >
           <svg viewBox="0 0 16 16" className="size-3.5" fill="none" stroke="currentColor" strokeWidth="1.75">
             <path d="M4 4l8 8M12 4l-8 8" strokeLinecap="round" />
@@ -168,10 +168,10 @@ function Select({
         onChange={(event) => onChange(event.target.value)}
         className={cn(
           'h-9 cursor-pointer appearance-none rounded-lg border py-0 pl-3 pr-8 text-sm transition-colors',
-          'focus:border-brand-400 focus:outline-none focus:ring-4 focus:ring-brand-100',
+          'focus:border-volt-400 focus:outline-none focus:ring-4 focus:ring-volt-100',
           active
-            ? 'border-brand-200 bg-brand-50 font-medium text-brand-800'
-            : 'border-line bg-surface-0 text-ink-600 hover:border-line-strong',
+            ? 'border-volt-200 bg-volt-50 font-medium text-volt-800'
+            : 'border-line bg-bone-50 text-ink-600 hover:border-line-strong',
         )}
       >
         <option value="">{placeholder}</option>
@@ -186,7 +186,7 @@ function Select({
         viewBox="0 0 16 16"
         className={cn(
           'pointer-events-none absolute right-2.5 top-1/2 size-3.5 -translate-y-1/2',
-          active ? 'text-brand-600' : 'text-ink-400',
+          active ? 'text-volt-600' : 'text-ink-400',
         )}
         fill="none"
         stroke="currentColor"

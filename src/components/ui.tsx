@@ -2,7 +2,7 @@ import Link from 'next/link';
 import type { ReactNode } from 'react';
 import { cn } from '@/lib/utils';
 
-/** Small shared primitives. Deliberately few — the design lives in the tokens. */
+/** Shared primitives. Hard edges, heavy borders, colour that means something. */
 
 export function Badge({
   children,
@@ -10,21 +10,22 @@ export function Badge({
   className,
 }: {
   children: ReactNode;
-  tone?: 'neutral' | 'brand' | 'warn' | 'danger' | 'muted';
+  tone?: 'neutral' | 'brand' | 'warn' | 'danger' | 'muted' | 'dark';
   className?: string;
 }) {
   const tones = {
-    neutral: 'bg-surface-100 text-ink-600 ring-line',
-    brand: 'bg-brand-50 text-brand-800 ring-brand-200',
-    warn: 'bg-amber-50 text-amber-800 ring-amber-200',
-    danger: 'bg-red-50 text-red-800 ring-red-200',
-    muted: 'bg-transparent text-ink-400 ring-line',
+    neutral: 'bg-bone-200 text-ink-700',
+    brand: 'bg-volt-500 text-white',
+    warn: 'bg-ochre-600 text-white',
+    danger: 'bg-flare-600 text-white',
+    muted: 'bg-transparent text-ink-500 ring-1 ring-inset ring-line-strong',
+    dark: 'bg-indigo-900 text-bone-100',
   };
 
   return (
     <span
       className={cn(
-        'inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium ring-1 ring-inset',
+        'inline-flex items-center px-2.5 py-1 text-[0.6875rem] font-bold uppercase tracking-[0.08em]',
         tones[tone],
         className,
       )}
@@ -40,19 +41,25 @@ export function SectionHeading({
   description,
   action,
   className,
+  onDark = false,
 }: {
   eyebrow?: string;
   title: string;
   description?: string;
   action?: ReactNode;
   className?: string;
+  onDark?: boolean;
 }) {
   return (
-    <div className={cn('flex flex-wrap items-end justify-between gap-4', className)}>
+    <div className={cn('flex flex-wrap items-end justify-between gap-6', className)}>
       <div className="max-w-2xl">
-        {eyebrow && <div className="eyebrow mb-2">{eyebrow}</div>}
-        <h2 className="text-2xl font-semibold tracking-tight sm:text-[1.75rem]">{title}</h2>
-        {description && <p className="mt-2 text-[0.9375rem] leading-relaxed text-ink-500">{description}</p>}
+        {eyebrow && <div className="eyebrow mb-3">{eyebrow}</div>}
+        <h2 className="text-display-sm">{title}</h2>
+        {description && (
+          <p className={cn('mt-4 text-[1.0625rem] leading-relaxed', onDark ? 'text-indigo-200' : 'text-ink-600')}>
+            {description}
+          </p>
+        )}
       </div>
       {action}
     </div>
@@ -63,38 +70,37 @@ export function EmptyState({
   title,
   description,
   action,
-  icon,
 }: {
   title: string;
   description?: string;
   action?: ReactNode;
-  icon?: ReactNode;
 }) {
   return (
-    <div className="flex flex-col items-center rounded-xl border border-dashed border-line-strong bg-surface-50 px-6 py-16 text-center">
-      {icon && <div className="mb-4 text-ink-300">{icon}</div>}
-      <h3 className="text-base font-semibold text-ink-800">{title}</h3>
-      {description && <p className="mt-2 max-w-md text-sm leading-relaxed text-ink-500">{description}</p>}
-      {action && <div className="mt-6">{action}</div>}
+    <div className="border-2 border-dashed border-line-strong bg-bone-50 px-6 py-16 text-center">
+      <h3 className="text-2xl font-bold text-ink-900">{title}</h3>
+      {description && <p className="mx-auto mt-3 max-w-md text-[0.9375rem] leading-relaxed text-ink-600">{description}</p>}
+      {action && <div className="mt-8">{action}</div>}
     </div>
   );
 }
 
 const BUTTON_BASE =
-  'inline-flex items-center justify-center gap-2 rounded-lg text-sm font-medium transition-colors duration-150 disabled:pointer-events-none disabled:opacity-50';
+  'inline-flex items-center justify-center gap-2 font-bold uppercase tracking-[0.06em] transition-colors duration-150 disabled:pointer-events-none disabled:opacity-50';
 
 const BUTTON_VARIANTS = {
-  primary: 'bg-ink-900 text-white hover:bg-ink-800',
-  brand: 'bg-brand-700 text-white hover:bg-brand-800',
-  secondary: 'bg-surface-100 text-ink-800 ring-1 ring-inset ring-line hover:bg-surface-200',
-  ghost: 'text-ink-600 hover:bg-surface-100 hover:text-ink-900',
-  danger: 'bg-red-600 text-white hover:bg-red-700',
+  primary: 'bg-indigo-900 text-bone-100 hover:bg-indigo-800',
+  brand: 'bg-volt-500 text-white hover:bg-volt-600',
+  secondary: 'bg-transparent text-ink-900 ring-2 ring-inset ring-ink-900 hover:bg-ink-900 hover:text-bone-100',
+  onDark: 'bg-bone-100 text-indigo-900 hover:bg-white',
+  onDarkGhost: 'bg-transparent text-bone-100 ring-2 ring-inset ring-bone-100/40 hover:bg-bone-100 hover:text-indigo-900',
+  ghost: 'text-ink-600 hover:bg-bone-200 hover:text-ink-900',
+  danger: 'bg-flare-600 text-white hover:bg-flare-700',
 } as const;
 
 const BUTTON_SIZES = {
-  sm: 'h-8 px-3',
-  md: 'h-10 px-4',
-  lg: 'h-12 px-6 text-[0.9375rem]',
+  sm: 'h-9 px-3.5 text-xs',
+  md: 'h-11 px-5 text-sm',
+  lg: 'h-14 px-8 text-[0.9375rem]',
 } as const;
 
 export function buttonClass(
@@ -126,12 +132,18 @@ export function ButtonLink({
   );
 }
 
-/** A labelled key/value row, used across detail pages and the admin. */
-export function DataRow({ label, children }: { label: string; children: ReactNode }) {
+export function DataRow({ label, children, onDark = false }: { label: string; children: ReactNode; onDark?: boolean }) {
   return (
-    <div className="flex items-baseline justify-between gap-6 border-b border-line py-2.5 last:border-0">
-      <dt className="shrink-0 text-sm text-ink-400">{label}</dt>
-      <dd className="text-right text-sm font-medium text-ink-800">{children}</dd>
+    <div
+      className={cn(
+        'flex items-baseline justify-between gap-6 border-b py-3 last:border-0',
+        onDark ? 'border-indigo-700' : 'border-line',
+      )}
+    >
+      <dt className={cn('shrink-0 text-xs font-bold uppercase tracking-wider', onDark ? 'text-indigo-300' : 'text-ink-400')}>
+        {label}
+      </dt>
+      <dd className={cn('text-right text-sm font-semibold', onDark ? 'text-bone-100' : 'text-ink-900')}>{children}</dd>
     </div>
   );
 }
@@ -140,32 +152,37 @@ export function Panel({
   children,
   className,
   padded = true,
+  tone = 'light',
 }: {
   children: ReactNode;
   className?: string;
   padded?: boolean;
+  tone?: 'light' | 'dark' | 'flat';
 }) {
-  return (
-    <div className={cn('rounded-xl border border-line bg-surface-0', padded && 'p-6', className)}>{children}</div>
-  );
+  const tones = {
+    light: 'border-2 border-ink-900 bg-bone-50',
+    flat: 'border border-line-strong bg-bone-50',
+    dark: 'border-2 border-indigo-700 bg-indigo-800 text-bone-100',
+  };
+  return <div className={cn(tones[tone], padded && 'p-6', className)}>{children}</div>;
 }
 
 /**
  * Sample-data notice.
  *
  * Seeded records carry the review version "sample-v1.0". Rather than hide
- * that, the interface says so plainly wherever such a record is displayed —
- * a research tool that quietly showed fabricated scores would be worthless.
+ * that, the interface says so wherever such a record appears — a research
+ * tool that quietly showed fabricated scores would be worthless.
  */
 export function SampleDataNotice({ reviewVersion }: { reviewVersion: string | null | undefined }) {
   if (!reviewVersion?.startsWith('sample')) return null;
 
   return (
-    <div className="rounded-lg border border-amber-200 bg-amber-50 px-4 py-3">
-      <p className="text-sm text-amber-900">
-        <span className="font-semibold">Sample data.</span> This record was seeded for development. Its scores were
-        written by hand to demonstrate the interface — they are not the output of the research pipeline and should not
-        be relied on.
+    <div className="border-l-8 border-ochre-600 bg-ochre-50 px-5 py-4">
+      <p className="text-sm leading-relaxed text-ochre-800">
+        <span className="font-bold uppercase tracking-wider">Sample data.</span> This record was seeded for
+        development. Its scores were written by hand to demonstrate the interface — they are not the output of the
+        research pipeline and should not be relied on.
       </p>
     </div>
   );

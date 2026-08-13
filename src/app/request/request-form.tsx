@@ -21,9 +21,9 @@ export function RequestForm({ defaultTitle = '', defaultArtist = '' }: { default
 
   if (state.status === 'already_reviewed') {
     return (
-      <div className="rounded-xl border border-brand-200 bg-brand-50 p-6">
-        <h2 className="text-lg font-semibold text-brand-900">{state.message}</h2>
-        <p className="mt-2 text-[0.9375rem] text-brand-900">
+      <div className="rounded-xl border border-volt-200 bg-volt-50 p-6">
+        <h2 className="text-lg font-semibold text-volt-900">{state.message}</h2>
+        <p className="mt-2 text-[0.9375rem] text-volt-900">
           <span className="font-medium">{state.song.title}</span> by {state.song.artist}
           {state.song.score !== null && (
             <>
@@ -36,13 +36,13 @@ export function RequestForm({ defaultTitle = '', defaultArtist = '' }: { default
         <div className="mt-5 flex flex-wrap gap-3">
           <Link
             href={`/songs/${state.song.slug}`}
-            className="inline-flex h-10 items-center rounded-lg bg-brand-700 px-4 text-sm font-medium text-white transition-colors hover:bg-brand-800"
+            className="inline-flex h-10 items-center rounded-lg bg-volt-700 px-4 text-sm font-medium text-white transition-colors hover:bg-volt-800"
           >
             Read the review
           </Link>
           <Link
             href="/request"
-            className="inline-flex h-10 items-center rounded-lg bg-white px-4 text-sm font-medium text-ink-700 ring-1 ring-inset ring-brand-200 transition-colors hover:bg-surface-50"
+            className="inline-flex h-10 items-center rounded-lg bg-white px-4 text-sm font-medium text-ink-700 ring-1 ring-inset ring-volt-200 transition-colors hover:bg-bone-50"
           >
             Request another song
           </Link>
@@ -55,11 +55,11 @@ export function RequestForm({ defaultTitle = '', defaultArtist = '' }: { default
     const alreadyRequested = state.status === 'already_requested';
 
     return (
-      <div className="rounded-xl border border-line bg-surface-50 p-6">
+      <div className="rounded-xl border border-line bg-bone-50 p-6">
         <div className="flex items-start gap-3">
           <svg
             viewBox="0 0 20 20"
-            className={cn('mt-0.5 size-5 shrink-0', alreadyRequested ? 'text-ink-400' : 'text-brand-600')}
+            className={cn('mt-0.5 size-5 shrink-0', alreadyRequested ? 'text-ink-400' : 'text-volt-600')}
             fill="none"
             stroke="currentColor"
             strokeWidth="1.75"
@@ -84,13 +84,13 @@ export function RequestForm({ defaultTitle = '', defaultArtist = '' }: { default
         <div className="mt-5 flex flex-wrap gap-3">
           <Link
             href="/request"
-            className="inline-flex h-10 items-center rounded-lg bg-ink-900 px-4 text-sm font-medium text-white transition-colors hover:bg-ink-800"
+            className="inline-flex h-10 items-center rounded-lg bg-indigo-900 px-4 text-sm font-medium text-white transition-colors hover:bg-indigo-800"
           >
             Request another song
           </Link>
           <Link
             href="/songs"
-            className="inline-flex h-10 items-center rounded-lg bg-surface-0 px-4 text-sm font-medium text-ink-700 ring-1 ring-inset ring-line transition-colors hover:bg-surface-100"
+            className="inline-flex h-10 items-center rounded-lg bg-bone-50 px-4 text-sm font-medium text-ink-700 ring-1 ring-inset ring-line transition-colors hover:bg-bone-200"
           >
             Browse reviewed songs
           </Link>
@@ -104,7 +104,7 @@ export function RequestForm({ defaultTitle = '', defaultArtist = '' }: { default
   return (
     <form action={formAction} className="space-y-6">
       {state.status === 'error' && !state.fieldErrors && (
-        <div role="alert" className="rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800">
+        <div role="alert" className="rounded-lg border border-flare-200 bg-flare-50 px-4 py-3 text-sm text-flare-800">
           {state.message}
         </div>
       )}
@@ -141,10 +141,10 @@ export function RequestForm({ defaultTitle = '', defaultArtist = '' }: { default
           name="notes"
           rows={4}
           maxLength={1000}
-          className="mt-2 w-full rounded-xl border border-line bg-surface-0 px-3.5 py-3 text-[0.9375rem] text-ink-900 placeholder:text-ink-300 focus:border-brand-400 focus:outline-none focus:ring-4 focus:ring-brand-100"
+          className="mt-2 w-full rounded-xl border border-line bg-bone-50 px-3.5 py-3 text-[0.9375rem] text-ink-900 placeholder:text-ink-300 focus:border-volt-400 focus:outline-none focus:ring-4 focus:ring-volt-100"
           placeholder="Optional context…"
         />
-        {fieldErrors.notes && <p className="mt-1.5 text-sm text-red-700">{fieldErrors.notes}</p>}
+        {fieldErrors.notes && <p className="mt-1.5 text-sm text-flare-700">{fieldErrors.notes}</p>}
       </div>
 
       {/* Honeypot — hidden from people, irresistible to bots. */}
@@ -170,7 +170,7 @@ function SubmitButton() {
     <button
       type="submit"
       disabled={pending}
-      className="inline-flex h-11 items-center justify-center rounded-lg bg-brand-700 px-5 text-sm font-medium text-white transition-colors hover:bg-brand-800 disabled:opacity-60"
+      className="inline-flex h-11 items-center justify-center rounded-lg bg-volt-700 px-5 text-sm font-medium text-white transition-colors hover:bg-volt-800 disabled:opacity-60"
     >
       {pending ? (
         <>
@@ -224,15 +224,15 @@ function Field({
         aria-invalid={error ? true : undefined}
         aria-describedby={error ? `${name}-error` : undefined}
         className={cn(
-          'mt-2 h-11 w-full rounded-xl border bg-surface-0 px-3.5 text-[0.9375rem] text-ink-900',
+          'mt-2 h-11 w-full rounded-xl border bg-bone-50 px-3.5 text-[0.9375rem] text-ink-900',
           'placeholder:text-ink-300 focus:outline-none focus:ring-4',
           error
-            ? 'border-red-300 focus:border-red-400 focus:ring-red-100'
-            : 'border-line focus:border-brand-400 focus:ring-brand-100',
+            ? 'border-flare-300 focus:border-flare-400 focus:ring-flare-100'
+            : 'border-line focus:border-volt-400 focus:ring-volt-100',
         )}
       />
       {error && (
-        <p id={`${name}-error`} className="mt-1.5 text-sm text-red-700">
+        <p id={`${name}-error`} className="mt-1.5 text-sm text-flare-700">
           {error}
         </p>
       )}

@@ -69,8 +69,8 @@ export function Pagination({
               className={cn(
                 'tnum inline-flex h-9 min-w-9 items-center justify-center rounded-lg px-2.5 text-sm transition-colors',
                 item === page
-                  ? 'bg-ink-900 font-medium text-white'
-                  : 'text-ink-600 hover:bg-surface-100 hover:text-ink-900',
+                  ? 'bg-indigo-900 font-medium text-white'
+                  : 'text-ink-600 hover:bg-bone-200 hover:text-ink-900',
               )}
             >
               {item}
@@ -114,7 +114,7 @@ function PageLink({
     <Link
       href={href}
       aria-label={label}
-      className="inline-flex size-9 items-center justify-center rounded-lg text-ink-600 transition-colors hover:bg-surface-100 hover:text-ink-900"
+      className="inline-flex size-9 items-center justify-center rounded-lg text-ink-600 transition-colors hover:bg-bone-200 hover:text-ink-900"
     >
       {children}
     </Link>

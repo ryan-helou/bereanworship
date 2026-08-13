@@ -72,20 +72,25 @@ export default async function AdminDashboard() {
       </header>
 
       {!env.aiConfigured && (
-        <div className="rounded-xl border border-amber-200 bg-amber-50 p-5">
-          <h2 className="text-sm font-semibold text-amber-900">The review pipeline is not configured</h2>
-          <p className="mt-2 text-sm leading-relaxed text-amber-900">
-            <code className="rounded bg-amber-100 px-1 py-0.5 font-mono text-xs">ANTHROPIC_API_KEY</code> is not set, so
-            queued jobs will fail immediately with a configuration error. Browsing and importing still work — set the
-            key and restart the worker to begin producing reviews.
+        <div className="rounded-xl border border-line bg-bone-50 p-5">
+          <h2 className="text-sm font-semibold text-ink-900">Automated reviews are turned off</h2>
+          <p className="mt-2 max-w-3xl text-sm leading-relaxed text-ink-600">
+            <code className="rounded bg-bone-200 px-1 py-0.5 font-mono text-xs">ANTHROPIC_API_KEY</code> is not set,
+            so the worker cannot run reviews and anything queued will fail. This is a valid way to operate: publish
+            reviews from{' '}
+            <Link href="/admin/review" className="font-medium text-volt-700 underline-offset-2 hover:underline">
+              Publish a review
+            </Link>{' '}
+            instead, which uses the same schemas, the same scoring engine and the same versioned storage. Set the key on
+            the worker to turn the automated pipeline back on.
           </p>
         </div>
       )}
 
       {needsAttention > 0 && (
-        <div className="rounded-xl border border-red-200 bg-red-50 p-5">
-          <h2 className="text-sm font-semibold text-red-900">{needsAttention} items need attention</h2>
-          <p className="mt-2 text-sm text-red-900">
+        <div className="rounded-xl border border-flare-200 bg-flare-50 p-5">
+          <h2 className="text-sm font-semibold text-flare-900">{needsAttention} items need attention</h2>
+          <p className="mt-2 text-sm text-flare-900">
             {stats.failed > 0 && `${stats.failed} failed jobs. `}
             {stats.needsReview > 0 && `${stats.needsReview} jobs need manual review. `}
             {flagged > 0 && `${flagged} songs flagged.`}
@@ -93,7 +98,7 @@ export default async function AdminDashboard() {
           <div className="mt-4 flex flex-wrap gap-3">
             <Link
               href="/admin/jobs?status=FAILED"
-              className="inline-flex h-8 items-center rounded-lg bg-red-600 px-3 text-sm font-medium text-white transition-colors hover:bg-red-700"
+              className="inline-flex h-8 items-center rounded-lg bg-flare-600 px-3 text-sm font-medium text-white transition-colors hover:bg-flare-700"
             >
               Review failures
             </Link>
@@ -143,19 +148,19 @@ export default async function AdminDashboard() {
       <section>
         <div className="mb-4 flex items-center justify-between">
           <h2 className="eyebrow">Recent activity</h2>
-          <Link href="/admin/jobs" className="text-sm text-brand-700 hover:underline">
+          <Link href="/admin/jobs" className="text-sm text-volt-700 hover:underline">
             View queue →
           </Link>
         </div>
 
         {recentJobs.length === 0 ? (
-          <p className="rounded-xl border border-dashed border-line-strong bg-surface-0 px-5 py-10 text-center text-sm text-ink-500">
+          <p className="rounded-xl border border-dashed border-line-strong bg-bone-50 px-5 py-10 text-center text-sm text-ink-500">
             No jobs yet. Import songs or queue a request to get started.
           </p>
         ) : (
-          <div className="overflow-hidden rounded-xl border border-line bg-surface-0">
+          <div className="overflow-hidden rounded-xl border border-line bg-bone-50">
             <table className="w-full text-sm">
-              <thead className="border-b border-line bg-surface-50">
+              <thead className="border-b border-line bg-bone-50">
                 <tr>
                   <th scope="col" className="px-4 py-2.5 text-left font-medium text-ink-500">
                     Subject
@@ -203,7 +208,7 @@ export default async function AdminDashboard() {
           <h2 className="eyebrow mb-4">Recent imports</h2>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
             {recentBatches.map((batch) => (
-              <div key={batch.id} className="rounded-xl border border-line bg-surface-0 p-4">
+              <div key={batch.id} className="rounded-xl border border-line bg-bone-50 p-4">
                 <div className="text-sm font-medium text-ink-900">{batch.label ?? 'Untitled batch'}</div>
                 <div className="mt-1 text-xs text-ink-400">{formatDateTime(batch.createdAt)}</div>
                 <dl className="mt-3 space-y-1 text-xs tnum">
@@ -222,7 +227,7 @@ export default async function AdminDashboard() {
                 </dl>
                 <Link
                   href={`/admin/jobs?batch=${batch.id}`}
-                  className="mt-3 inline-block text-xs text-brand-700 hover:underline"
+                  className="mt-3 inline-block text-xs text-volt-700 hover:underline"
                 >
                   View jobs →
                 </Link>
@@ -248,7 +253,7 @@ function Metric({
   tone?: 'neutral' | 'warn' | 'danger';
   href?: string;
 }) {
-  const toneClass = { neutral: 'text-ink-900', warn: 'text-amber-700', danger: 'text-red-700' }[tone];
+  const toneClass = { neutral: 'text-ink-900', warn: 'text-ochre-700', danger: 'text-flare-700' }[tone];
 
   const body = (
     <>
@@ -260,11 +265,11 @@ function Metric({
 
   if (href) {
     return (
-      <Link href={href} className="card-hover block rounded-xl border border-line bg-surface-0 p-4">
+      <Link href={href} className="lift block rounded-xl border border-line bg-bone-50 p-4">
         {body}
       </Link>
     );
   }
 
-  return <div className="rounded-xl border border-line bg-surface-0 p-4">{body}</div>;
+  return <div className="rounded-xl border border-line bg-bone-50 p-4">{body}</div>;
 }

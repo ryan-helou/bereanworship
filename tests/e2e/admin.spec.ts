@@ -20,11 +20,12 @@ test.describe('dashboard', () => {
     await expect(page.getByText('Pending', { exact: true }).first()).toBeVisible();
   });
 
-  test('warns clearly that the review pipeline is unconfigured', async ({ page }) => {
+  test('says plainly that automated reviews are off, and points at the alternative', async ({ page }) => {
     await page.goto('/admin');
     // E2E runs deliberately without an API key.
-    await expect(page.getByText('The review pipeline is not configured')).toBeVisible();
+    await expect(page.getByText('Automated reviews are turned off')).toBeVisible();
     await expect(page.getByText('ANTHROPIC_API_KEY')).toBeVisible();
+    await expect(page.getByRole('link', { name: 'Publish a review' })).toBeVisible();
   });
 
   test('signs out and the session stops working', async ({ page }) => {
@@ -117,7 +118,14 @@ test.describe('review queue', () => {
     await expect(page.getByRole('heading', { name: 'Import complete' })).toBeVisible();
 
     await page.goto('/admin/jobs?status=PENDING');
-    await page.locator('tr', { hasText: 'A Cancellable Song' }).first().getByRole('button', { name: 'Cancel' }).click();
+    const pendingRow = page.locator('tr', { hasText: 'A Cancellable Song' }).first();
+    await expect(pendingRow).toBeVisible();
+    await pendingRow.getByRole('button', { name: 'Cancel' }).click();
+
+    // Wait for the mutation to actually land before navigating. Without this
+    // the next goto can race the server action's revalidation and read the
+    // pre-cancel state, which fails intermittently under a full-suite run.
+    await expect(page.locator('tr', { hasText: 'A Cancellable Song' })).toHaveCount(0);
 
     await page.goto('/admin/jobs?status=CANCELLED');
     await expect(page.getByText('A Cancellable Song')).toBeVisible();

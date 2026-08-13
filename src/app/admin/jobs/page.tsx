@@ -75,7 +75,7 @@ export default async function AdminJobsPage({ searchParams }: { searchParams: Se
           <form action={retryAllFailedAction}>
             <button
               type="submit"
-              className="inline-flex h-9 items-center rounded-lg bg-ink-900 px-4 text-sm font-medium text-white transition-colors hover:bg-ink-800"
+              className="inline-flex h-9 items-center rounded-lg bg-indigo-900 px-4 text-sm font-medium text-white transition-colors hover:bg-indigo-800"
             >
               Retry all {stats.failed + stats.needsReview} failed
             </button>
@@ -106,13 +106,13 @@ export default async function AdminJobsPage({ searchParams }: { searchParams: Se
       </nav>
 
       {jobs.length === 0 ? (
-        <p className="rounded-xl border border-dashed border-line-strong bg-surface-0 px-5 py-12 text-center text-sm text-ink-500">
+        <p className="rounded-xl border border-dashed border-line-strong bg-bone-50 px-5 py-12 text-center text-sm text-ink-500">
           No jobs match this filter.
         </p>
       ) : (
-        <div className="overflow-x-auto rounded-xl border border-line bg-surface-0">
+        <div className="overflow-x-auto rounded-xl border border-line bg-bone-50">
           <table className="w-full min-w-[52rem] text-sm">
-            <thead className="border-b border-line bg-surface-50">
+            <thead className="border-b border-line bg-bone-50">
               <tr>
                 <th scope="col" className="px-4 py-2.5 text-left font-medium text-ink-500">
                   Subject
@@ -144,11 +144,11 @@ export default async function AdminJobsPage({ searchParams }: { searchParams: Se
                   <tr key={job.id} className="align-top">
                     <td className="px-4 py-3">
                       {job.song ? (
-                        <Link href={`/songs/${job.song.slug}`} className="font-medium text-brand-700 hover:underline">
+                        <Link href={`/songs/${job.song.slug}`} className="font-medium text-volt-700 hover:underline">
                           {job.song.displayTitle}
                         </Link>
                       ) : job.artist ? (
-                        <Link href={`/artists/${job.artist.slug}`} className="font-medium text-brand-700 hover:underline">
+                        <Link href={`/artists/${job.artist.slug}`} className="font-medium text-volt-700 hover:underline">
                           {job.artist.displayName}
                         </Link>
                       ) : (
@@ -159,7 +159,7 @@ export default async function AdminJobsPage({ searchParams }: { searchParams: Se
                       {payload.artist && <div className="text-xs text-ink-400">{payload.artist}</div>}
                       {lastNote && <div className="mt-1 max-w-md text-xs text-ink-400">{lastNote}</div>}
                       {job.lastError && (
-                        <div className="mt-1 max-w-md rounded bg-red-50 px-2 py-1 text-xs leading-relaxed text-red-800">
+                        <div className="mt-1 max-w-md rounded bg-flare-50 px-2 py-1 text-xs leading-relaxed text-flare-800">
                           {job.lastError.slice(0, 240)}
                         </div>
                       )}
@@ -183,7 +183,7 @@ export default async function AdminJobsPage({ searchParams }: { searchParams: Se
                             <input type="hidden" name="jobId" value={job.id} />
                             <button
                               type="submit"
-                              className="rounded-lg bg-ink-900 px-2.5 py-1.5 text-xs font-medium text-white transition-colors hover:bg-ink-800"
+                              className="rounded-lg bg-indigo-900 px-2.5 py-1.5 text-xs font-medium text-white transition-colors hover:bg-indigo-800"
                             >
                               Retry
                             </button>
@@ -194,7 +194,7 @@ export default async function AdminJobsPage({ searchParams }: { searchParams: Se
                             <input type="hidden" name="jobId" value={job.id} />
                             <button
                               type="submit"
-                              className="rounded-lg px-2.5 py-1.5 text-xs text-ink-500 transition-colors hover:bg-surface-100 hover:text-ink-900"
+                              className="rounded-lg px-2.5 py-1.5 text-xs text-ink-500 transition-colors hover:bg-bone-200 hover:text-ink-900"
                             >
                               Cancel
                             </button>
@@ -219,7 +219,7 @@ export default async function AdminJobsPage({ searchParams }: { searchParams: Se
             {page > 1 && (
               <Link
                 href={buildHref({ status, batch, page: page - 1 })}
-                className="inline-flex h-9 items-center rounded-lg bg-surface-0 px-3 text-sm text-ink-700 ring-1 ring-inset ring-line hover:bg-surface-100"
+                className="inline-flex h-9 items-center rounded-lg bg-bone-50 px-3 text-sm text-ink-700 ring-1 ring-inset ring-line hover:bg-bone-200"
               >
                 Previous
               </Link>
@@ -227,7 +227,7 @@ export default async function AdminJobsPage({ searchParams }: { searchParams: Se
             {page < totalPages && (
               <Link
                 href={buildHref({ status, batch, page: page + 1 })}
-                className="inline-flex h-9 items-center rounded-lg bg-surface-0 px-3 text-sm text-ink-700 ring-1 ring-inset ring-line hover:bg-surface-100"
+                className="inline-flex h-9 items-center rounded-lg bg-bone-50 px-3 text-sm text-ink-700 ring-1 ring-inset ring-line hover:bg-bone-200"
               >
                 Next
               </Link>
@@ -259,14 +259,14 @@ function Stat({
 }) {
   const toneClass = {
     neutral: 'text-ink-900',
-    brand: 'text-brand-700',
-    good: 'text-emerald-700',
-    warn: 'text-amber-700',
-    danger: 'text-red-700',
+    brand: 'text-volt-700',
+    good: 'text-volt-700',
+    warn: 'text-ochre-700',
+    danger: 'text-flare-700',
   }[tone];
 
   return (
-    <div className="rounded-lg border border-line bg-surface-0 p-3">
+    <div className="rounded-lg border border-line bg-bone-50 p-3">
       <div className="text-xs text-ink-500">{label}</div>
       <div className={`tnum mt-1 text-2xl font-semibold ${toneClass}`}>{value}</div>
     </div>
@@ -280,8 +280,8 @@ function FilterLink({ label, href, active }: { label: string; href: string; acti
       aria-current={active ? 'page' : undefined}
       className={`rounded-lg px-3 py-1.5 text-sm capitalize transition-colors ${
         active
-          ? 'bg-ink-900 font-medium text-white'
-          : 'bg-surface-0 text-ink-600 ring-1 ring-inset ring-line hover:bg-surface-100'
+          ? 'bg-indigo-900 font-medium text-white'
+          : 'bg-bone-50 text-ink-600 ring-1 ring-inset ring-line hover:bg-bone-200'
       }`}
     >
       {label}

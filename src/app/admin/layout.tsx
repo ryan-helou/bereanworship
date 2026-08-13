@@ -17,7 +17,7 @@ export default async function AdminLayout({ children }: { children: React.ReactN
   const session = await getSession();
 
   return (
-    <div className="min-h-[80vh] bg-surface-50">
+    <div className="min-h-[80vh] bg-bone-50">
       {session && <AdminNav email={session.email} />}
       <div className="container-page py-8">{children}</div>
     </div>

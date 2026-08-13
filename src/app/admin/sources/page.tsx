@@ -88,8 +88,8 @@ export default async function AdminSourcesPage({ searchParams }: { searchParams:
           <Link
             key={t}
             href={tier === t ? '/admin/sources' : `/admin/sources?tier=${t}`}
-            className={`card-hover rounded-xl border p-4 ${
-              tier === t ? 'border-brand-300 bg-brand-50' : 'border-line bg-surface-0'
+            className={`lift rounded-xl border p-4 ${
+              tier === t ? 'border-volt-300 bg-volt-50' : 'border-line bg-bone-50'
             }`}
           >
             <div className="flex items-baseline justify-between">
@@ -108,31 +108,31 @@ export default async function AdminSourcesPage({ searchParams }: { searchParams:
           name="q"
           defaultValue={q}
           placeholder="Search title, publisher or URL…"
-          className="h-9 w-72 rounded-lg border border-line bg-surface-0 px-3 text-sm text-ink-900 focus:border-brand-400 focus:outline-none focus:ring-4 focus:ring-brand-100"
+          className="h-9 w-72 rounded-lg border border-line bg-bone-50 px-3 text-sm text-ink-900 focus:border-volt-400 focus:outline-none focus:ring-4 focus:ring-volt-100"
         />
         <button
           type="submit"
-          className="h-9 rounded-lg bg-ink-900 px-3.5 text-sm font-medium text-white transition-colors hover:bg-ink-800"
+          className="h-9 rounded-lg bg-indigo-900 px-3.5 text-sm font-medium text-white transition-colors hover:bg-indigo-800"
         >
           Search
         </button>
       </form>
 
       {sources.length === 0 ? (
-        <p className="rounded-xl border border-dashed border-line-strong bg-surface-0 px-5 py-12 text-center text-sm text-ink-500">
+        <p className="rounded-xl border border-dashed border-line-strong bg-bone-50 px-5 py-12 text-center text-sm text-ink-500">
           No sources recorded yet. They accumulate as research jobs complete.
         </p>
       ) : (
         <div className="space-y-3">
           {sources.map((source) => (
-            <div key={source.id} className="rounded-xl border border-line bg-surface-0 p-4">
+            <div key={source.id} className="rounded-xl border border-line bg-bone-50 p-4">
               <div className="flex flex-wrap items-start justify-between gap-4">
                 <div className="min-w-0 flex-1">
                   <a
                     href={source.url}
                     target="_blank"
                     rel="noopener noreferrer nofollow"
-                    className="text-sm font-medium text-brand-700 hover:underline"
+                    className="text-sm font-medium text-volt-700 hover:underline"
                   >
                     {source.title}
                   </a>
@@ -159,7 +159,7 @@ export default async function AdminSourcesPage({ searchParams }: { searchParams:
                         <Link
                           key={artist.slug}
                           href={`/artists/${artist.slug}`}
-                          className="text-brand-700 hover:underline"
+                          className="text-volt-700 hover:underline"
                         >
                           {artist.displayName}
                         </Link>
@@ -192,7 +192,7 @@ export default async function AdminSourcesPage({ searchParams }: { searchParams:
             {page > 1 && (
               <Link
                 href={`/admin/sources?${new URLSearchParams({ ...(q ? { q } : {}), ...(tier ? { tier } : {}), page: String(page - 1) })}`}
-                className="inline-flex h-9 items-center rounded-lg bg-surface-0 px-3 text-sm text-ink-700 ring-1 ring-inset ring-line hover:bg-surface-100"
+                className="inline-flex h-9 items-center rounded-lg bg-bone-50 px-3 text-sm text-ink-700 ring-1 ring-inset ring-line hover:bg-bone-200"
               >
                 Previous
               </Link>
@@ -200,7 +200,7 @@ export default async function AdminSourcesPage({ searchParams }: { searchParams:
             {page < totalPages && (
               <Link
                 href={`/admin/sources?${new URLSearchParams({ ...(q ? { q } : {}), ...(tier ? { tier } : {}), page: String(page + 1) })}`}
-                className="inline-flex h-9 items-center rounded-lg bg-surface-0 px-3 text-sm text-ink-700 ring-1 ring-inset ring-line hover:bg-surface-100"
+                className="inline-flex h-9 items-center rounded-lg bg-bone-50 px-3 text-sm text-ink-700 ring-1 ring-inset ring-line hover:bg-bone-200"
               >
                 Next
               </Link>

@@ -90,12 +90,12 @@ export default async function AdminSongsPage({ searchParams }: { searchParams: S
           name="q"
           defaultValue={q}
           placeholder="Search title or artist…"
-          className="h-9 w-64 rounded-lg border border-line bg-surface-0 px-3 text-sm text-ink-900 focus:border-brand-400 focus:outline-none focus:ring-4 focus:ring-brand-100"
+          className="h-9 w-64 rounded-lg border border-line bg-bone-50 px-3 text-sm text-ink-900 focus:border-volt-400 focus:outline-none focus:ring-4 focus:ring-volt-100"
         />
         <select
           name="status"
           defaultValue={status ?? ''}
-          className="h-9 cursor-pointer rounded-lg border border-line bg-surface-0 px-3 text-sm text-ink-600 focus:border-brand-400 focus:outline-none"
+          className="h-9 cursor-pointer rounded-lg border border-line bg-bone-50 px-3 text-sm text-ink-600 focus:border-volt-400 focus:outline-none"
         >
           <option value="">Any status</option>
           {VALID_STATUSES.map((s) => (
@@ -106,7 +106,7 @@ export default async function AdminSongsPage({ searchParams }: { searchParams: S
         </select>
         <button
           type="submit"
-          className="h-9 rounded-lg bg-ink-900 px-3.5 text-sm font-medium text-white transition-colors hover:bg-ink-800"
+          className="h-9 rounded-lg bg-indigo-900 px-3.5 text-sm font-medium text-white transition-colors hover:bg-indigo-800"
         >
           Filter
         </button>
@@ -115,8 +115,8 @@ export default async function AdminSongsPage({ searchParams }: { searchParams: S
             href={flaggedOnly ? '/admin/songs' : '/admin/songs?flagged=true'}
             className={`inline-flex h-9 items-center rounded-lg px-3 text-sm transition-colors ${
               flaggedOnly
-                ? 'bg-amber-100 font-medium text-amber-900'
-                : 'bg-surface-0 text-ink-600 ring-1 ring-inset ring-line hover:bg-surface-100'
+                ? 'bg-ochre-100 font-medium text-ochre-900'
+                : 'bg-bone-50 text-ink-600 ring-1 ring-inset ring-line hover:bg-bone-200'
             }`}
           >
             Flagged ({flaggedCount})
@@ -125,13 +125,13 @@ export default async function AdminSongsPage({ searchParams }: { searchParams: S
       </form>
 
       {songs.length === 0 ? (
-        <p className="rounded-xl border border-dashed border-line-strong bg-surface-0 px-5 py-12 text-center text-sm text-ink-500">
+        <p className="rounded-xl border border-dashed border-line-strong bg-bone-50 px-5 py-12 text-center text-sm text-ink-500">
           No songs match this filter.
         </p>
       ) : (
-        <div className="overflow-x-auto rounded-xl border border-line bg-surface-0">
+        <div className="overflow-x-auto rounded-xl border border-line bg-bone-50">
           <table className="w-full min-w-[56rem] text-sm">
-            <thead className="border-b border-line bg-surface-50">
+            <thead className="border-b border-line bg-bone-50">
               <tr>
                 <th scope="col" className="px-4 py-2.5 text-left font-medium text-ink-500">
                   Song
@@ -157,17 +157,17 @@ export default async function AdminSongsPage({ searchParams }: { searchParams: S
               {songs.map((song) => (
                 <tr key={song.id} className="align-top">
                   <td className="px-4 py-3">
-                    <Link href={`/songs/${song.slug}`} className="font-medium text-brand-700 hover:underline">
+                    <Link href={`/songs/${song.slug}`} className="font-medium text-volt-700 hover:underline">
                       {song.displayTitle}
                     </Link>
                     <div className="text-xs text-ink-400">{song.artist.displayName}</div>
                     {song.needsAttention && (
-                      <div className="mt-1 rounded bg-amber-50 px-2 py-1 text-xs text-amber-900">
+                      <div className="mt-1 rounded bg-ochre-50 px-2 py-1 text-xs text-ochre-900">
                         {song.attentionNote ?? 'Flagged'}
                       </div>
                     )}
                     {song.reviewError && (
-                      <div className="mt-1 max-w-md rounded bg-red-50 px-2 py-1 text-xs leading-relaxed text-red-800">
+                      <div className="mt-1 max-w-md rounded bg-flare-50 px-2 py-1 text-xs leading-relaxed text-flare-800">
                         {song.reviewError.slice(0, 200)}
                       </div>
                     )}
@@ -202,7 +202,7 @@ export default async function AdminSongsPage({ searchParams }: { searchParams: S
                         <input type="hidden" name="songId" value={song.id} />
                         <button
                           type="submit"
-                          className="rounded-lg bg-surface-100 px-2.5 py-1.5 text-xs font-medium text-ink-700 ring-1 ring-inset ring-line transition-colors hover:bg-surface-200"
+                          className="rounded-lg bg-bone-200 px-2.5 py-1.5 text-xs font-medium text-ink-700 ring-1 ring-inset ring-line transition-colors hover:bg-bone-300"
                         >
                           Re-review
                         </button>
@@ -212,7 +212,7 @@ export default async function AdminSongsPage({ searchParams }: { searchParams: S
                         <input type="hidden" name="clear" value={song.needsAttention ? 'true' : 'false'} />
                         <button
                           type="submit"
-                          className="rounded-lg px-2.5 py-1.5 text-xs text-ink-500 transition-colors hover:bg-surface-100 hover:text-ink-900"
+                          className="rounded-lg px-2.5 py-1.5 text-xs text-ink-500 transition-colors hover:bg-bone-200 hover:text-ink-900"
                         >
                           {song.needsAttention ? 'Unflag' : 'Flag'}
                         </button>
@@ -251,7 +251,7 @@ function PageLink({ page, q, status, label }: { page: number; q?: string; status
   return (
     <Link
       href={qs ? `/admin/songs?${qs}` : '/admin/songs'}
-      className="inline-flex h-9 items-center rounded-lg bg-surface-0 px-3 text-sm text-ink-700 ring-1 ring-inset ring-line hover:bg-surface-100"
+      className="inline-flex h-9 items-center rounded-lg bg-bone-50 px-3 text-sm text-ink-700 ring-1 ring-inset ring-line hover:bg-bone-200"
     >
       {label}
     </Link>

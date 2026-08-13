@@ -34,19 +34,26 @@ export const metadata: Metadata = {
 
 export default function MethodologyPage() {
   return (
-    <div className="container-page py-12 sm:py-16">
-      <div className="container-prose">
-        <header>
-          <div className="eyebrow">Methodology · v{METHODOLOGY_VERSION}</div>
-          <h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-[2.5rem]">How songs are evaluated</h1>
-          <p className="mt-4 text-lg leading-relaxed text-ink-500">
-            Every score on this site is calculated from published findings by a fixed formula. This page documents that
-            formula completely, so any number here can be checked.
-          </p>
-        </header>
+    <>
+      <header className="band-dark border-b-4 border-volt-500">
+        <div className="container-page py-14 lg:py-20">
+          <div className="container-prose">
+            <div className="eyebrow">Methodology · v{METHODOLOGY_VERSION}</div>
+            <h1 className="text-display mt-5 text-bone-100">How songs are evaluated</h1>
+            <p className="mt-7 font-serif text-xl leading-relaxed text-indigo-200">
+              Every score on this site is calculated from published findings by a fixed formula. This page documents
+              that formula completely, so any number here can be checked.
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <div className="band-bone">
+        <div className="container-page py-4">
+          <div className="container-prose">
 
         <Section id="foundation" title="The biblical foundation">
-          <blockquote className="scripture my-6 text-[1.0625rem]">
+          <blockquote className="scripture my-8 text-xl">
             “Now these Jews were more noble than those in Thessalonica; they received the word with all eagerness,
             examining the Scriptures daily to see if these things were so.”
             <span className="mt-2 block not-italic text-sm text-ink-400">Acts 17:11, ESV</span>
@@ -125,14 +132,14 @@ export default function MethodologyPage() {
         <Section id="scoring" title="The 60 / 20 / 20 formula">
           <p>Every song receives three component scores, combined into one:</p>
 
-          <div className="my-6 overflow-hidden rounded-xl border border-line">
+          <div className="my-8 overflow-x-auto border-2 border-ink-900">
             <table className="w-full text-sm">
-              <thead className="bg-surface-100">
+              <thead className="bg-indigo-900 text-bone-100">
                 <tr>
-                  <th scope="col" className="px-4 py-3 text-left font-semibold text-ink-700">
+                  <th scope="col" className="px-4 py-3 text-left font-bold uppercase tracking-wider">
                     Component
                   </th>
-                  <th scope="col" className="px-4 py-3 text-right font-semibold text-ink-700">
+                  <th scope="col" className="px-4 py-3 text-right font-bold uppercase tracking-wider">
                     Weight
                   </th>
                 </tr>
@@ -165,7 +172,7 @@ export default function MethodologyPage() {
             </table>
           </div>
 
-          <pre className="my-6 overflow-x-auto rounded-xl bg-ink-900 p-5 font-mono text-[0.8125rem] leading-relaxed text-surface-100">
+          <pre className="my-8 overflow-x-auto border-2 border-ink-900 bg-indigo-950 p-6 font-mono text-[0.8125rem] leading-relaxed text-surface-100">
             {`Overall = (Theological × ${SONG_WEIGHTS.THEOLOGICAL})
         + (Communal    × ${SONG_WEIGHTS.COMMUNAL})
         + (Clarity     × ${SONG_WEIGHTS.CLARITY})`}
@@ -180,7 +187,7 @@ export default function MethodologyPage() {
             wrong, nothing remarkable”. Strengths add credit; concerns subtract penalties.
           </p>
 
-          <pre className="my-6 overflow-x-auto rounded-xl bg-ink-900 p-5 font-mono text-[0.8125rem] leading-relaxed text-surface-100">
+          <pre className="my-8 overflow-x-auto border-2 border-ink-900 bg-indigo-950 p-6 font-mono text-[0.8125rem] leading-relaxed text-surface-100">
             {`component = ${BASELINE} + strength credit − penalties     (clamped to 0–100)`}
           </pre>
 
@@ -317,14 +324,14 @@ export default function MethodologyPage() {
             calculated with four components:
           </p>
 
-          <div className="my-6 overflow-hidden rounded-xl border border-line">
+          <div className="my-8 overflow-x-auto border-2 border-ink-900">
             <table className="w-full text-sm">
-              <thead className="bg-surface-100">
+              <thead className="bg-indigo-900 text-bone-100">
                 <tr>
-                  <th scope="col" className="px-4 py-3 text-left font-semibold text-ink-700">
+                  <th scope="col" className="px-4 py-3 text-left font-bold uppercase tracking-wider">
                     Component
                   </th>
-                  <th scope="col" className="px-4 py-3 text-right font-semibold text-ink-700">
+                  <th scope="col" className="px-4 py-3 text-right font-bold uppercase tracking-wider">
                     Weight
                   </th>
                 </tr>
@@ -350,14 +357,14 @@ export default function MethodologyPage() {
             </table>
           </div>
 
-          <div className="my-6 rounded-xl border border-brand-100 bg-brand-50 p-5">
-            <h3 className="text-base font-semibold text-brand-900">The two scores never touch</h3>
-            <p className="mt-2 text-[0.9375rem] leading-relaxed text-brand-900">
+          <div className="my-8 border-2 border-ink-900 bg-volt-500 p-7 text-white [&_h3]:text-white [&_p]:text-white">
+            <h3 className="text-base font-semibold text-volt-900">The two scores never touch</h3>
+            <p className="mt-2 text-[0.9375rem] leading-relaxed text-volt-900">
               An artist’s score contributes nothing — positively or negatively — to any song’s score. No points are
               deducted from a song because its artist scores poorly, and none are added because its artist scores well.
               The analysis stages that produce a song’s theological score are not even told who the artist is.
             </p>
-            <p className="mt-3 text-[0.9375rem] leading-relaxed text-brand-900">
+            <p className="mt-3 text-[0.9375rem] leading-relaxed text-volt-900">
               This is deliberate. A theologically troubled ministry can write a doctrinally excellent song, and a sound
               ministry can write a careless one. Collapsing the two questions into one number would answer neither.
             </p>
@@ -422,14 +429,14 @@ export default function MethodologyPage() {
         <Section id="bands" title="Score bands">
           <p>These labels are descriptive shorthand, not authoritative verdicts.</p>
 
-          <div className="my-6 overflow-hidden rounded-xl border border-line">
+          <div className="my-8 overflow-x-auto border-2 border-ink-900">
             <table className="w-full text-sm">
-              <thead className="bg-surface-100">
+              <thead className="bg-indigo-900 text-bone-100">
                 <tr>
-                  <th scope="col" className="px-4 py-2.5 text-left font-semibold text-ink-700">
+                  <th scope="col" className="px-4 py-2.5 text-left font-bold uppercase tracking-wider">
                     Range
                   </th>
-                  <th scope="col" className="px-4 py-2.5 text-left font-semibold text-ink-700">
+                  <th scope="col" className="px-4 py-2.5 text-left font-bold uppercase tracking-wider">
                     Label
                   </th>
                 </tr>
@@ -511,7 +518,7 @@ export default function MethodologyPage() {
         </Section>
 
         <Section id="limitations" title="Limitations">
-          <div className="rounded-xl border border-line bg-surface-50 p-6">
+          <div className="border-l-8 border-volt-500 bg-volt-50 p-7">
             <p className="text-[0.9375rem] font-semibold text-ink-900">
               BereanWorship is an analytical resource. Its ratings are not infallible.
             </p>
@@ -548,29 +555,33 @@ export default function MethodologyPage() {
 
           <p className="mt-6">
             Test what you sing — including what you read here.{' '}
-            <Link href="/songs" className="text-brand-700 underline-offset-4 hover:underline">
+            <Link href="/songs" className="font-bold text-volt-600 underline underline-offset-4">
               Browse the database
             </Link>{' '}
             and check the reasoning for yourself.
           </p>
         </Section>
+          </div>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 
 function Section({ id, title, children }: { id: string; title: string; children: React.ReactNode }) {
   return (
-    <section id={id} className="mt-14 scroll-mt-24 border-t border-line pt-10 first-of-type:mt-12">
-      <h2 className="text-2xl font-semibold tracking-tight">{title}</h2>
-      <div className="mt-5 space-y-4 text-[0.9375rem] leading-relaxed text-ink-600 [&>p]:leading-[1.75]">{children}</div>
+    <section id={id} className="mt-16 scroll-mt-28 border-t-4 border-ink-900 pt-10">
+      <h2 className="text-display-sm">{title}</h2>
+      <div className="mt-6 space-y-5 font-serif text-[1.0625rem] leading-relaxed text-ink-700 [&>p]:leading-[1.7]">
+        {children}
+      </div>
     </section>
   );
 }
 
 function ScaleTable({ rows }: { rows: Array<{ label: string; value: string; note: string }> }) {
   return (
-    <div className="my-4 overflow-hidden rounded-xl border border-line">
+    <div className="my-5 overflow-x-auto border-2 border-ink-900">
       <table className="w-full text-sm">
         <tbody className="divide-y divide-line">
           {rows.map((row) => (

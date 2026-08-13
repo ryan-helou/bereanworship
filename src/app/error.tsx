@@ -35,13 +35,13 @@ export default function Error({ error, reset }: { error: Error & { digest?: stri
           <button
             type="button"
             onClick={reset}
-            className="inline-flex h-10 items-center rounded-lg bg-ink-900 px-4 text-sm font-medium text-white transition-colors hover:bg-ink-800"
+            className="inline-flex h-10 items-center rounded-lg bg-indigo-900 px-4 text-sm font-medium text-white transition-colors hover:bg-indigo-800"
           >
             Try again
           </button>
           <Link
             href="/"
-            className="inline-flex h-10 items-center rounded-lg bg-surface-100 px-4 text-sm font-medium text-ink-700 ring-1 ring-inset ring-line transition-colors hover:bg-surface-200"
+            className="inline-flex h-10 items-center rounded-lg bg-bone-200 px-4 text-sm font-medium text-ink-700 ring-1 ring-inset ring-line transition-colors hover:bg-bone-300"
           >
             Return home
           </Link>

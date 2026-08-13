@@ -27,9 +27,20 @@ if (!password) {
   process.exit(1);
 }
 
-if (password.length < 12) {
-  console.error('Refusing: admin password must be at least 12 characters.');
+const MIN_LENGTH = 8;
+const RECOMMENDED_LENGTH = 12;
+
+if (password.length < MIN_LENGTH) {
+  console.error(`Refusing: admin password must be at least ${MIN_LENGTH} characters.`);
   process.exit(1);
+}
+
+if (password.length < RECOMMENDED_LENGTH) {
+  console.warn(
+    `\nWarning: ${password.length} characters is short. ${RECOMMENDED_LENGTH}+ is strongly recommended for\n` +
+      `an account that can queue reviews and edit the database. Login is rate limited\n` +
+      `to 10 attempts per 15 minutes, which slows but does not prevent a brute force.`,
+  );
 }
 
 const salt = randomBytes(16);

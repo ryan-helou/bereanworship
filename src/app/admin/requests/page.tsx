@@ -56,7 +56,7 @@ export default async function AdminRequestsPage({ searchParams }: { searchParams
           <form action={queueAllPendingRequestsAction}>
             <button
               type="submit"
-              className="inline-flex h-9 items-center rounded-lg bg-brand-700 px-4 text-sm font-medium text-white transition-colors hover:bg-brand-800"
+              className="inline-flex h-9 items-center rounded-lg bg-volt-700 px-4 text-sm font-medium text-white transition-colors hover:bg-volt-800"
             >
               Queue all {pendingCount} pending
             </button>
@@ -78,13 +78,13 @@ export default async function AdminRequestsPage({ searchParams }: { searchParams
       </nav>
 
       {requests.length === 0 ? (
-        <p className="rounded-xl border border-dashed border-line-strong bg-surface-0 px-5 py-12 text-center text-sm text-ink-500">
+        <p className="rounded-xl border border-dashed border-line-strong bg-bone-50 px-5 py-12 text-center text-sm text-ink-500">
           No requests {status ? `with status ${status.toLowerCase()}` : 'yet'}.
         </p>
       ) : (
-        <div className="overflow-hidden rounded-xl border border-line bg-surface-0">
+        <div className="overflow-hidden rounded-xl border border-line bg-bone-50">
           <table className="w-full text-sm">
-            <thead className="border-b border-line bg-surface-50">
+            <thead className="border-b border-line bg-bone-50">
               <tr>
                 <th scope="col" className="px-4 py-2.5 text-left font-medium text-ink-500">
                   Song
@@ -117,7 +117,7 @@ export default async function AdminRequestsPage({ searchParams }: { searchParams
                     {request.song && (
                       <Link
                         href={`/songs/${request.song.slug}`}
-                        className="mt-1 inline-block text-xs text-brand-700 hover:underline"
+                        className="mt-1 inline-block text-xs text-volt-700 hover:underline"
                       >
                         {request.song.displayTitle}
                         {request.song.overallScore !== null && ` — ${request.song.overallScore}/100`} →
@@ -142,7 +142,7 @@ export default async function AdminRequestsPage({ searchParams }: { searchParams
                           <input type="hidden" name="requestId" value={request.id} />
                           <button
                             type="submit"
-                            className="rounded-lg bg-ink-900 px-2.5 py-1.5 text-xs font-medium text-white transition-colors hover:bg-ink-800"
+                            className="rounded-lg bg-indigo-900 px-2.5 py-1.5 text-xs font-medium text-white transition-colors hover:bg-indigo-800"
                           >
                             Queue
                           </button>
@@ -151,7 +151,7 @@ export default async function AdminRequestsPage({ searchParams }: { searchParams
                           <input type="hidden" name="requestId" value={request.id} />
                           <button
                             type="submit"
-                            className="rounded-lg px-2.5 py-1.5 text-xs text-ink-500 transition-colors hover:bg-surface-100 hover:text-ink-900"
+                            className="rounded-lg px-2.5 py-1.5 text-xs text-ink-500 transition-colors hover:bg-bone-200 hover:text-ink-900"
                           >
                             Reject
                           </button>
@@ -185,7 +185,7 @@ function FilterLink({
       href={href}
       aria-current={active ? 'page' : undefined}
       className={`inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm capitalize transition-colors ${
-        active ? 'bg-ink-900 font-medium text-white' : 'bg-surface-0 text-ink-600 ring-1 ring-inset ring-line hover:bg-surface-100'
+        active ? 'bg-indigo-900 font-medium text-white' : 'bg-bone-50 text-ink-600 ring-1 ring-inset ring-line hover:bg-bone-200'
       }`}
     >
       {label}
