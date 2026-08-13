@@ -2,7 +2,7 @@ import './server-guard';
 import { prisma } from './db';
 import type { Prisma } from '@prisma/client';
 import { canonicalize, normalizeArtist, normalizeTitle, slugify, songSlug } from './normalize';
-import { DEFAULT_REVIEW_VERSION, METHODOLOGY_VERSION, SCORING_VERSION } from './scoring';
+import { DEFAULT_REVIEW_VERSION, METHODOLOGY_VERSION, SCORING_VERSION, scoreVocalRange } from './scoring';
 import type { ArtistResearchResult, SongReviewResult } from './ai/pipeline';
 import { log, events } from './logger';
 
@@ -313,6 +313,18 @@ export async function saveSongReview(songId: string, result: SongReviewResult): 
     });
   }
 
+  // Range is measured, not judged: the score is computed from the pitches, and
+  // a song without verified notation stays null rather than being guessed at.
+  const measured = result.communal.range?.measured ? result.communal.range : null;
+  const range = measured
+    ? scoreVocalRange({
+        lowest: measured.lowestNote,
+        highest: measured.highestNote,
+        tessituraLow: measured.tessituraLow,
+        tessituraHigh: measured.tessituraHigh,
+      })
+    : null;
+
   const themeRecords = await resolveThemes(result.themes);
   const sourceIds = await persistCitations(result.citations);
   const now = new Date();
@@ -341,6 +353,15 @@ export async function saveSongReview(songId: string, result: SongReviewResult): 
         clarityScore: result.scores.clarityScore,
         recommendation: result.scores.recommendation,
         summary: result.synthesis.summary,
+
+        rangeScore: range?.score ?? null,
+        rangeLowest: range?.lowest ?? null,
+        rangeHighest: range?.highest ?? null,
+        rangeTessituraLow: measured?.tessituraLow ?? null,
+        rangeTessituraHigh: measured?.tessituraHigh ?? null,
+        rangeKey: measured?.key ?? null,
+        rangeSource: measured?.source ?? null,
+        rangeNote: measured?.note ?? result.communal.vocalRangeNote ?? null,
 
         reviewStatus: 'COMPLETED',
         reviewVersion,

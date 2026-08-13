@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
-import { RecommendationBadge, ScorePill, toneOf } from './score';
+import { RangePill, RecommendationBadge, ScorePill, toneOf } from './score';
 import { Badge } from './ui';
 import type { ArtistListItem, SongListItem } from '@/lib/search';
 
@@ -52,6 +52,7 @@ export function SongCard({ song, showArtist = true }: { song: SongListItem; show
 
       <div className="flex flex-wrap items-center gap-2 border-t-2 border-ink-900 bg-bone-100 p-3">
         <RecommendationBadge recommendation={song.recommendation} size="sm" />
+        <RangePill score={song.rangeScore} lowest={song.rangeLowest} highest={song.rangeHighest} />
         {song.themes.slice(0, 2).map((theme) => (
           <Badge key={theme} tone="muted">
             {theme}

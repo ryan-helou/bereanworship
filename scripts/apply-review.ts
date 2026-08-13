@@ -39,6 +39,11 @@ async function main() {
     if (r.ceiling !== null) console.log(`  ceiling applied at ${r.ceiling} — a severe or major theological concern is present`);
     console.log(`  findings ${r.findingCount}  ·  sources ${r.sourceCount}  ·  version ${r.reviewVersion}`);
     console.log(`  evidence ${r.evidence.quoted}/${r.evidence.total} findings quote the song (${Math.round(r.evidence.ratio * 100)}%)`);
+    console.log(
+      r.range
+        ? `  range    ${r.range.score}/100 ${r.range.label} · ${r.range.lowest}-${r.range.highest} (separate from song validity)`
+        : '  range    not measured — no verified chart',
+    );
     console.log(`  themes   ${r.themes.join(', ') || '(none)'}`);
     console.log(`  url      /songs/${r.slug}\n`);
   } else {

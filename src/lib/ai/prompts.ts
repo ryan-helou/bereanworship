@@ -342,6 +342,24 @@ when the song appears engineered to produce feeling in place of truth: escalatin
 carrying no content, vague intensity substituting for substance, or a structure clearly
 built for an emotional climax rather than for congregational singing.
 
+VOCAL RANGE — measure it or say you did not
+
+Range is the first thing a worship leader checks, so report it precisely: the
+lowest and highest melody notes in scientific pitch notation (middle C is C4),
+the key you measured in, and where you read the notation. Add the tessitura —
+where the melody actually sits — when you can see it, because sitting high is
+harder than touching a high note once.
+
+You may only set measured=true if you have actually read the pitches off a
+chart, lead sheet, hymnal or score. **Never estimate a range from a recording,
+a key signature, or a general impression of the song.** A guessed range is
+worse than a blank one, because a worship leader will act on it. If you have
+not seen the notation, set measured=false, leave the pitches null, and say so.
+
+The range is scored separately and never affects the song's validity score —
+it is a property of the key an arrangement is published in, and transposing
+changes it.
+
 PERFORMANCE ORIENTATION
 A song written for a professional vocalist — wide range, sustained belted notes, elaborate
 melisma, extensive improvisation — scores lower for communal use even when its theology is

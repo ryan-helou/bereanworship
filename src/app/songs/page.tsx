@@ -24,6 +24,7 @@ const SORT_OPTIONS = [
   { value: 'title_desc', label: 'Title Z–A' },
   { value: 'newest', label: 'Newest reviewed' },
   { value: 'oldest', label: 'Oldest reviewed' },
+  { value: 'range_easiest', label: 'Easiest to sing' },
 ];
 
 const VALID_SORTS = new Set(['relevance', ...SORT_OPTIONS.map((o) => o.value)]);
@@ -92,6 +93,7 @@ async function Results({ params }: { params: NormalizedParams }) {
     genre: params.genre,
     minScore: params.minScore,
     maxScore: params.maxScore,
+    minRange: params.minRange,
   });
 
   if (result.items.length === 0) {
@@ -179,6 +181,7 @@ interface NormalizedParams {
   genre?: string;
   minScore?: number;
   maxScore?: number;
+  minRange?: number;
   raw: Record<string, string | undefined>;
 }
 
@@ -202,7 +205,7 @@ function normalize(input: Record<string, string | string[] | undefined>): Normal
   const pageRaw = Number.parseInt(single('page') ?? '1', 10);
 
   const raw: Record<string, string | undefined> = {};
-  for (const key of ['q', 'sort', 'recommendation', 'theme', 'genre', 'minScore', 'maxScore']) {
+  for (const key of ['q', 'sort', 'recommendation', 'theme', 'genre', 'minScore', 'maxScore', 'minRange']) {
     raw[key] = single(key);
   }
 
@@ -218,6 +221,7 @@ function normalize(input: Record<string, string | string[] | undefined>): Normal
     genre: single('genre')?.slice(0, 60),
     minScore: int('minScore'),
     maxScore: int('maxScore'),
+    minRange: int('minRange'),
     raw,
   };
 }

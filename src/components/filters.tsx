@@ -52,7 +52,7 @@ export function FilterBar({
     [pathname, router, searchParams],
   );
 
-  const activeCount = ['recommendation', 'theme', 'genre', 'minScore', 'maxScore'].filter((k) =>
+  const activeCount = ['recommendation', 'theme', 'genre', 'minScore', 'maxScore', 'minRange'].filter((k) =>
     searchParams.get(k),
   ).length;
 
@@ -117,6 +117,18 @@ export function FilterBar({
           onChange={(value) => update('minScore', value)}
         />
       )}
+
+      <Select
+        label="Range"
+        value={searchParams.get('minRange') ?? ''}
+        placeholder="Any range"
+        options={[
+          { value: '85', label: 'Easy to sing (85+)' },
+          { value: '70', label: 'Comfortable (70+)' },
+          { value: '55', label: 'Demanding or better (55+)' },
+        ]}
+        onChange={(value) => update('minRange', value)}
+      />
 
       {activeCount > 0 && (
         <button

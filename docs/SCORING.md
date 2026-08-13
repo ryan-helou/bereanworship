@@ -80,6 +80,52 @@ Note the asymmetry: only *theological* severity constrains the overall score. A 
 | **Recommended with caution** | Any major concern, or overall < 80, or theological < 80 |
 | **Recommended** | Everything else |
 
+## Congregational range
+
+A separate 0-100 score for how hard a song is to sing, computed from the
+measured melody. **Higher is easier**, matching every other number on the site.
+
+**It is deliberately not part of song validity.** Range is a property of the key
+an arrangement is published in, not of the song — transpose down a tone and the
+same song becomes singable. Baking it into a permanent verdict would be a
+category error, and would penalise a doctrinally excellent hymn for a decision
+the worship leader can simply make differently.
+
+Start at 100, deduct from the measured pitches. The comfortable congregational
+band is A3–D5, and a span of one octave costs nothing.
+
+| Deduction | Per semitone | Why |
+|---|---|---|
+| Span beyond an octave | −3 | A wide song is harder even when well placed |
+| Above D5 | −6 | Where a congregation stops singing, not merely strains |
+| Below A3 | −4 | People go quiet rather than silent |
+| Melody *sitting* above C5 | −4 | Sustained height beats a single high note |
+
+| Score | Difficulty |
+|---|---|
+| 85–100 | Easy |
+| 70–84 | Comfortable |
+| 55–69 | Demanding |
+| 40–54 | Difficult |
+| 0–39 | Very difficult |
+
+Worked examples:
+
+```
+C4–C5   an octave in the sweet spot          100  Easy
+A3–D5   the full congregational band          85  Easy
+Bb3–Eb5 one semitone over the ceiling         79  Comfortable
+C4–E5   sitting up at D5                      76  Comfortable
+G3–F5   wide, and high                        44  Difficult
+```
+
+### Measured, never estimated
+
+A range is published only where the pitches were read off a chart, lead sheet or
+score. There is no estimate path in the code: `scoreVocalRange()` returns `null`
+for missing or unparseable pitches, and the song shows "Not measured". A guessed
+range is worse than a blank one, because a worship leader would act on it.
+
 ## Artist validity
 
 Computed on its own scale, from its own research. **It contributes nothing to any song score.**

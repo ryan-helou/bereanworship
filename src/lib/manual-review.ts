@@ -18,7 +18,7 @@ import {
   type ArtistResearchResult,
   type SongReviewResult,
 } from './ai/pipeline';
-import { scoreArtist, scoreSong, type ScorableArtistFinding, type ScorableSongFinding } from './scoring';
+import { scoreArtist, scoreSong, scoreVocalRange, type ScorableArtistFinding, type ScorableSongFinding } from './scoring';
 import { findOrCreateArtist, findOrCreateSong, saveArtistResearch, saveSongReview } from './reviews';
 import { log } from './logger';
 
@@ -82,6 +82,8 @@ export interface AppliedSong {
   themes: string[];
   /** How many findings show the words they rest on. */
   evidence: { quoted: number; total: number; ratio: number };
+  /** Congregational range difficulty, or null when the pitches were not measured. */
+  range: { score: number; label: string; lowest: string; highest: string } | null;
 }
 
 export interface AppliedArtist {
@@ -180,6 +182,17 @@ async function applySong(payload: z.infer<typeof SongReviewPayload>): Promise<Ap
     sourceCount: sources.length,
     themes,
     evidence,
+    range: (() => {
+      const measured = communal.range?.measured ? communal.range : null;
+      if (!measured) return null;
+      const scored = scoreVocalRange({
+        lowest: measured.lowestNote,
+        highest: measured.highestNote,
+        tessituraLow: measured.tessituraLow,
+        tessituraHigh: measured.tessituraHigh,
+      });
+      return scored ? { score: scored.score, label: scored.label, lowest: scored.lowest, highest: scored.highest } : null;
+    })(),
   };
 }
 

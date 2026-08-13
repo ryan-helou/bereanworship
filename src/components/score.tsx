@@ -256,3 +256,106 @@ export function RecommendationCallout({
     </div>
   );
 }
+
+// ---------------------------------------------------------------------------
+// Vocal range
+// ---------------------------------------------------------------------------
+
+/**
+ * Range difficulty, reported next to song validity but visibly separate from
+ * it. The separation is the point: range is a property of the key the
+ * arrangement is published in, so a low score is a reason to transpose, not a
+ * verdict on the song.
+ *
+ * Higher is easier, matching every other number on the site, and the
+ * difficulty label is shown alongside so the direction is never ambiguous.
+ */
+const RANGE_TONE = (score: number): string => {
+  if (score >= 85) return 'bg-volt-700 text-white';
+  if (score >= 70) return 'bg-volt-500 text-white';
+  if (score >= 55) return 'bg-ochre-600 text-white';
+  if (score >= 40) return 'bg-flare-600 text-white';
+  return 'bg-flare-800 text-white';
+};
+
+export function RangeBlock({
+  score,
+  label,
+  lowest,
+  highest,
+  rangeKey,
+  note,
+  source,
+}: {
+  score: number | null | undefined;
+  label: string | null;
+  lowest: string | null;
+  highest: string | null;
+  rangeKey: string | null;
+  note: string | null;
+  source: string | null;
+}) {
+  if (score === null || score === undefined || !lowest || !highest) {
+    return (
+      <div className="border-2 border-indigo-600 bg-indigo-950 p-6">
+        <div className="eyebrow">Congregational range</div>
+        <p className="mt-3 text-lg font-bold text-bone-100">Not measured</p>
+        <p className="mt-2 text-sm leading-relaxed text-indigo-300">
+          {note ??
+            'No verified chart was available, so no range is published. A guessed range would be worse than none — a worship leader would act on it.'}
+        </p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="border-2 border-ink-900">
+      <div className={cn('flex items-center justify-between gap-4 px-5 py-4', RANGE_TONE(score))}>
+        <div>
+          <div className="text-[0.6875rem] font-bold uppercase tracking-[0.16em] text-white/70">
+            Congregational range
+          </div>
+          <div className="mt-1 text-xl font-extrabold uppercase tracking-tight">{label}</div>
+        </div>
+        <div className="text-right">
+          <div className="tnum text-4xl font-extrabold leading-none">{score}</div>
+          <div className="text-[0.625rem] font-semibold uppercase tracking-widest text-white/60">easier is higher</div>
+        </div>
+      </div>
+
+      <dl className="grid grid-cols-2 divide-x divide-line border-t-2 border-ink-900 bg-bone-50">
+        <div className="px-5 py-3">
+          <dt className="text-[0.625rem] font-bold uppercase tracking-[0.12em] text-ink-400">Melody spans</dt>
+          <dd className="tnum mt-1 text-lg font-bold text-ink-900">
+            {lowest} – {highest}
+          </dd>
+        </div>
+        <div className="px-5 py-3">
+          <dt className="text-[0.625rem] font-bold uppercase tracking-[0.12em] text-ink-400">Measured in</dt>
+          <dd className="mt-1 text-lg font-bold text-ink-900">{rangeKey ?? '—'}</dd>
+        </div>
+      </dl>
+
+      <p className="border-t border-line bg-bone-50 px-5 py-3 text-xs leading-relaxed text-ink-500">
+        {note ?? 'Measured from the published melody line.'}
+        {source && <span className="block mt-1 text-ink-400">Source: {source}</span>}
+        <span className="mt-1 block font-semibold text-ink-600">
+          Separate from song validity — transposing changes this, so it is a reason to change key, not a verdict on
+          the song.
+        </span>
+      </p>
+    </div>
+  );
+}
+
+/** Compact range chip for list rows. */
+export function RangePill({ score, lowest, highest }: { score: number | null; lowest: string | null; highest: string | null }) {
+  if (score === null || score === undefined || !lowest || !highest) return null;
+
+  return (
+    <span className="inline-flex items-center gap-1.5 bg-bone-200 px-2 py-1 text-[0.6875rem] font-bold uppercase tracking-wider text-ink-600">
+      <span className={cn('tnum px-1.5 py-0.5 text-white', RANGE_TONE(score))}>{score}</span>
+      {lowest}–{highest}
+    </span>
+  );
+}

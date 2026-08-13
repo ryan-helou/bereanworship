@@ -270,6 +270,24 @@ model Song {
   recommendation   Recommendation?
   summary          String?         @db.Text
 
+  // --- Vocal range ---
+  /// Congregational range difficulty, 0-100, higher is easier to sing.
+  /// Reported separately and never folded into overallScore: range is a
+  /// property of the key an arrangement is published in, not of the song, and
+  /// transposing changes it. Null means not measured — never estimated.
+  rangeScore         Int?
+  /// Lowest and highest melody notes in scientific pitch notation, e.g. "A3".
+  rangeLowest        String?
+  rangeHighest       String?
+  /// Where the melody mostly sits, which matters more than the extremes.
+  rangeTessituraLow  String?
+  rangeTessituraHigh String?
+  /// Key the measurement was taken in — the numbers only mean anything with it.
+  rangeKey           String?
+  /// Where the pitches were read from (chart, lead sheet, hymnal).
+  rangeSource        String?
+  rangeNote          String?      @db.Text
+
   reviewStatus       ReviewStatus @default(UNREVIEWED)
   reviewVersion      String?
   scoringVersion     String?
@@ -304,6 +322,7 @@ model Song {
   @@index([theologicalScore])
   @@index([communalScore])
   @@index([clarityScore])
+  @@index([rangeScore])
   @@index([reviewStatus])
   @@index([recommendation])
   @@index([reviewedAt])

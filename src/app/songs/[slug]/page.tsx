@@ -4,8 +4,8 @@ import { notFound } from 'next/navigation';
 import { prisma } from '@/lib/db';
 import { env, SITE_NAME } from '@/lib/env';
 import { formatDate, hostname, humanize } from '@/lib/utils';
-import { RECOMMENDATION_LABEL, SONG_WEIGHTS, scoreLabel } from '@/lib/scoring';
-import { RecommendationCallout, ScoreBar, ScoreBlock, ScorePill } from '@/components/score';
+import { RECOMMENDATION_LABEL, SONG_WEIGHTS, rangeLabel, scoreLabel } from '@/lib/scoring';
+import { RangeBlock, RecommendationCallout, ScoreBar, ScoreBlock, ScorePill } from '@/components/score';
 import { FindingGroup, SongFindingItem } from '@/components/findings';
 import { Badge, DataRow, Panel, SampleDataNotice, isSample } from '@/components/ui';
 
@@ -166,8 +166,17 @@ export default async function SongPage({ params }: { params: Params }) {
                 </div>
               </div>
 
-              <div className="lg:sticky lg:top-28 lg:self-start">
+              <div className="space-y-6 lg:sticky lg:top-28 lg:self-start">
                 <ScoreBlock score={song.overallScore} label="Song validity" />
+                <RangeBlock
+                  score={song.rangeScore}
+                  label={rangeLabel(song.rangeScore)}
+                  lowest={song.rangeLowest}
+                  highest={song.rangeHighest}
+                  rangeKey={song.rangeKey}
+                  note={song.rangeNote}
+                  source={song.rangeSource}
+                />
               </div>
             </div>
           </div>
@@ -336,6 +345,11 @@ export default async function SongPage({ params }: { params: Params }) {
                   {song.releaseYear && <DataRow label="Released">{song.releaseYear}</DataRow>}
                   {song.genre && <DataRow label="Genre">{song.genre}</DataRow>}
                   {song.ccliNumber && <DataRow label="CCLI">{song.ccliNumber}</DataRow>}
+                  <DataRow label="Range">
+                    {song.rangeScore !== null && song.rangeLowest
+                      ? `${song.rangeLowest}–${song.rangeHighest} · ${song.rangeScore}/100 ${rangeLabel(song.rangeScore)}`
+                      : 'Not measured'}
+                  </DataRow>
                   <DataRow label="Recommendation">
                     {song.recommendation ? RECOMMENDATION_LABEL[song.recommendation] : '—'}
                   </DataRow>

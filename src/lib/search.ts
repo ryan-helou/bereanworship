@@ -29,7 +29,8 @@ export type SongSort =
   | 'title_asc'
   | 'title_desc'
   | 'newest'
-  | 'oldest';
+  | 'oldest'
+  | 'range_easiest';
 
 export interface SongQuery {
   q?: string;
@@ -45,6 +46,8 @@ export interface SongQuery {
   minTheological?: number;
   minCommunal?: number;
   minClarity?: number;
+  /** Only songs whose measured range is at least this accessible. */
+  minRange?: number;
 }
 
 export interface SongListItem {
@@ -60,6 +63,9 @@ export interface SongListItem {
   clarityScore: number | null;
   recommendation: Recommendation | null;
   reviewedAt: Date | null;
+  rangeScore: number | null;
+  rangeLowest: string | null;
+  rangeHighest: string | null;
   artist: { displayName: string; slug: string; overallScore: number | null };
   themes: string[];
 }
@@ -118,6 +124,9 @@ export async function searchSongs(query: SongQuery): Promise<Paged<SongListItem>
   if (query.minTheological !== undefined) conditions.push(Prisma.sql`s."theologicalScore" >= ${query.minTheological}`);
   if (query.minCommunal !== undefined) conditions.push(Prisma.sql`s."communalScore" >= ${query.minCommunal}`);
   if (query.minClarity !== undefined) conditions.push(Prisma.sql`s."clarityScore" >= ${query.minClarity}`);
+  // Only filters songs whose range was actually measured; an unmeasured song
+  // is neither silently included nor silently excluded.
+  if (query.minRange !== undefined) conditions.push(Prisma.sql`s."rangeScore" >= ${query.minRange}`);
   if (query.recommendation) {
     conditions.push(Prisma.sql`s."recommendation" = ${query.recommendation}::"Recommendation"`);
   }
@@ -186,6 +195,8 @@ function orderClause(sort: SongSort, hasTerm: boolean): Prisma.Sql {
       return Prisma.sql`s."reviewedAt" DESC NULLS LAST, s."displayTitle" ASC`;
     case 'oldest':
       return Prisma.sql`s."reviewedAt" ASC NULLS LAST, s."displayTitle" ASC`;
+    case 'range_easiest':
+      return Prisma.sql`s."rangeScore" DESC NULLS LAST, s."displayTitle" ASC`;
     case 'relevance':
     default:
       return hasTerm
@@ -213,6 +224,9 @@ async function hydrateSongs(ids: string[]): Promise<SongListItem[]> {
       clarityScore: true,
       recommendation: true,
       reviewedAt: true,
+      rangeScore: true,
+      rangeLowest: true,
+      rangeHighest: true,
       artist: { select: { displayName: true, slug: true, overallScore: true } },
       themes: { select: { theme: { select: { name: true } } } },
     },
@@ -235,6 +249,9 @@ async function hydrateSongs(ids: string[]): Promise<SongListItem[]> {
       clarityScore: s.clarityScore,
       recommendation: s.recommendation,
       reviewedAt: s.reviewedAt,
+      rangeScore: s.rangeScore,
+      rangeLowest: s.rangeLowest,
+      rangeHighest: s.rangeHighest,
       artist: s.artist,
       themes: s.themes.map((t) => t.theme.name),
     }));

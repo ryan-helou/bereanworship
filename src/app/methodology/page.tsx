@@ -15,6 +15,11 @@ import {
   SEVERITY_CEILING,
   SONG_WEIGHTS,
   STRENGTH_CREDIT,
+  RANGE_BANDS,
+  CONGREGATIONAL_LOW,
+  CONGREGATIONAL_HIGH,
+  COMFORTABLE_SPAN,
+  midiToNote,
 } from '@/lib/scoring';
 
 export const metadata: Metadata = {
@@ -315,6 +320,80 @@ export default function MethodologyPage() {
             metaphor, and a striking image often communicates better than plain statement. A vivid metaphor that lands
             is recorded as a strength. Nor is mystery treated as vagueness: a song may rightly describe the incarnation
             rather than explain it.
+          </p>
+        </Section>
+
+
+        <Section id="range" title="Congregational range">
+          <p>
+            Every reviewed song can also carry a <strong className="font-semibold text-ink-900">range score</strong> —
+            how hard it is for an ordinary congregation to sing, judged on the melody’s actual pitches.
+            Higher is easier, matching every other number here, and the difficulty label is always shown
+            beside it.
+          </p>
+
+          <div className="my-8 border-2 border-ink-900 bg-volt-500 p-7 text-white [&_h3]:text-white [&_p]:text-white">
+            <h3 className="text-base font-bold">It is not part of song validity</h3>
+            <p className="mt-2 text-[0.9375rem] leading-relaxed">
+              Range is a property of the key an arrangement is published in, not of the song. Transpose down a
+              tone and the same song becomes singable. Folding that into a permanent verdict would be a category
+              error — and would mean a doctrinally excellent hymn scored badly for a decision a worship leader
+              can simply make differently. So it sits alongside the score, never inside it.
+            </p>
+          </div>
+
+          <p>
+            The score starts at 100 and deducts from the measured pitches. The comfortable congregational band is
+            taken as <strong className="font-semibold text-ink-900">{midiToNote(CONGREGATIONAL_LOW)} to{' '}
+            {midiToNote(CONGREGATIONAL_HIGH)}</strong>, with a span of about {COMFORTABLE_SPAN} semitones — an
+            octave — costing nothing.
+          </p>
+
+          <ul className="my-5 space-y-2.5 pl-5">
+            <li className="list-disc text-[0.9375rem] leading-relaxed text-ink-700">
+              Each semitone wider than an octave: <strong className="font-semibold">−3</strong>.
+            </li>
+            <li className="list-disc text-[0.9375rem] leading-relaxed text-ink-700">
+              Each semitone above {midiToNote(CONGREGATIONAL_HIGH)}: <strong className="font-semibold">−6</strong>{' '}
+              — the heaviest penalty, because this is where a congregation stops singing rather than strains.
+            </li>
+            <li className="list-disc text-[0.9375rem] leading-relaxed text-ink-700">
+              Each semitone below {midiToNote(CONGREGATIONAL_LOW)}: <strong className="font-semibold">−4</strong>{' '}
+              — less costly, since people drop quiet rather than silent.
+            </li>
+            <li className="list-disc text-[0.9375rem] leading-relaxed text-ink-700">
+              Each semitone the melody <em>sits</em> above C5: <strong className="font-semibold">−4</strong> —
+              sustained height is harder than touching a high note once.
+            </li>
+          </ul>
+
+          <div className="my-8 overflow-x-auto border-2 border-ink-900">
+            <table className="w-full text-sm">
+              <thead className="bg-indigo-900 text-bone-100">
+                <tr>
+                  <th scope="col" className="px-4 py-2.5 text-left font-bold uppercase tracking-wider">Range</th>
+                  <th scope="col" className="px-4 py-2.5 text-left font-bold uppercase tracking-wider">Difficulty</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-line">
+                {RANGE_BANDS.map((band) => (
+                  <tr key={band.label}>
+                    <td className="px-4 py-2.5 tnum text-ink-600">
+                      {band.min}–{band.max}
+                    </td>
+                    <td className="px-4 py-2.5 font-medium text-ink-900">{band.label}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <h3 className="mt-8 text-lg font-semibold text-ink-900">Measured, never estimated</h3>
+          <p>
+            A range is only published when the pitches have been read off a chart, lead sheet or score. There is
+            no fallback estimate from a recording or a key signature, because a worship leader would act on the
+            number — and a guessed range is worse than an honest blank. Songs without verified notation show
+            “Not measured” and say why.
           </p>
         </Section>
 

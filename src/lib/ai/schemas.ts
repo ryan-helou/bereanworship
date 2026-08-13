@@ -202,11 +202,45 @@ export const TheologicalAnalysisSchema = z.object({
 });
 export type TheologicalAnalysis = z.infer<typeof TheologicalAnalysisSchema>;
 
+/**
+ * Measured vocal range.
+ *
+ * There is no estimate path on purpose. A guessed range is worse than a blank,
+ * because a worship leader would act on it — so `measured` must be true and
+ * the pitches must come off an actual chart, lead sheet or hymnal. If you have
+ * not seen the notation, set measured=false and leave the pitches null.
+ */
+export const VocalRangeSchema = z.object({
+  measured: z
+    .boolean()
+    .describe('True only if you have read these pitches off a chart, lead sheet or score. Never estimate.'),
+  lowestNote: z
+    .string()
+    .max(6)
+    .nullable()
+    .optional()
+    .describe('Lowest melody note in scientific pitch notation, e.g. "A3". Middle C is C4.'),
+  highestNote: z.string().max(6).nullable().optional().describe('Highest melody note, e.g. "D5".'),
+  tessituraLow: z.string().max(6).nullable().optional().describe('Where the melody mostly sits, low end.'),
+  tessituraHigh: z.string().max(6).nullable().optional().describe('Where the melody mostly sits, high end.'),
+  key: z
+    .string()
+    .max(60)
+    .nullable()
+    .optional()
+    .describe('Key the measurement was taken in — the pitches mean nothing without it. May note alternates, e.g. "F (original); also in E".'),
+  source: z.string().max(200).nullable().optional().describe('Where the notation was read: publisher, chart or hymnal.'),
+  note: z.string().max(MAX_RATIONALE_CHARS).nullable().optional(),
+});
+export type VocalRange = z.infer<typeof VocalRangeSchema>;
+
 export const CommunalAnalysisSchema = z.object({
   strengths: z.array(StrengthSchema).max(10),
   concerns: z.array(ConcernSchema).max(10),
   singability: z.enum(['EASY', 'MODERATE', 'DIFFICULT', 'VERY_DIFFICULT', 'UNKNOWN']).default('UNKNOWN'),
   vocalRangeNote: z.string().max(MAX_RATIONALE_CHARS).nullable().optional(),
+  /** Measured pitches. Omit entirely rather than guessing. */
+  range: VocalRangeSchema.optional().nullable(),
   repetitionAssessment: z
     .string()
     .max(MAX_RATIONALE_CHARS)

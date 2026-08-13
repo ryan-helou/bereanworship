@@ -419,3 +419,186 @@ export function severityLabel(type: FindingType, severity: Severity): string {
 function round2(value: number): number {
   return Math.round(value * 100) / 100;
 }
+
+// ---------------------------------------------------------------------------
+// Vocal range
+// ---------------------------------------------------------------------------
+
+/**
+ * Congregational range difficulty, scored 0-100 from measured pitches.
+ *
+ * Reported separately from song validity and deliberately NOT folded into it.
+ * The reason is that range is not a property of the song — it is a property of
+ * the key you play it in. Transpose down a tone and the same song becomes
+ * singable. Baking that into a permanent theological verdict would be a
+ * category error, and would also mean a doctrinally excellent hymn scored
+ * badly for a decision the worship leader can simply make differently.
+ *
+ * Direction: higher is EASIER, so it reads the same way as every other number
+ * on the site. The difficulty band is shown alongside it so the figure is not
+ * ambiguous.
+ *
+ * Only ever computed from measured pitches taken off a chart or score. There
+ * is no estimate path: an unmeasured song reports null and says so.
+ */
+
+/** Below this, untrained voices lose power and drop out. */
+export const CONGREGATIONAL_LOW = 57; // A3
+/** Above this, most mixed congregations strain or stop singing. */
+export const CONGREGATIONAL_HIGH = 74; // D5
+/** Sustained singing above this tires a congregation even when reachable. */
+export const TESSITURA_CEILING = 72; // C5
+/** A span most people can manage without thinking about it. */
+export const COMFORTABLE_SPAN = 12; // one octave
+
+const PENALTY_PER_SEMITONE = {
+  /** A wide song is harder even when it sits in a good place. */
+  span: 3,
+  /** Notes above the ceiling cost most — this is where singing stops. */
+  aboveHigh: 6,
+  /** Low notes cost less: people drop an octave or go quiet, not silent. */
+  belowLow: 4,
+  /** Sitting high is worse than touching high once. */
+  tessitura: 4,
+} as const;
+
+const NOTE_SEMITONES: Record<string, number> = { C: 0, D: 2, E: 4, F: 5, G: 7, A: 9, B: 11 };
+
+/**
+ * Scientific pitch notation to MIDI number. C4 is middle C (60).
+ * Accepts sharps and flats, ASCII or Unicode. Returns null if unparseable —
+ * bad data must not silently become a score.
+ */
+export function noteToMidi(note: string | null | undefined): number | null {
+  if (!note) return null;
+  const match = /^\s*([A-Ga-g])\s*([#b♯♭]?)\s*(-?\d{1,2})\s*$/.exec(note);
+  if (!match) return null;
+
+  const base = NOTE_SEMITONES[match[1].toUpperCase()];
+  if (base === undefined) return null;
+
+  const accidental = match[2] === '#' || match[2] === '♯' ? 1 : match[2] === 'b' || match[2] === '♭' ? -1 : 0;
+  const octave = Number.parseInt(match[3], 10);
+  const midi = 12 * (octave + 1) + base + accidental;
+
+  return midi >= 0 && midi <= 127 ? midi : null;
+}
+
+/**
+ * Tidies a pitch for display without changing its spelling.
+ *
+ * Deliberately does NOT round-trip through MIDI. Bb and A# are the same pitch
+ * but not the same note: a song in Eb is written with Bb and Eb, and showing a
+ * musician "A#3-D#5" for it looks wrong even though it sounds identical. The
+ * MIDI value does the scoring; the measured spelling does the displaying.
+ */
+export function tidyNote(note: string): string {
+  return note
+    .trim()
+    .replace(/\s+/g, '')
+    .replace(/♯/g, '#')
+    .replace(/♭/g, 'b')
+    .replace(/^([a-g])/, (m) => m.toUpperCase());
+}
+
+export function midiToNote(midi: number): string {
+  const names = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
+  return `${names[((midi % 12) + 12) % 12]}${Math.floor(midi / 12) - 1}`;
+}
+
+export interface VocalRangeInput {
+  /** Lowest melody note, scientific pitch notation, e.g. "A3". */
+  lowest: string | null | undefined;
+  /** Highest melody note, e.g. "D5". */
+  highest: string | null | undefined;
+  /** Optional: where the melody mostly sits, which matters more than extremes. */
+  tessituraLow?: string | null;
+  tessituraHigh?: string | null;
+}
+
+export interface VocalRangeResult {
+  score: number;
+  label: string;
+  /** Semitones from lowest to highest. */
+  span: number;
+  lowest: string;
+  highest: string;
+  /** Signed deductions, so the number is auditable like every other score. */
+  deductions: Array<{ reason: string; points: number }>;
+}
+
+export const RANGE_BANDS = [
+  { min: 85, max: 100, label: 'Easy' },
+  { min: 70, max: 84, label: 'Comfortable' },
+  { min: 55, max: 69, label: 'Demanding' },
+  { min: 40, max: 54, label: 'Difficult' },
+  { min: 0, max: 39, label: 'Very difficult' },
+] as const;
+
+export function rangeLabel(score: number | null | undefined): string | null {
+  if (score === null || score === undefined) return null;
+  const s = clampScore(score);
+  return (RANGE_BANDS.find((b) => s >= b.min && s <= b.max) ?? RANGE_BANDS[RANGE_BANDS.length - 1]).label;
+}
+
+/**
+ * Returns null when the pitches are missing or unparseable. There is
+ * deliberately no fallback estimate: a guessed range is worse than an honest
+ * blank, because a worship leader would act on it.
+ */
+export function scoreVocalRange(input: VocalRangeInput): VocalRangeResult | null {
+  const low = noteToMidi(input.lowest);
+  const high = noteToMidi(input.highest);
+  if (low === null || high === null || high < low) return null;
+
+  const span = high - low;
+  const deductions: Array<{ reason: string; points: number }> = [];
+
+  const spanExcess = Math.max(0, span - COMFORTABLE_SPAN);
+  if (spanExcess > 0) {
+    deductions.push({
+      reason: `${spanExcess} semitone${spanExcess === 1 ? '' : 's'} wider than an octave`,
+      points: spanExcess * PENALTY_PER_SEMITONE.span,
+    });
+  }
+
+  const aboveHigh = Math.max(0, high - CONGREGATIONAL_HIGH);
+  if (aboveHigh > 0) {
+    deductions.push({
+      reason: `reaches ${aboveHigh} semitone${aboveHigh === 1 ? '' : 's'} above ${midiToNote(CONGREGATIONAL_HIGH)}`,
+      points: aboveHigh * PENALTY_PER_SEMITONE.aboveHigh,
+    });
+  }
+
+  const belowLow = Math.max(0, CONGREGATIONAL_LOW - low);
+  if (belowLow > 0) {
+    deductions.push({
+      reason: `drops ${belowLow} semitone${belowLow === 1 ? '' : 's'} below ${midiToNote(CONGREGATIONAL_LOW)}`,
+      points: belowLow * PENALTY_PER_SEMITONE.belowLow,
+    });
+  }
+
+  const tessHigh = noteToMidi(input.tessituraHigh);
+  if (tessHigh !== null) {
+    const excess = Math.max(0, tessHigh - TESSITURA_CEILING);
+    if (excess > 0) {
+      deductions.push({
+        reason: `melody sits ${excess} semitone${excess === 1 ? '' : 's'} above ${midiToNote(TESSITURA_CEILING)}`,
+        points: excess * PENALTY_PER_SEMITONE.tessitura,
+      });
+    }
+  }
+
+  const score = Math.round(clampScore(100 - deductions.reduce((sum, d) => sum + d.points, 0)));
+
+  return {
+    score,
+    label: rangeLabel(score)!,
+    span,
+    // Echo the measured spelling rather than re-deriving from MIDI, so a song
+    // in a flat key is not displayed in sharps.
+    lowest: tidyNote(input.lowest!),
+    highest: tidyNote(input.highest!),
+    deductions,
+  };
+}

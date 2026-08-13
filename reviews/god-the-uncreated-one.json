@@ -1,6 +1,5 @@
 {
   "kind": "song",
-
   "identification": {
     "resolved": true,
     "confidence": "HIGH",
@@ -13,7 +12,6 @@
     "isPublicDomain": false,
     "notes": "Words and music by Aaron Keyes and Pete James. CCLI 7057478. Copyright 2016 to 10000 Fathers, Common Hymnal Publishing, Thankyou Music and Getty Music Hymns and Songs. Credited to Aaron Keyes as the artist whose recording carried it into congregational use."
   },
-
   "claims": {
     "lyricsAvailable": true,
     "perspective": "MIXED",
@@ -148,7 +146,6 @@
       }
     ]
   },
-
   "theological": {
     "assessment": "Unusually substantial for a contemporary song: aseity, creation, providence, immutability, incarnation, substitution, resurrection and reign, all orthodox and none muddled. Its limits are scope rather than accuracy — human sin is assumed and the Spirit is absent.",
     "doctrinesAffirmed": [
@@ -266,7 +263,6 @@
       }
     ]
   },
-
   "communal": {
     "assessment": "Built for a congregation: strophic, one repeated refrain shape, and a voice that moves from declaration to address. Length invites cutting. The vocal range was not independently verified — published in E and F, so check the tessitura locally before introducing it.",
     "singability": "UNKNOWN",
@@ -318,9 +314,18 @@
         "scriptureExcerpt": null,
         "scriptureRationale": null
       }
-    ]
+    ],
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "F (original); also in E",
+      "source": null,
+      "note": "No chart was available to read the melody from. PraiseCharts lists F as the original key with an E arrangement, but does not state the pitches."
+    }
   },
-
   "clarity": {
     "assessment": "Clear despite the doctrinal density: concrete biblical imagery, contemporary diction, almost no archaism. Two small frictions worth a sentence of introduction the first time a congregation meets it.",
     "ambiguityLevel": "LOW",
@@ -383,10 +388,17 @@
       }
     ]
   },
-
   "synthesis": {
     "summary": "A doctrinally dense modern hymn that runs from God's self-existence through creation, providence, the incarnation, a plainly substitutionary cross and Christ's unending reign — never changing subject along the way. Sin is implied rather than named, so it sits best alongside a song of confession. Weighty content, unusually easy to sing.",
-    "themes": ["God", "Christ", "Sovereignty", "Providence", "Creation", "Cross", "Resurrection"],
+    "themes": [
+      "God",
+      "Christ",
+      "Sovereignty",
+      "Providence",
+      "Creation",
+      "Cross",
+      "Resurrection"
+    ],
     "scriptureReferences": [
       {
         "reference": "Acts 17:24-25",
@@ -440,7 +452,6 @@
       }
     ]
   },
-
   "sources": [
     "https://commonhymnal.com/songs/god-the-uncreated-one-king-forevermore",
     "https://lyricstranslate.com/en/aaron-keyes-god-uncreated-one-lyrics.html",
