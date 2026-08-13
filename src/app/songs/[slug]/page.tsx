@@ -213,7 +213,7 @@ export default async function SongPage({ params }: { params: Params }) {
           <section className="mt-16 border-t border-line pt-10">
             <h2 className="text-xl font-semibold tracking-tight">Scripture</h2>
             <p className="mt-1.5 text-sm text-ink-500">
-              Passages that bear on this song's content. Quotations are from the ESV and kept brief — the reasoning
+              Passages that bear on this song’s content. Quotations are from the ESV and kept brief — the reasoning
               matters more than the quoted text.
             </p>
 
@@ -263,7 +263,7 @@ export default async function SongPage({ params }: { params: Params }) {
             {/* The single most important clarification on the page. */}
             <p className="mt-5 rounded-lg border border-brand-100 bg-brand-50 px-4 py-3 text-sm leading-relaxed text-brand-900">
               <span className="font-semibold">Artist validity is independent of song validity.</span> It does not affect
-              this song's score in any way. A theologically troubled ministry can write a doctrinally excellent song, and
+              this song’s score in any way. A theologically troubled ministry can write a doctrinally excellent song, and
               a sound one can write a careless song — so the two are evaluated, and scored, entirely separately.
             </p>
           </div>

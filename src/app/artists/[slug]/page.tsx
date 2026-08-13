@@ -151,7 +151,7 @@ export default async function ArtistPage({ params }: { params: Params }) {
             <div className="mt-6 rounded-xl border border-dashed border-line-strong bg-surface-50 px-5 py-6">
               <h2 className="text-base font-semibold text-ink-800">Artist research not yet published</h2>
               <p className="mt-2 text-sm leading-relaxed text-ink-500">
-                This artist's songs have been reviewed, but their own theological assessment has not been completed.
+                This artist’s songs have been reviewed, but their own theological assessment has not been completed.
                 Song scores do not depend on it — the songs below are scored entirely on their own content.
               </p>
             </div>
@@ -223,7 +223,7 @@ export default async function ArtistPage({ params }: { params: Params }) {
           <div>
             <h2 className="text-xl font-semibold tracking-tight">Songs by {artist.displayName}</h2>
             <p className="mt-1.5 text-sm text-ink-500">
-              Each scored on its own content. This artist's rating plays no part in these numbers.
+              Each scored on its own content. This artist’s rating plays no part in these numbers.
             </p>
           </div>
           {songs.total > 0 && (

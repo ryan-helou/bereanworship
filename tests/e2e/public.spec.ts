@@ -111,7 +111,7 @@ test.describe('song detail', () => {
     await page.goto('/songs/amazing-grace-john-newton');
 
     await expect(page.getByText('Artist validity is independent of song validity.')).toBeVisible();
-    await expect(page.getByText(/does not affect this song's score/)).toBeVisible();
+    await expect(page.getByText(/does not affect this song['’]s score/)).toBeVisible();
   });
 
   test('discloses that seeded records are sample data', async ({ page }) => {
@@ -151,7 +151,7 @@ test.describe('artist detail', () => {
 
   test('repeats the independence disclaimer on the artist page', async ({ page }) => {
     await page.goto('/artists/john-newton');
-    await expect(page.getByText(/Never affects any song's score/)).toBeVisible();
+    await expect(page.getByText(/Never affects any song['’]s score/)).toBeVisible();
   });
 
   test('surfaces contested evidence rather than hiding it', async ({ page }) => {

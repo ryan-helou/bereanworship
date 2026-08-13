@@ -53,7 +53,7 @@ export default function MethodologyPage() {
           </blockquote>
 
           <p>
-            The Bereans are commended not for scepticism but for care. They received Paul's teaching eagerly — and
+            The Bereans are commended not for scepticism but for care. They received Paul’s teaching eagerly — and
             checked it against Scripture anyway. Eagerness and examination belonged together.
           </p>
           <p>
@@ -353,9 +353,9 @@ export default function MethodologyPage() {
           <div className="my-6 rounded-xl border border-brand-100 bg-brand-50 p-5">
             <h3 className="text-base font-semibold text-brand-900">The two scores never touch</h3>
             <p className="mt-2 text-[0.9375rem] leading-relaxed text-brand-900">
-              An artist's score contributes nothing — positively or negatively — to any song's score. No points are
+              An artist’s score contributes nothing — positively or negatively — to any song’s score. No points are
               deducted from a song because its artist scores poorly, and none are added because its artist scores well.
-              The analysis stages that produce a song's theological score are not even told who the artist is.
+              The analysis stages that produce a song’s theological score are not even told who the artist is.
             </p>
             <p className="mt-3 text-[0.9375rem] leading-relaxed text-brand-900">
               This is deliberate. A theologically troubled ministry can write a doctrinally excellent song, and a sound
@@ -366,7 +366,7 @@ export default function MethodologyPage() {
           <h3 className="mt-8 text-lg font-semibold text-ink-900">What counts, and what does not</h3>
           <p>
             Concerns are genuine doctrinal error: a distorted gospel, prosperity teaching, denial of essentials,
-            seriously problematic Christology, teaching that undermines the sufficiency of Scripture or of Christ's
+            seriously problematic Christology, teaching that undermines the sufficiency of Scripture or of Christ’s
             work — along with formal affiliation with movements that teach these things.
           </p>
           <p>
@@ -492,7 +492,7 @@ export default function MethodologyPage() {
             findings always produce the same number.
           </p>
           <p>
-            If a song's lyrics cannot be established reliably, no review is produced at all. An analysis of guessed
+            If a song’s lyrics cannot be established reliably, no review is produced at all. An analysis of guessed
             lyrics would be worse than no analysis.
           </p>
 
@@ -505,7 +505,7 @@ export default function MethodologyPage() {
           <h3 className="mt-8 text-lg font-semibold text-ink-900">Versioning</h3>
           <p>
             Reviews carry a version (currently scoring v{SCORING_VERSION}, methodology v{METHODOLOGY_VERSION}) and are
-            never silently overwritten. A re-review archives the previous version, which stays visible on the song's
+            never silently overwritten. A re-review archives the previous version, which stays visible on the song’s
             page.
           </p>
         </Section>
@@ -533,7 +533,7 @@ export default function MethodologyPage() {
               meaningfully different. The findings carry more information than the score does — read them.
             </li>
             <li className="list-disc text-[0.9375rem] leading-relaxed text-ink-600">
-              <strong className="font-semibold text-ink-900">Context is not captured.</strong> A song's suitability
+              <strong className="font-semibold text-ink-900">Context is not captured.</strong> A song’s suitability
               depends on a congregation, an arrangement and a moment in a service. No database knows your church.
             </li>
             <li className="list-disc text-[0.9375rem] leading-relaxed text-ink-600">
