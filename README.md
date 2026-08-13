@@ -79,20 +79,35 @@ The site is at http://localhost:3000, the admin at `/admin/login`.
 
 `--sample` seeds a small development dataset. Those reviews are **hand-written illustrations, not pipeline research**, and the interface says so: every seeded record carries the review version `sample-v1.0` and renders a visible "Sample data" notice. Omit the flag to seed only the theme vocabulary.
 
-### Running reviews
+### Producing reviews
 
-The review pipeline needs an Anthropic API key. Without one the site runs read-only — browsing works, imports queue successfully, and review jobs fail fast with a clear "AI provider not configured" error rather than a mystery.
+There are two ways to produce a review, and they end up identical in the
+database.
+
+**By hand.** A researcher does the reading and writes the findings; the site
+publishes them at **Admin → Publish a review**, or via
+`npx tsx scripts/apply-review.ts reviews/some-song.json`. This needs no API
+key. It is not a shortcut around the methodology: the payload is validated by
+the same Zod schemas the pipeline stages use (so the ten-word lyric cap still
+applies), scored by the same deterministic engine, and saved through the same
+versioned path. **You cannot supply a score — the payload has no field for
+one.**
+
+**By the worker.** Set an Anthropic API key and run the worker; it drains the
+queue automatically.
 
 ```bash
 # .env
 ANTHROPIC_API_KEY="sk-ant-..."
 ```
 
-Then run the worker in a second terminal:
-
 ```bash
 npm run worker
 ```
+
+Without a key the site is fully browsable and imports still queue — queued jobs
+simply fail fast with a clear "AI provider not configured" message rather than
+a mystery.
 
 ## Commands
 
@@ -111,6 +126,8 @@ npm run worker
 | `npm run db:seed -- --sample` | Seed themes and the sample dataset |
 | `npm run db:ensure-indexes` | Recreate the raw-SQL search indexes and triggers |
 | `npm run admin:hash -- 'password'` | Generate an `ADMIN_PASSWORD_HASH` |
+| `node scripts/apply-review.ts <file>` | Publish a hand-researched review |
+| `node scripts/purge-data.mjs --all` | Clear the catalogue (themes are kept) |
 | `npm run release` | Deploy step: migrate, ensure indexes, seed themes |
 
 ## Tests
@@ -123,6 +140,15 @@ npm run test:e2e  # 68 end-to-end, desktop + WebKit mobile
 ```
 
 Unit tests cover the scoring engine exhaustively (weighting, severity penalties, centrality and recurrence multipliers, ceilings, recommendation thresholds, band coverage), title and artist normalisation, import parsing, the copyright word-limit, and password hashing. Integration tests run against a real Postgres instance, because the search layer is raw SQL with `tsvector` and `pg_trgm` and a mocked database would test nothing that matters. End-to-end tests run against a production build and cover the public site, the admin area, access control, and the mobile layout on WebKit.
+
+## Design
+
+Full-bleed indigo and bone bands rather than cards on white; electric blue as
+the affirming accent, warm red for concern; oversized tightly-tracked sans
+headlines against serif reading text; hard edges throughout — the radius scale
+is flattened to zero at the token level, so nothing rounds. A score is not a
+figure in the corner: it fills a block of colour, and the colour carries the
+verdict before a word is read.
 
 ## Stack
 

@@ -152,8 +152,29 @@ Failed jobs can be retried individually or in bulk from the queue. Retries never
 - [ ] A custom domain attached, if wanted (`railway domain --service web`)
 - [ ] Repository visibility reviewed — it is currently **private**
 
+## Publishing a review without an API key
+
+The deployment runs deliberately without `ANTHROPIC_API_KEY`. Reviews are
+produced by a researcher and published through **Admin → Publish a review**,
+which accepts a JSON payload of findings.
+
+That path is not a back door. The payload goes through the same Zod schemas
+the automated pipeline stages use, the same deterministic scoring engine, and
+the same versioned persistence — and there is no field in which to put a
+score, because scores are computed from findings. A manually researched song
+is indistinguishable from a pipeline one in the database, which is correct:
+only the researcher differs.
+
+The same page carries an audited catalogue purge, behind a typed confirmation.
+A production deployment accumulates test imports, and a supported way to clear
+them beats reaching for psql — particularly here, where the database is on a
+private network with no shell access.
+
 ## Current state
 
-The deployment is live and verified end to end: public pages, search, the request form, admin authentication, bulk import with duplicate detection, and the queue.
+Live and verified end to end: public pages, search, the request form, admin
+authentication, bulk import with duplicate detection, the queue, and manual
+review publishing.
 
-`ANTHROPIC_API_KEY` is **not** set, so no reviews have been produced. The production database contains the theme vocabulary and the songs queued by a smoke test; those jobs sit in `NEEDS_REVIEW` with the message *"AI provider not configured. Set ANTHROPIC_API_KEY to run reviews."* Setting the key on the worker and retrying them from the queue is all that is needed to begin producing reviews.
+The catalogue has been cleared. `ANTHROPIC_API_KEY` is not set and the worker
+is idle by design.

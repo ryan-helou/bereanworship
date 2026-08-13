@@ -124,6 +124,24 @@ Seven stages, each with one job, its own prompt, and its own Zod schema. Structu
 
 Details and the full text of the bias controls are in [RESEARCH.md](RESEARCH.md).
 
+## Two ways to produce a review
+
+The worker is one producer of findings; a researcher is another. Both converge
+on `src/lib/manual-review.ts` → `saveSongReview`, so the database cannot tell
+them apart — and should not, since the methodology applied is identical:
+
+| | Worker | Researcher |
+|---|---|---|
+| Validation | Pipeline Zod schemas | **Same schemas** |
+| Scoring | `scoring.ts` | **Same engine** |
+| Persistence | `saveSongReview` | **Same function** |
+| Versioning / history | Yes | Yes |
+| Can supply a score | No | No — no field exists |
+
+The manual path exists because it is genuinely useful (and because it makes
+production writes possible without handing anyone database credentials), not
+as a way around the rules.
+
 ## Security
 
 | Concern | Approach |
