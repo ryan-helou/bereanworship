@@ -344,7 +344,18 @@ model SongFinding {
   title      String
   explanation String     @db.Text
 
-  /// Very short lyric excerpt (hard-capped at 10 words by the validator).
+  /// Where in the song this finding comes from — CHORUS, VERSE_2, WHOLE_SONG,
+  /// NOT_LYRICAL and so on. Required of every finding: it is what keeps a
+  /// finding checkable when the review's quotation budget did not stretch to
+  /// showing the words. Stored as text rather than a DB enum because the
+  /// vocabulary grows (interludes, vamps, a fifth verse) and Zod is already
+  /// the gate that validates it.
+  songLocation   String  @default("UNKNOWN")
+  /// Optional pointer inside that section — "the second line". Never lyric text.
+  locationDetail String?
+
+  /// Very short lyric excerpt (hard-capped at 10 words by the validator, and
+  /// further rationed by the review-wide quotation budget).
   lyricExcerpt       String?
   scriptureReference String?
   scriptureExcerpt   String? @db.Text

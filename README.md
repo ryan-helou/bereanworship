@@ -88,8 +88,8 @@ database.
 publishes them at **Admin → Publish a review**, or via
 `npx tsx scripts/apply-review.ts reviews/some-song.json`. This needs no API
 key. It is not a shortcut around the methodology: the payload is validated by
-the same Zod schemas the pipeline stages use (so the ten-word lyric cap still
-applies), scored by the same deterministic engine, and saved through the same
+the same Zod schemas the pipeline stages use (so the ten-word lyric cap and the
+review-wide quotation budget both still apply), scored by the same deterministic engine, and saved through the same
 versioned path. **You cannot supply a score — the payload has no field for
 one.**
 

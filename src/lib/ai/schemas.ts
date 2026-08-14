@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { clampExcerpt, wordCount } from '../normalize';
+import { clampExcerpt, excerptsOverlap, wordCount } from '../normalize';
 
 /**
  * Structured contracts for every pipeline stage.
@@ -10,7 +10,24 @@ import { clampExcerpt, wordCount } from '../normalize';
  * being half-saved.
  */
 
+/**
+ * Quotation limits.
+ *
+ * A per-excerpt cap is necessary and not sufficient. The first published
+ * review obeyed the ten-word rule perfectly and still reproduced most of the
+ * hymn: thirty-nine individually-legal excerpts, 198 words, assembled into the
+ * song. Reconstruction from compliant fragments is the failure mode a
+ * per-field limit cannot see, because no field ever sees its siblings.
+ *
+ * So quotation is budgeted at the level of the whole review, not the finding.
+ * Claims are the working pool the later stages draw from; findings are what
+ * actually reaches the page, and carry the tighter budget.
+ */
 export const MAX_LYRIC_WORDS = 10;
+export const MAX_QUOTED_FINDINGS = 8;
+export const MAX_FINDING_LYRIC_WORDS = 60;
+export const MAX_QUOTED_CLAIMS = 10;
+export const MAX_CLAIM_LYRIC_WORDS = 70;
 export const MAX_SCRIPTURE_WORDS = 45;
 
 /**
@@ -78,6 +95,54 @@ const scriptureExcerpt = z
   .optional()
   .nullable();
 
+/**
+ * Where in the song a finding comes from.
+ *
+ * This is what makes a finding checkable when it is not quoting. A reader with
+ * the lyrics in front of them can go to the named spot and judge the reviewer
+ * for themselves — which is the whole purpose a quote was serving, achieved
+ * without reprinting the song.
+ *
+ * `VERSE` (unnumbered) is retained so earlier payloads still validate.
+ */
+export const SONG_LOCATIONS = [
+  'VERSE',
+  'VERSE_1',
+  'VERSE_2',
+  'VERSE_3',
+  'VERSE_4',
+  'PRE_CHORUS',
+  'CHORUS',
+  'REFRAIN',
+  'BRIDGE',
+  'TAG',
+  'INTRO',
+  'OUTRO',
+  'THROUGHOUT',
+  /** The finding is about the song as a whole — including a doctrine it never addresses. */
+  'WHOLE_SONG',
+  /** Melody, range, structure or arrangement: there is nothing in the words to point at. */
+  'NOT_LYRICAL',
+  'UNKNOWN',
+] as const;
+
+export type SongLocation = (typeof SONG_LOCATIONS)[number];
+
+const songLocation = z
+  .enum(SONG_LOCATIONS)
+  .default('UNKNOWN')
+  .describe(
+    'Where in the song this comes from. CHORUS/REFRAIN/THROUGHOUT means the congregation repeats it. WHOLE_SONG for findings about the song entire, including absences. NOT_LYRICAL for melody, range or structure.',
+  );
+
+const locationDetail = z
+  .string()
+  .trim()
+  .max(80)
+  .nullable()
+  .optional()
+  .describe('Optional pointer within that section — "the second line", "the closing couplet". Never lyric text.');
+
 // ---------------------------------------------------------------------------
 // Stage 1 — identification
 // ---------------------------------------------------------------------------
@@ -115,10 +180,8 @@ export const ClaimSchema = z.object({
     .string()
     .max(120)
     .describe('The doctrine in view: God, Christ, salvation, grace, sin, sanctification, worship, etc.'),
-  location: z
-    .enum(['VERSE', 'CHORUS', 'BRIDGE', 'REFRAIN', 'THROUGHOUT', 'UNKNOWN'])
-    .default('UNKNOWN')
-    .describe('Where in the song the claim sits. CHORUS/REFRAIN/THROUGHOUT means the congregation repeats it.'),
+  location: songLocation,
+  locationDetail,
   lyricExcerpt,
 });
 
@@ -134,7 +197,14 @@ export const ClaimExtractionSchema = z.object({
   gospelClarity: z
     .enum(['EXPLICIT', 'IMPLICIT', 'ABSENT', 'DISTORTED'])
     .describe('How clearly the song presents the gospel. ABSENT is not automatically a fault.'),
-});
+})
+  // Thirty claims each carrying ten words is the whole song in inventory form.
+  // The pool the later stages draw from is budgeted at the boundary too, so an
+  // over-quoting extraction cannot smuggle a reconstruction downstream.
+  .transform((value) => ({
+    ...value,
+    claims: applyQuotationBudget(value.claims, CLAIM_BUDGET).findings,
+  }));
 export type ClaimExtraction = z.infer<typeof ClaimExtractionSchema>;
 
 // ---------------------------------------------------------------------------
@@ -144,11 +214,14 @@ export type ClaimExtraction = z.infer<typeof ClaimExtractionSchema>;
 /**
  * Evidence.
  *
- * A finding about what a song says must carry the words. The exception is
- * narrow and real — you cannot quote an absence, a verse count or a melody —
- * but everything else quotes, because a reader has to be able to see what the
- * reviewer saw and disagree with it. `evidenceCoverage()` reports how well a
- * review holds to this.
+ * Every finding about the song must be *locatable*: it names where in the song
+ * it comes from, so a reader can go there and disagree. Locating is required
+ * of all of them, and costs nothing.
+ *
+ * Quoting is the scarce half. It is reserved for findings that turn on the
+ * exact wording, because the review has only so many words of lyric to spend
+ * (`applyQuotationBudget`) before it stops being commentary and starts being a
+ * copy of the song. `evidenceCoverage()` reports both halves.
  */
 const baseFinding = {
   category: z
@@ -158,7 +231,10 @@ const baseFinding = {
     .describe('Short category, e.g. "Christology", "Atonement", "Singability", "Ambiguous pronouns".'),
   title: z.string().min(3).max(160),
   explanation: z.string().min(20).max(MAX_EXPLANATION_CHARS),
-  /** Required unless the finding is about absence, structure or music. */
+  /** Required of every finding — this is what makes it checkable. */
+  songLocation,
+  locationDetail,
+  /** Only where the exact wording is the point, and only within the review's budget. */
   lyricExcerpt,
 };
 
@@ -386,18 +462,137 @@ export const THEME_VOCABULARY = [
   'Baptism',
 ] as const;
 
+// ---------------------------------------------------------------------------
+// Review-level quotation budget
+// ---------------------------------------------------------------------------
+
+const SEVERITY_RANK: Record<string, number> = { SEVERE: 4, MAJOR: 3, MODERATE: 2, MINOR: 1 };
+const CENTRALITY_RANK: Record<string, number> = { CORE: 3, IMPORTANT: 2, PERIPHERAL: 1 };
+
+export interface Quotable {
+  lyricExcerpt?: string | null;
+  severity?: string;
+  magnitude?: string;
+  centrality?: string;
+  recurring?: boolean;
+}
+
+export interface QuotationBudgetReport {
+  /** Quotes surviving the budget. */
+  kept: number;
+  /** Lyric words across those quotes. */
+  words: number;
+  /** Quotes dropped because the review had already spent its budget. */
+  droppedForBudget: number;
+  /** Quotes dropped because another finding already quoted those words. */
+  droppedAsDuplicate: number;
+}
+
+export interface QuotationBudget {
+  maxQuotes: number;
+  maxWords: number;
+}
+
+export const FINDING_BUDGET: QuotationBudget = {
+  maxQuotes: MAX_QUOTED_FINDINGS,
+  maxWords: MAX_FINDING_LYRIC_WORDS,
+};
+
+export const CLAIM_BUDGET: QuotationBudget = {
+  maxQuotes: MAX_QUOTED_CLAIMS,
+  maxWords: MAX_CLAIM_LYRIC_WORDS,
+};
+
 /**
- * How many findings show their evidence.
+ * Spends the review's quotation budget on the findings that most need it.
  *
- * Not a hard schema rule, because absence, structure and music findings
- * legitimately have nothing to quote — but a review where most findings assert
- * what a song says without showing it is a weak review, and this makes that
- * visible instead of letting it pass silently.
+ * Repairs rather than rejects, like the per-excerpt clamp above: an over-quoted
+ * review is still a valid review, so the excess quotes are stripped and the
+ * findings themselves survive untouched. Each keeps its location, so a finding
+ * that loses its quote is still checkable — that is the trade this design
+ * rests on.
+ *
+ * Priority is severity, then centrality, then whether the congregation repeats
+ * it, then the order the reviewer wrote them in. The strongest claims are the
+ * ones a reader is most likely to want to verify word-for-word, so they get
+ * first call on the budget.
+ */
+export function applyQuotationBudget<T extends Quotable>(
+  findings: T[],
+  budget: QuotationBudget = FINDING_BUDGET,
+): { findings: T[]; report: QuotationBudgetReport } {
+  const contenders = findings
+    .map((finding, index) => ({ finding, index }))
+    .filter((entry) => Boolean(entry.finding.lyricExcerpt?.trim()))
+    .sort((a, b) => {
+      const rank = (f: Quotable) => SEVERITY_RANK[f.severity ?? f.magnitude ?? ''] ?? 0;
+      const bySeverity = rank(b.finding) - rank(a.finding);
+      if (bySeverity !== 0) return bySeverity;
+
+      const byCentrality =
+        (CENTRALITY_RANK[b.finding.centrality ?? ''] ?? 0) - (CENTRALITY_RANK[a.finding.centrality ?? ''] ?? 0);
+      if (byCentrality !== 0) return byCentrality;
+
+      const byRecurring = Number(Boolean(b.finding.recurring)) - Number(Boolean(a.finding.recurring));
+      if (byRecurring !== 0) return byRecurring;
+
+      return a.index - b.index;
+    });
+
+  const keep = new Set<number>();
+  const kept: string[] = [];
+  let words = 0;
+  let droppedForBudget = 0;
+  let droppedAsDuplicate = 0;
+
+  for (const { finding, index } of contenders) {
+    const excerpt = finding.lyricExcerpt!.trim();
+
+    if (kept.some((existing) => excerptsOverlap(existing, excerpt))) {
+      droppedAsDuplicate += 1;
+      continue;
+    }
+
+    const cost = wordCount(excerpt);
+    if (kept.length >= budget.maxQuotes || words + cost > budget.maxWords) {
+      droppedForBudget += 1;
+      continue;
+    }
+
+    keep.add(index);
+    kept.push(excerpt);
+    words += cost;
+  }
+
+  return {
+    findings: findings.map((finding, index) =>
+      !finding.lyricExcerpt?.trim() || keep.has(index) ? finding : { ...finding, lyricExcerpt: null },
+    ),
+    report: { kept: kept.length, words, droppedForBudget, droppedAsDuplicate },
+  };
+}
+
+/**
+ * How well a review can be checked.
+ *
+ * `grounded` is the number that matters: findings a reader can verify, whether
+ * by the words shown or by the place named. `quoted` is reported alongside it
+ * but is deliberately not maximised — quoting everything is the failure this
+ * budget exists to prevent, not the goal.
  */
 export function evidenceCoverage(
-  findings: Array<{ lyricExcerpt?: string | null; category?: string }>,
-): { quoted: number; total: number; ratio: number } {
+  findings: Array<{ lyricExcerpt?: string | null; songLocation?: string | null; category?: string }>,
+): { quoted: number; located: number; grounded: number; total: number; ratio: number; quotedWords: number } {
   const total = findings.length;
-  const quoted = findings.filter((f) => Boolean(f.lyricExcerpt?.trim())).length;
-  return { quoted, total, ratio: total === 0 ? 1 : quoted / total };
+  const hasQuote = (f: { lyricExcerpt?: string | null }) => Boolean(f.lyricExcerpt?.trim());
+  const hasLocation = (f: { songLocation?: string | null }) => Boolean(f.songLocation && f.songLocation !== 'UNKNOWN');
+
+  const quoted = findings.filter(hasQuote).length;
+  const located = findings.filter(hasLocation).length;
+  const grounded = findings.filter((f) => hasQuote(f) || hasLocation(f)).length;
+  const quotedWords = findings
+    .filter(hasQuote)
+    .reduce((sum, f) => sum + wordCount(f.lyricExcerpt!.trim()), 0);
+
+  return { quoted, located, grounded, total, ratio: total === 0 ? 1 : grounded / total, quotedWords };
 }

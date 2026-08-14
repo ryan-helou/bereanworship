@@ -1,4 +1,9 @@
-import { THEME_VOCABULARY } from './schemas';
+import {
+  MAX_FINDING_LYRIC_WORDS,
+  MAX_LYRIC_WORDS,
+  MAX_QUOTED_FINDINGS,
+  THEME_VOCABULARY,
+} from './schemas';
 
 /**
  * Pipeline prompts.
@@ -13,15 +18,27 @@ import { THEME_VOCABULARY } from './schemas';
  *   · Denominational distinctives are not treated as heresy.
  *   · The artist is invisible during song analysis, and popularity is
  *     invisible everywhere.
- *   · Copyright: never more than ten words of any lyric.
+ *   · Copyright: quotes are budgeted per review, not merely capped per quote.
  */
 
 const COPYRIGHT_RULE = `COPYRIGHT — ABSOLUTE
-Never reproduce lyrics at length. Any lyric excerpt must be TEN WORDS OR FEWER and must
-be strictly necessary to support the point being made. Prefer paraphrase; quote only when
-the exact wording is the issue. Never output a verse, a chorus, or a full line sequence.
-Scripture quotations must also stay brief — cite the reference and explain its bearing
-rather than reproducing passages at length. Use the ESV when you quote.`;
+Three limits, and the last two bind as hard as the first:
+
+· No single excerpt may exceed ${MAX_LYRIC_WORDS} WORDS.
+· No more than ${MAX_QUOTED_FINDINGS} FINDINGS in a review may carry a quote.
+· No more than ${MAX_FINDING_LYRIC_WORDS} WORDS of lyric across the entire review.
+
+A review that quotes ten words forty times has reproduced the song, however
+carefully each quote was trimmed. That is the thing copyright actually forbids,
+and a per-quote limit cannot see it happening.
+
+So treat the ${MAX_FINDING_LYRIC_WORDS} words as a budget you are spending rather than an
+allowance to use up. Never quote consecutive lines. Never quote the same line
+twice — a second finding on that line points at it instead. If you are unsure
+whether a quote earns its cost, it does not.
+
+Scripture stays brief on the same principle: cite the reference, explain its
+bearing, and quote only the words the point turns on. Use the ESV.`;
 
 const BREVITY = `LENGTH — this is a hard requirement, not a style note
 
@@ -39,32 +56,38 @@ them, not the way an essay would.
 If a finding will not fit in a sentence, it is usually two findings — split it.
 The schema enforces these limits, so over-long text fails validation outright.`;
 
-const EVIDENCE_RULE = `QUOTE THE SONG — this is what makes a review a review
+const EVIDENCE_RULE = `SHOW YOUR WORK — this is what makes a review a review
 
-If a finding is about something the song says, it must carry the words. Not a
-paraphrase of the words, not a description of them: the words, in
-lyricExcerpt, within the ten-word limit.
+A reader must be able to check you. There are two ways to let them, and you owe
+one of them on every finding.
 
-· Analysing a line? Quote the line.
-· Praising a doctrinal statement? Quote the statement.
-· Flagging an ambiguity? Quote the ambiguous phrase.
+LOCATE — required, always. Every finding names where in the song it comes from:
+songLocation, plus locationDetail when the spot needs naming ("the second
+line", "the closing couplet"). A reader with the lyrics open goes there and
+judges for themselves. This costs nothing and is never omitted.
+Use WHOLE_SONG for a finding about the song entire, including a doctrine it
+never addresses. Use NOT_LYRICAL for melody, range, structure or arrangement.
 
-A reader must be able to see what you saw and disagree with you. A finding
-that asserts what a song says without showing it is an opinion, and it is also
-the exact way a review goes wrong: a phrase remembered loosely, or lifted from
-someone else's summary, becomes a criticism of words the songwriter never
-wrote.
+QUOTE — rationed, and spent deliberately. Quote when the exact wording IS the
+finding:
+· the concern is an ambiguous or misleading phrase — quote the phrase;
+· the strength is a doctrinal statement made unusually well — quote it;
+· any paraphrase would soften or slant what the song actually says.
 
-So: if you cannot quote it, you may not assert it. Where you are working from
-a description of the lyric rather than the lyric itself, either verify the
-wording or drop the finding.
+Do not quote when the finding stands without it:
+· the point is about substance rather than wording — locate it and state it;
+· that line is already quoted elsewhere in the review — point at it instead;
+· there is nothing to quote (absence, structure, melody).
 
-The only findings that may omit a quote are those where nothing exists to
-quote:
-· absence — a doctrine the song never addresses;
-· structure — verse count, form, how a refrain repeats;
-· music — melody, range, arrangement, tempo.
-Everything else quotes.`;
+THE HONESTY RULE, which is why any of this exists: you may not assert what a
+song says from memory, from a summary, or from someone else's description of
+it. A phrase remembered loosely becomes a criticism of words the songwriter
+never wrote. If you have not seen the words themselves, drop the finding —
+locating is not a licence to guess, and a located guess is still a guess.
+
+Most findings will locate without quoting. That is correct, not lazy. The
+quotes you do spend should be the ones a reader would most want to see
+verbatim.`;
 
 const FRAMEWORK = `THEOLOGICAL FRAMEWORK
 You evaluate from a conservative Protestant, broadly Reformed position — the theological
@@ -192,8 +215,10 @@ sits, because a claim in the chorus is sung far more often than one in a bridge.
 
 ${COPYRIGHT_RULE}
 
-Attach the actual words to every claim you can. Later stages quote what you capture here,
-so a claim recorded without its lyric leaves the whole review unable to show its evidence.
+Record where each claim sits, always. Attach the actual words only where the wording itself
+carries the claim — an unusual formulation, an ambiguity, a phrase a later stage would need
+to show verbatim. This is the pool the later stages quote from, so it should hold the lines
+that would genuinely need showing, not every line you can reach.
 
 Critical honesty requirement: if you do not reliably know this song's lyrics, set
 lyricsAvailable=false and return no claims. Do NOT reconstruct, guess at, or approximate
@@ -222,8 +247,8 @@ export function claimExtractionPrompt(input: {
     `(corporate "we", individual "I", addressed to God, about God, or mixed) and give brief`,
     `structural notes on how the song is built.`,
     ``,
-    `Remember: paraphrase. Ten words maximum for any lyric excerpt, and only where the exact`,
-    `wording matters.`,
+    `Remember: paraphrase, and locate every claim. Quote only where the exact wording matters,`,
+    `never more than ${MAX_LYRIC_WORDS} words, and nowhere near every claim.`,
   ]
     .filter(Boolean)
     .join('\n');

@@ -584,8 +584,12 @@ export default function MethodologyPage() {
 
           <h3 className="mt-8 text-lg font-semibold text-ink-900">Copyright</h3>
           <p>
-            Complete lyrics are never stored or displayed. Lyric quotations are limited to ten words and used only where
-            the exact wording is the point at issue. Scripture quotations are kept brief and are from the ESV.
+            Complete lyrics are never stored or displayed. Any single quotation is limited to ten words, and a whole
+            review may quote in no more than eight findings totalling sixty words of lyric — a limit on the review, not
+            just on each quote, because many short quotations still add up to a copy of the song. Quotation is reserved
+            for findings where the exact wording is the point at issue; every other finding names the verse or chorus it
+            comes from instead, so it can still be checked against your own copy. Scripture quotations are kept brief
+            and are from the ESV.
           </p>
 
           <h3 className="mt-8 text-lg font-semibold text-ink-900">Versioning</h3>

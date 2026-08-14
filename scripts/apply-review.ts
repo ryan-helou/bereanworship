@@ -38,7 +38,10 @@ async function main() {
     console.log(`  theological  ${r.theological}   communal ${r.communal}   clarity ${r.clarity}`);
     if (r.ceiling !== null) console.log(`  ceiling applied at ${r.ceiling} — a severe or major theological concern is present`);
     console.log(`  findings ${r.findingCount}  ·  sources ${r.sourceCount}  ·  version ${r.reviewVersion}`);
-    console.log(`  evidence ${r.evidence.quoted}/${r.evidence.total} findings quote the song (${Math.round(r.evidence.ratio * 100)}%)`);
+    console.log(
+      `  evidence ${r.evidence.grounded}/${r.evidence.total} findings checkable (${Math.round(r.evidence.ratio * 100)}%)` +
+        ` · ${r.evidence.quoted} quote the song, ${r.evidence.quotedWords} lyric words total`,
+    );
     console.log(
       r.range
         ? `  range    ${r.range.score}/100 ${r.range.label} · ${r.range.lowest}-${r.range.highest} (separate from song validity)`

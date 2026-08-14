@@ -82,67 +82,67 @@
         "claim": "God remains faithful through every upheaval.",
         "subject": "Faithfulness of God",
         "location": "REFRAIN",
-        "lyricExcerpt": "He is faithful through it all"
+        "lyricExcerpt": null
       },
       {
         "claim": "The almighty God is himself present in real human flesh.",
         "subject": "Incarnation",
         "location": "VERSE",
-        "lyricExcerpt": "Mighty God in mortal flesh"
+        "lyricExcerpt": null
       },
       {
         "claim": "Christ was betrayed — the passion narrative is named concretely.",
         "subject": "Passion",
         "location": "VERSE",
-        "lyricExcerpt": "Forsaken by a traitor's kiss"
+        "lyricExcerpt": null
       },
       {
         "claim": "The one pierced is the promised Prince of Peace.",
         "subject": "Crucifixion",
         "location": "VERSE",
-        "lyricExcerpt": "Pierce the lowly Prince of Peace"
+        "lyricExcerpt": null
       },
       {
         "claim": "The crucified one was without sin.",
         "subject": "Sinlessness of Christ",
         "location": "REFRAIN",
-        "lyricExcerpt": "lifted high, the sinless man"
+        "lyricExcerpt": null
       },
       {
         "claim": "Christ died as a spotless sacrificial victim.",
         "subject": "Substitutionary atonement",
         "location": "REFRAIN",
-        "lyricExcerpt": "crucified the spotless Lamb"
+        "lyricExcerpt": null
       },
       {
         "claim": "The Father raised him from death.",
         "subject": "Resurrection",
         "location": "REFRAIN",
-        "lyricExcerpt": "rescued by the Father's hand"
+        "lyricExcerpt": null
       },
       {
         "claim": "Christ reigns as king without end.",
         "subject": "Kingship of Christ",
         "location": "REFRAIN",
-        "lyricExcerpt": "He is King forever, He is King forevermore"
+        "lyricExcerpt": null
       },
       {
         "claim": "God is eternal king and the source of grace.",
         "subject": "Grace",
         "location": "VERSE",
-        "lyricExcerpt": "King eternal, God of grace"
+        "lyricExcerpt": null
       },
       {
         "claim": "The congregation crowns God with praise — the song turns to direct address.",
         "subject": "Worship",
         "location": "VERSE",
-        "lyricExcerpt": "We crown You with the highest praise"
+        "lyricExcerpt": null
       },
       {
         "claim": "God is thrice holy, echoing the seraphim's cry.",
         "subject": "Holiness",
         "location": "VERSE",
-        "lyricExcerpt": "You're holy, holy, holy Lord"
+        "lyricExcerpt": null
       }
     ]
   },
@@ -173,7 +173,8 @@
         "lyricExcerpt": "God the uncreated One",
         "scriptureReference": "Acts 17:24-25",
         "scriptureExcerpt": "The God who made the world and everything in it… is not served by human hands, as though he needed anything.",
-        "scriptureRationale": "Paul's argument in Athens is the hymn's opening claim exactly."
+        "scriptureRationale": "Paul's argument in Athens is the hymn's opening claim exactly.",
+        "songLocation": "VERSE"
       },
       {
         "category": "Christology",
@@ -183,7 +184,8 @@
         "lyricExcerpt": "Mighty God in mortal flesh",
         "scriptureReference": "John 1:14",
         "scriptureExcerpt": "And the Word became flesh and dwelt among us, and we have seen his glory.",
-        "scriptureRationale": "John makes the same identification of the eternal Word with the man."
+        "scriptureRationale": "John makes the same identification of the eternal Word with the man.",
+        "songLocation": "VERSE"
       },
       {
         "category": "Atonement",
@@ -193,7 +195,8 @@
         "lyricExcerpt": "crucified the spotless Lamb",
         "scriptureReference": "1 Peter 1:18-19",
         "scriptureExcerpt": "Ransomed… with the precious blood of Christ, like that of a lamb without blemish or spot.",
-        "scriptureRationale": "Peter supplies the exact register: an unblemished victim, and a ransom paid for others."
+        "scriptureRationale": "Peter supplies the exact register: an unblemished victim, and a ransom paid for others.",
+        "songLocation": "REFRAIN"
       },
       {
         "category": "Resurrection",
@@ -203,7 +206,8 @@
         "lyricExcerpt": "rescued by the Father's hand",
         "scriptureReference": "Acts 2:24",
         "scriptureExcerpt": "God raised him up, loosing the pangs of death, because it was not possible for him to be held by it.",
-        "scriptureRationale": "Peter at Pentecost frames the resurrection the same way — as the Father's deliverance."
+        "scriptureRationale": "Peter at Pentecost frames the resurrection the same way — as the Father's deliverance.",
+        "songLocation": "REFRAIN"
       },
       {
         "category": "Providence",
@@ -213,7 +217,8 @@
         "lyricExcerpt": "Kingdoms rise and kingdoms fall",
         "scriptureReference": "Daniel 2:21",
         "scriptureExcerpt": "He changes times and seasons; he removes kings and sets up kings.",
-        "scriptureRationale": "Political instability as an instance of God's rule, not evidence against it."
+        "scriptureRationale": "Political instability as an instance of God's rule, not evidence against it.",
+        "songLocation": "VERSE"
       },
       {
         "category": "Doctrine of God",
@@ -223,7 +228,8 @@
         "lyricExcerpt": "Knows the heart of every man",
         "scriptureReference": "Psalm 147:4-5",
         "scriptureExcerpt": "He determines the number of the stars; he gives to all of them their names.",
-        "scriptureRationale": "The psalm makes the identical move from cosmic scale to personal attention."
+        "scriptureRationale": "The psalm makes the identical move from cosmic scale to personal attention.",
+        "songLocation": "VERSE"
       },
       {
         "category": "Worship",
@@ -233,7 +239,8 @@
         "lyricExcerpt": "You're holy, holy, holy Lord",
         "scriptureReference": "Isaiah 6:3",
         "scriptureExcerpt": "Holy, holy, holy is the LORD of hosts; the whole earth is full of his glory!",
-        "scriptureRationale": "The hymn ends where the seraphim begin."
+        "scriptureRationale": "The hymn ends where the seraphim begin.",
+        "songLocation": "VERSE"
       }
     ],
     "concerns": [
@@ -244,10 +251,11 @@
         "severity": "MINOR",
         "centrality": "IMPORTANT",
         "recurring": false,
-        "lyricExcerpt": "lifted high, the sinless man",
+        "lyricExcerpt": null,
         "scriptureReference": "Romans 3:23-25",
         "scriptureExcerpt": "All have sinned and fall short of the glory of God, and are justified by his grace as a gift.",
-        "scriptureRationale": "Paul will not state the remedy without first stating the condition."
+        "scriptureRationale": "Paul will not state the remedy without first stating the condition.",
+        "songLocation": "REFRAIN"
       },
       {
         "category": "Trinity",
@@ -259,7 +267,8 @@
         "lyricExcerpt": null,
         "scriptureReference": "Matthew 28:19",
         "scriptureExcerpt": "Baptizing them in the name of the Father and of the Son and of the Holy Spirit.",
-        "scriptureRationale": "A diet of such songs leaves a congregation without the threefold name."
+        "scriptureRationale": "A diet of such songs leaves a congregation without the threefold name.",
+        "songLocation": "WHOLE_SONG"
       }
     ]
   },
@@ -275,30 +284,33 @@
         "title": "One refrain, learned once",
         "explanation": "Only the opening word changes between verses — 'He is King', then 'Crown Him King', then 'Reign as King' — so a congregation effectively learns one refrain and can join from the first verse.",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "He is King forever, He is King forevermore",
+        "lyricExcerpt": null,
         "scriptureReference": null,
         "scriptureExcerpt": null,
-        "scriptureRationale": null
+        "scriptureRationale": null,
+        "songLocation": "REFRAIN"
       },
       {
         "category": "Corporate perspective",
         "title": "Turns to 'we' at the climax",
         "explanation": "Three verses declare who God is, then the fourth puts the act of crowning in the congregation's own mouth — corporate by grammar, not merely by convention.",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "We crown You with the highest praise",
+        "lyricExcerpt": null,
         "scriptureReference": null,
         "scriptureExcerpt": null,
-        "scriptureRationale": null
+        "scriptureRationale": null,
+        "songLocation": "VERSE"
       },
       {
         "category": "Repetition",
         "title": "The repeated word is the doctrine",
         "explanation": "'Forever' is the claim, not filler, and it lets a congregation sing each verse's close without looking at a page.",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "He is faithful through it all",
+        "lyricExcerpt": null,
         "scriptureReference": null,
         "scriptureExcerpt": null,
-        "scriptureRationale": null
+        "scriptureRationale": null,
+        "songLocation": "REFRAIN"
       }
     ],
     "concerns": [
@@ -312,7 +324,8 @@
         "lyricExcerpt": null,
         "scriptureReference": null,
         "scriptureExcerpt": null,
-        "scriptureRationale": null
+        "scriptureRationale": null,
+        "songLocation": "NOT_LYRICAL"
       }
     ],
     "range": {
@@ -338,27 +351,30 @@
         "lyricExcerpt": "Hung the stars like chandeliers",
         "scriptureReference": "Isaiah 40:22",
         "scriptureExcerpt": "Who stretches out the heavens like a curtain, and spreads them like a tent to dwell in.",
-        "scriptureRationale": "Scripture uses household imagery for cosmic acts in exactly this way."
+        "scriptureRationale": "Scripture uses household imagery for cosmic acts in exactly this way.",
+        "songLocation": "VERSE"
       },
       {
         "category": "Memorability",
         "title": "One line carries two doctrines",
         "explanation": "Kingdoms rising and falling set against God's faithfulness puts providence and immutability into a phrase people take home.",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "Kingdoms rise and kingdoms fall",
+        "lyricExcerpt": null,
         "scriptureReference": null,
         "scriptureExcerpt": null,
-        "scriptureRationale": null
+        "scriptureRationale": null,
+        "songLocation": "VERSE"
       },
       {
         "category": "Diction",
         "title": "Hymn weight without archaism",
         "explanation": "Traditional structure and contemporary vocabulary — 'the Rock on which we can depend' is plain speech doing doctrinal work, and needs no translation.",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "The Rock on which we can depend",
+        "lyricExcerpt": null,
         "scriptureReference": "Psalm 18:2",
         "scriptureExcerpt": "The LORD is my rock and my fortress and my deliverer, my God, my rock, in whom I take refuge.",
-        "scriptureRationale": "The image arrives already carrying its biblical sense."
+        "scriptureRationale": "The image arrives already carrying its biblical sense.",
+        "songLocation": "VERSE"
       }
     ],
     "concerns": [
@@ -369,10 +385,11 @@
         "severity": "MINOR",
         "centrality": "PERIPHERAL",
         "recurring": false,
-        "lyricExcerpt": "God the uncreated One",
+        "lyricExcerpt": null,
         "scriptureReference": null,
         "scriptureExcerpt": null,
-        "scriptureRationale": null
+        "scriptureRationale": null,
+        "songLocation": "VERSE"
       },
       {
         "category": "Pronoun clarity",
@@ -381,10 +398,11 @@
         "severity": "MINOR",
         "centrality": "PERIPHERAL",
         "recurring": false,
-        "lyricExcerpt": "rescued by the Father's hand",
+        "lyricExcerpt": null,
         "scriptureReference": "Colossians 1:15-17",
         "scriptureExcerpt": "He is the image of the invisible God… by him all things were created… and in him all things hold together.",
-        "scriptureRationale": "Paul makes the same identification, which is why the shift is defensible."
+        "scriptureRationale": "Paul makes the same identification, which is why the shift is defensible.",
+        "songLocation": "REFRAIN"
       }
     ]
   },

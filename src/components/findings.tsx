@@ -54,11 +54,12 @@ export function SongFindingItem({ finding }: { finding: SongFinding }) {
 
         <p className="mt-1.5 text-[0.9375rem] leading-normal text-ink-600">{finding.explanation}</p>
 
-        {finding.lyricExcerpt && (
-          <blockquote className="mt-2.5 border-l-2 border-ink-900 pl-3 font-serif text-sm italic text-ink-600">
-            “{finding.lyricExcerpt}”
-          </blockquote>
-        )}
+        <Provenance
+          location={finding.songLocation}
+          detail={finding.locationDetail}
+          excerpt={finding.lyricExcerpt}
+        />
+
 
         {finding.scriptureReference && (
           <div className="mt-3 border-t border-line pt-2.5">
@@ -124,6 +125,63 @@ export function ArtistFindingItem({
         )}
       </div>
     </article>
+  );
+}
+
+const LOCATION_LABEL: Record<string, string> = {
+  VERSE: 'Verse',
+  VERSE_1: 'Verse 1',
+  VERSE_2: 'Verse 2',
+  VERSE_3: 'Verse 3',
+  VERSE_4: 'Verse 4',
+  PRE_CHORUS: 'Pre-chorus',
+  CHORUS: 'Chorus',
+  REFRAIN: 'Refrain',
+  BRIDGE: 'Bridge',
+  TAG: 'Tag',
+  INTRO: 'Intro',
+  OUTRO: 'Outro',
+  THROUGHOUT: 'Throughout',
+  WHOLE_SONG: 'The song as a whole',
+  NOT_LYRICAL: 'Music and structure',
+};
+
+/**
+ * Where the finding came from, and — when the review spent a quote on it — the
+ * words themselves.
+ *
+ * Most findings show only the location. That is the deliberate shape of a
+ * review that quotes a handful of lines rather than reprinting the song: the
+ * reader is told exactly where to look and can open their own copy. The
+ * location leads even when a quote follows, because it is the part that is
+ * always there.
+ */
+function Provenance({
+  location,
+  detail,
+  excerpt,
+}: {
+  location: string;
+  detail: string | null;
+  excerpt: string | null;
+}) {
+  const label = LOCATION_LABEL[location];
+  if (!label && !excerpt) return null;
+
+  return (
+    <div className="mt-2.5 border-l-2 border-ink-900 pl-3">
+      {label && (
+        <p className="text-[0.6875rem] font-bold uppercase tracking-[0.08em] text-ink-500">
+          {label}
+          {detail && <span className="font-semibold normal-case tracking-normal text-ink-400"> · {detail}</span>}
+        </p>
+      )}
+      {excerpt && (
+        <blockquote className={cn('font-serif text-sm italic text-ink-600', label && 'mt-1')}>
+          “{excerpt}”
+        </blockquote>
+      )}
+    </div>
   );
 }
 

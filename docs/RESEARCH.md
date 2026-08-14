@@ -89,35 +89,46 @@ A concern resting only on tier-4 evidence, or graded merely as an allegation or 
 The first published review was written, then rewritten twice. Both corrections
 are now enforced rather than remembered.
 
-### Quote the song
+### Show your work — locate always, quote sparingly
 
-If a finding is about something the song says, it carries the words. Not a
-paraphrase — the words, in `lyricExcerpt`, within the ten-word cap.
+A reader must be able to check a finding. There are two ways to let them, and
+every finding owes one.
 
-This is not presentation. In the first draft of the *God the Uncreated One*
-review, a Christology concern criticised the phrase **"put on mortal flesh"**
-for clothing imagery that might imply Christ's humanity was worn rather than
-assumed. The song does not contain that phrase. It says **"Mighty God in
-mortal flesh"** — no clothing metaphor at all. The line had come from a
-secondary summary of the lyric, not the lyric, and it produced a criticism of
-words the songwriters never wrote. Removing it moved the score from 91 to 92.
+**Locate — required.** Every finding names where in the song it comes from:
+`songLocation` (`CHORUS`, `VERSE_2`, `WHOLE_SONG` for an absence, `NOT_LYRICAL`
+for melody or structure), plus `locationDetail` when the spot needs naming.
+A reader with the lyrics open goes there and judges for themselves. This costs
+nothing, so nothing is exempt.
 
-The rule that prevents a repeat: **if you cannot quote it, you may not assert
-it.** Where you are working from someone's description of a lyric rather than
-the lyric, either verify the wording or drop the finding.
+**Quote — rationed.** Reserved for findings where the exact wording *is* the
+finding: an ambiguous phrase, a doctrinal statement made unusually well,
+anything a paraphrase would slant.
 
-Only three kinds of finding may omit a quote, because nothing exists to quote:
+Why this matters is a correction to an earlier correction. In the first draft
+of the *God the Uncreated One* review, a Christology concern criticised the
+phrase **"put on mortal flesh"** for clothing imagery implying Christ's
+humanity was worn rather than assumed. The song does not contain that phrase.
+It says **"Mighty God in mortal flesh"** — no clothing metaphor at all. The
+line had come from a secondary summary of the lyric, and it produced a
+criticism of words the songwriters never wrote.
 
-| Kind | Example |
-|---|---|
-| Absence | a doctrine the song never addresses |
-| Structure | verse count, form, how a refrain repeats |
-| Music | melody, range, arrangement, tempo |
+The fix at the time was *"if you cannot quote it, you may not assert it"* —
+which worked, and then overcorrected. Requiring a quote per finding produced a
+review carrying thirty-nine excerpts totalling 198 words: individually legal,
+collectively a reproduction of the hymn. A per-excerpt cap cannot see that
+happening, because no field ever sees its siblings.
 
-`evidenceCoverage()` reports the ratio, the CLI and the admin publish screen
-both display it, and anything below 60% logs `review.thin_evidence`. The
-reference review sits at 16/18 (89%) — the two exceptions being the absent
-Spirit and the four-verse length.
+Locating serves the honesty rule just as well and costs no lyric. The part that
+still binds without exception: **you may not assert what a song says from
+memory, from a summary, or from anyone's description of it.** Locating is not a
+licence to guess — a located guess is still a guess. If you have not seen the
+words, drop the finding.
+
+`evidenceCoverage()` reports both halves — `grounded` (checkable at all) and
+`quoted` (words actually spent). The CLI and the admin publish screen display
+them, and grounding below 90% logs `review.thin_evidence`. Note which number is
+the target: a review that locates everything and quotes little scores full
+marks. Maximising quotes is the failure this design exists to prevent.
 
 ### Be brief
 
@@ -136,9 +147,14 @@ third-person throughout when the fourth verse turns to direct address
 
 Enforced at the schema boundary, not left to the prompt:
 
-- **Lyric excerpts are hard-capped at ten words** by a Zod transform that truncates rather than rejects — the analysis stays valid, only the quotation is trimmed. Complete lyrics are never stored or displayed.
+Three limits, and the last two matter as much as the first — a review that quotes ten words forty times has reproduced the song however carefully each quote was trimmed:
+
+- **Any single excerpt is hard-capped at ten words** by a Zod transform that truncates rather than rejects — the analysis stays valid, only the quotation is trimmed.
+- **A review may quote in at most 8 findings, totalling at most 60 lyric words.** `applyQuotationBudget()` spends that budget on the most serious findings first (severity, then centrality, then whether the congregation repeats it), strips the rest, and de-duplicates: one line quoted by two findings is charged and printed once. The findings themselves survive untouched — they keep their location, so a finding that loses its quote is still checkable.
+- **The claim-extraction pool is budgeted the same way** (10 quotes / 70 words) at the schema boundary, so an over-quoting extraction cannot smuggle a reconstruction downstream.
 - Scripture excerpts are capped at 45 words. References and reasoning carry the weight; the ESV is used where text is quoted.
-- The prompts require paraphrase first, quotation only where the exact wording is the issue.
+
+Complete lyrics are never stored or displayed. Every constant lives in `src/lib/ai/schemas.ts` and is interpolated into the prompts, so the instruction cannot drift from the enforcement.
 
 There is a test asserting a fifteen-word excerpt is stored as ten.
 

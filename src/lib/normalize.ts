@@ -303,3 +303,34 @@ export function clampExcerpt(input: string, max = 10): string {
   if (words.length <= max) return words.join(' ');
   return `${words.slice(0, max).join(' ')}…`;
 }
+
+/** Comparison form for lyric excerpts: case, punctuation and ellipsis folded away. */
+export function excerptKey(input: string): string {
+  return canonicalize(input)
+    .toLowerCase()
+    .replace(/…/g, ' ')
+    .replace(/[^a-z0-9\s]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+/**
+ * True when two excerpts quote the same words — identical, or one wholly
+ * inside the other.
+ *
+ * Two findings leaning on one line are one quotation, not two. Without this,
+ * the same phrase gets quoted three times, charged to the review's budget
+ * three times, and printed to the reader three times.
+ */
+export function excerptsOverlap(a: string, b: string): boolean {
+  const x = excerptKey(a);
+  const y = excerptKey(b);
+  if (!x || !y) return false;
+  if (x === y) return true;
+
+  // Containment is compared on whole words. Raw substring matching would read
+  // "the Lord" as quoted inside "the Lords", and drop a real second quote as a
+  // duplicate of a line it merely shares a word-stem with.
+  const padded = (value: string) => ` ${value} `;
+  return padded(x).includes(padded(y)) || padded(y).includes(padded(x));
+}

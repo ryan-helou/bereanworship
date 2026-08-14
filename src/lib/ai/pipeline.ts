@@ -6,11 +6,13 @@ import {
   IdentificationSchema,
   SynthesisSchema,
   THEME_VOCABULARY,
+  applyQuotationBudget,
   type ArtistResearch,
   type ClaimExtraction,
   type ClarityAnalysis,
   type CommunalAnalysis,
   type Identification,
+  type SongLocation,
   type Synthesis,
 } from './schemas';
 import {
@@ -96,6 +98,9 @@ export interface PreparedSongFinding {
   category: string;
   title: string;
   explanation: string;
+  /** Where in the song this came from — how a finding stays checkable without a quote. */
+  songLocation: SongLocation;
+  locationDetail: string | null;
   lyricExcerpt: string | null;
   scriptureReference: string | null;
   scriptureExcerpt: string | null;
@@ -434,6 +439,8 @@ export function prepareSongFindings(input: {
       category: string;
       title: string;
       explanation: string;
+      songLocation?: SongLocation;
+      locationDetail?: string | null;
       lyricExcerpt?: string | null;
       scriptureReference?: string | null;
       scriptureExcerpt?: string | null;
@@ -457,6 +464,8 @@ export function prepareSongFindings(input: {
       category: raw.category,
       title: raw.title,
       explanation: raw.explanation,
+      songLocation: raw.songLocation ?? 'UNKNOWN',
+      locationDetail: raw.locationDetail ?? null,
       lyricExcerpt: raw.lyricExcerpt ?? null,
       scriptureReference: raw.scriptureReference ?? null,
       scriptureExcerpt: raw.scriptureExcerpt ?? null,
@@ -474,7 +483,22 @@ export function prepareSongFindings(input: {
   for (const s of input.clarity.strengths) push('CLARITY', 'STRENGTH', s);
   for (const c of input.clarity.concerns) push('CLARITY', 'CONCERN', c);
 
-  return out;
+  // The three analyses are produced independently and cannot see each other's
+  // quotes, so the budget is spent here — the one point where the whole
+  // review's quotation is visible at once. Both the worker and the manual
+  // path come through this function, so neither can bypass it.
+  const { findings, report } = applyQuotationBudget(out);
+  if (report.droppedForBudget > 0 || report.droppedAsDuplicate > 0) {
+    log.info('review.quotation_budget', {
+      kept: report.kept,
+      words: report.words,
+      droppedForBudget: report.droppedForBudget,
+      droppedAsDuplicate: report.droppedAsDuplicate,
+      note: 'Excess lyric quotes stripped. The findings themselves are unchanged and remain located.',
+    });
+  }
+
+  return findings;
 }
 
 // ---------------------------------------------------------------------------

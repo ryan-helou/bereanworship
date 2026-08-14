@@ -80,8 +80,8 @@ export interface AppliedSong {
   findingCount: number;
   sourceCount: number;
   themes: string[];
-  /** How many findings show the words they rest on. */
-  evidence: { quoted: number; total: number; ratio: number };
+  /** How many findings a reader can check — by the words shown, or the place named. */
+  evidence: { quoted: number; located: number; grounded: number; total: number; ratio: number; quotedWords: number };
   /** Congregational range difficulty, or null when the pitches were not measured. */
   range: { score: number; label: string; lowest: string; highest: string } | null;
 }
@@ -127,14 +127,17 @@ async function applySong(payload: z.infer<typeof SongReviewPayload>): Promise<Ap
   const allowed = new Set<string>(THEME_VOCABULARY);
   const themes = [...new Set(synthesis.themes)].filter((t) => allowed.has(t));
 
-  // Visible rather than silent: a review whose findings mostly assert what a
-  // song says without quoting it is weak, and weakness should be reported.
+  // Visible rather than silent: a review whose findings cannot be checked —
+  // neither quoting the song nor saying where in it they come from — is weak,
+  // and weakness should be reported. Note this measures *grounding*, not
+  // quoting: a review that quotes little and locates everything is the shape
+  // we are aiming for, and scores full marks here.
   const evidence = evidenceCoverage(findings);
-  if (evidence.ratio < 0.6) {
+  if (evidence.ratio < 0.9) {
     log.warn('review.thin_evidence', {
-      quoted: evidence.quoted,
+      grounded: evidence.grounded,
       total: evidence.total,
-      note: 'Most findings do not quote the song. Only absence, structure and music findings should omit a quote.',
+      note: 'Some findings neither quote the song nor say where in it they sit, so a reader cannot check them.',
     });
   }
 
