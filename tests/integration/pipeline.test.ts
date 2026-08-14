@@ -39,14 +39,20 @@ describe('song review pipeline', () => {
       expect(finding.scoreImpact).not.toBe(0);
     }
 
-    // The score is computed from findings, not asserted by the model.
-    expect(result.scores.overallScore).toBe(
-      Math.round(
-        result.scores.theologicalScore * 0.6 +
-          result.scores.communalScore * 0.2 +
-          result.scores.clarityScore * 0.2,
-      ),
+    // The score is computed from findings, not asserted by the model. Every
+    // criterion has findings here, so none should come back unrated.
+    expect(result.scores.theologicalScore).not.toBeNull();
+    expect(result.scores.communalScore).not.toBeNull();
+    expect(result.scores.clarityScore).not.toBeNull();
+
+    const weighted = Math.round(
+      result.scores.theologicalScore! * 0.6 +
+        result.scores.communalScore! * 0.2 +
+        result.scores.clarityScore! * 0.2,
     );
+    // Biblical soundness caps the total, so the overall is the weighted
+    // average or the theological score, whichever is lower.
+    expect(result.scores.overallScore).toBe(Math.min(weighted, result.scores.theologicalScore!));
 
     await saveSongReview(song.id, result);
 

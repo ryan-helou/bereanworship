@@ -20,8 +20,8 @@ import type {
   Severity,
 } from '@prisma/client';
 
-export const SCORING_VERSION = '1.0.0';
-export const METHODOLOGY_VERSION = '1.0.0';
+export const SCORING_VERSION = '2.0.0';
+export const METHODOLOGY_VERSION = '2.0.0';
 export const DEFAULT_REVIEW_VERSION = 'v1.0';
 
 /** Component weights for the overall song score. Must sum to 1. */
@@ -40,13 +40,22 @@ export const ARTIST_WEIGHTS: Record<ArtistComponent, number> = {
 };
 
 /**
- * Every component starts here. 70 is "nothing wrong, nothing remarkable" —
- * a doctrinally inoffensive but thin song lands in the low 70s, which is
- * exactly right. Substance is earned upward; error drags downward hard.
+ * Baseline for **artist** scoring only. Songs no longer use it.
+ *
+ * It was the baseline for songs too until it was tested rather than read, and
+ * failed four ways: a song with no findings scored 70 and was "recommended
+ * with caution"; three exceptional strengths and eight both scored 100; two
+ * moderate concerns ranked worse than one major one; and a song with two
+ * documented concerns scored below a song nobody had looked at. The root fault
+ * was that 70 answered both "unremarkable but fine" and "no evidence at all".
+ *
+ * Songs are now judged against a rubric (see below and docs/SCORING-RUBRIC.md).
+ * Artist research still uses this model — it has the same weakness, and needs
+ * its own rubric written before it can move.
  */
 export const BASELINE = 70;
 
-/** Ceiling on the total credit strengths may contribute to one component. */
+/** Artist scoring only: ceiling on the credit strengths may contribute. */
 export const MAX_STRENGTH_CREDIT = 30;
 
 /** Penalty applied per concern, before centrality and recurrence scaling. */
@@ -88,9 +97,167 @@ export const SEVERITY_CEILING: Partial<Record<Severity, number>> = {
   MAJOR: 60,
 };
 
-/** A severe theological error caps the *overall* score too, not just theology. */
+/** A severe doctrinal error caps the *overall* artist score too. */
 export const OVERALL_CEILING_ON_SEVERE = 35;
 export const OVERALL_CEILING_ON_MAJOR = 70;
+
+// ---------------------------------------------------------------------------
+// Song rubric
+// ---------------------------------------------------------------------------
+
+/**
+ * Songs are scored against a criterion-referenced rubric: eleven levels per
+ * criterion, six of them carrying written anchors on the methodology page, with
+ * the odd levels used for songs sitting between two descriptions. The level is
+ * selected by the findings, not accumulated from them.
+ *
+ *     level = min(ceiling, merit)
+ *
+ * Ceiling is what the flaws allow, set by the single worst concern rather than
+ * by their sum — which is what makes severity ordinal instead of additive, and
+ * why this model needs no separate ceiling table to override its own answer.
+ * Merit is what the substance earns, set by the best strength and raised for
+ * breadth. Full reasoning in docs/SCORING-RUBRIC.md.
+ */
+export const RUBRIC_MAX_LEVEL = 10;
+
+/** What the single worst concern allows a criterion to reach. */
+export const LEVEL_CEILING: Record<Severity, number> = {
+  MINOR: 9,
+  MODERATE: 7,
+  MAJOR: 4,
+  SEVERE: 1,
+};
+
+/** What the best strength earns, before the breadth bonuses. */
+export const LEVEL_MERIT: Record<Severity, number> = {
+  MINOR: 6,
+  MODERATE: 7,
+  MAJOR: 8,
+  SEVERE: 8,
+};
+
+/** A criterion with strengths but no concerns, and nothing outstanding, sits here. */
+export const MERIT_WITHOUT_STRENGTHS = 5;
+
+const SEVERITY_RANK: Record<Severity, number> = { MINOR: 1, MODERATE: 2, MAJOR: 3, SEVERE: 4 };
+
+const clampLevel = (n: number) => Math.max(0, Math.min(RUBRIC_MAX_LEVEL, n));
+
+/**
+ * The two findings that decide a criterion.
+ *
+ * Exported because the page marks them in the findings list, and a second
+ * implementation of the tie-break is exactly how a UI comes to disagree with
+ * the scorer it is supposed to be explaining. Ties go to the finding the
+ * reviewer wrote first.
+ */
+export function worstConcern<T extends ScorableSongFinding>(findings: T[]): T | null {
+  const concerns = findings.filter((f) => f.type === 'CONCERN');
+  if (concerns.length === 0) return null;
+  return concerns.reduce((worst, f) => (SEVERITY_RANK[f.severity] > SEVERITY_RANK[worst.severity] ? f : worst));
+}
+
+export function bestStrength<T extends ScorableSongFinding>(findings: T[]): T | null {
+  const strengths = findings.filter((f) => f.type === 'STRENGTH');
+  if (strengths.length === 0) return null;
+  return strengths.reduce((best, f) => (SEVERITY_RANK[f.severity] > SEVERITY_RANK[best.severity] ? f : best));
+}
+
+export interface RubricDecider {
+  severity: Severity;
+  centrality: Centrality;
+  recurring: boolean;
+}
+
+export interface ComponentRubric {
+  component: string;
+  /** null when the criterion had no findings — unrated, not zero. */
+  level: number | null;
+  ceiling: number | null;
+  merit: number | null;
+  /** The concern that set the ceiling, and the strength that set merit. */
+  ceilingSetBy: RubricDecider | null;
+  meritSetBy: RubricDecider | null;
+  /** True when the ceiling bound the level, so further strengths changed nothing. */
+  ceilingBinds: boolean;
+  strengthCount: number;
+  concernCount: number;
+  /** level × 10, or null when unrated. */
+  score: number | null;
+}
+
+/**
+ * Places one criterion on the rubric.
+ *
+ * No findings means **unrated**, not a default. That is the whole point of the
+ * change: absence of evidence and evidence of adequacy are different states,
+ * and a song nobody can say anything about should not receive a passing number.
+ */
+export function rateComponent(componentName: string, findings: ScorableSongFinding[]): ComponentRubric {
+  const strengths = findings.filter((f) => f.type === 'STRENGTH');
+  const concerns = findings.filter((f) => f.type === 'CONCERN');
+
+  if (findings.length === 0) {
+    return {
+      component: componentName,
+      level: null,
+      ceiling: null,
+      merit: null,
+      ceilingSetBy: null,
+      meritSetBy: null,
+      ceilingBinds: false,
+      strengthCount: 0,
+      concernCount: 0,
+      score: null,
+    };
+  }
+
+  let ceiling = RUBRIC_MAX_LEVEL;
+  let ceilingSetBy: RubricDecider | null = null;
+
+  if (concerns.length > 0) {
+    const worst = worstConcern(findings)!;
+    const centrality = worst.centrality ?? 'IMPORTANT';
+    const recurring = Boolean(worst.recurring);
+    ceilingSetBy = { severity: worst.severity, centrality, recurring };
+
+    ceiling = LEVEL_CEILING[worst.severity];
+    // A central error sung every chorus is worse than the same error sung once;
+    // a matter of imagery should not hold a song down like a doctrinal fault.
+    if (centrality === 'CORE' && recurring) ceiling -= 1;
+    if (centrality === 'PERIPHERAL') ceiling += 1;
+    ceiling = clampLevel(ceiling);
+  }
+
+  let merit = MERIT_WITHOUT_STRENGTHS;
+  let meritSetBy: RubricDecider | null = null;
+
+  if (strengths.length > 0) {
+    const best = bestStrength(findings)!;
+    meritSetBy = { severity: best.severity, centrality: best.centrality ?? 'IMPORTANT', recurring: false };
+
+    merit = LEVEL_MERIT[best.severity];
+    if (strengths.length >= 3) merit += 1;
+    if (strengths.length >= 5 && strengths.filter((s) => s.severity === 'MAJOR').length >= 2) merit += 1;
+    merit = clampLevel(merit);
+  }
+
+  const level = Math.min(ceiling, merit);
+
+  return {
+    component: componentName,
+    level,
+    ceiling,
+    merit,
+    ceilingSetBy,
+    meritSetBy,
+    ceilingBinds: ceiling < merit,
+    strengthCount: strengths.length,
+    concernCount: concerns.length,
+    score: level * 10,
+  };
+}
 
 export interface ScorableSongFinding {
   type: FindingType;
@@ -129,16 +296,20 @@ export interface FindingContribution {
 }
 
 export interface SongScoreResult {
-  theological: ComponentBreakdown;
-  communal: ComponentBreakdown;
-  clarity: ComponentBreakdown;
-  theologicalScore: number;
-  communalScore: number;
-  clarityScore: number;
-  /** Weighted average before overall ceilings. */
-  weightedScore: number;
-  overallScore: number;
+  theological: ComponentRubric;
+  communal: ComponentRubric;
+  clarity: ComponentRubric;
+  /** Each is level × 10, or null when that criterion had nothing to judge. */
+  theologicalScore: number | null;
+  communalScore: number | null;
+  clarityScore: number | null;
+  /** Weighted average of the rated criteria, before the doctrine cap. */
+  weightedScore: number | null;
+  overallScore: number | null;
+  /** Set when biblical soundness capped the total below the weighted average. */
   overallCeiling: number | null;
+  /** Criteria excluded from the average because they had no findings. */
+  unrated: ScoreComponent[];
   recommendation: Recommendation;
 }
 
@@ -242,37 +413,50 @@ function buildComponent(
 }
 
 export function scoreSong(findings: ScorableSongFinding[]): SongScoreResult {
-  const byComponent: Record<ScoreComponent, Array<{ type: FindingType; severity: Severity; impact: number }>> = {
-    THEOLOGICAL: [],
-    COMMUNAL: [],
-    CLARITY: [],
-  };
+  const theological = rateComponent('THEOLOGICAL', findings.filter((f) => f.component === 'THEOLOGICAL'));
+  const communal = rateComponent('COMMUNAL', findings.filter((f) => f.component === 'COMMUNAL'));
+  const clarity = rateComponent('CLARITY', findings.filter((f) => f.component === 'CLARITY'));
 
-  for (const f of findings) {
-    byComponent[f.component].push({ type: f.type, severity: f.severity, impact: songFindingImpact(f) });
+  const rated: Array<[ScoreComponent, ComponentRubric]> = (
+    [
+      ['THEOLOGICAL', theological],
+      ['COMMUNAL', communal],
+      ['CLARITY', clarity],
+    ] as Array<[ScoreComponent, ComponentRubric]>
+  ).filter(([, r]) => r.level !== null);
+
+  const unrated = (['THEOLOGICAL', 'COMMUNAL', 'CLARITY'] as ScoreComponent[]).filter(
+    (c) => !rated.some(([key]) => key === c),
+  );
+
+  // Unrated criteria drop out and the remaining weights renormalise, so a
+  // missing criterion neither counts as zero nor quietly counts as adequate.
+  if (rated.length === 0) {
+    return {
+      theological,
+      communal,
+      clarity,
+      theologicalScore: null,
+      communalScore: null,
+      clarityScore: null,
+      weightedScore: null,
+      overallScore: null,
+      overallCeiling: null,
+      unrated,
+      recommendation: 'NOT_RECOMMENDED',
+    };
   }
 
-  const theological = buildComponent('THEOLOGICAL', byComponent.THEOLOGICAL);
-  const communal = buildComponent('COMMUNAL', byComponent.COMMUNAL);
-  const clarity = buildComponent('CLARITY', byComponent.CLARITY);
-
-  const weighted =
-    theological.score * SONG_WEIGHTS.THEOLOGICAL +
-    communal.score * SONG_WEIGHTS.COMMUNAL +
-    clarity.score * SONG_WEIGHTS.CLARITY;
-
-  // A severe or major *theological* error also constrains the headline number,
-  // so a great tune and a singable melody cannot rescue false teaching.
-  let overallCeiling: number | null = null;
-  const theologicalConcerns = findings.filter((f) => f.type === 'CONCERN' && f.component === 'THEOLOGICAL');
-  if (theologicalConcerns.some((f) => f.severity === 'SEVERE')) {
-    overallCeiling = OVERALL_CEILING_ON_SEVERE;
-  } else if (theologicalConcerns.some((f) => f.severity === 'MAJOR')) {
-    overallCeiling = OVERALL_CEILING_ON_MAJOR;
-  }
-
+  const totalWeight = rated.reduce((n, [key]) => n + SONG_WEIGHTS[key], 0);
+  const weighted = rated.reduce((n, [key, r]) => n + r.score! * (SONG_WEIGHTS[key] / totalWeight), 0);
   const weightedScore = Math.round(weighted);
-  const overallScore = overallCeiling === null ? weightedScore : Math.min(weightedScore, overallCeiling);
+
+  // Doctrine caps the total. One rule replaces the two ceiling tables the
+  // additive model needed to override its own answer: a singable, clear song
+  // cannot average its way past bad teaching.
+  const doctrineCap = theological.score;
+  const overallScore =
+    doctrineCap === null ? weightedScore : Math.min(weightedScore, doctrineCap);
 
   return {
     theological,
@@ -283,14 +467,28 @@ export function scoreSong(findings: ScorableSongFinding[]): SongScoreResult {
     clarityScore: clarity.score,
     weightedScore,
     overallScore,
-    overallCeiling,
-    recommendation: classifyRecommendation({
-      overallScore,
-      theologicalScore: theological.score,
-      hasSevere: theologicalConcerns.some((f) => f.severity === 'SEVERE'),
-      hasMajor: theologicalConcerns.some((f) => f.severity === 'MAJOR'),
-    }),
+    overallCeiling: doctrineCap !== null && doctrineCap < weightedScore ? doctrineCap : null,
+    unrated,
+    recommendation: classifySongRecommendation(overallScore, theological.level),
   };
+}
+
+/**
+ * Song verdicts read off the rubric rather than off score thresholds.
+ *
+ * The biblical level is decisive on its own: level 2 is "a significant error
+ * about something central", and no overall average should be able to call that
+ * recommendable.
+ */
+export function classifySongRecommendation(
+  overallScore: number | null,
+  theologicalLevel: number | null,
+): Recommendation {
+  if (overallScore === null) return 'NOT_RECOMMENDED';
+  if (theologicalLevel !== null && theologicalLevel <= 2) return 'NOT_RECOMMENDED';
+  if (overallScore < 60) return 'NOT_RECOMMENDED';
+  if ((theologicalLevel !== null && theologicalLevel <= 4) || overallScore < 80) return 'RECOMMENDED_WITH_CAUTION';
+  return 'RECOMMENDED';
 }
 
 export function scoreArtist(findings: ScorableArtistFinding[]): ArtistScoreResult {

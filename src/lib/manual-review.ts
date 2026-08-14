@@ -71,12 +71,15 @@ export interface AppliedSong {
   title: string;
   artist: string;
   reviewVersion: string;
-  overall: number;
-  theological: number;
-  communal: number;
-  clarity: number;
+  /** null for any criterion with no findings — unrated, not zero. */
+  overall: number | null;
+  theological: number | null;
+  communal: number | null;
+  clarity: number | null;
   recommendation: string;
   ceiling: number | null;
+  /** Criteria excluded from the average for want of evidence. */
+  unrated: string[];
   findingCount: number;
   sourceCount: number;
   themes: string[];
@@ -123,6 +126,22 @@ async function applySong(payload: z.infer<typeof SongReviewPayload>): Promise<Ap
   // Findings → score. Never the other way round.
   const findings = prepareSongFindings({ theological, communal, clarity });
   const scores = scoreSong(findings as ScorableSongFinding[]);
+
+  // A review with no findings in any criterion has nothing to judge. Under the
+  // old baseline it would have scored 70 and published as "recommended with
+  // caution"; the rubric refuses instead of inventing a number.
+  if (scores.overallScore === null) {
+    throw new Error(
+      'This review has no findings in any criterion, so there is nothing to score. ' +
+        'Add findings, or leave the song unreviewed.',
+    );
+  }
+  if (scores.unrated.length > 0) {
+    log.warn('review.unrated_criteria', {
+      unrated: scores.unrated,
+      note: 'These criteria had no findings and were excluded from the weighted average.',
+    });
+  }
 
   const allowed = new Set<string>(THEME_VOCABULARY);
   const themes = [...new Set(synthesis.themes)].filter((t) => allowed.has(t));
@@ -181,6 +200,7 @@ async function applySong(payload: z.infer<typeof SongReviewPayload>): Promise<Ap
     clarity: scores.clarityScore,
     recommendation: scores.recommendation,
     ceiling: scores.overallCeiling,
+    unrated: scores.unrated,
     findingCount: findings.length,
     sourceCount: sources.length,
     themes,

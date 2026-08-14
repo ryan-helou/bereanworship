@@ -66,7 +66,7 @@ const SPINE: Record<Severity, string> = {
   SEVERE: 'bg-flare-800',
 };
 
-export function SongFindingItem({ finding }: { finding: SongFinding }) {
+export function SongFindingItem({ finding, role }: { finding: SongFinding; role?: FindingRole }) {
   const isConcern = finding.type === 'CONCERN';
 
   return (
@@ -79,7 +79,7 @@ export function SongFindingItem({ finding }: { finding: SongFinding }) {
           <Badge tone="muted">{finding.category}</Badge>
           {isConcern && finding.centrality === 'CORE' && <Badge tone="warn">Core</Badge>}
           {isConcern && finding.recurring && <Badge tone="muted">Recurring</Badge>}
-          <ScoreImpact impact={finding.scoreImpact} component={finding.component} />
+          <CriterionTag component={finding.component} role={role} />
         </div>
 
         <h3 className="mt-3 text-[1.0625rem] font-bold leading-snug tracking-tight text-ink-900">{finding.title}</h3>
@@ -218,49 +218,80 @@ function Provenance({
 }
 
 /**
- * The points this finding contributed, and which score they moved.
+ * Points contributed by an *artist* finding.
  *
- * Two facts, two channels. The number keeps the valence colour the rest of the
- * site uses — blue adds, red subtracts — while the category name beside it,
- * tinted to match the contribution breakdown, says which of the three scores
- * the points landed in. The points alone were ambiguous: a −12 against clarity
- * and a −12 against biblical soundness cost the song very different amounts,
- * because the components are weighted 60/20/20.
+ * Artist research still uses the additive model — baseline, credit, penalty —
+ * so a signed number is an accurate description of what one of its findings
+ * did. Song findings no longer work that way; see `CriterionTag`.
  */
-function ScoreImpact({ impact, component }: { impact: number; component?: string | null }) {
+function ScoreImpact({ impact }: { impact: number }) {
   if (impact === 0) return null;
   const positive = impact > 0;
+
+  return (
+    <span
+      className={cn(
+        'tnum ml-auto px-2 py-1 text-[0.6875rem] font-extrabold text-white',
+        positive ? 'bg-volt-500' : 'bg-flare-600',
+      )}
+      title={`This finding contributed ${positive ? '+' : ''}${impact} points`}
+    >
+      {positive ? '+' : ''}
+      {Number.isInteger(impact) ? impact : impact.toFixed(1)}
+    </span>
+  );
+}
+
+/** Whether this finding is the one that decided its criterion's level. */
+export type FindingRole = 'SETS_CEILING' | 'SETS_MERIT' | null;
+
+/**
+ * Which criterion this finding belongs to, and whether it decided the level.
+ *
+ * There is deliberately no point value here. Under the rubric a finding does
+ * not contribute points — the level is `min(ceiling, merit)`, chosen by the
+ * single worst concern and the single best strength. Printing a ±number beside
+ * findings that did not set either would describe an arithmetic the score no
+ * longer uses, which is a more confusing kind of wrong than printing nothing.
+ *
+ * So the badge answers the two questions that are still true: which score does
+ * this move, and was it this finding that moved it.
+ */
+function CriterionTag({ component, role }: { component?: string | null; role?: FindingRole }) {
   const category = component ? CATEGORY[component] : undefined;
-  const points = Number.isInteger(impact) ? String(impact) : impact.toFixed(1);
+  if (!category) return null;
+
+  const decides = role === 'SETS_CEILING' || role === 'SETS_MERIT';
 
   return (
     <span
       className="ml-auto inline-flex items-stretch"
       title={
-        category
-          ? `${positive ? '+' : ''}${points} points to the ${category.label} score`
-          : `This finding contributed ${positive ? '+' : ''}${points} points`
+        role === 'SETS_CEILING'
+          ? `The most serious concern against ${category.label} — it sets the ceiling for that criterion`
+          : role === 'SETS_MERIT'
+            ? `The strongest finding for ${category.label} — it sets the merit for that criterion`
+            : `Scored against ${category.label}`
       }
     >
-      {category && (
-        <span
-          className={cn(
-            'inline-flex items-center px-2 py-1 text-[0.625rem] font-bold uppercase tracking-[0.06em]',
-            category.chip,
-          )}
-        >
-          {category.short}
-        </span>
-      )}
       <span
         className={cn(
-          'tnum inline-flex items-center px-2 py-1 text-[0.6875rem] font-extrabold text-white',
-          positive ? 'bg-volt-500' : 'bg-flare-600',
+          'inline-flex items-center px-2 py-1 text-[0.625rem] font-bold uppercase tracking-[0.06em]',
+          category.chip,
         )}
       >
-        {positive ? '+' : ''}
-        {points}
+        {category.short}
       </span>
+      {decides && (
+        <span
+          className={cn(
+            'inline-flex items-center px-2 py-1 text-[0.625rem] font-bold uppercase tracking-[0.06em] text-white',
+            role === 'SETS_CEILING' ? 'bg-flare-600' : 'bg-volt-500',
+          )}
+        >
+          {role === 'SETS_CEILING' ? 'Sets ceiling' : 'Sets merit'}
+        </span>
+      )}
     </span>
   );
 }

@@ -146,11 +146,13 @@ function AppliedSummary({ state }: { state: Extract<ApplyState, { status: 'appli
   );
 }
 
-function Stat({ label, value, emphasis }: { label: string; value: number; emphasis?: boolean }) {
+function Stat({ label, value, emphasis }: { label: string; value: number | null; emphasis?: boolean }) {
   return (
     <div className="rounded-lg bg-white/70 p-3">
       <dt className="text-xs text-volt-900/70">{label}</dt>
-      <dd className={cn('tnum mt-1 font-semibold text-volt-900', emphasis ? 'text-2xl' : 'text-lg')}>{value}</dd>
+      <dd className={cn('tnum mt-1 font-semibold text-volt-900', emphasis ? 'text-2xl' : 'text-lg')}>
+        {value === null ? <span className="text-base text-volt-900/50">unrated</span> : value}
+      </dd>
     </div>
   );
 }

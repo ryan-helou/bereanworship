@@ -4,10 +4,18 @@ import { notFound } from 'next/navigation';
 import { prisma } from '@/lib/db';
 import { env, SITE_NAME } from '@/lib/env';
 import { formatDate, hostname, humanize } from '@/lib/utils';
-import { RECOMMENDATION_LABEL, SONG_WEIGHTS, rangeLabel, scoreLabel, scoreSong } from '@/lib/scoring';
+import {
+  RECOMMENDATION_LABEL,
+  SONG_WEIGHTS,
+  bestStrength,
+  rangeLabel,
+  scoreLabel,
+  scoreSong,
+  worstConcern,
+} from '@/lib/scoring';
 import { RangeBlock, RecommendationCallout, ScoreBar, ScoreBlock, ScorePill } from '@/components/score';
 import { ScoreContribution } from '@/components/score-contribution';
-import { FindingGroup, SongFindingItem } from '@/components/findings';
+import { FindingGroup, SongFindingItem, type FindingRole } from '@/components/findings';
 import { Badge, DataRow, Panel, SampleDataNotice, isSample } from '@/components/ui';
 
 /**
@@ -92,6 +100,17 @@ export default async function SongPage({ params }: { params: Params }) {
   // pure function of them, so deriving it here keeps one source of truth and
   // means the published score can always be re-checked against its evidence.
   const breakdown = song.findings.length > 0 ? scoreSong(song.findings) : null;
+
+  // Mark the two findings that decided each criterion, using the scorer's own
+  // selection rather than a second implementation of the tie-break.
+  const roles = new Map<string, FindingRole>();
+  for (const component of ['THEOLOGICAL', 'COMMUNAL', 'CLARITY'] as const) {
+    const inComponent = song.findings.filter((f) => f.component === component);
+    const ceiling = worstConcern(inComponent);
+    const merit = bestStrength(inComponent);
+    if (ceiling) roles.set(ceiling.id, 'SETS_CEILING');
+    if (merit) roles.set(merit.id, 'SETS_MERIT');
+  }
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -217,7 +236,7 @@ export default async function SongPage({ params }: { params: Params }) {
                 emptyMessage="No specific strengths were recorded for this song."
               >
                 {strengths.map((finding) => (
-                  <SongFindingItem key={finding.id} finding={finding} />
+                  <SongFindingItem key={finding.id} finding={finding} role={roles.get(finding.id) ?? null} />
                 ))}
               </FindingGroup>
 
@@ -228,7 +247,7 @@ export default async function SongPage({ params }: { params: Params }) {
                 emptyMessage="No concerns were identified in this review."
               >
                 {concerns.map((finding) => (
-                  <SongFindingItem key={finding.id} finding={finding} />
+                  <SongFindingItem key={finding.id} finding={finding} role={roles.get(finding.id) ?? null} />
                 ))}
               </FindingGroup>
             </div>

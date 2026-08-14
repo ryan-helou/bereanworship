@@ -3,18 +3,14 @@ import Link from 'next/link';
 import {
   ARTIST_WEIGHTS,
   BASELINE,
-  CENTRALITY_MULTIPLIER,
-  CONCERN_PENALTY,
-  MAX_STRENGTH_CREDIT,
+  LEVEL_CEILING,
+  LEVEL_MERIT,
+  MERIT_WITHOUT_STRENGTHS,
   METHODOLOGY_VERSION,
-  OVERALL_CEILING_ON_MAJOR,
-  OVERALL_CEILING_ON_SEVERE,
-  RECURRENCE_MULTIPLIER,
+  RUBRIC_MAX_LEVEL,
   SCORE_BANDS,
   SCORING_VERSION,
-  SEVERITY_CEILING,
   SONG_WEIGHTS,
-  STRENGTH_CREDIT,
   RANGE_BANDS,
   CONGREGATIONAL_LOW,
   CONGREGATIONAL_HIGH,
@@ -186,98 +182,88 @@ export default function MethodologyPage() {
           <p>Rounded to the nearest whole number.</p>
         </Section>
 
-        <Section id="components" title="How a component score is built">
+        <Section id="components" title="How a criterion is scored">
           <p>
-            Each component starts at <strong className="font-semibold text-ink-900">{BASELINE}</strong> — “nothing
-            wrong, nothing remarkable”. Strengths add credit; concerns subtract penalties.
+            Each criterion is placed on a rubric from 0 to{' '}
+            <strong className="font-semibold text-ink-900">{RUBRIC_MAX_LEVEL}</strong>. A level is{' '}
+            <em>selected</em> by matching the song against a written description, not accumulated from points — so there
+            is no starting number to justify and no arithmetic that can run past the ends of the scale.
           </p>
 
           <pre className="my-8 overflow-x-auto border-2 border-ink-900 bg-indigo-950 p-6 font-mono text-[0.8125rem] leading-relaxed text-surface-100">
-            {`component = ${BASELINE} + strength credit − penalties     (clamped to 0–100)`}
+            {`level = min(ceiling, merit)
+
+ceiling = what the flaws allow   — set by the single worst concern
+merit   = what the substance earns — set by the single best strength`}
           </pre>
 
           <p>
-            Strength credit is capped at <strong className="font-semibold text-ink-900">+{MAX_STRENGTH_CREDIT}</strong>,
-            so a component reaches 100 only through genuinely outstanding content, and no amount of accumulated praise
-            can bury a serious problem.
+            Six levels carry written anchors; the odd levels between them are used for a song that sits clearly between
+            two descriptions. Eleven genuinely distinguishable descriptions cannot be written, and an anchored scale is
+            the honest way to offer that resolution rather than pretending otherwise.
           </p>
 
-          <h3 className="mt-8 text-lg font-semibold text-ink-900">Strength credit</h3>
-          <ScaleTable
-            rows={[
-              { label: 'Notable', value: `+${STRENGTH_CREDIT.MINOR}`, note: 'A genuine but modest positive.' },
-              { label: 'Strong', value: `+${STRENGTH_CREDIT.MODERATE}`, note: 'A substantial doctrinal strength.' },
-              {
-                label: 'Exceptional',
-                value: `+${STRENGTH_CREDIT.MAJOR}`,
-                note: 'An outstanding strength on something central.',
-              },
-            ]}
-          />
-
-          <h3 className="mt-8 text-lg font-semibold text-ink-900">Concern penalties</h3>
-          <ScaleTable
-            rows={[
-              {
-                label: 'Minor',
-                value: `−${CONCERN_PENALTY.MINOR}`,
-                note: 'Imprecision, avoidable vagueness, an imperfect metaphor.',
-              },
-              {
-                label: 'Moderate',
-                value: `−${CONCERN_PENALTY.MODERATE}`,
-                note: 'Misleading wording, repeated ambiguity, persistent anthropocentrism.',
-              },
-              {
-                label: 'Major',
-                value: `−${CONCERN_PENALTY.MAJOR}`,
-                note: 'Significant error about salvation, grace, sin, Christ or God.',
-              },
-              {
-                label: 'Severe',
-                value: `−${CONCERN_PENALTY.SEVERE}`,
-                note: 'Denial or fundamental distortion of a central Christian doctrine.',
-              },
-            ]}
-          />
-
-          <h3 className="mt-8 text-lg font-semibold text-ink-900">Two multipliers</h3>
+          <h3 className="mt-8 text-lg font-semibold text-ink-900">The ceiling — what the worst concern allows</h3>
           <p>
-            <strong className="font-semibold text-ink-900">Centrality</strong> scales the penalty by how central the
-            affected doctrine is: core ×{CENTRALITY_MULTIPLIER.CORE}, important ×{CENTRALITY_MULTIPLIER.IMPORTANT},
-            peripheral ×{CENTRALITY_MULTIPLIER.PERIPHERAL}. A questionable metaphor and a false statement about the
-            atonement are not the same kind of problem.
+            Severity is treated as ordinal, not additive. Ten minor imprecisions do not add up to a major error, and one
+            major error is not cancelled by everything else being fine — so the ceiling is set by the most serious
+            concern alone, and further concerns do not lower it.
           </p>
+          <ScaleTable
+            rows={[
+              { label: 'No concerns', value: `${RUBRIC_MAX_LEVEL}`, note: 'Nothing found to hold the criterion down.' },
+              { label: 'Minor', value: `${LEVEL_CEILING.MINOR}`, note: 'Imprecision, avoidable vagueness, an imperfect metaphor.' },
+              { label: 'Moderate', value: `${LEVEL_CEILING.MODERATE}`, note: 'Misleading wording or repeated ambiguity about something important.' },
+              { label: 'Major', value: `${LEVEL_CEILING.MAJOR}`, note: 'Significant error about salvation, grace, sin, Christ or God.' },
+              { label: 'Severe', value: `${LEVEL_CEILING.SEVERE}`, note: 'Denial or fundamental distortion of a central Christian doctrine.' },
+            ]}
+          />
           <p>
-            <strong className="font-semibold text-ink-900">Recurrence</strong> multiplies by ×{RECURRENCE_MULTIPLIER}{' '}
-            when the problem sits in the chorus or refrain. A congregation sings a chorus many times; an error there
-            lands harder than the same error in a single verse.
+            Two adjustments, each of one level: the ceiling drops when the worst concern is both about a{' '}
+            <strong className="font-semibold text-ink-900">core</strong> doctrine and{' '}
+            <strong className="font-semibold text-ink-900">recurring</strong> — a central error sung every chorus is
+            worse than the same error sung once — and rises when it is{' '}
+            <strong className="font-semibold text-ink-900">peripheral</strong>, because a matter of imagery should not
+            hold a song down like a doctrinal fault.
+          </p>
+
+          <h3 className="mt-8 text-lg font-semibold text-ink-900">Merit — what the substance earns</h3>
+          <ScaleTable
+            rows={[
+              { label: 'No strengths', value: `${MERIT_WITHOUT_STRENGTHS}`, note: 'Nothing wrong, but nothing taught either.' },
+              { label: 'Notable', value: `${LEVEL_MERIT.MINOR}`, note: 'A genuine but modest positive.' },
+              { label: 'Strong', value: `${LEVEL_MERIT.MODERATE}`, note: 'A substantial doctrinal strength.' },
+              { label: 'Exceptional', value: `${LEVEL_MERIT.MAJOR}`, note: 'An outstanding strength on something central.' },
+            ]}
+          />
+          <p>
+            Merit rises by one level for a criterion carrying three or more strengths, and by one more for five or more
+            including two exceptional ones. Breadth counts, but with diminishing returns rather than a cliff.
           </p>
         </Section>
 
         <Section id="ceilings" title="Why one serious error is decisive">
           <p>
-            A weighted average is too forgiving on its own. A song can be 95% excellent, teach one thing that is
-            plainly false, and still average out to an 88 — which would be a failure of the method, not a fair result.
+            Because the level is the lower of ceiling and merit, no accumulation of praise can lift a song past its
+            worst problem. Where the ceiling binds, further strengths change nothing — and the song page says so
+            explicitly rather than leaving a reader to wonder why the praise stopped counting.
           </p>
-          <p>So severity also imposes hard ceilings:</p>
-
-          <ul className="my-5 space-y-2.5 pl-5">
-            <li className="list-disc text-[0.9375rem] leading-relaxed text-ink-600">
-              A <strong className="font-semibold text-ink-900">severe</strong> concern caps its component at{' '}
-              <span className="tnum font-semibold">{SEVERITY_CEILING.SEVERE}</span>, and if it is theological, caps the
-              overall score at <span className="tnum font-semibold">{OVERALL_CEILING_ON_SEVERE}</span>.
-            </li>
-            <li className="list-disc text-[0.9375rem] leading-relaxed text-ink-600">
-              A <strong className="font-semibold text-ink-900">major</strong> concern caps its component at{' '}
-              <span className="tnum font-semibold">{SEVERITY_CEILING.MAJOR}</span>, and if it is theological, caps the
-              overall score at <span className="tnum font-semibold">{OVERALL_CEILING_ON_MAJOR}</span>.
-            </li>
-          </ul>
-
           <p>
-            A beautiful melody and a singable range cannot rescue false teaching. That is the intended behaviour of the
-            formula, not a side effect of it.
+            The same rule governs the total: <strong className="font-semibold text-ink-900">biblical soundness caps
+            the overall score</strong>. A singable, clear song cannot average its way past what it teaches.
+          </p>
+        </Section>
+
+        <Section id="unrated" title="When there is nothing to judge">
+          <p>
+            A criterion with no findings recorded against it is{' '}
+            <strong className="font-semibold text-ink-900">unrated</strong>, not scored. It is excluded from the
+            weighted average and the remaining weights are renormalised; a song with nothing recorded in any criterion
+            is not published at all.
+          </p>
+          <p>
+            This matters more than it sounds. Absence of evidence and evidence of adequacy are different states, and a
+            method that gives them the same number will hand a passing grade to a song nobody has examined.
           </p>
         </Section>
 
@@ -448,6 +434,14 @@ export default function MethodologyPage() {
               ministry can write a careless one. Collapsing the two questions into one number would answer neither.
             </p>
           </div>
+
+          <p>
+            <strong className="font-semibold text-ink-900">Artist scores are still built the older way</strong>: each
+            component starts at a baseline of {BASELINE} and moves up on credit and down on penalties, with hard
+            ceilings imposed by severity. Song scoring moved to the rubric above because that model gave a passing
+            number to anything it had no evidence about; artist research has the same weakness and has not yet been
+            rewritten. Read an artist score as the rougher instrument of the two until it has been.
+          </p>
 
           <h3 className="mt-8 text-lg font-semibold text-ink-900">What counts, and what does not</h3>
           <p>

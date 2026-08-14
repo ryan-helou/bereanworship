@@ -3,7 +3,7 @@ import { prisma } from '@/lib/db';
 import { findExistingReview, findOrCreateArtist, findOrCreateSong, nextReviewVersion } from '@/lib/reviews';
 import { importSongs, summarizeImport } from '@/lib/import';
 import { searchArtists, searchSongs, suggest } from '@/lib/search';
-import { scoreSong } from '@/lib/scoring';
+import { METHODOLOGY_VERSION, SCORING_VERSION, scoreSong, type ScorableSongFinding } from '@/lib/scoring';
 
 /**
  * Catalogue behaviour: identity, duplicate prevention, bulk import and search.
@@ -12,10 +12,21 @@ import { scoreSong } from '@/lib/scoring';
  */
 
 /** Publishes a minimal completed review so the record is publicly visible. */
+/**
+ * A published song needs findings to have a score at all — a criterion with
+ * nothing recorded against it is unrated, not scored. These stand in for a real
+ * review's evidence so the catalogue has something searchable to hold.
+ */
+const SEED_FINDINGS: ScorableSongFinding[] = [
+  { type: 'STRENGTH', component: 'THEOLOGICAL', severity: 'MODERATE' },
+  { type: 'STRENGTH', component: 'COMMUNAL', severity: 'MODERATE' },
+  { type: 'STRENGTH', component: 'CLARITY', severity: 'MODERATE' },
+];
+
 async function publish(title: string, artistName: string, overrides: Record<string, unknown> = {}) {
   const artist = await findOrCreateArtist(artistName);
   const song = await findOrCreateSong({ title, artistId: artist.id, artistName: artist.displayName });
-  const scores = scoreSong([]);
+  const scores = scoreSong(SEED_FINDINGS);
 
   await prisma.song.update({
     where: { id: song.id },
@@ -118,9 +129,11 @@ describe('findExistingReview', () => {
 
 describe('review versioning', () => {
   it('increments the minor version under the same methodology', () => {
+    // Against the *current* constants, so a version bump does not silently
+    // rewrite what this test is asserting.
     expect(nextReviewVersion(null, null, null)).toBe('v1.0');
-    expect(nextReviewVersion('v1.0', '1.0.0', '1.0.0')).toBe('v1.1');
-    expect(nextReviewVersion('v1.7', '1.0.0', '1.0.0')).toBe('v1.8');
+    expect(nextReviewVersion('v1.0', SCORING_VERSION, METHODOLOGY_VERSION)).toBe('v1.1');
+    expect(nextReviewVersion('v1.7', SCORING_VERSION, METHODOLOGY_VERSION)).toBe('v1.8');
   });
 
   it('bumps the major version when the methodology has moved', () => {
