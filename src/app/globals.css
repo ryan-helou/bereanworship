@@ -68,6 +68,23 @@
   --color-ochre-100: #f9ecd2;
   --color-ochre-50: #fdf6e8;
 
+  /* --- Category: which of the three components a finding scores against -----
+   *
+   * Hue is already spoken for: electric blue affirms, warm red concerns, ochre
+   * cautions. Those say whether a finding is good or bad, which is a different
+   * question from which score it moves — so category gets its own channel
+   * rather than borrowing one and making a single colour mean two things.
+   *
+   * Deliberately outside the valence families. Nothing here should read as
+   * approval or alarm; these are labels, not verdicts.
+   */
+  --color-cat-biblical: #146b5e;
+  --color-cat-biblical-tint: #dceeea;
+  --color-cat-communal: #6b4aa8;
+  --color-cat-communal-tint: #e7e0f5;
+  --color-cat-clarity: #8f2f60;
+  --color-cat-clarity-tint: #f7dee9;
+
   /* --- Structural ---------------------------------------------------------- */
   --color-line: #d8d1c4;
   --color-line-strong: #b8ae9c;

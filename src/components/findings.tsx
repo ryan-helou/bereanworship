@@ -20,6 +20,38 @@ import type { ArtistFinding, FindingType, SongFinding, Severity } from '@prisma/
  * more vertical space than the claim itself.
  */
 
+/**
+ * Which of the three component scores a finding moves.
+ *
+ * Every finding is scored against exactly one component, and until now the
+ * page showed the points without saying which score they moved — so a −12 was
+ * legible as "bad" and illegible as "bad *at what*". The colour is the link
+ * between a finding here and its column in the contribution breakdown.
+ */
+export const CATEGORY: Record<string, { label: string; short: string; text: string; chip: string; bar: string }> = {
+  THEOLOGICAL: {
+    label: 'Biblical / Theological',
+    short: 'Biblical',
+    text: 'text-cat-biblical',
+    chip: 'bg-cat-biblical-tint text-cat-biblical',
+    bar: 'bg-cat-biblical',
+  },
+  COMMUNAL: {
+    label: 'Communal Worship',
+    short: 'Communal',
+    text: 'text-cat-communal',
+    chip: 'bg-cat-communal-tint text-cat-communal',
+    bar: 'bg-cat-communal',
+  },
+  CLARITY: {
+    label: 'Clarity',
+    short: 'Clarity',
+    text: 'text-cat-clarity',
+    chip: 'bg-cat-clarity-tint text-cat-clarity',
+    bar: 'bg-cat-clarity',
+  },
+};
+
 const SEVERITY_BADGE: Record<Severity, { concern: string; strength: string }> = {
   MINOR: { concern: 'bg-bone-300 text-ink-700', strength: 'bg-volt-100 text-volt-700' },
   MODERATE: { concern: 'bg-ochre-600 text-white', strength: 'bg-volt-400 text-white' },
@@ -47,7 +79,7 @@ export function SongFindingItem({ finding }: { finding: SongFinding }) {
           <Badge tone="muted">{finding.category}</Badge>
           {isConcern && finding.centrality === 'CORE' && <Badge tone="warn">Core</Badge>}
           {isConcern && finding.recurring && <Badge tone="muted">Recurring</Badge>}
-          <ScoreImpact impact={finding.scoreImpact} />
+          <ScoreImpact impact={finding.scoreImpact} component={finding.component} />
         </div>
 
         <h3 className="mt-3 text-[1.0625rem] font-bold leading-snug tracking-tight text-ink-900">{finding.title}</h3>
@@ -185,21 +217,50 @@ function Provenance({
   );
 }
 
-/** The points this finding contributed, shown inline so the audit trail costs no vertical space. */
-function ScoreImpact({ impact }: { impact: number }) {
+/**
+ * The points this finding contributed, and which score they moved.
+ *
+ * Two facts, two channels. The number keeps the valence colour the rest of the
+ * site uses — blue adds, red subtracts — while the category name beside it,
+ * tinted to match the contribution breakdown, says which of the three scores
+ * the points landed in. The points alone were ambiguous: a −12 against clarity
+ * and a −12 against biblical soundness cost the song very different amounts,
+ * because the components are weighted 60/20/20.
+ */
+function ScoreImpact({ impact, component }: { impact: number; component?: string | null }) {
   if (impact === 0) return null;
   const positive = impact > 0;
+  const category = component ? CATEGORY[component] : undefined;
+  const points = Number.isInteger(impact) ? String(impact) : impact.toFixed(1);
 
   return (
     <span
-      className={cn(
-        'tnum ml-auto px-2 py-1 text-[0.6875rem] font-extrabold text-white',
-        positive ? 'bg-volt-500' : 'bg-flare-600',
-      )}
-      title={`This finding contributed ${positive ? '+' : ''}${impact} points`}
+      className="ml-auto inline-flex items-stretch"
+      title={
+        category
+          ? `${positive ? '+' : ''}${points} points to the ${category.label} score`
+          : `This finding contributed ${positive ? '+' : ''}${points} points`
+      }
     >
-      {positive ? '+' : ''}
-      {Number.isInteger(impact) ? impact : impact.toFixed(1)}
+      {category && (
+        <span
+          className={cn(
+            'inline-flex items-center px-2 py-1 text-[0.625rem] font-bold uppercase tracking-[0.06em]',
+            category.chip,
+          )}
+        >
+          {category.short}
+        </span>
+      )}
+      <span
+        className={cn(
+          'tnum inline-flex items-center px-2 py-1 text-[0.6875rem] font-extrabold text-white',
+          positive ? 'bg-volt-500' : 'bg-flare-600',
+        )}
+      >
+        {positive ? '+' : ''}
+        {points}
+      </span>
     </span>
   );
 }

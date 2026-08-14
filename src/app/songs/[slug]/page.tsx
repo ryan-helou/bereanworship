@@ -4,8 +4,9 @@ import { notFound } from 'next/navigation';
 import { prisma } from '@/lib/db';
 import { env, SITE_NAME } from '@/lib/env';
 import { formatDate, hostname, humanize } from '@/lib/utils';
-import { RECOMMENDATION_LABEL, SONG_WEIGHTS, rangeLabel, scoreLabel } from '@/lib/scoring';
+import { RECOMMENDATION_LABEL, SONG_WEIGHTS, rangeLabel, scoreLabel, scoreSong } from '@/lib/scoring';
 import { RangeBlock, RecommendationCallout, ScoreBar, ScoreBlock, ScorePill } from '@/components/score';
+import { ScoreContribution } from '@/components/score-contribution';
 import { FindingGroup, SongFindingItem } from '@/components/findings';
 import { Badge, DataRow, Panel, SampleDataNotice, isSample } from '@/components/ui';
 
@@ -86,6 +87,11 @@ export default async function SongPage({ params }: { params: Params }) {
 
   const strengths = song.findings.filter((f) => f.type === 'STRENGTH');
   const concerns = song.findings.filter((f) => f.type === 'CONCERN');
+
+  // Recomputed from the persisted findings rather than stored: scoring is a
+  // pure function of them, so deriving it here keeps one source of truth and
+  // means the published score can always be re-checked against its evidence.
+  const breakdown = song.findings.length > 0 ? scoreSong(song.findings) : null;
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -228,6 +234,17 @@ export default async function SongPage({ params }: { params: Params }) {
             </div>
           </div>
         </section>
+
+        {/* --- Where the score comes from ----------------------------------- */}
+        {breakdown && (
+          <ScoreContribution
+            theological={breakdown.theological}
+            communal={breakdown.communal}
+            clarity={breakdown.clarity}
+            overallScore={song.overallScore ?? breakdown.overallScore}
+            overallCeiling={breakdown.overallCeiling}
+          />
+        )}
 
         {/* --- Scripture ---------------------------------------------------- */}
         {song.scriptures.length > 0 && (
