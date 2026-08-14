@@ -1,0 +1,224 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "As the Deer",
+    "artist": "Martin Nystrom",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1984,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written 1981, published 1984 by Maranatha! Music. Verse 1 is Nystrom's setting of Psalm 42:1; verses 2 and 3 were added later by Lydia Pederson, which accounts for the shift in diction between them."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "Three verses over one repeated chorus. Verse 1 paraphrases Psalm 42:1; verses 2 and 3 came later and from a different hand. Sung throughout in the first person singular, addressed directly to God.",
+    "claims": [
+      {
+        "claim": "The singer's longing for God is like a deer's thirst for water — need, not preference.",
+        "subject": "Longing for God",
+        "location": "VERSE_1",
+        "lyricExcerpt": "As the deer panteth for the water"
+      },
+      {
+        "claim": "God alone is the singer's strength and protection.",
+        "subject": "God as refuge",
+        "location": "CHORUS",
+        "lyricExcerpt": "You alone are my strength, my shield"
+      },
+      {
+        "claim": "The singer yields their spirit to God alone.",
+        "subject": "Submission",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is worth more than gold, silver or any earthly good.",
+        "subject": "The worth of God",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is the giver of joy and the source of the singer's delight.",
+        "subject": "Joy in God",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is friend and brother to the singer, notwithstanding his kingship.",
+        "subject": "Christ's brotherhood",
+        "location": "VERSE_3",
+        "locationDetail": "the opening couplet",
+        "lyricExcerpt": "even though You are a King"
+      },
+      {
+        "claim": "God's love is worth more to the singer than any other love.",
+        "subject": "The love of God",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Scripture",
+        "title": "Opens as a setting of Psalm 42",
+        "explanation": "The first verse is the psalm's own image and its own longing, put in the congregation's mouth almost unaltered. The song's best line is not the songwriter's.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": "As the deer panteth for the water",
+        "scriptureReference": "Psalm 42:1-2",
+        "scriptureRationale": "The psalm supplies both the thirst image and the object of the thirst."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "God alone, named twice",
+        "explanation": "The chorus makes God the exclusive object of trust and of submission. The repeated 'alone' is the doctrinal load-bearing word, and the congregation sings it every time.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": "You alone are my strength, my shield",
+        "scriptureReference": "Psalm 28:7",
+        "scriptureRationale": "The psalm pairs strength and shield in the same confession of exclusive trust."
+      },
+      {
+        "category": "Worship",
+        "title": "Desire is treated as worship",
+        "explanation": "The song's whole action is wanting God, and it never resolves that wanting into a request for something else. Longing is left as its own act of worship.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR",
+        "scriptureReference": "Psalm 73:25",
+        "scriptureRationale": "The psalmist's desire for God above all else is presented as the fitting posture, not as an unmet need."
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Christology",
+        "title": "Brotherhood set against kingship",
+        "explanation": "The concessive phrasing treats Christ's kingship as an obstacle his brotherhood overcomes. Hebrews grounds the brotherhood in his saving work, not in spite of his office — he is not our brother despite being King.",
+        "songLocation": "VERSE_3",
+        "locationDetail": "the opening couplet",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": false,
+        "lyricExcerpt": "even though You are a King",
+        "scriptureReference": "Hebrews 2:11",
+        "scriptureRationale": "Christ is unashamed to call us brothers because he sanctifies us — the kingship is the ground, not the tension."
+      },
+      {
+        "category": "Gospel content",
+        "title": "No cross, no sin, no salvation",
+        "explanation": "Nothing in the song names why the singer may approach God at all. A psalm of longing need not preach the gospel, but a congregation fed only on this would learn to want God without being told how they came to have him.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": false,
+        "scriptureReference": "Psalm 42:1-5",
+        "scriptureRationale": "Even the source psalm moves from thirst to hope in God's saving help; the song stops at the thirst."
+      }
+    ],
+    "doctrinesAffirmed": [
+      "God as the soul's true satisfaction",
+      "God as strength and shield",
+      "Exclusive devotion to God",
+      "The worth of God above earthly good"
+    ],
+    "assessment": "A short psalm-setting that does one thing and does it honestly. Its strength is that the best material is Scripture's own, and its chorus makes God the exclusive object of trust. The later verses are weaker than the first, and one line mishandles Christ's kingship, but nothing here is false. Sound for its purpose, and too narrow to carry a service by itself."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Learned in a single hearing",
+        "explanation": "One short chorus, three short verses, no bridge and no key change. A congregation that has never met the song can sing the chorus the second time it comes round.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Accessibility",
+        "title": "Nothing to negotiate",
+        "explanation": "No syncopation to catch out untrained singers, no rhythmic hook that depends on a recording, and no held note at the climax. It survives a piano and a room.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Corporate voice",
+        "title": "Sung entirely in the singular",
+        "explanation": "Every line is 'I' and 'my'. The congregation never says 'we', so a room of three hundred sings three hundred private songs at once. Not an error, but it shapes what the gathering is doing.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true
+      }
+    ],
+    "singability": "EASY",
+    "vocalRangeNote": "Sung here in A. That is a workable congregational key for this melody's shape, though churches commonly pitch it lower in G or F.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "A (as sung here); widely published in C and D",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated. No publisher consulted lists a vocal range for the song."
+    },
+    "repetitionAssessment": "The chorus repeats after every verse, but what repeats is the song's confession rather than a hook. Repetition here is doing the work it should.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "About as easy as a congregational song gets: short, stepwise, unhurried and indifferent to the band you have. The only communal weakness is that it never lets the congregation speak as one — it gives every singer a private first person and leaves them there."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Imagery",
+        "title": "One image, immediately understood",
+        "explanation": "Thirst needs no explanation and no theological vocabulary. The song's central idea lands on a first hearing for a child and a stranger alike.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Diction",
+        "title": "Two registers stitched together",
+        "explanation": "The first verse keeps the psalm's older cadence; the verses added later speak in plain modern idiom. Sung end to end the seam shows, and the song sounds like two songs.",
+        "songLocation": "VERSE",
+        "locationDetail": "verse 1 against verses 2 and 3",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": false
+      }
+    ],
+    "ambiguityLevel": "LOW",
+    "assessment": "Plain and unambiguous throughout. Nothing in it can be misheard, and its one image carries the whole song. The only stylistic blemish is the join between the original verse and the two added later."
+  },
+  "synthesis": {
+    "summary": "A simple setting of Psalm 42 whose chorus makes God the exclusive object of trust. Its best material is Scripture's own, and its weakest line makes Christ's kingship a tension rather than the ground of his brotherhood. Sound and easy to sing; too narrow in content to stand alone.",
+    "themes": ["God", "Worship", "Prayer", "Scripture"],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 42:1-2",
+        "relevance": "The source of the song's opening image and of its longing for the living God."
+      },
+      {
+        "reference": "Psalm 28:7",
+        "relevance": "Pairs strength and shield in the same confession the chorus makes."
+      },
+      {
+        "reference": "Hebrews 2:11",
+        "relevance": "Grounds Christ's brotherhood in his saving work, which is what the third verse obscures."
+      }
+    ]
+  },
+  "sources": [
+    "https://www.umcdiscipleship.org/resources/history-of-hymns-as-the-deer",
+    "https://www.godsongs.net/2017/07/as-deer-panteth-for-the-water-marty-nystrom.html",
+    "https://en.wikipedia.org/wiki/As_the_Deer"
+  ]
+}

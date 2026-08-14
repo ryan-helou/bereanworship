@@ -1,0 +1,234 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Good and Gracious King",
+    "artist": "CityAlight",
+    "artistType": "COLLECTIVE",
+    "album": "Only a Holy God",
+    "releaseYear": 2016,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Jonny Robinson, James Ferguson and Michael Farren. CCLI 7073329. CityAlight is the songwriting collective of St Paul's Castle Hill, Sydney."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "Four verses over one repeated chorus, no bridge. Sung throughout in the first person singular and addressed to God as King. The opening verse borrows its confession from Toplady's 'Rock of Ages'.",
+    "claims": [
+      {
+        "claim": "The singer approaches God's throne bringing nothing of their own.",
+        "subject": "Approach to God",
+        "location": "VERSE_1",
+        "lyricExcerpt": "nothing in my hands I bring"
+      },
+      {
+        "claim": "What the singer brings instead is a promise of acceptance from the King.",
+        "subject": "Acceptance",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is good and gracious in his rule.",
+        "subject": "The character of God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer rejoices precisely as one who has nothing to offer.",
+        "subject": "Grace",
+        "location": "VERSE",
+        "lyricExcerpt": "empty handed I rejoice"
+      },
+      {
+        "claim": "God is the Lord Almighty, and his kindness to the unworthy is undeserved.",
+        "subject": "The kindness of God",
+        "location": "VERSE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer's confidence rests on the King's character rather than their own standing.",
+        "subject": "Assurance",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Justification",
+        "title": "Arrives empty-handed and says so",
+        "explanation": "The song opens by disclaiming every contribution the singer might make. That is the confession justification by faith requires, and it is made in the first line rather than buried in a later verse.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": "nothing in my hands I bring",
+        "scriptureReference": "Ephesians 2:8-9",
+        "scriptureRationale": "Salvation is the gift of God, not a result of works, so that no one may boast — the song's opening posture."
+      },
+      {
+        "category": "Grace",
+        "title": "Emptiness produces joy, not anxiety",
+        "explanation": "Having nothing to offer is usually sung as a problem awaiting resolution. Here it is the ground of rejoicing, which is a truer instinct about how grace actually lands on a person.",
+        "songLocation": "VERSE",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": "empty handed I rejoice",
+        "scriptureReference": "2 Corinthians 12:9",
+        "scriptureRationale": "Paul boasts in weakness because grace rests there — emptiness as occasion for gladness."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "Goodness and sovereignty held together",
+        "explanation": "The title puts kindness and kingship in one phrase and keeps them there for four verses. A congregation learns that God's rule and his goodness are not two facts in tension.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 145:8-9",
+        "scriptureRationale": "The Lord is gracious and merciful, and good to all — the same pairing the title makes."
+      },
+      {
+        "category": "Assurance",
+        "title": "Confidence located outside the singer",
+        "explanation": "The reason the singer may approach is consistently something about the King, never something about themselves. Sustained across four verses, that is a genuine discipline.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Hebrews 4:16",
+        "scriptureRationale": "We draw near with confidence to the throne of grace — confidence grounded in the throne, not the one approaching."
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Atonement",
+        "title": "The borrowed line drops the cross",
+        "explanation": "Toplady's couplet runs from empty hands straight to clinging to the cross. This song takes the first half and answers with the King's promise instead. The song raises the question of how an empty-handed sinner is accepted and never says.",
+        "songLocation": "VERSE_1",
+        "severity": "MODERATE",
+        "centrality": "CORE",
+        "recurring": false,
+        "scriptureReference": "Romans 3:24-25",
+        "scriptureRationale": "Justification is by grace through the redemption in Christ Jesus, whom God put forward as a propitiation — the ground the song leaves unstated."
+      },
+      {
+        "category": "Christology",
+        "title": "Christ is never named",
+        "explanation": "God is addressed as King and Lord Almighty throughout. Nothing identifies him as Jesus, and no Christian distinctive appears, so the song could be sung honestly in a room that denies the incarnation.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": true,
+        "scriptureReference": "1 Timothy 2:5",
+        "scriptureRationale": "There is one mediator between God and men, the man Christ Jesus — the person by whom the approach the song describes is made."
+      }
+    ],
+    "doctrinesAffirmed": [
+      "Justification apart from works",
+      "The grace of God to the unworthy",
+      "God's goodness and sovereignty together",
+      "Assurance grounded outside the believer"
+    ],
+    "assessment": "A disciplined song about approaching God with nothing, and its instinct is right: every reason the singer may draw near is located in the King rather than in themselves. What it never supplies is the ground of that acceptance. It borrows a hymn's confession of empty hands and answers with the King's kindness where the original answered with the cross. Sound as far as it goes, and it does not go to Calvary."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "A hymn shape a modern room can hold",
+        "explanation": "Four short verses over a single recurring chorus, with no bridge and no build. The form is old and it works: the congregation always knows where it is.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Accessibility",
+        "title": "Survives without the band",
+        "explanation": "Nothing in the song depends on the arrangement for its effect. It carries on a piano, on a guitar, or unaccompanied, which is the practical test of a congregational song.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Corporate voice",
+        "title": "Four verses of 'I'",
+        "explanation": "The approach to the throne is sung individually throughout. Given that the song's subject is being received by God, a corporate voice would have let the congregation hear itself received together.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true
+      }
+    ],
+    "singability": "EASY",
+    "vocalRangeNote": "Sung here in C, which is a comfortable congregational key. PraiseCharts publishes it in D and E flat, so C sits at or below the published range.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "C (as sung here); PraiseCharts publishes D and E flat",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated. PraiseCharts does not publish a vocal range for this song."
+    },
+    "repetitionAssessment": "One chorus returning after each verse, carrying the song's title claim. The repeated content is doctrinal rather than a hook, and four verses keep it from wearing thin.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Written for a congregation and shaped like a hymn. Short verses, one chorus, no build to negotiate and no dependence on an arrangement. The only communal weakness is that a song about being received by God never lets the church say 'we'."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Every verse lands on the same claim",
+        "explanation": "Four verses approach from different angles and all resolve into the title. Nobody finishes the song unsure what it was asserting about God.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Diction",
+        "title": "Old confession in current speech",
+        "explanation": "The song carries hymn-weight vocabulary without archaism. It sounds like a hymn and reads like modern English, which is harder to do than it looks.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Ambiguity",
+        "title": "What makes the King gracious is never said",
+        "explanation": "Goodness and graciousness are asserted as the King's temperament rather than shown in anything he has done. A hearer is left to supply the reason, and the reason is the whole gospel.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MODERATE",
+        "centrality": "IMPORTANT",
+        "recurring": true
+      }
+    ],
+    "ambiguityLevel": "MODERATE",
+    "assessment": "Clear in what it says and quiet about what it assumes. The words are plain and the structure is unmistakable, but the song's central adjectives rest on an argument it never makes. A hearer who already knows the gospel fills the gap without noticing; one who does not, hears that God is simply kind."
+  },
+  "synthesis": {
+    "summary": "A disciplined hymn-shaped song about approaching God empty-handed, with every reason for confidence located in the King rather than the singer. It borrows Toplady's confession of empty hands but answers with the King's kindness where the original answered with the cross — which is never named, nor is Christ. Sound and singable, and incomplete on its own.",
+    "themes": ["Grace", "God", "Assurance", "Worship"],
+    "scriptureReferences": [
+      {
+        "reference": "Ephesians 2:8-9",
+        "relevance": "The confession the opening verse makes: salvation as gift, with nothing brought."
+      },
+      {
+        "reference": "Hebrews 4:16",
+        "relevance": "Drawing near to the throne of grace with confidence, which is the song's whole action."
+      },
+      {
+        "reference": "Romans 3:24-25",
+        "relevance": "Supplies the ground of acceptance the song raises and leaves unanswered."
+      },
+      {
+        "reference": "Psalm 145:8-9",
+        "relevance": "Pairs God's graciousness with his goodness to all, as the title does."
+      }
+    ]
+  },
+  "sources": [
+    "https://cityalight.com/song/good-and-gracious-king/",
+    "https://www.praisecharts.com/songs/details/73731/good-and-gracious-king-sheet-music",
+    "https://expositorysongs.com/song/good-and-gracious-king/"
+  ]
+}

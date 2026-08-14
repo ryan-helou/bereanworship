@@ -1,0 +1,243 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Above All",
+    "artist": "Lenny LeBlanc",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1999,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Co-written by Paul Baloche and Lenny LeBlanc, published 1999 by Integrity's Hosanna! Music. Most churches know it through Michael W. Smith's 2001 live recording. Reviewed as the song, not as any particular recording of it."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Stanzas rather than a strict verse/chorus form, each building to the same closing phrase. The title phrase recurs at the end of every section and carries the song's argument.",
+    "claims": [
+      {
+        "claim": "Christ is above all created powers, kingdoms and rulers.",
+        "subject": "The supremacy of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is above all natural wonders and all the world's wealth.",
+        "subject": "The supremacy of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is above all wisdom and every human work.",
+        "subject": "The supremacy of Christ",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ was crucified and buried.",
+        "subject": "The death of Christ",
+        "location": "VERSE_3",
+        "lyricExcerpt": "Crucified, laid behind a stone"
+      },
+      {
+        "claim": "Christ lived in order to die, and died rejected and alone.",
+        "subject": "The purpose of the incarnation",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ's death is pictured as a rose trampled into the ground.",
+        "subject": "The death of Christ",
+        "location": "VERSE_3",
+        "lyricExcerpt": "Like a rose trampled on the ground"
+      },
+      {
+        "claim": "In taking the fall, Christ thought of the individual singer above all else.",
+        "subject": "The motive of the atonement",
+        "location": "REFRAIN",
+        "locationDetail": "the closing line of each section",
+        "lyricExcerpt": "thought of me above all"
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christology",
+        "title": "Ranks Christ over everything the world ranks",
+        "explanation": "Kingdoms, nature, wealth and wisdom are named one after another and placed under Christ. The song's first two thirds are a sustained confession of his supremacy, and it is a real one.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Colossians 1:16-17",
+        "scriptureRationale": "All things were created through him and for him, and in him hold together — the ranking the song makes."
+      },
+      {
+        "category": "The cross",
+        "title": "The death and burial are stated, not implied",
+        "explanation": "The song does not stop at admiration. It names the crucifixion and the tomb plainly, which is more than a good deal of contemporary worship manages.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": "Crucified, laid behind a stone",
+        "scriptureReference": "1 Corinthians 15:3-4",
+        "scriptureRationale": "Christ died and was buried — the two facts the song puts in the congregation's mouth."
+      },
+      {
+        "category": "Incarnation",
+        "title": "The death is purposed, not accidental",
+        "explanation": "The song says Christ lived in order to die. That makes the cross the point of the incarnation rather than its tragic interruption, which is the harder and more biblical reading.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MINOR",
+        "scriptureReference": "Mark 10:45",
+        "scriptureRationale": "The Son of Man came to give his life as a ransom — coming and dying are one purpose."
+      }
+    ],
+    "concerns": [
+      {
+        "category": "The atonement",
+        "title": "The singer becomes what Christ prized above all",
+        "explanation": "The song spends five sections establishing that Christ is above all, then resolves on the claim that the singer was above all to him. Scripture puts the Father's glory and will at the centre of Christ's suffering. Sung as the climax, this inverts the song's own argument.",
+        "songLocation": "REFRAIN",
+        "locationDetail": "the closing line of each section",
+        "severity": "MODERATE",
+        "centrality": "CORE",
+        "recurring": true,
+        "lyricExcerpt": "thought of me above all",
+        "scriptureReference": "John 17:1, 4",
+        "scriptureRationale": "Christ's stated purpose at the hour is the Father's glory and the finishing of his work."
+      },
+      {
+        "category": "The cross",
+        "title": "A voluntary death rendered as misfortune",
+        "explanation": "A trampled flower is something done to a passive object. Christ said no one takes his life from him. The image carries real pathos and gives away the volition that makes the cross a sacrifice rather than a tragedy.",
+        "songLocation": "VERSE_3",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": false,
+        "lyricExcerpt": "Like a rose trampled on the ground",
+        "scriptureReference": "John 10:18",
+        "scriptureRationale": "He lays his life down of his own accord; no one takes it from him."
+      },
+      {
+        "category": "Atonement",
+        "title": "The cross without the reason for it",
+        "explanation": "Sin, guilt, wrath and substitution are named nowhere. The congregation sings that Christ was crucified and never sings what the crucifixion accomplished or why it was needed, which leaves the emotional weight resting on the suffering itself.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": false,
+        "scriptureReference": "Romans 3:25-26",
+        "scriptureRationale": "The cross is set forth as a propitiation demonstrating God's righteousness — the content the song leaves out."
+      }
+    ],
+    "doctrinesAffirmed": [
+      "The supremacy of Christ over creation",
+      "The crucifixion and burial of Christ",
+      "The purposeful incarnation"
+    ],
+    "assessment": "Two thirds of a genuinely God-exalting song, undone by where it chooses to land. The confession of Christ's supremacy is real and the cross is named plainly. But the atonement arrives without sin or substitution, and the closing line makes the singer the thing Christ valued above all — which contradicts the very ranking the song spent five sections building. Usable with care; the final line is what a leader has to reckon with."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Memorability",
+        "title": "One phrase organises everything",
+        "explanation": "Every section ends the same way, so the congregation always knows where it is and what is coming. The form teaches itself.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Singability",
+        "title": "Written for a soloist's dynamic range",
+        "explanation": "It is a ballad that builds to a sustained climax and depends on that build for its effect. Congregations manage the opening comfortably and thin out where the song wants its biggest sound.",
+        "songLocation": "NOT_LYRICAL",
+        "severity": "MODERATE",
+        "centrality": "PERIPHERAL",
+        "recurring": false
+      },
+      {
+        "category": "Performance orientation",
+        "title": "The recording is doing a lot of the work",
+        "explanation": "Much of the song's power is in the arrangement — the swell, the held notes, the band dropping out. Stripped to a piano and a room it loses more than a congregational song should.",
+        "songLocation": "NOT_LYRICAL",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": false
+      }
+    ],
+    "singability": "DIFFICULT",
+    "vocalRangeNote": "Sung here in F. Publishers list A as the original, so F is already transposed down — the right instinct. Test the climax on your congregation, not your worship leader.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "F (as sung here); PraiseCharts lists A as the original key",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated. PraiseCharts publishes the song in several keys but does not state a vocal range."
+    },
+    "repetitionAssessment": "The repeated phrase is the song's argument rather than a hook — a strength, except that what it drives home is the line that is the song's chief problem.",
+    "performanceOrientation": "PERFORMANCE_LEANING",
+    "assessment": "A ballad before it is a congregational song. The shape is easy to follow and the closing phrase is unforgettable, but the piece is built around a climax most rooms cannot deliver, and it leans on the arrangement more than a song for the gathered church should."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "A single clear spine",
+        "explanation": "The song makes one comparison and repeats it. Nobody leaves unsure what it was about, and the accumulating list is genuinely effective.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Ambiguous referent",
+        "title": "'Above all' changes meaning without warning",
+        "explanation": "For most of the song the phrase ranks Christ over creation. At the end it ranks the singer in Christ's affections. The words are identical, the claim is not, and nothing signals the switch.",
+        "songLocation": "REFRAIN",
+        "locationDetail": "the closing line, against the earlier sections",
+        "severity": "MODERATE",
+        "centrality": "IMPORTANT",
+        "recurring": true,
+        "scriptureReference": "Philippians 2:9-11",
+        "scriptureRationale": "The exaltation of Christ is to the Father's glory, which is the sense the closing line quietly drops."
+      }
+    ],
+    "ambiguityLevel": "MODERATE",
+    "assessment": "Clear line by line and unclear where it matters. The one genuine ambiguity is load-bearing: the title phrase does different work at the end than it did throughout, and a congregation is unlikely to notice the substitution while singing it."
+  },
+  "synthesis": {
+    "summary": "A sustained confession of Christ's supremacy that names the crucifixion plainly, then resolves on the claim that the singer was what Christ prized above all — inverting its own argument at the climax. The cross arrives without sin or substitution. Musically a soloist's ballad more than a congregation's song.",
+    "themes": ["Christ", "Cross", "Worship"],
+    "scriptureReferences": [
+      {
+        "reference": "Colossians 1:16-17",
+        "relevance": "The ranking of Christ over all created things that the song's first sections make well."
+      },
+      {
+        "reference": "John 17:1, 4",
+        "relevance": "Christ's own stated purpose at the hour of his death: the Father's glory, not an individual."
+      },
+      {
+        "reference": "Romans 3:25-26",
+        "relevance": "The propitiatory purpose of the cross, which the song narrates without ever naming."
+      },
+      {
+        "reference": "John 10:18",
+        "relevance": "The volition the trampled-flower image gives away."
+      }
+    ]
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Above_All_(song)",
+    "https://www.thebereantest.com/lenny-leblanc-above-all",
+    "https://worshipmatters.com/2007/10/03/our-god-saves-by-paul-baloche/",
+    "https://www.praisecharts.com/songs/details/1007/above-all-sheet-music"
+  ]
+}

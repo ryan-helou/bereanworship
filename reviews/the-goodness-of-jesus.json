@@ -1,0 +1,238 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "The Goodness of Jesus",
+    "artist": "CityAlight",
+    "artistType": "COLLECTIVE",
+    "album": "Yet Not I",
+    "releaseYear": 2018,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Fiona Aghajanian, Harrison Druery, Michael Farren, Jaywan Maxwell, Jonny Robinson and Rich Thompson. CCLI 7121854."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "Three verses over one repeated chorus, no bridge. Each verse closes on the same line about resting in Christ's peace. The verses address the hearer; the chorus turns to the singer's own confession.",
+    "claims": [
+      {
+        "claim": "The weary heart and the anxious soul are invited to come to Jesus.",
+        "subject": "Christ's invitation",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus satisfies, and he is everything the singer needs.",
+        "subject": "The sufficiency of Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": "Satisfied, He is all that I need"
+      },
+      {
+        "claim": "The singer resolves to rest in Christ's goodness for the rest of their days, whatever comes.",
+        "subject": "Perseverance",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Rest is found in Christ's own peace rather than in changed circumstances.",
+        "subject": "Peace in Christ",
+        "location": "VERSE",
+        "locationDetail": "the closing line of each verse",
+        "lyricExcerpt": "Rest here in His wondrous peace"
+      },
+      {
+        "claim": "Christ's goodness is constant and does not depend on the singer's condition.",
+        "subject": "The character of Christ",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christology",
+        "title": "Christ himself is the satisfaction",
+        "explanation": "The song does not offer Christ's gifts, his help or his plan. It offers him, and says he is all that is needed. That is a harder and better claim than most songs of comfort make.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": "Satisfied, He is all that I need",
+        "scriptureReference": "John 6:35",
+        "scriptureRationale": "Christ names himself the bread of life — the one who comes to him will not hunger."
+      },
+      {
+        "category": "Invitation",
+        "title": "Calls the weary in Christ's own terms",
+        "explanation": "The song opens by summoning the tired and the anxious rather than the willing. It is Christ's own invitation, addressed to the people he addressed it to.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Matthew 11:28",
+        "scriptureRationale": "Come to me, all who labour and are heavy laden, and I will give you rest — the verse the opening reproduces in substance."
+      },
+      {
+        "category": "Peace",
+        "title": "Rest located in Christ, not in relief",
+        "explanation": "Every verse ends in the same place, and it is not the end of the trouble. The peace on offer is Christ's own and is available inside the circumstance rather than after it.",
+        "songLocation": "VERSE",
+        "locationDetail": "the closing line of each verse",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": "Rest here in His wondrous peace",
+        "scriptureReference": "John 14:27",
+        "scriptureRationale": "Christ gives his peace, not as the world gives — a peace that does not depend on conditions improving."
+      },
+      {
+        "category": "Perseverance",
+        "title": "Commits to the long run",
+        "explanation": "The chorus is a resolution about all the singer's days and about whatever comes, which makes it a vow rather than a mood. Sung honestly it commits the congregation to something.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 23:6",
+        "scriptureRationale": "Goodness and mercy following all the days of one's life — the same span the chorus claims."
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Atonement",
+        "title": "The goodness is asserted, never purchased",
+        "explanation": "The cross, the blood and Christ's death appear nowhere. The song tells a weary person that Jesus is good and does not tell them what he did to make that good news for a sinner rather than merely a comfort.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": false,
+        "scriptureReference": "Romans 5:8",
+        "scriptureRationale": "God shows his love in that Christ died for us while we were still sinners — the act that makes his goodness good news."
+      },
+      {
+        "category": "Anthropology",
+        "title": "The trouble is weariness, not sin",
+        "explanation": "The singer's problem throughout is tiredness and anxiety. Those are real, and they are not the deepest thing wrong. A congregation fed on this alone would learn to bring Christ their exhaustion and not their guilt.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "scriptureReference": "Matthew 11:28-30",
+        "scriptureRationale": "Even the invitation to the weary is bound to taking Christ's yoke — rest and submission arrive together."
+      }
+    ],
+    "doctrinesAffirmed": [
+      "The sufficiency of Christ",
+      "Christ's invitation to the weary",
+      "The peace of Christ",
+      "Perseverance in Christ's goodness"
+    ],
+    "assessment": "A song of comfort that keeps its object right: it offers Christ himself rather than his benefits, and locates rest in his peace rather than in circumstances changing. Its chorus is a vow, not a mood. What it does not do is say what Christ did — the cross is absent, and the trouble it names is weariness rather than sin. Sound and genuinely useful; not a song that preaches the gospel."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Verses land in the same place every time",
+        "explanation": "Each verse closes on the identical line, so the congregation arrives somewhere familiar three times over. It teaches the song quickly and makes the resting the point.",
+        "songLocation": "VERSE",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Pastoral use",
+        "title": "Singable by someone who is struggling",
+        "explanation": "The song asks nothing of the singer's energy and does not require them to feel better than they do. That is rare and genuinely useful in a room where some people are suffering.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Singability",
+        "title": "B is a demanding congregational key",
+        "explanation": "B sits toward the top of the band most mixed congregations manage comfortably. Whether it works here depends on where this melody's climax falls, which was not measured for this review — worth checking against your own room.",
+        "songLocation": "NOT_LYRICAL",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": false
+      },
+      {
+        "category": "Corporate voice",
+        "title": "The vow is made alone",
+        "explanation": "The chorus is a resolution in the first person singular. A congregation making the same promise together would carry more weight than three hundred people making it privately at once.",
+        "songLocation": "CHORUS",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true
+      }
+    ],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Sung here in B, which is at the upper end of what mixed congregations manage. Consider A or G if the room thins out at the top of the chorus.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "B (as sung here)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated. The caution about the key is general to congregational singing, not a measurement of this melody."
+    },
+    "repetitionAssessment": "The chorus and the repeated verse-ending both carry content rather than filler. Repetition here is doing pastoral work: the point of the song is that the same rest is available every time.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Well shaped for a congregation, and unusually considerate of people who are struggling — it never requires the singer to feel better than they do. The one practical caution is the key: B is high for a mixed room, and the song is worth transposing rather than losing at the top."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Diction",
+        "title": "Plain and unhurried",
+        "explanation": "No metaphor needs unpacking and no line asks to be admired. The song says what it means at a pace a distracted or exhausted person can follow.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Address",
+        "title": "Knows who it is talking to",
+        "explanation": "The verses speak to the hearer and the chorus answers in the singer's own voice. That turn is clean and gives the song a shape a congregation can feel without being told.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Vocabulary",
+        "title": "'Goodness' is left undefined",
+        "explanation": "The word carries the whole song and is never filled in. Without the cross behind it, a hearer may reasonably take Christ's goodness to mean that things will go well for them.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": true
+      }
+    ],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear, plain and easy to follow, with a clean turn between the verses' address and the chorus's confession. Its one soft spot is the title word itself, which is asked to carry a great deal and is never anchored in anything Christ actually did."
+  },
+  "synthesis": {
+    "summary": "A song of comfort that offers Christ himself rather than his benefits, and locates rest in his peace rather than in circumstances improving. Its chorus is a vow for the long run. The cross is absent and the trouble it names is weariness rather than sin, so it comforts well without preaching the gospel.",
+    "themes": ["Christ", "Hope", "Assurance", "Suffering"],
+    "scriptureReferences": [
+      {
+        "reference": "Matthew 11:28-30",
+        "relevance": "The invitation to the weary that the song's opening reproduces in substance."
+      },
+      {
+        "reference": "John 6:35",
+        "relevance": "Christ as the one who satisfies, which is the chorus's central claim."
+      },
+      {
+        "reference": "John 14:27",
+        "relevance": "The peace of Christ that does not depend on conditions improving."
+      },
+      {
+        "reference": "Romans 5:8",
+        "relevance": "The act that makes Christ's goodness good news for a sinner, which the song leaves unstated."
+      }
+    ]
+  },
+  "sources": [
+    "https://cityalight.com/song/the-goodness-of-jesus/",
+    "https://open.spotify.com/track/6iL4Am7n9div8eH9kxmDYS"
+  ]
+}

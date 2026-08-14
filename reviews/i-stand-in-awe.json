@@ -1,0 +1,232 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "I Stand in Awe",
+    "artist": "Mark Altrogge",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1986,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Copyright 1986, Sovereign Grace Praise. Often listed by its opening line, 'You Are Beautiful Beyond Description'. Sovereign Grace Music has since re-recorded it."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "Two verses over one repeated chorus, no bridge. Addressed throughout to God in the second person, sung in the first person singular.",
+    "claims": [
+      {
+        "claim": "God's beauty exceeds description and his greatness exceeds comprehension.",
+        "subject": "The incomprehensibility of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": "too marvelous for words"
+      },
+      {
+        "claim": "No one can grasp God's wisdom or measure the depth of his love.",
+        "subject": "The wisdom and love of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is enthroned in majesty above.",
+        "subject": "The majesty of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is holy and all praise is owed to him.",
+        "subject": "The holiness of God",
+        "location": "CHORUS",
+        "lyricExcerpt": "Holy God to whom all praise is due"
+      },
+      {
+        "claim": "The fitting response to God is awe.",
+        "subject": "Worship",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is named as the Lamb of God.",
+        "subject": "Christ",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's compassion and mercy are named among the reasons for awe.",
+        "subject": "The mercy of God",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Doctrine of God",
+        "title": "Sings God's incomprehensibility",
+        "explanation": "The song's subject is that God exceeds what can be said about him. Very few congregational songs attempt this, and fewer make it the controlling idea rather than a passing line.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": "too marvelous for words",
+        "scriptureReference": "Romans 11:33",
+        "scriptureRationale": "God's judgements are unsearchable and his ways past finding out — the song's claim, in Paul's words."
+      },
+      {
+        "category": "Holiness",
+        "title": "Names God holy, and owes him everything",
+        "explanation": "The chorus does not stop at wonder. It calls God holy and says all praise is due to him, which turns an aesthetic response into an obligation the singer owes.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": "Holy God to whom all praise is due",
+        "scriptureReference": "Psalm 29:2",
+        "scriptureRationale": "Ascribe to the Lord the glory due his name — praise as debt rather than preference."
+      },
+      {
+        "category": "Worship",
+        "title": "The response is awe, not enthusiasm",
+        "explanation": "What the song asks of the singer is to stand and be small. That is a creaturely posture, and it is a different thing from the excitement much modern worship reaches for.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 33:8",
+        "scriptureRationale": "Let all the earth fear the Lord and stand in awe of him — the posture the chorus takes up."
+      },
+      {
+        "category": "Attributes of God",
+        "title": "Wisdom and love are called unsearchable, not merely great",
+        "explanation": "The song asks who can grasp and who can fathom, which frames God's wisdom and love as beyond the singer rather than as large versions of familiar things.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Ephesians 3:18-19",
+        "scriptureRationale": "The love of Christ surpasses knowledge — known and unmeasurable at once."
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Christology",
+        "title": "Christ present by title only",
+        "explanation": "The Lamb of God is named, and the title carries the cross with it, but nothing else in the song states what he did. A congregation singing only this would have God's greatness without his rescue.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": false,
+        "scriptureReference": "John 1:29",
+        "scriptureRationale": "The title the song borrows is given with its content attached: the Lamb takes away the sin of the world."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "Attributes without acts",
+        "explanation": "God is described rather than recounted. There is no exodus, no cross, no promise kept — only what God is like. It makes the awe harder to anchor, because the singer is not told what God has done to warrant it.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": false
+      }
+    ],
+    "doctrinesAffirmed": [
+      "The incomprehensibility of God",
+      "The holiness of God",
+      "The majesty of God",
+      "The unsearchable wisdom and love of God",
+      "God as the proper object of awe"
+    ],
+    "assessment": "A short song carrying an unusually weighty doctrine: that God exceeds description, and that the fitting response is awe rather than enthusiasm. It names holiness and owes God praise as a debt. Its limitation is that it describes God without recounting what he has done, so the awe rests on attributes alone. Sound, and best paired with a song that tells the story."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "One chorus, learned immediately",
+        "explanation": "Two short verses and a repeated chorus with no bridge and no key change. It is the kind of song a congregation owns by the second time it is sung.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Repetition",
+        "title": "What repeats is the confession",
+        "explanation": "The line that comes round again is the song's whole doctrinal claim, so repetition deepens rather than pads. Singing it four times is not four times nothing.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Corporate voice",
+        "title": "Sung in the singular throughout",
+        "explanation": "The song is 'I stand', never 'we stand'. In a room it means each singer stands alone before God rather than the church standing together, which is a real if minor loss for a gathered congregation.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true
+      }
+    ],
+    "singability": "EASY",
+    "vocalRangeNote": "Sung here in A. A workable congregational key for a song of this shape, though a room with more low voices than high may prefer G.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "A (as sung here)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated. No publisher consulted lists a vocal range for the song."
+    },
+    "repetitionAssessment": "The chorus repeats heavily, but its content is the song's doctrine rather than a hook. This is repetition used the way a refrain should be used.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Built for a congregation rather than a platform. Short, unhurried, no dependence on an arrangement, and its repeated line is worth repeating. The only communal weakness is the sustained first person, which leaves a room full of individuals rather than a church."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Diction",
+        "title": "Plain words for a hard idea",
+        "explanation": "Incomprehensibility is an abstract doctrine, and the song delivers it without a single technical term. Nothing needs explaining before a congregation can sing it.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Vocabulary",
+        "title": "'Beautiful' carries more weight than it can",
+        "explanation": "The opening word is aesthetic, and it is doing the work of God's glory. A modern hearer may take it as a statement of taste rather than of God's blazing weight, which is what the rest of the song means by it.",
+        "songLocation": "VERSE_1",
+        "locationDetail": "the opening line",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true
+      }
+    ],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear throughout and unusually economical. One abstract doctrine is delivered in plain speech without jargon or padding. The only soft spot is that its opening adjective is weaker in modern ears than the song needs it to be."
+  },
+  "synthesis": {
+    "summary": "A short, sound song about God's incomprehensibility — that he exceeds description, and that awe is the fitting response. It names God holy and treats praise as a debt owed. Its limitation is that it describes God's attributes without recounting his acts, so it is best paired with a song that tells the story.",
+    "themes": ["God", "Worship", "Holiness"],
+    "scriptureReferences": [
+      {
+        "reference": "Romans 11:33",
+        "relevance": "States the song's controlling idea: God's wisdom and ways are past finding out."
+      },
+      {
+        "reference": "Psalm 29:2",
+        "relevance": "Praise as the glory due God's name, which is the chorus's claim."
+      },
+      {
+        "reference": "Psalm 33:8",
+        "relevance": "Standing in awe as the creature's fitting posture before God."
+      },
+      {
+        "reference": "John 1:29",
+        "relevance": "Supplies the content of the one title by which the song names Christ."
+      }
+    ]
+  },
+  "sources": [
+    "https://sovereigngracemusic.com/music/songs/i-stand-in-awe/",
+    "https://hymnary.org/text/you_are_beautiful_beyond_description"
+  ]
+}
