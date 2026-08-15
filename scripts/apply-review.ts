@@ -36,7 +36,10 @@ async function main() {
     console.log(`\n✓ ${r.title} — ${r.artist}`);
     console.log(`  overall      ${r.overall}/100  (${r.recommendation})`);
     console.log(`  theological  ${r.theological}   communal ${r.communal}   clarity ${r.clarity}`);
-    if (r.ceiling !== null) console.log(`  ceiling applied at ${r.ceiling} — a severe or major theological concern is present`);
+    if (r.ceiling !== null) {
+      console.log(`  capped at ${r.ceiling} by biblical soundness — the other criteria averaged higher`);
+    }
+    if (r.unrated.length > 0) console.log(`  unrated  ${r.unrated.join(', ')} — no findings, excluded from the average`);
     console.log(`  findings ${r.findingCount}  ·  sources ${r.sourceCount}  ·  version ${r.reviewVersion}`);
     console.log(
       `  evidence ${r.evidence.grounded}/${r.evidence.total} findings checkable (${Math.round(r.evidence.ratio * 100)}%)` +

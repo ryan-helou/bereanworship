@@ -1,0 +1,233 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Build My Life",
+    "artist": "Pat Barrett",
+    "artistType": "INDIVIDUAL",
+    "album": "Housefires III",
+    "releaseYear": 2016,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Pat Barrett, Brett Younker, Karl Martin, Kirby Kaple and Matt Redman. CCLI 7070345. First released by Housefires in 2016; also widely known through Passion's recording."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Two verses, a pre-chorus, a repeated chorus and a bridge. The first verse addresses God's worthiness in general terms; the second turns to Christ by name. The bridge carries the title claim.",
+    "claims": [
+      {
+        "claim": "God is holy and there is no one like him.",
+        "subject": "The holiness of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": "Holy, there is no one like You"
+      },
+      {
+        "claim": "God is worthy of the singer's whole life and devotion.",
+        "subject": "Worthiness of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus is named as the one worthy of worship and trust.",
+        "subject": "Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer asks that their eyes be opened to see God rightly.",
+        "subject": "Illumination",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer will build their life on God's love as a firm foundation.",
+        "subject": "Foundation",
+        "location": "BRIDGE",
+        "lyricExcerpt": "I will build my life upon Your love"
+      },
+      {
+        "claim": "God's love is a foundation that will not be shaken.",
+        "subject": "Assurance",
+        "location": "BRIDGE",
+        "lyricExcerpt": "It is a firm foundation"
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Doctrine of God",
+        "title": "Opens on holiness, not benefit",
+        "explanation": "The first word of the song is a statement about God's character rather than about what he does for the singer. Starting there sets the order of the whole song correctly.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": "Holy, there is no one like You",
+        "scriptureReference": "Isaiah 6:3",
+        "scriptureRationale": "Holy, holy, holy is the Lord of hosts — the confession the opening line takes up."
+      },
+      {
+        "category": "Christology",
+        "title": "Names Jesus rather than resting on pronouns",
+        "explanation": "The chorus says the name. In a genre where the addressee is frequently left as an unspecified 'You', naming Christ is a small thing that settles what the song is and who it is for.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Philippians 2:9-10",
+        "scriptureRationale": "The name above every name, at which every knee shall bow."
+      },
+      {
+        "category": "Discipleship",
+        "title": "Commits the whole life, not the moment",
+        "explanation": "The bridge is a decision about how the singer will live rather than a description of how they feel. That makes it a vow a congregation can be held to on Monday.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": "I will build my life upon Your love",
+        "scriptureReference": "Matthew 7:24",
+        "scriptureRationale": "The wise man who built his house on the rock — the picture the bridge is reaching for."
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Discipleship",
+        "title": "The foundation named as love rather than obedience",
+        "explanation": "The bridge invokes Christ's parable but changes what the house is built on. In Matthew and Luke the rock is hearing his words and doing them; here it is God's love. The love is real and is not a wrong thing to rest on, but the song borrows a text and substitutes its point.",
+        "songLocation": "BRIDGE",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": true,
+        "lyricExcerpt": "It is a firm foundation",
+        "scriptureReference": "Matthew 7:24-27",
+        "scriptureRationale": "Everyone who hears these words of mine and does them — the parable makes obedience the rock."
+      },
+      {
+        "category": "Gospel content",
+        "title": "Christ named, his work unstated",
+        "explanation": "Jesus is named and called worthy, but the cross, sin and salvation are not addressed. A congregation learns that Christ is worth building on without being told what he did to make that true.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": false,
+        "scriptureReference": "1 Corinthians 3:11",
+        "scriptureRationale": "No one can lay a foundation other than that which is laid, which is Jesus Christ."
+      }
+    ],
+    "doctrinesAffirmed": [
+      "The holiness of God",
+      "The worthiness of Christ",
+      "Whole-life devotion",
+      "Assurance grounded outside the believer"
+    ],
+    "assessment": "A well-ordered song. It opens on God's holiness rather than on the singer's benefit, names Jesus instead of leaving an unspecified 'You', and its central move is a commitment about how a life will be built rather than a report of a feeling. The one imprecision is that the bridge invokes Christ's parable and swaps its point: the rock there is hearing his words and doing them. Sound throughout, with a borrowed text slightly rewritten."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Builds to the line worth repeating",
+        "explanation": "The song is shaped so the bridge arrives as the destination, and the bridge is where the strongest content sits. Form and content point the same way.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Accessibility",
+        "title": "Survives a piano and a room",
+        "explanation": "Nothing depends on the arrangement. It works unaccompanied, which is the practical test of whether a song belongs to the congregation or to the band.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Corporate voice",
+        "title": "Turns to 'we' where it matters",
+        "explanation": "The song moves between the individual commitment and a corporate voice, so the congregation gets to make the vow together rather than three hundred times separately.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Repetition",
+        "title": "The bridge runs long",
+        "explanation": "The closing repeats well past the point the claim has landed. It is the best content in the song, but a congregation's attention is finite and the repetition spends it.",
+        "songLocation": "BRIDGE",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true
+      }
+    ],
+    "singability": "EASY",
+    "vocalRangeNote": "Commonly published in G and A. The melody is stepwise and undemanding; this is among the easier songs in wide use for a mixed room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Commonly published in G and A",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetitionAssessment": "Heavy in the bridge, but what repeats is the song's central vow rather than a hook. Repetition used the way a refrain should be, if longer than needed.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Written for a congregation and shaped so the best line is the destination. It carries without a band, moves into a corporate voice at the point of commitment, and asks nothing technically difficult. The only cost is a bridge that outstays the point it has already made."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Diction",
+        "title": "Plain words for a whole-life claim",
+        "explanation": "The vow is stated without ornament or religious vocabulary. A first-time visitor understands exactly what is being committed to.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Two verses that move somewhere",
+        "explanation": "The first verse speaks of God in general terms and the second turns to Christ. The progression is easy to follow and does real work rather than restating.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Ambiguity",
+        "title": "'Your love' is not anchored",
+        "explanation": "The bridge builds on God's love without saying where that love was shown. A hearer who supplies the cross gets the right answer; a hearer who supplies a feeling gets a foundation that moves.",
+        "songLocation": "BRIDGE",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": true
+      }
+    ],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear and well-sequenced. The verses progress rather than repeat, and the central vow is stated in words nobody needs explained. Its one soft spot is that the love it builds on is never located in anything God did."
+  },
+  "synthesis": {
+    "summary": "Opens on God's holiness rather than the singer's benefit, names Jesus rather than an unspecified 'You', and commits a whole life rather than reporting a feeling. Easy to sing and built so the best line is the destination. Its one imprecision: the bridge invokes Christ's parable of the house on the rock and makes the foundation his love where he made it obedience to his words.",
+    "themes": ["God", "Christ", "Holiness", "Faith", "Assurance"],
+    "scriptureReferences": [
+      {
+        "reference": "Isaiah 6:3",
+        "relevance": "The confession of holiness the song opens with."
+      },
+      {
+        "reference": "Matthew 7:24-27",
+        "relevance": "The parable the bridge invokes, where the rock is hearing Christ's words and doing them."
+      },
+      {
+        "reference": "1 Corinthians 3:11",
+        "relevance": "Christ himself as the only foundation that can be laid."
+      },
+      {
+        "reference": "Philippians 2:9-10",
+        "relevance": "The name the chorus is willing to say rather than leaving a pronoun."
+      }
+    ]
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Build_My_Life",
+    "https://www.thebereantest.com/housefires-build-my-life",
+    "https://www.worshiptogether.com/songs/build-my-life-pat-barrett/"
+  ]
+}

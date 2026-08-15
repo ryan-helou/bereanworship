@@ -1,0 +1,231 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Oceans (Where Feet May Fail)",
+    "artist": "Hillsong UNITED",
+    "artistType": "COLLECTIVE",
+    "album": "Zion",
+    "releaseYear": 2013,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Matt Crocker, Joel Houston and Salomon Ligthelm. Spent a record 61 non-consecutive weeks at number one on Billboard's Hot Christian Songs. Reviewed as the album version; the radio edit omits material and is not the same song."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "Verse, chorus, second verse, then a long repeated bridge and a closing declaration. Built on Peter walking to Jesus on the water in Matthew 14, though the account is never narrated directly.",
+    "claims": [
+      {
+        "claim": "The singer is called out onto deep water, beyond where they can stand.",
+        "subject": "Calling",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's presence holds the singer where their own footing fails.",
+        "subject": "The presence of God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God has never failed and will not begin to fail now.",
+        "subject": "The faithfulness of God",
+        "location": "CHORUS",
+        "lyricExcerpt": "You've never failed and You won't start now"
+      },
+      {
+        "claim": "The singer asks the Spirit to lead them where their trust has no limits.",
+        "subject": "Sanctification",
+        "location": "BRIDGE",
+        "lyricExcerpt": "Spirit lead me where my trust is without borders"
+      },
+      {
+        "claim": "The singer asks to be taken deeper than they would go on their own.",
+        "subject": "Discipleship",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus is named as the one the singer's eyes are fixed upon.",
+        "subject": "Christ",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Faithfulness of God",
+        "title": "Argues from God's record, not the singer's feeling",
+        "explanation": "The chorus rests on what God has already done rather than on the singer's confidence. That is the right direction of argument, and it is the line most worth having in a room full of people in trouble.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": "You've never failed and You won't start now",
+        "scriptureReference": "Lamentations 3:22-23",
+        "scriptureRationale": "His mercies never come to an end; they are new every morning — faithfulness argued from track record."
+      },
+      {
+        "category": "Discipleship",
+        "title": "Takes its material from a real account",
+        "explanation": "The song is built on Peter leaving the boat, and it keeps the shape of that account: the call comes first, the failure is real, and the hand that holds is not the disciple's own.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Matthew 14:29-31",
+        "scriptureRationale": "Peter walks, sinks, and is caught by Christ — the sequence the song assumes throughout."
+      },
+      {
+        "category": "Christology",
+        "title": "Names Jesus at the centre of the bridge",
+        "explanation": "The long bridge fixes on Jesus by name rather than leaving the addressee open. It matters, because the rest of the song's imagery would carry a vaguer object comfortably.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MINOR",
+        "scriptureReference": "Hebrews 12:2",
+        "scriptureRationale": "Looking to Jesus, the founder and perfecter of our faith — the fixed gaze the bridge asks for."
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Sanctification",
+        "title": "Asks to be led into deeper testing",
+        "explanation": "The bridge prays for trust without limits and for deeper water, which amounts to asking God for trial as the means of growth. Christ taught his disciples to pray the opposite. The instinct behind it is real; the request is not one Scripture models.",
+        "songLocation": "BRIDGE",
+        "severity": "MODERATE",
+        "centrality": "IMPORTANT",
+        "recurring": true,
+        "lyricExcerpt": "Spirit lead me where my trust is without borders",
+        "scriptureReference": "Matthew 6:13",
+        "scriptureRationale": "Lead us not into temptation — the petition the bridge inverts, however sincerely."
+      },
+      {
+        "category": "Gospel content",
+        "title": "No cross, sin or salvation anywhere",
+        "explanation": "The song is entirely about trust under pressure. Nothing states why the singer may call on God at all. As one song among many that is unremarkable; as a congregation's staple for a decade it is a gap worth naming.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": false,
+        "scriptureReference": "Matthew 14:33",
+        "scriptureRationale": "The account itself ends in worship of the Son of God — content the song leaves at the edge."
+      }
+    ],
+    "doctrinesAffirmed": [
+      "The faithfulness of God",
+      "God's presence in trial",
+      "Christ as the object of faith",
+      "Dependence rather than self-reliance"
+    ],
+    "assessment": "A song about trust under pressure, and a good one on its own terms: the chorus argues from God's record rather than the singer's feeling, and the Peter account gives it a real shape. Two things limit it. The bridge asks to be led into deeper testing, which is close to the reverse of the petition Christ taught. And the gospel is absent — nothing says why the singer may call on God at all. Sound as a song of trust, thin as a diet."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Memorability",
+        "title": "One image, held all the way through",
+        "explanation": "Water carries the whole song and never mixes with a competing picture. A congregation knows what it is singing about from the first line to the last.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Singability",
+        "title": "Long, and built around a climb most rooms cannot make",
+        "explanation": "The song runs well past the length a congregation sustains and drives to a sustained high bridge. In practice the room carries the verses and the platform carries the climax, which is the wrong division of labour.",
+        "songLocation": "NOT_LYRICAL",
+        "severity": "MODERATE",
+        "centrality": "PERIPHERAL",
+        "recurring": false
+      },
+      {
+        "category": "Performance orientation",
+        "title": "The recording is doing much of the work",
+        "explanation": "The build, the held notes and the long instrumental swell are where the song's effect lives. Reduced to a piano and a room it loses more than a congregational song should.",
+        "songLocation": "NOT_LYRICAL",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": false
+      },
+      {
+        "category": "Corporate voice",
+        "title": "A private song sung in a crowd",
+        "explanation": "Every line is first person singular, and the subject is an individual calling. A congregation ends up singing three hundred separate prayers rather than one.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true
+      }
+    ],
+    "singability": "DIFFICULT",
+    "vocalRangeNote": "Commonly published in D. The bridge is where congregations drop out; if you keep the song, plan for the room to stop singing there or transpose to protect it.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Commonly published in D",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetitionAssessment": "The bridge repeats at length and is the song's least defensible content, so the repetition works against it rather than for it.",
+    "performanceOrientation": "PERFORMANCE_LEANING",
+    "assessment": "An anthem before it is a congregational song. One clear image carries it and the verses are within reach, but the length and the sustained bridge put the emotional centre beyond most rooms — and the section they cannot sing is the section carrying the request the review most questions."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Imagery",
+        "title": "A single coherent picture",
+        "explanation": "Ocean, depth and footing hold together without straining. The metaphor is doing real work rather than decorating, and it never collapses.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Ambiguous referent",
+        "title": "Metaphor throughout, and the addressee left late",
+        "explanation": "The song runs almost entirely on figure, and the one who is being addressed is not named until the bridge. Sung without that section — as the radio edit does — nothing in it settles who is being sung to.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MODERATE",
+        "centrality": "IMPORTANT",
+        "recurring": false,
+        "scriptureReference": "Matthew 14:33",
+        "scriptureRationale": "The account names its object plainly — truly you are the Son of God — where the song waits."
+      }
+    ],
+    "ambiguityLevel": "MODERATE",
+    "assessment": "Vivid and internally consistent, but almost wholly figurative. The identity of the one addressed arrives late and could be missed, and a hearer who does not know the Matthew account may take the whole song as a picture rather than a response to something that happened."
+  },
+  "synthesis": {
+    "summary": "A song of trust under pressure, argued from God's record rather than the singer's feeling, and built on Peter leaving the boat. Two limits: the bridge asks to be led into deeper testing, close to the reverse of the petition Christ taught, and the gospel is absent entirely. Musically an anthem whose climax sits beyond most congregations.",
+    "themes": ["Faith", "Hope", "Suffering", "Christ"],
+    "scriptureReferences": [
+      {
+        "reference": "Matthew 14:29-31",
+        "relevance": "The account the song is built on: the call, the sinking, and the hand that catches."
+      },
+      {
+        "reference": "Lamentations 3:22-23",
+        "relevance": "Faithfulness argued from God's record, which is the chorus's move."
+      },
+      {
+        "reference": "Matthew 6:13",
+        "relevance": "The petition the bridge's request runs against."
+      },
+      {
+        "reference": "Hebrews 12:2",
+        "relevance": "Looking to Jesus — the fixed gaze the bridge asks for, and where it names him."
+      }
+    ]
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Oceans_(Where_Feet_May_Fail)",
+    "https://www.thebereantest.com/hillsong-united-oceans",
+    "https://hillsong.com/music/united/zion-deluxe-edition/oceans-where-feet-may-fail"
+  ]
+}

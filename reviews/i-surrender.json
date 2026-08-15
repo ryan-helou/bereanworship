@@ -1,0 +1,223 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "I Surrender",
+    "artist": "Hillsong Worship",
+    "artistType": "COLLECTIVE",
+    "album": "Cornerstone",
+    "releaseYear": 2012,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Matt Crocker, copyright 2011 Hillsong Music Publishing. CCLI 6177317. Recorded live October 2011 and released on Cornerstone in July 2012."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "Verses and a repeated chorus, followed by two bridges that build and repeat at length. The final bridge is the song's emotional centre and carries most of its running time.",
+    "claims": [
+      {
+        "claim": "The singer hungers and thirsts for God's presence.",
+        "subject": "Desire for God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer gives everything over to God's will.",
+        "subject": "Surrender",
+        "location": "CHORUS",
+        "lyricExcerpt": "I surrender"
+      },
+      {
+        "claim": "The singer asks to know God relationally rather than merely about him.",
+        "subject": "The knowledge of God",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer asks Jesus to breathe within them, as the Spirit indwelling.",
+        "subject": "The Holy Spirit",
+        "location": "BRIDGE",
+        "lyricExcerpt": "Jesus breathe within"
+      },
+      {
+        "claim": "The singer asks to be consumed and remade by God's presence.",
+        "subject": "Sanctification",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Discipleship",
+        "title": "Surrender as the whole of the response",
+        "explanation": "The song asks for nothing except that the singer be given over. In a genre that often asks God for outcomes, a song whose only request is to be handed over is doing something right.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": "I surrender",
+        "scriptureReference": "Romans 12:1",
+        "scriptureRationale": "Present your bodies as a living sacrifice — the offering the chorus makes."
+      },
+      {
+        "category": "Desire for God",
+        "title": "Wants God rather than God's gifts",
+        "explanation": "The object throughout is God himself, not relief or blessing. The hunger language is drawn straight from the psalms and keeps the song from becoming a request for circumstances to improve.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 63:1",
+        "scriptureRationale": "My soul thirsts for you, my flesh faints for you — the same appetite, and the same object."
+      },
+      {
+        "category": "Pneumatology",
+        "title": "Names Jesus and asks for the Spirit",
+        "explanation": "The bridge is a request for the indwelling Spirit rather than for a feeling. It is the one place the song names Christ, and it echoes the moment Christ breathed on the disciples.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MINOR",
+        "lyricExcerpt": "Jesus breathe within",
+        "scriptureReference": "John 20:22",
+        "scriptureRationale": "He breathed on them and said, Receive the Holy Spirit."
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Gospel content",
+        "title": "Surrender without the mercy that grounds it",
+        "explanation": "The cross and Christ's death appear nowhere, and the song's ground for surrender is the singer's own hunger. Paul grounds the same offering in the mercies of God, which the song leaves out — so the appeal rests on appetite rather than on what has been done.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MODERATE",
+        "centrality": "IMPORTANT",
+        "recurring": false,
+        "scriptureReference": "Romans 12:1",
+        "scriptureRationale": "The offering is urged by the mercies of God — the ground stated first, and the one the song omits."
+      },
+      {
+        "category": "Subjectivity",
+        "title": "Assurance sought in felt presence",
+        "explanation": "What the singer asks for and measures by is God's presence experienced. A congregation taught to look there will read a flat Sunday as God's absence, because the song offers nothing outside the feeling to check it against.",
+        "songLocation": "BRIDGE",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": true,
+        "scriptureReference": "2 Corinthians 5:7",
+        "scriptureRationale": "We walk by faith, not by sight — the alternative measure the song does not offer."
+      }
+    ],
+    "doctrinesAffirmed": [
+      "Surrender to God's will",
+      "Desire for God himself",
+      "The indwelling of the Spirit",
+      "Dependence on God for sanctification"
+    ],
+    "assessment": "Wants the right thing. The song's only request is that the singer be given over to God, and its object is God himself rather than his gifts — both rarer than they should be. What it never supplies is why. The cross is absent, and surrender is urged on the strength of the singer's hunger where Paul urges it on the mercies of God. Sound in its aim, resting on feeling for its motive."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Simple line, easily carried",
+        "explanation": "The chorus is short and repeats a single phrase, so a congregation is not learning words while trying to mean them.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Performance orientation",
+        "title": "A long build the room cannot sustain",
+        "explanation": "Most of the song's running time is a repeated bridge that climbs and holds. Congregations manage the opening and hand the climax to the platform, which is where the song spends its energy.",
+        "songLocation": "NOT_LYRICAL",
+        "severity": "MODERATE",
+        "centrality": "PERIPHERAL",
+        "recurring": true
+      },
+      {
+        "category": "Repetition",
+        "title": "Repetition doing emotional rather than doctrinal work",
+        "explanation": "The bridge repeats a short phrase many times over a rising arrangement. The effect is carried by the build rather than by what is being said, which is a different thing from a refrain that deepens a confession.",
+        "songLocation": "BRIDGE",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true
+      },
+      {
+        "category": "Corporate voice",
+        "title": "Sung entirely in the singular",
+        "explanation": "Surrender is offered individually from first line to last. A congregation making the same offering together would carry more weight than a room of separate private submissions.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true
+      }
+    ],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Commonly published in B flat and C. The verses sit comfortably; the repeated bridge is where an ordinary room stops singing.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Commonly published in B flat and C",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetitionAssessment": "Extensive, and tied to a rising arrangement rather than to accumulating content. The repetition is doing the work the words are not.",
+    "performanceOrientation": "PERFORMANCE_LEANING",
+    "assessment": "The words are easy enough to sing, but the song is shaped around a long build that a congregation cannot sustain and a platform can. Used as written it produces a room that listens through the section the song cares most about."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Diction",
+        "title": "One idea, plainly said",
+        "explanation": "The title is the message and the song does not wander from it. Nobody finishes unsure what was being offered.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Ambiguity",
+        "title": "What is surrendered, and to what end, is left open",
+        "explanation": "The song says everything is given over without saying to what — obedience, a calling, a circumstance. The blank is easily filled with whatever the singer is feeling rather than with anything the song has taught.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": true
+      }
+    ],
+    "ambiguityLevel": "MODERATE",
+    "assessment": "Clear in what it says and open in what it means. The single idea is unmistakable, but its content is unspecified, so the song relies on the hearer to supply what surrender consists of — and gives them nothing to supply it from."
+  },
+  "synthesis": {
+    "summary": "Its only request is that the singer be given over, and its object is God rather than his gifts — both rarer than they should be. But the cross is absent, and surrender rests on the singer's hunger where Paul rests it on God's mercies. Musically it is built around a long bridge most congregations hand back to the platform.",
+    "themes": ["Worship", "Faith", "Holiness", "Prayer"],
+    "scriptureReferences": [
+      {
+        "reference": "Romans 12:1",
+        "relevance": "The offering the song makes, and the ground — God's mercies — it leaves out."
+      },
+      {
+        "reference": "Psalm 63:1",
+        "relevance": "Thirst for God himself, which the verses draw on directly."
+      },
+      {
+        "reference": "John 20:22",
+        "relevance": "Christ breathing the Spirit on the disciples, echoed in the bridge."
+      },
+      {
+        "reference": "2 Corinthians 5:7",
+        "relevance": "Walking by faith rather than sight — the check the song does not provide."
+      }
+    ]
+  },
+  "sources": [
+    "https://www.thebereantest.com/hillsong-worship-i-surrender",
+    "https://en.wikipedia.org/wiki/Cornerstone_(Hillsong_Worship_album)",
+    "https://www.worshiptogether.com/songs/i-surrender-hillsong/"
+  ]
+}

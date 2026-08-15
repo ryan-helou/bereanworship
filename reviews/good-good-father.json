@@ -1,0 +1,229 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Good Good Father",
+    "artist": "Chris Tomlin",
+    "artistType": "INDIVIDUAL",
+    "album": "Never Lose Sight",
+    "releaseYear": 2015,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Pat Barrett and Anthony Brown, first recorded by Housefires on Housefires II (2014). CCLI 7036612. Reviewed as the song; Chris Tomlin's 2015 recording is what most congregations know."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Two verses, a repeated chorus and a bridge. The verses report what the singer has heard said about God and then correct it against experience; the chorus makes the confession the song is named for.",
+    "claims": [
+      {
+        "claim": "Many conflicting accounts of God circulate, and the singer has heard them.",
+        "subject": "The knowledge of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is a good Father, and that is his settled character.",
+        "subject": "The fatherhood of God",
+        "location": "CHORUS",
+        "lyricExcerpt": "You're a good good Father"
+      },
+      {
+        "claim": "The singer is loved by God, and that constitutes their identity.",
+        "subject": "Identity",
+        "location": "CHORUS",
+        "lyricExcerpt": "I'm loved by You, it's who I am"
+      },
+      {
+        "claim": "God is perfect in all his ways toward us.",
+        "subject": "The character of God",
+        "location": "BRIDGE",
+        "lyricExcerpt": "You are perfect in all of Your ways"
+      },
+      {
+        "claim": "God's love is not earned and cannot be lost by the singer's failure.",
+        "subject": "The love of God",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Doctrine of God",
+        "title": "Fatherhood as character, not mood",
+        "explanation": "The chorus says goodness is who God is rather than how he happens to be treating the singer today. A congregation is given something that does not move with circumstance.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": "You're a good good Father",
+        "scriptureReference": "James 1:17",
+        "scriptureRationale": "With the Father of lights there is no variation or shadow due to change."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "Perfection extended to God's ways, not just his nature",
+        "explanation": "The bridge claims God is perfect in what he does, not only in what he is. That is the harder confession, and the one a suffering singer actually needs.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": "You are perfect in all of Your ways",
+        "scriptureReference": "Deuteronomy 32:4",
+        "scriptureRationale": "The Rock, his work is perfect, and all his ways are justice."
+      },
+      {
+        "category": "Grace",
+        "title": "Love that failure does not forfeit",
+        "explanation": "The song is clear that God's love is not a response to the singer's performance. For a congregation carrying real guilt, that is worth singing and is genuinely biblical.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 5:8",
+        "scriptureRationale": "God shows his love in that Christ died for us while we were still sinners."
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Gospel content",
+        "title": "Fatherhood without adoption",
+        "explanation": "Jesus, the cross and salvation appear nowhere. The song calls God Father and calls the singer loved without ever saying how a sinner came to stand in that relation. Scripture makes adoption a purchased status, and the song presents it as simply the case.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MODERATE",
+        "centrality": "CORE",
+        "recurring": false,
+        "scriptureReference": "Galatians 4:4-5",
+        "scriptureRationale": "God sent his Son to redeem those under the law so that we might receive adoption — the ground the song never supplies."
+      },
+      {
+        "category": "Identity",
+        "title": "Identity resting on being loved, undefined",
+        "explanation": "Being loved by God is a true thing to say about a Christian, and the chorus repeats it as the singer's whole identity without saying what makes it true of them. Sung often enough, it teaches a self-understanding with nothing underneath it.",
+        "songLocation": "CHORUS",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": true,
+        "lyricExcerpt": "I'm loved by You, it's who I am",
+        "scriptureReference": "1 John 3:1",
+        "scriptureRationale": "We are called children of God — but the verse grounds the title in the love the Father has given, not in the singer's sense of it."
+      }
+    ],
+    "doctrinesAffirmed": [
+      "The fatherhood of God",
+      "The unchanging goodness of God",
+      "The perfection of God's ways",
+      "Love not earned by performance"
+    ],
+    "assessment": "Says one true thing warmly and repeats it. God's fatherly goodness is presented as settled character rather than mood, and his love as unearned — both worth a congregation's confidence. What the song never does is say how a sinner came to call God Father. Jesus, the cross and salvation are absent entirely, so the relationship it celebrates is asserted rather than grounded. Sound in what it affirms, and dependent on a service that supplies what it omits."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Learned in one hearing",
+        "explanation": "Short chorus, plain words, no rhythmic hook that depends on the recording. A room that has never met the song is singing it by the second chorus.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Pastoral use",
+        "title": "Singable by someone in trouble",
+        "explanation": "It asks nothing of the singer's energy and does not require them to feel better than they do. That has real value in a room where some people are struggling.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Survives without the band",
+        "explanation": "Nothing in the song depends on the arrangement for its effect. It carries on a piano or a single guitar, which is the practical test of a congregational song.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Repetition",
+        "title": "The hook carries more weight than it can",
+        "explanation": "The doubled adjective and the threefold identity line are repeated heavily. The repeated content is thin enough that the repetition starts to do the work the words should be doing.",
+        "songLocation": "CHORUS",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true
+      }
+    ],
+    "singability": "EASY",
+    "vocalRangeNote": "Commonly published in A flat and G. The melody sits in a narrow band and is among the easier songs in current use for a mixed congregation.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Commonly published in A flat and G",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetitionAssessment": "Heavy, and the repeated line is a claim about the singer rather than about God. Repetition of thin content is what makes it feel longer than it is.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "As easy as congregational songs get: short, unhurried, indifferent to the band you have, and usable by someone who arrives struggling. Its communal weakness is that the most repeated line is also the thinnest, so a long song rests on a short idea."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Diction",
+        "title": "Nothing needs explaining",
+        "explanation": "Plain, conversational speech with no metaphor to unpack and no theological vocabulary. A child or a first-time visitor follows every line.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Ambiguity",
+        "title": "'Good' is never filled in",
+        "explanation": "The word carries the whole song and is never anchored in anything God has done. Without the cross behind it, a hearer may reasonably take God's goodness to mean that life will go well for them.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": true
+      },
+      {
+        "category": "Address",
+        "title": "The verses report, the chorus confesses",
+        "explanation": "The verses describe what others say about God before the chorus turns to address him. The switch is effective but leaves the first verse standing at a distance from the worship the song is doing.",
+        "songLocation": "VERSE_1",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": false
+      }
+    ],
+    "ambiguityLevel": "MODERATE",
+    "assessment": "Plain line by line and vague where it matters. Nothing in it can be misheard, but its central adjective rests on an argument the song never makes, so a hearer supplies the content themselves — and what they supply may be circumstantial rather than the cross."
+  },
+  "synthesis": {
+    "summary": "Warm, easy to sing, and true in what it affirms: God's fatherly goodness as settled character, and love that failure does not forfeit. But Jesus, the cross and salvation are absent entirely, so it celebrates a relationship without ever saying how a sinner came to stand in it. Best used where the rest of the service supplies the ground.",
+    "themes": ["God", "Grace", "Worship", "Assurance"],
+    "scriptureReferences": [
+      {
+        "reference": "James 1:17",
+        "relevance": "God's goodness as unchanging character, which is the chorus's claim."
+      },
+      {
+        "reference": "Deuteronomy 32:4",
+        "relevance": "Perfection extended to God's ways, which the bridge affirms."
+      },
+      {
+        "reference": "Galatians 4:4-5",
+        "relevance": "Adoption as purchased by the Son — the ground the song omits."
+      },
+      {
+        "reference": "1 John 3:1",
+        "relevance": "Children of God by the Father's given love, not by the singer's sense of it."
+      }
+    ]
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Good_Good_Father",
+    "https://www.thebereantest.com/housefires-good-good-father",
+    "https://www.worshiptogether.com/songs/good-good-father-chris-tomlin/"
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Praise",
+    "artist": "Elevation Worship",
+    "artistType": "COLLECTIVE",
+    "album": "Can You Imagine?",
+    "releaseYear": 2023,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Brandon Lake, Chandler Moore, Chris Brown, Cody Carnes, Pat Barrett and Steven Furtick. Recorded January 2023, released May 2023. Reached number one on Billboard's Hot Christian Songs."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "Two verses, a repeated chorus and a bridge, with heavy call-and-response through the closing sections. Opens from Psalm 150's call for everything that has breath to praise the Lord.",
+    "claims": [
+      {
+        "claim": "Everything that has breath owes God praise.",
+        "subject": "The duty of praise",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer will praise in every circumstance — winning or losing, certain or doubting.",
+        "subject": "Praise in adversity",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer will praise when outnumbered and surrounded.",
+        "subject": "Praise in adversity",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Praise is pictured as waters in which the singer's enemies drown.",
+        "subject": "Praise as warfare",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Praise is owed regardless of what the singer receives.",
+        "subject": "The ground of praise",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Worship",
+        "title": "Praise detached from circumstance",
+        "explanation": "The chorus commits to praise in loss as firmly as in gain. That is the harder half of the psalms and the half most contemporary worship omits, and here it is the song's central claim.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Job 1:21",
+        "scriptureRationale": "The Lord gave and the Lord has taken away; blessed be the name of the Lord."
+      },
+      {
+        "category": "Scripture",
+        "title": "Takes its opening from Psalm 150",
+        "explanation": "The song begins where the psalter ends, with the universal call to praise. It is a real text put in a congregation's mouth rather than a sentiment about worship.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 150:6",
+        "scriptureRationale": "Let everything that has breath praise the Lord — the line the song opens from."
+      },
+      {
+        "category": "Worship",
+        "title": "Praise owed rather than produced",
+        "explanation": "The song treats praise as a debt the creature owes rather than a response the singer generates when they feel like it. That framing is what lets the harder verses stand up.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 34:1",
+        "scriptureRationale": "I will bless the Lord at all times; his praise shall continually be in my mouth."
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Worship",
+        "title": "Praise turned into a weapon",
+        "explanation": "The bridge pictures praise as water in which the singer's enemies drown. Christianity Today has questioned the imagery publicly. It makes worship an instrument aimed at opponents rather than an offering to God, and it leaves the enemies undefined so a congregation supplies its own.",
+        "songLocation": "BRIDGE",
+        "severity": "MODERATE",
+        "centrality": "IMPORTANT",
+        "recurring": false,
+        "scriptureReference": "Matthew 5:44",
+        "scriptureRationale": "Love your enemies and pray for those who persecute you — the posture the imagery sits awkwardly beside."
+      },
+      {
+        "category": "Gospel content",
+        "title": "Nothing said about who is praised, or why",
+        "explanation": "Jesus, the cross and salvation appear nowhere, and the reasons given for praise are the singer's resolve rather than anything God has done. A psalm of praise usually recites acts; this one recites commitment.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": false,
+        "scriptureReference": "Psalm 150:2",
+        "scriptureRationale": "Praise him for his mighty deeds — the psalm gives reasons where the song gives resolve."
+      }
+    ],
+    "doctrinesAffirmed": [
+      "The duty of praise",
+      "Praise independent of circumstance",
+      "God as the proper object of worship"
+    ],
+    "assessment": "Its central claim is a good and unfashionable one: praise is owed in loss as much as in gain, and it is a debt rather than a mood. That carries the song a long way. Two things pull against it. The bridge turns praise into a weapon that drowns unnamed enemies, which has been publicly questioned and sits badly beside Christ's command about enemies. And the song never says who is being praised or for what, so its reasons are the singer's resolve rather than God's acts."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Memorability",
+        "title": "A room can shout it",
+        "explanation": "Short phrases, call-and-response and a chorus built for volume. Whatever else is true of it, a congregation genuinely sings this one rather than watching it.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Pastoral use",
+        "title": "Gives the struggling something to say",
+        "explanation": "Because the commitment holds in losing as well as winning, someone in a hard week is not asked to pretend. The song makes room for them without changing its claim.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Performance orientation",
+        "title": "Written around the recording",
+        "explanation": "The call-and-response, the layered vocals and the extended closing depend on a full band and multiple leads. Reduced to a piano the song loses its shape rather than simplifying.",
+        "songLocation": "NOT_LYRICAL",
+        "severity": "MODERATE",
+        "centrality": "PERIPHERAL",
+        "recurring": false
+      },
+      {
+        "category": "Length",
+        "title": "Long, and longest where it is thinnest",
+        "explanation": "The closing sections repeat well past where the content has been exhausted. A congregation is asked to sustain energy through the part of the song with the least to say.",
+        "songLocation": "NOT_LYRICAL",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true
+      }
+    ],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Commonly published in B flat. The call-and-response sections assume more than one lead voice; plan for that or the room carries both halves.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Commonly published in B flat",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetitionAssessment": "Extensive in the closing sections. Early repetition drives the confession home; the later repetition is sustaining energy rather than adding content.",
+    "performanceOrientation": "PERFORMANCE_LEANING",
+    "assessment": "Genuinely singable and genuinely loud, which is not nothing — congregations do sing this rather than watch it. The cost is that it is built around a recording with multiple lead voices and a long closing, so what a normal Sunday band delivers is a reduction rather than a simplification."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Diction",
+        "title": "Short lines, no ornament",
+        "explanation": "The song says what it means in the fewest words available. There is no image to decode and no phrase that needs a second listen.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Ambiguity",
+        "title": "The enemies are never identified",
+        "explanation": "The bridge sets praise against opponents without saying who they are. Sung weekly, a congregation fills the blank with whoever is currently against them, which is not what the psalms mean by the word.",
+        "songLocation": "BRIDGE",
+        "severity": "MODERATE",
+        "centrality": "IMPORTANT",
+        "recurring": false
+      },
+      {
+        "category": "Ambiguity",
+        "title": "The object of praise is left open",
+        "explanation": "No name, no attribute and no act identifies who is being praised. The song would be sung without alteration in a room that meant something else by the word Lord.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": true
+      }
+    ],
+    "ambiguityLevel": "MODERATE",
+    "assessment": "Plain in its words and open in its referents. Nothing is hard to follow, but two blanks sit at the centre — who is praised, and who the enemies are — and a congregation fills both from its own situation rather than from anything the song supplies."
+  },
+  "synthesis": {
+    "summary": "Its central claim is good and unfashionable: praise is owed in losing as much as winning, and it is a debt rather than a mood. But the bridge turns praise into a weapon drowning unnamed enemies — publicly questioned by Christianity Today — and the song never says who is praised or for what. Singable and loud; built around a recording rather than a room.",
+    "themes": ["Worship", "Thanksgiving", "Suffering", "Faith"],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 150:6",
+        "relevance": "The universal call the song opens from."
+      },
+      {
+        "reference": "Job 1:21",
+        "relevance": "Blessing God in loss, which is the chorus's harder half."
+      },
+      {
+        "reference": "Psalm 150:2",
+        "relevance": "The psalm praises for God's deeds where the song praises on resolve."
+      },
+      {
+        "reference": "Matthew 5:44",
+        "relevance": "Christ's command about enemies, which the bridge's imagery sits awkwardly beside."
+      }
+    ]
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Praise_(Elevation_Worship_song)",
+    "https://en.wikipedia.org/wiki/Can_You_Imagine%3F",
+    "https://www.songfacts.com/lyrics/elevation-worship/praise"
+  ]
+}

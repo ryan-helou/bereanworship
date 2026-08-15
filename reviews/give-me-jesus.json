@@ -1,0 +1,192 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Give Me Jesus",
+    "artist": "Traditional Spiritual",
+    "artistType": "UNKNOWN",
+    "album": null,
+    "releaseYear": 1873,
+    "genre": "Traditional Hymn",
+    "isPublicDomain": true,
+    "notes": "An African-American spiritual from the era of slavery, published by the Fisk Jubilee Singers in 1873; a Methodist version appeared as early as 1849. The words are public domain. Fernando Ortega's 1999 arrangement is what most churches now know, but the text itself is not his."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "Several short verses, each naming a time of life — rising in the morning, the dark of midnight, the break of day, the hour of death — with each line sung three times before the same refrain. The form is repetition by design, as with most spirituals.",
+    "claims": [
+      {
+        "claim": "At the start of each day the singer's request is Jesus.",
+        "subject": "Devotion",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "In the darkest hour the singer's cry is for Jesus.",
+        "subject": "Suffering",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "When the singer comes to die, their request is still Jesus.",
+        "subject": "Death",
+        "location": "VERSE",
+        "lyricExcerpt": "when I come to die, give me Jesus"
+      },
+      {
+        "claim": "The world may be given to others; the singer wants Christ instead.",
+        "subject": "The supreme worth of Christ",
+        "location": "REFRAIN",
+        "lyricExcerpt": "You may have all this world"
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christology",
+        "title": "Christ set against the whole world, and preferred",
+        "explanation": "The refrain hands the world away and asks for one thing. It is the same trade Paul makes when he counts everything loss, put in words a congregation can sing without instruction.",
+        "songLocation": "REFRAIN",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": "You may have all this world",
+        "scriptureReference": "Philippians 3:8",
+        "scriptureRationale": "I count everything as loss because of the surpassing worth of knowing Christ Jesus my Lord."
+      },
+      {
+        "category": "Death",
+        "title": "Sings the hour of death without flinching",
+        "explanation": "A verse addresses dying directly and asks for nothing but Christ there. Almost no song in current congregational use will name death at all, and this one makes it the climax rather than the exception.",
+        "songLocation": "VERSE",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": "when I come to die, give me Jesus",
+        "scriptureReference": "Philippians 1:21",
+        "scriptureRationale": "To live is Christ, and to die is gain — the same valuation, at the same hour."
+      },
+      {
+        "category": "Discipleship",
+        "title": "Covers the whole of a life, hour by hour",
+        "explanation": "Morning, midnight, daybreak and death: the verses walk through a life and give the same answer at every point. The structure teaches that Christ is not for the crisis only.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 73:25-26",
+        "scriptureRationale": "There is nothing on earth I desire besides you — desire that does not change with the hour."
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Gospel content",
+        "title": "Christ desired, his work unstated",
+        "explanation": "The song asks for Jesus without saying who he is or what he did. Its worth depends entirely on a congregation already knowing. Sung in a church that teaches, that is no fault; sung as an introduction to the faith, it explains nothing.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": false,
+        "scriptureReference": "1 Corinthians 15:3-4",
+        "scriptureRationale": "The content of first importance — died, buried, raised — which the song assumes rather than states."
+      }
+    ],
+    "doctrinesAffirmed": [
+      "The supreme worth of Christ",
+      "Christ as sufficient in death",
+      "Contentment in Christ above the world",
+      "Devotion across the whole of life"
+    ],
+    "assessment": "A short spiritual carrying more weight than most modern songs three times its length. It sets Christ against the entire world and prefers him, then walks through a life — morning, midnight, daybreak, death — giving the same answer each time. It names the hour of death directly, which almost nothing in current use will do. Its limit is that it asks for Christ without saying who he is; it assumes the gospel rather than teaching it."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Anyone can sing it, anywhere",
+        "explanation": "Four words repeated three times to a simple melody, needing no instruments and no rehearsal. It works at a graveside, in a hospital room and in a full church equally.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Pastoral use",
+        "title": "Fits the person who cannot manage more",
+        "explanation": "The song asks nothing of the singer's energy or composure. For someone grieving or frightened it gives them a sentence they can hold, which is exactly what such a person needs and rarely gets.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Corporate voice",
+        "title": "Sung in the singular throughout",
+        "explanation": "The song is one person's confession. That suits its subject — nobody dies corporately — but it does mean a congregation sings alongside one another rather than as one voice.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true
+      }
+    ],
+    "singability": "EASY",
+    "vocalRangeNote": "Sung in many keys, most commonly around G or A flat in modern arrangements. The melody is narrow and stepwise, and the song survives any key a room can reach.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Varies by arrangement; commonly around G or A flat",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated. As a public-domain spiritual it is published in many keys."
+    },
+    "repetitionAssessment": "Each line is sung three times by design. The repetition is the form of the spiritual and it works pastorally: it lets a grieving singer stay with one thought rather than move on.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "About as congregational as a song can be. It needs no band, no rehearsal and no strength from the singer, and it works in the settings where music is hardest — a funeral, a sickroom, a frightened church. The only structural note is that it is one voice rather than a corporate one, which suits its subject."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Diction",
+        "title": "Nothing to interpret",
+        "explanation": "Four plain words carry the entire song. There is no metaphor, no allusion and no theological vocabulary, and the meaning arrives complete on the first hearing.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Structure",
+        "title": "The frame does the teaching",
+        "explanation": "By naming a different hour in each verse and giving one answer, the song makes its point structurally. A hearer takes the argument without it ever being stated.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "As clear as congregational song gets. One request, repeated in four settings, in words a child understands and a dying person can manage. Nothing here can be misheard, and the structure carries the argument without stating it."
+  },
+  "synthesis": {
+    "summary": "A short African-American spiritual that hands the whole world away and asks for one thing. It walks a life — morning, midnight, daybreak, death — giving the same answer each time, and names the hour of death directly, which almost nothing in current use will do. Public domain, singable anywhere by anyone. It assumes the gospel rather than teaching it.",
+    "themes": ["Christ", "Hope", "Suffering", "Faith", "Heaven"],
+    "scriptureReferences": [
+      {
+        "reference": "Philippians 3:8",
+        "relevance": "Counting everything loss for Christ — the trade the refrain makes."
+      },
+      {
+        "reference": "Philippians 1:21",
+        "relevance": "To die is gain, which is what the death verse rests on."
+      },
+      {
+        "reference": "Psalm 73:25-26",
+        "relevance": "Desiring nothing on earth besides God, unchanged by the hour."
+      },
+      {
+        "reference": "1 Corinthians 15:3-4",
+        "relevance": "The gospel content the song assumes rather than states."
+      }
+    ]
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Give_Me_Jesus",
+    "https://hymnary.org/tune/give_me_jesus_spiritual",
+    "https://hymnary.org/hymn/ELW2006/770"
+  ]
+}

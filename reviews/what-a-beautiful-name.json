@@ -1,0 +1,250 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "What a Beautiful Name",
+    "artist": "Hillsong Worship",
+    "artistType": "COLLECTIVE",
+    "album": "Let There Be Light",
+    "releaseYear": 2016,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Brooke Ligertwood and Ben Fielding. CCLI 7068424. Dove Song of the Year 2017 and a 2018 Grammy for Best Contemporary Christian Music Performance/Song."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Three verses, each ending in a variation of the title line — beautiful, wonderful, powerful — with a bridge before the final chorus. The three verses track the incarnation, the cross and the resurrection in order.",
+    "claims": [
+      {
+        "claim": "Christ was the Word in the beginning, with God before creation.",
+        "subject": "The pre-existence of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": "You were the Word at the beginning"
+      },
+      {
+        "claim": "Christ took on flesh and came to dwell among us.",
+        "subject": "The incarnation",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God did not want heaven without us, so Christ brought heaven down.",
+        "subject": "The motive of the incarnation",
+        "location": "VERSE_2",
+        "lyricExcerpt": "You didn't want heaven without us"
+      },
+      {
+        "claim": "Sin and shame separated us from God, and the cross removed that separation.",
+        "subject": "The atonement",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Death could not hold Christ, and the temple veil tore at his death.",
+        "subject": "The resurrection",
+        "location": "VERSE_3",
+        "lyricExcerpt": "Death could not hold You"
+      },
+      {
+        "claim": "Christ has no rival and no equal.",
+        "subject": "The uniqueness of Christ",
+        "location": "BRIDGE",
+        "lyricExcerpt": "You have no rival, You have no equal"
+      },
+      {
+        "claim": "Christ now reigns in glory and will return.",
+        "subject": "The reign of Christ",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christology",
+        "title": "Three verses walk the gospel in order",
+        "explanation": "Incarnation, cross, resurrection — each given its own verse and each stated plainly. Very few songs in current congregational use carry the whole arc, and fewer still keep it in sequence.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Corinthians 15:3-4",
+        "scriptureRationale": "Paul's summary of first importance — died, buried, raised — is the shape this song follows."
+      },
+      {
+        "category": "Christology",
+        "title": "Begins before Bethlehem",
+        "explanation": "The song opens on Christ as the eternal Word rather than on his birth. A congregation is taught that the one they sing to did not begin when he was born.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": "You were the Word at the beginning",
+        "scriptureReference": "John 1:1-2",
+        "scriptureRationale": "In the beginning was the Word, and the Word was with God — the claim the opening line makes."
+      },
+      {
+        "category": "Resurrection",
+        "title": "The tomb and the veil in one breath",
+        "explanation": "The resurrection is stated as fact and paired with the torn veil, so the congregation sings both what happened and what it opened. Access to God is presented as purchased, not assumed.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": "Death could not hold You",
+        "scriptureReference": "Hebrews 10:19-20",
+        "scriptureRationale": "The curtain is his flesh; the way into the holy places was opened by his death."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "Names Christ's uniqueness without qualification",
+        "explanation": "The bridge places Christ beyond comparison rather than merely above competitors. It is a claim about kind, not degree, and it is the right one.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": "You have no rival, You have no equal",
+        "scriptureReference": "Isaiah 46:9",
+        "scriptureRationale": "I am God, and there is no other; I am God, and there is none like me."
+      },
+      {
+        "category": "Atonement",
+        "title": "Names sin as the thing that separated",
+        "explanation": "The second verse says what the cross dealt with rather than leaving the crucifixion as unexplained suffering. Sin and shame are named as the barrier, which is what makes the removal good news.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 59:2",
+        "scriptureRationale": "Iniquities have made a separation between you and your God — the barrier the verse says was removed."
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Doctrine of God",
+        "title": "God's motive stated as not wanting to be without us",
+        "explanation": "Read strictly this makes the incarnation answer a lack in God. John Piper and Sam Storms have both said publicly that the line sits too easily beside a God who created out of need; the writer's defence cites Christ's desire that we be with him. It is imprecision on aseity, not a denial of it.",
+        "songLocation": "VERSE_2",
+        "locationDetail": "the opening couplet",
+        "severity": "MINOR",
+        "centrality": "CORE",
+        "recurring": false,
+        "lyricExcerpt": "You didn't want heaven without us",
+        "scriptureReference": "Acts 17:24-25",
+        "scriptureRationale": "God is not served by human hands as though he needed anything — the doctrine the phrasing strains against."
+      }
+    ],
+    "doctrinesAffirmed": [
+      "The pre-existence and deity of Christ",
+      "The incarnation",
+      "The atoning death of Christ",
+      "The bodily resurrection",
+      "The uniqueness of Christ",
+      "The reign of Christ"
+    ],
+    "assessment": "Doctrinally the strongest song in wide congregational use from this catalogue. Three verses carry incarnation, cross and resurrection in order, the opening line reaches back before Bethlehem, and the torn veil is paired with the empty tomb. One couplet strains — it locates the motive of the incarnation in God not wanting to be without us, which two serious theologians have publicly flagged. That is an imprecision about aseity rather than an error, and it does not undo the rest."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Corporate voice",
+        "title": "The congregation confesses rather than reports",
+        "explanation": "The song is addressed to Christ throughout, so a room singing it is speaking to him rather than about him. That is the harder and better thing for a congregational song to do.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Memorability",
+        "title": "Three verses, one shape",
+        "explanation": "Each verse lands on the same line with one word changed — beautiful, wonderful, powerful. The congregation always knows where it is, and the variation teaches the progression.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Doctrine carried by the form",
+        "explanation": "The three-verse sequence is what delivers the gospel arc. A congregation learns the order by singing it, not by being told, which is the most durable teaching a song can do.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Singability",
+        "title": "The bridge sits high and stays there",
+        "explanation": "The song builds to a sustained bridge that most rooms manage only in part. It is worth transposing rather than losing the congregation at the section carrying the strongest doctrinal claims.",
+        "songLocation": "NOT_LYRICAL",
+        "severity": "MODERATE",
+        "centrality": "PERIPHERAL",
+        "recurring": false
+      }
+    ],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Widely published in D. The bridge is the demanding part; check it against your own room before choosing the key, since that is where the song's best content sits.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Commonly published in D",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetitionAssessment": "The title line returns at the end of every verse with one word changed. What repeats carries the argument rather than padding it.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Built for a congregation and addressed to Christ throughout, with a form that teaches its own content. The one practical difficulty is the bridge, which sits high and holds there — a room that cannot reach it loses the section carrying the song's strongest claims, so transposing is worth the trouble."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Diction",
+        "title": "Doctrine in plain speech",
+        "explanation": "Pre-existence, atonement and resurrection are delivered without a single technical term. Nothing needs explaining before a congregation can sing it and mean it.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Structure",
+        "title": "No doubt about who is addressed",
+        "explanation": "Christ is named and described so specifically that the song cannot be sung to anyone else. That is worth more than it sounds in a genre where the addressee is often left open.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Ambiguity",
+        "title": "One line invites a reading it does not intend",
+        "explanation": "The second verse's account of why Christ came can be heard as God needing us. Most singers will take it as love rather than lack, but the wording does not settle it, and the song does not return to close the gap.",
+        "songLocation": "VERSE_2",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": false
+      }
+    ],
+    "ambiguityLevel": "LOW",
+    "assessment": "Unusually clear for a song carrying this much doctrine. Every central claim is made in plain words, and the object of worship is never in doubt. The single soft spot is the couplet on why Christ came, which leaves more room than it needs to."
+  },
+  "synthesis": {
+    "summary": "Three verses carry the incarnation, the cross and the resurrection in order, opening before Bethlehem and pairing the torn veil with the empty tomb. Doctrinally the strongest song here. One couplet locates the motive of the incarnation in God not wanting to be without us — an imprecision about God's self-sufficiency that Piper and Storms have both noted publicly.",
+    "themes": ["Christ", "Cross", "Resurrection", "Worship", "Salvation"],
+    "scriptureReferences": [
+      {
+        "reference": "John 1:1-2",
+        "relevance": "The pre-existent Word, which is where the song chooses to begin."
+      },
+      {
+        "reference": "1 Corinthians 15:3-4",
+        "relevance": "The died-buried-raised sequence the three verses follow."
+      },
+      {
+        "reference": "Hebrews 10:19-20",
+        "relevance": "The torn veil as the opened way, which the third verse pairs with the resurrection."
+      },
+      {
+        "reference": "Acts 17:24-25",
+        "relevance": "God's self-sufficiency, the doctrine the second verse's phrasing strains against."
+      }
+    ]
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/What_a_Beautiful_Name",
+    "https://www.worshiptogether.com/songs/what-a-beautiful-name-hillsong-worship/",
+    "https://en.wikipedia.org/wiki/Let_There_Be_Light_(album)"
+  ]
+}
