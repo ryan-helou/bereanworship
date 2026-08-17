@@ -1,0 +1,235 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Way Maker",
+    "artist": "Sinach",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 2015,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Osinachi Kalu Okoro Egbu (Sinach) in Nigeria, released December 2015. Reached number one on CCLI's global chart and won the 2020 Dove Award for Song of the Year. Best known in the West through Leeland's and Michael W. Smith's recordings, whose authorship of the song is frequently misattributed."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "Verses over a repeated chorus of titles, with a bridge. The verses describe God at work in the room as the song is sung; the chorus names four things he is.",
+    "claims": [
+      {
+        "claim": "God is present and at work among those singing.",
+        "subject": "The presence of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God makes a way, works miracles, keeps promises and is light in darkness.",
+        "subject": "The character of God",
+        "location": "CHORUS",
+        "lyricExcerpt": "Way maker, miracle worker, promise keeper"
+      },
+      {
+        "claim": "God touches and mends every heart in the room.",
+        "subject": "The work of God",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God never stops working, even when unseen.",
+        "subject": "Providence",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "These titles describe who God is, not merely what he does occasionally.",
+        "subject": "The character of God",
+        "location": "CHORUS",
+        "lyricExcerpt": "That is who You are"
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Providence",
+        "title": "Insists God works when nothing is visible",
+        "explanation": "The bridge holds that God is at work whether or not the singer can see it. For a congregation in a hard season that is a genuine and biblical comfort, and it is the song's best line.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 55:8-9",
+        "scriptureRationale": "God's ways are higher than ours — the ground for trusting work that cannot be seen."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "Treats the titles as identity, not activity",
+        "explanation": "The chorus says these are who God is rather than what he happens to be doing. That is the right instinct: it makes the claim independent of whether the singer's circumstances have improved.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": "That is who You are",
+        "scriptureReference": "Malachi 3:6",
+        "scriptureRationale": "I the Lord do not change — character rather than mood."
+      },
+      {
+        "category": "Faithfulness of God",
+        "title": "Promise keeping named as a divine attribute",
+        "explanation": "Of the four titles, promise keeper is the one with the most Scripture behind it and the most weight for a congregation. It points at a God who has bound himself to specific commitments.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "2 Corinthians 1:20",
+        "scriptureRationale": "All the promises of God find their Yes in him."
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Anthropology",
+        "title": "Universal claims about what God is doing in the room",
+        "explanation": "The verses say God is touching and mending every heart present. Sung in a mixed congregation that is not true of everyone, and it teaches a singer to read the room's emotion as evidence of God's work. The instinct is generous; the claim is larger than Scripture makes.",
+        "songLocation": "VERSE_2",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": true,
+        "likelihood": "POSSIBLE",
+        "scriptureReference": "Matthew 13:3-8",
+        "scriptureRationale": "The same sowing meets four kinds of ground — the parable rules out assuming a uniform work in every hearer."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "Titles offered without the acts behind them",
+        "explanation": "Four titles are asserted and none is anchored in anything God has done. A congregation is asked to affirm that he makes a way without being told about a Red Sea, a cross or an empty tomb, so the words rest on the singer's experience of them.",
+        "songLocation": "CHORUS",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": true,
+        "likelihood": "POSSIBLE",
+        "scriptureReference": "Isaiah 43:16-19",
+        "scriptureRationale": "God's way-making is named alongside the sea he actually parted; the title comes with its history attached."
+      }
+    ],
+    "doctrinesAffirmed": [
+      "The providence of God",
+      "God's faithfulness to his promises",
+      "God's character as unchanging",
+      "God at work when unseen"
+    ],
+    "assessment": "Its instinct is right where it matters most: the titles are presented as God's settled identity rather than his current mood, and the bridge insists he works when nothing is visible. But the song asserts four titles without anchoring any of them in something God has done, and tells the room that every heart present is being mended. Both leave the singer's own experience carrying weight the song should have put on God's acts."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A room learns it immediately",
+        "explanation": "Four short phrases, heavy repetition and no rhythmic trap. It has become one of the most-sung songs on earth partly because a congregation can hold it after one hearing.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Pastoral use",
+        "title": "Reaches people who cannot manage more",
+        "explanation": "The song asks little of the singer and gives them four true things to say. In a room carrying real trouble that accessibility is worth something.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Repetition",
+        "title": "Repetition doing the work the content should",
+        "explanation": "The chorus repeats four short phrases at length, and the song's effect builds through accumulation rather than through anything further being said. The words run out before the song does.",
+        "songLocation": "CHORUS",
+        "severity": "MODERATE",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "likelihood": "POSSIBLE"
+      },
+      {
+        "category": "Corporate voice",
+        "title": "Sung in the singular",
+        "explanation": "The verses describe a room but the voice stays 'I'. A congregation asserting what God is doing among them would more naturally say 'we'.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "singability": "EASY",
+    "vocalRangeNote": "Commonly published in E and F. The melody is narrow and the phrases are short; this is among the easiest songs in wide use for a mixed room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Commonly published in E and F",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetitionAssessment": "Extensive, and the repeated content is four titles rather than an argument. Repetition here sustains a mood more than it deepens a confession.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Genuinely congregational and genuinely easy — a large part of why it travelled from Lagos to the whole church. The cost is that its length is carried by repetition rather than by content: the song says what it has to say early and then keeps saying it."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Diction",
+        "title": "Four words anybody understands",
+        "explanation": "The titles are concrete and need no explanation. A first-time visitor knows what is being claimed about God from the first chorus.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Ambiguity",
+        "title": "Way-making left undefined",
+        "explanation": "What kind of way God makes is never said. A hearer may fill it with a job, a diagnosis or a relationship as easily as with salvation, and the song does nothing to direct the filling.",
+        "songLocation": "CHORUS",
+        "severity": "MODERATE",
+        "centrality": "IMPORTANT",
+        "recurring": true,
+        "likelihood": "LIKELY"
+      }
+    ],
+    "ambiguityLevel": "MODERATE",
+    "assessment": "Every individual word is plain, and what they add up to is not. The four titles are concrete enough to sing confidently and vague enough that a congregation may each mean something different by them — most obviously about the kind of way God is making."
+  },
+  "synthesis": {
+    "summary": "Its instinct is right where it matters most: the titles are God's settled identity rather than his current mood, and the bridge insists he works when nothing is visible. But four titles are asserted without anchoring any in something God has done, and the verses tell the room every heart present is being mended. Enormously singable, and carried by repetition more than by content.",
+    "themes": ["God", "Providence", "Hope", "Faith"],
+    "scriptureReferences": [
+      {
+        "reference": "Isaiah 43:16-19",
+        "relevance": "God's way-making named alongside the sea he actually parted — the history the chorus omits."
+      },
+      {
+        "reference": "2 Corinthians 1:20",
+        "relevance": "Promises kept in Christ, which is the weightiest of the four titles."
+      },
+      {
+        "reference": "Malachi 3:6",
+        "relevance": "God's unchanging character, which the chorus rightly claims."
+      },
+      {
+        "reference": "Matthew 13:3-8",
+        "relevance": "The same sowing meets four kinds of ground, ruling out a uniform work in every hearer."
+      }
+    ]
+  },
+  "substance": {
+    "namesGod": false,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "groundsItsClaims": true,
+    "engagesScripture": false,
+    "beyondTheSelf": false,
+    "saysSomethingNew": false
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Way_Maker",
+    "https://www.thebereantest.com/sinach-way-maker",
+    "https://congregationalsong.org/the-overlooked-authorship-of-way-maker/",
+    "https://www.christianitytoday.com/2020/06/way-maker-worship-song-sinach-leeland-michael-w-smith/"
+  ]
+}

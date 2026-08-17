@@ -1,0 +1,197 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Draw Me Close",
+    "artist": "Kelly Carpenter",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1994,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Kelly Carpenter, a Vineyard worship pastor, in January 1994, out of a season in which his own work had crowded out his walk with God. Widely known through Michael W. Smith's recording. Often listed as 'Draw Me Close to You'."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "Verses and a chorus, no bridge. Addressed throughout to an unnamed 'You'. The song asks for nearness and declares that the one addressed is all the singer wants.",
+    "claims": [
+      {
+        "claim": "The singer asks to be drawn near, closer than before.",
+        "subject": "Nearness to God",
+        "location": "VERSE_1",
+        "lyricExcerpt": "Draw me close to You"
+      },
+      {
+        "claim": "Nothing else the singer might want compares with the one addressed.",
+        "subject": "The sufficiency of God",
+        "location": "CHORUS",
+        "lyricExcerpt": "You're all I want"
+      },
+      {
+        "claim": "The singer asks for help finding the way back.",
+        "subject": "Restoration",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer would lay everything down to hear the one addressed say they are his friend.",
+        "subject": "Friendship with God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Desire for God",
+        "title": "Wants God rather than God's gifts",
+        "explanation": "The object throughout is the person addressed, not relief or blessing. In a genre that often asks God for outcomes, a song whose whole request is nearness is aiming at the right thing.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": "You're all I want",
+        "scriptureReference": "Psalm 73:25",
+        "scriptureRationale": "There is nothing on earth I desire besides you — the same appetite, and the same object."
+      },
+      {
+        "category": "Repentance",
+        "title": "Admits drift rather than performing devotion",
+        "explanation": "The request to find the way back concedes that the singer has wandered. That honesty is uncommon and is a better starting point than assumed intimacy.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Hosea 6:1",
+        "scriptureRationale": "Come, let us return to the Lord — the movement the verse asks for."
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Discipleship",
+        "title": "Laying everything down offered for friendship",
+        "explanation": "The song makes the singer's surrender the price of hearing they are a friend. Christ names his disciples friends on the ground of what he has told them and done for them, and the obedience follows rather than purchases it. The order is reversed.",
+        "songLocation": "CHORUS",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": true,
+        "likelihood": "POSSIBLE",
+        "scriptureReference": "John 15:14-15",
+        "scriptureRationale": "He calls them friends because he has made known what he heard from the Father — the friendship is given, not earned."
+      }
+    ],
+    "doctrinesAffirmed": [
+      "God as the object of desire",
+      "The need to return after drift"
+    ],
+    "assessment": "Aimed at the right thing and carrying almost nothing to aim with. Its desire is for God himself rather than his gifts, and it admits drift instead of performing devotion — both genuine. But God, Jesus, the cross and salvation are never named, nothing God has done is stated, and the surrender it offers is framed as the price of friendship rather than the response to it. What the song asks for is good; what it gives a congregation to think about is very little."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Short, slow and immediately singable",
+        "explanation": "A narrow melody, few words and no rhythmic difficulty. A congregation has it after one pass, which is part of why it lasted thirty years.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Pastoral use",
+        "title": "Available to someone who has drifted",
+        "explanation": "The song does not require the singer to feel close before singing it. Someone who has been away can sing it honestly, which is a real pastoral use.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Corporate voice",
+        "title": "A private prayer sung in public",
+        "explanation": "Every line is one person asking for personal nearness. There is nothing a congregation says together about God, so a room ends up overhearing three hundred private prayers at once.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "singability": "EASY",
+    "vocalRangeNote": "Commonly published in D and E flat. Undemanding throughout; the song's difficulty is not musical.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Commonly published in D and E flat",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetitionAssessment": "Considerable for the amount of content. The chorus returns often and each return adds nothing further, which is what makes a short song feel long.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Easy to sing and easy to mean, and it makes room for someone who has drifted rather than requiring them to arrive already close. Its weakness is that the room never says anything together about God — it is a private prayer that happens to be sung in company."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Diction",
+        "title": "Nothing needs unpacking",
+        "explanation": "Plain, conversational speech with no metaphor and no theological vocabulary. Every line is understood on first hearing.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Ambiguous referent",
+        "title": "Nothing in the song identifies who is addressed",
+        "explanation": "God, Jesus and the Spirit are never named, and no attribute or act appears that belongs only to God. Heard outside a church the song is indistinguishable from one addressed to a person, and a congregation has nothing in the text to correct that.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MODERATE",
+        "centrality": "IMPORTANT",
+        "recurring": true,
+        "likelihood": "LIKELY",
+        "scriptureReference": "Philippians 2:9-10",
+        "scriptureRationale": "The name above every name — a name the song never uses."
+      }
+    ],
+    "ambiguityLevel": "HIGH",
+    "assessment": "Clear sentence by sentence and unclear about the one thing that matters most. Nothing in the words identifies who is being sung to, and no attribute or act narrows it. The song depends entirely on the room it is sung in to supply its object."
+  },
+  "synthesis": {
+    "summary": "Aimed at the right thing and carrying almost nothing to aim with. Its desire is for God himself rather than his gifts, and it admits drift honestly. But God and Jesus are never named, nothing God has done is stated, and the surrender it offers is framed as the price of friendship rather than the response to it. Outside a church, nothing in the words identifies who is addressed.",
+    "themes": ["Prayer", "Worship", "Repentance"],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 73:25",
+        "relevance": "Desiring nothing besides God, which is what the chorus reaches for."
+      },
+      {
+        "reference": "John 15:14-15",
+        "relevance": "Friendship given on the ground of what Christ has done, not purchased by surrender."
+      },
+      {
+        "reference": "Hosea 6:1",
+        "relevance": "The return the first verse honestly asks for."
+      },
+      {
+        "reference": "Philippians 2:9-10",
+        "relevance": "The name the song never uses, and which would settle who is addressed."
+      }
+    ]
+  },
+  "substance": {
+    "namesGod": false,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "groundsItsClaims": false,
+    "engagesScripture": false,
+    "beyondTheSelf": false,
+    "saysSomethingNew": false
+  },
+  "sources": [
+    "https://www.thebereantest.com/kelly-carpenter-draw-me-close",
+    "https://worshipmatters.com/2006/04/07/draw-me-close-is-it-biblical/",
+    "http://kellycarpentermusic.com/2014/01/16/draw-me-close-turns-20/"
+  ]
+}

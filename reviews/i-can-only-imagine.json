@@ -1,0 +1,226 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "I Can Only Imagine",
+    "artist": "MercyMe",
+    "artistType": "GROUP",
+    "album": "Almost There",
+    "releaseYear": 2001,
+    "genre": "Contemporary Christian",
+    "isPublicDomain": false,
+    "notes": "Written by Bart Millard after the death of his father, first recorded 1999 and released widely on Almost There (2001). A crossover radio single rather than a song written for congregational use, though many churches sing it."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Two verses over a repeated chorus. The verses wonder what the singer's own response will be on seeing Christ; the chorus lists possible reactions as questions rather than statements. Jesus is named directly.",
+    "claims": [
+      {
+        "claim": "The singer will one day stand in Christ's presence.",
+        "subject": "The believer's hope",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer cannot know in advance how they will respond to seeing Christ.",
+        "subject": "The limits of knowledge",
+        "location": "CHORUS",
+        "lyricExcerpt": "I can only imagine"
+      },
+      {
+        "claim": "Possible responses include dancing, being still, singing, and falling silent.",
+        "subject": "Worship in glory",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is surrounded by glory, and the sight of him is overwhelming.",
+        "subject": "The glory of Christ",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Eschatology",
+        "title": "Takes the believer's future seriously as a real event",
+        "explanation": "The song treats seeing Christ as something that will actually happen to the singer rather than as a metaphor for comfort. Very little in current use looks past death at all, and this does so directly.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 John 3:2",
+        "scriptureRationale": "We shall see him as he is — the event the whole song anticipates."
+      },
+      {
+        "category": "Epistemology",
+        "title": "Admits it is guessing, in its own title",
+        "explanation": "The song's central phrase concedes that the singer does not know. It is speculation that says so, which is a more honest form than speculation delivered as description.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": "I can only imagine",
+        "scriptureReference": "1 Corinthians 2:9",
+        "scriptureRationale": "What no eye has seen, nor ear heard — the limit the song's title concedes."
+      },
+      {
+        "category": "Christology",
+        "title": "Names Jesus rather than leaving an open 'You'",
+        "explanation": "The song addresses Christ by name, so the object of its hope is never in doubt. For a crossover radio single that is a real decision and not a small one.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Acts 4:12",
+        "scriptureRationale": "There is no other name under heaven by which we must be saved."
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Anthropology",
+        "title": "The subject is the singer's reaction, not Christ",
+        "explanation": "Almost every line asks what the singer will do, feel or say. Christ appears mainly as the occasion for that response. A song about seeing him ends up mostly about the one seeing.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": true,
+        "likelihood": "LIKELY",
+        "scriptureReference": "Revelation 5:11-14",
+        "scriptureRationale": "The scene around the throne is described by what the Lamb is worth, not by how the watchers feel."
+      },
+      {
+        "category": "Assurance",
+        "title": "Standing there is assumed rather than grounded",
+        "explanation": "The song takes for granted that the singer will be in Christ's presence, and never says on what basis. Nothing about the cross, forgiveness or faith appears to explain why this future belongs to them.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": false,
+        "likelihood": "POSSIBLE",
+        "scriptureReference": "Jude 24",
+        "scriptureRationale": "He is able to present you blameless before his glory — the ground of standing there, which the song omits."
+      }
+    ],
+    "doctrinesAffirmed": [
+      "The believer's future with Christ",
+      "The glory of Christ",
+      "The limits of present knowledge"
+    ],
+    "assessment": "Honest about being speculation, which its title concedes, and it names Jesus rather than leaving an open 'You'. It also looks past death, which almost nothing in current use does. But the song's real subject is the singer's anticipated reaction rather than Christ himself, and it assumes the singer will be standing there without ever saying why. Sound in what it affirms, and built around the wrong figure."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Pastoral use",
+        "title": "Speaks to the bereaved",
+        "explanation": "Written after the songwriter's father died, and it carries that. For a congregation that has just buried someone it gives a forward look without pretending the grief is over.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Memorability",
+        "title": "A phrase nobody forgets",
+        "explanation": "The title line is short, repeated and instantly learned. Whatever else is true, a congregation can sing the chorus without help.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Performance orientation",
+        "title": "A radio single before a congregational song",
+        "explanation": "The arrangement builds through key and dynamics toward a soloist's climax, and the phrasing is written for one voice rather than a room. Congregations manage the chorus and hand the rest back.",
+        "songLocation": "NOT_LYRICAL",
+        "severity": "MODERATE",
+        "centrality": "PERIPHERAL",
+        "recurring": false,
+        "likelihood": "LIKELY"
+      },
+      {
+        "category": "Corporate voice",
+        "title": "Entirely one person's anticipation",
+        "explanation": "Every line is the singer's own imagined response. There is nothing the congregation affirms together, which makes a room of people singing separate private thoughts.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "singability": "DIFFICULT",
+    "vocalRangeNote": "Commonly published in D and E flat. The verses sit low and the chorus climbs well above them; the span is wide for a mixed room and is the usual reason congregations drop out.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Commonly published in D and E flat",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetitionAssessment": "The title phrase returns constantly and each return introduces a new guess. The repetition carries the structure honestly, though the accumulating questions never resolve into a statement.",
+    "performanceOrientation": "PERFORMANCE_LEANING",
+    "assessment": "A radio single that churches adopted rather than a song written for a room. The chorus is unforgettable and it serves the grieving well, but the wide range and the soloist's build mean most congregations sing part of it and listen to the rest."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Diction",
+        "title": "Plain speech, no religious vocabulary",
+        "explanation": "The song says what it means in ordinary words. Someone with no church background follows every line, which is part of why it crossed over.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Ambiguity",
+        "title": "Questions left as questions",
+        "explanation": "The chorus is a list of possibilities and the song never lands on one. That is honest about the unknown, but it means a congregation finishes having affirmed very little.",
+        "songLocation": "CHORUS",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "ambiguityLevel": "LOW",
+    "assessment": "Easy to follow and deliberately unresolved. Nothing is hard to understand; the open questions are the point rather than a defect, though they do leave the song asserting less than its length suggests."
+  },
+  "synthesis": {
+    "summary": "Honest about being speculation — its title concedes it — and it names Jesus rather than leaving an open 'You'. It also looks past death, which almost nothing in current use does. But its real subject is the singer's anticipated reaction rather than Christ, and it assumes the singer will be standing there without saying why. A radio single more than a congregational song.",
+    "themes": ["Heaven", "Hope", "Christ", "Worship"],
+    "scriptureReferences": [
+      {
+        "reference": "1 John 3:2",
+        "relevance": "Seeing him as he is — the event the song anticipates."
+      },
+      {
+        "reference": "1 Corinthians 2:9",
+        "relevance": "The limit on present knowledge that the title honestly concedes."
+      },
+      {
+        "reference": "Revelation 5:11-14",
+        "relevance": "The throne scene described by the Lamb's worth rather than the watchers' feelings."
+      },
+      {
+        "reference": "Jude 24",
+        "relevance": "The ground for standing before his glory, which the song assumes without stating."
+      }
+    ]
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "groundsItsClaims": false,
+    "engagesScripture": false,
+    "beyondTheSelf": false,
+    "saysSomethingNew": false
+  },
+  "sources": [
+    "https://www.thebereantest.com/mercyme-i-can-only-imagine",
+    "https://en.wikipedia.org/wiki/I_Can_Only_Imagine_(MercyMe_song)"
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "You Are My Hiding Place",
+    "artist": "Michael Ledner",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1981,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Michael Ledner in 1981, published by Maranatha! Music. A short Scripture chorus built on Psalm 32:7, from the era when much congregational song was set directly from the text."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "A single short chorus, sung through repeatedly, with no verses. Its lines follow Psalm 32:7 closely and then add a resolution to trust.",
+    "claims": [
+      {
+        "claim": "God is the singer's hiding place.",
+        "subject": "God as refuge",
+        "location": "CHORUS",
+        "lyricExcerpt": "You are my hiding place"
+      },
+      {
+        "claim": "God surrounds the singer with songs of deliverance.",
+        "subject": "Deliverance",
+        "location": "CHORUS",
+        "lyricExcerpt": "songs of deliverance"
+      },
+      {
+        "claim": "When afraid, the singer will trust God.",
+        "subject": "Faith in fear",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The weak may call themselves strong in the Lord's strength.",
+        "subject": "Strength in weakness",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Scripture",
+        "title": "A psalm set almost unaltered",
+        "explanation": "The chorus follows Psalm 32:7 closely enough that a congregation singing it has the verse in their mouths. The song's best material is not the songwriter's, which is the right kind of borrowing.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": "You are my hiding place",
+        "scriptureReference": "Psalm 32:7",
+        "scriptureRationale": "You are a hiding place for me; you surround me with shouts of deliverance."
+      },
+      {
+        "category": "Faith",
+        "title": "Trust stated as a decision, not a feeling",
+        "explanation": "The line about fear resolves into a choice rather than a mood. It gives a frightened singer something to do rather than something to feel, which is what the psalms model.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 56:3",
+        "scriptureRationale": "When I am afraid, I put my trust in you — the same decision under the same condition."
+      },
+      {
+        "category": "Grace",
+        "title": "Strength located in God rather than found within",
+        "explanation": "The weak are not told they are secretly strong; they are told to say so on the strength of someone else's. The distinction is small in words and large in meaning.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Joel 3:10",
+        "scriptureRationale": "Let the weak say, I am strong — the line the song borrows, and it is a claim about God's strength."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God as refuge",
+      "Trust as a decision under fear",
+      "Strength supplied rather than summoned"
+    ],
+    "assessment": "A short psalm-chorus that does exactly what it sets out to do. Its material is Scripture's own, it turns fear into a decision rather than a feeling, and it locates strength outside the singer. There is nothing here to correct. What limits it is scope rather than accuracy: four lines about refuge, with nothing about who God is beyond that or what he has done to become one."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Learned in a single pass",
+        "explanation": "Four lines, a narrow melody and no arrangement to depend on. It works unaccompanied and in a small room, which is where songs like this earn their keep.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Pastoral use",
+        "title": "Fits someone who is frightened",
+        "explanation": "The song asks nothing of the singer's composure and names fear directly. For a congregation in a hard week it gives them a short true thing to hold.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Corporate voice",
+        "title": "Sung in the singular",
+        "explanation": "The psalm behind it is a personal confession and the song keeps that. A congregation sings alongside one another rather than as one voice, which suits the text but limits it corporately.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "singability": "EASY",
+    "vocalRangeNote": "Commonly published in D and E. A narrow melody with short phrases; among the easiest songs in use for a mixed room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Commonly published in D and E",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetitionAssessment": "One chorus repeated — the form of a Scripture chorus rather than a fault. What repeats is a psalm verse, so it puts Scripture in the mouth rather than filling time.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "About as easy as congregational singing gets, and built to be repeated. It carries unaccompanied, names fear honestly and gives a frightened room four true lines. Its only communal limitation is the singular voice it inherits from the psalm."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Diction",
+        "title": "Four plain lines, nothing to interpret",
+        "explanation": "The images are concrete and biblical, and every phrase lands complete on the first hearing. A child follows it.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Ambiguous referent",
+        "title": "The one addressed is never named",
+        "explanation": "The song runs entirely on 'You'. The refuge imagery is biblical enough to make the intent plain inside a church, but nothing in the words names God, so the identification is supplied by the setting rather than the text.",
+        "songLocation": "CHORUS",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": true,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "ambiguityLevel": "LOW",
+    "assessment": "Plain throughout, and its imagery is specific enough to be recognisably biblical. The one gap is that God is never named — carried here by the psalm's language rather than left wholly open, but carried nonetheless."
+  },
+  "synthesis": {
+    "summary": "A four-line psalm-chorus that does exactly what it sets out to do: Scripture's own words, fear turned into a decision rather than a feeling, and strength located outside the singer. Nothing here to correct. What limits it is scope — four lines about refuge, with nothing about what God has done to become one.",
+    "themes": ["God", "Faith", "Suffering", "Scripture", "Hope"],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 32:7",
+        "relevance": "The verse the chorus sets almost unaltered."
+      },
+      {
+        "reference": "Psalm 56:3",
+        "relevance": "Trust as the decision made under fear, which the song repeats."
+      },
+      {
+        "reference": "Joel 3:10",
+        "relevance": "Let the weak say I am strong — borrowed, and about God's strength rather than the singer's."
+      }
+    ]
+  },
+  "substance": {
+    "namesGod": false,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "groundsItsClaims": true,
+    "engagesScripture": true,
+    "beyondTheSelf": false,
+    "saysSomethingNew": false
+  },
+  "sources": [
+    "https://hymnary.org/text/you_are_my_hiding_place_you_always_fill",
+    "https://songselect.ccli.com/songs/23198/you-are-my-hiding-place"
+  ]
+}

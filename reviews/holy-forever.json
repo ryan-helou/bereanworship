@@ -1,0 +1,221 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Holy Forever",
+    "artist": "Chris Tomlin",
+    "artistType": "INDIVIDUAL",
+    "album": "Always",
+    "releaseYear": 2022,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Chris Tomlin, Brian Johnson, Jenn Johnson, Jason Ingram and Phil Wickham. CCLI 7201044. The publisher lists Isaiah 6:3, Colossians 1:16 and Ephesians 1:20-23 behind it."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Two verses, a repeated chorus and a bridge. The chorus takes up the seraphim's cry; the bridge moves to the Lamb who was slain and the song the redeemed sing.",
+    "claims": [
+      {
+        "claim": "God is holy, and the heavenly host cry it without ceasing.",
+        "subject": "The holiness of God",
+        "location": "CHORUS",
+        "lyricExcerpt": "Holy forever"
+      },
+      {
+        "claim": "God's name is above every other name.",
+        "subject": "The name of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lamb who was slain is worthy of praise.",
+        "subject": "The atonement",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The redeemed will sing this song without end.",
+        "subject": "Eternal worship",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "All creation was made by him and exists for him.",
+        "subject": "Creation",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Doctrine of God",
+        "title": "Takes its chorus from the seraphim, not from a sentiment",
+        "explanation": "The central line is the cry of Isaiah 6 and Revelation 4 rather than a modern phrase about God's greatness. A congregation singing it is joining a text rather than inventing one.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": "Holy forever",
+        "scriptureReference": "Isaiah 6:3",
+        "scriptureRationale": "Holy, holy, holy is the Lord of hosts — the cry the chorus takes up."
+      },
+      {
+        "category": "Atonement",
+        "title": "Names the Lamb who was slain",
+        "explanation": "The bridge grounds the holiness in the crucified Christ rather than leaving God's greatness abstract. It is the point where the song stops being general adoration and becomes Christian.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Revelation 5:12",
+        "scriptureRationale": "Worthy is the Lamb who was slain to receive power and wealth and wisdom."
+      },
+      {
+        "category": "Creation",
+        "title": "Locates the singer inside a made world",
+        "explanation": "The second verse says everything was made by him and for him, which places the congregation's praise within a creation that already belongs to God rather than as something they add.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Colossians 1:16",
+        "scriptureRationale": "All things were created through him and for him."
+      },
+      {
+        "category": "Eschatology",
+        "title": "Praise placed on a timeline that outlasts the singer",
+        "explanation": "The song says this praise continues without end and that the redeemed join it. It relativises the present service, which is a healthy thing for a congregation to be told.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 7:9-10",
+        "scriptureRationale": "A great multitude from every nation crying salvation belongs to our God."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The holiness of God",
+      "Christ as the slain Lamb",
+      "Creation through and for Christ",
+      "Eternal worship of the redeemed"
+    ],
+    "assessment": "Modern worship doing what it does well. The chorus is the seraphim's cry rather than a fresh sentiment, the bridge grounds it in the Lamb who was slain, and the second verse places the congregation inside a creation that already belongs to God. Nothing here needs correcting. What it stops short of is saying what the Lamb's death accomplished — the fact is named, the effect is not."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Builds to the bridge, and the bridge is the best of it",
+        "explanation": "The song's climax coincides with its strongest content rather than with its loudest moment. Form and doctrine point the same way, which is not always the case in this genre.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Memorability",
+        "title": "Two words a congregation keeps",
+        "explanation": "The title phrase is short, repeated and easy to hold. A room has it after one hearing and carries it out of the building.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Corporate voice",
+        "title": "Joins a crowd rather than describing a feeling",
+        "explanation": "The song places the congregation among the heavenly host and the redeemed. That is corporate by construction rather than by pronoun, and it works.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Singability",
+        "title": "The bridge sits high and stays there",
+        "explanation": "As with much of this catalogue, the emotional peak is written for a lead voice. Rooms manage the chorus and thin out through the bridge, which is where the strongest content is.",
+        "songLocation": "NOT_LYRICAL",
+        "severity": "MODERATE",
+        "centrality": "PERIPHERAL",
+        "recurring": false,
+        "likelihood": "LIKELY"
+      }
+    ],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Commonly published in B flat and C. The bridge is the demanding part; choose the key for that rather than for the verses, since the bridge carries the doctrine.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Commonly published in B flat and C",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetitionAssessment": "The title phrase repeats heavily, and what repeats is a scriptural cry rather than a hook. Repetition used the way a refrain should be.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Built for a room and shaped so its climax is also its best content. The one practical caution is the bridge, which sits high — and since that is where the Lamb is named, losing the congregation there costs more than usual."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Diction",
+        "title": "Plain words for a large subject",
+        "explanation": "Holiness, creation and the slain Lamb are all delivered without technical vocabulary. Nothing needs explaining before a congregation can mean it.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Address",
+        "title": "The object is never in doubt",
+        "explanation": "Between the seraphim's cry and the Lamb, the song could not be sung to anyone else. That is worth more than it sounds in a genre where the addressee is often left open.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Ambiguity",
+        "title": "What the Lamb accomplished is left unsaid",
+        "explanation": "The bridge names him as slain but never says what the death achieved. A hearer who knows fills it in; one who does not hears that a lamb died and is now praised, without being told why the two are connected.",
+        "songLocation": "BRIDGE",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": false,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear throughout, with an unmistakable object and no jargon. Its one gap is at the most important point: the Lamb is named as slain, and what that death did is left for the hearer to supply."
+  },
+  "synthesis": {
+    "summary": "Modern worship doing what it does well: the chorus is the seraphim's cry rather than a fresh sentiment, the bridge grounds it in the Lamb who was slain, and the second verse places the congregation inside a creation that already belongs to God. Nothing needs correcting. What it stops short of is saying what the Lamb's death accomplished.",
+    "themes": ["God", "Holiness", "Christ", "Worship", "Creation"],
+    "scriptureReferences": [
+      {
+        "reference": "Isaiah 6:3",
+        "relevance": "The seraphim's cry that the chorus takes up directly."
+      },
+      {
+        "reference": "Revelation 5:12",
+        "relevance": "The slain Lamb declared worthy, which the bridge names."
+      },
+      {
+        "reference": "Colossians 1:16",
+        "relevance": "All things created through him and for him, which the second verse states."
+      },
+      {
+        "reference": "Revelation 7:9-10",
+        "relevance": "The multitude whose praise the song joins the congregation to."
+      }
+    ]
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "groundsItsClaims": true,
+    "engagesScripture": true,
+    "beyondTheSelf": true,
+    "saysSomethingNew": false
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Holy_Forever",
+    "https://www.worshiptogether.com/songs/holy-forever-chris-tomlin/"
+  ]
+}

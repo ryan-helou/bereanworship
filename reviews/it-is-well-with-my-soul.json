@@ -1,0 +1,217 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "It Is Well with My Soul",
+    "artist": "Horatio Spafford",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1873,
+    "genre": "Traditional Hymn",
+    "isPublicDomain": true,
+    "notes": "Text by Horatio Spafford, written after the deaths of his four daughters in an Atlantic shipwreck; tune VILLE DU HAVRE by Philip Bliss, 1876. Both words and music are public domain."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "Four verses over a repeated refrain. The argument moves outward: from the singer's circumstances, to Satan's assault, to the cross, and finally to Christ's return. The refrain answers each in the same words.",
+    "claims": [
+      {
+        "claim": "Whatever the singer's circumstances, it is well with their soul.",
+        "subject": "Contentment in trial",
+        "location": "REFRAIN",
+        "lyricExcerpt": "It is well with my soul"
+      },
+      {
+        "claim": "Christ has regarded the singer's helpless state and shed his own blood for them.",
+        "subject": "The atonement",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer's sin, whole and not partial, was nailed to the cross and is no longer borne by them.",
+        "subject": "Substitution",
+        "location": "VERSE_3",
+        "lyricExcerpt": "My sin, not in part but the whole"
+      },
+      {
+        "claim": "The singer looks forward to Christ's return, when faith becomes sight.",
+        "subject": "The second coming",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "States substitution in the strongest available terms",
+        "explanation": "The third verse says the whole of the singer's sin, not some of it, was nailed to the cross and is no longer theirs to carry. It leaves no room for a partial atonement or a debt still owing.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": "My sin, not in part but the whole",
+        "scriptureReference": "Colossians 2:14",
+        "scriptureRationale": "He set aside the record of debt, nailing it to the cross — the image the verse takes up directly."
+      },
+      {
+        "category": "Suffering",
+        "title": "Grounds peace in the cross, not in the circumstance changing",
+        "explanation": "The refrain is sung over sorrow that is not resolved. The hymn never claims the trouble has lifted; it claims the singer's standing has not moved. That is the harder and truer comfort.",
+        "songLocation": "REFRAIN",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": "It is well with my soul",
+        "scriptureReference": "Romans 8:38-39",
+        "scriptureRationale": "Nothing in life or death can separate us from the love of God in Christ — the security the refrain rests on."
+      },
+      {
+        "category": "Eschatology",
+        "title": "Ends on Christ's return, not on the singer's endurance",
+        "explanation": "The final verse looks past the singer's death to the day faith becomes sight. The hymn's resolution is an event outside the singer rather than their own perseverance.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Thessalonians 4:16-17",
+        "scriptureRationale": "The Lord will descend with a cry of command and the sound of the trumpet — the return the last verse anticipates."
+      },
+      {
+        "category": "Hamartiology",
+        "title": "Names the singer's condition honestly",
+        "explanation": "The second verse calls the singer helpless before saying anything about relief. The hymn does not soften the diagnosis to make the remedy more comfortable.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 5:6",
+        "scriptureRationale": "While we were still weak, at the right time Christ died for the ungodly."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Substitutionary atonement",
+      "The completeness of forgiveness",
+      "Peace independent of circumstance",
+      "The second coming",
+      "Human helplessness apart from Christ"
+    ],
+    "assessment": "A hymn about suffering that answers suffering with doctrine rather than with sentiment. It states substitution in terms that leave nothing owing, grounds its peace in the cross rather than in the trouble lifting, names the singer helpless before offering relief, and ends on Christ's return rather than on the singer's endurance. There is nothing here to correct, and its comfort is available to someone whose circumstances have not improved."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Pastoral use",
+        "title": "Sung by people in the worst of it",
+        "explanation": "The hymn was written out of bereavement and can be sung by the bereaved without pretending. It asks nothing of the singer's mood and gives them a true thing to say anyway.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Structure",
+        "title": "One refrain answering four different troubles",
+        "explanation": "Each verse raises a different assault and the same words answer it. A congregation learns that the answer does not change with the question.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Accessibility",
+        "title": "Known everywhere and needs no band",
+        "explanation": "The tune is widely known across traditions and carries unaccompanied. It works at a funeral, in a hospital and in a full church without alteration.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Corporate voice",
+        "title": "Sung in the singular",
+        "explanation": "It is one soul's confession, which suits its origin and subject. A congregation still sings alongside one another rather than as one voice.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "singability": "EASY",
+    "vocalRangeNote": "Commonly published in C, D flat and D. The tune is broad but stepwise, and the refrain sits comfortably for a mixed room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Commonly published in C, D flat and D",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetitionAssessment": "The refrain returns after every verse and repeats its central phrase within itself. What repeats is the hymn's whole claim, and the repetition is doing pastoral work rather than filling time.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "One of the most durable congregational songs in English. It needs no arrangement, is known across traditions, and can be sung honestly by someone in grief. Its structure — four troubles, one answer — teaches by shape as well as by content."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Precision",
+        "title": "The strongest line is also the plainest",
+        "explanation": "The claim about sin being borne no more is stated without metaphor or hedging. A hearer knows exactly what has been asserted and can weigh it.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Structure",
+        "title": "Verse and refrain in obvious dialogue",
+        "explanation": "Each verse poses, each refrain answers. The relationship is audible on a first hearing and does not need explaining.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Vocabulary",
+        "title": "Older diction in the outer verses",
+        "explanation": "Some nineteenth-century phrasing takes a moment for a modern hearer, particularly in the opening and closing verses. The central claims are unaffected.",
+        "songLocation": "VERSE",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": false,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear where it matters most. The hymn's central claim about sin and the cross is stated in the plainest words it has, and the verse-and-answer structure is audible immediately. Only some older phrasing at the edges asks anything of a modern hearer."
+  },
+  "synthesis": {
+    "summary": "A hymn about suffering that answers it with doctrine rather than sentiment. It states substitution in terms that leave nothing owing, grounds its peace in the cross rather than in the trouble lifting, and ends on Christ's return rather than the singer's endurance. Written out of bereavement, and singable by the bereaved without pretending.",
+    "themes": ["Cross", "Suffering", "Hope", "Assurance", "Salvation"],
+    "scriptureReferences": [
+      {
+        "reference": "Colossians 2:14",
+        "relevance": "The record of debt nailed to the cross, which the third verse takes up directly."
+      },
+      {
+        "reference": "Romans 8:38-39",
+        "relevance": "The security the refrain rests on when circumstances have not changed."
+      },
+      {
+        "reference": "1 Thessalonians 4:16-17",
+        "relevance": "The return the final verse anticipates."
+      },
+      {
+        "reference": "Romans 5:6",
+        "relevance": "Helplessness named before relief is offered."
+      }
+    ]
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "groundsItsClaims": true,
+    "engagesScripture": true,
+    "beyondTheSelf": true,
+    "saysSomethingNew": true
+  },
+  "sources": [
+    "https://hymnary.org/text/when_peace_like_a_river_attendeth_my_way",
+    "https://en.wikipedia.org/wiki/It_Is_Well_with_My_Soul"
+  ]
+}

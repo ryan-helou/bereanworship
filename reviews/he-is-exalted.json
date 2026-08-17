@@ -1,0 +1,195 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "He Is Exalted",
+    "artist": "Twila Paris",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1985,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Twila Paris, 1985, published by Straightway Music / Mountain Spring Music. One of the durable choruses of the era and still in wide congregational use."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ABOUT_GOD",
+    "structuralNotes": "A single extended chorus with no verses, sung through repeatedly. Spoken about God in the third person rather than addressed to him, which is unusual for the era and for the genre.",
+    "claims": [
+      {
+        "claim": "Christ is exalted and reigns on high.",
+        "subject": "The exaltation of Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": "He is exalted, the King is exalted on high"
+      },
+      {
+        "claim": "He is worthy of praise, and the singer will praise him.",
+        "subject": "Worship",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "He is the Lord, and his truth will reign for ever.",
+        "subject": "The reign of Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": "forever His truth shall reign"
+      },
+      {
+        "claim": "Heaven and earth rejoice in his holy name.",
+        "subject": "The name of Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christology",
+        "title": "Sings about God rather than to him, and about his reign",
+        "explanation": "The song declares Christ's exaltation as a fact rather than asking for an experience of it. A congregation making a public statement about who reigns is doing something different from a congregation asking to feel close, and it is worth doing.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": "He is exalted, the King is exalted on high",
+        "scriptureReference": "Philippians 2:9",
+        "scriptureRationale": "God has highly exalted him and bestowed on him the name above every name."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "Truth, not just power, said to reign",
+        "explanation": "The claim is that his truth reigns for ever, which is a statement about what governs rather than only about who is strong. It gives a congregation something firmer than a general assertion of majesty.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": "forever His truth shall reign",
+        "scriptureReference": "Psalm 117:2",
+        "scriptureRationale": "The faithfulness of the Lord endures for ever."
+      },
+      {
+        "category": "Worship",
+        "title": "The response is praise rather than request",
+        "explanation": "The song asks God for nothing. Its whole action is ascribing worth, which is the purest form the genre has and is rarer than it should be.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 5:12",
+        "scriptureRationale": "Worthy is the Lamb who was slain to receive power and blessing — ascription without petition."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The exaltation of Christ",
+      "The eternal reign of Christ",
+      "The holiness of God's name",
+      "Praise as ascription rather than request"
+    ],
+    "assessment": "A short chorus that keeps its object right. It speaks about God rather than asking for an experience of him, claims that his truth reigns rather than only his power, and asks for nothing at all — its whole action is ascribing worth. Nothing in it is wrong. Its limitation is that it states his exaltation without ever saying what he did to be exalted, so the congregation praises a reign whose history it is not told."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Corporate voice",
+        "title": "A statement the room makes together",
+        "explanation": "Because the song is about God rather than about the singer's experience, everyone present affirms the same thing. That is easier to do corporately than a private prayer sung in company.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Accessibility",
+        "title": "Learned in one pass and carried without a band",
+        "explanation": "One chorus, no verses, no build. It works on a piano or unaccompanied and needs no rehearsal from the congregation.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Repetition",
+        "title": "One chorus asked to carry a whole song slot",
+        "explanation": "With no verses, the only way to extend it is to sing it again. The content is sound but finite, and repeated use in a service exhausts it quickly.",
+        "songLocation": "NOT_LYRICAL",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "likelihood": "POSSIBLE"
+      },
+      {
+        "category": "Singability",
+        "title": "The climb at the end catches rooms out",
+        "explanation": "The closing phrase reaches higher than the rest and holds. Congregations manage the body of the chorus and thin out at the top, so the key is worth choosing carefully.",
+        "songLocation": "NOT_LYRICAL",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Commonly published in F and G. The final phrase is the demanding part; pitch the song for that rather than for its opening.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Commonly published in F and G",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetitionAssessment": "The song is one chorus, so all its length is repetition. What repeats is a true confession about Christ, which holds up better than most repeated material.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Well shaped for a congregation and unusually corporate for its era, because it declares something about God rather than describing the singer. The practical limits are its length — one chorus and nowhere to go — and a closing phrase that sits higher than the rest."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Address",
+        "title": "No doubt who is being sung about",
+        "explanation": "The King, the Lord, his holy name: the song is unmistakably about God, and could not be mistaken for anything else. That is not universal in choruses of this period.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Diction",
+        "title": "Plain and declarative",
+        "explanation": "Short statements with no metaphor to decode. A first-time visitor understands every claim being made.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Unambiguous. The object is named, the claims are declarative, and nothing in the song can be reasonably misheard. It says less than many songs, but everything it says is clear."
+  },
+  "synthesis": {
+    "summary": "A short chorus that keeps its object right: it speaks about God rather than asking for an experience of him, claims that his truth reigns and not only his power, and asks for nothing at all. Nothing in it is wrong. Its limitation is that it states Christ's exaltation without ever saying what he did to be exalted.",
+    "themes": ["Christ", "Worship", "Sovereignty"],
+    "scriptureReferences": [
+      {
+        "reference": "Philippians 2:9",
+        "relevance": "The exaltation the chorus declares — and, in context, the obedience that preceded it."
+      },
+      {
+        "reference": "Psalm 117:2",
+        "relevance": "The enduring faithfulness behind the claim that his truth reigns."
+      },
+      {
+        "reference": "Revelation 5:12",
+        "relevance": "Ascription without petition, which is the song's whole action."
+      }
+    ]
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "groundsItsClaims": true,
+    "engagesScripture": false,
+    "beyondTheSelf": true,
+    "saysSomethingNew": false
+  },
+  "sources": [
+    "https://hymnary.org/text/he_is_exalted_the_king_is_exalted_on_hig",
+    "https://songselect.ccli.com/songs/17827/he-is-exalted"
+  ]
+}

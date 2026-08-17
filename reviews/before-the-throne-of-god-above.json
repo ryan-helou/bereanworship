@@ -1,0 +1,243 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Before the Throne of God Above",
+    "artist": "Charitie Lees Bancroft",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1863,
+    "genre": "Traditional Hymn",
+    "isPublicDomain": false,
+    "notes": "Text by Charitie Lees Bancroft, 1863, and in the public domain. The tune most churches now sing is Vikki Cook's 1997 setting for Sovereign Grace, which is under copyright — so the song as sung is not public domain even though the words are."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "Three verses, no chorus. The argument moves in order: Christ's present intercession, the answer to accusation, and the singer's standing in the risen Christ. Each verse ends by locating the singer's security outside themselves.",
+    "claims": [
+      {
+        "claim": "The singer has an advocate pleading for them before God's throne.",
+        "subject": "The intercession of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": "Before the throne of God above"
+      },
+      {
+        "claim": "Christ's love for the singer does not change and cannot be forfeited.",
+        "subject": "The unchangeable love of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer's name is engraved on Christ's hands.",
+        "subject": "Assurance",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "When Satan accuses the singer, they look upward to Christ rather than inward.",
+        "subject": "The answer to accusation",
+        "location": "VERSE_2",
+        "lyricExcerpt": "When Satan tempts me to despair"
+      },
+      {
+        "claim": "God cannot justly punish the same sin twice, since Christ bore it already.",
+        "subject": "The finished atonement",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The risen Christ is the singer's righteousness, not their own record.",
+        "subject": "Imputed righteousness",
+        "location": "VERSE_3",
+        "lyricExcerpt": "my perfect spotless righteousness"
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Intercession",
+        "title": "Begins where almost nothing else does",
+        "explanation": "The hymn opens on Christ's present work at the throne rather than on his past work at the cross. A congregation is taught that he is doing something for them now, which is the half of his priesthood most songs never mention.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": "Before the throne of God above",
+        "scriptureReference": "Hebrews 7:25",
+        "scriptureRationale": "He always lives to make intercession for them — the present tense the hymn is built on."
+      },
+      {
+        "category": "Justification",
+        "title": "Answers accusation with law, not with feeling",
+        "explanation": "The second verse meets the accusing conscience by arguing that God cannot punish twice what Christ has already borne. It is a legal answer to a legal problem, which is what a despairing singer actually needs.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": "When Satan tempts me to despair",
+        "scriptureReference": "Romans 8:33-34",
+        "scriptureRationale": "Who shall bring a charge against God's elect? It is Christ who died and who intercedes."
+      },
+      {
+        "category": "Imputation",
+        "title": "Names the righteousness as someone else's",
+        "explanation": "The third verse says plainly that the singer's standing is Christ's record, not their own. Imputed righteousness is difficult to sing without jargon, and this manages it in a single line.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": "my perfect spotless righteousness",
+        "scriptureReference": "2 Corinthians 5:21",
+        "scriptureRationale": "He made him to be sin who knew no sin, so that in him we might become the righteousness of God."
+      },
+      {
+        "category": "Assurance",
+        "title": "Security located entirely outside the singer",
+        "explanation": "Every verse ends on something Christ is or has done. Sung repeatedly, the hymn trains a congregation to look away from itself for assurance, which is the habit most modern worship works against.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Colossians 3:3",
+        "scriptureRationale": "Your life is hidden with Christ in God — assurance that does not depend on the believer's state."
+      },
+      {
+        "category": "Christology",
+        "title": "Holds priest, sacrifice and risen Lord together",
+        "explanation": "The same Christ is advocate, offering and living Saviour across three verses without confusion. The hymn moves through his offices in order and never collapses one into another.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Hebrews 9:24-26",
+        "scriptureRationale": "He entered heaven itself, now to appear in the presence of God on our behalf."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The present intercession of Christ",
+      "The finished atonement",
+      "Imputed righteousness",
+      "The unchangeable love of Christ",
+      "Assurance grounded outside the believer",
+      "The resurrection"
+    ],
+    "assessment": "As doctrinally dense as congregational song gets, and nothing in it is loose. It opens on Christ's present intercession rather than his past death, answers the accusing conscience with a legal argument rather than a feeling, and names the singer's righteousness as someone else's. Three verses move through his priesthood in order without confusing his offices. There is nothing here to correct."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "An argument a congregation can follow",
+        "explanation": "Three verses in a deliberate order, each ending where the singer's security actually rests. The form carries the reasoning, so a congregation learns the argument by singing it.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Pastoral use",
+        "title": "Written for the worst week",
+        "explanation": "The second verse addresses someone under accusation who cannot find comfort in themselves. Very little in current use speaks to that person, and this hymn is built for them.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Corporate voice",
+        "title": "Sung in the singular throughout",
+        "explanation": "The hymn is one believer's confession before God. That suits an argument about personal assurance, but a congregation never gets to say 'we' about a truth that belongs to all of them.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "likelihood": "POSSIBLE"
+      },
+      {
+        "category": "Diction",
+        "title": "Nineteenth-century vocabulary in places",
+        "explanation": "Some phrasing needs a moment from a first-time visitor. The density is the point rather than a flaw, but a leader should not assume every line lands unaided.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": false,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Vikki Cook's setting is commonly published in D and E flat. The melody is well within an ordinary room; the demand is on comprehension rather than on range.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Cook's setting commonly published in D and E flat",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetitionAssessment": "Almost none. Three verses of new material, which is unusual and demands more attention than a modern song — but nothing is repeated because nothing needs padding.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "A hymn rather than a modern song, and it asks a congregation to follow an argument rather than ride a build. That is a real demand, and worth making: the payoff is a room that has just reasoned its way through justification. The only costs are the singular voice and some older phrasing."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Each verse resolves to the same place",
+        "explanation": "Every verse ends by pointing outside the singer. A hearer cannot miss where the hymn says security is found, because it says so three times in three different ways.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Precision",
+        "title": "Difficult doctrine without jargon",
+        "explanation": "Intercession, double jeopardy and imputation are all delivered in ordinary words. Nothing needs a footnote, and nothing is fudged to make it easier.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Vocabulary",
+        "title": "A few phrases assume some furniture",
+        "explanation": "The imagery of the throne, the advocate and the graven name rewards someone who knows the Scriptures behind them. A newcomer follows the sense but may miss the argument's force.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": false,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "ambiguityLevel": "LOW",
+    "assessment": "Unusually precise. Three hard doctrines are stated in plain words without being softened, and the repeated resolution makes the hymn's claim impossible to mistake. Its only demand is a little biblical furniture, which is a fair thing for a hymn to expect."
+  },
+  "synthesis": {
+    "summary": "As doctrinally dense as congregational song gets, and nothing in it is loose. It opens on Christ's present intercession rather than his past death, answers the accusing conscience with a legal argument rather than a feeling, and names the singer's righteousness as someone else's. Written for the worst week a believer will have.",
+    "themes": ["Christ", "Grace", "Assurance", "Cross", "Resurrection", "Faith"],
+    "scriptureReferences": [
+      {
+        "reference": "Hebrews 7:25",
+        "relevance": "Christ's present intercession, which is where the hymn chooses to begin."
+      },
+      {
+        "reference": "Romans 8:33-34",
+        "relevance": "The legal answer to accusation that the second verse turns into song."
+      },
+      {
+        "reference": "2 Corinthians 5:21",
+        "relevance": "The exchange the third verse names as the singer's righteousness."
+      },
+      {
+        "reference": "Colossians 3:3",
+        "relevance": "A life hidden with Christ — assurance that does not rest on the believer's state."
+      }
+    ]
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "groundsItsClaims": true,
+    "engagesScripture": true,
+    "beyondTheSelf": true,
+    "saysSomethingNew": true
+  },
+  "sources": [
+    "https://hymnary.org/text/before_the_throne_of_god_above",
+    "https://sovereigngracemusic.com/music/songs/before-the-throne-of-god-above/"
+  ]
+}

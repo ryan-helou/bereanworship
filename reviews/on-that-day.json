@@ -1,0 +1,221 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "On That Day",
+    "artist": "CityAlight",
+    "artistType": "COLLECTIVE",
+    "album": null,
+    "releaseYear": 2022,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Jonny Robinson, Rich Thompson, Michael Farren, Nigel Hendroff and Scott Lavender. CCLI 7199818, CityAlight Music administered by Integrity."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Two verses, a repeated chorus and a bridge. The verses are the singer's present confession ('I believe', 'I know'); the chorus and bridge turn corporate for the day itself.",
+    "claims": [
+      {
+        "claim": "Christ has been raised from the dead.",
+        "subject": "The resurrection",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "A final day is coming when present sorrow ends.",
+        "subject": "The last day",
+        "location": "CHORUS",
+        "lyricExcerpt": "On that day"
+      },
+      {
+        "claim": "The redeemed will be gathered around the Saviour's throne.",
+        "subject": "The gathering of the church",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer holds this hope now, before it is seen.",
+        "subject": "Faith",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ's victory is what makes that day certain.",
+        "subject": "The ground of hope",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Eschatology",
+        "title": "Sings the last day as an event, not a mood",
+        "explanation": "The song is about something that will happen rather than about how the future makes the singer feel. Congregational song rarely looks past this life at all, and almost never this concretely.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": "On that day",
+        "scriptureReference": "Revelation 21:4",
+        "scriptureRationale": "He will wipe away every tear — the day the chorus anticipates."
+      },
+      {
+        "category": "Resurrection",
+        "title": "Grounds the hope in Christ raised, not in optimism",
+        "explanation": "The certainty of the future is tied to the resurrection having already happened. That is the right order: the song argues from an event rather than from a feeling about what is to come.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Corinthians 15:20",
+        "scriptureRationale": "Christ has been raised as the firstfruits of those who have fallen asleep."
+      },
+      {
+        "category": "The church",
+        "title": "The hope is corporate, not private",
+        "explanation": "What the song looks forward to is a gathering around the throne rather than an individual arrival. The chorus turns to 'we' at exactly the point where the content becomes corporate.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 7:9",
+        "scriptureRationale": "A great multitude standing before the throne — a crowd, not a succession of individuals."
+      },
+      {
+        "category": "Faith",
+        "title": "Names present believing as the mode of holding it",
+        "explanation": "The verses say the singer believes now what they will one day see. It keeps the song from becoming escapism by locating the singer honestly in the meantime.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "2 Corinthians 5:7",
+        "scriptureRationale": "We walk by faith, not by sight — the position the verses occupy."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The resurrection of Christ",
+      "The return of Christ and the last day",
+      "The gathering of the redeemed",
+      "Present faith in an unseen future"
+    ],
+    "assessment": "A song about the last day that treats it as an event rather than a mood, and grounds its certainty in the resurrection having already happened rather than in optimism. Its hope is corporate — a gathering, not an individual arrival — and its verses keep the singer honestly located in the present. Nothing here needs correcting, and it fills a gap most catalogues have."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Corporate voice",
+        "title": "Turns to 'we' where the content turns corporate",
+        "explanation": "The verses confess individually and the chorus gathers. The pronoun shift tracks the theology rather than happening arbitrarily, which is a small mark of care.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Pastoral use",
+        "title": "For a church that has buried someone",
+        "explanation": "The song gives a grieving congregation a forward look without asking them to pretend the present is fine. That combination is rare and genuinely useful.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Accessibility",
+        "title": "Hymn-shaped and survives without the band",
+        "explanation": "Short verses, one chorus, no build to negotiate. It carries on a piano, which is the practical test of a congregational song.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Repetition",
+        "title": "The chorus returns often on a short phrase",
+        "explanation": "The title line carries a lot of the running time. The content behind it is strong, but the phrase itself is brief and repeats more than it develops.",
+        "songLocation": "CHORUS",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "singability": "EASY",
+    "vocalRangeNote": "Commonly published in D and E. Stepwise and undemanding, in keeping with CityAlight's usual practice of writing for the room rather than the platform.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Commonly published in D and E",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetitionAssessment": "The chorus repeats a short title phrase, but each verse and the bridge add new material behind it. Repetition anchors rather than pads.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Written for a congregation and shaped like a hymn: short verses, one chorus, nothing that needs a band. It also does something few songs attempt — gives a grieving room a forward look without asking them to pretend."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Present and future kept distinct",
+        "explanation": "The song is careful about what is now and what is then, and never blurs them into a general hopefulness. A hearer knows which is which throughout.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Diction",
+        "title": "Plain words for a large subject",
+        "explanation": "The last day, the throne and the resurrection are all delivered without technical vocabulary or strained imagery.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Ambiguity",
+        "title": "Which day, exactly, is left broad",
+        "explanation": "The song moves between death, resurrection and the final gathering without distinguishing them sharply. For most congregations that breadth is a feature, but a hearer wanting to know what happens when will not find it settled here.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": false,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear and carefully sequenced. The song keeps present and future distinct, which is the main way songs of this kind go wrong, and its language is plain throughout. It leaves the precise ordering of the last things broad, which is a reasonable choice for congregational use."
+  },
+  "synthesis": {
+    "summary": "A song about the last day that treats it as an event rather than a mood, and grounds its certainty in the resurrection having already happened rather than in optimism. Its hope is corporate — a gathering, not an individual arrival — and its verses keep the singer honestly in the present. Fills a gap most catalogues have.",
+    "themes": ["Hope", "Heaven", "Resurrection", "Church", "Faith"],
+    "scriptureReferences": [
+      {
+        "reference": "1 Corinthians 15:20",
+        "relevance": "Christ raised as firstfruits — the event the song's certainty rests on."
+      },
+      {
+        "reference": "Revelation 21:4",
+        "relevance": "The day when tears are wiped away, which the chorus anticipates."
+      },
+      {
+        "reference": "Revelation 7:9",
+        "relevance": "A multitude before the throne — the corporate shape of the hope."
+      },
+      {
+        "reference": "2 Corinthians 5:7",
+        "relevance": "Walking by faith, which is where the verses honestly locate the singer."
+      }
+    ]
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "groundsItsClaims": true,
+    "engagesScripture": false,
+    "beyondTheSelf": true,
+    "saysSomethingNew": true
+  },
+  "sources": [
+    "https://cityalight.com/song/on-that-day/",
+    "https://cityalight.com/wp-content/uploads/2022/08/On-That-Day_LS.pdf"
+  ]
+}

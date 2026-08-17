@@ -1,0 +1,225 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Oh But God",
+    "artist": "Davy Flowers",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 2022,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Davy Flowers, Bryan Fowler and Matt Armstrong. CCLI 7199258. Also widely known through the Shane & Shane / Worship Initiative recording. The publisher lists Isaiah 41:10, Romans 5:8, Ephesians 2:14, Luke 19:10 and 2 Corinthians 3:5."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "Four verses over a repeated chorus, with two bridge sections and a closing tag. Every verse sets out the singer's condition and is answered by the title phrase, which is the hinge the whole song turns on.",
+    "claims": [
+      {
+        "claim": "The singer was dead in sin and rebellion before God acted.",
+        "subject": "Human condition",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God intervened where the singer could do nothing.",
+        "subject": "Grace",
+        "location": "CHORUS",
+        "lyricExcerpt": "Oh but God"
+      },
+      {
+        "claim": "Christ nailed the singer's sin to a cross.",
+        "subject": "The atonement",
+        "location": "CHORUS",
+        "lyricExcerpt": "nailing my sin to a cross"
+      },
+      {
+        "claim": "The singer has been raised with Christ.",
+        "subject": "Union with Christ",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God came looking for the singer rather than waiting to be found.",
+        "subject": "Seeking grace",
+        "location": "VERSE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Grace",
+        "title": "Built on the pivot Paul builds on",
+        "explanation": "The whole song is the structure of Ephesians 2: here is what I was, and then God acted. Making that turn the hook means a congregation rehearses the logic of grace every time the chorus comes round.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": "Oh but God",
+        "scriptureReference": "Ephesians 2:4-5",
+        "scriptureRationale": "But God, being rich in mercy, made us alive together with Christ — the hinge the song is named for."
+      },
+      {
+        "category": "Atonement",
+        "title": "Names the cross and what it did with the singer's sin",
+        "explanation": "The chorus does not merely mention the crucifixion; it says what happened to the singer's sin there. That is the difference between narrating the cross and preaching it.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": "nailing my sin to a cross",
+        "scriptureReference": "Colossians 2:14",
+        "scriptureRationale": "He set aside the record of debt, nailing it to the cross."
+      },
+      {
+        "category": "Hamartiology",
+        "title": "States the diagnosis before the cure",
+        "explanation": "The verses are unflinching about the singer's condition — dead, rebellious, unable. A congregation is not offered relief before being told what from, which is the order the gospel actually has.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Ephesians 2:1",
+        "scriptureRationale": "You were dead in the trespasses and sins — the condition the verses describe."
+      },
+      {
+        "category": "Union with Christ",
+        "title": "Carries through to resurrection, not just forgiveness",
+        "explanation": "The bridge says the singer has been raised with Christ, so the song does not stop at pardon. It takes the further step most songs about grace never take.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Ephesians 2:6",
+        "scriptureRationale": "Raised us up with him and seated us with him in the heavenly places."
+      },
+      {
+        "category": "Grace",
+        "title": "God seeks first",
+        "explanation": "The song has God coming to look for the singer rather than responding to a search. That keeps the initiative where Scripture puts it and rules out the reading where grace answers effort.",
+        "songLocation": "VERSE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Luke 19:10",
+        "scriptureRationale": "The Son of Man came to seek and to save the lost."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Human deadness in sin",
+      "Grace as divine initiative",
+      "Substitutionary atonement",
+      "Union with Christ in resurrection",
+      "God as the one who seeks"
+    ],
+    "assessment": "Built on the pivot Paul builds on, and it does not waste it. The verses state the diagnosis before offering the cure, the chorus says what happened to the singer's sin at the cross rather than merely mentioning it, and the bridge carries through to resurrection rather than stopping at pardon. Nothing here needs correcting. Its one limitation is one of address: it is testimony throughout, so the congregation rehearses the gospel individually rather than confessing it together."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "The hook is the doctrine",
+        "explanation": "The phrase a congregation cannot forget is the turn from human helplessness to divine action. Whatever else they take home, they take that.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Pastoral use",
+        "title": "Usable by someone who knows what they are",
+        "explanation": "The song makes room for a singer carrying real guilt rather than requiring them to arrive already grateful. The verses meet them where they are and the chorus answers.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Corporate voice",
+        "title": "Testimony rather than confession",
+        "explanation": "Every line is the singer's own account. The content is corporate truth, but the grammar keeps it private, so a room rehearses the gospel three hundred times separately rather than once together.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "likelihood": "POSSIBLE"
+      },
+      {
+        "category": "Length",
+        "title": "Four verses, two bridges and a tag",
+        "explanation": "The song is long for its material and repeats its turn many times. In a service it needs trimming, and trimming a song whose structure is the argument risks losing the argument.",
+        "songLocation": "NOT_LYRICAL",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": false,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Commonly published in B flat and C. The verses sit comfortably; the bridges climb, which is the usual place a room drops out.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Commonly published in B flat and C",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetitionAssessment": "The title phrase returns constantly, and it is the song's argument rather than a hook. Repetition here is doing the teaching.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "The strongest thing about it congregationally is that its most memorable phrase is also its doctrine. The costs are length — four verses, two bridges and a tag is more than a service usually has room for — and a first-person grammar that keeps a corporate truth private."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "The turn is audible every time",
+        "explanation": "Condition, then intervention, in that order, repeatedly. A hearer cannot miss the shape of the argument because the song performs it over and over.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Diction",
+        "title": "Blunt where it needs to be",
+        "explanation": "Death, rebellion and sin are named in plain words rather than softened into metaphor. The clarity of the diagnosis is what makes the chorus land.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Unusually clear. The song's structure is its argument, the argument is repeated until it is unmissable, and the vocabulary is blunt where softening would have cost it. There is nothing here a congregation could reasonably mishear."
+  },
+  "synthesis": {
+    "summary": "Built on the pivot Paul builds on, and it does not waste it. The verses state the diagnosis before offering the cure, the chorus says what happened to the singer's sin at the cross rather than merely mentioning it, and the bridge carries through to resurrection rather than stopping at pardon. Its one limitation is grammatical: testimony throughout, so a corporate truth is rehearsed privately.",
+    "themes": ["Grace", "Cross", "Salvation", "Sin", "Resurrection"],
+    "scriptureReferences": [
+      {
+        "reference": "Ephesians 2:4-5",
+        "relevance": "The hinge the song is named for and structured on."
+      },
+      {
+        "reference": "Colossians 2:14",
+        "relevance": "Sin nailed to the cross, which the chorus states directly."
+      },
+      {
+        "reference": "Ephesians 2:1",
+        "relevance": "Deadness in sin — the diagnosis the verses refuse to soften."
+      },
+      {
+        "reference": "Luke 19:10",
+        "relevance": "The Son of Man seeking the lost, which keeps the initiative with God."
+      }
+    ]
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "groundsItsClaims": true,
+    "engagesScripture": true,
+    "beyondTheSelf": false,
+    "saysSomethingNew": true
+  },
+  "sources": [
+    "https://www.worshiptogether.com/songs/oh-but-god-davy-flowers/",
+    "https://songselect.ccli.com/songs/7199258/oh-but-god",
+    "https://www.air1.com/music/blog/behind-the-music/faith-behind-the-song-oh-but-god-davy-flowers-5096"
+  ]
+}
