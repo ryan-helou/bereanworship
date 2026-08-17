@@ -50,6 +50,15 @@
     ],
     "gospelClarity": "ABSENT"
   },
+  "substance": {
+    "namesGod": false,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "groundsItsClaims": false,
+    "engagesScripture": true,
+    "beyondTheSelf": true,
+    "saysSomethingNew": false
+  },
   "theological": {
     "strengths": [
       {
@@ -90,18 +99,8 @@
         "centrality": "IMPORTANT",
         "recurring": false,
         "scriptureReference": "Matthew 5:44",
-        "scriptureRationale": "Love your enemies and pray for those who persecute you — the posture the imagery sits awkwardly beside."
-      },
-      {
-        "category": "Gospel content",
-        "title": "Nothing said about who is praised, or why",
-        "explanation": "Jesus, the cross and salvation appear nowhere, and the reasons given for praise are the singer's resolve rather than anything God has done. A psalm of praise usually recites acts; this one recites commitment.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": false,
-        "scriptureReference": "Psalm 150:2",
-        "scriptureRationale": "Praise him for his mighty deeds — the psalm gives reasons where the song gives resolve."
+        "scriptureRationale": "Love your enemies and pray for those who persecute you — the posture the imagery sits awkwardly beside.",
+        "likelihood": "POSSIBLE"
       }
     ],
     "doctrinesAffirmed": [
@@ -136,7 +135,8 @@
         "songLocation": "NOT_LYRICAL",
         "severity": "MODERATE",
         "centrality": "PERIPHERAL",
-        "recurring": false
+        "recurring": false,
+        "likelihood": "POSSIBLE"
       },
       {
         "category": "Length",
@@ -145,7 +145,8 @@
         "songLocation": "NOT_LYRICAL",
         "severity": "MINOR",
         "centrality": "PERIPHERAL",
-        "recurring": true
+        "recurring": true,
+        "likelihood": "POSSIBLE"
       }
     ],
     "singability": "MODERATE",
@@ -182,7 +183,8 @@
         "songLocation": "BRIDGE",
         "severity": "MODERATE",
         "centrality": "IMPORTANT",
-        "recurring": false
+        "recurring": false,
+        "likelihood": "POSSIBLE"
       },
       {
         "category": "Ambiguity",
@@ -191,7 +193,8 @@
         "songLocation": "WHOLE_SONG",
         "severity": "MINOR",
         "centrality": "IMPORTANT",
-        "recurring": true
+        "recurring": true,
+        "likelihood": "POSSIBLE"
       }
     ],
     "ambiguityLevel": "MODERATE",
@@ -199,7 +202,12 @@
   },
   "synthesis": {
     "summary": "Its central claim is good and unfashionable: praise is owed in losing as much as winning, and it is a debt rather than a mood. But the bridge turns praise into a weapon drowning unnamed enemies — publicly questioned by Christianity Today — and the song never says who is praised or for what. Singable and loud; built around a recording rather than a room.",
-    "themes": ["Worship", "Thanksgiving", "Suffering", "Faith"],
+    "themes": [
+      "Worship",
+      "Thanksgiving",
+      "Suffering",
+      "Faith"
+    ],
     "scriptureReferences": [
       {
         "reference": "Psalm 150:6",

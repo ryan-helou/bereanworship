@@ -13,6 +13,7 @@ import {
   type CommunalAnalysis,
   type Identification,
   type SongLocation,
+  type Substance,
   type Synthesis,
 } from './schemas';
 import {
@@ -95,6 +96,8 @@ export interface PreparedSongFinding {
   severity: Severity;
   centrality: Centrality;
   recurring: boolean;
+  /** Whether an ordinary singer takes the wrong meaning — see ConcernSchema. */
+  likelihood: string;
   category: string;
   title: string;
   explanation: string;
@@ -131,6 +134,8 @@ export interface PreparedArtistFinding {
 export interface SongReviewResult {
   identification: Identification;
   claims: ClaimExtraction;
+  /** The content checklist. Absent on pre-3.0.0 reviews. */
+  substance?: Substance | null;
   theological: TheologicalAnalysis;
   communal: CommunalAnalysis;
   clarity: ClarityAnalysis;
@@ -449,6 +454,7 @@ export function prepareSongFindings(input: {
       magnitude?: 'MINOR' | 'MODERATE' | 'MAJOR';
       centrality?: Centrality;
       recurring?: boolean;
+      likelihood?: string;
     },
   ) => {
     const severity: Severity = type === 'STRENGTH' ? (raw.magnitude ?? 'MINOR') : (raw.severity ?? 'MINOR');
@@ -461,6 +467,7 @@ export function prepareSongFindings(input: {
       severity,
       centrality,
       recurring,
+      likelihood: raw.likelihood ?? 'POSSIBLE',
       category: raw.category,
       title: raw.title,
       explanation: raw.explanation,

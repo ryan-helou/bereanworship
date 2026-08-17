@@ -44,6 +44,15 @@
     ],
     "gospelClarity": "IMPLICIT"
   },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "groundsItsClaims": true,
+    "engagesScripture": false,
+    "beyondTheSelf": false,
+    "saysSomethingNew": true
+  },
   "theological": {
     "strengths": [
       {
@@ -76,19 +85,7 @@
         "scriptureRationale": "There is nothing on earth I desire besides you — desire that does not change with the hour."
       }
     ],
-    "concerns": [
-      {
-        "category": "Gospel content",
-        "title": "Christ desired, his work unstated",
-        "explanation": "The song asks for Jesus without saying who he is or what he did. Its worth depends entirely on a congregation already knowing. Sung in a church that teaches, that is no fault; sung as an introduction to the faith, it explains nothing.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": false,
-        "scriptureReference": "1 Corinthians 15:3-4",
-        "scriptureRationale": "The content of first importance — died, buried, raised — which the song assumes rather than states."
-      }
-    ],
+    "concerns": [],
     "doctrinesAffirmed": [
       "The supreme worth of Christ",
       "Christ as sufficient in death",
@@ -122,7 +119,8 @@
         "songLocation": "WHOLE_SONG",
         "severity": "MINOR",
         "centrality": "PERIPHERAL",
-        "recurring": true
+        "recurring": true,
+        "likelihood": "POSSIBLE"
       }
     ],
     "singability": "EASY",
@@ -164,7 +162,13 @@
   },
   "synthesis": {
     "summary": "A short African-American spiritual that hands the whole world away and asks for one thing. It walks a life — morning, midnight, daybreak, death — giving the same answer each time, and names the hour of death directly, which almost nothing in current use will do. Public domain, singable anywhere by anyone. It assumes the gospel rather than teaching it.",
-    "themes": ["Christ", "Hope", "Suffering", "Faith", "Heaven"],
+    "themes": [
+      "Christ",
+      "Hope",
+      "Suffering",
+      "Faith",
+      "Heaven"
+    ],
     "scriptureReferences": [
       {
         "reference": "Philippians 3:8",

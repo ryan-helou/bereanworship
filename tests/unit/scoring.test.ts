@@ -10,12 +10,15 @@ import {
   artistFindingImpact,
   bestStrength,
   classifyRecommendation,
+  combineAxes,
   classifySongRecommendation,
   effectiveArtistSeverity,
   scoreArtist,
   scoreBand,
   scoreLabel,
   scoreSong,
+  scoreSoundness,
+  scoreSubstance,
   severityLabel,
   songFindingImpact,
   worstConcern,
@@ -42,6 +45,7 @@ const concern = (over: Partial<ScorableSongFinding> = {}): ScorableSongFinding =
   severity: 'MINOR',
   centrality: 'IMPORTANT',
   recurring: false,
+  likelihood: 'POSSIBLE',
   ...over,
 });
 
@@ -239,6 +243,93 @@ describe('scoreSong — the rubric', () => {
   });
 });
 
+describe('the two doctrinal axes', () => {
+  const FULL = {
+    namesGod: true,
+    statesAnAct: true,
+    teachesDoctrine: true,
+    groundsClaims: true,
+    engagesScripture: true,
+    beyondTheSelf: true,
+    saysSomethingNew: true,
+  };
+  const EMPTY = Object.fromEntries(Object.keys(FULL).map((k) => [k, false]));
+
+  it('sets soundness by the worst thing wrong, not by how many things there are', () => {
+    const one = scoreSoundness([concern({ severity: 'MODERATE' })]);
+    const several = scoreSoundness([
+      concern({ severity: 'MODERATE' }),
+      concern({ severity: 'MINOR' }),
+      concern({ severity: 'MINOR' }),
+    ]);
+    expect(several.level).toBe(one.level);
+  });
+
+  it('costs a song more when an ordinary singer would take the wrong meaning', () => {
+    const possible = scoreSoundness([concern({ severity: 'MODERATE', likelihood: 'POSSIBLE' })]);
+    const likely = scoreSoundness([concern({ severity: 'MODERATE', likelihood: 'LIKELY' })]);
+    expect(likely.level).toBe(possible.level - 1);
+  });
+
+  it('stacks centrality, likelihood and recurrence so one bad line lands hard', () => {
+    const bad = scoreSoundness([
+      concern({ severity: 'MODERATE', centrality: 'CORE', likelihood: 'LIKELY', recurring: true }),
+    ]);
+    expect(bad.level).toBe(3);
+  });
+
+  it('flags a major error as settling the verdict by itself', () => {
+    expect(scoreSoundness([concern({ severity: 'MAJOR' })]).disqualifying).toBe(true);
+    expect(scoreSoundness([concern({ severity: 'MODERATE' })]).disqualifying).toBe(false);
+  });
+
+  it('gives a song with nothing wrong full soundness', () => {
+    expect(scoreSoundness([strength()]).level).toBe(RUBRIC_MAX_LEVEL);
+  });
+
+  it('scores substance from the checklist, not from how many strengths were written', () => {
+    const many = scoreSong(Array.from({ length: 9 }, () => strength({ severity: 'MAJOR' })), EMPTY);
+    const few = scoreSong([strength({ severity: 'MINOR' })], EMPTY);
+    // Nine strengths and one produce the same substance, because substance is
+    // a fact about the song's content rather than about the reviewer's output.
+    expect(many.substance.level).toBe(few.substance.level);
+  });
+
+  it('reports which checklist tests a song failed', () => {
+    const result = scoreSubstance({ ...EMPTY, namesGod: true, teachesDoctrine: true });
+    expect(result.level).toBe(3);
+    expect(result.passed).toEqual(['namesGod', 'teachesDoctrine']);
+    expect(result.failed).toContain('statesAnAct');
+  });
+
+  it('leaves a song that says nothing in the middle, however clean', () => {
+    const clean = scoreSong([strength({ severity: 'MAJOR' })], EMPTY);
+    expect(clean.soundness.level).toBe(RUBRIC_MAX_LEVEL);
+    expect(clean.theologicalScore).toBeLessThan(50);
+  });
+
+  it('does not let a rich song buy off a bad line', () => {
+    const rich = scoreSong(
+      [concern({ severity: 'MODERATE', centrality: 'CORE', likelihood: 'LIKELY', recurring: true })],
+      FULL,
+    );
+    // Full marks on every content test, and it still lands low.
+    expect(rich.substance.level).toBe(10);
+    expect(rich.theologicalScore).toBeLessThanOrEqual(60);
+  });
+
+  it('treats an unfilled checklist as a pre-3.0.0 review and falls back to the rubric', () => {
+    const result = scoreSong([strength({ severity: 'MAJOR' })], null);
+    expect(result.substance.unassessed).toBe(true);
+    expect(result.theologicalScore).not.toBeNull();
+  });
+
+  it('lets the lower axis bind in both directions', () => {
+    expect(combineAxes(3, 10)).toBeLessThan(combineAxes(10, 10));
+    expect(combineAxes(10, 3)).toBe(combineAxes(3, 10));
+  });
+});
+
 describe('worstConcern and bestStrength', () => {
   it('pick the deciding findings the rubric actually used', () => {
     const mild = concern({ severity: 'MINOR' });
@@ -280,8 +371,15 @@ describe('classifySongRecommendation', () => {
     expect(classifySongRecommendation(99, 0)).toBe('NOT_RECOMMENDED');
   });
 
-  it('refuses to recommend below 60', () => {
-    expect(classifySongRecommendation(59, 10)).toBe('NOT_RECOMMENDED');
+  it('refuses to recommend below 50', () => {
+    expect(classifySongRecommendation(49, 10)).toBe('NOT_RECOMMENDED');
+    // 50-79 is caution, not refusal: splitting soundness from substance moved
+    // the distribution down, and a thin song is not a dangerous one.
+    expect(classifySongRecommendation(50, 10)).toBe('RECOMMENDED_WITH_CAUTION');
+  });
+
+  it('refuses to recommend a major error whatever the total', () => {
+    expect(classifySongRecommendation(95, 9, true)).toBe('NOT_RECOMMENDED');
   });
 
   it('refuses to recommend a song it could not score', () => {

@@ -5,6 +5,7 @@ import {
   ArtistResearchSchema,
   ClaimExtractionSchema,
   ClarityAnalysisSchema,
+  SubstanceSchema,
   CommunalAnalysisSchema,
   IdentificationSchema,
   SynthesisSchema,
@@ -48,6 +49,8 @@ export const SongReviewPayload = z.object({
   kind: z.literal('song'),
   identification: IdentificationSchema,
   claims: ClaimExtractionSchema,
+  /** What the song actually gives a congregation — see SubstanceSchema. */
+  substance: SubstanceSchema,
   theological: TheologicalAnalysisSchema,
   communal: CommunalAnalysisSchema,
   clarity: ClarityAnalysisSchema,
@@ -111,7 +114,7 @@ export async function applyReview(payload: z.infer<typeof ReviewPayload>): Promi
 }
 
 async function applySong(payload: z.infer<typeof SongReviewPayload>): Promise<AppliedSong> {
-  const { identification, claims, theological, communal, clarity, synthesis, sources } = payload;
+  const { identification, claims, substance, theological, communal, clarity, synthesis, sources } = payload;
 
   const artist = await findOrCreateArtist(identification.artist);
   const song = await findOrCreateSong({
@@ -125,7 +128,15 @@ async function applySong(payload: z.infer<typeof SongReviewPayload>): Promise<Ap
 
   // Findings → score. Never the other way round.
   const findings = prepareSongFindings({ theological, communal, clarity });
-  const scores = scoreSong(findings as ScorableSongFinding[]);
+  const scores = scoreSong(findings as ScorableSongFinding[], {
+    namesGod: substance.namesGod,
+    statesAnAct: substance.statesAnAct,
+    teachesDoctrine: substance.teachesDoctrine,
+    groundsClaims: substance.groundsItsClaims,
+    engagesScripture: substance.engagesScripture,
+    beyondTheSelf: substance.beyondTheSelf,
+    saysSomethingNew: substance.saysSomethingNew,
+  });
 
   // A review with no findings in any criterion has nothing to judge. Under the
   // old baseline it would have scored 70 and published as "recommended with
@@ -163,6 +174,7 @@ async function applySong(payload: z.infer<typeof SongReviewPayload>): Promise<Ap
   const result: SongReviewResult = {
     identification,
     claims,
+    substance,
     theological,
     communal,
     clarity,

@@ -62,6 +62,15 @@
     ],
     "gospelClarity": "EXPLICIT"
   },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "groundsItsClaims": true,
+    "engagesScripture": true,
+    "beyondTheSelf": true,
+    "saysSomethingNew": true
+  },
   "theological": {
     "strengths": [
       {
@@ -125,7 +134,8 @@
         "recurring": false,
         "lyricExcerpt": "You didn't want heaven without us",
         "scriptureReference": "Acts 17:24-25",
-        "scriptureRationale": "God is not served by human hands as though he needed anything — the doctrine the phrasing strains against."
+        "scriptureRationale": "God is not served by human hands as though he needed anything — the doctrine the phrasing strains against.",
+        "likelihood": "POSSIBLE"
       }
     ],
     "doctrinesAffirmed": [
@@ -170,7 +180,8 @@
         "songLocation": "NOT_LYRICAL",
         "severity": "MODERATE",
         "centrality": "PERIPHERAL",
-        "recurring": false
+        "recurring": false,
+        "likelihood": "POSSIBLE"
       }
     ],
     "singability": "MODERATE",
@@ -214,7 +225,8 @@
         "songLocation": "VERSE_2",
         "severity": "MINOR",
         "centrality": "IMPORTANT",
-        "recurring": false
+        "recurring": false,
+        "likelihood": "POSSIBLE"
       }
     ],
     "ambiguityLevel": "LOW",
@@ -222,7 +234,13 @@
   },
   "synthesis": {
     "summary": "Three verses carry the incarnation, the cross and the resurrection in order, opening before Bethlehem and pairing the torn veil with the empty tomb. Doctrinally the strongest song here. One couplet locates the motive of the incarnation in God not wanting to be without us — an imprecision about God's self-sufficiency that Piper and Storms have both noted publicly.",
-    "themes": ["Christ", "Cross", "Resurrection", "Worship", "Salvation"],
+    "themes": [
+      "Christ",
+      "Cross",
+      "Resurrection",
+      "Worship",
+      "Salvation"
+    ],
     "scriptureReferences": [
       {
         "reference": "John 1:1-2",

@@ -63,6 +63,15 @@
     ],
     "gospelClarity": "IMPLICIT"
   },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "groundsItsClaims": false,
+    "engagesScripture": false,
+    "beyondTheSelf": true,
+    "saysSomethingNew": false
+  },
   "theological": {
     "strengths": [
       {
@@ -106,7 +115,8 @@
         "recurring": true,
         "lyricExcerpt": "thought of me above all",
         "scriptureReference": "John 17:1, 4",
-        "scriptureRationale": "Christ's stated purpose at the hour is the Father's glory and the finishing of his work."
+        "scriptureRationale": "Christ's stated purpose at the hour is the Father's glory and the finishing of his work.",
+        "likelihood": "LIKELY"
       },
       {
         "category": "The cross",
@@ -118,18 +128,8 @@
         "recurring": false,
         "lyricExcerpt": "Like a rose trampled on the ground",
         "scriptureReference": "John 10:18",
-        "scriptureRationale": "He lays his life down of his own accord; no one takes it from him."
-      },
-      {
-        "category": "Atonement",
-        "title": "The cross without the reason for it",
-        "explanation": "Sin, guilt, wrath and substitution are named nowhere. The congregation sings that Christ was crucified and never sings what the crucifixion accomplished or why it was needed, which leaves the emotional weight resting on the suffering itself.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": false,
-        "scriptureReference": "Romans 3:25-26",
-        "scriptureRationale": "The cross is set forth as a propitiation demonstrating God's righteousness — the content the song leaves out."
+        "scriptureRationale": "He lays his life down of his own accord; no one takes it from him.",
+        "likelihood": "POSSIBLE"
       }
     ],
     "doctrinesAffirmed": [
@@ -157,7 +157,8 @@
         "songLocation": "NOT_LYRICAL",
         "severity": "MODERATE",
         "centrality": "PERIPHERAL",
-        "recurring": false
+        "recurring": false,
+        "likelihood": "POSSIBLE"
       },
       {
         "category": "Performance orientation",
@@ -166,7 +167,8 @@
         "songLocation": "NOT_LYRICAL",
         "severity": "MINOR",
         "centrality": "PERIPHERAL",
-        "recurring": false
+        "recurring": false,
+        "likelihood": "POSSIBLE"
       }
     ],
     "singability": "DIFFICULT",
@@ -206,7 +208,8 @@
         "centrality": "IMPORTANT",
         "recurring": true,
         "scriptureReference": "Philippians 2:9-11",
-        "scriptureRationale": "The exaltation of Christ is to the Father's glory, which is the sense the closing line quietly drops."
+        "scriptureRationale": "The exaltation of Christ is to the Father's glory, which is the sense the closing line quietly drops.",
+        "likelihood": "POSSIBLE"
       }
     ],
     "ambiguityLevel": "MODERATE",
@@ -214,7 +217,11 @@
   },
   "synthesis": {
     "summary": "A sustained confession of Christ's supremacy that names the crucifixion plainly, then resolves on the claim that the singer was what Christ prized above all — inverting its own argument at the climax. The cross arrives without sin or substitution. Musically a soloist's ballad more than a congregation's song.",
-    "themes": ["Christ", "Cross", "Worship"],
+    "themes": [
+      "Christ",
+      "Cross",
+      "Worship"
+    ],
     "scriptureReferences": [
       {
         "reference": "Colossians 1:16-17",

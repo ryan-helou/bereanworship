@@ -99,7 +99,18 @@ export default async function SongPage({ params }: { params: Params }) {
   // Recomputed from the persisted findings rather than stored: scoring is a
   // pure function of them, so deriving it here keeps one source of truth and
   // means the published score can always be re-checked against its evidence.
-  const breakdown = song.findings.length > 0 ? scoreSong(song.findings) : null;
+  const breakdown =
+    song.findings.length > 0
+      ? scoreSong(song.findings, {
+          namesGod: song.substNamesGod,
+          statesAnAct: song.substStatesAnAct,
+          teachesDoctrine: song.substTeachesDoctrine,
+          groundsClaims: song.substGroundsClaims,
+          engagesScripture: song.substEngagesScripture,
+          beyondTheSelf: song.substBeyondTheSelf,
+          saysSomethingNew: song.substSaysSomethingNew,
+        })
+      : null;
 
   // Mark the two findings that decided each criterion, using the scorer's own
   // selection rather than a second implementation of the tie-break.
@@ -260,6 +271,8 @@ export default async function SongPage({ params }: { params: Params }) {
             theological={breakdown.theological}
             communal={breakdown.communal}
             clarity={breakdown.clarity}
+            soundness={breakdown.soundness}
+            substance={breakdown.substance}
             overallScore={song.overallScore ?? breakdown.overallScore}
             overallCeiling={breakdown.overallCeiling}
           />

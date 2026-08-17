@@ -56,6 +56,15 @@
     ],
     "gospelClarity": "IMPLICIT"
   },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "groundsItsClaims": true,
+    "engagesScripture": true,
+    "beyondTheSelf": true,
+    "saysSomethingNew": false
+  },
   "theological": {
     "strengths": [
       {
@@ -99,18 +108,8 @@
         "recurring": true,
         "lyricExcerpt": "It is a firm foundation",
         "scriptureReference": "Matthew 7:24-27",
-        "scriptureRationale": "Everyone who hears these words of mine and does them — the parable makes obedience the rock."
-      },
-      {
-        "category": "Gospel content",
-        "title": "Christ named, his work unstated",
-        "explanation": "Jesus is named and called worthy, but the cross, sin and salvation are not addressed. A congregation learns that Christ is worth building on without being told what he did to make that true.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "scriptureReference": "1 Corinthians 3:11",
-        "scriptureRationale": "No one can lay a foundation other than that which is laid, which is Jesus Christ."
+        "scriptureRationale": "Everyone who hears these words of mine and does them — the parable makes obedience the rock.",
+        "likelihood": "LIKELY"
       }
     ],
     "doctrinesAffirmed": [
@@ -153,7 +152,8 @@
         "songLocation": "BRIDGE",
         "severity": "MINOR",
         "centrality": "PERIPHERAL",
-        "recurring": true
+        "recurring": true,
+        "likelihood": "POSSIBLE"
       }
     ],
     "singability": "EASY",
@@ -197,7 +197,8 @@
         "songLocation": "BRIDGE",
         "severity": "MINOR",
         "centrality": "IMPORTANT",
-        "recurring": true
+        "recurring": true,
+        "likelihood": "POSSIBLE"
       }
     ],
     "ambiguityLevel": "LOW",
@@ -205,7 +206,13 @@
   },
   "synthesis": {
     "summary": "Opens on God's holiness rather than the singer's benefit, names Jesus rather than an unspecified 'You', and commits a whole life rather than reporting a feeling. Easy to sing and built so the best line is the destination. Its one imprecision: the bridge invokes Christ's parable of the house on the rock and makes the foundation his love where he made it obedience to his words.",
-    "themes": ["God", "Christ", "Holiness", "Faith", "Assurance"],
+    "themes": [
+      "God",
+      "Christ",
+      "Holiness",
+      "Faith",
+      "Assurance"
+    ],
     "scriptureReferences": [
       {
         "reference": "Isaiah 6:3",

@@ -20,8 +20,8 @@ import type {
   Severity,
 } from '@prisma/client';
 
-export const SCORING_VERSION = '2.0.0';
-export const METHODOLOGY_VERSION = '2.0.0';
+export const SCORING_VERSION = '3.0.0';
+export const METHODOLOGY_VERSION = '3.0.0';
 export const DEFAULT_REVIEW_VERSION = 'v1.0';
 
 /** Component weights for the overall song score. Must sum to 1. */
@@ -139,6 +139,120 @@ export const LEVEL_MERIT: Record<Severity, number> = {
 
 /** A criterion with strengths but no concerns, and nothing outstanding, sits here. */
 export const MERIT_WITHOUT_STRENGTHS = 5;
+
+// ---------------------------------------------------------------------------
+// Biblical soundness and substance — the two doctrinal axes
+// ---------------------------------------------------------------------------
+
+/**
+ * Two questions, not one.
+ *
+ * "How wrong is anything here?" and "how much is here at all?" are different,
+ * and 2.0.0 answered both with a single rubric level. A song can be flawless
+ * and empty, or rich and broken, and the two failures should not look alike.
+ *
+ *   SOUNDNESS — set by the single worst thing the song gets WRONG. One bad
+ *               line is meant to hurt badly however good the rest is, so the
+ *               worst finding sets the level outright.
+ *   SUBSTANCE — a fixed checklist of what the song gives a congregation.
+ *
+ * The lower axis binds and the higher one lifts a little, so neither can
+ * rescue the other: an empty song stays mediocre however clean, and a rich
+ * song with a bad line still falls.
+ *
+ * An **absence is not a concern**. "Never mentions the cross" is a zero on the
+ * checklist, not a fault lowering soundness — filing it as both penalised a
+ * song twice for one gap.
+ */
+const SOUNDNESS_BASE: Record<Severity, number> = { MINOR: 9, MODERATE: 6, MAJOR: 3, SEVERE: 0 };
+
+/** How much the better axis may lift the worse one. */
+export const SUBSTANCE_LIFT = 0.35;
+
+/** Each checklist test, and what it is worth. Total 10. */
+export const SUBSTANCE_TESTS = [
+  { key: 'namesGod', points: 1, label: 'Names God or Christ specifically' },
+  { key: 'statesAnAct', points: 2, label: 'States something God has done' },
+  { key: 'teachesDoctrine', points: 2, label: 'Teaches doctrine, not just feeling' },
+  { key: 'groundsClaims', points: 2, label: "Grounds its claims in God's character or acts" },
+  { key: 'engagesScripture', points: 1, label: 'Engages a passage directly' },
+  { key: 'beyondTheSelf', points: 1, label: "Moves beyond the singer's experience" },
+  { key: 'saysSomethingNew', points: 1, label: 'Says something a congregation did not know' },
+] as const;
+
+export type SubstanceKey = (typeof SUBSTANCE_TESTS)[number]['key'];
+export type SubstanceAnswers = Partial<Record<SubstanceKey, boolean | null>>;
+
+export interface SoundnessResult {
+  level: number;
+  /** The finding that set it, or null when nothing is wrong. */
+  setBy: ScorableSongFinding | null;
+  /** True when a major or severe error is present, which forces the verdict. */
+  disqualifying: boolean;
+}
+
+/**
+ * Soundness, set by the worst thing the song gets wrong.
+ *
+ * Severity supplies the base; centrality, likelihood and recurrence each move
+ * it by one. A moderate error about a core doctrine that an ordinary singer
+ * would take, sung every chorus, lands at 3 — which is the intended weight of
+ * "one bad line".
+ */
+export function scoreSoundness(findings: ScorableSongFinding[]): SoundnessResult {
+  const concerns = findings.filter((f) => f.type === 'CONCERN');
+  if (concerns.length === 0) return { level: RUBRIC_MAX_LEVEL, setBy: null, disqualifying: false };
+
+  let worst: { level: number; finding: ScorableSongFinding } | null = null;
+  for (const f of concerns) {
+    let n = SOUNDNESS_BASE[f.severity];
+    if ((f.centrality ?? 'IMPORTANT') === 'CORE') n -= 1;
+    if ((f.centrality ?? 'IMPORTANT') === 'PERIPHERAL') n += 1;
+    if ((f.likelihood ?? 'POSSIBLE') === 'LIKELY') n -= 1;
+    if (f.recurring) n -= 1;
+    n = clampLevel(n);
+    if (worst === null || n < worst.level) worst = { level: n, finding: f };
+  }
+
+  return {
+    level: worst!.level,
+    setBy: worst!.finding,
+    // A major or severe error is decisive on its own, whatever the arithmetic
+    // says about the rest of the song.
+    disqualifying: concerns.some((f) => f.severity === 'MAJOR' || f.severity === 'SEVERE'),
+  };
+}
+
+export interface SubstanceResult {
+  level: number;
+  passed: SubstanceKey[];
+  failed: SubstanceKey[];
+  /** True when the checklist was never filled in — a review from before 3.0.0. */
+  unassessed: boolean;
+}
+
+export function scoreSubstance(answers: SubstanceAnswers | null | undefined): SubstanceResult {
+  if (!answers || SUBSTANCE_TESTS.every((t) => answers[t.key] === null || answers[t.key] === undefined)) {
+    return { level: 0, passed: [], failed: [], unassessed: true };
+  }
+
+  const passed = SUBSTANCE_TESTS.filter((t) => answers[t.key] === true);
+  const failed = SUBSTANCE_TESTS.filter((t) => answers[t.key] !== true);
+
+  return {
+    level: passed.reduce((n, t) => n + t.points, 0),
+    passed: passed.map((t) => t.key),
+    failed: failed.map((t) => t.key),
+    unassessed: false,
+  };
+}
+
+/** The lower axis binds; the higher lifts it by a fraction of the gap. */
+export function combineAxes(soundness: number, substance: number): number {
+  const lo = Math.min(soundness, substance);
+  const hi = Math.max(soundness, substance);
+  return lo + (hi - lo) * SUBSTANCE_LIFT;
+}
 
 const SEVERITY_RANK: Record<Severity, number> = { MINOR: 1, MODERATE: 2, MAJOR: 3, SEVERE: 4 };
 
@@ -265,6 +379,8 @@ export interface ScorableSongFinding {
   severity: Severity;
   centrality?: Centrality | null;
   recurring?: boolean | null;
+  /** 'LIKELY' | 'POSSIBLE' — whether an ordinary singer takes the wrong meaning. */
+  likelihood?: string | null;
 }
 
 export interface ScorableArtistFinding {
@@ -299,6 +415,9 @@ export interface SongScoreResult {
   theological: ComponentRubric;
   communal: ComponentRubric;
   clarity: ComponentRubric;
+  /** The two doctrinal axes behind `theological`. */
+  soundness: SoundnessResult;
+  substance: SubstanceResult;
   /** Each is level × 10, or null when that criterion had nothing to judge. */
   theologicalScore: number | null;
   communalScore: number | null;
@@ -412,8 +531,40 @@ function buildComponent(
   };
 }
 
-export function scoreSong(findings: ScorableSongFinding[]): SongScoreResult {
-  const theological = rateComponent('THEOLOGICAL', findings.filter((f) => f.component === 'THEOLOGICAL'));
+export function scoreSong(
+  findings: ScorableSongFinding[],
+  substanceAnswers?: SubstanceAnswers | null,
+): SongScoreResult {
+  const theologicalFindings = findings.filter((f) => f.component === 'THEOLOGICAL');
+
+  // Biblical soundness runs on the two doctrinal axes. Communal and clarity
+  // keep the 2.0.0 rubric: singability is a different kind of question and is
+  // not improved by asking what a song teaches.
+  const soundness = scoreSoundness(theologicalFindings);
+  const substance = scoreSubstance(substanceAnswers);
+
+  const theological: ComponentRubric = substance.unassessed
+    ? // Pre-3.0.0 review: fall back to the rubric so old rows still render.
+      rateComponent('THEOLOGICAL', theologicalFindings)
+    : {
+        component: 'THEOLOGICAL',
+        level: Math.round(combineAxes(soundness.level, substance.level)),
+        ceiling: soundness.level,
+        merit: substance.level,
+        ceilingSetBy: soundness.setBy
+          ? {
+              severity: soundness.setBy.severity,
+              centrality: soundness.setBy.centrality ?? 'IMPORTANT',
+              recurring: Boolean(soundness.setBy.recurring),
+            }
+          : null,
+        meritSetBy: null,
+        ceilingBinds: soundness.level < substance.level,
+        strengthCount: theologicalFindings.filter((f) => f.type === 'STRENGTH').length,
+        concernCount: theologicalFindings.filter((f) => f.type === 'CONCERN').length,
+        score: Math.round(combineAxes(soundness.level, substance.level)) * 10,
+      };
+
   const communal = rateComponent('COMMUNAL', findings.filter((f) => f.component === 'COMMUNAL'));
   const clarity = rateComponent('CLARITY', findings.filter((f) => f.component === 'CLARITY'));
 
@@ -436,6 +587,8 @@ export function scoreSong(findings: ScorableSongFinding[]): SongScoreResult {
       theological,
       communal,
       clarity,
+      soundness,
+      substance,
       theologicalScore: null,
       communalScore: null,
       clarityScore: null,
@@ -462,6 +615,8 @@ export function scoreSong(findings: ScorableSongFinding[]): SongScoreResult {
     theological,
     communal,
     clarity,
+    soundness,
+    substance,
     theologicalScore: theological.score,
     communalScore: communal.score,
     clarityScore: clarity.score,
@@ -469,7 +624,7 @@ export function scoreSong(findings: ScorableSongFinding[]): SongScoreResult {
     overallScore,
     overallCeiling: doctrineCap !== null && doctrineCap < weightedScore ? doctrineCap : null,
     unrated,
-    recommendation: classifySongRecommendation(overallScore, theological.level),
+    recommendation: classifySongRecommendation(overallScore, theological.level, soundness.disqualifying),
   };
 }
 
@@ -483,10 +638,22 @@ export function scoreSong(findings: ScorableSongFinding[]): SongScoreResult {
 export function classifySongRecommendation(
   overallScore: number | null,
   theologicalLevel: number | null,
+  disqualifying = false,
 ): Recommendation {
   if (overallScore === null) return 'NOT_RECOMMENDED';
+  // A major or severe doctrinal error settles the verdict by itself. No
+  // arithmetic over the rest of the song is allowed to overturn it, because
+  // the question a worship leader is asking is not "how good on balance" but
+  // "can we put this in our congregation's mouth".
+  if (disqualifying) return 'NOT_RECOMMENDED';
   if (theologicalLevel !== null && theologicalLevel <= 2) return 'NOT_RECOMMENDED';
-  if (overallScore < 60) return 'NOT_RECOMMENDED';
+  // 50 rather than 60. Splitting soundness from substance moved the whole
+  // distribution down — a thin song now scores its thinness instead of
+  // collecting a baseline — and leaving the old threshold in place would have
+  // flipped several songs to "not recommended" on arithmetic drift alone.
+  // That verdict is for songs a congregation should not be given, which is
+  // what the disqualifying rule above is for.
+  if (overallScore < 50) return 'NOT_RECOMMENDED';
   if ((theologicalLevel !== null && theologicalLevel <= 4) || overallScore < 80) return 'RECOMMENDED_WITH_CAUTION';
   return 'RECOMMENDED';
 }

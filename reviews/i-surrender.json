@@ -50,6 +50,15 @@
     ],
     "gospelClarity": "ABSENT"
   },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "groundsItsClaims": false,
+    "engagesScripture": false,
+    "beyondTheSelf": false,
+    "saysSomethingNew": false
+  },
   "theological": {
     "strengths": [
       {
@@ -84,17 +93,6 @@
     ],
     "concerns": [
       {
-        "category": "Gospel content",
-        "title": "Surrender without the mercy that grounds it",
-        "explanation": "The cross and Christ's death appear nowhere, and the song's ground for surrender is the singer's own hunger. Paul grounds the same offering in the mercies of God, which the song leaves out — so the appeal rests on appetite rather than on what has been done.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MODERATE",
-        "centrality": "IMPORTANT",
-        "recurring": false,
-        "scriptureReference": "Romans 12:1",
-        "scriptureRationale": "The offering is urged by the mercies of God — the ground stated first, and the one the song omits."
-      },
-      {
         "category": "Subjectivity",
         "title": "Assurance sought in felt presence",
         "explanation": "What the singer asks for and measures by is God's presence experienced. A congregation taught to look there will read a flat Sunday as God's absence, because the song offers nothing outside the feeling to check it against.",
@@ -103,7 +101,8 @@
         "centrality": "IMPORTANT",
         "recurring": true,
         "scriptureReference": "2 Corinthians 5:7",
-        "scriptureRationale": "We walk by faith, not by sight — the alternative measure the song does not offer."
+        "scriptureRationale": "We walk by faith, not by sight — the alternative measure the song does not offer.",
+        "likelihood": "LIKELY"
       }
     ],
     "doctrinesAffirmed": [
@@ -132,7 +131,8 @@
         "songLocation": "NOT_LYRICAL",
         "severity": "MODERATE",
         "centrality": "PERIPHERAL",
-        "recurring": true
+        "recurring": true,
+        "likelihood": "POSSIBLE"
       },
       {
         "category": "Repetition",
@@ -141,7 +141,8 @@
         "songLocation": "BRIDGE",
         "severity": "MINOR",
         "centrality": "PERIPHERAL",
-        "recurring": true
+        "recurring": true,
+        "likelihood": "POSSIBLE"
       },
       {
         "category": "Corporate voice",
@@ -150,7 +151,8 @@
         "songLocation": "WHOLE_SONG",
         "severity": "MINOR",
         "centrality": "PERIPHERAL",
-        "recurring": true
+        "recurring": true,
+        "likelihood": "POSSIBLE"
       }
     ],
     "singability": "MODERATE",
@@ -187,7 +189,8 @@
         "songLocation": "WHOLE_SONG",
         "severity": "MINOR",
         "centrality": "IMPORTANT",
-        "recurring": true
+        "recurring": true,
+        "likelihood": "POSSIBLE"
       }
     ],
     "ambiguityLevel": "MODERATE",
@@ -195,7 +198,12 @@
   },
   "synthesis": {
     "summary": "Its only request is that the singer be given over, and its object is God rather than his gifts — both rarer than they should be. But the cross is absent, and surrender rests on the singer's hunger where Paul rests it on God's mercies. Musically it is built around a long bridge most congregations hand back to the platform.",
-    "themes": ["Worship", "Faith", "Holiness", "Prayer"],
+    "themes": [
+      "Worship",
+      "Faith",
+      "Holiness",
+      "Prayer"
+    ],
     "scriptureReferences": [
       {
         "reference": "Romans 12:1",

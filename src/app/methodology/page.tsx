@@ -3,9 +3,7 @@ import Link from 'next/link';
 import {
   ARTIST_WEIGHTS,
   BASELINE,
-  LEVEL_CEILING,
-  LEVEL_MERIT,
-  MERIT_WITHOUT_STRENGTHS,
+  SUBSTANCE_TESTS,
   METHODOLOGY_VERSION,
   RUBRIC_MAX_LEVEL,
   SCORE_BANDS,
@@ -182,63 +180,87 @@ export default function MethodologyPage() {
           <p>Rounded to the nearest whole number.</p>
         </Section>
 
-        <Section id="components" title="How a criterion is scored">
+        <Section id="components" title="How biblical soundness is scored">
           <p>
-            Each criterion is placed on a rubric from 0 to{' '}
-            <strong className="font-semibold text-ink-900">{RUBRIC_MAX_LEVEL}</strong>. A level is{' '}
-            <em>selected</em> by matching the song against a written description, not accumulated from points — so there
-            is no starting number to justify and no arithmetic that can run past the ends of the scale.
+            Two questions, not one. <strong className="font-semibold text-ink-900">Is anything here wrong?</strong> and{' '}
+            <strong className="font-semibold text-ink-900">how much is here at all?</strong> A song can be flawless and
+            empty, or rich and broken, and those failures should not produce the same number.
           </p>
 
           <pre className="my-8 overflow-x-auto border-2 border-ink-900 bg-indigo-950 p-6 font-mono text-[0.8125rem] leading-relaxed text-surface-100">
-            {`level = min(ceiling, merit)
+            {`soundness — set by the single worst thing the song gets WRONG
+substance — a fixed checklist of what the song actually gives
 
-ceiling = what the flaws allow   — set by the single worst concern
-merit   = what the substance earns — set by the single best strength`}
+the lower of the two sets the level; the higher lifts it slightly`}
           </pre>
 
           <p>
-            Six levels carry written anchors; the odd levels between them are used for a song that sits clearly between
-            two descriptions. Eleven genuinely distinguishable descriptions cannot be written, and an anchored scale is
-            the honest way to offer that resolution rather than pretending otherwise.
+            Neither can rescue the other. A song cannot make up for teaching something wrong by teaching a great deal,
+            and it cannot make up for saying little by saying it faultlessly.
           </p>
 
-          <h3 className="mt-8 text-lg font-semibold text-ink-900">The ceiling — what the worst concern allows</h3>
+          <p>
+            One consequence is worth stating plainly: an{' '}
+            <strong className="font-semibold text-ink-900">absence is not a fault</strong>. A song that never mentions
+            the cross has not done anything wrong — it has failed to give something, which is a zero on the checklist
+            below. Counting it as both a concern and a gap penalised the same silence twice.
+          </p>
+
+          <h3 className="mt-8 text-lg font-semibold text-ink-900">Substance — what the song gives</h3>
+          <p>
+            Seven fixed questions, answerable yes or no by anyone holding the same lyrics. They are stated individually
+            on every song page, so a reader sees which ones a song failed rather than only a total.
+          </p>
+          <ScaleTable
+            rows={SUBSTANCE_TESTS.map((t) => ({
+              label: t.label,
+              value: `+${t.points}`,
+              note: '',
+            }))}
+          />
+
+          <h3 className="mt-8 text-lg font-semibold text-ink-900">Soundness — the worst thing wrong</h3>
           <p>
             Severity is treated as ordinal, not additive. Ten minor imprecisions do not add up to a major error, and one
-            major error is not cancelled by everything else being fine — so the ceiling is set by the most serious
-            concern alone, and further concerns do not lower it.
+            major error is not cancelled by everything else being fine — so the level is set by the most serious concern
+            alone, and further concerns do not lower it.
           </p>
           <ScaleTable
             rows={[
-              { label: 'No concerns', value: `${RUBRIC_MAX_LEVEL}`, note: 'Nothing found to hold the criterion down.' },
-              { label: 'Minor', value: `${LEVEL_CEILING.MINOR}`, note: 'Imprecision, avoidable vagueness, an imperfect metaphor.' },
-              { label: 'Moderate', value: `${LEVEL_CEILING.MODERATE}`, note: 'Misleading wording or repeated ambiguity about something important.' },
-              { label: 'Major', value: `${LEVEL_CEILING.MAJOR}`, note: 'Significant error about salvation, grace, sin, Christ or God.' },
-              { label: 'Severe', value: `${LEVEL_CEILING.SEVERE}`, note: 'Denial or fundamental distortion of a central Christian doctrine.' },
+              { label: 'Nothing wrong', value: `${RUBRIC_MAX_LEVEL}`, note: 'No error was found in the song.' },
+              { label: 'Minor', value: '9', note: 'Imprecision, avoidable vagueness, an imperfect metaphor.' },
+              { label: 'Moderate', value: '6', note: 'Misleading wording or repeated ambiguity about something important.' },
+              { label: 'Major', value: '3', note: 'Significant error about salvation, grace, sin, Christ or God.' },
+              { label: 'Severe', value: '0', note: 'Denial or fundamental distortion of a central Christian doctrine.' },
             ]}
           />
           <p>
-            Two adjustments, each of one level: the ceiling drops when the worst concern is both about a{' '}
-            <strong className="font-semibold text-ink-900">core</strong> doctrine and{' '}
-            <strong className="font-semibold text-ink-900">recurring</strong> — a central error sung every chorus is
-            worse than the same error sung once — and rises when it is{' '}
-            <strong className="font-semibold text-ink-900">peripheral</strong>, because a matter of imagery should not
-            hold a song down like a doctrinal fault.
+            Three adjustments, each of one level. The score drops when the worst concern is about a{' '}
+            <strong className="font-semibold text-ink-900">core</strong> doctrine, when it{' '}
+            <strong className="font-semibold text-ink-900">recurs</strong> so the congregation sings it repeatedly, and
+            when the wrong meaning is one an ordinary singer would{' '}
+            <strong className="font-semibold text-ink-900">actually take</strong> rather than one that needs straining
+            for. A moderate error about a core doctrine, likely to be misread and sung every chorus, lands at 3 — which
+            is the intended weight of a single bad line.
           </p>
+          <p>
+            That last test is borrowed from Bob Kauflin, who argues that the question is not whether a bad reading is
+            possible but whether it is likely. A phrase that could theoretically mislead and one that does mislead
+            should not cost a song the same.
+          </p>
+        </Section>
 
-          <h3 className="mt-8 text-lg font-semibold text-ink-900">Merit — what the substance earns</h3>
-          <ScaleTable
-            rows={[
-              { label: 'No strengths', value: `${MERIT_WITHOUT_STRENGTHS}`, note: 'Nothing wrong, but nothing taught either.' },
-              { label: 'Notable', value: `${LEVEL_MERIT.MINOR}`, note: 'A genuine but modest positive.' },
-              { label: 'Strong', value: `${LEVEL_MERIT.MODERATE}`, note: 'A substantial doctrinal strength.' },
-              { label: 'Exceptional', value: `${LEVEL_MERIT.MAJOR}`, note: 'An outstanding strength on something central.' },
-            ]}
-          />
+        <Section id="disqualifying" title="When one line settles it">
           <p>
-            Merit rises by one level for a criterion carrying three or more strengths, and by one more for five or more
-            including two exceptional ones. Breadth counts, but with diminishing returns rather than a cliff.
+            A <strong className="font-semibold text-ink-900">major or severe</strong> error — one that misstates
+            salvation, Christ or God — makes a song <strong className="font-semibold text-ink-900">not recommended</strong>{' '}
+            on its own, whatever the arithmetic says about the rest of it.
+          </p>
+          <p>
+            This is deliberate and it is not a weighted judgement. The question a worship leader is asking is not
+            whether a song is good on balance, but whether it can be put in a congregation’s mouth week after week. No
+            amount of beauty, singability or accumulated strength answers that question in the affirmative once
+            something central is stated wrongly.
           </p>
         </Section>
 

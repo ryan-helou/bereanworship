@@ -50,6 +50,15 @@
     ],
     "gospelClarity": "ABSENT"
   },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "groundsItsClaims": true,
+    "engagesScripture": false,
+    "beyondTheSelf": false,
+    "saysSomethingNew": false
+  },
   "theological": {
     "strengths": [
       {
@@ -84,17 +93,6 @@
     ],
     "concerns": [
       {
-        "category": "Gospel content",
-        "title": "Fatherhood without adoption",
-        "explanation": "Jesus, the cross and salvation appear nowhere. The song calls God Father and calls the singer loved without ever saying how a sinner came to stand in that relation. Scripture makes adoption a purchased status, and the song presents it as simply the case.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MODERATE",
-        "centrality": "CORE",
-        "recurring": false,
-        "scriptureReference": "Galatians 4:4-5",
-        "scriptureRationale": "God sent his Son to redeem those under the law so that we might receive adoption — the ground the song never supplies."
-      },
-      {
         "category": "Identity",
         "title": "Identity resting on being loved, undefined",
         "explanation": "Being loved by God is a true thing to say about a Christian, and the chorus repeats it as the singer's whole identity without saying what makes it true of them. Sung often enough, it teaches a self-understanding with nothing underneath it.",
@@ -104,7 +102,8 @@
         "recurring": true,
         "lyricExcerpt": "I'm loved by You, it's who I am",
         "scriptureReference": "1 John 3:1",
-        "scriptureRationale": "We are called children of God — but the verse grounds the title in the love the Father has given, not in the singer's sense of it."
+        "scriptureRationale": "We are called children of God — but the verse grounds the title in the love the Father has given, not in the singer's sense of it.",
+        "likelihood": "LIKELY"
       }
     ],
     "doctrinesAffirmed": [
@@ -147,7 +146,8 @@
         "songLocation": "CHORUS",
         "severity": "MINOR",
         "centrality": "PERIPHERAL",
-        "recurring": true
+        "recurring": true,
+        "likelihood": "POSSIBLE"
       }
     ],
     "singability": "EASY",
@@ -184,7 +184,8 @@
         "songLocation": "WHOLE_SONG",
         "severity": "MINOR",
         "centrality": "IMPORTANT",
-        "recurring": true
+        "recurring": true,
+        "likelihood": "POSSIBLE"
       },
       {
         "category": "Address",
@@ -193,7 +194,8 @@
         "songLocation": "VERSE_1",
         "severity": "MINOR",
         "centrality": "PERIPHERAL",
-        "recurring": false
+        "recurring": false,
+        "likelihood": "POSSIBLE"
       }
     ],
     "ambiguityLevel": "MODERATE",
@@ -201,7 +203,12 @@
   },
   "synthesis": {
     "summary": "Warm, easy to sing, and true in what it affirms: God's fatherly goodness as settled character, and love that failure does not forfeit. But Jesus, the cross and salvation are absent entirely, so it celebrates a relationship without ever saying how a sinner came to stand in it. Best used where the rest of the service supplies the ground.",
-    "themes": ["God", "Grace", "Worship", "Assurance"],
+    "themes": [
+      "God",
+      "Grace",
+      "Worship",
+      "Assurance"
+    ],
     "scriptureReferences": [
       {
         "reference": "James 1:17",

@@ -56,6 +56,15 @@
     ],
     "gospelClarity": "ABSENT"
   },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "groundsItsClaims": false,
+    "engagesScripture": true,
+    "beyondTheSelf": false,
+    "saysSomethingNew": false
+  },
   "theological": {
     "strengths": [
       {
@@ -98,18 +107,8 @@
         "recurring": true,
         "lyricExcerpt": "Spirit lead me where my trust is without borders",
         "scriptureReference": "Matthew 6:13",
-        "scriptureRationale": "Lead us not into temptation — the petition the bridge inverts, however sincerely."
-      },
-      {
-        "category": "Gospel content",
-        "title": "No cross, sin or salvation anywhere",
-        "explanation": "The song is entirely about trust under pressure. Nothing states why the singer may call on God at all. As one song among many that is unremarkable; as a congregation's staple for a decade it is a gap worth naming.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": false,
-        "scriptureReference": "Matthew 14:33",
-        "scriptureRationale": "The account itself ends in worship of the Son of God — content the song leaves at the edge."
+        "scriptureRationale": "Lead us not into temptation — the petition the bridge inverts, however sincerely.",
+        "likelihood": "LIKELY"
       }
     ],
     "doctrinesAffirmed": [
@@ -138,7 +137,8 @@
         "songLocation": "NOT_LYRICAL",
         "severity": "MODERATE",
         "centrality": "PERIPHERAL",
-        "recurring": false
+        "recurring": false,
+        "likelihood": "POSSIBLE"
       },
       {
         "category": "Performance orientation",
@@ -147,7 +147,8 @@
         "songLocation": "NOT_LYRICAL",
         "severity": "MINOR",
         "centrality": "PERIPHERAL",
-        "recurring": false
+        "recurring": false,
+        "likelihood": "POSSIBLE"
       },
       {
         "category": "Corporate voice",
@@ -156,7 +157,8 @@
         "songLocation": "WHOLE_SONG",
         "severity": "MINOR",
         "centrality": "PERIPHERAL",
-        "recurring": true
+        "recurring": true,
+        "likelihood": "POSSIBLE"
       }
     ],
     "singability": "DIFFICULT",
@@ -195,7 +197,8 @@
         "centrality": "IMPORTANT",
         "recurring": false,
         "scriptureReference": "Matthew 14:33",
-        "scriptureRationale": "The account names its object plainly — truly you are the Son of God — where the song waits."
+        "scriptureRationale": "The account names its object plainly — truly you are the Son of God — where the song waits.",
+        "likelihood": "POSSIBLE"
       }
     ],
     "ambiguityLevel": "MODERATE",
@@ -203,7 +206,12 @@
   },
   "synthesis": {
     "summary": "A song of trust under pressure, argued from God's record rather than the singer's feeling, and built on Peter leaving the boat. Two limits: the bridge asks to be led into deeper testing, close to the reverse of the petition Christ taught, and the gospel is absent entirely. Musically an anthem whose climax sits beyond most congregations.",
-    "themes": ["Faith", "Hope", "Suffering", "Christ"],
+    "themes": [
+      "Faith",
+      "Hope",
+      "Suffering",
+      "Christ"
+    ],
     "scriptureReferences": [
       {
         "reference": "Matthew 14:29-31",

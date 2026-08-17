@@ -51,6 +51,15 @@
     ],
     "gospelClarity": "IMPLICIT"
   },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "groundsItsClaims": true,
+    "engagesScripture": true,
+    "beyondTheSelf": true,
+    "saysSomethingNew": false
+  },
   "theological": {
     "strengths": [
       {
@@ -95,17 +104,6 @@
     ],
     "concerns": [
       {
-        "category": "Atonement",
-        "title": "The goodness is asserted, never purchased",
-        "explanation": "The cross, the blood and Christ's death appear nowhere. The song tells a weary person that Jesus is good and does not tell them what he did to make that good news for a sinner rather than merely a comfort.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": false,
-        "scriptureReference": "Romans 5:8",
-        "scriptureRationale": "God shows his love in that Christ died for us while we were still sinners — the act that makes his goodness good news."
-      },
-      {
         "category": "Anthropology",
         "title": "The trouble is weariness, not sin",
         "explanation": "The singer's problem throughout is tiredness and anxiety. Those are real, and they are not the deepest thing wrong. A congregation fed on this alone would learn to bring Christ their exhaustion and not their guilt.",
@@ -114,7 +112,8 @@
         "centrality": "PERIPHERAL",
         "recurring": true,
         "scriptureReference": "Matthew 11:28-30",
-        "scriptureRationale": "Even the invitation to the weary is bound to taking Christ's yoke — rest and submission arrive together."
+        "scriptureRationale": "Even the invitation to the weary is bound to taking Christ's yoke — rest and submission arrive together.",
+        "likelihood": "POSSIBLE"
       }
     ],
     "doctrinesAffirmed": [
@@ -150,7 +149,8 @@
         "songLocation": "NOT_LYRICAL",
         "severity": "MINOR",
         "centrality": "PERIPHERAL",
-        "recurring": false
+        "recurring": false,
+        "likelihood": "POSSIBLE"
       },
       {
         "category": "Corporate voice",
@@ -159,7 +159,8 @@
         "songLocation": "CHORUS",
         "severity": "MINOR",
         "centrality": "PERIPHERAL",
-        "recurring": true
+        "recurring": true,
+        "likelihood": "POSSIBLE"
       }
     ],
     "singability": "MODERATE",
@@ -203,7 +204,8 @@
         "songLocation": "WHOLE_SONG",
         "severity": "MINOR",
         "centrality": "IMPORTANT",
-        "recurring": true
+        "recurring": true,
+        "likelihood": "POSSIBLE"
       }
     ],
     "ambiguityLevel": "LOW",
@@ -211,7 +213,12 @@
   },
   "synthesis": {
     "summary": "A song of comfort that offers Christ himself rather than his benefits, and locates rest in his peace rather than in circumstances improving. Its chorus is a vow for the long run. The cross is absent and the trouble it names is weariness rather than sin, so it comforts well without preaching the gospel.",
-    "themes": ["Christ", "Hope", "Assurance", "Suffering"],
+    "themes": [
+      "Christ",
+      "Hope",
+      "Assurance",
+      "Suffering"
+    ],
     "scriptureReferences": [
       {
         "reference": "Matthew 11:28-30",

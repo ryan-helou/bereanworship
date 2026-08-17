@@ -288,6 +288,19 @@ model Song {
   rangeSource        String?
   rangeNote          String?      @db.Text
 
+  /// What the song actually gives a congregation. Seven fixed yes/no tests,
+  /// stored individually rather than as a total so the page can show which
+  /// ones a song failed — a score of 4 tells a worship leader nothing, but
+  /// "states no act of God, engages no passage" tells them what is missing.
+  /// Null on reviews published before scoring 3.0.0.
+  substNamesGod        Boolean?
+  substStatesAnAct     Boolean?
+  substTeachesDoctrine Boolean?
+  substGroundsClaims   Boolean?
+  substEngagesScripture Boolean?
+  substBeyondTheSelf   Boolean?
+  substSaysSomethingNew Boolean?
+
   reviewStatus       ReviewStatus @default(UNREVIEWED)
   reviewVersion      String?
   scoringVersion     String?
@@ -343,6 +356,13 @@ model SongFinding {
   category   String
   title      String
   explanation String     @db.Text
+
+  /// Would an ordinary singer actually take the wrong meaning (LIKELY), or
+  /// does that reading require straining against the rest of the song
+  /// (POSSIBLE)? Kauflin's test: a reading that is merely available is not the
+  /// same as one a congregation will take, and the two should not cost a song
+  /// the same amount.
+  likelihood String @default("POSSIBLE")
 
   /// Where in the song this finding comes from — CHORUS, VERSE_2, WHOLE_SONG,
   /// NOT_LYRICAL and so on. Required of every finding: it is what keeps a

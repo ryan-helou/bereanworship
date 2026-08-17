@@ -365,6 +365,14 @@ export async function saveSongReview(songId: string, result: SongReviewResult): 
         rangeSource: measured?.source ?? null,
         rangeNote: measured?.note ?? result.communal.vocalRangeNote ?? null,
 
+        substNamesGod: result.substance?.namesGod ?? null,
+        substStatesAnAct: result.substance?.statesAnAct ?? null,
+        substTeachesDoctrine: result.substance?.teachesDoctrine ?? null,
+        substGroundsClaims: result.substance?.groundsItsClaims ?? null,
+        substEngagesScripture: result.substance?.engagesScripture ?? null,
+        substBeyondTheSelf: result.substance?.beyondTheSelf ?? null,
+        substSaysSomethingNew: result.substance?.saysSomethingNew ?? null,
+
         reviewStatus: 'COMPLETED',
         reviewVersion,
         scoringVersion: SCORING_VERSION,
@@ -384,6 +392,7 @@ export async function saveSongReview(songId: string, result: SongReviewResult): 
           severity: f.severity,
           centrality: f.centrality,
           recurring: f.recurring,
+          likelihood: f.likelihood,
           category: f.category,
           title: f.title,
           explanation: f.explanation,

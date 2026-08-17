@@ -62,6 +62,15 @@
     ],
     "gospelClarity": "IMPLICIT"
   },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "groundsItsClaims": true,
+    "engagesScripture": true,
+    "beyondTheSelf": true,
+    "saysSomethingNew": true
+  },
   "theological": {
     "strengths": [
       {
@@ -103,28 +112,7 @@
         "scriptureRationale": "The love of Christ surpasses knowledge — known and unmeasurable at once."
       }
     ],
-    "concerns": [
-      {
-        "category": "Christology",
-        "title": "Christ present by title only",
-        "explanation": "The Lamb of God is named, and the title carries the cross with it, but nothing else in the song states what he did. A congregation singing only this would have God's greatness without his rescue.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": false,
-        "scriptureReference": "John 1:29",
-        "scriptureRationale": "The title the song borrows is given with its content attached: the Lamb takes away the sin of the world."
-      },
-      {
-        "category": "Doctrine of God",
-        "title": "Attributes without acts",
-        "explanation": "God is described rather than recounted. There is no exodus, no cross, no promise kept — only what God is like. It makes the awe harder to anchor, because the singer is not told what God has done to warrant it.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false
-      }
-    ],
+    "concerns": [],
     "doctrinesAffirmed": [
       "The incomprehensibility of God",
       "The holiness of God",
@@ -159,7 +147,8 @@
         "songLocation": "WHOLE_SONG",
         "severity": "MINOR",
         "centrality": "PERIPHERAL",
-        "recurring": true
+        "recurring": true,
+        "likelihood": "POSSIBLE"
       }
     ],
     "singability": "EASY",
@@ -197,7 +186,8 @@
         "locationDetail": "the opening line",
         "severity": "MINOR",
         "centrality": "PERIPHERAL",
-        "recurring": true
+        "recurring": true,
+        "likelihood": "POSSIBLE"
       }
     ],
     "ambiguityLevel": "LOW",
@@ -205,7 +195,11 @@
   },
   "synthesis": {
     "summary": "A short, sound song about God's incomprehensibility — that he exceeds description, and that awe is the fitting response. It names God holy and treats praise as a debt owed. Its limitation is that it describes God's attributes without recounting his acts, so it is best paired with a song that tells the story.",
-    "themes": ["God", "Worship", "Holiness"],
+    "themes": [
+      "God",
+      "Worship",
+      "Holiness"
+    ],
     "scriptureReferences": [
       {
         "reference": "Romans 11:33",

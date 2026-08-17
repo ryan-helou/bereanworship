@@ -1,6 +1,14 @@
 import { cn } from '@/lib/utils';
 import { CATEGORY } from './findings';
-import { RUBRIC_MAX_LEVEL, SONG_WEIGHTS, severityLabel, type ComponentRubric } from '@/lib/scoring';
+import {
+  RUBRIC_MAX_LEVEL,
+  SONG_WEIGHTS,
+  SUBSTANCE_TESTS,
+  severityLabel,
+  type ComponentRubric,
+  type SoundnessResult,
+  type SubstanceResult,
+} from '@/lib/scoring';
 import type { ScoreComponent } from '@prisma/client';
 
 /**
@@ -58,12 +66,16 @@ export function ScoreContribution({
   theological,
   communal,
   clarity,
+  soundness,
+  substance,
   overallScore,
   overallCeiling,
 }: {
   theological: ComponentRubric;
   communal: ComponentRubric;
   clarity: ComponentRubric;
+  soundness?: SoundnessResult;
+  substance?: SubstanceResult;
   overallScore: number | null;
   overallCeiling: number | null;
 }) {
@@ -138,6 +150,10 @@ export function ScoreContribution({
           </div>
         )}
 
+        {soundness && substance && !substance.unassessed && (
+          <TwoAxes soundness={soundness} substance={substance} level={theological.level} />
+        )}
+
         <div className="mt-10 grid grid-cols-1 gap-5 md:grid-cols-3">
           {rows.map((r) => (
             <RubricCard key={r.key} component={r.key} rubric={r.rubric} category={r.category} weight={r.weight} />
@@ -152,6 +168,115 @@ export function ScoreContribution({
         )}
       </div>
     </section>
+  );
+}
+
+/**
+ * The two doctrinal axes, side by side.
+ *
+ * Shown because the single biblical number hides which of two very different
+ * failures produced it: a song can score 40 for teaching something wrong, or
+ * for saying almost nothing, and a worship leader needs to know which. The
+ * checklist is listed test by test rather than as a total, since "no act of
+ * God stated, no passage engaged" is actionable where "4 out of 10" is not.
+ */
+function TwoAxes({
+  soundness,
+  substance,
+  level,
+}: {
+  soundness: SoundnessResult;
+  substance: SubstanceResult;
+  level: number | null;
+}) {
+  const binds = soundness.level <= substance.level ? 'soundness' : 'substance';
+
+  return (
+    <div className="mt-10 border-2 border-ink-900 bg-bone-50">
+      <div className="flex items-baseline justify-between border-b-2 border-ink-900 bg-cat-biblical-tint px-5 py-3">
+        <span className="text-[0.6875rem] font-bold uppercase tracking-[0.08em] text-cat-biblical">
+          Biblical soundness — the two questions behind it
+        </span>
+        {level !== null && (
+          <span className="tnum text-xs font-bold text-cat-biblical">
+            {level}/{RUBRIC_MAX_LEVEL}
+          </span>
+        )}
+      </div>
+
+      <div className="grid grid-cols-1 divide-y divide-line md:grid-cols-2 md:divide-x md:divide-y-0">
+        <div className="p-5">
+          <div className="flex items-baseline justify-between">
+            <h3 className="text-sm font-bold text-ink-900">
+              Is anything here wrong?
+              {binds === 'soundness' && (
+                <span className="ml-2 text-[0.625rem] font-bold uppercase tracking-wide text-ink-400">decides</span>
+              )}
+            </h3>
+            <span className="tnum text-2xl font-extrabold text-ink-900">{soundness.level}</span>
+          </div>
+          {soundness.setBy ? (
+            <p className="mt-2 text-xs leading-relaxed text-ink-500">
+              Set by the worst thing the song gets wrong — a{' '}
+              {severityLabel('CONCERN', soundness.setBy.severity).toLowerCase()} concern
+              {soundness.setBy.centrality === 'CORE' ? ' about a core doctrine' : ''}
+              {(soundness.setBy.likelihood ?? 'POSSIBLE') === 'LIKELY'
+                ? ', which an ordinary singer would take the wrong way'
+                : ', on a reading that needs straining for'}
+              {soundness.setBy.recurring ? ', sung repeatedly' : ''}. One bad line is meant to cost a song heavily,
+              however good the rest of it is.
+            </p>
+          ) : (
+            <p className="mt-2 text-xs leading-relaxed text-ink-500">
+              Nothing in this song was found to be wrong. That is not the same as saying much — see the other half.
+            </p>
+          )}
+          {soundness.disqualifying && (
+            <p className="mt-3 border-2 border-flare-600 bg-flare-50 px-3 py-2 text-xs font-semibold leading-relaxed text-flare-800">
+              A major or severe error is present, which settles the verdict on its own.
+            </p>
+          )}
+        </div>
+
+        <div className="p-5">
+          <div className="flex items-baseline justify-between">
+            <h3 className="text-sm font-bold text-ink-900">
+              How much is here?
+              {binds === 'substance' && (
+                <span className="ml-2 text-[0.625rem] font-bold uppercase tracking-wide text-ink-400">decides</span>
+              )}
+            </h3>
+            <span className="tnum text-2xl font-extrabold text-ink-900">{substance.level}</span>
+          </div>
+
+          <ul className="mt-3 space-y-1.5">
+            {SUBSTANCE_TESTS.map((t) => {
+              const passed = substance.passed.includes(t.key);
+              return (
+                <li key={t.key} className="flex items-start gap-2 text-xs leading-snug">
+                  <span
+                    aria-hidden="true"
+                    className={cn(
+                      'mt-px inline-block h-3 w-3 shrink-0 border',
+                      passed ? 'border-ink-900 bg-cat-biblical' : 'border-line-strong bg-bone-200',
+                    )}
+                  />
+                  <span className={passed ? 'text-ink-700' : 'text-ink-400 line-through decoration-ink-300'}>
+                    {t.label}
+                  </span>
+                  <span className="tnum ml-auto shrink-0 text-ink-400">{passed ? `+${t.points}` : '0'}</span>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      </div>
+
+      <p className="border-t border-line px-5 py-3 text-xs leading-relaxed text-ink-500">
+        The lower of the two sets the level, and the higher lifts it only slightly. A song cannot make up for teaching
+        something wrong by teaching a great deal, and it cannot make up for saying little by saying it faultlessly.
+      </p>
+    </div>
   );
 }
 

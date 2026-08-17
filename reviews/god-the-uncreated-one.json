@@ -146,6 +146,15 @@
       }
     ]
   },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "groundsItsClaims": true,
+    "engagesScripture": true,
+    "beyondTheSelf": true,
+    "saysSomethingNew": true
+  },
   "theological": {
     "assessment": "Unusually substantial for a contemporary song: aseity, creation, providence, immutability, incarnation, substitution, resurrection and reign, all orthodox and none muddled. Its limits are scope rather than accuracy — human sin is assumed and the Spirit is absent.",
     "doctrinesAffirmed": [
@@ -243,34 +252,7 @@
         "songLocation": "VERSE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Hamartiology",
-        "title": "Sin is implied, never named",
-        "explanation": "'Sinless man' implies by contrast that we are not, but the hymn never says so. A congregation can sing all four verses without facing its own guilt; pair it with a song of confession.",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": false,
-        "lyricExcerpt": null,
-        "scriptureReference": "Romans 3:23-25",
-        "scriptureExcerpt": "All have sinned and fall short of the glory of God, and are justified by his grace as a gift.",
-        "scriptureRationale": "Paul will not state the remedy without first stating the condition.",
-        "songLocation": "REFRAIN"
-      },
-      {
-        "category": "Trinity",
-        "title": "The Spirit does not appear",
-        "explanation": "Four verses survey God's nature and works, and name the Father and the Son, without the hymn ever becoming Trinitarian. A planning observation rather than a fault in the text.",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "lyricExcerpt": null,
-        "scriptureReference": "Matthew 28:19",
-        "scriptureExcerpt": "Baptizing them in the name of the Father and of the Son and of the Holy Spirit.",
-        "scriptureRationale": "A diet of such songs leaves a congregation without the threefold name.",
-        "songLocation": "WHOLE_SONG"
-      }
-    ]
+    "concerns": []
   },
   "communal": {
     "assessment": "Built for a congregation: strophic, one repeated refrain shape, and a voice that moves from declaration to address. Length invites cutting. The vocal range was not independently verified — published in E and F, so check the tessitura locally before introducing it.",
@@ -325,7 +307,8 @@
         "scriptureReference": null,
         "scriptureExcerpt": null,
         "scriptureRationale": null,
-        "songLocation": "NOT_LYRICAL"
+        "songLocation": "NOT_LYRICAL",
+        "likelihood": "POSSIBLE"
       }
     ],
     "range": {
@@ -389,7 +372,8 @@
         "scriptureReference": null,
         "scriptureExcerpt": null,
         "scriptureRationale": null,
-        "songLocation": "VERSE"
+        "songLocation": "VERSE",
+        "likelihood": "POSSIBLE"
       },
       {
         "category": "Pronoun clarity",
@@ -402,7 +386,8 @@
         "scriptureReference": "Colossians 1:15-17",
         "scriptureExcerpt": "He is the image of the invisible God… by him all things were created… and in him all things hold together.",
         "scriptureRationale": "Paul makes the same identification, which is why the shift is defensible.",
-        "songLocation": "REFRAIN"
+        "songLocation": "REFRAIN",
+        "likelihood": "POSSIBLE"
       }
     ]
   },

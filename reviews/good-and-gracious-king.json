@@ -56,6 +56,15 @@
     ],
     "gospelClarity": "IMPLICIT"
   },
+  "substance": {
+    "namesGod": false,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "groundsItsClaims": true,
+    "engagesScripture": true,
+    "beyondTheSelf": false,
+    "saysSomethingNew": false
+  },
   "theological": {
     "strengths": [
       {
@@ -97,30 +106,7 @@
         "scriptureRationale": "We draw near with confidence to the throne of grace — confidence grounded in the throne, not the one approaching."
       }
     ],
-    "concerns": [
-      {
-        "category": "Atonement",
-        "title": "The borrowed line drops the cross",
-        "explanation": "Toplady's couplet runs from empty hands straight to clinging to the cross. This song takes the first half and answers with the King's promise instead. The song raises the question of how an empty-handed sinner is accepted and never says.",
-        "songLocation": "VERSE_1",
-        "severity": "MODERATE",
-        "centrality": "CORE",
-        "recurring": false,
-        "scriptureReference": "Romans 3:24-25",
-        "scriptureRationale": "Justification is by grace through the redemption in Christ Jesus, whom God put forward as a propitiation — the ground the song leaves unstated."
-      },
-      {
-        "category": "Christology",
-        "title": "Christ is never named",
-        "explanation": "God is addressed as King and Lord Almighty throughout. Nothing identifies him as Jesus, and no Christian distinctive appears, so the song could be sung honestly in a room that denies the incarnation.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": true,
-        "scriptureReference": "1 Timothy 2:5",
-        "scriptureRationale": "There is one mediator between God and men, the man Christ Jesus — the person by whom the approach the song describes is made."
-      }
-    ],
+    "concerns": [],
     "doctrinesAffirmed": [
       "Justification apart from works",
       "The grace of God to the unworthy",
@@ -154,7 +140,8 @@
         "songLocation": "WHOLE_SONG",
         "severity": "MINOR",
         "centrality": "PERIPHERAL",
-        "recurring": true
+        "recurring": true,
+        "likelihood": "POSSIBLE"
       }
     ],
     "singability": "EASY",
@@ -198,7 +185,8 @@
         "songLocation": "WHOLE_SONG",
         "severity": "MODERATE",
         "centrality": "IMPORTANT",
-        "recurring": true
+        "recurring": true,
+        "likelihood": "POSSIBLE"
       }
     ],
     "ambiguityLevel": "MODERATE",
@@ -206,7 +194,12 @@
   },
   "synthesis": {
     "summary": "A disciplined hymn-shaped song about approaching God empty-handed, with every reason for confidence located in the King rather than the singer. It borrows Toplady's confession of empty hands but answers with the King's kindness where the original answered with the cross — which is never named, nor is Christ. Sound and singable, and incomplete on its own.",
-    "themes": ["Grace", "God", "Assurance", "Worship"],
+    "themes": [
+      "Grace",
+      "God",
+      "Assurance",
+      "Worship"
+    ],
     "scriptureReferences": [
       {
         "reference": "Ephesians 2:8-9",

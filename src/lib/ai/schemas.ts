@@ -260,6 +260,12 @@ export const ConcernSchema = z.object({
     .boolean()
     .default(false)
     .describe('True when the problem sits in the chorus/refrain or recurs, so it is sung repeatedly.'),
+  likelihood: z
+    .enum(['LIKELY', 'POSSIBLE'])
+    .default('POSSIBLE')
+    .describe(
+      'Would an ordinary singer actually take the wrong meaning (LIKELY), or does the reading require straining against the rest of the song (POSSIBLE)? Default to POSSIBLE — a reading that is merely available is not the same as one a congregation will take.',
+    ),
   scriptureReference: z.string().max(120).nullable().optional(),
   scriptureExcerpt,
   scriptureRationale: z
@@ -269,6 +275,45 @@ export const ConcernSchema = z.object({
     .optional()
     .describe('One sentence on why the cited passage bears on this concern.'),
 });
+
+/**
+ * What the song actually gives a congregation.
+ *
+ * This replaces counting strengths, which measured the reviewer rather than
+ * the song: a criterion's merit came out at 7 or 8 almost every time, because
+ * reviewers write two to four strengths whatever they are looking at. These
+ * are fixed questions about content, answerable yes or no by anyone holding
+ * the same lyrics, and they carry the rule that a song saying little should
+ * land in the middle however inoffensive it is.
+ *
+ * Absences belong here rather than in the concerns list. "Never mentions the
+ * cross" is not a fault the song commits; it is a thing the song does not
+ * give, and filing it as a concern penalised it twice.
+ */
+export const SubstanceSchema = z.object({
+  namesGod: z
+    .boolean()
+    .describe('Names God, Christ or the Spirit specifically, rather than addressing an unspecified "You" throughout.'),
+  statesAnAct: z
+    .boolean()
+    .describe('States something God or Christ has DONE — creation, incarnation, the cross, the resurrection, a covenant kept.'),
+  teachesDoctrine: z
+    .boolean()
+    .describe('Teaches something true about God or the faith, as opposed to reporting how the singer feels.'),
+  groundsItsClaims: z
+    .boolean()
+    .describe("Rests its claims on God's character or acts rather than on the singer's resolve, sincerity or experience."),
+  engagesScripture: z
+    .boolean()
+    .describe('Sets, paraphrases or is plainly built on a particular passage — not merely consistent with Scripture.'),
+  beyondTheSelf: z
+    .boolean()
+    .describe("Moves beyond the singer's own experience — addresses God, the church, or the world as more than a backdrop."),
+  saysSomethingNew: z
+    .boolean()
+    .describe('Gives a congregation something they would not already have known, rather than restating a familiar sentiment.'),
+});
+export type Substance = z.infer<typeof SubstanceSchema>;
 
 export const TheologicalAnalysisSchema = z.object({
   strengths: z.array(StrengthSchema).max(12),
