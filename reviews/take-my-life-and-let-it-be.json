@@ -1,0 +1,216 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Take My Life and Let It Be",
+    "artist": "Frances Ridley Havergal",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1874,
+    "genre": "Traditional Hymn",
+    "isPublicDomain": true,
+    "notes": "Written by Frances Ridley Havergal in 1874 after a night spent praying for the household she was staying in. Sung to several tunes, most often HENDON or NOTTINGHAM. Words and traditional tunes are public domain; some modern settings are not."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "Six short verses in couplets, no chorus, each offering a different part of the singer's life in turn: life, hands, feet, voice, silver, will, heart. The form is a list, and the list is the argument.",
+    "claims": [
+      {
+        "claim": "The singer offers their whole life to God to be consecrated.",
+        "subject": "Consecration",
+        "location": "VERSE_1",
+        "lyricExcerpt": "Take my life and let it be"
+      },
+      {
+        "claim": "The singer's hands, feet and voice are given over to God's use.",
+        "subject": "Consecration",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer's money and possessions are surrendered without reservation.",
+        "subject": "Possessions",
+        "location": "VERSE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer's will is handed over to become God's.",
+        "subject": "The will",
+        "location": "VERSE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer's love and heart are poured out at God's feet.",
+        "subject": "Love for God",
+        "location": "VERSE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Discipleship",
+        "title": "Names what is surrendered, item by item",
+        "explanation": "Most songs of surrender offer 'everything' and specify nothing. This one hands over hands, feet, voice, money and will separately, so a congregation cannot sing it without noticing what they have just said about their bank account.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Romans 12:1",
+        "scriptureRationale": "Present your bodies as a living sacrifice — a bodily, itemised offering rather than a sentiment."
+      },
+      {
+        "category": "Sanctification",
+        "title": "The will surrendered, not just the actions",
+        "explanation": "One verse gives over the singer's will to become God's. That is the hardest thing in the list and the hymn does not soften it or leave it out.",
+        "songLocation": "VERSE",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Luke 22:42",
+        "scriptureRationale": "Not my will, but yours, be done — the surrender the verse asks for."
+      },
+      {
+        "category": "Stewardship",
+        "title": "Money named directly",
+        "explanation": "Silver and gold are handed over by name. Congregational song almost never mentions possessions, and a hymn that makes the room say it out loud is doing something unusual.",
+        "songLocation": "VERSE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Matthew 6:24",
+        "scriptureRationale": "You cannot serve God and money — which is why naming it matters."
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Gospel content",
+        "title": "Consecration without the mercies that prompt it",
+        "explanation": "The hymn is an offering from first line to last, and never says what God has done to make the offering fitting. Paul urges the same surrender by the mercies of God; here the appeal rests on the singer's willingness alone.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": false,
+        "likelihood": "POSSIBLE",
+        "scriptureReference": "Romans 12:1",
+        "scriptureRationale": "I appeal to you by the mercies of God — the ground stated first, and the one the hymn omits."
+      }
+    ],
+    "doctrinesAffirmed": [
+      "Whole-life consecration",
+      "Surrender of the will",
+      "Stewardship of possessions",
+      "Service as worship"
+    ],
+    "assessment": "A hymn of consecration that refuses to be vague. Where most songs offer everything and name nothing, this one hands over hands, feet, voice, money and will separately, so a congregation hears exactly what it has committed. The surrender of the will is not softened and the money is not skipped. What it never supplies is the ground: the offering is made without any statement of what God has done to make it fitting."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Short verses that can be selected",
+        "explanation": "Six self-contained couplets mean a leader can use three or all six without breaking the argument. That flexibility is rare and practically useful.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Accessibility",
+        "title": "Simple tunes, widely known",
+        "explanation": "The common settings are short, stepwise and singable unaccompanied. Nothing about the music stands between a congregation and the words.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Corporate voice",
+        "title": "Each singer commits alone",
+        "explanation": "The hymn is a personal act of consecration in the first person singular. A congregation makes six specific promises individually rather than committing together, which is a missed opportunity given the content.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "likelihood": "POSSIBLE"
+      },
+      {
+        "category": "Pastoral use",
+        "title": "Asks for promises a room may not mean",
+        "explanation": "Sung casually it invites a congregation to promise their money and their will without reflection. That is a strength of the text and a risk in practice, and it deserves framing rather than dropping into a set unannounced.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": false,
+        "likelihood": "LIKELY"
+      }
+    ],
+    "singability": "EASY",
+    "vocalRangeNote": "Commonly published in F and G depending on the tune. Short phrases and a narrow compass; among the easier hymns for a mixed room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Commonly published in F and G, varying by tune",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated. The hymn is sung to several different tunes."
+    },
+    "repetitionAssessment": "None beyond the opening formula of each verse, which is the device that makes the list audible as a list. Six verses of new material.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Easy to sing and flexible to programme. Its real communal question is not musical: it asks a room to promise specific things, including their money, and a leader should mean it before putting it in a set."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Precision",
+        "title": "Nothing hides behind 'everything'",
+        "explanation": "Each verse names one thing. There is no way to sing the hymn and remain unclear about what has been offered, which is exactly the opposite of most surrender songs.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Vocabulary",
+        "title": "Some period phrasing",
+        "explanation": "A few nineteenth-century constructions take a moment for a modern hearer. The list itself is unaffected and remains completely plain.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": false,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "ambiguityLevel": "LOW",
+    "assessment": "Unusually concrete. The hymn's whole method is naming things one at a time, so nothing it asks for is left open to interpretation. Only some older phrasing dates it."
+  },
+  "synthesis": {
+    "summary": "A hymn of consecration that refuses to be vague: hands, feet, voice, money and will are each handed over by name, so a congregation hears exactly what it has committed. The will is not softened and the money is not skipped. What it never supplies is the ground — the offering is made without stating what God has done to make it fitting.",
+    "themes": ["Worship", "Holiness", "Faith", "Thanksgiving"],
+    "scriptureReferences": [
+      {
+        "reference": "Romans 12:1",
+        "relevance": "The itemised bodily offering the hymn makes — and the mercies it appeals to, which the hymn omits."
+      },
+      {
+        "reference": "Luke 22:42",
+        "relevance": "Not my will but yours — the surrender the hardest verse asks for."
+      },
+      {
+        "reference": "Matthew 6:24",
+        "relevance": "God and money as rival masters, which is why naming the silver matters."
+      }
+    ]
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "groundsItsClaims": false,
+    "engagesScripture": true,
+    "beyondTheSelf": false,
+    "saysSomethingNew": true
+  },
+  "sources": [
+    "https://hymnary.org/text/take_my_life_and_let_it_be",
+    "https://en.wikipedia.org/wiki/Take_My_Life_and_Let_It_Be"
+  ]
+}

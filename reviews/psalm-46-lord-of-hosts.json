@@ -1,0 +1,210 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Psalm 46 (Lord of Hosts)",
+    "artist": "Shane & Shane",
+    "artistType": "GROUP",
+    "album": "Psalms Vol. 2",
+    "releaseYear": 2016,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Shane Barnard, Jennie Lee Riddle, Josh Miller and Josiah Warneking. CCLI 7053138. Part of the Worship Initiative's project of setting the psalter, and it stays close to the text it is named for."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Verses following the psalm's argument over a repeated chorus, with a bridge. The verses take Psalm 46's images in order — refuge, the shaking earth, the river, the nations in uproar — and the chorus is the psalm's own refrain.",
+    "claims": [
+      {
+        "claim": "God is a refuge and strength, a help in trouble.",
+        "subject": "God as refuge",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lord of hosts is with his people.",
+        "subject": "God's presence",
+        "location": "CHORUS",
+        "lyricExcerpt": "The Lord of hosts is with us"
+      },
+      {
+        "claim": "Though the earth gives way and mountains fall into the sea, the singer will not fear.",
+        "subject": "Fearlessness",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is exalted among the nations and over the earth.",
+        "subject": "God's sovereignty",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The God of Jacob is a fortress for his people.",
+        "subject": "God as fortress",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Scripture",
+        "title": "A psalm set rather than a psalm referenced",
+        "explanation": "The song follows Psalm 46's argument in order and takes its chorus from the psalm's own refrain. A congregation singing it has the text in their mouths rather than a sentiment loosely inspired by it.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Psalm 46:1-3",
+        "scriptureRationale": "God is our refuge and strength, therefore we will not fear though the earth gives way."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "Fearlessness argued from presence, not from circumstance",
+        "explanation": "The reason given for not fearing is that God is with his people, not that the trouble will pass. The psalm's logic is preserved intact, and it is the harder and better comfort.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": "The Lord of hosts is with us",
+        "scriptureReference": "Psalm 46:7",
+        "scriptureRationale": "The Lord of hosts is with us; the God of Jacob is our fortress — the refrain, kept as the refrain."
+      },
+      {
+        "category": "Sovereignty",
+        "title": "God exalted over nations, not just over the singer's trouble",
+        "explanation": "The bridge widens from personal refuge to God's rule over the nations. It keeps the song from shrinking a public psalm into a private comfort.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 46:10",
+        "scriptureRationale": "I will be exalted among the nations, I will be exalted in the earth."
+      },
+      {
+        "category": "Suffering",
+        "title": "Names catastrophe without softening it",
+        "explanation": "Mountains falling into the sea is not domesticated into a difficult week. The song lets the psalm's worst case stand, which is what makes its confidence worth anything.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 46:2-3",
+        "scriptureRationale": "Though the mountains be moved into the heart of the sea, its waters roar and foam."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God as refuge and strength",
+      "God's presence with his people",
+      "God's sovereignty over the nations",
+      "Fearlessness grounded in God rather than circumstance"
+    ],
+    "assessment": "A psalm set faithfully rather than a song loosely inspired by one. It keeps the psalm's argument in order, its refrain as the refrain, and its worst case undomesticated — mountains falling into the sea, not a difficult week. The confidence it offers rests on God's presence rather than on the trouble passing. Nothing here needs correcting. As with the psalm, Christ is not named; a church using it will want the New Testament somewhere else in the service."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Corporate voice",
+        "title": "Says 'us', because the psalm does",
+        "explanation": "The refrain is about what God is to a people, not to an individual. A congregation gets to make a corporate confession, which is rarer in current writing than it should be.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Pastoral use",
+        "title": "For a church in genuine trouble",
+        "explanation": "Because the song names catastrophe rather than inconvenience, it can be sung by a congregation facing something serious without ringing false.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Singability",
+        "title": "The chorus climbs and holds",
+        "explanation": "The refrain sits high and sustains, which is where the song puts its weight. Rooms manage the verses comfortably and thin out at the line the song most wants them to sing.",
+        "songLocation": "NOT_LYRICAL",
+        "severity": "MODERATE",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "likelihood": "LIKELY"
+      }
+    ],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Commonly published in A and B flat. The chorus is the demanding part and it recurs; pitch the song for the refrain rather than the verses.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Commonly published in A and B flat",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetitionAssessment": "The refrain repeats as the psalm's refrain repeats. What returns is a scriptural sentence rather than a hook, which is repetition doing its proper work.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Corporate by construction and usable in real trouble, which is a good combination. The practical caution is the chorus: it sits high and it is the line the congregation most needs to sing, so the key deserves care."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Follows the psalm's own order",
+        "explanation": "Trouble, then presence, then God's exaltation. Because the sequence is the text's, the song's argument is coherent in a way loosely-assembled songs are not.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Address",
+        "title": "The object is named and specific",
+        "explanation": "The Lord of hosts, the God of Jacob: this is not an unspecified 'You'. A hearer knows precisely who is being sung about.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Vocabulary",
+        "title": "'Lord of hosts' passes unexplained",
+        "explanation": "The title carries armies and heavenly ranks behind it, and a modern hearer may take it as a general honorific. The song does not unpack it, though the psalm does not either.",
+        "songLocation": "CHORUS",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear and specifically addressed. The psalm's sequence keeps the argument coherent and the divine titles rule out any doubt about the object. Only 'Lord of hosts' goes by without its meaning being opened up."
+  },
+  "synthesis": {
+    "summary": "A psalm set faithfully rather than loosely referenced: the argument stays in order, the refrain stays the refrain, and the worst case is left undomesticated — mountains falling into the sea, not a difficult week. Its confidence rests on God's presence rather than the trouble passing. As with the psalm, Christ is not named.",
+    "themes": ["God", "Sovereignty", "Suffering", "Scripture", "Hope"],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 46:1-3",
+        "relevance": "The refuge and the catastrophe the verses set almost unaltered."
+      },
+      {
+        "reference": "Psalm 46:7",
+        "relevance": "The refrain the song keeps as its chorus."
+      },
+      {
+        "reference": "Psalm 46:10",
+        "relevance": "Exaltation among the nations, which the bridge widens to."
+      }
+    ]
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "groundsItsClaims": true,
+    "engagesScripture": true,
+    "beyondTheSelf": true,
+    "saysSomethingNew": false
+  },
+  "sources": [
+    "https://songselect.ccli.com/songs/7053138/psalm-46-lord-of-hosts",
+    "https://www.praisecharts.com/songs/details/70545/psalm-46-lord-of-hosts-sheet-music"
+  ]
+}

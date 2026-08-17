@@ -1,0 +1,219 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Indescribable",
+    "artist": "Chris Tomlin",
+    "artistType": "INDIVIDUAL",
+    "album": "Arriving",
+    "releaseYear": 2004,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Laura Story with Jesse Reeves. Recorded by Chris Tomlin on Arriving (2004), which is how most congregations know it, though the song is Story's."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Two verses over a repeated chorus with a bridge. The verses catalogue creation — storms, seasons, stars — and the chorus draws the conclusion that God exceeds description.",
+    "claims": [
+      {
+        "claim": "God made the storms, the seasons and the depths of the earth.",
+        "subject": "Creation",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God counts the stars and calls them each by name.",
+        "subject": "God's knowledge",
+        "location": "VERSE_2",
+        "lyricExcerpt": "You count the stars and You call them by name"
+      },
+      {
+        "claim": "God is indescribable, uncontainable and beyond understanding.",
+        "subject": "The incomprehensibility of God",
+        "location": "CHORUS",
+        "lyricExcerpt": "Indescribable, uncontainable"
+      },
+      {
+        "claim": "Creation itself declares God's greatness back to him.",
+        "subject": "Creation's witness",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is amazing, and the singer worships him for it.",
+        "subject": "Worship",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Creation",
+        "title": "Argues from what God made to who God is",
+        "explanation": "The verses do the work before the chorus draws the conclusion. A congregation is given evidence rather than an assertion, which is how Psalm 19 and Romans 1 proceed.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Psalm 19:1",
+        "scriptureRationale": "The heavens declare the glory of God — creation as testimony, which is the verses' method."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "Names God's knowledge of particulars",
+        "explanation": "Counting the stars and naming each one is a claim about God knowing individuals, not merely about his being large. It is the line in the song with the most weight and it is taken from the psalter.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": "You count the stars and You call them by name",
+        "scriptureReference": "Psalm 147:4",
+        "scriptureRationale": "He determines the number of the stars; he gives to all of them their names."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "Incomprehensibility stated as the conclusion, not the premise",
+        "explanation": "The chorus says God exceeds description only after the verses have tried to describe him. The order matters: the confession is earned rather than asserted.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": "Indescribable, uncontainable",
+        "scriptureReference": "Romans 11:33",
+        "scriptureRationale": "How unsearchable his judgements and how inscrutable his ways."
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Gospel content",
+        "title": "A God of creation with no mention of redemption",
+        "explanation": "The song is entirely about God as maker. Christ, the cross and salvation appear nowhere, so a congregation is taught to marvel at the Creator without being told he is also the Redeemer.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": false,
+        "likelihood": "POSSIBLE",
+        "scriptureReference": "Colossians 1:16-20",
+        "scriptureRationale": "The one through whom all things were created is the one who reconciles by the blood of his cross — Paul holds together what the song separates."
+      }
+    ],
+    "doctrinesAffirmed": [
+      "God as Creator",
+      "God's knowledge of particulars",
+      "The incomprehensibility of God",
+      "Creation as testimony"
+    ],
+    "assessment": "A creation psalm in modern dress, and it follows the psalter's method: evidence first, conclusion second. The line about God naming the stars is a real claim about his knowledge of individuals rather than a general statement of size, and the chorus's confession of incomprehensibility is earned by the verses that precede it. What it never does is move from Creator to Redeemer — the God who made the storms is not identified as the one who died."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Memorability",
+        "title": "A chorus of four adjectives a room can hold",
+        "explanation": "Short, strong words on a rising line. Congregations have kept this song for twenty years partly because the chorus is impossible to forget.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Accessibility",
+        "title": "Structure with no traps",
+        "explanation": "Two verses, a chorus, a bridge, no key change and no rhythmic hook that depends on the recording. It works with a small band.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Singability",
+        "title": "The chorus climbs above the verses",
+        "explanation": "The song's memorable line is also its highest, and it recurs. Rooms sing the verses comfortably and strain at the part they most want to sing.",
+        "songLocation": "NOT_LYRICAL",
+        "severity": "MODERATE",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "likelihood": "LIKELY"
+      }
+    ],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Commonly published in G and A. The chorus is the demanding part and returns often; pitch for it rather than for the verses.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Commonly published in G and A",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetitionAssessment": "The chorus repeats a short list of adjectives. What returns is a confession about God's nature rather than a hook, though the list is short enough that it wears with heavy use.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Durable and straightforward, with a structure that holds no surprises for a congregation or a small band. The one practical difficulty is that the chorus — the part everyone wants to sing — sits above the rest of the song."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Imagery",
+        "title": "Concrete pictures, not abstractions",
+        "explanation": "Storms, seasons and stars are things a hearer can see. The song builds its case out of the visible before making a claim about the invisible.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Verses and chorus in an obvious relationship",
+        "explanation": "Evidence then conclusion, repeatedly. The logic is audible without being explained.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Ambiguity",
+        "title": "Which God, exactly, is left open",
+        "explanation": "A God who made the world and exceeds description is a claim many religions would sign. Nothing in the song names Christ or narrows it to the Christian God, so the identification comes from the room rather than the text.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": true,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "ambiguityLevel": "MODERATE",
+    "assessment": "Vivid and logically clear — the verses show and the chorus concludes. Its openness is at the level of identity rather than meaning: everything said is true of God, and nothing said is true only of the God who became flesh."
+  },
+  "synthesis": {
+    "summary": "A creation psalm in modern dress that follows the psalter's method — evidence first, conclusion second. Its claim about God naming the stars is a real statement about his knowledge of individuals, and the confession of incomprehensibility is earned by the verses that precede it. What it never does is move from Creator to Redeemer.",
+    "themes": ["God", "Creation", "Worship", "Sovereignty"],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 19:1",
+        "relevance": "Creation as testimony, which is the verses' method."
+      },
+      {
+        "reference": "Psalm 147:4",
+        "relevance": "God numbering and naming the stars — the song's weightiest line."
+      },
+      {
+        "reference": "Romans 11:33",
+        "relevance": "Unsearchable ways, the conclusion the chorus draws."
+      },
+      {
+        "reference": "Colossians 1:16-20",
+        "relevance": "Creator and Redeemer held together, which the song separates."
+      }
+    ]
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "groundsItsClaims": true,
+    "engagesScripture": true,
+    "beyondTheSelf": true,
+    "saysSomethingNew": false
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Indescribable_(song)",
+    "https://www.worshiptogether.com/songs/indescribable-chris-tomlin/"
+  ]
+}

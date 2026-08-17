@@ -1,0 +1,222 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Holy, Holy, Holy! Lord God Almighty",
+    "artist": "Reginald Heber",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1826,
+    "genre": "Traditional Hymn",
+    "isPublicDomain": true,
+    "notes": "Text by Reginald Heber, published posthumously in 1826 and written for Trinity Sunday; tune NICAEA by John Bacchus Dykes, 1861, named for the council that settled the language the hymn uses. Both words and music are public domain."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Four verses, no chorus, each opening on the threefold cry. The hymn moves from the church's morning praise, to the worship of heaven, to human inability to see God, and back to creation's praise — and names the Trinity explicitly in every verse.",
+    "claims": [
+      {
+        "claim": "God is holy, and the church joins the cry at morning.",
+        "subject": "The holiness of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": "Holy, holy, holy, Lord God Almighty"
+      },
+      {
+        "claim": "God is three persons and one God, blessed Trinity.",
+        "subject": "The Trinity",
+        "location": "VERSE_1",
+        "lyricExcerpt": "God in three Persons, blessed Trinity"
+      },
+      {
+        "claim": "Saints and heavenly beings cast down their crowns before God's throne.",
+        "subject": "The worship of heaven",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Sinful human eyes cannot see God's glory as it is.",
+        "subject": "The hiddenness of God",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God alone is holy, and there is none beside him.",
+        "subject": "The uniqueness of God",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "All creation praises God, in every age.",
+        "subject": "Creation's praise",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Trinity",
+        "title": "Names the Trinity in every verse, without fudging it",
+        "explanation": "Three persons and one God is stated plainly and repeated four times. Almost nothing in current congregational use teaches the doctrine at all, and this hymn makes it the refrain.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": "God in three Persons, blessed Trinity",
+        "scriptureReference": "Matthew 28:19",
+        "scriptureRationale": "Baptising in the name of the Father and of the Son and of the Holy Spirit — one name, three persons."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "The threefold cry taken from the throne room",
+        "explanation": "The opening is Isaiah's and John's, not the hymnwriter's. A congregation singing it is joining a scene Scripture describes rather than manufacturing an emotion about God's greatness.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": "Holy, holy, holy, Lord God Almighty",
+        "scriptureReference": "Revelation 4:8",
+        "scriptureRationale": "Day and night they never cease to say, Holy, holy, holy — the cry the hymn takes up."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "Admits the singer cannot see him",
+        "explanation": "The third verse says sinful eyes cannot behold God's glory. The hymn asks a congregation to worship someone they are told they cannot look at, which is a truer posture than most songs allow.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Timothy 6:16",
+        "scriptureRationale": "He dwells in unapproachable light, whom no one has seen or can see."
+      },
+      {
+        "category": "Worship",
+        "title": "Places the congregation in a much larger crowd",
+        "explanation": "Saints, cherubim, seraphim and all creation are all singing. The hymn relativises the room without diminishing it, which is a rare and healthy thing to teach.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 4:10",
+        "scriptureRationale": "The elders cast their crowns before the throne — the image the second verse uses directly."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The Trinity",
+      "The holiness of God",
+      "The unapproachable glory of God",
+      "The worship of heaven",
+      "Creation's praise"
+    ],
+    "assessment": "The clearest Trinitarian teaching in common congregational use, and it teaches by repetition rather than by explanation — four verses, four statements of three persons and one God. Its opening is Scripture's own cry, and it is honest that the God it praises cannot be looked at. There is nothing here to correct. Its one limit is scope: it is about who God is, not about what he has done to save, and the cross does not appear."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Corporate voice",
+        "title": "The room joins a crowd rather than describing itself",
+        "explanation": "The hymn's subject is God and the company already worshipping him. A congregation is never asked to report its own feelings, which makes it unusually easy to sing honestly.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Accessibility",
+        "title": "Known across every tradition",
+        "explanation": "NICAEA is one of the most widely recognised tunes in English-speaking Christianity. It carries unaccompanied, in any building, with no rehearsal.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Diction",
+        "title": "Nineteenth-century vocabulary throughout",
+        "explanation": "Cherubim, seraphim and older constructions are unexplained. The hymn rewards a congregation that has been taught it and asks real work of a first-time visitor.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "likelihood": "LIKELY"
+      }
+    ],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Commonly published in E flat and D. The tune has a wide arch and the third phrase climbs; congregations manage it because they know it, not because it is easy.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Commonly published in E flat and D",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetitionAssessment": "Only the opening cry repeats, and it repeats because Scripture repeats it. Four verses of otherwise new material, which is demanding by modern standards and worth the demand.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "A hymn that a congregation can sing without being asked to feel anything in particular, which is its great communal strength. The tune is universally known and needs no band. Its cost is vocabulary: several words go unexplained and a newcomer will not follow all of it unaided."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Precision",
+        "title": "The hardest doctrine stated without hedging",
+        "explanation": "Three persons, one God, said plainly and repeatedly. The hymn does not soften the paradox or explain it away, and a congregation knows exactly what it has affirmed.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Structure",
+        "title": "Four verses that move somewhere",
+        "explanation": "Morning praise, heaven's worship, human blindness, creation's song. The sequence is legible and each verse does new work.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Vocabulary",
+        "title": "Several words a newcomer will not know",
+        "explanation": "The heavenly ranks and some older phrasing pass without explanation. The central claim survives intact, but parts of the hymn will wash over an unchurched hearer.",
+        "songLocation": "VERSE_2",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": false,
+        "likelihood": "LIKELY"
+      }
+    ],
+    "ambiguityLevel": "LOW",
+    "assessment": "Precise where precision is hardest. The Trinity is stated without hedging and the verse sequence is easy to follow. The only obstacle is period vocabulary, which obscures some detail without touching the hymn's central claim."
+  },
+  "synthesis": {
+    "summary": "The clearest Trinitarian teaching in common congregational use, and it teaches by repetition rather than explanation — four verses, four statements of three persons and one God. Its opening is Scripture's own cry and it is honest that the God it praises cannot be looked at. Its one limit is scope: it is about who God is, not what he did to save.",
+    "themes": ["Trinity", "God", "Holiness", "Worship", "Creation"],
+    "scriptureReferences": [
+      {
+        "reference": "Revelation 4:8",
+        "relevance": "The unceasing threefold cry the hymn opens every verse with."
+      },
+      {
+        "reference": "Matthew 28:19",
+        "relevance": "One name, three persons — the doctrine the refrain states."
+      },
+      {
+        "reference": "1 Timothy 6:16",
+        "relevance": "Unapproachable light that no one has seen, which the third verse concedes."
+      },
+      {
+        "reference": "Revelation 4:10",
+        "relevance": "Crowns cast before the throne, the image the second verse takes up."
+      }
+    ]
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "groundsItsClaims": true,
+    "engagesScripture": true,
+    "beyondTheSelf": true,
+    "saysSomethingNew": true
+  },
+  "sources": [
+    "https://hymnary.org/text/holy_holy_holy_lord_god_almighty_early",
+    "https://en.wikipedia.org/wiki/Holy,_Holy,_Holy!_Lord_God_Almighty"
+  ]
+}

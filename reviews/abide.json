@@ -1,0 +1,215 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Abide",
+    "artist": "Aaron Williams",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 2020,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Aaron Williams with Aaron Keyes and Jake Fauber. CCLI 7168160. Has since reached the CCLI US Top 100; a 2024 version features Jon Reddick."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "Three verses over a chorus that expands on its second and third returns, with a closing tag. Built on the vine and branches, with the singer's dependence as the running theme.",
+    "claims": [
+      {
+        "claim": "The singer can do nothing apart from Christ.",
+        "subject": "Dependence",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer asks to be drawn close and taught to abide.",
+        "subject": "Abiding",
+        "location": "CHORUS",
+        "lyricExcerpt": "teach me to abide"
+      },
+      {
+        "claim": "Christ is the way, the truth and the life.",
+        "subject": "Christ",
+        "location": "VERSE_2",
+        "lyricExcerpt": "The Way, the Truth, the Life"
+      },
+      {
+        "claim": "The singer has been raised with Christ and has eternal life.",
+        "subject": "Union with Christ",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer belongs to Christ and Christ to them.",
+        "subject": "Union with Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Sanctification",
+        "title": "Takes Christ's own image and keeps its point",
+        "explanation": "The vine and branches is about fruitlessness apart from him, and the song keeps that rather than softening abiding into a mood of closeness. The dependence is total and stated as such.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "John 15:5",
+        "scriptureRationale": "Apart from me you can do nothing — the claim the first verse states directly."
+      },
+      {
+        "category": "Christology",
+        "title": "Quotes Christ's own self-description",
+        "explanation": "Naming him the way, the truth and the life uses his words rather than a summary of them, and it settles the object of the song beyond doubt.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": "The Way, the Truth, the Life",
+        "scriptureReference": "John 14:6",
+        "scriptureRationale": "I am the way, and the truth, and the life."
+      },
+      {
+        "category": "Union with Christ",
+        "title": "Abiding grounded in an accomplished union",
+        "explanation": "The song does not ask the singer to achieve closeness; it says they have been raised with Christ and belong to him already. Abiding follows from a fact rather than producing one.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Colossians 3:1",
+        "scriptureRationale": "If then you have been raised with Christ — the indicative that precedes the imperative."
+      },
+      {
+        "category": "Prayer",
+        "title": "Asks to be taught rather than assuming competence",
+        "explanation": "The request is for instruction in abiding, which concedes that the singer does not know how. That humility is a small thing and it is the right posture.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": "teach me to abide",
+        "scriptureReference": "Luke 11:1",
+        "scriptureRationale": "Lord, teach us to pray — the disciples asking to be shown rather than assuming."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Total dependence on Christ",
+      "Christ as the way, truth and life",
+      "Union with Christ in resurrection",
+      "Sanctification as taught rather than achieved"
+    ],
+    "assessment": "A song about abiding that keeps the point of the image it borrows. The vine and branches is about fruitlessness apart from Christ, and the song states that rather than softening it into closeness. It quotes Christ's own self-description, and grounds the abiding in a union already accomplished rather than one the singer must produce. Nothing here needs correcting."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "A chorus that grows as the song does",
+        "explanation": "The chorus expands on each return rather than simply repeating, so the song develops without adding a bridge. A congregation follows the growth easily.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Accessibility",
+        "title": "Carries without a band",
+        "explanation": "Nothing depends on the arrangement. The song works on a piano or a guitar, which is the practical test of whether it belongs to the room.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Corporate voice",
+        "title": "Sung entirely in the singular",
+        "explanation": "Abiding is asked for individually throughout. The vine has many branches, and a song that said 'we' would have matched its own image more closely.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "singability": "EASY",
+    "vocalRangeNote": "Commonly published in C and D. Stepwise and modest in compass; a straightforward song for a mixed room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Commonly published in C and D",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetitionAssessment": "The chorus returns three times and grows each time, so repetition adds material rather than sustaining a mood. Well judged for the length.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Written for a congregation and undemanding to sing, with a chorus that develops rather than merely recurring. Its one communal shortfall is the singular voice, which sits oddly against an image about many branches on one vine."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Imagery",
+        "title": "One image, held throughout",
+        "explanation": "The vine governs the whole song and never competes with a second metaphor. A hearer knows what is being pictured from the first verse to the last.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Address",
+        "title": "Christ named by his own words",
+        "explanation": "Quoting the way, the truth and the life leaves no doubt who is being addressed, which many songs of intimacy fail to do.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Vocabulary",
+        "title": "'Abide' assumes the passage",
+        "explanation": "The word carries John 15 behind it and is not defined in the song. A hearer who does not know the chapter will take it as a general word for staying close rather than the specific thing Christ meant.",
+        "songLocation": "CHORUS",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear, single-minded and specifically addressed. Its one demand is that the hearer knows what abiding means, which the song assumes rather than teaches — reasonable, given how directly it points at the passage."
+  },
+  "synthesis": {
+    "summary": "A song about abiding that keeps the point of the image it borrows: the vine and branches is about fruitlessness apart from Christ, and the song states that rather than softening it into closeness. It quotes Christ's own self-description and grounds the abiding in a union already accomplished rather than one the singer must produce.",
+    "themes": ["Christ", "Faith", "Holiness", "Prayer", "Scripture"],
+    "scriptureReferences": [
+      {
+        "reference": "John 15:5",
+        "relevance": "Apart from me you can do nothing — the claim the song is built on."
+      },
+      {
+        "reference": "John 14:6",
+        "relevance": "Christ's self-description, quoted rather than summarised."
+      },
+      {
+        "reference": "Colossians 3:1",
+        "relevance": "Raised with Christ — the accomplished fact the abiding rests on."
+      },
+      {
+        "reference": "Luke 11:1",
+        "relevance": "Asking to be taught rather than assuming competence."
+      }
+    ]
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "groundsItsClaims": true,
+    "engagesScripture": true,
+    "beyondTheSelf": false,
+    "saysSomethingNew": false
+  },
+  "sources": [
+    "https://integrityworship.com/songs/abide-1/",
+    "https://www.worshipfuel.com/at-ccli/aaron-williams-abide-ccli-sessions/"
+  ]
+}

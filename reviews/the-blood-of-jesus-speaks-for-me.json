@@ -1,0 +1,205 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "The Blood of Jesus Speaks for Me",
+    "artist": "Travis Cottrell",
+    "artistType": "INDIVIDUAL",
+    "album": "All That Is Within Me",
+    "releaseYear": 2008,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Travis Cottrell with David Moffitt and Sue C. Smith, published by Brentwood-Benson. Written in the tradition of the blood hymns rather than as a radio single."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "Verses over a repeated chorus. The verses set the singer's guilt and the accusation against them; the chorus answers with the blood speaking a better word.",
+    "claims": [
+      {
+        "claim": "The singer's guilt is real and their record accuses them.",
+        "subject": "Guilt",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The blood of Jesus speaks on the singer's behalf.",
+        "subject": "The atonement",
+        "location": "CHORUS",
+        "lyricExcerpt": "The blood of Jesus speaks for me"
+      },
+      {
+        "claim": "Christ's blood answers accusation more powerfully than the accusation itself.",
+        "subject": "Advocacy",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer's standing rests on Christ's sacrifice rather than their own record.",
+        "subject": "Justification",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "The blood given a voice, which is Scripture's own image",
+        "explanation": "Hebrews says Christ's blood speaks a better word than Abel's. The song takes that figure and makes it the whole structure, so a congregation sings a genuinely biblical image rather than a general reference to sacrifice.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": "The blood of Jesus speaks for me",
+        "scriptureReference": "Hebrews 12:24",
+        "scriptureRationale": "The sprinkled blood that speaks a better word than the blood of Abel."
+      },
+      {
+        "category": "Justification",
+        "title": "Answers accusation with something outside the singer",
+        "explanation": "The verses raise the charge and the chorus answers it with Christ's blood rather than with the singer's repentance or sincerity. The direction of the argument is right, and it is the direction most songs get wrong.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Romans 8:33-34",
+        "scriptureRationale": "Who shall bring a charge against God's elect? It is Christ who died."
+      },
+      {
+        "category": "Hamartiology",
+        "title": "Lets the guilt be real before answering it",
+        "explanation": "The song does not minimise what the singer has done in order to make forgiveness easier. The accusation is granted, and then answered, which is how the doctrine actually works.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 John 1:8-9",
+        "scriptureRationale": "If we say we have no sin we deceive ourselves — confession precedes cleansing."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Substitutionary atonement",
+      "Justification apart from the believer's record",
+      "The advocacy of Christ",
+      "The reality of guilt"
+    ],
+    "assessment": "A blood hymn in a genre that mostly stopped writing them, and it handles its subject carefully. It takes Hebrews' image of blood that speaks and makes it the song's whole structure, lets the singer's guilt stand rather than minimising it, and answers the accusation with Christ rather than with the singer's sincerity. Nothing here needs correcting."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Accusation and answer, alternating",
+        "explanation": "Verse raises, chorus answers, repeatedly. A congregation learns the shape of the doctrine by singing its shape, which is more durable than being told it.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Pastoral use",
+        "title": "Written for a guilty conscience",
+        "explanation": "The song is built for someone who cannot stop hearing the charge against them. Very little in current use addresses that person directly.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Corporate voice",
+        "title": "Sung in the singular",
+        "explanation": "The accusation and the answer are both personal. A congregation sings alongside one another rather than together, though the subject makes that a natural choice.",
+        "songLocation": "WHOLE_SONG",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "likelihood": "POSSIBLE"
+      },
+      {
+        "category": "Singability",
+        "title": "Written for a strong lead voice",
+        "explanation": "The song comes from a soloist's catalogue and its phrasing shows it — long lines and a chorus that sits high. A room manages it with help and struggles without.",
+        "songLocation": "NOT_LYRICAL",
+        "severity": "MODERATE",
+        "centrality": "PERIPHERAL",
+        "recurring": false,
+        "likelihood": "LIKELY"
+      }
+    ],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Commonly published in A flat and B flat. The chorus sits high and the phrases are long; transposing down is usually the right call for a mixed room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Commonly published in A flat and B flat",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetitionAssessment": "The chorus returns after each verse carrying the song's central claim. Repetition deepens the answer rather than padding the running time.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Strong material shaped for a lead voice more than a room. The alternation of accusation and answer teaches well and the song serves a guilty conscience directly, but the long phrases and high chorus mean a congregation needs the key chosen for them."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "The claim is unmistakable and repeated",
+        "explanation": "The title line is the argument, and it returns every chorus. Nobody finishes the song unsure what was being asserted about their guilt.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Address",
+        "title": "Jesus named, not implied",
+        "explanation": "The song says whose blood it is. That settles the object immediately and rules out the vagueness common to songs about sacrifice.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Ambiguity",
+        "title": "Blood that speaks needs its background",
+        "explanation": "The central image assumes the Hebrews passage and the sacrificial system behind it. A hearer without that will follow the sense but may find the figure strange rather than powerful.",
+        "songLocation": "CHORUS",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear about its claim and clear about its object. Its one demand is biblical background: the image of speaking blood rewards a hearer who knows Hebrews and puzzles one who does not."
+  },
+  "synthesis": {
+    "summary": "A blood hymn in a genre that mostly stopped writing them, handled carefully. It takes Hebrews' image of blood that speaks a better word and makes it the whole structure, lets the singer's guilt stand rather than minimising it, and answers accusation with Christ rather than with the singer's sincerity. Written for a strong lead voice more than a room.",
+    "themes": ["Cross", "Grace", "Salvation", "Sin", "Assurance"],
+    "scriptureReferences": [
+      {
+        "reference": "Hebrews 12:24",
+        "relevance": "Blood that speaks a better word — the image the whole song is built on."
+      },
+      {
+        "reference": "Romans 8:33-34",
+        "relevance": "The answer to accusation located in Christ rather than the accused."
+      },
+      {
+        "reference": "1 John 1:8-9",
+        "relevance": "Guilt granted before cleansing is offered, which is the verses' order."
+      }
+    ]
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "groundsItsClaims": true,
+    "engagesScripture": true,
+    "beyondTheSelf": false,
+    "saysSomethingNew": true
+  },
+  "sources": [
+    "https://www.worshiptogether.com/songs/the-blood-of-jesus-speaks-for-me-travis-cottrell/",
+    "http://blog.brentwoodbenson.com/story-behind-the-song-the-blood-of-jesus-speaks-for-me/"
+  ]
+}

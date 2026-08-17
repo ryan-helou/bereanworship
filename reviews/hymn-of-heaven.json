@@ -1,0 +1,235 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Hymn of Heaven",
+    "artist": "Phil Wickham",
+    "artistType": "INDIVIDUAL",
+    "album": "Hymn of Heaven",
+    "releaseYear": 2021,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Phil Wickham with Bill Johnson, Brian Johnson and Chris Davenport. Widely used since release and among the more doctrinally substantial songs in current rotation."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Three verses over a repeated chorus with an outro. The verses move from the present longing, through the removal of sorrow, to the gathered worship of heaven; the chorus is the song sung there.",
+    "claims": [
+      {
+        "claim": "A day is coming when tears are wiped away and pain ceases.",
+        "subject": "The new creation",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The one worshipped there is he who died and rose again.",
+        "subject": "The resurrection",
+        "location": "CHORUS",
+        "lyricExcerpt": "He who died and rose again"
+      },
+      {
+        "claim": "Every knee will bow and every tongue confess him.",
+        "subject": "Universal acknowledgement",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer will stand face to face with God among the saints and angels.",
+        "subject": "The vision of God",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ's sacrifice is what makes forgiveness possible.",
+        "subject": "The atonement",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Eschatology",
+        "title": "Heaven described from Scripture rather than imagined",
+        "explanation": "Tears wiped away, pain ended, every knee bowed: the song's picture of heaven comes from Revelation and Philippians rather than from speculation about what it might be like.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Revelation 21:4",
+        "scriptureRationale": "He will wipe away every tear; death shall be no more, neither shall there be mourning or crying or pain."
+      },
+      {
+        "category": "Christology",
+        "title": "The object of heaven's worship is the crucified and risen Christ",
+        "explanation": "The chorus does not leave the one worshipped abstract. Naming him as the one who died and rose keeps the song's future anchored in a past event rather than in a hope about the future generally.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": "He who died and rose again",
+        "scriptureReference": "Revelation 5:9",
+        "scriptureRationale": "Worthy are you, for you were slain and by your blood ransomed people for God."
+      },
+      {
+        "category": "Atonement",
+        "title": "Says why the singer may be there",
+        "explanation": "The song grounds its hope in Christ's sacrifice rather than assuming the singer's place in heaven. That single move separates it from most songs about the life to come.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Hebrews 10:19",
+        "scriptureRationale": "We have confidence to enter the holy places by the blood of Jesus."
+      },
+      {
+        "category": "The church",
+        "title": "The hope is a crowd, not a solitary arrival",
+        "explanation": "Saints and angels are present, and the song is one the whole company sings. It resists the individualism that usually shapes songs about heaven.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 7:9",
+        "scriptureRationale": "A great multitude that no one could number, from every nation, standing before the throne."
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Prayer",
+        "title": "All prayer characterised as crying out in pain",
+        "explanation": "The second verse frames the present life's prayers as cries of despair. Much prayer is that; much is thanksgiving, confession and intercession. As a description of the singer's whole prayer life it is narrower than Scripture's.",
+        "songLocation": "VERSE_2",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": false,
+        "likelihood": "POSSIBLE",
+        "scriptureReference": "Philippians 4:6",
+        "scriptureRationale": "In everything by prayer and supplication with thanksgiving — a wider range than lament alone."
+      }
+    ],
+    "doctrinesAffirmed": [
+      "The new creation",
+      "The death and resurrection of Christ",
+      "The atonement as the ground of access",
+      "The gathered worship of the redeemed",
+      "Universal acknowledgement of Christ"
+    ],
+    "assessment": "One of the better songs about heaven in current use, largely because it declines to speculate. Its picture comes from Revelation and Philippians, the one worshipped there is named as the crucified and risen Christ, and it says why the singer may be present at all. The hope is corporate rather than solitary. One line narrows prayer to lament, which is a small imprecision in an otherwise careful song."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Corporate voice",
+        "title": "A song the whole company sings",
+        "explanation": "Both the content and the grammar are corporate: the room joins a crowd already singing rather than describing a private experience.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Pastoral use",
+        "title": "For a grieving church",
+        "explanation": "It gives a congregation that has buried someone a forward look grounded in a real event, without asking them to feel better than they do.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Memorability",
+        "title": "A chorus a room keeps",
+        "explanation": "Short, repeated, and built on a phrase that is easy to hold. Congregations sing this one rather than watching it.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Singability",
+        "title": "The outro sits high and sustains",
+        "explanation": "The song's closing section is written for a lead voice and holds above where most rooms are comfortable. Congregations carry the verses and hand back the climax.",
+        "songLocation": "NOT_LYRICAL",
+        "severity": "MODERATE",
+        "centrality": "PERIPHERAL",
+        "recurring": false,
+        "likelihood": "LIKELY"
+      }
+    ],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Commonly published in A and B flat. The outro is the demanding part; pitch for that rather than for the opening verse.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Commonly published in A and B flat",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetitionAssessment": "The chorus and outro repeat substantially, and what repeats names the crucified and risen Christ. The repetition carries content rather than sustaining a mood.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Well made for a congregation and corporate in both content and grammar. Its practical limit is the outro, which is written for a lead voice and sits above where most rooms will follow."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Address",
+        "title": "The one worshipped is named",
+        "explanation": "By identifying him as the one who died and rose, the song rules out any vaguer reading of who is being sung to. That is not universal in songs about heaven.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Present and future kept distinct",
+        "explanation": "The song is careful about what is now and what is then rather than blurring them into general hopefulness. A hearer follows the sequence easily.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Precision",
+        "title": "A grammatical slip in the third verse",
+        "explanation": "The line about standing face to face uses a subject pronoun where an object is required. It is a small thing, and it is the kind of thing a congregation sings hundreds of times.",
+        "songLocation": "VERSE_3",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": false,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear and well sequenced, with the object of worship named rather than implied. The only blemish is a grammatical slip in the third verse, which affects polish rather than meaning."
+  },
+  "synthesis": {
+    "summary": "One of the better songs about heaven in current use, largely because it declines to speculate: its picture comes from Revelation and Philippians, the one worshipped is named as the crucified and risen Christ, and it says why the singer may be there at all. One line narrows prayer to lament, which is a small imprecision in an otherwise careful song.",
+    "themes": ["Heaven", "Hope", "Christ", "Resurrection", "Church"],
+    "scriptureReferences": [
+      {
+        "reference": "Revelation 21:4",
+        "relevance": "Tears wiped away and pain ended — the picture the first verse takes directly."
+      },
+      {
+        "reference": "Revelation 5:9",
+        "relevance": "The slain Lamb as the object of heaven's song, which the chorus names."
+      },
+      {
+        "reference": "Hebrews 10:19",
+        "relevance": "Confidence to enter by the blood of Jesus — the ground the song supplies."
+      },
+      {
+        "reference": "Philippians 4:6",
+        "relevance": "Prayer as wider than lament, which the second verse narrows."
+      }
+    ]
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "groundsItsClaims": true,
+    "engagesScripture": true,
+    "beyondTheSelf": true,
+    "saysSomethingNew": true
+  },
+  "sources": [
+    "https://www.thebereantest.com/phil-wickham-hymn-of-heaven",
+    "https://en.wikipedia.org/wiki/Hymn_of_Heaven"
+  ]
+}
