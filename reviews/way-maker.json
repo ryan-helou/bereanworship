@@ -166,6 +166,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
+    "repetition": "EXCESSIVE",
     "repetitionAssessment": "Extensive, and the repeated content is four titles rather than an argument. Repetition here sustains a mood more than it deepens a confession.",
     "performanceOrientation": "CONGREGATIONAL",
     "assessment": "Genuinely congregational and genuinely easy — a large part of why it travelled from Lagos to the whole church. The cost is that its length is carried by repetition rather than by content: the song says what it has to say early and then keeps saying it."
@@ -197,7 +198,12 @@
   },
   "synthesis": {
     "summary": "Its instinct is right where it matters most: the titles are God's settled identity rather than his current mood, and the bridge insists he works when nothing is visible. But four titles are asserted without anchoring any in something God has done, and the verses tell the room every heart present is being mended. Enormously singable, and carried by repetition more than by content.",
-    "themes": ["God", "Providence", "Hope", "Faith"],
+    "themes": [
+      "God",
+      "Providence",
+      "Hope",
+      "Faith"
+    ],
     "scriptureReferences": [
       {
         "reference": "Isaiah 43:16-19",
@@ -221,10 +227,10 @@
     "namesGod": false,
     "statesAnAct": false,
     "teachesDoctrine": true,
+    "godDirected": true,
     "groundsItsClaims": true,
-    "engagesScripture": false,
-    "beyondTheSelf": false,
-    "saysSomethingNew": false
+    "corporateVoice": false,
+    "engagesScripture": false
   },
   "sources": [
     "https://en.wikipedia.org/wiki/Way_Maker",

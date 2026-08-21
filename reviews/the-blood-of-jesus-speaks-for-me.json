@@ -135,6 +135,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
+    "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The chorus returns after each verse carrying the song's central claim. Repetition deepens the answer rather than padding the running time.",
     "performanceOrientation": "BALANCED",
     "assessment": "Strong material shaped for a lead voice more than a room. The alternation of accusation and answer teaches well and the song serves a guilty conscience directly, but the long phrases and high chorus mean a congregation needs the key chosen for them."
@@ -173,7 +174,13 @@
   },
   "synthesis": {
     "summary": "A blood hymn in a genre that mostly stopped writing them, handled carefully. It takes Hebrews' image of blood that speaks a better word and makes it the whole structure, lets the singer's guilt stand rather than minimising it, and answers accusation with Christ rather than with the singer's sincerity. Written for a strong lead voice more than a room.",
-    "themes": ["Cross", "Grace", "Salvation", "Sin", "Assurance"],
+    "themes": [
+      "Cross",
+      "Grace",
+      "Salvation",
+      "Sin",
+      "Assurance"
+    ],
     "scriptureReferences": [
       {
         "reference": "Hebrews 12:24",
@@ -193,10 +200,10 @@
     "namesGod": true,
     "statesAnAct": true,
     "teachesDoctrine": true,
+    "godDirected": true,
     "groundsItsClaims": true,
-    "engagesScripture": true,
-    "beyondTheSelf": false,
-    "saysSomethingNew": true
+    "corporateVoice": false,
+    "engagesScripture": true
   },
   "sources": [
     "https://www.worshiptogether.com/songs/the-blood-of-jesus-speaks-for-me-travis-cottrell/",

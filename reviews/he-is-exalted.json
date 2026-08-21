@@ -136,6 +136,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
+    "repetition": "HEAVY",
     "repetitionAssessment": "The song is one chorus, so all its length is repetition. What repeats is a true confession about Christ, which holds up better than most repeated material.",
     "performanceOrientation": "CONGREGATIONAL",
     "assessment": "Well shaped for a congregation and unusually corporate for its era, because it declares something about God rather than describing the singer. The practical limits are its length — one chorus and nowhere to go — and a closing phrase that sits higher than the rest."
@@ -163,7 +164,11 @@
   },
   "synthesis": {
     "summary": "A short chorus that keeps its object right: it speaks about God rather than asking for an experience of him, claims that his truth reigns and not only his power, and asks for nothing at all. Nothing in it is wrong. Its limitation is that it states Christ's exaltation without ever saying what he did to be exalted.",
-    "themes": ["Christ", "Worship", "Sovereignty"],
+    "themes": [
+      "Christ",
+      "Worship",
+      "Sovereignty"
+    ],
     "scriptureReferences": [
       {
         "reference": "Philippians 2:9",
@@ -183,10 +188,10 @@
     "namesGod": true,
     "statesAnAct": false,
     "teachesDoctrine": true,
+    "godDirected": true,
     "groundsItsClaims": true,
-    "engagesScripture": false,
-    "beyondTheSelf": true,
-    "saysSomethingNew": false
+    "corporateVoice": true,
+    "engagesScripture": false
   },
   "sources": [
     "https://hymnary.org/text/he_is_exalted_the_king_is_exalted_on_hig",

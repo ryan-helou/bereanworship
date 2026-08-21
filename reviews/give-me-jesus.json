@@ -48,10 +48,10 @@
     "namesGod": true,
     "statesAnAct": false,
     "teachesDoctrine": true,
+    "godDirected": true,
     "groundsItsClaims": true,
-    "engagesScripture": false,
-    "beyondTheSelf": false,
-    "saysSomethingNew": true
+    "corporateVoice": false,
+    "engagesScripture": false
   },
   "theological": {
     "strengths": [
@@ -135,6 +135,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated. As a public-domain spiritual it is published in many keys."
     },
+    "repetition": "PURPOSEFUL",
     "repetitionAssessment": "Each line is sung three times by design. The repetition is the form of the spiritual and it works pastorally: it lets a grieving singer stay with one thought rather than move on.",
     "performanceOrientation": "CONGREGATIONAL",
     "assessment": "About as congregational as a song can be. It needs no band, no rehearsal and no strength from the singer, and it works in the settings where music is hardest — a funeral, a sickroom, a frightened church. The only structural note is that it is one voice rather than a corporate one, which suits its subject."

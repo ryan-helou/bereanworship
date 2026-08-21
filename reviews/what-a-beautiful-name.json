@@ -66,10 +66,10 @@
     "namesGod": true,
     "statesAnAct": true,
     "teachesDoctrine": true,
+    "godDirected": true,
     "groundsItsClaims": true,
-    "engagesScripture": true,
-    "beyondTheSelf": true,
-    "saysSomethingNew": true
+    "corporateVoice": true,
+    "engagesScripture": true
   },
   "theological": {
     "strengths": [
@@ -196,6 +196,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
+    "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The title line returns at the end of every verse with one word changed. What repeats carries the argument rather than padding it.",
     "performanceOrientation": "BALANCED",
     "assessment": "Built for a congregation and addressed to Christ throughout, with a form that teaches its own content. The one practical difficulty is the bridge, which sits high and holds there — a room that cannot reach it loses the section carrying the song's strongest claims, so transposing is worth the trouble."

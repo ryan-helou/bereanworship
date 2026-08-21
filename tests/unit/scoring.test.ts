@@ -248,10 +248,10 @@ describe('the two doctrinal axes', () => {
     namesGod: true,
     statesAnAct: true,
     teachesDoctrine: true,
+    godDirected: true,
     groundsClaims: true,
+    corporateVoice: true,
     engagesScripture: true,
-    beyondTheSelf: true,
-    saysSomethingNew: true,
   };
   const EMPTY = Object.fromEntries(Object.keys(FULL).map((k) => [k, false]));
 
@@ -327,6 +327,63 @@ describe('the two doctrinal axes', () => {
   it('lets the lower axis bind in both directions', () => {
     expect(combineAxes(3, 10)).toBeLessThan(combineAxes(10, 10));
     expect(combineAxes(10, 3)).toBe(combineAxes(3, 10));
+  });
+});
+
+describe('worship direction and delivery', () => {
+  const EMPTY = Object.fromEntries(
+    ['namesGod', 'statesAnAct', 'teachesDoctrine', 'godDirected', 'groundsClaims', 'corporateVoice', 'engagesScripture'].map(
+      (k) => [k, false],
+    ),
+  );
+
+  it('weighs being directed to God more than any other single test', () => {
+    const directed = scoreSubstance({ ...EMPTY, godDirected: true });
+    const named = scoreSubstance({ ...EMPTY, namesGod: true });
+    const scripture = scoreSubstance({ ...EMPTY, engagesScripture: true });
+    expect(directed.level).toBeGreaterThan(named.level);
+    expect(directed.level).toBeGreaterThan(scripture.level);
+  });
+
+  it('scores a song about the singer below the same song directed to God', () => {
+    const aboutGod = scoreSong([strength()], { ...EMPTY, godDirected: true, corporateVoice: true });
+    const aboutSelf = scoreSong([strength()], EMPTY);
+    expect(aboutGod.theologicalScore!).toBeGreaterThan(aboutSelf.theologicalScore!);
+  });
+
+  it('deducts for a performance piece, and off the overall rather than off communal', () => {
+    const findings = [strength(), strength({ component: 'COMMUNAL' }), strength({ component: 'CLARITY' })];
+    const room = scoreSong(findings, EMPTY, { performanceOrientation: 'CONGREGATIONAL', repetition: 'PURPOSEFUL' });
+    const show = scoreSong(findings, EMPTY, { performanceOrientation: 'PERFORMANCE', repetition: 'PURPOSEFUL' });
+
+    expect(show.overallScore!).toBeLessThan(room.overallScore!);
+    // Communal itself is untouched: the penalty would be invisible there,
+    // because the overall is capped at the biblical score.
+    expect(show.communalScore).toBe(room.communalScore);
+    expect(show.deliveryDeduction).toBeLessThan(0);
+  });
+
+  it('deducts for repetition that has outrun its content', () => {
+    const findings = [strength(), strength({ component: 'COMMUNAL' })];
+    const purposeful = scoreSong(findings, EMPTY, { repetition: 'PURPOSEFUL' });
+    const heavy = scoreSong(findings, EMPTY, { repetition: 'HEAVY' });
+    const excessive = scoreSong(findings, EMPTY, { repetition: 'EXCESSIVE' });
+
+    expect(heavy.overallScore!).toBeLessThan(purposeful.overallScore!);
+    expect(excessive.overallScore!).toBeLessThan(heavy.overallScore!);
+  });
+
+  it('does not penalise a refrain that carries its confession', () => {
+    const findings = [strength()];
+    expect(scoreSong(findings, EMPTY, { repetition: 'PURPOSEFUL' }).deliveryDeduction).toBe(0);
+    expect(scoreSong(findings, EMPTY, { repetition: 'NONE' }).deliveryDeduction).toBe(0);
+  });
+
+  it('stacks hype and repetition', () => {
+    const findings = [strength(), strength({ component: 'COMMUNAL' })];
+    const both = scoreSong(findings, EMPTY, { performanceOrientation: 'PERFORMANCE_LEANING', repetition: 'EXCESSIVE' });
+    const one = scoreSong(findings, EMPTY, { performanceOrientation: 'PERFORMANCE_LEANING', repetition: 'PURPOSEFUL' });
+    expect(both.deliveryDeduction).toBeLessThan(one.deliveryDeduction);
   });
 });
 

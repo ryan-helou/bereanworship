@@ -370,8 +370,10 @@ export async function saveSongReview(songId: string, result: SongReviewResult): 
         substTeachesDoctrine: result.substance?.teachesDoctrine ?? null,
         substGroundsClaims: result.substance?.groundsItsClaims ?? null,
         substEngagesScripture: result.substance?.engagesScripture ?? null,
-        substBeyondTheSelf: result.substance?.beyondTheSelf ?? null,
-        substSaysSomethingNew: result.substance?.saysSomethingNew ?? null,
+        substGodDirected: result.substance?.godDirected ?? null,
+        substCorporateVoice: result.substance?.corporateVoice ?? null,
+        repetition: result.communal.repetition ?? null,
+        performanceOrientation: result.communal.performanceOrientation ?? null,
 
         reviewStatus: 'COMPLETED',
         reviewVersion,

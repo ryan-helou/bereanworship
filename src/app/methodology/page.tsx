@@ -4,6 +4,9 @@ import {
   ARTIST_WEIGHTS,
   BASELINE,
   SUBSTANCE_TESTS,
+  PERFORMANCE_PENALTY,
+  REPETITION_PENALTY,
+  DELIVERY_POINTS_PER_LEVEL,
   METHODOLOGY_VERSION,
   RUBRIC_MAX_LEVEL,
   SCORE_BANDS,
@@ -247,6 +250,41 @@ the lower of the two sets the level; the higher lifts it slightly`}
             That last test is borrowed from Bob Kauflin, who argues that the question is not whether a bad reading is
             possible but whether it is likely. A phrase that could theoretically mislead and one that does mislead
             should not cost a song the same.
+          </p>
+        </Section>
+
+        <Section id="delivery" title="Hype, repetition, and who the song is for">
+          <p>
+            Worship is something a congregation <em>does</em>, directed to God. Two of the substance tests above carry
+            that directly: whether the song is addressed to God or is really about the singer, and whether a room can
+            sing it as “we” rather than as three hundred simultaneous private prayers. Together they are worth three of
+            the ten substance points, more than any other pair.
+          </p>
+          <p>
+            Two further things come off the <strong className="font-semibold text-ink-900">total</strong> rather than
+            off any one criterion, because they are properties of the whole song:
+          </p>
+          <ul className="my-5 space-y-2.5 pl-5">
+            <li className="list-disc text-[0.9375rem] leading-relaxed text-ink-600">
+              <strong className="font-semibold text-ink-900">Performance orientation.</strong> A song built around a
+              lead voice, a long build and a climax the room cannot deliver is one a congregation mostly watches.
+              Performance-leaning costs {Math.abs(PERFORMANCE_PENALTY.PERFORMANCE_LEANING * DELIVERY_POINTS_PER_LEVEL)}{' '}
+              points; a full performance piece costs{' '}
+              {Math.abs(PERFORMANCE_PENALTY.PERFORMANCE * DELIVERY_POINTS_PER_LEVEL)}.
+            </li>
+            <li className="list-disc text-[0.9375rem] leading-relaxed text-ink-600">
+              <strong className="font-semibold text-ink-900">Repetition.</strong> Repetition is not a fault — a refrain
+              that returns to a confession deepens it, and that costs nothing. What costs a song is repetition doing the
+              work the words are not: heavy repetition past the point the content ran out is{' '}
+              {Math.abs(REPETITION_PENALTY.HEAVY * DELIVERY_POINTS_PER_LEVEL)} points, and length sustained by
+              repetition rather than by anything further being said is{' '}
+              {Math.abs(REPETITION_PENALTY.EXCESSIVE * DELIVERY_POINTS_PER_LEVEL)}.
+            </li>
+          </ul>
+          <p>
+            Both are deducted from the total on purpose. The overall score is capped at the biblical score, so a penalty
+            applied inside the 20% congregational component would vanish for most songs — it would look like weighing
+            hype without actually weighing it.
           </p>
         </Section>
 

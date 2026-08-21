@@ -153,6 +153,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated. The hymn is sung to several different tunes."
     },
+    "repetition": "PURPOSEFUL",
     "repetitionAssessment": "None beyond the opening formula of each verse, which is the device that makes the list audible as a list. Six verses of new material.",
     "performanceOrientation": "CONGREGATIONAL",
     "assessment": "Easy to sing and flexible to programme. Its real communal question is not musical: it asks a room to promise specific things, including their money, and a leader should mean it before putting it in a set."
@@ -184,7 +185,12 @@
   },
   "synthesis": {
     "summary": "A hymn of consecration that refuses to be vague: hands, feet, voice, money and will are each handed over by name, so a congregation hears exactly what it has committed. The will is not softened and the money is not skipped. What it never supplies is the ground — the offering is made without stating what God has done to make it fitting.",
-    "themes": ["Worship", "Holiness", "Faith", "Thanksgiving"],
+    "themes": [
+      "Worship",
+      "Holiness",
+      "Faith",
+      "Thanksgiving"
+    ],
     "scriptureReferences": [
       {
         "reference": "Romans 12:1",
@@ -204,10 +210,10 @@
     "namesGod": true,
     "statesAnAct": false,
     "teachesDoctrine": true,
+    "godDirected": true,
     "groundsItsClaims": false,
-    "engagesScripture": true,
-    "beyondTheSelf": false,
-    "saysSomethingNew": true
+    "corporateVoice": false,
+    "engagesScripture": true
   },
   "sources": [
     "https://hymnary.org/text/take_my_life_and_let_it_be",

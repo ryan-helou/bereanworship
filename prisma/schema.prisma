@@ -298,8 +298,14 @@ model Song {
   substTeachesDoctrine Boolean?
   substGroundsClaims   Boolean?
   substEngagesScripture Boolean?
-  substBeyondTheSelf   Boolean?
-  substSaysSomethingNew Boolean?
+  substGodDirected     Boolean?
+  substCorporateVoice  Boolean?
+  /// How much the song repeats and whether the repetition carries content.
+  repetition           String?
+  /// CONGREGATIONAL / BALANCED / PERFORMANCE_LEANING / PERFORMANCE. Was
+  /// collected on every review and never stored, so it could not reach the
+  /// score; it now moves the communal level directly.
+  performanceOrientation String?
 
   reviewStatus       ReviewStatus @default(UNREVIEWED)
   reviewVersion      String?

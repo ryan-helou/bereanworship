@@ -67,10 +67,10 @@
     "namesGod": true,
     "statesAnAct": false,
     "teachesDoctrine": true,
+    "godDirected": true,
     "groundsItsClaims": true,
-    "engagesScripture": true,
-    "beyondTheSelf": false,
-    "saysSomethingNew": false
+    "corporateVoice": false,
+    "engagesScripture": true
   },
   "theological": {
     "strengths": [
@@ -169,6 +169,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated. No publisher consulted lists a vocal range for the song."
     },
+    "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The chorus repeats after every verse, but what repeats is the song's confession rather than a hook. Repetition here is doing the work it should.",
     "performanceOrientation": "CONGREGATIONAL",
     "assessment": "About as easy as a congregational song gets: short, stepwise, unhurried and indifferent to the band you have. The only communal weakness is that it never lets the congregation speak as one — it gives every singer a private first person and leaves them there."

@@ -145,6 +145,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
+    "repetition": "HEAVY",
     "repetitionAssessment": "The chorus repeats a short list of adjectives. What returns is a confession about God's nature rather than a hook, though the list is short enough that it wears with heavy use.",
     "performanceOrientation": "CONGREGATIONAL",
     "assessment": "Durable and straightforward, with a structure that holds no surprises for a congregation or a small band. The one practical difficulty is that the chorus — the part everyone wants to sing — sits above the rest of the song."
@@ -183,7 +184,12 @@
   },
   "synthesis": {
     "summary": "A creation psalm in modern dress that follows the psalter's method — evidence first, conclusion second. Its claim about God naming the stars is a real statement about his knowledge of individuals, and the confession of incomprehensibility is earned by the verses that precede it. What it never does is move from Creator to Redeemer.",
-    "themes": ["God", "Creation", "Worship", "Sovereignty"],
+    "themes": [
+      "God",
+      "Creation",
+      "Worship",
+      "Sovereignty"
+    ],
     "scriptureReferences": [
       {
         "reference": "Psalm 19:1",
@@ -207,10 +213,10 @@
     "namesGod": true,
     "statesAnAct": true,
     "teachesDoctrine": true,
+    "godDirected": true,
     "groundsItsClaims": true,
-    "engagesScripture": true,
-    "beyondTheSelf": true,
-    "saysSomethingNew": false
+    "corporateVoice": true,
+    "engagesScripture": true
   },
   "sources": [
     "https://en.wikipedia.org/wiki/Indescribable_(song)",

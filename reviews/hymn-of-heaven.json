@@ -161,6 +161,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
+    "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The chorus and outro repeat substantially, and what repeats names the crucified and risen Christ. The repetition carries content rather than sustaining a mood.",
     "performanceOrientation": "BALANCED",
     "assessment": "Well made for a congregation and corporate in both content and grammar. Its practical limit is the outro, which is written for a lead voice and sits above where most rooms will follow."
@@ -199,7 +200,13 @@
   },
   "synthesis": {
     "summary": "One of the better songs about heaven in current use, largely because it declines to speculate: its picture comes from Revelation and Philippians, the one worshipped is named as the crucified and risen Christ, and it says why the singer may be there at all. One line narrows prayer to lament, which is a small imprecision in an otherwise careful song.",
-    "themes": ["Heaven", "Hope", "Christ", "Resurrection", "Church"],
+    "themes": [
+      "Heaven",
+      "Hope",
+      "Christ",
+      "Resurrection",
+      "Church"
+    ],
     "scriptureReferences": [
       {
         "reference": "Revelation 21:4",
@@ -223,10 +230,10 @@
     "namesGod": true,
     "statesAnAct": true,
     "teachesDoctrine": true,
+    "godDirected": true,
     "groundsItsClaims": true,
-    "engagesScripture": true,
-    "beyondTheSelf": true,
-    "saysSomethingNew": true
+    "corporateVoice": true,
+    "engagesScripture": true
   },
   "sources": [
     "https://www.thebereantest.com/phil-wickham-hymn-of-heaven",

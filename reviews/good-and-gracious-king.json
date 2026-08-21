@@ -60,10 +60,10 @@
     "namesGod": false,
     "statesAnAct": false,
     "teachesDoctrine": true,
+    "godDirected": true,
     "groundsItsClaims": true,
-    "engagesScripture": true,
-    "beyondTheSelf": false,
-    "saysSomethingNew": false
+    "corporateVoice": false,
+    "engagesScripture": true
   },
   "theological": {
     "strengths": [
@@ -156,6 +156,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated. PraiseCharts does not publish a vocal range for this song."
     },
+    "repetition": "PURPOSEFUL",
     "repetitionAssessment": "One chorus returning after each verse, carrying the song's title claim. The repeated content is doctrinal rather than a hook, and four verses keep it from wearing thin.",
     "performanceOrientation": "CONGREGATIONAL",
     "assessment": "Written for a congregation and shaped like a hymn. Short verses, one chorus, no build to negotiate and no dependence on an arrangement. The only communal weakness is that a song about being received by God never lets the church say 'we'."

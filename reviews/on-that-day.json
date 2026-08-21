@@ -147,6 +147,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
+    "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The chorus repeats a short title phrase, but each verse and the bridge add new material behind it. Repetition anchors rather than pads.",
     "performanceOrientation": "CONGREGATIONAL",
     "assessment": "Written for a congregation and shaped like a hymn: short verses, one chorus, nothing that needs a band. It also does something few songs attempt — gives a grieving room a forward look without asking them to pretend."
@@ -185,7 +186,13 @@
   },
   "synthesis": {
     "summary": "A song about the last day that treats it as an event rather than a mood, and grounds its certainty in the resurrection having already happened rather than in optimism. Its hope is corporate — a gathering, not an individual arrival — and its verses keep the singer honestly in the present. Fills a gap most catalogues have.",
-    "themes": ["Hope", "Heaven", "Resurrection", "Church", "Faith"],
+    "themes": [
+      "Hope",
+      "Heaven",
+      "Resurrection",
+      "Church",
+      "Faith"
+    ],
     "scriptureReferences": [
       {
         "reference": "1 Corinthians 15:20",
@@ -209,10 +216,10 @@
     "namesGod": true,
     "statesAnAct": true,
     "teachesDoctrine": true,
+    "godDirected": true,
     "groundsItsClaims": true,
-    "engagesScripture": false,
-    "beyondTheSelf": true,
-    "saysSomethingNew": true
+    "corporateVoice": true,
+    "engagesScripture": false
   },
   "sources": [
     "https://cityalight.com/song/on-that-day/",

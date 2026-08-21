@@ -132,10 +132,13 @@ async function applySong(payload: z.infer<typeof SongReviewPayload>): Promise<Ap
     namesGod: substance.namesGod,
     statesAnAct: substance.statesAnAct,
     teachesDoctrine: substance.teachesDoctrine,
+    godDirected: substance.godDirected,
     groundsClaims: substance.groundsItsClaims,
+    corporateVoice: substance.corporateVoice,
     engagesScripture: substance.engagesScripture,
-    beyondTheSelf: substance.beyondTheSelf,
-    saysSomethingNew: substance.saysSomethingNew,
+  }, {
+    performanceOrientation: communal.performanceOrientation,
+    repetition: communal.repetition,
   });
 
   // A review with no findings in any criterion has nothing to judge. Under the

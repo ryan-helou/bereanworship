@@ -105,11 +105,11 @@ export default async function SongPage({ params }: { params: Params }) {
           namesGod: song.substNamesGod,
           statesAnAct: song.substStatesAnAct,
           teachesDoctrine: song.substTeachesDoctrine,
+          godDirected: song.substGodDirected,
           groundsClaims: song.substGroundsClaims,
+          corporateVoice: song.substCorporateVoice,
           engagesScripture: song.substEngagesScripture,
-          beyondTheSelf: song.substBeyondTheSelf,
-          saysSomethingNew: song.substSaysSomethingNew,
-        })
+        }, { performanceOrientation: song.performanceOrientation, repetition: song.repetition })
       : null;
 
   // Mark the two findings that decided each criterion, using the scorer's own
@@ -275,6 +275,7 @@ export default async function SongPage({ params }: { params: Params }) {
             substance={breakdown.substance}
             overallScore={song.overallScore ?? breakdown.overallScore}
             overallCeiling={breakdown.overallCeiling}
+            deliveryDeduction={breakdown.deliveryDeduction}
           />
         )}
 

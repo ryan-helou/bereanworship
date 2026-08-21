@@ -67,10 +67,10 @@
     "namesGod": true,
     "statesAnAct": true,
     "teachesDoctrine": true,
+    "godDirected": true,
     "groundsItsClaims": false,
-    "engagesScripture": false,
-    "beyondTheSelf": true,
-    "saysSomethingNew": false
+    "corporateVoice": false,
+    "engagesScripture": false
   },
   "theological": {
     "strengths": [
@@ -183,6 +183,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated. PraiseCharts publishes the song in several keys but does not state a vocal range."
     },
+    "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The repeated phrase is the song's argument rather than a hook — a strength, except that what it drives home is the line that is the song's chief problem.",
     "performanceOrientation": "PERFORMANCE_LEANING",
     "assessment": "A ballad before it is a congregational song. The shape is easy to follow and the closing phrase is unforgettable, but the piece is built around a climax most rooms cannot deliver, and it leans on the arrangement more than a song for the gathered church should."

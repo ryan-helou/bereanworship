@@ -66,10 +66,10 @@
     "namesGod": true,
     "statesAnAct": false,
     "teachesDoctrine": true,
+    "godDirected": true,
     "groundsItsClaims": true,
-    "engagesScripture": true,
-    "beyondTheSelf": true,
-    "saysSomethingNew": true
+    "corporateVoice": false,
+    "engagesScripture": true
   },
   "theological": {
     "strengths": [
@@ -163,6 +163,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated. No publisher consulted lists a vocal range for the song."
     },
+    "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The chorus repeats heavily, but its content is the song's doctrine rather than a hook. This is repetition used the way a refrain should be used.",
     "performanceOrientation": "CONGREGATIONAL",
     "assessment": "Built for a congregation rather than a platform. Short, unhurried, no dependence on an arrangement, and its repeated line is worth repeating. The only communal weakness is the sustained first person, which leaves a room full of individuals rather than a church."

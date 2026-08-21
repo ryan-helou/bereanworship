@@ -141,6 +141,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
+    "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The chorus returns three times and grows each time, so repetition adds material rather than sustaining a mood. Well judged for the length.",
     "performanceOrientation": "CONGREGATIONAL",
     "assessment": "Written for a congregation and undemanding to sing, with a chorus that develops rather than merely recurring. Its one communal shortfall is the singular voice, which sits oddly against an image about many branches on one vine."
@@ -179,7 +180,13 @@
   },
   "synthesis": {
     "summary": "A song about abiding that keeps the point of the image it borrows: the vine and branches is about fruitlessness apart from Christ, and the song states that rather than softening it into closeness. It quotes Christ's own self-description and grounds the abiding in a union already accomplished rather than one the singer must produce.",
-    "themes": ["Christ", "Faith", "Holiness", "Prayer", "Scripture"],
+    "themes": [
+      "Christ",
+      "Faith",
+      "Holiness",
+      "Prayer",
+      "Scripture"
+    ],
     "scriptureReferences": [
       {
         "reference": "John 15:5",
@@ -203,10 +210,10 @@
     "namesGod": true,
     "statesAnAct": true,
     "teachesDoctrine": true,
+    "godDirected": true,
     "groundsItsClaims": true,
-    "engagesScripture": true,
-    "beyondTheSelf": false,
-    "saysSomethingNew": false
+    "corporateVoice": false,
+    "engagesScripture": true
   },
   "sources": [
     "https://integrityworship.com/songs/abide-1/",

@@ -124,6 +124,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
+    "repetition": "PURPOSEFUL",
     "repetitionAssessment": "One chorus repeated — the form of a Scripture chorus rather than a fault. What repeats is a psalm verse, so it puts Scripture in the mouth rather than filling time.",
     "performanceOrientation": "CONGREGATIONAL",
     "assessment": "About as easy as congregational singing gets, and built to be repeated. It carries unaccompanied, names fear honestly and gives a frightened room four true lines. Its only communal limitation is the singular voice it inherits from the psalm."
@@ -155,7 +156,13 @@
   },
   "synthesis": {
     "summary": "A four-line psalm-chorus that does exactly what it sets out to do: Scripture's own words, fear turned into a decision rather than a feeling, and strength located outside the singer. Nothing here to correct. What limits it is scope — four lines about refuge, with nothing about what God has done to become one.",
-    "themes": ["God", "Faith", "Suffering", "Scripture", "Hope"],
+    "themes": [
+      "God",
+      "Faith",
+      "Suffering",
+      "Scripture",
+      "Hope"
+    ],
     "scriptureReferences": [
       {
         "reference": "Psalm 32:7",
@@ -175,10 +182,10 @@
     "namesGod": false,
     "statesAnAct": false,
     "teachesDoctrine": true,
+    "godDirected": true,
     "groundsItsClaims": true,
-    "engagesScripture": true,
-    "beyondTheSelf": false,
-    "saysSomethingNew": false
+    "corporateVoice": false,
+    "engagesScripture": true
   },
   "sources": [
     "https://hymnary.org/text/you_are_my_hiding_place_you_always_fill",

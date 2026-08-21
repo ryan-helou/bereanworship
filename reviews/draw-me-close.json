@@ -127,6 +127,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
+    "repetition": "HEAVY",
     "repetitionAssessment": "Considerable for the amount of content. The chorus returns often and each return adds nothing further, which is what makes a short song feel long.",
     "performanceOrientation": "CONGREGATIONAL",
     "assessment": "Easy to sing and easy to mean, and it makes room for someone who has drifted rather than requiring them to arrive already close. Its weakness is that the room never says anything together about God — it is a private prayer that happens to be sung in company."
@@ -160,7 +161,11 @@
   },
   "synthesis": {
     "summary": "Aimed at the right thing and carrying almost nothing to aim with. Its desire is for God himself rather than his gifts, and it admits drift honestly. But God and Jesus are never named, nothing God has done is stated, and the surrender it offers is framed as the price of friendship rather than the response to it. Outside a church, nothing in the words identifies who is addressed.",
-    "themes": ["Prayer", "Worship", "Repentance"],
+    "themes": [
+      "Prayer",
+      "Worship",
+      "Repentance"
+    ],
     "scriptureReferences": [
       {
         "reference": "Psalm 73:25",
@@ -184,10 +189,10 @@
     "namesGod": false,
     "statesAnAct": false,
     "teachesDoctrine": true,
+    "godDirected": false,
     "groundsItsClaims": false,
-    "engagesScripture": false,
-    "beyondTheSelf": false,
-    "saysSomethingNew": false
+    "corporateVoice": false,
+    "engagesScripture": false
   },
   "sources": [
     "https://www.thebereantest.com/kelly-carpenter-draw-me-close",

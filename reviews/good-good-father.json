@@ -54,10 +54,10 @@
     "namesGod": true,
     "statesAnAct": false,
     "teachesDoctrine": true,
+    "godDirected": true,
     "groundsItsClaims": true,
-    "engagesScripture": false,
-    "beyondTheSelf": false,
-    "saysSomethingNew": false
+    "corporateVoice": false,
+    "engagesScripture": false
   },
   "theological": {
     "strengths": [
@@ -162,6 +162,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
+    "repetition": "HEAVY",
     "repetitionAssessment": "Heavy, and the repeated line is a claim about the singer rather than about God. Repetition of thin content is what makes it feel longer than it is.",
     "performanceOrientation": "CONGREGATIONAL",
     "assessment": "As easy as congregational songs get: short, unhurried, indifferent to the band you have, and usable by someone who arrives struggling. Its communal weakness is that the most repeated line is also the thinnest, so a long song rests on a short idea."

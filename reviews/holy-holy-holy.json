@@ -148,6 +148,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
+    "repetition": "PURPOSEFUL",
     "repetitionAssessment": "Only the opening cry repeats, and it repeats because Scripture repeats it. Four verses of otherwise new material, which is demanding by modern standards and worth the demand.",
     "performanceOrientation": "CONGREGATIONAL",
     "assessment": "A hymn that a congregation can sing without being asked to feel anything in particular, which is its great communal strength. The tune is universally known and needs no band. Its cost is vocabulary: several words go unexplained and a newcomer will not follow all of it unaided."
@@ -186,7 +187,13 @@
   },
   "synthesis": {
     "summary": "The clearest Trinitarian teaching in common congregational use, and it teaches by repetition rather than explanation — four verses, four statements of three persons and one God. Its opening is Scripture's own cry and it is honest that the God it praises cannot be looked at. Its one limit is scope: it is about who God is, not what he did to save.",
-    "themes": ["Trinity", "God", "Holiness", "Worship", "Creation"],
+    "themes": [
+      "Trinity",
+      "God",
+      "Holiness",
+      "Worship",
+      "Creation"
+    ],
     "scriptureReferences": [
       {
         "reference": "Revelation 4:8",
@@ -210,10 +217,10 @@
     "namesGod": true,
     "statesAnAct": false,
     "teachesDoctrine": true,
+    "godDirected": true,
     "groundsItsClaims": true,
-    "engagesScripture": true,
-    "beyondTheSelf": true,
-    "saysSomethingNew": true
+    "corporateVoice": true,
+    "engagesScripture": true
   },
   "sources": [
     "https://hymnary.org/text/holy_holy_holy_lord_god_almighty_early",

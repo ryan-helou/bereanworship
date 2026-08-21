@@ -54,10 +54,10 @@
     "namesGod": false,
     "statesAnAct": false,
     "teachesDoctrine": true,
+    "godDirected": false,
     "groundsItsClaims": false,
-    "engagesScripture": true,
-    "beyondTheSelf": true,
-    "saysSomethingNew": false
+    "corporateVoice": false,
+    "engagesScripture": true
   },
   "theological": {
     "strengths": [
@@ -161,6 +161,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
+    "repetition": "EXCESSIVE",
     "repetitionAssessment": "Extensive in the closing sections. Early repetition drives the confession home; the later repetition is sustaining energy rather than adding content.",
     "performanceOrientation": "PERFORMANCE_LEANING",
     "assessment": "Genuinely singable and genuinely loud, which is not nothing — congregations do sing this rather than watch it. The cost is that it is built around a recording with multiple lead voices and a long closing, so what a normal Sunday band delivers is a reduction rather than a simplification."

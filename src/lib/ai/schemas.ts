@@ -306,12 +306,16 @@ export const SubstanceSchema = z.object({
   engagesScripture: z
     .boolean()
     .describe('Sets, paraphrases or is plainly built on a particular passage — not merely consistent with Scripture.'),
-  beyondTheSelf: z
+  godDirected: z
     .boolean()
-    .describe("Moves beyond the singer's own experience — addresses God, the church, or the world as more than a backdrop."),
-  saysSomethingNew: z
+    .describe(
+      'Is the song addressed to God, or about him? Answer false when the real subject is the singer — their feelings, their journey, their response — and God is the occasion for it. Worship is directed to God; a song mainly about ourselves is doing something else.',
+    ),
+  corporateVoice: z
     .boolean()
-    .describe('Gives a congregation something they would not already have known, rather than restating a familiar sentiment.'),
+    .describe(
+      'Can a congregation sing this as "we" rather than as three hundred simultaneous private prayers? A sustained first person singular about personal experience answers false.',
+    ),
 });
 export type Substance = z.infer<typeof SubstanceSchema>;
 
@@ -362,6 +366,12 @@ export const CommunalAnalysisSchema = z.object({
   vocalRangeNote: z.string().max(MAX_RATIONALE_CHARS).nullable().optional(),
   /** Measured pitches. Omit entirely rather than guessing. */
   range: VocalRangeSchema.optional().nullable(),
+  repetition: z
+    .enum(['NONE', 'PURPOSEFUL', 'HEAVY', 'EXCESSIVE'])
+    .default('PURPOSEFUL')
+    .describe(
+      'How much the song repeats, and whether the repetition carries content. PURPOSEFUL = a refrain that returns to a confession and deepens it. HEAVY = repeated well past where the words ran out. EXCESSIVE = length sustained by repetition rather than by anything further being said. Repetition is not a fault in itself; repetition doing the work the content should is.',
+    ),
   repetitionAssessment: z
     .string()
     .max(MAX_RATIONALE_CHARS)

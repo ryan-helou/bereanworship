@@ -159,6 +159,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
+    "repetition": "HEAVY",
     "repetitionAssessment": "The title phrase returns constantly and each return introduces a new guess. The repetition carries the structure honestly, though the accumulating questions never resolve into a statement.",
     "performanceOrientation": "PERFORMANCE_LEANING",
     "assessment": "A radio single that churches adopted rather than a song written for a room. The chorus is unforgettable and it serves the grieving well, but the wide range and the soloist's build mean most congregations sing part of it and listen to the rest."
@@ -190,7 +191,12 @@
   },
   "synthesis": {
     "summary": "Honest about being speculation — its title concedes it — and it names Jesus rather than leaving an open 'You'. It also looks past death, which almost nothing in current use does. But its real subject is the singer's anticipated reaction rather than Christ, and it assumes the singer will be standing there without saying why. A radio single more than a congregational song.",
-    "themes": ["Heaven", "Hope", "Christ", "Worship"],
+    "themes": [
+      "Heaven",
+      "Hope",
+      "Christ",
+      "Worship"
+    ],
     "scriptureReferences": [
       {
         "reference": "1 John 3:2",
@@ -214,10 +220,10 @@
     "namesGod": true,
     "statesAnAct": false,
     "teachesDoctrine": true,
+    "godDirected": false,
     "groundsItsClaims": false,
-    "engagesScripture": false,
-    "beyondTheSelf": false,
-    "saysSomethingNew": false
+    "corporateVoice": false,
+    "engagesScripture": false
   },
   "sources": [
     "https://www.thebereantest.com/mercyme-i-can-only-imagine",

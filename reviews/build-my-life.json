@@ -60,10 +60,10 @@
     "namesGod": true,
     "statesAnAct": false,
     "teachesDoctrine": true,
+    "godDirected": true,
     "groundsItsClaims": true,
-    "engagesScripture": true,
-    "beyondTheSelf": true,
-    "saysSomethingNew": false
+    "corporateVoice": true,
+    "engagesScripture": true
   },
   "theological": {
     "strengths": [
@@ -168,6 +168,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
+    "repetition": "HEAVY",
     "repetitionAssessment": "Heavy in the bridge, but what repeats is the song's central vow rather than a hook. Repetition used the way a refrain should be, if longer than needed.",
     "performanceOrientation": "CONGREGATIONAL",
     "assessment": "Written for a congregation and shaped so the best line is the destination. It carries without a band, moves into a corporate voice at the point of commitment, and asks nothing technically difficult. The only cost is a bridge that outstays the point it has already made."

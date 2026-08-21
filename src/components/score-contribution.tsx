@@ -70,6 +70,7 @@ export function ScoreContribution({
   substance,
   overallScore,
   overallCeiling,
+  deliveryDeduction,
 }: {
   theological: ComponentRubric;
   communal: ComponentRubric;
@@ -78,6 +79,7 @@ export function ScoreContribution({
   substance?: SubstanceResult;
   overallScore: number | null;
   overallCeiling: number | null;
+  deliveryDeduction?: number;
 }) {
   const rubrics: Record<ScoreComponent, ComponentRubric> = {
     THEOLOGICAL: theological,
@@ -159,6 +161,15 @@ export function ScoreContribution({
             <RubricCard key={r.key} component={r.key} rubric={r.rubric} category={r.category} weight={r.weight} />
           ))}
         </div>
+
+        {deliveryDeduction !== undefined && deliveryDeduction < 0 && (
+          <p className="mt-6 border-2 border-flare-600 bg-flare-50 px-5 py-4 text-sm leading-relaxed text-flare-800">
+            <strong className="font-bold tnum">{deliveryDeduction}</strong> from the total for how the song is
+            delivered — a piece a congregation largely watches, or whose length is carried by repeating a line after
+            the words have run out. Worship is something a congregation does; this comes off the whole score rather
+            than off one criterion, because it is a property of the whole song.
+          </p>
+        )}
 
         {overallCeiling !== null && (
           <p className="mt-6 border-2 border-ochre-600 bg-ochre-50 px-5 py-4 text-sm leading-relaxed text-ochre-900">

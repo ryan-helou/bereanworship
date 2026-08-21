@@ -161,6 +161,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
+    "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The title phrase returns constantly, and it is the song's argument rather than a hook. Repetition here is doing the teaching.",
     "performanceOrientation": "BALANCED",
     "assessment": "The strongest thing about it congregationally is that its most memorable phrase is also its doctrine. The costs are length — four verses, two bridges and a tag is more than a service usually has room for — and a first-person grammar that keeps a corporate truth private."
@@ -188,7 +189,13 @@
   },
   "synthesis": {
     "summary": "Built on the pivot Paul builds on, and it does not waste it. The verses state the diagnosis before offering the cure, the chorus says what happened to the singer's sin at the cross rather than merely mentioning it, and the bridge carries through to resurrection rather than stopping at pardon. Its one limitation is grammatical: testimony throughout, so a corporate truth is rehearsed privately.",
-    "themes": ["Grace", "Cross", "Salvation", "Sin", "Resurrection"],
+    "themes": [
+      "Grace",
+      "Cross",
+      "Salvation",
+      "Sin",
+      "Resurrection"
+    ],
     "scriptureReferences": [
       {
         "reference": "Ephesians 2:4-5",
@@ -212,10 +219,10 @@
     "namesGod": true,
     "statesAnAct": true,
     "teachesDoctrine": true,
+    "godDirected": true,
     "groundsItsClaims": true,
-    "engagesScripture": true,
-    "beyondTheSelf": false,
-    "saysSomethingNew": true
+    "corporateVoice": false,
+    "engagesScripture": true
   },
   "sources": [
     "https://www.worshiptogether.com/songs/oh-but-god-davy-flowers/",

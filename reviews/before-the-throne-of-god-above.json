@@ -169,6 +169,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
+    "repetition": "PURPOSEFUL",
     "repetitionAssessment": "Almost none. Three verses of new material, which is unusual and demands more attention than a modern song — but nothing is repeated because nothing needs padding.",
     "performanceOrientation": "CONGREGATIONAL",
     "assessment": "A hymn rather than a modern song, and it asks a congregation to follow an argument rather than ride a build. That is a real demand, and worth making: the payoff is a room that has just reasoned its way through justification. The only costs are the singular voice and some older phrasing."
@@ -207,7 +208,14 @@
   },
   "synthesis": {
     "summary": "As doctrinally dense as congregational song gets, and nothing in it is loose. It opens on Christ's present intercession rather than his past death, answers the accusing conscience with a legal argument rather than a feeling, and names the singer's righteousness as someone else's. Written for the worst week a believer will have.",
-    "themes": ["Christ", "Grace", "Assurance", "Cross", "Resurrection", "Faith"],
+    "themes": [
+      "Christ",
+      "Grace",
+      "Assurance",
+      "Cross",
+      "Resurrection",
+      "Faith"
+    ],
     "scriptureReferences": [
       {
         "reference": "Hebrews 7:25",
@@ -231,10 +239,10 @@
     "namesGod": true,
     "statesAnAct": true,
     "teachesDoctrine": true,
+    "godDirected": true,
     "groundsItsClaims": true,
-    "engagesScripture": true,
-    "beyondTheSelf": true,
-    "saysSomethingNew": true
+    "corporateVoice": false,
+    "engagesScripture": true
   },
   "sources": [
     "https://hymnary.org/text/before_the_throne_of_god_above",

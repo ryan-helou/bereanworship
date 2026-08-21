@@ -60,10 +60,10 @@
     "namesGod": true,
     "statesAnAct": false,
     "teachesDoctrine": true,
+    "godDirected": false,
     "groundsItsClaims": false,
-    "engagesScripture": true,
-    "beyondTheSelf": false,
-    "saysSomethingNew": false
+    "corporateVoice": false,
+    "engagesScripture": true
   },
   "theological": {
     "strengths": [
@@ -173,6 +173,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
+    "repetition": "HEAVY",
     "repetitionAssessment": "The bridge repeats at length and is the song's least defensible content, so the repetition works against it rather than for it.",
     "performanceOrientation": "PERFORMANCE_LEANING",
     "assessment": "An anthem before it is a congregational song. One clear image carries it and the verses are within reach, but the length and the sustained bridge put the emotional centre beyond most rooms — and the section they cannot sing is the section carrying the request the review most questions."

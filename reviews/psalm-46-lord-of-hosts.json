@@ -140,6 +140,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
+    "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The refrain repeats as the psalm's refrain repeats. What returns is a scriptural sentence rather than a hook, which is repetition doing its proper work.",
     "performanceOrientation": "BALANCED",
     "assessment": "Corporate by construction and usable in real trouble, which is a good combination. The practical caution is the chorus: it sits high and it is the line the congregation most needs to sing, so the key deserves care."
@@ -178,7 +179,13 @@
   },
   "synthesis": {
     "summary": "A psalm set faithfully rather than loosely referenced: the argument stays in order, the refrain stays the refrain, and the worst case is left undomesticated — mountains falling into the sea, not a difficult week. Its confidence rests on God's presence rather than the trouble passing. As with the psalm, Christ is not named.",
-    "themes": ["God", "Sovereignty", "Suffering", "Scripture", "Hope"],
+    "themes": [
+      "God",
+      "Sovereignty",
+      "Suffering",
+      "Scripture",
+      "Hope"
+    ],
     "scriptureReferences": [
       {
         "reference": "Psalm 46:1-3",
@@ -198,10 +205,10 @@
     "namesGod": true,
     "statesAnAct": false,
     "teachesDoctrine": true,
+    "godDirected": true,
     "groundsItsClaims": true,
-    "engagesScripture": true,
-    "beyondTheSelf": true,
-    "saysSomethingNew": false
+    "corporateVoice": true,
+    "engagesScripture": true
   },
   "sources": [
     "https://songselect.ccli.com/songs/7053138/psalm-46-lord-of-hosts",

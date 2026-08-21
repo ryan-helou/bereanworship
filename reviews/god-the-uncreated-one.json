@@ -150,10 +150,10 @@
     "namesGod": true,
     "statesAnAct": true,
     "teachesDoctrine": true,
+    "godDirected": true,
     "groundsItsClaims": true,
-    "engagesScripture": true,
-    "beyondTheSelf": true,
-    "saysSomethingNew": true
+    "corporateVoice": true,
+    "engagesScripture": true
   },
   "theological": {
     "assessment": "Unusually substantial for a contemporary song: aseity, creation, providence, immutability, incarnation, substitution, resurrection and reign, all orthodox and none muddled. Its limits are scope rather than accuracy — human sin is assumed and the Spirit is absent.",
@@ -258,6 +258,7 @@
     "assessment": "Built for a congregation: strophic, one repeated refrain shape, and a voice that moves from declaration to address. Length invites cutting. The vocal range was not independently verified — published in E and F, so check the tessitura locally before introducing it.",
     "singability": "UNKNOWN",
     "vocalRangeNote": "Not verified. Published arrangements appear in E and F; check locally and transpose without hesitation.",
+    "repetition": "PURPOSEFUL",
     "repetitionAssessment": "What repeats is 'forever' — the claim the hymn exists to make. Meaningful repetition, not padding.",
     "performanceOrientation": "CONGREGATIONAL",
     "strengths": [

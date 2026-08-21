@@ -55,10 +55,10 @@
     "namesGod": true,
     "statesAnAct": false,
     "teachesDoctrine": true,
+    "godDirected": true,
     "groundsItsClaims": true,
-    "engagesScripture": true,
-    "beyondTheSelf": true,
-    "saysSomethingNew": false
+    "corporateVoice": false,
+    "engagesScripture": true
   },
   "theological": {
     "strengths": [
@@ -175,6 +175,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated. The caution about the key is general to congregational singing, not a measurement of this melody."
     },
+    "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The chorus and the repeated verse-ending both carry content rather than filler. Repetition here is doing pastoral work: the point of the song is that the same rest is available every time.",
     "performanceOrientation": "CONGREGATIONAL",
     "assessment": "Well shaped for a congregation, and unusually considerate of people who are struggling — it never requires the singer to feel better than they do. The one practical caution is the key: B is high for a mixed room, and the song is worth transposing rather than losing at the top."

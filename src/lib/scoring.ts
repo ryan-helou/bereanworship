@@ -174,10 +174,10 @@ export const SUBSTANCE_TESTS = [
   { key: 'namesGod', points: 1, label: 'Names God or Christ specifically' },
   { key: 'statesAnAct', points: 2, label: 'States something God has done' },
   { key: 'teachesDoctrine', points: 2, label: 'Teaches doctrine, not just feeling' },
-  { key: 'groundsClaims', points: 2, label: "Grounds its claims in God's character or acts" },
+  { key: 'godDirected', points: 2, label: 'Addressed to God, or about him — not about the singer' },
+  { key: 'groundsClaims', points: 1, label: "Grounds its claims in God's character or acts" },
+  { key: 'corporateVoice', points: 1, label: 'A congregation can sing it as "we"' },
   { key: 'engagesScripture', points: 1, label: 'Engages a passage directly' },
-  { key: 'beyondTheSelf', points: 1, label: "Moves beyond the singer's experience" },
-  { key: 'saysSomethingNew', points: 1, label: 'Says something a congregation did not know' },
 ] as const;
 
 export type SubstanceKey = (typeof SUBSTANCE_TESTS)[number]['key'];
@@ -245,6 +245,44 @@ export function scoreSubstance(answers: SubstanceAnswers | null | undefined): Su
     failed: failed.map((t) => t.key),
     unassessed: false,
   };
+}
+
+/**
+ * What a song's delivery costs it.
+ *
+ * Both of these were being recorded and then ignored. `performanceOrientation`
+ * was captured on every review and never reached the score at all, and
+ * repetition was a paragraph of free text — so a song built around a lead
+ * voice and eight minutes of one repeated line scored the same as one written
+ * for a room. Congregational song is something a congregation does; a piece
+ * that a congregation mostly watches has failed at the thing it is for,
+ * however sound its words.
+ */
+export const PERFORMANCE_PENALTY: Record<string, number> = {
+  CONGREGATIONAL: 0,
+  BALANCED: 0,
+  PERFORMANCE_LEANING: -2,
+  PERFORMANCE: -3,
+};
+
+/**
+ * Repetition is not a fault in itself — a refrain that returns to a confession
+ * deepens it. What costs a song is repetition doing the work the words are
+ * not: sustaining a mood past the point the content ran out.
+ */
+export const REPETITION_PENALTY: Record<string, number> = {
+  NONE: 0,
+  PURPOSEFUL: 0,
+  HEAVY: -1,
+  EXCESSIVE: -2,
+};
+
+/** Points off the overall per level of delivery penalty. */
+export const DELIVERY_POINTS_PER_LEVEL = 3;
+
+export interface CommunalDelivery {
+  performanceOrientation?: string | null;
+  repetition?: string | null;
 }
 
 /** The lower axis binds; the higher lifts it by a fraction of the gap. */
@@ -429,6 +467,8 @@ export interface SongScoreResult {
   overallCeiling: number | null;
   /** Criteria excluded from the average because they had no findings. */
   unrated: ScoreComponent[];
+  /** Points deducted from the overall for performance orientation and repetition. */
+  deliveryDeduction: number;
   recommendation: Recommendation;
 }
 
@@ -534,6 +574,7 @@ function buildComponent(
 export function scoreSong(
   findings: ScorableSongFinding[],
   substanceAnswers?: SubstanceAnswers | null,
+  delivery?: CommunalDelivery | null,
 ): SongScoreResult {
   const theologicalFindings = findings.filter((f) => f.component === 'THEOLOGICAL');
 
@@ -565,7 +606,20 @@ export function scoreSong(
         score: Math.round(combineAxes(soundness.level, substance.level)) * 10,
       };
 
+  // Delivery is deducted from the OVERALL rather than from communal.
+  //
+  // Communal is 20% of a weighted average that is then capped at the biblical
+  // score, so whenever doctrine binds — which is most songs — a communal drop
+  // changes nothing at all. Putting the penalty there looked like weighing hype
+  // and did not actually weigh it. Whether a congregation sings a song or
+  // watches it is a property of the whole song, so it comes off the whole
+  // score.
+  const performancePenalty = PERFORMANCE_PENALTY[delivery?.performanceOrientation ?? 'BALANCED'] ?? 0;
+  const repetitionPenalty = REPETITION_PENALTY[delivery?.repetition ?? 'NONE'] ?? 0;
+  const deliveryPenalty = performancePenalty + repetitionPenalty;
+
   const communal = rateComponent('COMMUNAL', findings.filter((f) => f.component === 'COMMUNAL'));
+
   const clarity = rateComponent('CLARITY', findings.filter((f) => f.component === 'CLARITY'));
 
   const rated: Array<[ScoreComponent, ComponentRubric]> = (
@@ -596,6 +650,7 @@ export function scoreSong(
       overallScore: null,
       overallCeiling: null,
       unrated,
+      deliveryDeduction: 0,
       recommendation: 'NOT_RECOMMENDED',
     };
   }
@@ -608,8 +663,8 @@ export function scoreSong(
   // additive model needed to override its own answer: a singable, clear song
   // cannot average its way past bad teaching.
   const doctrineCap = theological.score;
-  const overallScore =
-    doctrineCap === null ? weightedScore : Math.min(weightedScore, doctrineCap);
+  const cappedScore = doctrineCap === null ? weightedScore : Math.min(weightedScore, doctrineCap);
+  const overallScore = Math.max(0, cappedScore + deliveryPenalty * DELIVERY_POINTS_PER_LEVEL);
 
   return {
     theological,
@@ -624,6 +679,7 @@ export function scoreSong(
     overallScore,
     overallCeiling: doctrineCap !== null && doctrineCap < weightedScore ? doctrineCap : null,
     unrated,
+    deliveryDeduction: deliveryPenalty * DELIVERY_POINTS_PER_LEVEL,
     recommendation: classifySongRecommendation(overallScore, theological.level, soundness.disqualifying),
   };
 }

@@ -143,6 +143,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
+    "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The refrain returns after every verse and repeats its central phrase within itself. What repeats is the hymn's whole claim, and the repetition is doing pastoral work rather than filling time.",
     "performanceOrientation": "CONGREGATIONAL",
     "assessment": "One of the most durable congregational songs in English. It needs no arrangement, is known across traditions, and can be sung honestly by someone in grief. Its structure — four troubles, one answer — teaches by shape as well as by content."
@@ -181,7 +182,13 @@
   },
   "synthesis": {
     "summary": "A hymn about suffering that answers it with doctrine rather than sentiment. It states substitution in terms that leave nothing owing, grounds its peace in the cross rather than in the trouble lifting, and ends on Christ's return rather than the singer's endurance. Written out of bereavement, and singable by the bereaved without pretending.",
-    "themes": ["Cross", "Suffering", "Hope", "Assurance", "Salvation"],
+    "themes": [
+      "Cross",
+      "Suffering",
+      "Hope",
+      "Assurance",
+      "Salvation"
+    ],
     "scriptureReferences": [
       {
         "reference": "Colossians 2:14",
@@ -205,10 +212,10 @@
     "namesGod": true,
     "statesAnAct": true,
     "teachesDoctrine": true,
+    "godDirected": true,
     "groundsItsClaims": true,
-    "engagesScripture": true,
-    "beyondTheSelf": true,
-    "saysSomethingNew": true
+    "corporateVoice": false,
+    "engagesScripture": true
   },
   "sources": [
     "https://hymnary.org/text/when_peace_like_a_river_attendeth_my_way",

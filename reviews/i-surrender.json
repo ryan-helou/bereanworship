@@ -54,10 +54,10 @@
     "namesGod": true,
     "statesAnAct": false,
     "teachesDoctrine": true,
+    "godDirected": false,
     "groundsItsClaims": false,
-    "engagesScripture": false,
-    "beyondTheSelf": false,
-    "saysSomethingNew": false
+    "corporateVoice": false,
+    "engagesScripture": false
   },
   "theological": {
     "strengths": [
@@ -167,6 +167,7 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
+    "repetition": "EXCESSIVE",
     "repetitionAssessment": "Extensive, and tied to a rising arrangement rather than to accumulating content. The repetition is doing the work the words are not.",
     "performanceOrientation": "PERFORMANCE_LEANING",
     "assessment": "The words are easy enough to sing, but the song is shaped around a long build that a congregation cannot sustain and a platform can. Used as written it produces a room that listens through the section the song cares most about."
