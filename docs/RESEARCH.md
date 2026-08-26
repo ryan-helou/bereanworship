@@ -143,6 +143,32 @@ The same first review had the singing perspective wrong — recorded as
 third-person throughout when the fourth verse turns to direct address
 ("We crown You…"). Read the whole text before characterising it.
 
+## Researching a song without touching its lyrics
+
+Reviews need facts about a song's contents — how many verses, whether the cross is
+named, where a phrase sits. Getting those without pulling the lyric into context is a
+method, and it has one hard rule that has now been learned twice the expensive way.
+
+**Never put a quoted lyric phrase in a search query or a fetch prompt.** Searching for a
+line in quotation marks is a request to find and reproduce that line, and it trips the
+same copyright guardrail as extracting the text wholesale — even when the intent is
+merely to identify the song. Two sessions have been blocked mid-task this way: once
+extracting lyrics from score PDFs, and once from a single quoted opening line dropped
+into an otherwise ordinary identification search.
+
+**Identify by metadata.** Title, artist, writers, year, album, publisher, CCLI number.
+Every identification search in the catalogue that used those succeeded; the one that
+added a quoted first line was refused.
+
+**Ask structural questions instead.** A fetch prompt that asks *how many verses are
+there, is the cross named and in which section, is the voice "I" or "we"* returns what a
+review needs and no lyric text. Prompts that work are phrased "answer in your own words,
+quoting at most five words, and do not reproduce the lyrics".
+
+**When a song cannot be identified from metadata, ask rather than guess.** "Yahweh
+(Psalm 91)" was left out of the catalogue for exactly this reason — no well-known song
+by that title sets that psalm, and reviewing the wrong song is worse than a delay.
+
 ## Copyright
 
 Enforced at the schema boundary, not left to the prompt:
