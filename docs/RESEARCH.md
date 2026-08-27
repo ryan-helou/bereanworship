@@ -165,6 +165,22 @@ there, is the cross named and in which section, is the voice "I" or "we"* return
 review needs and no lyric text. Prompts that work are phrased "answer in your own words,
 quoting at most five words, and do not reproduce the lyrics".
 
+**The page you open counts as much as the words you type.** A careful prompt does not
+save a fetch whose target is a lyric sheet: what returns is the song, and the guardrail
+reads what came back, not what was asked for. This was learned a third time on a hymn
+page fetched with a properly-worded structural prompt. So choose sources that are
+*about* the song rather than sources that *are* it:
+
+| Fetch these — writing about the song | Never fetch these — the song itself |
+|---|---|
+| Wikipedia song articles | `hymnary.org/text/…`, `hymnal.net`, any hymnal text page |
+| hymnologyarchive.com | Lyrics databases and lyric-video pages |
+| Publisher and writer story pages (worshiptogether, CityAlight, Bethel) | Chord/lyric sheets, lead sheets, PraiseCharts song PDFs |
+| Song histories (umcdiscipleship, premierchristianity) | Anything whose page title is the song's opening line |
+
+A review needs how many verses there are, whether the cross is named, and where — all
+of which the left column answers. None of it requires the text.
+
 **When a song cannot be identified from metadata, ask rather than guess.** "Yahweh
 (Psalm 91)" was left out of the catalogue for exactly this reason — no well-known song
 by that title sets that psalm, and reviewing the wrong song is worse than a delay.
