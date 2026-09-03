@@ -125,16 +125,16 @@
     "concerns": [
       {
         "category": "Doctrine of God",
-        "title": "God's motive stated as not wanting to be without us",
-        "explanation": "Read strictly this makes the incarnation answer a lack in God. John Piper and Sam Storms have both said publicly that the line sits too easily beside a God who created out of need; the writer's defence cites Christ's desire that we be with him. It is imprecision on aseity, not a denial of it.",
+        "title": "Christ's coming is given a want in God as its motive",
+        "explanation": "As written, Christ came because God lacked something without us: the incarnation answers a want in God, not his free love. Piper and Storms object publicly; Fielding's defence cites Christ's desire to have us with him, true but not what the words say. Sung once and mostly heard as love, it misstates a core doctrine.",
         "songLocation": "VERSE_2",
         "locationDetail": "the opening couplet",
-        "severity": "MINOR",
+        "severity": "MODERATE",
         "centrality": "CORE",
         "recurring": false,
         "lyricExcerpt": "You didn't want heaven without us",
         "scriptureReference": "Acts 17:24-25",
-        "scriptureRationale": "God is not served by human hands as though he needed anything — the doctrine the phrasing strains against.",
+        "scriptureRationale": "God is not served by human hands as though he needed anything — the doctrine the line misstates.",
         "likelihood": "POSSIBLE"
       }
     ],
@@ -146,7 +146,7 @@
       "The uniqueness of Christ",
       "The reign of Christ"
     ],
-    "assessment": "Doctrinally the strongest song in wide congregational use from this catalogue. Three verses carry incarnation, cross and resurrection in order, the opening line reaches back before Bethlehem, and the torn veil is paired with the empty tomb. One couplet strains — it locates the motive of the incarnation in God not wanting to be without us, which two serious theologians have publicly flagged. That is an imprecision about aseity rather than an error, and it does not undo the rest."
+    "assessment": "Three verses carry incarnation, cross and resurrection in order, open before Bethlehem and pair the torn veil with the empty tomb; substance as full as any. One couplet gets the doctrine of God wrong: Christ comes because God did not want to be without us — a want in God, not his free love. Piper and Storms object publicly; the writer's defence is a true doctrine the words do not say. Sung once and rarely heard as need, it is misleading wording, not false teaching — but about who God is, and it sets the ceiling."
   },
   "communal": {
     "strengths": [
@@ -234,7 +234,7 @@
     "assessment": "Unusually clear for a song carrying this much doctrine. Every central claim is made in plain words, and the object of worship is never in doubt. The single soft spot is the couplet on why Christ came, which leaves more room than it needs to."
   },
   "synthesis": {
-    "summary": "Three verses carry the incarnation, the cross and the resurrection in order, opening before Bethlehem and pairing the torn veil with the empty tomb. Doctrinally the strongest song here. One couplet locates the motive of the incarnation in God not wanting to be without us — an imprecision about God's self-sufficiency that Piper and Storms have both noted publicly.",
+    "summary": "Three verses carry the incarnation, the cross and the resurrection in order, opening before Bethlehem and pairing the torn veil with the empty tomb. One couplet gives the incarnation a motive in God not wanting to be without us, which misstates God's self-sufficiency — a fault on a core doctrine that Piper and Storms have both raised publicly, and that caps the score despite the substance around it.",
     "themes": [
       "Christ",
       "Cross",
@@ -257,7 +257,7 @@
       },
       {
         "reference": "Acts 17:24-25",
-        "relevance": "God's self-sufficiency, the doctrine the second verse's phrasing strains against."
+        "relevance": "God's self-sufficiency, the doctrine the second verse misstates."
       }
     ]
   },
