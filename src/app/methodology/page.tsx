@@ -9,6 +9,7 @@ import {
   DELIVERY_POINTS_PER_LEVEL,
   METHODOLOGY_VERSION,
   RUBRIC_MAX_LEVEL,
+  SOUNDNESS_BASE,
   SCORE_BANDS,
   SCORING_VERSION,
   SONG_WEIGHTS,
@@ -194,12 +195,13 @@ export default function MethodologyPage() {
             {`soundness — set by the single worst thing the song gets WRONG
 substance — a fixed checklist of what the song actually gives
 
-the lower of the two sets the level; the higher lifts it slightly`}
+the lower of the two sets the level
+an error binds outright; a clean record lifts a thin song a little`}
           </pre>
 
           <p>
-            Neither can rescue the other. A song cannot make up for teaching something wrong by teaching a great deal,
-            and it cannot make up for saying little by saying it faultlessly.
+            Content never rescues an error. A song cannot make up for teaching something wrong by teaching a great
+            deal, so a bad line sets the level outright. A clean record earns a thin song a little credit, and no more.
           </p>
 
           <p>
@@ -231,10 +233,10 @@ the lower of the two sets the level; the higher lifts it slightly`}
           <ScaleTable
             rows={[
               { label: 'Nothing wrong', value: `${RUBRIC_MAX_LEVEL}`, note: 'No error was found in the song.' },
-              { label: 'Minor', value: '9', note: 'Imprecision, avoidable vagueness, an imperfect metaphor.' },
-              { label: 'Moderate', value: '6', note: 'Misleading wording or repeated ambiguity about something important.' },
-              { label: 'Major', value: '3', note: 'Significant error about salvation, grace, sin, Christ or God.' },
-              { label: 'Severe', value: '0', note: 'Denial or fundamental distortion of a central Christian doctrine.' },
+              { label: 'Minor', value: `${SOUNDNESS_BASE.MINOR}`, note: 'Imprecision, avoidable vagueness, an imperfect metaphor.' },
+              { label: 'Moderate', value: `${SOUNDNESS_BASE.MODERATE}`, note: 'Misleading wording or repeated ambiguity about something important.' },
+              { label: 'Major', value: `${SOUNDNESS_BASE.MAJOR}`, note: 'Significant error about salvation, grace, sin, Christ or God.' },
+              { label: 'Severe', value: `${SOUNDNESS_BASE.SEVERE}`, note: 'Denial or fundamental distortion of a central Christian doctrine.' },
             ]}
           />
           <p>
@@ -243,7 +245,7 @@ the lower of the two sets the level; the higher lifts it slightly`}
             <strong className="font-semibold text-ink-900">recurs</strong> so the congregation sings it repeatedly, and
             when the wrong meaning is one an ordinary singer would{' '}
             <strong className="font-semibold text-ink-900">actually take</strong> rather than one that needs straining
-            for. A moderate error about a core doctrine, likely to be misread and sung every chorus, lands at 3 — which
+            for. A moderate error about a core doctrine, likely to be misread and sung every chorus, lands at 2 — which
             is the intended weight of a single bad line.
           </p>
           <p>
@@ -595,13 +597,13 @@ the lower of the two sets the level; the higher lifts it slightly`}
             </li>
             <li className="list-disc text-[0.9375rem] leading-relaxed text-ink-600">
               <strong className="font-semibold text-ink-900">Recommended with caution</strong> — meaningful concerns
-              exist and should be considered. Applied when the overall or theological score falls below 80, or any major
-              concern is present.
+              exist and should be considered. Applied when the overall score falls below 80, or the biblical level is 4 —
+              a real error about an important doctrine, singable only with teaching alongside it.
             </li>
             <li className="list-disc text-[0.9375rem] leading-relaxed text-ink-600">
               <strong className="font-semibold text-ink-900">Not recommended</strong> — significant theological or
-              congregational concerns. Applied when the overall or theological score falls below 60, or any severe
-              concern is present.
+              congregational concerns. Applied when the biblical level is 3 or below, the overall score falls below 40,
+              or any major or severe concern is present.
             </li>
           </ul>
         </Section>

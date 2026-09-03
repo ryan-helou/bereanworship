@@ -20,8 +20,8 @@ import type {
   Severity,
 } from '@prisma/client';
 
-export const SCORING_VERSION = '3.0.0';
-export const METHODOLOGY_VERSION = '3.0.0';
+export const SCORING_VERSION = '3.1.0';
+export const METHODOLOGY_VERSION = '3.1.0';
 export const DEFAULT_REVIEW_VERSION = 'v1.0';
 
 /** Component weights for the overall song score. Must sum to 1. */
@@ -156,17 +156,30 @@ export const MERIT_WITHOUT_STRENGTHS = 5;
  *               worst finding sets the level outright.
  *   SUBSTANCE — a fixed checklist of what the song gives a congregation.
  *
- * The lower axis binds and the higher one lifts a little, so neither can
- * rescue the other: an empty song stays mediocre however clean, and a rich
- * song with a bad line still falls.
+ * The lower axis binds. A clean record lifts a thin song a little; content
+ * never lifts a song above its soundness. 3.0.0 let the lift run both ways,
+ * and a moderate error about a core doctrine — a misstatement of who God is —
+ * came out at 70 once the song had passed every content test. That is the
+ * rich song buying off its bad line, which is the one thing this model exists
+ * to refuse. Since 3.1.0 an error sets the level outright.
  *
  * An **absence is not a concern**. "Never mentions the cross" is a zero on the
  * checklist, not a fault lowering soundness — filing it as both penalised a
  * song twice for one gap.
  */
-const SOUNDNESS_BASE: Record<Severity, number> = { MINOR: 9, MODERATE: 6, MAJOR: 3, SEVERE: 0 };
+/**
+ * Anchored to the published levels. Minor is imprecision, one step below
+ * flawless. Moderate is "misleading wording about an important doctrine",
+ * which the level-4 anchor describes ("a real error about an important
+ * doctrine") — so a moderate concern about a core doctrine lands on 4, and one
+ * about an important doctrine one above it. Major is "significant error about
+ * salvation, grace, sin, Christ or God", the level-2 anchor, so a major core
+ * error lands on 1. Before 3.1.0 moderate started at 6 (the "nothing false"
+ * level) and major at 3, a step too generous each.
+ */
+export const SOUNDNESS_BASE: Record<Severity, number> = { MINOR: 9, MODERATE: 5, MAJOR: 2, SEVERE: 0 };
 
-/** How much the better axis may lift the worse one. */
+/** How much a clean record may lift a thin song. Never the other way round. */
 export const SUBSTANCE_LIFT = 0.35;
 
 /** Each checklist test, and what it is worth. Total 10. */
@@ -196,7 +209,7 @@ export interface SoundnessResult {
  *
  * Severity supplies the base; centrality, likelihood and recurrence each move
  * it by one. A moderate error about a core doctrine that an ordinary singer
- * would take, sung every chorus, lands at 3 — which is the intended weight of
+ * would take, sung every chorus, lands at 2 — which is the intended weight of
  * "one bad line".
  */
 export function scoreSoundness(findings: ScorableSongFinding[]): SoundnessResult {
@@ -285,11 +298,15 @@ export interface CommunalDelivery {
   repetition?: string | null;
 }
 
-/** The lower axis binds; the higher lifts it by a fraction of the gap. */
+/**
+ * The lower axis binds. When the song's fault is the lower axis, that is the
+ * level, full stop: no amount of content lifts an error. When the song is
+ * clean but thin, its clean record lifts the thin content by a fraction of
+ * the gap.
+ */
 export function combineAxes(soundness: number, substance: number): number {
-  const lo = Math.min(soundness, substance);
-  const hi = Math.max(soundness, substance);
-  return lo + (hi - lo) * SUBSTANCE_LIFT;
+  if (soundness <= substance) return soundness;
+  return substance + (soundness - substance) * SUBSTANCE_LIFT;
 }
 
 const SEVERITY_RANK: Record<Severity, number> = { MINOR: 1, MODERATE: 2, MAJOR: 3, SEVERE: 4 };
@@ -687,9 +704,9 @@ export function scoreSong(
 /**
  * Song verdicts read off the rubric rather than off score thresholds.
  *
- * The biblical level is decisive on its own: level 2 is "a significant error
- * about something central", and no overall average should be able to call that
- * recommendable.
+ * The biblical level is decisive on its own: level 4 is "a real error about an
+ * important doctrine", singable only with teaching, and anything below it is
+ * not recommendable whatever the average says.
  */
 export function classifySongRecommendation(
   overallScore: number | null,
@@ -702,14 +719,14 @@ export function classifySongRecommendation(
   // the question a worship leader is asking is not "how good on balance" but
   // "can we put this in our congregation's mouth".
   if (disqualifying) return 'NOT_RECOMMENDED';
-  if (theologicalLevel !== null && theologicalLevel <= 2) return 'NOT_RECOMMENDED';
-  // 50 rather than 60. Splitting soundness from substance moved the whole
-  // distribution down — a thin song now scores its thinness instead of
-  // collecting a baseline — and leaving the old threshold in place would have
-  // flipped several songs to "not recommended" on arithmetic drift alone.
-  // That verdict is for songs a congregation should not be given, which is
-  // what the disqualifying rule above is for.
-  if (overallScore < 50) return 'NOT_RECOMMENDED';
+  // Level 4 is "singable only with teaching alongside it" — caution. Level 3
+  // is past that, and is refused.
+  if (theologicalLevel !== null && theologicalLevel <= 3) return 'NOT_RECOMMENDED';
+  // The overall floor sits where a level-4 song lands (40), so the verdict is
+  // read off the biblical level and the floor only catches a song dragged
+  // under it by delivery or by being unsingable. It was 50 under 3.0.0; a
+  // level-4 song now scores 40 and is a caution, not a refusal.
+  if (overallScore < 40) return 'NOT_RECOMMENDED';
   if ((theologicalLevel !== null && theologicalLevel <= 4) || overallScore < 80) return 'RECOMMENDED_WITH_CAUTION';
   return 'RECOMMENDED';
 }

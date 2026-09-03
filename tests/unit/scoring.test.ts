@@ -275,7 +275,7 @@ describe('the two doctrinal axes', () => {
     const bad = scoreSoundness([
       concern({ severity: 'MODERATE', centrality: 'CORE', likelihood: 'LIKELY', recurring: true }),
     ]);
-    expect(bad.level).toBe(3);
+    expect(bad.level).toBe(2);
   });
 
   it('flags a major error as settling the verdict by itself', () => {
@@ -313,9 +313,11 @@ describe('the two doctrinal axes', () => {
       [concern({ severity: 'MODERATE', centrality: 'CORE', likelihood: 'LIKELY', recurring: true })],
       FULL,
     );
-    // Full marks on every content test, and it still lands low.
+    // Full marks on every content test, and it still lands where the bad line
+    // put it: content never lifts an error.
     expect(rich.substance.level).toBe(10);
-    expect(rich.theologicalScore).toBeLessThanOrEqual(60);
+    expect(rich.theologicalScore).toBe(rich.soundness.level * 10);
+    expect(rich.theologicalScore).toBeLessThanOrEqual(20);
   });
 
   it('treats an unfilled checklist as a pre-3.0.0 review and falls back to the rubric', () => {
@@ -324,9 +326,22 @@ describe('the two doctrinal axes', () => {
     expect(result.theologicalScore).not.toBeNull();
   });
 
-  it('lets the lower axis bind in both directions', () => {
-    expect(combineAxes(3, 10)).toBeLessThan(combineAxes(10, 10));
-    expect(combineAxes(10, 3)).toBe(combineAxes(3, 10));
+  it('never lets content lift a song above its soundness', () => {
+    expect(combineAxes(3, 10)).toBe(3);
+    expect(combineAxes(5, 10)).toBe(5);
+    expect(combineAxes(10, 10)).toBe(10);
+  });
+
+  it('lets a clean record lift a thin song a little, and no more', () => {
+    expect(combineAxes(10, 3)).toBeGreaterThan(3);
+    expect(combineAxes(10, 3)).toBeLessThan(6);
+  });
+
+  it('puts a moderate core error on the level that names it', () => {
+    // Level 4: "misleading wording, or a real error about an important doctrine".
+    expect(scoreSoundness([concern({ severity: 'MODERATE', centrality: 'CORE' })]).level).toBe(4);
+    // Level 2: "a significant error about something central".
+    expect(scoreSoundness([concern({ severity: 'MAJOR', centrality: 'IMPORTANT' })]).level).toBe(2);
   });
 });
 
@@ -424,15 +439,16 @@ describe('classifySongRecommendation', () => {
   });
 
   it('refuses to recommend a significant error about something central', () => {
+    expect(classifySongRecommendation(99, 3)).toBe('NOT_RECOMMENDED');
     expect(classifySongRecommendation(99, 2)).toBe('NOT_RECOMMENDED');
     expect(classifySongRecommendation(99, 0)).toBe('NOT_RECOMMENDED');
   });
 
-  it('refuses to recommend below 50', () => {
-    expect(classifySongRecommendation(49, 10)).toBe('NOT_RECOMMENDED');
-    // 50-79 is caution, not refusal: splitting soundness from substance moved
-    // the distribution down, and a thin song is not a dangerous one.
-    expect(classifySongRecommendation(50, 10)).toBe('RECOMMENDED_WITH_CAUTION');
+  it('refuses to recommend below 40', () => {
+    expect(classifySongRecommendation(39, 10)).toBe('NOT_RECOMMENDED');
+    // 40-79 is caution, not refusal: 40 is where a level-4 song lands, and
+    // level 4 is "singable only with teaching", not "do not sing".
+    expect(classifySongRecommendation(40, 4)).toBe('RECOMMENDED_WITH_CAUTION');
   });
 
   it('refuses to recommend a major error whatever the total', () => {
