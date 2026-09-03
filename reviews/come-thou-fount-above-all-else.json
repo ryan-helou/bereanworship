@@ -1,0 +1,257 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Come Thou Fount (Above All Else)",
+    "artist": "Shane & Shane",
+    "artistType": "GROUP",
+    "album": "Hymns, Vol. 1",
+    "releaseYear": 2018,
+    "genre": "Traditional Hymn",
+    "isPublicDomain": false,
+    "notes": "Text by Robert Robinson, 1758, first printed in London in 1759; the tune NETTLETON appeared in Wyeth's Repository of Sacred Music in 1813. Both are public domain. Shane Barnard added a chorus, copyright 2013 Songs From Wellhouse, CCLI 7029505, first released on The Worship Initiative, Vol. 1 in 2014 and re-recorded for Hymns, Vol. 1 in 2018. The recording uses the standard three stanzas and omits Robinson's stanza on the last day. The story that Robinson later wandered from the faith his third verse confesses rests on an 1870 anecdote that no historian has verified."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "Robinson's three standard stanzas, then a chorus by Shane Barnard sung four times, with tags. Verse one is praise to God as the source of blessing and a request to be taught to sing; verse two is testimony — a memorial stone raised to God's help, and Jesus seeking the wandering stranger and rescuing him by his blood; verse three is debt to grace, the confession of a heart still inclined to drift, and the plea to be bound and sealed. The chorus adores God's name above everything and asks that the heart be tuned to praise, echoing the first verse. First person singular throughout; God is addressed directly except in the second verse, which narrates.",
+    "claims": [
+      {
+        "claim": "God is the source of every blessing and his mercy never ceases, so he deserves the loudest praise.",
+        "subject": "The goodness and mercy of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer needs God to tune his heart before he can praise rightly.",
+        "subject": "Worship as God's gift",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer raises a memorial to God's help so far and hopes to reach home by God's good pleasure.",
+        "subject": "Providence",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus sought the singer while he was a stranger wandering from God, and rescued him from danger by his own blood.",
+        "subject": "Christ's seeking and the atonement",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer is a daily debtor to grace, and asks grace to bind his wandering heart to God.",
+        "subject": "Grace",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer is still inclined to drift from the God he loves, and asks God to seal his heart for heaven.",
+        "subject": "Sin and perseverance",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's name is to be adored above everything else.",
+        "subject": "Worship",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Grace",
+        "title": "A debtor to grace, daily",
+        "explanation": "The third verse credits grace with everything and asks grace to do the keeping too. Salvation and perseverance are both placed in God's hands, and the singer's own part is to confess that he cannot hold on.",
+        "songLocation": "VERSE_3",
+        "locationDetail": "the opening couplet",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Philippians 1:6",
+        "scriptureRationale": "He who began a good work in you will bring it to completion — the keeping the verse asks for is promised."
+      },
+      {
+        "category": "Christology",
+        "title": "Christ seeks the wanderer and pays in blood",
+        "explanation": "The second verse has Jesus do the finding. The singer was a stranger wandering from God, and the rescue cost Christ his blood, placed between the sinner and the danger. The initiative and the price are both his.",
+        "songLocation": "VERSE_2",
+        "locationDetail": "the second half",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Luke 19:10",
+        "scriptureRationale": "The Son of Man came to seek and to save the lost — the order the verse keeps."
+      },
+      {
+        "category": "Doctrine of sin",
+        "title": "Honest about the believer's drift",
+        "explanation": "The confession is not of past sin but of a present tendency: the heart still leans away from the God it loves. Few hymns let a congregation say that, and this one builds its plea for sealing on it.",
+        "songLocation": "VERSE_3",
+        "locationDetail": "the third couplet",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 119:176",
+        "scriptureRationale": "I have gone astray like a lost sheep; seek your servant — the psalmist's confession, made in the same breath as his love."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "Opens on God as the source, not the singer as the subject",
+        "explanation": "The first verse names God as the spring of every blessing and his mercy as unceasing before it asks anything. Praise is grounded in who God is, and the singer's only request is to be enabled to give it.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Lamentations 3:22-23",
+        "scriptureRationale": "His mercies never come to an end; they are new every morning — the ceaseless mercy the verse names."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God as the source of every blessing",
+      "The unceasing mercy of God",
+      "Christ's seeking of the lost",
+      "Redemption by the blood of Christ",
+      "Grace as the ground of salvation and perseverance",
+      "The believer's continuing proneness to sin",
+      "God's sealing of his people"
+    ],
+    "assessment": "Three stanzas with nothing to correct. God is the source of all blessing, Christ sought the wandering stranger and rescued him at the cost of his blood, and the singer is a debtor to grace who cannot keep himself and asks to be kept. The confession of a heart still inclined to drift is the hymn's distinctive gift. The added chorus adores God's name above all else and asks the heart to be tuned — sound, though it adds no doctrine to Robinson's. Sin is implied rather than named, and the resurrection is absent."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Tune",
+        "title": "NETTLETON carries a room by itself",
+        "explanation": "The 1813 tune is among the most widely known in English hymnody and moves within an easy compass. A congregation of any tradition sings it unaccompanied, and the added chorus sits on the same harmonic ground.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Form",
+        "title": "The chorus gives a modern room a place to land",
+        "explanation": "Shane Barnard's addition turns a three-verse hymn into the verse-and-chorus shape most congregations now expect, without altering Robinson's text. Rooms that struggle with straight hymnody find a handle.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Corporate voice",
+        "title": "A private confession sung in unison",
+        "explanation": "Every line is I. The memorial stone, the wandering and the plea to be sealed are one person's testimony, so the room sings several hundred individual confessions rather than one. Whitefield's plural revision did not survive.",
+        "songLocation": "THROUGHOUT",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": true,
+        "likelihood": "POSSIBLE"
+      },
+      {
+        "category": "Repetition",
+        "title": "The chorus is sung four times and says one thing",
+        "explanation": "The added section is a single affirmation and a single request, and the recording repeats it four times with tags. It is a genuine refrain, but a congregation gains nothing after the second pass.",
+        "songLocation": "CHORUS",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Shane & Shane publish it in D at a slow three; charts also circulate in C. NETTLETON itself spans about an octave, and the chorus stays close to it.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "D (Shane & Shane); also C",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The verses do not repeat. The added chorus returns to one petition four times, which is a refrain deepening a request rather than filling time, though it runs longer than it needs.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Built on one of the most singable tunes in the language, and the added chorus gives congregations raised on choruses a way in without touching Robinson's words. Two reservations: the voice is a sustained I, so the room sings a personal testimony in unison rather than a shared confession, and the chorus repeats past the point of adding anything. Leaders can sing it twice rather than four times and lose nothing."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Praise, testimony, confession — in that order",
+        "explanation": "Each verse does distinct work and the sequence is legible: who God is, what he has done for the singer, what the singer still needs. A hearer can follow the argument without a printed page.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Imagery",
+        "title": "Concrete pictures for abstract grace",
+        "explanation": "A spring, a raised stone, a stranger rescued, a heart chained and sealed. Robinson makes grace and perseverance visible, and the images are the reason the hymn is remembered where a doctrinal summary would not be.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Vocabulary",
+        "title": "Ebenezer is a riddle without 1 Samuel",
+        "explanation": "The second verse opens on a Hebrew place-name most singers cannot place, and two more archaic words follow in the same verse. The central claims survive, but a newcomer sings a line whose meaning depends on a chapter they have not read; several hymnals substitute a clearer phrase.",
+        "songLocation": "VERSE_2",
+        "locationDetail": "the opening line",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": false,
+        "likelihood": "LIKELY",
+        "scriptureReference": "1 Samuel 7:12",
+        "scriptureRationale": "Samuel names the stone Ebenezer, saying the LORD has helped us thus far — the meaning the verse assumes its singer knows."
+      }
+    ],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in its argument and vivid in its pictures, with a vocabulary that shows its age. The sequence from praise to testimony to confession is easy to follow, and the images do real work. But the second verse leans on a Hebrew place-name and two archaic words that a first-time singer will not know, and the hymn does not gloss them. The added chorus is plain throughout."
+  },
+  "synthesis": {
+    "summary": "Robinson's hymn lets a congregation confess that the heart still drifts, and rests salvation and perseverance alike on grace and the blood of Christ who sought the wanderer. Shane Barnard's chorus adds a singable handle and no new doctrine. The voice is a sustained I, the chorus repeats longer than it needs, and the Ebenezer line will puzzle a newcomer. Suited to any congregation that will teach the second verse.",
+    "themes": [
+      "Grace",
+      "Christ",
+      "Sin",
+      "Worship",
+      "Assurance"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "1 Samuel 7:12",
+        "relevance": "The Ebenezer stone — the LORD has helped us thus far — which the second verse raises."
+      },
+      {
+        "reference": "Luke 19:10",
+        "relevance": "Christ seeking and saving the lost, the order the second verse keeps."
+      },
+      {
+        "reference": "Philippians 1:6",
+        "relevance": "God completing the work he began — the keeping the third verse asks for."
+      },
+      {
+        "reference": "Ephesians 1:13-14",
+        "relevance": "Sealed with the Spirit as the guarantee of the inheritance — the sealing the third verse pleads for."
+      },
+      {
+        "reference": "Lamentations 3:22-23",
+        "relevance": "Mercies that never cease, the ground of the first verse's praise."
+      }
+    ]
+  },
+  "sources": [
+    "https://www.hymnologyarchive.com/come-thou-fount",
+    "https://en.wikipedia.org/wiki/Come_Thou_Fount_of_Every_Blessing",
+    "https://www.hymnologyarchive.com/robert-robinson",
+    "https://en.wikipedia.org/wiki/Robert_Robinson_(Baptist)"
+  ]
+}

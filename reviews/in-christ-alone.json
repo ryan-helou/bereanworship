@@ -1,0 +1,255 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "In Christ Alone",
+    "artist": "Keith & Kristyn Getty",
+    "artistType": "GROUP",
+    "album": "In Christ Alone",
+    "releaseYear": 2001,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Words by Stuart Townend, music by Keith Getty; melody sketched in 2000 and text completed in January 2001, the first hymn the two wrote together. Copyright 2001 Thankyou Music, CCLI 3350395. First recorded on New Irish Hymns in 2001; the Gettys' own 2006 album carries it, as does Passion's 2013 recording with Kristian Stanfill. Shane & Shane's version is on Hymns, Vol. 1 (2018) and is the Getty/Townend hymn, not the 1990 Koch and Craig song of the same title. In 2013 the PCUSA hymnal committee dropped it after the writers refused to replace the line on God's wrath being satisfied."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "Four eight-line verses and nothing else: no chorus, bridge or tag. Verse one places all hope in Christ and names what he is to the believer, with the comfort that follows. Verse two is the incarnation and the cross: God in the flesh, rejected by the people he came for, dying as the sinner's substitute so that God's justice is satisfied. Verse three is the burial and resurrection, sin's curse broken, and the believer's union with Christ by his blood. Verse four is assurance: freedom from guilt and fear, Christ governing the believer's whole life, and his keeping to the end. First person singular throughout, about Christ rather than addressed to him; credal in shape.",
+    "claims": [
+      {
+        "claim": "The singer's hope and strength are found in Christ alone, who is the foundation on which everything stands.",
+        "subject": "Christ as the ground of hope",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is God come in the flesh, full deity in a newborn child.",
+        "subject": "The incarnation",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "On the cross Christ died so that the wrath of God was satisfied, and every sin of the singer was laid on him.",
+        "subject": "Penal substitutionary atonement",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ was buried and rose bodily in victory, breaking sin's curse.",
+        "subject": "The resurrection",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer belongs to Christ, bought with his blood.",
+        "subject": "Union with Christ and redemption",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Because of Christ the singer has no guilt and no fear of death.",
+        "subject": "Assurance",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ governs the singer's whole life and keeps him to the end; nothing can remove him from Christ's keeping until Christ returns or calls him home.",
+        "subject": "Perseverance and the return of Christ",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "Says plainly what the cross accomplished",
+        "explanation": "The second verse states that Christ's death satisfied the wrath of God and that the singer's sin was laid on him. It is the line a hymnal committee asked to soften and the writers refused, and it is the hymn's spine: the cross is not an example or a display but a substitution.",
+        "songLocation": "VERSE_2",
+        "locationDetail": "the closing couplet",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Isaiah 53:5-6",
+        "scriptureRationale": "He was pierced for our transgressions, and the LORD has laid on him the iniquity of us all — the verse the couplet paraphrases."
+      },
+      {
+        "category": "Resurrection",
+        "title": "Burial and resurrection given a verse of their own",
+        "explanation": "The third verse does not hurry from the cross to the singer. Christ lies in the ground, then rises in victory, and only then is the singer's standing drawn from it. The order is Paul's, and most songs skip the middle of it.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Corinthians 15:3-4",
+        "scriptureRationale": "Died, buried, raised on the third day — the sequence of first importance, kept intact."
+      },
+      {
+        "category": "Assurance",
+        "title": "Kept by Christ's hand, not the singer's grip",
+        "explanation": "The last verse grounds freedom from guilt and fear in Christ's command over the singer's whole life, and closes on his promise to keep his people. Perseverance is Christ's work, stated as a fact rather than a hope.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MAJOR",
+        "scriptureReference": "John 10:28-29",
+        "scriptureRationale": "No one will snatch them out of my hand — the promise the verse's closing lines rest on."
+      },
+      {
+        "category": "Incarnation",
+        "title": "Full deity in a helpless child",
+        "explanation": "One line holds both natures together: full deity, and a newborn's helplessness. It teaches Chalcedon without the vocabulary, and puts it where the passion narrative begins.",
+        "songLocation": "VERSE_2",
+        "locationDetail": "the opening couplet",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Colossians 2:9",
+        "scriptureRationale": "In him the whole fullness of deity dwells bodily — the claim the line makes about the child."
+      },
+      {
+        "category": "Christology",
+        "title": "Hope is named, then defined",
+        "explanation": "The first verse does not leave hope as a mood. Christ is given specific titles, and the comfort of the verse follows from those titles rather than from the singer's resolve.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 28:16",
+        "scriptureRationale": "A precious cornerstone, a sure foundation; whoever believes will not be in haste — the title the verse builds on."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The deity and true humanity of Christ",
+      "Penal substitutionary atonement",
+      "The bodily resurrection",
+      "Union with Christ",
+      "Redemption by the blood of Christ",
+      "Assurance of salvation",
+      "Perseverance by Christ's power",
+      "The return of Christ"
+    ],
+    "assessment": "The most complete gospel summary in current congregational use, and nothing in it is wrong. Four verses carry Christ as the ground of hope, the incarnation and substitutionary death, the burial and resurrection, and assurance to the end, in that order. The line on God's wrath being satisfied is the one critics have wanted removed, and it is the reason the hymn teaches what it teaches; Isaiah 53 and Romans 3 stand behind it. The Spirit and repentance are not mentioned, which is a limit of scope rather than a fault."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Corporate voice",
+        "title": "A creed the room can sing without a page",
+        "explanation": "The first person is the creed's I, not the diary's. Every verse states what Christ is and has done, so a congregation sings one confession rather than three hundred experiences, and the tune is known across traditions well enough to carry unaccompanied.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Form",
+        "title": "Four verses that each do new work",
+        "explanation": "No chorus and no padding. A room that sings all four has walked from hope to incarnation to resurrection to assurance, and the melody's AABA shape makes the long text learnable.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Demand",
+        "title": "Thirty-two lines with nowhere to rest",
+        "explanation": "There is no refrain, and each verse is dense. A congregation unused to hymnody works to hold the whole text, and rooms often drop a verse, which breaks the sequence that is the hymn's point.",
+        "songLocation": "NOT_LYRICAL",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": false,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "singability": "MODERATE",
+    "vocalRangeNote": "The Gettys publish it in D; Passion's recording is in F and Shane & Shane sing it in E. The tune sits mostly mid-range with a lift in the third phrase; D suits most rooms.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "D (Getty); E (Shane & Shane); F (Passion)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "NONE",
+    "repetitionAssessment": "Nothing repeats. Four verses, each new, and the only recurring element is the title phrase opening the first and last.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Written for a congregation and sung as one across nearly every English-speaking tradition. The credal first person lets a room confess together, the tune is well known and carries unaccompanied, and the four verses reward being sung in full. The demand is real — a long, dense text with no refrain — and leaders who cut a verse should know which link of the argument they are removing."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Precision",
+        "title": "Heavy doctrine in ordinary words",
+        "explanation": "Incarnation, substitution, resurrection and perseverance are all stated without a technical term. The only theological vocabulary in the hymn is the pair of words about wrath being satisfied, and a hearer knows exactly what has been claimed.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Structure",
+        "title": "The gospel in order, one verse each",
+        "explanation": "Hope, incarnation and cross, burial and resurrection, assurance. The sequence is the argument, and a congregation learns it by singing it in that order.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Ambiguity",
+        "title": "Satisfied wrath compresses a doctrine into three words",
+        "explanation": "The most important line in the hymn is also its most compressed. Without teaching, some will hear a Father placated by punishing his Son rather than God in Christ bearing what sin deserves — the reading the writers reject and the line does not itself exclude.",
+        "songLocation": "VERSE_2",
+        "locationDetail": "the closing couplet",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": false,
+        "likelihood": "POSSIBLE",
+        "scriptureReference": "Romans 3:25-26",
+        "scriptureRationale": "God put Christ forward as a propitiation — it is God who acts, which is the sense the compressed line assumes."
+      }
+    ],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear throughout. The doctrines are heavy and the words are plain, the order of the verses is the order of the gospel, and the object is never in doubt. The one line that needs a sentence of teaching is the one on wrath satisfied, which compresses the heart of the atonement into a phrase that can be heard as the Father against the Son if nobody has explained it."
+  },
+  "synthesis": {
+    "summary": "Four verses that walk the gospel in order — Christ as hope, God in flesh dying in the sinner's place, buried and raised, and holding his people to the end. Nothing in it is wrong and the line on wrath satisfied is its spine, not its flaw. A creed a room can sing, though a long one with no refrain, and the wrath line wants a sentence of teaching. Suits any congregation that will sing all four verses.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Resurrection",
+      "Assurance",
+      "Salvation"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Isaiah 53:5-6",
+        "relevance": "The iniquity of us all laid on him — the substitution the second verse states."
+      },
+      {
+        "reference": "1 Corinthians 15:3-4",
+        "relevance": "Died, buried, raised — the sequence verses two and three follow."
+      },
+      {
+        "reference": "John 10:28-29",
+        "relevance": "No one can snatch them from his hand — the promise that closes the fourth verse."
+      },
+      {
+        "reference": "Colossians 2:9",
+        "relevance": "The fullness of deity dwelling bodily — the incarnation as the second verse opens."
+      },
+      {
+        "reference": "Romans 3:25-26",
+        "relevance": "Christ put forward by God as a propitiation — the doctrine behind the wrath line."
+      }
+    ]
+  },
+  "sources": [
+    "https://www.hymnologyarchive.com/in-christ-alone",
+    "https://en.wikipedia.org/wiki/In_Christ_Alone_(song)",
+    "https://www.firstthings.com/web-exclusives/2013/07/no-squishy-love"
+  ]
+}

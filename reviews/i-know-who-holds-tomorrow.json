@@ -1,0 +1,225 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "I Know Who Holds Tomorrow",
+    "artist": "Ira Stanphill",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1950,
+    "genre": "Gospel",
+    "isPublicDomain": false,
+    "notes": "Words and music by Ira F. Stanphill (1914-1993), an Assemblies of God evangelist and pastor. Copyright 1950, originally Singspiration Music, now administered by Capitol CMG; CCLI 17982. Written in the period after his 1948 divorce, which he described as the darkest of his life. First recorded commercially by Jimmie Davis in 1952, and since then a Southern Gospel standard carried by the Blackwood Brothers, the Cathedrals and the Gaither Homecoming series; Alison Krauss and the Cox Family made it a title track in 1994. Carroll Roberson's recording is on his Classic Gospel album (2010, digital release 2012). Sung both as a solo gospel song and congregationally."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "Three verses, each followed by the same refrain. The first verse admits the future is unknown, refuses to borrow trouble from it and settles on living each day as it comes, resting on God's promise. The second pictures the Christian life as a climb toward heaven, with what lies ahead better than what lies behind. The third concedes that tomorrow may bring poverty, danger or suffering, and answers that God, whose care reaches even sparrows, goes ahead into whatever comes. The refrain confesses that the future, though not understood, is in God's keeping, and that the singer is in his keeping too. Jesus is named and Christ's blood is alluded to in passing; the resurrection, the Spirit, sin and forgiveness are not mentioned. First person singular throughout, about God rather than addressed to him.",
+    "claims": [
+      {
+        "claim": "The future is unknown to the singer, and anxiety about it is refused in favour of trusting God's promise for each day.",
+        "subject": "Trust and anxiety",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Christian life is a journey toward heaven, and what lies ahead is better than what lies behind.",
+        "subject": "Hope of heaven",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Tomorrow may bring poverty, danger or suffering, and God, whose care reaches even sparrows, goes ahead into it.",
+        "subject": "Providence",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The future, though not understood, is in God's keeping, and so is the singer.",
+        "subject": "Assurance",
+        "location": "REFRAIN",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ's blood is referred to in passing, so the singer's standing rests on Christ's death though the cross itself is not named.",
+        "subject": "Christ's death",
+        "location": "VERSE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": false,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Providence",
+        "title": "Trust grounded in the God who feeds sparrows",
+        "explanation": "The third verse gives the reason for confidence: the God whose care reaches sparrows goes ahead of the singer into whatever comes. That is Jesus's own argument from the lesser to the greater, and it rests the weight on God's character rather than the singer's nerve.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Matthew 6:26",
+        "scriptureRationale": "Your heavenly Father feeds them. Are you not of more value than they? — the verse's logic, in Jesus's words."
+      },
+      {
+        "category": "Suffering",
+        "title": "Honest that tomorrow may hurt",
+        "explanation": "The song does not promise a smooth road. The third verse names poverty, danger and suffering as real possibilities and trusts God through them rather than around them, which keeps its comfort from being sentimental.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "John 16:33",
+        "scriptureRationale": "In the world you will have tribulation. But take heart; I have overcome the world."
+      },
+      {
+        "category": "Anxiety",
+        "title": "Anxiety answered by promise, not by resolve",
+        "explanation": "The first verse refuses to borrow trouble from the future and rests each day on what God has promised. The ground is God's word rather than the singer's determination, which is where Matthew 6 puts it.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Matthew 6:34",
+        "scriptureRationale": "Do not be anxious about tomorrow, for tomorrow will be anxious for itself — the command the verse obeys."
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Christian life",
+        "title": "A brightening path can be heard as an easier one",
+        "explanation": "The second verse pictures the Christian walk as a climb with better things ahead. Taken alone it can sound like a promise that life improves for believers; the third verse corrects it, but a hearer who only catches the second may keep the wrong picture.",
+        "songLocation": "VERSE_2",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": false,
+        "likelihood": "POSSIBLE",
+        "lyricExcerpt": null,
+        "scriptureReference": "Acts 14:22",
+        "scriptureRationale": "Through many tribulations we must enter the kingdom of God — the better things ahead are heaven's, not this life's."
+      }
+    ],
+    "doctrinesAffirmed": [
+      "God's providence over the future",
+      "God's care for his people, argued from his care for creation",
+      "Heaven as the believer's destination",
+      "Trust in God through suffering, not only around it",
+      "Christ's shed blood, in passing"
+    ],
+    "assessment": "Orthodox and modest. The song teaches providence: the future is God's, he cares for his own as he cares for sparrows, and he goes ahead into whatever comes, suffering included. Jesus is named and heaven is the destination. Two reservations: the second verse's brightening path can sound like a promise of ease until the third verse corrects it, and Christ's blood, mentioned in passing, is never tied to the confidence of the refrain. Sin, forgiveness, the resurrection and the Spirit lie outside its scope."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Refrain",
+        "title": "A refrain the room owns after one hearing",
+        "explanation": "A short refrain, unchanged after every verse, carrying one confession. A congregation that has never heard the song is singing the refrain by the second verse, and it can be carried without a band.",
+        "songLocation": "REFRAIN",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Words for the anxious and the bereaved",
+        "explanation": "Few congregational songs speak plainly to an unknown future. This one gives a room facing illness, loss or upheaval something true to sing together, which is why it has lasted seventy years.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Corporate voice",
+        "title": "One person's testimony, sung by three hundred",
+        "explanation": "The whole song is a single voice reporting its own trust. A congregation can borrow it, but it is not written as a shared confession, and the verses in particular read as one story rather than the church's.",
+        "songLocation": "THROUGHOUT",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "likelihood": "POSSIBLE"
+      },
+      {
+        "category": "Form",
+        "title": "Verses written for a soloist",
+        "explanation": "The verses are narrative and were made famous by quartets and soloists who stretch and shape them. A room tends to wait for the refrain, so a leader should carry the verses or sing the song straight in time.",
+        "songLocation": "NOT_LYRICAL",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": false,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Published in B flat, 4/4, around 104 BPM. The refrain sits in the middle of the voice; the verses reach higher and were written for a gospel soloist, so many rooms will take it down a step.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Published in B flat",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The refrain returns unchanged after each of three verses, and each verse gives it something new to answer. That is a hymn refrain doing its job; nothing is sustained by repeating.",
+    "performanceOrientation": "PERFORMANCE_LEANING",
+    "assessment": "A solo testimony with a congregational refrain. The verses were written for one voice telling its own story and most people know them from quartet and soloist recordings; the refrain is short, unchanged and quickly owned. Sung in church it works best with a leader carrying the verses and the room joining the refrain, in a lowered key. Its pastoral reach is real: it gives anxious and grieving people plain words for a future they cannot see."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Imagery",
+        "title": "One image carries the whole song",
+        "explanation": "Everything feeds a single picture: the future is in God's hand and so is the singer. Each verse raises a fear or a hope and the refrain answers it with the same picture, so a hearer never has to hold two ideas at once.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Diction",
+        "title": "Everyday words, nothing to decode",
+        "explanation": "The vocabulary is a child's. No theological term needs defining and no metaphor needs a sermon first, so a visitor understands every line on first hearing and knows exactly what has been claimed.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Plain throughout. The words are everyday, the image is one and each verse feeds it. The sparrow needs no gloss because the verse itself says what it proves: if God's care reaches birds it reaches the singer. The only place a hearer could drift is the second verse's brightening path, which can be taken as this life rather than the next; the third verse settles it, and the point is recorded as a theological reservation rather than a fault of wording."
+  },
+  "synthesis": {
+    "summary": "A testimony of trust from a dark year: the future is unknown, worry is refused, and the God whose care reaches sparrows keeps tomorrow and keeps the singer. Orthodox, plain and honest about suffering, with Jesus named and heaven in view. Its second verse can be heard as promising ease, and the blood it mentions is never tied to the confidence it sings. Solo-shaped verses; a refrain any room can carry.",
+    "themes": [
+      "Providence",
+      "Faith",
+      "Hope",
+      "Assurance"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Matthew 6:25-34",
+        "relevance": "Do not be anxious about tomorrow, and the birds your Father feeds — the passage the whole song is built on."
+      },
+      {
+        "reference": "Matthew 10:29-31",
+        "relevance": "Not one sparrow falls apart from the Father, and you are of more value — the sparrow argument of the third verse."
+      },
+      {
+        "reference": "James 4:13-15",
+        "relevance": "You do not know what tomorrow will bring — the admission the first verse and the refrain begin from."
+      },
+      {
+        "reference": "Isaiah 46:9-10",
+        "relevance": "God declares the end from the beginning; the future is his to hold, which is the refrain's confession."
+      }
+    ]
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/I_Know_Who_Holds_Tomorrow",
+    "https://en.wikipedia.org/wiki/Ira_Stanphill",
+    "https://www.wordwisebiblestudies.com/i-know-who-holds-tomorrow/"
+  ]
+}

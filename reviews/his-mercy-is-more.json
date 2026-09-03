@@ -1,0 +1,235 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "His Mercy Is More",
+    "artist": "Matt Boswell & Matt Papa",
+    "artistType": "GROUP",
+    "album": null,
+    "releaseYear": 2016,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Words and music by Matt Boswell and Matt Papa, copyright 2016 Getty Music Hymns and Songs, Getty Music Publishing, Love Your Enemies Publishing and Messenger Hymns; CCLI 7065053. The title idea comes from a sentence in a 1767 letter of John Newton setting our many sins against God's greater mercy. First released on Papa's Church Songs EP in October 2016. The recording most churches know is Matt Boswell with the Boyce College Choir, a 2017 video; Shane & Shane recorded it live on Hymns Live in February 2019. Boswell and Papa's own album of the same name (Getty Music, August 2019) topped the praise and worship chart, and the song was Dove-nominated in 2020."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "CORPORATE_WE",
+    "structuralNotes": "A chorus, three verses and a closing tag; no bridge. The chorus is a summons to praise the Lord on the ground that his mercy outweighs the whole of our sin, and every verse closes by returning to that same idea, so the chorus is anticipated before it arrives. The verses are cast as rhetorical questions about God in the third person: the first that he knows every sin fully yet chooses not to count it and puts it away beyond recovery, with his mercies renewed each day; the second his patience with those who stray and tire and his invitation to the weak and the needy to come and be satisfied; the third that our debt was paid at the cost of his own life, in his blood, and that he pours out the wealth of his grace on us. The voice is first person plural throughout and God is spoken about, never addressed. The one who paid the debt is referred to only by pronoun and is not named as Jesus or Christ; the cross as a word, the resurrection, the Spirit and repentance do not appear.",
+    "claims": [
+      {
+        "claim": "God's mercy is greater than all our sin, and the Lord is to be praised for it.",
+        "subject": "Grace and mercy",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God knows every sin completely and yet chooses not to hold it against his people; their sins are put away beyond recovery.",
+        "subject": "Forgiveness and the omniscience of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's mercies are renewed every day.",
+        "subject": "The faithfulness of God",
+        "location": "VERSE_1",
+        "locationDetail": "the closing couplet",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is patient with those who wander and grow weary, and invites the weak and the needy to come and be filled.",
+        "subject": "The patience and invitation of God",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Our debt of sin was paid by his own death and blood, a gift that could never be repaid.",
+        "subject": "Atonement",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "He pours out the wealth of his grace on his people.",
+        "subject": "Grace",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Grace",
+        "title": "Mercy measured against sin and found greater",
+        "explanation": "The chorus does not minimise sin to make mercy look large. It concedes the full weight of our sin and then sets God's mercy over against it as the greater quantity, which is exactly the proportion Paul draws in Romans 5. A congregation sings the gospel's arithmetic every time the chorus returns.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Romans 5:20",
+        "scriptureRationale": "Grace outrunning the increase of sin — the proportion the chorus states."
+      },
+      {
+        "category": "Forgiveness",
+        "title": "Forgiven by a God who knows everything",
+        "explanation": "The first verse insists God sees every sin in full before it says he chooses not to count it. Forgiveness is not divine oversight or forgetfulness; it is an omniscient God deciding not to hold against his people what he knows entirely, in the language of Micah 7 and Hebrews 8.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Micah 7:18-19",
+        "scriptureRationale": "God pardoning iniquity and putting sins out of reach — the image and the doctrine the first verse carries."
+      },
+      {
+        "category": "Atonement",
+        "title": "Mercy was paid for, in blood",
+        "explanation": "The third verse gives the ground of the whole song: our debt was settled at the cost of his own life, in his blood, and what he gave can never be repaid. Mercy is free to us and costly to him, which keeps the chorus from sounding like leniency.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Ephesians 1:7-8",
+        "scriptureRationale": "Redemption through his blood and forgiveness according to the wealth of grace poured out — the two halves of the third verse."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "The invitation goes to the weak and the needy",
+        "explanation": "The second verse describes God's patience with those who wander and tire and his open call to the weak and the needy to come and be satisfied. The song locates the welcome in God's character rather than in the worthiness of the ones who come.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 55:1",
+        "scriptureRationale": "The thirsty and the penniless summoned to come and eat — the invitation the second verse sings."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The abundance of grace over sin",
+      "The omniscience of God",
+      "Forgiveness as God choosing not to count sin",
+      "The daily renewal of mercy",
+      "The patience of God with the wandering",
+      "Redemption purchased by blood",
+      "Grace as a gift that cannot be repaid"
+    ],
+    "assessment": "Nothing to correct and a great deal to commend. Sin is named honestly and mercy is measured against it and found greater, which is Romans 5:20 sung. Forgiveness is not God overlooking what he failed to notice: the first verse insists he knows every sin and chooses not to count it, and the third grounds that choice in a debt paid in blood. The limit is scope, not error. The cross as a word, the resurrection, the Spirit and repentance are not reached, and the one who paid is never named as Christ."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Corporate voice",
+        "title": "The room confesses its sin and its Lord together",
+        "explanation": "First person plural from the first line to the last. The verses ask their questions as we, the chorus is an exhortation the room addresses to itself, and no line reports how any individual feels. It is built to be said together.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Accessibility",
+        "title": "A hymn tune the room anticipates",
+        "explanation": "A slow 6/8 melody that reviewers agree an ordinary congregation can carry, and each verse ends by leaning into the chorus, so the room knows what is coming before the band gets there.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "A ready answer to a confession of sin",
+        "explanation": "The song is an assurance of pardon in singable form. It sits naturally after a corporate confession or before the Lord's table, where a congregation needs to say that its sin is real and that mercy is greater.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published in F; Shane & Shane sing it live in G. A hymn-shaped tune in a slow 6/8 that reviewers call congregationally accessible. No chart was read, so the span is not stated.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "F (original); Shane & Shane live in G",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns after each verse and each verse ends by echoing it, so the one idea is sung many times by design. A closing tag reprises it once more; nothing is padded.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "A congregational hymn in every respect: we-voiced throughout, a chorus the room exhorts itself with, a tune that stays within reach in F or G, and no dependence on an arrangement. It is not a prayer — God is spoken about rather than addressed — so it functions as confession and assurance rather than adoration, and leaders should place it accordingly. Well suited to follow a confession of sin or to open communion."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Every verse asks, and the chorus answers",
+        "explanation": "The verses pose their questions about God and each ends by echoing the chorus, which then states the answer outright. A hearer is never left holding a question, and the claim of the song is restated after every verse.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Diction",
+        "title": "Plain words for a plain claim",
+        "explanation": "Sin, mercy, debt, blood, grace. There is no abstraction to decode and the one figure, drawn from Micah 7, explains itself. A newcomer knows exactly what has been affirmed about sin and what about God.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Ambiguous pronouns",
+        "title": "The one who paid the debt is never named",
+        "explanation": "Christ is a pronoun throughout. The chorus names the Lord, and a believer connects the blood of the third verse to Jesus without effort, but the song never says so, and a newcomer can sing the whole of it without learning who paid.",
+        "songLocation": "WHOLE_SONG",
+        "locationDetail": "every reference to the one who paid is a pronoun",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": false,
+        "likelihood": "POSSIBLE",
+        "scriptureReference": "1 Timothy 2:5-6",
+        "scriptureRationale": "Paul names the man Christ Jesus as the one who gave himself as a ransom; the song leaves the name to be supplied."
+      }
+    ],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear from first hearing. The claim is a single proportion, sin against mercy, restated after every verse in common words, and the verses' questions are answered before the room can wonder. The one gap is a name: the chorus names the Lord, but the person whose blood paid the debt is only ever a pronoun, so the song assumes a hearer already knows the story it is celebrating."
+  },
+  "synthesis": {
+    "summary": "A modern hymn that names sin honestly and sets God's mercy over it as the greater thing, grounding that mercy in a debt paid in blood by a God who knows every sin and chooses not to count it. Nothing in it is wrong; its only soft spot is that Christ is never named, so a newcomer may not know who paid. We-voiced, plain and easy to carry; best after a confession of sin or at the Lord's table.",
+    "themes": [
+      "Grace",
+      "Sin",
+      "Assurance",
+      "Christ",
+      "God"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Romans 5:20",
+        "relevance": "Grace outrunning the increase of sin — the proportion the chorus sings."
+      },
+      {
+        "reference": "Micah 7:18-19",
+        "relevance": "God delighting in mercy and putting sins beyond recovery — the image the first verse draws on."
+      },
+      {
+        "reference": "Hebrews 8:12",
+        "relevance": "God's new-covenant promise not to remember sins — the sense in which the first verse says he does not count them."
+      },
+      {
+        "reference": "Lamentations 3:22-23",
+        "relevance": "Mercies renewed each morning — the note the first verse closes on."
+      },
+      {
+        "reference": "Ephesians 1:7-8",
+        "relevance": "Redemption through his blood and the wealth of grace poured out — the substance of the third verse."
+      }
+    ]
+  },
+  "sources": [
+    "https://www.mattpapa.com/songs/his-mercy-is-more",
+    "https://www.worshiptogether.com/songs/his-mercy-is-more-matt-papa-matt-boswell/",
+    "https://www.thebereantest.com/matt-boswell-matt-papa-his-mercy-is-more",
+    "https://en.wikipedia.org/wiki/Matt_Papa"
+  ]
+}

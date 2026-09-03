@@ -1,0 +1,249 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "The Power of the Cross",
+    "artist": "Keith & Kristyn Getty",
+    "artistType": "GROUP",
+    "album": "In Christ Alone",
+    "releaseYear": 2005,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Words and music by Keith Getty and Stuart Townend, copyright 2005 Thankyou Music, CCLI 4490766. Recorded by the Gettys on In Christ Alone (2006) and by Townend on Monument to Mercy the same year; Shane & Shane's version, listed as Power of the Cross, is on Hymns, Vol. 2 (2019). Townend describes it as a story song, built on the events of Good Friday."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Four verses, each followed by the chorus; no bridge. The verses narrate Good Friday as an invitation to look: the trial, beating and procession to the nailing; Christ on the cross under the full weight of human sin; the darkness, the earthquake, the torn curtain and the dead raised, ending on his declaration that the work is complete; and finally the singer recognising his own guilt in Christ's suffering. The chorus is the corporate confession of what the cross did — Christ taking our sin and God's wrath on himself so that we are forgiven — and its first line changes in the final chorus to name the Son of God as the one who died for us. Christ's own resurrection is not narrated; victory is located at the cross.",
+    "claims": [
+      {
+        "claim": "Christ was tried, beaten, marched and nailed to the cross as a historical event.",
+        "subject": "The passion of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "On the cross Christ bore the full weight of human sin.",
+        "subject": "Sin-bearing",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "At Christ's death the sky darkened, the earth shook, the temple curtain tore and the dead were raised, and he declared the work finished.",
+        "subject": "The signs at the cross",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer's own sins are what Christ bore, and Christ's self-giving sets him free.",
+        "subject": "Personal substitution",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ took our sin and God's wrath on himself, and through the cross we are forgiven.",
+        "subject": "Penal substitutionary atonement",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The one who died for us is the Son of God.",
+        "subject": "The deity of the crucified",
+        "location": "CHORUS",
+        "locationDetail": "the final chorus, first line",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "The chorus states what the cross did",
+        "explanation": "Christ took our sin and God's wrath on himself so that we are forgiven. The three moves of substitutionary atonement are set in one refrain a congregation sings four times, and the fourth time it adds that the one who died is the Son of God.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "2 Corinthians 5:21",
+        "scriptureRationale": "He made him to be sin who knew no sin, so that in him we might become the righteousness of God — the exchange the chorus confesses."
+      },
+      {
+        "category": "Passion narrative",
+        "title": "Good Friday sung as history",
+        "explanation": "Trial, beating, nailing, darkness, earthquake, torn curtain, the dead raised. The verses follow Matthew's account in order and treat the cross as an event that happened, which keeps the chorus's doctrine tied to a day rather than an idea.",
+        "songLocation": "VERSE_1",
+        "locationDetail": "verses one to three",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Matthew 27:45-53",
+        "scriptureRationale": "Darkness over the land, the curtain torn, the earth shaken, the tombs opened — the signs the third verse names."
+      },
+      {
+        "category": "Christology",
+        "title": "The final chorus names the Son of God as the one slain",
+        "explanation": "Changing one line at the end makes explicit what the verses assumed: the man on the cross is the Son of God. A congregation sings the deity of the crucified as the hymn's last word.",
+        "songLocation": "CHORUS",
+        "locationDetail": "the final chorus, first line",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Corinthians 2:8",
+        "scriptureRationale": "They crucified the Lord of glory — the identity of the one slain, which the last chorus states."
+      },
+      {
+        "category": "Sin",
+        "title": "The singer's own sins held him there",
+        "explanation": "The fourth verse turns the narrative on its hearer: the guilt Christ bore is mine. Substitution stops being a doctrine about humanity in general and becomes a confession about the person singing.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 53:5",
+        "scriptureRationale": "He was pierced for our transgressions — the verse makes the our singular."
+      },
+      {
+        "category": "Finished work",
+        "title": "Ends the narrative on his own word that it is done",
+        "explanation": "The third verse closes on Christ's declaration that the work is complete. The hymn lets Christ announce the completeness of the atonement himself, which is the right authority for the claim.",
+        "songLocation": "VERSE_3",
+        "locationDetail": "the closing line",
+        "magnitude": "MODERATE",
+        "scriptureReference": "John 19:30",
+        "scriptureRationale": "It is finished — the cry the verse ends on."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The historical passion of Christ",
+      "Penal substitutionary atonement",
+      "Christ made sin for us",
+      "The deity of the crucified Son",
+      "The finished work of the cross",
+      "Forgiveness through the cross"
+    ],
+    "assessment": "A passion hymn with nothing to correct. The verses walk Good Friday as Matthew records it, the chorus confesses that Christ took our sin and God's wrath on himself so that we are forgiven, and the last chorus names the one who died as the Son of God. The fourth verse makes the substitution personal without sentiment. Its scope is the cross alone: Christ's own resurrection is never narrated and the Father and the Spirit are not named, a chosen focus rather than an error. Built for Good Friday and the Lord's table."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Corporate voice",
+        "title": "A chorus the room answers each verse with",
+        "explanation": "The verses narrate and the chorus confesses in the first person plural. A congregation looks at the cross together and then says together what it did, which is the shape of the Lord's Supper itself.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Use",
+        "title": "Fills a gap in the repertoire",
+        "explanation": "Few modern songs will sit at the cross for four verses without hurrying to resurrection. Churches keeping Good Friday or a communion liturgy have a congregational hymn for it here.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Weight",
+        "title": "Slow, dense verses that follow rather than lead",
+        "explanation": "The verses are narrative sung at a walking pace, and the room sings as onlookers being told to look. Congregations unfamiliar with it tend to listen to the verses and join the chorus, so it repays teaching before it is led.",
+        "songLocation": "NOT_LYRICAL",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": false,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "singability": "MODERATE",
+    "vocalRangeNote": "The Gettys publish it in A; Integrity Music and Shane & Shane use F. The spread suggests the melody has a lift worth checking against a room before choosing the key.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "A (Getty); F (Shane & Shane)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns after each verse and carries the doctrine; its final change of line is the hymn's climax. Repetition here is the confession deepening, not filling.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "A congregational passion hymn in verse-and-chorus form, with the chorus doing the corporate work and the verses doing the narrative. The recordings are weighty and slow, and rooms new to it follow the verses before they own them, but the chorus is learned on first hearing and the whole is well within an ordinary congregation's reach in F. Best placed at Good Friday or communion rather than as a general praise song."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Each verse asks, and the chorus answers",
+        "explanation": "Every verse ends by pointing at the cross and the chorus says what it means. The form is the argument: see what happened, then confess what it did. A hearer cannot mistake the point.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Imagery",
+        "title": "Shows the cross rather than describing it",
+        "explanation": "Nails, blood, darkness, a torn curtain, the shaking earth. The verses are concrete where most songs are abstract, and the doctrine of the chorus lands on a scene the congregation has just watched.",
+        "songLocation": "VERSE_1",
+        "locationDetail": "verses one to three",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Ambiguity",
+        "title": "The chorus's atonement phrases assume teaching",
+        "explanation": "The chorus's two densest phrases carry the whole doctrine of substitution. Sung without explanation they can be heard as a Father punishing a Son, which is not what the writers mean and not what Paul says; a congregation needs one sentence on it.",
+        "songLocation": "CHORUS",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": true,
+        "likelihood": "POSSIBLE",
+        "scriptureReference": "2 Corinthians 5:19",
+        "scriptureRationale": "In Christ God was reconciling the world to himself — God acting in Christ, the sense the chorus assumes."
+      }
+    ],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in structure and concrete in detail. The verses show a scene and the chorus states its meaning, so a newcomer knows both what happened and what the church says about it. The chorus's phrases on sin-bearing and wrath are exact but compressed, and a room that has never been taught them may hear the Father set against the Son. That is a teaching need, not a fault in the text."
+  },
+  "synthesis": {
+    "summary": "Good Friday sung as history, with a chorus confessing that Christ took our sin and God's wrath on himself so that we are forgiven, and a last line naming the one who died as the Son of God. Nothing in it is wrong. It stays at the cross throughout, so the resurrection is left to another song, and its two densest phrases want a sentence of teaching. The passion hymn a communion service or Good Friday is missing.",
+    "themes": [
+      "Cross",
+      "Christ",
+      "Sin",
+      "Salvation",
+      "Communion"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "2 Corinthians 5:21",
+        "relevance": "Christ made sin for us — the exchange the chorus confesses."
+      },
+      {
+        "reference": "Matthew 27:45-53",
+        "relevance": "Darkness, the torn curtain, the earthquake and the dead raised — the signs the third verse names."
+      },
+      {
+        "reference": "Isaiah 53:5",
+        "relevance": "Pierced for our transgressions — the substitution the fourth verse makes personal."
+      },
+      {
+        "reference": "John 19:30",
+        "relevance": "It is finished — the cry the third verse ends on."
+      },
+      {
+        "reference": "1 Corinthians 2:8",
+        "relevance": "The Lord of glory crucified — the deity of the one slain, named in the final chorus."
+      }
+    ]
+  },
+  "sources": [
+    "https://www.stuarttownend.co.uk/song/the-power-of-the-cross/",
+    "https://www.worshiptogether.com/songs/the-power-of-the-cross-keith-and-kristyn-getty/",
+    "https://integrityworship.com/songs/the-power-of-the-cross-stuart-townend/"
+  ]
+}

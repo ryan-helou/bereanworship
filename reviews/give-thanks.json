@@ -1,0 +1,233 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Give Thanks",
+    "artist": "Henry Smith",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1978,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Henry Smith in 1978 in Williamsburg, Virginia, while unemployed and losing his sight, after a sermon on Christ's poverty making us rich (2 Corinthians 8:9). It reached Integrity's Hosanna! Music by way of a congregation in Germany and was published in 1986 credited to an unknown author until Smith was found. CCLI 20285. Don Moen's 1986 live recording is the one most churches know; the Maranatha! Music Praise 10 version followed in 1988. Of some 300 songs Smith wrote, it is his only published one."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Two short sections and nothing else. The first, sung as the verse, is an imperative to give thanks followed by the reason: God has given his Son. The second, sung as the chorus, has the weak and the poor declare themselves strong and rich because of what the Lord has done, and closes on the title phrase. About eight distinct lines; most arrangements sing the whole through two or three times.",
+    "claims": [
+      {
+        "claim": "Thanksgiving is owed to God, who is the Holy One.",
+        "subject": "Worship and the holiness of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God has given Jesus Christ, his Son.",
+        "subject": "The gift of the Son",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The weak may call themselves strong, and the poor rich, because of what the Lord has done for us.",
+        "subject": "Strength in weakness",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The ground of thanks is God's act, not the singer's circumstances.",
+        "subject": "Grace",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Gift of the Son",
+        "title": "Thanks grounded in the gift of Christ",
+        "explanation": "The reason given for gratitude is that God has given his Son. That is the New Testament's own ground for thanksgiving, and the song reaches it in its second line rather than leaving thanks free-floating.",
+        "songLocation": "VERSE_1",
+        "locationDetail": "the second couplet",
+        "magnitude": "MODERATE",
+        "scriptureReference": "2 Corinthians 9:15",
+        "scriptureRationale": "Thanks be to God for his inexpressible gift — the gift is Christ, and the song gives the same reason."
+      },
+      {
+        "category": "Grace",
+        "title": "The weak are strong because of God, not effort",
+        "explanation": "The chorus has the weak and the poor declare strength and riches, and the reason is what the Lord has done for us. Confidence rests on God's act rather than on the singer's resolve, which is the right place for it.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "2 Corinthians 12:9-10",
+        "scriptureRationale": "My grace is sufficient for you, for my power is made perfect in weakness."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "God named as the Holy One before he is thanked",
+        "explanation": "The song does not thank an unnamed you. God is named by a scriptural title in the first line and Jesus Christ by name in the second, so a visitor knows who is being thanked and for what.",
+        "songLocation": "VERSE_1",
+        "locationDetail": "the opening couplet",
+        "magnitude": "MINOR",
+        "scriptureReference": "Isaiah 43:15",
+        "scriptureRationale": "I am the LORD, your Holy One — the title the song opens with."
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Use of Scripture",
+        "title": "Joel's battle summons borrowed for the believer",
+        "explanation": "The chorus takes its wording from Joel 3:10, where the weak are told to call themselves warriors as the nations are summoned to judgment. The truth the song means — strength in weakness through God's work — is Paul's, not Joel's, and the borrowed line carries a context that does not fit.",
+        "songLocation": "CHORUS",
+        "locationDetail": "the first line",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": true,
+        "likelihood": "POSSIBLE",
+        "lyricExcerpt": null,
+        "scriptureReference": "Joel 3:9-10",
+        "scriptureRationale": "The line is addressed to the nations gathering for battle, not to God's people in weakness — the passage the song quotes is not the one it means."
+      }
+    ],
+    "doctrinesAffirmed": [
+      "The holiness of God",
+      "The gift of the Son",
+      "Strength in weakness through God's work",
+      "Thanksgiving as the response to grace"
+    ],
+    "assessment": "Eight lines, none of them wrong. Thanks is owed to the Holy One because he has given his Son, and the weak and poor may call themselves strong and rich because of what the Lord has done. Confidence is placed where Paul puts it. The one reservation is a borrowed text: the chorus is worded from Joel's summons to the nations, which is not about believers in weakness, so a Pauline truth is said in a prophet's unrelated words. What it lacks is scope — the cross, sin and the resurrection are never reached."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Owned on first hearing",
+        "explanation": "A stepwise melody over a handful of lines. A room learns it inside one repetition and can carry it without a band, which almost no song written since can claim.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Corporate voice",
+        "title": "The congregation exhorts itself",
+        "explanation": "The opening is an imperative addressed to the room rather than a report of anyone's feelings, and the reason clause is sung as us. It is built to be said together.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fits anywhere in a service",
+        "explanation": "Short enough to open a gathering, respond to a reading or close communion, and it has done all three for forty years across traditions that agree on little else.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Length",
+        "title": "Too short to stand alone",
+        "explanation": "The whole song is under a minute sung once. Arrangements fill a slot by repeating it two or three times, and past the second pass nothing further is being said.",
+        "songLocation": "NOT_LYRICAL",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "recurring": false,
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "singability": "EASY",
+    "vocalRangeNote": "Published in F and E flat, moving mostly by step in descending phrases; comfortable for an ordinary room in either key.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Published in F; also E flat",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The title phrase returns several times by design and the whole is usually sung through twice. That is a refrain doing its job, not padding — though a third pass adds nothing.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Among the easiest congregational songs in current use: a stepwise tune, eight lines, an imperative the room addresses to itself, and no dependence on an arrangement. Its only limit is its length. Sung once it is under a minute, so it is usually repeated or paired with another song, and leaders should treat it as a response or a frame rather than a set piece."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Diction",
+        "title": "Every word a child can sing",
+        "explanation": "Thanks, holy, given, Son, weak, strong, poor, rich. There is no image to unpack and no term to define; a newcomer knows exactly what has been affirmed.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Structure",
+        "title": "Command, then reason",
+        "explanation": "The verse gives the instruction and immediately the ground for it, and the chorus does the same in the other order. A hearer is never left wondering why thanks is being asked.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Ambiguity",
+        "title": "Strong and rich can be heard as money",
+        "explanation": "The chorus has the poor call themselves rich because of what the Lord has done. The writer meant the exchange of 2 Corinthians 8:9, riches in Christ, but the line does not say so, and in some rooms it will be heard as a promise about money.",
+        "songLocation": "CHORUS",
+        "locationDetail": "the second line",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": true,
+        "likelihood": "POSSIBLE",
+        "scriptureReference": "2 Corinthians 8:9",
+        "scriptureRationale": "Christ became poor so that by his poverty we might become rich — the sense the writer intended, which the words leave open."
+      }
+    ],
+    "ambiguityLevel": "LOW",
+    "assessment": "Plain to the point of transparency. Every line is a common word and every claim comes with its reason attached, so nothing needs explaining before a congregation can sing it and mean it. The single soft spot is the chorus's strong and rich, which the writer grounded in Christ's poverty for our sake but which the song leaves open to a material hearing in a room inclined to one."
+  },
+  "synthesis": {
+    "summary": "Eight plain lines grounding thanksgiving in God's gift of his Son and placing the confidence of the weak on what the Lord has done. Nothing in it is wrong and any room can sing it unaccompanied. Its chorus is worded from Joel's summons to the nations, a borrowed text that does not fit the Pauline truth it carries, and its strong and rich can be heard as money. Best as a response or a frame; too short to carry a set.",
+    "themes": [
+      "Thanksgiving",
+      "Grace",
+      "Christ",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "2 Corinthians 9:15",
+        "relevance": "Thanksgiving for God's inexpressible gift, which is the ground the verse gives."
+      },
+      {
+        "reference": "2 Corinthians 8:9",
+        "relevance": "Christ's poverty making us rich — the exchange behind the chorus, and the sermon that prompted the song."
+      },
+      {
+        "reference": "2 Corinthians 12:9-10",
+        "relevance": "Strength in weakness through grace, the truth the chorus states."
+      },
+      {
+        "reference": "Joel 3:10",
+        "relevance": "The passage the chorus is worded from — a summons to the nations rather than a promise to the weak."
+      }
+    ]
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Give_Thanks_with_a_Grateful_Heart",
+    "https://www.umcdiscipleship.org/articles/history-of-hymns-give-thanks-with-a-grateful-heart",
+    "https://www.thebereantest.com/henry-smith-give-thanks",
+    "https://integrityworship.com/songs/give-thanks-henry-smith/"
+  ]
+}
