@@ -18,12 +18,14 @@ import {
   scoreLabel,
   scoreSong,
   scoreSoundness,
+  UNVERIFIED_CLEAN_LEVEL,
   scoreSubstance,
   severityLabel,
   songFindingImpact,
   worstConcern,
   type ScorableSongFinding,
 } from '@/lib/scoring';
+import { independentSourceCount } from '@/lib/ai/schemas';
 
 /**
  * The scoring engine is the one place where a silent regression would corrupt
@@ -394,11 +396,70 @@ describe('worship direction and delivery', () => {
     expect(scoreSong(findings, EMPTY, { repetition: 'NONE' }).deliveryDeduction).toBe(0);
   });
 
-  it('stacks hype and repetition', () => {
+  it('charges the worse of hype and repetition, not their sum', () => {
     const findings = [strength(), strength({ component: 'COMMUNAL' })];
     const both = scoreSong(findings, EMPTY, { performanceOrientation: 'PERFORMANCE_LEANING', repetition: 'EXCESSIVE' });
-    const one = scoreSong(findings, EMPTY, { performanceOrientation: 'PERFORMANCE_LEANING', repetition: 'PURPOSEFUL' });
-    expect(both.deliveryDeduction).toBeLessThan(one.deliveryDeduction);
+    const hypeOnly = scoreSong(findings, EMPTY, { performanceOrientation: 'PERFORMANCE_LEANING', repetition: 'PURPOSEFUL' });
+    const worse = scoreSong(findings, EMPTY, { performanceOrientation: 'PERFORMANCE', repetition: 'HEAVY' });
+    // Two equal faults cost what one does; the worse fault sets the charge.
+    expect(both.deliveryDeduction).toBe(hypeOnly.deliveryDeduction);
+    expect(worse.deliveryDeduction).toBeLessThan(both.deliveryDeduction);
+  });
+});
+
+describe('which sources can vouch for a song', () => {
+  const src = (over: Record<string, unknown>) =>
+    ({ sourceType: 'PUBLICATION', credibilityTier: 'TIER_2', assessesContent: true, ...over }) as Parameters<
+      typeof independentSourceCount
+    >[0][number];
+
+  it('counts independent scholarship that assessed the song', () => {
+    expect(independentSourceCount([src({})])).toBe(1);
+  });
+
+  it('does not count an author biography, however authoritative', () => {
+    expect(independentSourceCount([src({ sourceType: 'ACADEMIC', credibilityTier: 'TIER_1', assessesContent: false })])).toBe(0);
+  });
+
+  it('does not count the publisher, an encyclopedia or a blog', () => {
+    expect(
+      independentSourceCount([
+        src({ sourceType: 'OFFICIAL_WEBSITE', credibilityTier: 'TIER_1' }),
+        src({ credibilityTier: 'TIER_3' }),
+        src({ sourceType: 'BLOG', credibilityTier: 'TIER_4' }),
+      ]),
+    ).toBe(0);
+  });
+});
+
+describe('a clean record must be checked', () => {
+  const FULL = Object.fromEntries(
+    ['namesGod', 'statesAnAct', 'teachesDoctrine', 'godDirected', 'groundsClaims', 'corporateVoice', 'engagesScripture'].map(
+      (k) => [k, true],
+    ),
+  );
+
+  it('holds a clean record below full soundness when nothing independent was consulted', () => {
+    const unchecked = scoreSong([strength({ severity: 'MAJOR' })], FULL, null, { independentSources: 0 });
+    expect(unchecked.soundness.level).toBe(UNVERIFIED_CLEAN_LEVEL);
+    expect(unchecked.soundness.unverified).toBe(true);
+  });
+
+  it('gives a clean record full soundness once an independent source stands behind it', () => {
+    const checked = scoreSong([strength({ severity: 'MAJOR' })], FULL, null, { independentSources: 1 });
+    expect(checked.soundness.level).toBe(RUBRIC_MAX_LEVEL);
+    expect(checked.soundness.unverified).toBeFalsy();
+  });
+
+  it('leaves a song with a real concern exactly where the concern put it', () => {
+    const flawed = [concern({ severity: 'MODERATE', centrality: 'CORE' })];
+    const thin = scoreSong(flawed, FULL, null, { independentSources: 0 });
+    const sourced = scoreSong(flawed, FULL, null, { independentSources: 3 });
+    expect(thin.soundness.level).toBe(sourced.soundness.level);
+  });
+
+  it('applies no evidence rule when evidence is not supplied', () => {
+    expect(scoreSong([strength()], FULL).soundness.level).toBe(RUBRIC_MAX_LEVEL);
   });
 });
 

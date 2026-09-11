@@ -21,7 +21,7 @@
         "claim": "The singer approaches God's throne bringing nothing of their own.",
         "subject": "Approach to God",
         "location": "VERSE_1",
-        "lyricExcerpt": "nothing in my hands I bring"
+        "lyricExcerpt": null
       },
       {
         "claim": "What the singer brings instead is a promise of acceptance from the King.",
@@ -39,7 +39,7 @@
         "claim": "The singer rejoices precisely as one who has nothing to offer.",
         "subject": "Grace",
         "location": "VERSE",
-        "lyricExcerpt": "empty handed I rejoice"
+        "lyricExcerpt": null
       },
       {
         "claim": "God is the Lord Almighty, and his kindness to the unworthy is undeserved.",
@@ -57,12 +57,12 @@
     "gospelClarity": "IMPLICIT"
   },
   "substance": {
-    "namesGod": false,
-    "statesAnAct": false,
+    "namesGod": true,
+    "statesAnAct": true,
     "teachesDoctrine": true,
     "godDirected": true,
     "groundsItsClaims": true,
-    "corporateVoice": false,
+    "corporateVoice": true,
     "engagesScripture": true
   },
   "theological": {
@@ -73,7 +73,7 @@
         "explanation": "The song opens by disclaiming every contribution the singer might make. That is the confession justification by faith requires, and it is made in the first line rather than buried in a later verse.",
         "songLocation": "VERSE_1",
         "magnitude": "MAJOR",
-        "lyricExcerpt": "nothing in my hands I bring",
+        "lyricExcerpt": null,
         "scriptureReference": "Ephesians 2:8-9",
         "scriptureRationale": "Salvation is the gift of God, not a result of works, so that no one may boast — the song's opening posture."
       },
@@ -83,7 +83,7 @@
         "explanation": "Having nothing to offer is usually sung as a problem awaiting resolution. Here it is the ground of rejoicing, which is a truer instinct about how grace actually lands on a person.",
         "songLocation": "VERSE",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "empty handed I rejoice",
+        "lyricExcerpt": null,
         "scriptureReference": "2 Corinthians 12:9",
         "scriptureRationale": "Paul boasts in weakness because grace rests there — emptiness as occasion for gladness."
       },
@@ -101,7 +101,7 @@
         "title": "Confidence located outside the singer",
         "explanation": "The reason the singer may approach is consistently something about the King, never something about themselves. Sustained across four verses, that is a genuine discipline.",
         "songLocation": "WHOLE_SONG",
-        "magnitude": "MODERATE",
+        "magnitude": "MAJOR",
         "scriptureReference": "Hebrews 4:16",
         "scriptureRationale": "We draw near with confidence to the throne of grace — confidence grounded in the throne, not the one approaching."
       }
@@ -132,18 +132,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Corporate voice",
-        "title": "Four verses of 'I'",
-        "explanation": "The approach to the throne is sung individually throughout. Given that the song's subject is being received by God, a corporate voice would have let the congregation hear itself received together.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "singability": "EASY",
     "vocalRangeNote": "Sung here in C, which is a comfortable congregational key. PraiseCharts publishes it in D and E flat, so C sits at or below the published range.",
     "range": {
@@ -221,8 +210,32 @@
     ]
   },
   "sources": [
-    "https://cityalight.com/song/good-and-gracious-king/",
-    "https://www.praisecharts.com/songs/details/73731/good-and-gracious-king-sheet-music",
-    "https://expositorysongs.com/song/good-and-gracious-king/"
+    {
+      "url": "https://cityalight.com/song/good-and-gracious-king/",
+      "title": "Good and Gracious King",
+      "publisher": "CityAlight",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher page: authorship and release details.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.praisecharts.com/songs/details/73731/good-and-gracious-king-sheet-music",
+      "title": "Good and Gracious King sheet music",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Licensed arrangement listing: key and song form.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://expositorysongs.com/song/good-and-gracious-king/",
+      "title": "Good and Gracious King",
+      "publisher": "Expository Songs",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "An independent note on the song's scriptural basis.",
+      "assessesContent": true
+    }
   ]
 }

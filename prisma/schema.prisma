@@ -486,6 +486,12 @@ model SongSource {
   source   Source @relation(fields: [sourceId], references: [id], onDelete: Cascade)
   /// What this source established for this song.
   relevance String? @db.Text
+  /// True when this source discusses what the song teaches — a published
+  /// objection, a hymnological essay, a denominational rationale — rather than
+  /// only its authorship, publication or key. Only such a source can vouch for
+  /// a clean theological record: a biography says who wrote a song, not
+  /// whether it is sound.
+  assessesContent Boolean @default(false)
 
   @@id([songId, sourceId])
   @@index([sourceId])

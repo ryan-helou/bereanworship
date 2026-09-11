@@ -27,13 +27,13 @@
         "claim": "The singer asks to be drawn close and taught to abide.",
         "subject": "Abiding",
         "location": "CHORUS",
-        "lyricExcerpt": "teach me to abide"
+        "lyricExcerpt": null
       },
       {
         "claim": "Christ is the way, the truth and the life.",
         "subject": "Christ",
         "location": "VERSE_2",
-        "lyricExcerpt": "The Way, the Truth, the Life"
+        "lyricExcerpt": null
       },
       {
         "claim": "The singer has been raised with Christ and has eternal life.",
@@ -57,7 +57,7 @@
         "title": "Takes Christ's own image and keeps its point",
         "explanation": "The vine and branches is about fruitlessness apart from him, and the song keeps that rather than softening abiding into a mood of closeness. The dependence is total and stated as such.",
         "songLocation": "VERSE_1",
-        "magnitude": "MAJOR",
+        "magnitude": "MODERATE",
         "scriptureReference": "John 15:5",
         "scriptureRationale": "Apart from me you can do nothing — the claim the first verse states directly."
       },
@@ -67,7 +67,7 @@
         "explanation": "Naming him the way, the truth and the life uses his words rather than a summary of them, and it settles the object of the song beyond doubt.",
         "songLocation": "VERSE_2",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "The Way, the Truth, the Life",
+        "lyricExcerpt": null,
         "scriptureReference": "John 14:6",
         "scriptureRationale": "I am the way, and the truth, and the life."
       },
@@ -86,7 +86,7 @@
         "explanation": "The request is for instruction in abiding, which concedes that the singer does not know how. That humility is a small thing and it is the right posture.",
         "songLocation": "CHORUS",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "teach me to abide",
+        "lyricExcerpt": null,
         "scriptureReference": "Luke 11:1",
         "scriptureRationale": "Lord, teach us to pray — the disciples asking to be shown rather than assuming."
       }
@@ -216,7 +216,23 @@
     "engagesScripture": true
   },
   "sources": [
-    "https://integrityworship.com/songs/abide-1/",
-    "https://www.worshipfuel.com/at-ccli/aaron-williams-abide-ccli-sessions/"
+    {
+      "url": "https://integrityworship.com/songs/abide-1/",
+      "title": "Abide",
+      "publisher": "Integrity Music",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher's song record: writing credits for Aaron Williams, Aaron Keyes and Jake Fauber.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.worshipfuel.com/at-ccli/aaron-williams-abide-ccli-sessions/",
+      "title": "Aaron Williams – Abide (CCLI Sessions)",
+      "publisher": "WorshipFuel",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "Coverage of the writer's CCLI Sessions performance of the song.",
+      "assessesContent": false
+    }
   ]
 }

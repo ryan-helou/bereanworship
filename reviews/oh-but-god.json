@@ -27,13 +27,13 @@
         "claim": "God intervened where the singer could do nothing.",
         "subject": "Grace",
         "location": "CHORUS",
-        "lyricExcerpt": "Oh but God"
+        "lyricExcerpt": null
       },
       {
         "claim": "Christ nailed the singer's sin to a cross.",
         "subject": "The atonement",
         "location": "CHORUS",
-        "lyricExcerpt": "nailing my sin to a cross"
+        "lyricExcerpt": null
       },
       {
         "claim": "The singer has been raised with Christ.",
@@ -58,7 +58,7 @@
         "explanation": "The whole song is the structure of Ephesians 2: here is what I was, and then God acted. Making that turn the hook means a congregation rehearses the logic of grace every time the chorus comes round.",
         "songLocation": "CHORUS",
         "magnitude": "MAJOR",
-        "lyricExcerpt": "Oh but God",
+        "lyricExcerpt": null,
         "scriptureReference": "Ephesians 2:4-5",
         "scriptureRationale": "But God, being rich in mercy, made us alive together with Christ — the hinge the song is named for."
       },
@@ -68,7 +68,7 @@
         "explanation": "The chorus does not merely mention the crucifixion; it says what happened to the singer's sin there. That is the difference between narrating the cross and preaching it.",
         "songLocation": "CHORUS",
         "magnitude": "MAJOR",
-        "lyricExcerpt": "nailing my sin to a cross",
+        "lyricExcerpt": null,
         "scriptureReference": "Colossians 2:14",
         "scriptureRationale": "He set aside the record of debt, nailing it to the cross."
       },
@@ -225,8 +225,32 @@
     "engagesScripture": true
   },
   "sources": [
-    "https://www.worshiptogether.com/songs/oh-but-god-davy-flowers/",
-    "https://songselect.ccli.com/songs/7199258/oh-but-god",
-    "https://www.air1.com/music/blog/behind-the-music/faith-behind-the-song-oh-but-god-davy-flowers-5096"
+    {
+      "url": "https://www.worshiptogether.com/songs/oh-but-god-davy-flowers/",
+      "title": "Oh But God",
+      "publisher": "Worship Together",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher's song record: writers and the Scripture references listed behind the song.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://songselect.ccli.com/songs/7199258/oh-but-god",
+      "title": "Oh But God",
+      "publisher": "CCLI SongSelect",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Licensing record: CCLI 7199258 and writing credits.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.air1.com/music/blog/behind-the-music/faith-behind-the-song-oh-but-god-davy-flowers-5096",
+      "title": "Faith Behind the Song: Oh But God – Davy Flowers",
+      "publisher": "Air1",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "The writer's account of how the song came to be written.",
+      "assessesContent": false
+    }
   ]
 }

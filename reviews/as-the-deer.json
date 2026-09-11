@@ -21,13 +21,13 @@
         "claim": "The singer's longing for God is like a deer's thirst for water — need, not preference.",
         "subject": "Longing for God",
         "location": "VERSE_1",
-        "lyricExcerpt": "As the deer panteth for the water"
+        "lyricExcerpt": null
       },
       {
         "claim": "God alone is the singer's strength and protection.",
         "subject": "God as refuge",
         "location": "CHORUS",
-        "lyricExcerpt": "You alone are my strength, my shield"
+        "lyricExcerpt": null
       },
       {
         "claim": "The singer yields their spirit to God alone.",
@@ -52,7 +52,7 @@
         "subject": "Christ's brotherhood",
         "location": "VERSE_3",
         "locationDetail": "the opening couplet",
-        "lyricExcerpt": "even though You are a King"
+        "lyricExcerpt": null
       },
       {
         "claim": "God's love is worth more to the singer than any other love.",
@@ -80,7 +80,7 @@
         "explanation": "The first verse is the psalm's own image and its own longing, put in the congregation's mouth almost unaltered. The song's best line is not the songwriter's.",
         "songLocation": "VERSE_1",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "As the deer panteth for the water",
+        "lyricExcerpt": null,
         "scriptureReference": "Psalm 42:1-2",
         "scriptureRationale": "The psalm supplies both the thirst image and the object of the thirst."
       },
@@ -90,7 +90,7 @@
         "explanation": "The chorus makes God the exclusive object of trust and of submission. The repeated 'alone' is the doctrinal load-bearing word, and the congregation sings it every time.",
         "songLocation": "CHORUS",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "You alone are my strength, my shield",
+        "lyricExcerpt": null,
         "scriptureReference": "Psalm 28:7",
         "scriptureRationale": "The psalm pairs strength and shield in the same confession of exclusive trust."
       },
@@ -114,7 +114,7 @@
         "severity": "MINOR",
         "centrality": "IMPORTANT",
         "recurring": false,
-        "lyricExcerpt": "even though You are a King",
+        "lyricExcerpt": null,
         "scriptureReference": "Hebrews 2:11",
         "scriptureRationale": "Christ is unashamed to call us brothers because he sanctifies us — the kingship is the ground, not the tension.",
         "likelihood": "LIKELY"
@@ -224,8 +224,32 @@
     ]
   },
   "sources": [
-    "https://www.umcdiscipleship.org/resources/history-of-hymns-as-the-deer",
-    "https://www.godsongs.net/2017/07/as-deer-panteth-for-the-water-marty-nystrom.html",
-    "https://en.wikipedia.org/wiki/As_the_Deer"
+    {
+      "url": "https://www.umcdiscipleship.org/resources/history-of-hymns-as-the-deer",
+      "title": "History of Hymns: As the Deer",
+      "publisher": "Discipleship Ministries, The United Methodist Church",
+      "sourceType": "THEOLOGICAL_ORGANIZATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "History of the song: its 1981 writing as a setting of Psalm 42 and its publication by Maranatha! Music.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.godsongs.net/2017/07/as-deer-panteth-for-the-water-marty-nystrom.html",
+      "title": "As the Deer, Marty Nystrom (GodSongs.net)",
+      "publisher": "GodSongs.net",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "Self-published commentary on the song.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/As_the_Deer",
+      "title": "As the Deer",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "General reference for the song's writer, date and publisher.",
+      "assessesContent": false
+    }
   ]
 }

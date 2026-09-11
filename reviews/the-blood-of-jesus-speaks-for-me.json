@@ -27,7 +27,7 @@
         "claim": "The blood of Jesus speaks on the singer's behalf.",
         "subject": "The atonement",
         "location": "CHORUS",
-        "lyricExcerpt": "The blood of Jesus speaks for me"
+        "lyricExcerpt": null
       },
       {
         "claim": "Christ's blood answers accusation more powerfully than the accusation itself.",
@@ -52,7 +52,7 @@
         "explanation": "Hebrews says Christ's blood speaks a better word than Abel's. The song takes that figure and makes it the whole structure, so a congregation sings a genuinely biblical image rather than a general reference to sacrifice.",
         "songLocation": "CHORUS",
         "magnitude": "MAJOR",
-        "lyricExcerpt": "The blood of Jesus speaks for me",
+        "lyricExcerpt": null,
         "scriptureReference": "Hebrews 12:24",
         "scriptureRationale": "The sprinkled blood that speaks a better word than the blood of Abel."
       },
@@ -102,16 +102,6 @@
       }
     ],
     "concerns": [
-      {
-        "category": "Corporate voice",
-        "title": "Sung in the singular",
-        "explanation": "The accusation and the answer are both personal. A congregation sings alongside one another rather than together, though the subject makes that a natural choice.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      },
       {
         "category": "Singability",
         "title": "Written for a strong lead voice",
@@ -202,11 +192,27 @@
     "teachesDoctrine": true,
     "godDirected": true,
     "groundsItsClaims": true,
-    "corporateVoice": false,
+    "corporateVoice": true,
     "engagesScripture": true
   },
   "sources": [
-    "https://www.worshiptogether.com/songs/the-blood-of-jesus-speaks-for-me-travis-cottrell/",
-    "http://blog.brentwoodbenson.com/story-behind-the-song-the-blood-of-jesus-speaks-for-me/"
+    {
+      "url": "https://www.worshiptogether.com/songs/the-blood-of-jesus-speaks-for-me-travis-cottrell/",
+      "title": "The Blood of Jesus Speaks for Me",
+      "publisher": "Worship Together",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Song record: writing credits for Travis Cottrell, David Moffitt and Sue C. Smith.",
+      "assessesContent": false
+    },
+    {
+      "url": "http://blog.brentwoodbenson.com/story-behind-the-song-the-blood-of-jesus-speaks-for-me/",
+      "title": "Story Behind the Song: The Blood of Jesus Speaks for Me",
+      "publisher": "Brentwood-Benson",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "The publisher's account of how the song was written, in the tradition of the blood hymns.",
+      "assessesContent": false
+    }
   ]
 }

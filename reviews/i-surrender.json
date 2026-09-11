@@ -27,7 +27,7 @@
         "claim": "The singer gives everything over to God's will.",
         "subject": "Surrender",
         "location": "CHORUS",
-        "lyricExcerpt": "I surrender"
+        "lyricExcerpt": null
       },
       {
         "claim": "The singer asks to know God relationally rather than merely about him.",
@@ -39,7 +39,7 @@
         "claim": "The singer asks Jesus to breathe within them, as the Spirit indwelling.",
         "subject": "The Holy Spirit",
         "location": "BRIDGE",
-        "lyricExcerpt": "Jesus breathe within"
+        "lyricExcerpt": null
       },
       {
         "claim": "The singer asks to be consumed and remade by God's presence.",
@@ -67,7 +67,7 @@
         "explanation": "The song asks for nothing except that the singer be given over. In a genre that often asks God for outcomes, a song whose only request is to be handed over is doing something right.",
         "songLocation": "CHORUS",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "I surrender",
+        "lyricExcerpt": null,
         "scriptureReference": "Romans 12:1",
         "scriptureRationale": "Present your bodies as a living sacrifice — the offering the chorus makes."
       },
@@ -86,7 +86,7 @@
         "explanation": "The bridge is a request for the indwelling Spirit rather than for a feeling. It is the one place the song names Christ, and it echoes the moment Christ breathed on the disciples.",
         "songLocation": "BRIDGE",
         "magnitude": "MINOR",
-        "lyricExcerpt": "Jesus breathe within",
+        "lyricExcerpt": null,
         "scriptureReference": "John 20:22",
         "scriptureRationale": "He breathed on them and said, Receive the Holy Spirit."
       }
@@ -102,7 +102,8 @@
         "recurring": true,
         "scriptureReference": "2 Corinthians 5:7",
         "scriptureRationale": "We walk by faith, not by sight — the alternative measure the song does not offer.",
-        "likelihood": "LIKELY"
+        "likelihood": "LIKELY",
+        "lyricExcerpt": null
       }
     ],
     "doctrinesAffirmed": [
@@ -225,8 +226,32 @@
     ]
   },
   "sources": [
-    "https://www.thebereantest.com/hillsong-worship-i-surrender",
-    "https://en.wikipedia.org/wiki/Cornerstone_(Hillsong_Worship_album)",
-    "https://www.worshiptogether.com/songs/i-surrender-hillsong/"
+    {
+      "url": "https://www.thebereantest.com/hillsong-worship-i-surrender",
+      "title": "The Berean Test: I Surrender",
+      "publisher": "The Berean Test",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "A published theological critique of the song from a discernment blog.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cornerstone_(Hillsong_Worship_album)",
+      "title": "Cornerstone (Hillsong Worship album)",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Recording and release dates of the album that carries the song.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.worshiptogether.com/songs/i-surrender-hillsong/",
+      "title": "I Surrender",
+      "publisher": "Worship Together",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher's song page: writers, copyright and CCLI details.",
+      "assessesContent": false
+    }
   ]
 }

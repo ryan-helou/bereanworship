@@ -12,6 +12,9 @@ import {
   TheologicalAnalysisSchema,
   THEME_VOCABULARY,
   evidenceCoverage,
+  SongSourceSchema,
+  independentSourceCount,
+  type SongSource,
 } from './ai/schemas';
 import {
   prepareArtistFindings,
@@ -55,8 +58,41 @@ export const SongReviewPayload = z.object({
   communal: CommunalAnalysisSchema,
   clarity: ClarityAnalysisSchema,
   synthesis: SynthesisSchema,
-  /** Pages actually consulted; recorded as sources on the song. */
-  sources: z.array(z.string().url()).default([]),
+  /**
+   * What the review rests on, each source stating what it is. Bare URL strings
+   * are the pre-3.2.0 shape: they still validate, and land as unclassified
+   * tier-3 sources, which do not count as independent.
+   */
+  sources: z
+    .array(
+      z.union([
+        SongSourceSchema,
+        z
+          .string()
+          .url()
+          .transform(
+            (url): SongSource => ({
+              url,
+              title: new URL(url).hostname.replace(/^www\./, ''),
+              publisher: new URL(url).hostname.replace(/^www\./, ''),
+              sourceType: 'OTHER',
+              credibilityTier: 'TIER_3',
+              establishes: null,
+              assessesContent: false,
+            }),
+          ),
+      ]),
+    )
+    // A page that IS the song is not a source about it, and fetching one is
+    // how research sessions got blocked. Refused here rather than remembered.
+    .superRefine((list, ctx) => {
+      list.forEach((s, i) => {
+        if (s.sourceType === 'LYRICS_DATABASE' || /lyricstranslate\.|\/lyrics\/|hymnary\.org\/(text|hymn)\//i.test(s.url)) {
+          ctx.addIssue({ code: z.ZodIssueCode.custom, path: [i], message: `A page reproducing the song may not be cited: ${s.url}` });
+        }
+      });
+    })
+    .default([]),
 });
 
 export const ArtistResearchPayload = z.object({
@@ -69,6 +105,8 @@ export const ArtistResearchPayload = z.object({
 export const ReviewPayload = z.discriminatedUnion('kind', [SongReviewPayload, ArtistResearchPayload]);
 
 export interface AppliedSong {
+  /** How many sources, and how many of them are independent of the seller. */
+  sourcing: { total: number; independent: number };
   kind: 'song';
   slug: string;
   title: string;
@@ -139,7 +177,7 @@ async function applySong(payload: z.infer<typeof SongReviewPayload>): Promise<Ap
   }, {
     performanceOrientation: communal.performanceOrientation,
     repetition: communal.repetition,
-  });
+  }, { independentSources: independentSourceCount(sources) });
 
   // A review with no findings in any criterion has nothing to judge. Under the
   // old baseline it would have scored 70 and published as "recommended with
@@ -174,6 +212,13 @@ async function applySong(payload: z.infer<typeof SongReviewPayload>): Promise<Ap
     });
   }
 
+  if (independentSourceCount(sources) === 0) {
+    log.warn('review.no_independent_source', {
+      sources: sources.length,
+      note: 'Every source is a publisher page, an encyclopedia or a blog. A clean record is held to the unverified level.',
+    });
+  }
+
   const result: SongReviewResult = {
     identification,
     claims,
@@ -185,7 +230,8 @@ async function applySong(payload: z.infer<typeof SongReviewPayload>): Promise<Ap
     findings,
     scores,
     themes,
-    citations: sources,
+    citations: sources.map((s) => s.url),
+    sources,
     stages: [],
     usage: { inputTokens: 0, outputTokens: 0 },
   };
@@ -218,6 +264,7 @@ async function applySong(payload: z.infer<typeof SongReviewPayload>): Promise<Ap
     unrated: scores.unrated,
     findingCount: findings.length,
     sourceCount: sources.length,
+    sourcing: { total: sources.length, independent: independentSourceCount(sources) },
     themes,
     evidence,
     range: (() => {

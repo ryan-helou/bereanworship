@@ -21,7 +21,7 @@
         "claim": "God is holy, and the heavenly host cry it without ceasing.",
         "subject": "The holiness of God",
         "location": "CHORUS",
-        "lyricExcerpt": "Holy forever"
+        "lyricExcerpt": null
       },
       {
         "claim": "God's name is above every other name.",
@@ -58,7 +58,7 @@
         "explanation": "The central line is the cry of Isaiah 6 and Revelation 4 rather than a modern phrase about God's greatness. A congregation singing it is joining a text rather than inventing one.",
         "songLocation": "CHORUS",
         "magnitude": "MAJOR",
-        "lyricExcerpt": "Holy forever",
+        "lyricExcerpt": null,
         "scriptureReference": "Isaiah 6:3",
         "scriptureRationale": "Holy, holy, holy is the Lord of hosts — the cry the chorus takes up."
       },
@@ -222,7 +222,23 @@
     "engagesScripture": true
   },
   "sources": [
-    "https://en.wikipedia.org/wiki/Holy_Forever",
-    "https://www.worshiptogether.com/songs/holy-forever-chris-tomlin/"
+    {
+      "url": "https://en.wikipedia.org/wiki/Holy_Forever",
+      "title": "Holy Forever",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writers and 2022 release on Chris Tomlin's album Always.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.worshiptogether.com/songs/holy-forever-chris-tomlin/",
+      "title": "Holy Forever",
+      "publisher": "Worship Together",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher's song record: writers, CCLI 7201044 and the Scripture references listed behind it.",
+      "assessesContent": false
+    }
   ]
 }

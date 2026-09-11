@@ -27,13 +27,13 @@
         "claim": "God counts the stars and calls them each by name.",
         "subject": "God's knowledge",
         "location": "VERSE_2",
-        "lyricExcerpt": "You count the stars and You call them by name"
+        "lyricExcerpt": null
       },
       {
         "claim": "God is indescribable, uncontainable and beyond understanding.",
         "subject": "The incomprehensibility of God",
         "location": "CHORUS",
-        "lyricExcerpt": "Indescribable, uncontainable"
+        "lyricExcerpt": null
       },
       {
         "claim": "Creation itself declares God's greatness back to him.",
@@ -66,8 +66,8 @@
         "title": "Names God's knowledge of particulars",
         "explanation": "Counting the stars and naming each one is a claim about God knowing individuals, not merely about his being large. It is the line in the song with the most weight and it is taken from the psalter.",
         "songLocation": "VERSE_2",
-        "magnitude": "MAJOR",
-        "lyricExcerpt": "You count the stars and You call them by name",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null,
         "scriptureReference": "Psalm 147:4",
         "scriptureRationale": "He determines the number of the stars; he gives to all of them their names."
       },
@@ -77,25 +77,12 @@
         "explanation": "The chorus says God exceeds description only after the verses have tried to describe him. The order matters: the confession is earned rather than asserted.",
         "songLocation": "CHORUS",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "Indescribable, uncontainable",
+        "lyricExcerpt": null,
         "scriptureReference": "Romans 11:33",
         "scriptureRationale": "How unsearchable his judgements and how inscrutable his ways."
       }
     ],
-    "concerns": [
-      {
-        "category": "Gospel content",
-        "title": "A God of creation with no mention of redemption",
-        "explanation": "The song is entirely about God as maker. Christ, the cross and salvation appear nowhere, so a congregation is taught to marvel at the Creator without being told he is also the Redeemer.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": false,
-        "likelihood": "POSSIBLE",
-        "scriptureReference": "Colossians 1:16-20",
-        "scriptureRationale": "The one through whom all things were created is the one who reconciles by the blood of his cross — Paul holds together what the song separates."
-      }
-    ],
+    "concerns": [],
     "doctrinesAffirmed": [
       "God as Creator",
       "God's knowledge of particulars",
@@ -219,7 +206,23 @@
     "engagesScripture": true
   },
   "sources": [
-    "https://en.wikipedia.org/wiki/Indescribable_(song)",
-    "https://www.worshiptogether.com/songs/indescribable-chris-tomlin/"
+    {
+      "url": "https://en.wikipedia.org/wiki/Indescribable_(song)",
+      "title": "Indescribable (song)",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writers and Chris Tomlin's 2004 recording on Arriving.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.worshiptogether.com/songs/indescribable-chris-tomlin/",
+      "title": "Indescribable",
+      "publisher": "Worship Together",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher's song page: writers, copyright and CCLI details.",
+      "assessesContent": false
+    }
   ]
 }

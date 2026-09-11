@@ -328,7 +328,15 @@ export async function saveSongReview(songId: string, result: SongReviewResult): 
     : null;
 
   const themeRecords = await resolveThemes(result.themes);
-  const sourceIds = await persistCitations(result.citations);
+  // A review that states what its sources are (3.2.0 onward) keeps that; the
+  // worker's bare citations still land as unclassified.
+  const sourceLinks = result.sources?.length
+    ? await persistSongSources(result.sources)
+    : (await persistCitations(result.citations)).map((sourceId) => ({
+        sourceId,
+        relevance: 'Consulted during review research.',
+        assessesContent: false,
+      }));
   const now = new Date();
 
   await prisma.$transaction(async (tx) => {
@@ -429,9 +437,9 @@ export async function saveSongReview(songId: string, result: SongReviewResult): 
       });
     }
 
-    if (sourceIds.length > 0) {
+    if (sourceLinks.length > 0) {
       await tx.songSource.createMany({
-        data: sourceIds.map((sourceId) => ({ songId, sourceId, relevance: 'Consulted during review research.' })),
+        data: sourceLinks.map(({ sourceId, relevance, assessesContent }) => ({ songId, sourceId, relevance, assessesContent })),
         skipDuplicates: true,
       });
     }
@@ -626,6 +634,33 @@ async function persistCitations(urls: string[]): Promise<string[]> {
     }
   }
   return ids;
+}
+
+/**
+ * Persists sources a song review has classified. Unlike `persistCitations`,
+ * the tier and type come from the review rather than a default, and what each
+ * source established is kept as the link's relevance.
+ */
+async function persistSongSources(
+  sources: NonNullable<SongReviewResult['sources']>,
+): Promise<Array<{ sourceId: string; relevance: string; assessesContent: boolean }>> {
+  const links: Array<{ sourceId: string; relevance: string; assessesContent: boolean }> = [];
+  for (const s of sources.slice(0, 25)) {
+    const sourceId = await upsertSource({
+      url: s.url,
+      title: s.title,
+      publisher: s.publisher ?? null,
+      sourceType: s.sourceType,
+      credibilityTier: s.credibilityTier,
+      summary: s.establishes ?? null,
+    });
+    links.push({
+      sourceId,
+      relevance: s.establishes ?? 'Consulted during review research.',
+      assessesContent: s.assessesContent ?? false,
+    });
+  }
+  return links;
 }
 
 function dedupeBy<T>(items: T[], key: (item: T) => string): T[] {

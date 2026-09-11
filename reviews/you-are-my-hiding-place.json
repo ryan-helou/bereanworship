@@ -21,13 +21,13 @@
         "claim": "God is the singer's hiding place.",
         "subject": "God as refuge",
         "location": "CHORUS",
-        "lyricExcerpt": "You are my hiding place"
+        "lyricExcerpt": null
       },
       {
         "claim": "God surrounds the singer with songs of deliverance.",
         "subject": "Deliverance",
         "location": "CHORUS",
-        "lyricExcerpt": "songs of deliverance"
+        "lyricExcerpt": null
       },
       {
         "claim": "When afraid, the singer will trust God.",
@@ -52,7 +52,7 @@
         "explanation": "The chorus follows Psalm 32:7 closely enough that a congregation singing it has the verse in their mouths. The song's best material is not the songwriter's, which is the right kind of borrowing.",
         "songLocation": "CHORUS",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "You are my hiding place",
+        "lyricExcerpt": null,
         "scriptureReference": "Psalm 32:7",
         "scriptureRationale": "You are a hiding place for me; you surround me with shouts of deliverance."
       },
@@ -188,7 +188,23 @@
     "engagesScripture": true
   },
   "sources": [
-    "https://hymnary.org/text/you_are_my_hiding_place_you_always_fill",
-    "https://songselect.ccli.com/songs/23198/you-are-my-hiding-place"
+    {
+      "url": "https://songselect.ccli.com/songs/23198/you-are-my-hiding-place",
+      "title": "You Are My Hiding Place (CCLI SongSelect)",
+      "publisher": "CCLI",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Licensing record: writer Michael Ledner and publisher Maranatha! Music.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://hymnary.org/person/Ledner_M",
+      "title": "Michael Ledner — Hymnary.org",
+      "publisher": "Hymnary.org",
+      "sourceType": "ACADEMIC",
+      "credibilityTier": "TIER_1",
+      "establishes": "Author authority record: life dates and publication history.",
+      "assessesContent": false
+    }
   ]
 }

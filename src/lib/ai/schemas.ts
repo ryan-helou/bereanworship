@@ -441,6 +441,61 @@ export const ResearchSourceSchema = z.object({
   summary: z.string().max(1200).nullable().optional(),
 });
 
+/**
+ * A source cited by a SONG review.
+ *
+ * Songs used to record sources as bare URL strings. The consequence was
+ * measured rather than guessed: every one of the 101 stored sources sat at the
+ * TIER_3 default, so scholarship, an encyclopedia and a self-published blog
+ * were indistinguishable, and the methodology page's promise that "sources are
+ * ranked" was true only of artist research. A song review now states what each
+ * source is, and `independentSourceCount()` is what the publish path checks.
+ */
+export const SongSourceSchema = z.object({
+  url: z.string().url().max(1000),
+  title: z.string().min(2).max(400),
+  publisher: z.string().max(200).nullable().optional(),
+  sourceType: sourceType.describe(
+    'What kind of page this is. OFFICIAL_WEBSITE covers a publisher, label or artist page — useful for metadata, never evidence about soundness. LYRICS_DATABASE may not be cited at all.',
+  ),
+  credibilityTier: credibilityTier.describe(
+    'TIER_1 scholarly-authoritative or primary (peer-reviewed work, hymnological reference, a denominational report, the writer\'s own statement). TIER_2 reputable secondary (edited journals, institutional resources). TIER_3 general journalism and tertiary reference such as an encyclopedia. TIER_4 blogs and self-published reviewers.',
+  ),
+  establishes: z
+    .string()
+    .max(200)
+    .nullable()
+    .optional()
+    .describe('One line on what this source actually established for this review.'),
+  assessesContent: z
+    .boolean()
+    .default(false)
+    .describe(
+      'True when the source discusses what the song teaches (a published objection, a hymnological essay, a denominational rationale), not only its authorship, publication or key. Only such sources can vouch for a clean theological record.',
+    ),
+});
+export type SongSource = z.infer<typeof SongSourceSchema>;
+
+/**
+ * Publisher, label and artist pages are primary for a copyright line and
+ * useless as evidence about whether a song teaches the truth — they exist to
+ * sell the song. A review is only as good as its independent sources, so they
+ * are counted separately from its total. A source counts only when it also
+ * assessed the song's content: an author's biography establishes who wrote a
+ * song, not whether it is sound.
+ */
+export function independentSourceCount(
+  sources: Array<Pick<SongSource, 'sourceType' | 'credibilityTier'> & { assessesContent?: boolean | null }>,
+): number {
+  return sources.filter(
+    (s) =>
+      s.assessesContent === true &&
+      s.sourceType !== 'OFFICIAL_WEBSITE' &&
+      s.sourceType !== 'LYRICS_DATABASE' &&
+      (s.credibilityTier === 'TIER_1' || s.credibilityTier === 'TIER_2'),
+  ).length;
+}
+
 export const ArtistFindingSchema = z.object({
   component: z.enum(['DOCTRINE', 'AFFILIATIONS', 'PUBLIC_TEACHING', 'MINISTRY_CONTEXT']),
   category: z.string().min(2).max(80),

@@ -27,7 +27,7 @@
         "claim": "The one worshipped there is he who died and rose again.",
         "subject": "The resurrection",
         "location": "CHORUS",
-        "lyricExcerpt": "He who died and rose again"
+        "lyricExcerpt": null
       },
       {
         "claim": "Every knee will bow and every tongue confess him.",
@@ -67,7 +67,7 @@
         "explanation": "The chorus does not leave the one worshipped abstract. Naming him as the one who died and rose keeps the song's future anchored in a past event rather than in a hope about the future generally.",
         "songLocation": "CHORUS",
         "magnitude": "MAJOR",
-        "lyricExcerpt": "He who died and rose again",
+        "lyricExcerpt": null,
         "scriptureReference": "Revelation 5:9",
         "scriptureRationale": "Worthy are you, for you were slain and by your blood ransomed people for God."
       },
@@ -236,7 +236,23 @@
     "engagesScripture": true
   },
   "sources": [
-    "https://www.thebereantest.com/phil-wickham-hymn-of-heaven",
-    "https://en.wikipedia.org/wiki/Hymn_of_Heaven"
+    {
+      "url": "https://www.thebereantest.com/phil-wickham-hymn-of-heaven",
+      "title": "Phil Wickham – Hymn of Heaven",
+      "publisher": "The Berean Test",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "A published lay doctrinal review of the song, consulted as an outside assessment of its claims.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hymn_of_Heaven",
+      "title": "Hymn of Heaven",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writers and 2021 release by Phil Wickham.",
+      "assessesContent": false
+    }
   ]
 }

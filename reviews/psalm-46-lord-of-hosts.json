@@ -27,7 +27,7 @@
         "claim": "The Lord of hosts is with his people.",
         "subject": "God's presence",
         "location": "CHORUS",
-        "lyricExcerpt": "The Lord of hosts is with us"
+        "lyricExcerpt": null
       },
       {
         "claim": "Though the earth gives way and mountains fall into the sea, the singer will not fear.",
@@ -57,7 +57,7 @@
         "title": "A psalm set rather than a psalm referenced",
         "explanation": "The song follows Psalm 46's argument in order and takes its chorus from the psalm's own refrain. A congregation singing it has the text in their mouths rather than a sentiment loosely inspired by it.",
         "songLocation": "WHOLE_SONG",
-        "magnitude": "MAJOR",
+        "magnitude": "MODERATE",
         "scriptureReference": "Psalm 46:1-3",
         "scriptureRationale": "God is our refuge and strength, therefore we will not fear though the earth gives way."
       },
@@ -67,7 +67,7 @@
         "explanation": "The reason given for not fearing is that God is with his people, not that the trouble will pass. The psalm's logic is preserved intact, and it is the harder and better comfort.",
         "songLocation": "CHORUS",
         "magnitude": "MAJOR",
-        "lyricExcerpt": "The Lord of hosts is with us",
+        "lyricExcerpt": null,
         "scriptureReference": "Psalm 46:7",
         "scriptureRationale": "The Lord of hosts is with us; the God of Jacob is our fortress — the refrain, kept as the refrain."
       },
@@ -211,7 +211,23 @@
     "engagesScripture": true
   },
   "sources": [
-    "https://songselect.ccli.com/songs/7053138/psalm-46-lord-of-hosts",
-    "https://www.praisecharts.com/songs/details/70545/psalm-46-lord-of-hosts-sheet-music"
+    {
+      "url": "https://songselect.ccli.com/songs/7053138/psalm-46-lord-of-hosts",
+      "title": "Psalm 46 (Lord of Hosts)",
+      "publisher": "CCLI SongSelect",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Licensing record: writers, copyright and CCLI number.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.praisecharts.com/songs/details/70545/psalm-46-lord-of-hosts-sheet-music",
+      "title": "Psalm 46 (Lord of Hosts) sheet music",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Licensed arrangement listing: key and song form.",
+      "assessesContent": false
+    }
   ]
 }

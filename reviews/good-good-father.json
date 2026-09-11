@@ -27,19 +27,19 @@
         "claim": "God is a good Father, and that is his settled character.",
         "subject": "The fatherhood of God",
         "location": "CHORUS",
-        "lyricExcerpt": "You're a good good Father"
+        "lyricExcerpt": null
       },
       {
         "claim": "The singer is loved by God, and that constitutes their identity.",
         "subject": "Identity",
         "location": "CHORUS",
-        "lyricExcerpt": "I'm loved by You, it's who I am"
+        "lyricExcerpt": null
       },
       {
         "claim": "God is perfect in all his ways toward us.",
         "subject": "The character of God",
         "location": "BRIDGE",
-        "lyricExcerpt": "You are perfect in all of Your ways"
+        "lyricExcerpt": null
       },
       {
         "claim": "God's love is not earned and cannot be lost by the singer's failure.",
@@ -67,7 +67,7 @@
         "explanation": "The chorus says goodness is who God is rather than how he happens to be treating the singer today. A congregation is given something that does not move with circumstance.",
         "songLocation": "CHORUS",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "You're a good good Father",
+        "lyricExcerpt": null,
         "scriptureReference": "James 1:17",
         "scriptureRationale": "With the Father of lights there is no variation or shadow due to change."
       },
@@ -77,7 +77,7 @@
         "explanation": "The bridge claims God is perfect in what he does, not only in what he is. That is the harder confession, and the one a suffering singer actually needs.",
         "songLocation": "BRIDGE",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "You are perfect in all of Your ways",
+        "lyricExcerpt": null,
         "scriptureReference": "Deuteronomy 32:4",
         "scriptureRationale": "The Rock, his work is perfect, and all his ways are justice."
       },
@@ -100,7 +100,7 @@
         "severity": "MINOR",
         "centrality": "IMPORTANT",
         "recurring": true,
-        "lyricExcerpt": "I'm loved by You, it's who I am",
+        "lyricExcerpt": null,
         "scriptureReference": "1 John 3:1",
         "scriptureRationale": "We are called children of God — but the verse grounds the title in the love the Father has given, not in the singer's sense of it.",
         "likelihood": "LIKELY"
@@ -230,8 +230,32 @@
     ]
   },
   "sources": [
-    "https://en.wikipedia.org/wiki/Good_Good_Father",
-    "https://www.thebereantest.com/housefires-good-good-father",
-    "https://www.worshiptogether.com/songs/good-good-father-chris-tomlin/"
+    {
+      "url": "https://en.wikipedia.org/wiki/Good_Good_Father",
+      "title": "Good Good Father",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writers, first recording by Housefires and Chris Tomlin's 2015 recording.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.thebereantest.com/housefires-good-good-father",
+      "title": "The Berean Test: Good Good Father",
+      "publisher": "The Berean Test",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "A published theological critique of the song from a discernment blog.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.worshiptogether.com/songs/good-good-father-chris-tomlin/",
+      "title": "Good Good Father",
+      "publisher": "Worship Together",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher's song page: writers, copyright and CCLI details.",
+      "assessesContent": false
+    }
   ]
 }

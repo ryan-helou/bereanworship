@@ -218,8 +218,32 @@
     ]
   },
   "sources": [
-    "https://en.wikipedia.org/wiki/I_Know_Who_Holds_Tomorrow",
-    "https://en.wikipedia.org/wiki/Ira_Stanphill",
-    "https://www.wordwisebiblestudies.com/i-know-who-holds-tomorrow/"
+    {
+      "url": "https://en.wikipedia.org/wiki/I_Know_Who_Holds_Tomorrow",
+      "title": "I Know Who Holds Tomorrow",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "General reference for Stanphill's 1950 song and its recording history.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ira_Stanphill",
+      "title": "Ira Stanphill",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Biography of the writer, including the period of his life in which he wrote the song.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.wordwisebiblestudies.com/i-know-who-holds-tomorrow/",
+      "title": "I Know Who Holds Tomorrow (Word Wise Bible Studies)",
+      "publisher": "Word Wise Bible Studies",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "Self-published devotional commentary on the song.",
+      "assessesContent": true
+    }
   ]
 }

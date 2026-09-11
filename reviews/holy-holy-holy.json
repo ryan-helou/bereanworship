@@ -21,13 +21,13 @@
         "claim": "God is holy, and the church joins the cry at morning.",
         "subject": "The holiness of God",
         "location": "VERSE_1",
-        "lyricExcerpt": "Holy, holy, holy, Lord God Almighty"
+        "lyricExcerpt": null
       },
       {
         "claim": "God is three persons and one God, blessed Trinity.",
         "subject": "The Trinity",
         "location": "VERSE_1",
-        "lyricExcerpt": "God in three Persons, blessed Trinity"
+        "lyricExcerpt": null
       },
       {
         "claim": "Saints and heavenly beings cast down their crowns before God's throne.",
@@ -64,7 +64,7 @@
         "explanation": "Three persons and one God is stated plainly and repeated four times. Almost nothing in current congregational use teaches the doctrine at all, and this hymn makes it the refrain.",
         "songLocation": "WHOLE_SONG",
         "magnitude": "MAJOR",
-        "lyricExcerpt": "God in three Persons, blessed Trinity",
+        "lyricExcerpt": null,
         "scriptureReference": "Matthew 28:19",
         "scriptureRationale": "Baptising in the name of the Father and of the Son and of the Holy Spirit — one name, three persons."
       },
@@ -74,7 +74,7 @@
         "explanation": "The opening is Isaiah's and John's, not the hymnwriter's. A congregation singing it is joining a scene Scripture describes rather than manufacturing an emotion about God's greatness.",
         "songLocation": "VERSE_1",
         "magnitude": "MAJOR",
-        "lyricExcerpt": "Holy, holy, holy, Lord God Almighty",
+        "lyricExcerpt": null,
         "scriptureReference": "Revelation 4:8",
         "scriptureRationale": "Day and night they never cease to say, Holy, holy, holy — the cry the hymn takes up."
       },
@@ -223,7 +223,23 @@
     "engagesScripture": true
   },
   "sources": [
-    "https://hymnary.org/text/holy_holy_holy_lord_god_almighty_early",
-    "https://en.wikipedia.org/wiki/Holy,_Holy,_Holy!_Lord_God_Almighty"
+    {
+      "url": "https://en.wikipedia.org/wiki/Holy,_Holy,_Holy!_Lord_God_Almighty",
+      "title": "Holy, Holy, Holy! Lord God Almighty",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "General reference for Heber's text (1826, for Trinity Sunday) and Dykes's tune NICAEA (1861).",
+      "assessesContent": false
+    },
+    {
+      "url": "https://hymnary.org/person/Heber_R",
+      "title": "Reginald Heber, 1783–1826 — Hymnary.org",
+      "publisher": "Hymnary.org",
+      "sourceType": "ACADEMIC",
+      "credibilityTier": "TIER_1",
+      "establishes": "Author authority record: life dates and publication history.",
+      "assessesContent": false
+    }
   ]
 }

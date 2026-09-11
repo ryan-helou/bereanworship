@@ -21,7 +21,7 @@
         "claim": "God is holy and there is no one like him.",
         "subject": "The holiness of God",
         "location": "VERSE_1",
-        "lyricExcerpt": "Holy, there is no one like You"
+        "lyricExcerpt": null
       },
       {
         "claim": "God is worthy of the singer's whole life and devotion.",
@@ -45,13 +45,13 @@
         "claim": "The singer will build their life on God's love as a firm foundation.",
         "subject": "Foundation",
         "location": "BRIDGE",
-        "lyricExcerpt": "I will build my life upon Your love"
+        "lyricExcerpt": null
       },
       {
         "claim": "God's love is a foundation that will not be shaken.",
         "subject": "Assurance",
         "location": "BRIDGE",
-        "lyricExcerpt": "It is a firm foundation"
+        "lyricExcerpt": null
       }
     ],
     "gospelClarity": "IMPLICIT"
@@ -73,7 +73,7 @@
         "explanation": "The first word of the song is a statement about God's character rather than about what he does for the singer. Starting there sets the order of the whole song correctly.",
         "songLocation": "VERSE_1",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "Holy, there is no one like You",
+        "lyricExcerpt": null,
         "scriptureReference": "Isaiah 6:3",
         "scriptureRationale": "Holy, holy, holy is the Lord of hosts — the confession the opening line takes up."
       },
@@ -92,7 +92,7 @@
         "explanation": "The bridge is a decision about how the singer will live rather than a description of how they feel. That makes it a vow a congregation can be held to on Monday.",
         "songLocation": "BRIDGE",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "I will build my life upon Your love",
+        "lyricExcerpt": null,
         "scriptureReference": "Matthew 7:24",
         "scriptureRationale": "The wise man who built his house on the rock — the picture the bridge is reaching for."
       }
@@ -106,7 +106,7 @@
         "severity": "MINOR",
         "centrality": "IMPORTANT",
         "recurring": true,
-        "lyricExcerpt": "It is a firm foundation",
+        "lyricExcerpt": null,
         "scriptureReference": "Matthew 7:24-27",
         "scriptureRationale": "Everyone who hears these words of mine and does them — the parable makes obedience the rock.",
         "likelihood": "LIKELY"
@@ -234,8 +234,32 @@
     ]
   },
   "sources": [
-    "https://en.wikipedia.org/wiki/Build_My_Life",
-    "https://www.thebereantest.com/housefires-build-my-life",
-    "https://www.worshiptogether.com/songs/build-my-life-pat-barrett/"
+    {
+      "url": "https://en.wikipedia.org/wiki/Build_My_Life",
+      "title": "Build My Life",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writers, first release by Housefires and the Passion recording.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.thebereantest.com/housefires-build-my-life",
+      "title": "The Berean Test: Build My Life",
+      "publisher": "The Berean Test",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "A published theological critique of the song from a discernment blog.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.worshiptogether.com/songs/build-my-life-pat-barrett/",
+      "title": "Build My Life",
+      "publisher": "Worship Together",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher's song page: writers, copyright and CCLI details.",
+      "assessesContent": false
+    }
   ]
 }

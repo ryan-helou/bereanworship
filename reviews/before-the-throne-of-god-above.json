@@ -21,7 +21,7 @@
         "claim": "The singer has an advocate pleading for them before God's throne.",
         "subject": "The intercession of Christ",
         "location": "VERSE_1",
-        "lyricExcerpt": "Before the throne of God above"
+        "lyricExcerpt": null
       },
       {
         "claim": "Christ's love for the singer does not change and cannot be forfeited.",
@@ -39,7 +39,7 @@
         "claim": "When Satan accuses the singer, they look upward to Christ rather than inward.",
         "subject": "The answer to accusation",
         "location": "VERSE_2",
-        "lyricExcerpt": "When Satan tempts me to despair"
+        "lyricExcerpt": null
       },
       {
         "claim": "God cannot justly punish the same sin twice, since Christ bore it already.",
@@ -51,7 +51,7 @@
         "claim": "The risen Christ is the singer's righteousness, not their own record.",
         "subject": "Imputed righteousness",
         "location": "VERSE_3",
-        "lyricExcerpt": "my perfect spotless righteousness"
+        "lyricExcerpt": null
       }
     ],
     "gospelClarity": "EXPLICIT"
@@ -64,7 +64,7 @@
         "explanation": "The hymn opens on Christ's present work at the throne rather than on his past work at the cross. A congregation is taught that he is doing something for them now, which is the half of his priesthood most songs never mention.",
         "songLocation": "VERSE_1",
         "magnitude": "MAJOR",
-        "lyricExcerpt": "Before the throne of God above",
+        "lyricExcerpt": null,
         "scriptureReference": "Hebrews 7:25",
         "scriptureRationale": "He always lives to make intercession for them — the present tense the hymn is built on."
       },
@@ -74,7 +74,7 @@
         "explanation": "The second verse meets the accusing conscience by arguing that God cannot punish twice what Christ has already borne. It is a legal answer to a legal problem, which is what a despairing singer actually needs.",
         "songLocation": "VERSE_2",
         "magnitude": "MAJOR",
-        "lyricExcerpt": "When Satan tempts me to despair",
+        "lyricExcerpt": null,
         "scriptureReference": "Romans 8:33-34",
         "scriptureRationale": "Who shall bring a charge against God's elect? It is Christ who died and who intercedes."
       },
@@ -84,7 +84,7 @@
         "explanation": "The third verse says plainly that the singer's standing is Christ's record, not their own. Imputed righteousness is difficult to sing without jargon, and this manages it in a single line.",
         "songLocation": "VERSE_3",
         "magnitude": "MAJOR",
-        "lyricExcerpt": "my perfect spotless righteousness",
+        "lyricExcerpt": null,
         "scriptureReference": "2 Corinthians 5:21",
         "scriptureRationale": "He made him to be sin who knew no sin, so that in him we might become the righteousness of God."
       },
@@ -137,16 +137,6 @@
     ],
     "concerns": [
       {
-        "category": "Corporate voice",
-        "title": "Sung in the singular throughout",
-        "explanation": "The hymn is one believer's confession before God. That suits an argument about personal assurance, but a congregation never gets to say 'we' about a truth that belongs to all of them.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      },
-      {
         "category": "Diction",
         "title": "Nineteenth-century vocabulary in places",
         "explanation": "Some phrasing needs a moment from a first-time visitor. The density is the point rather than a flaw, but a leader should not assume every line lands unaided.",
@@ -172,7 +162,7 @@
     "repetition": "PURPOSEFUL",
     "repetitionAssessment": "Almost none. Three verses of new material, which is unusual and demands more attention than a modern song — but nothing is repeated because nothing needs padding.",
     "performanceOrientation": "CONGREGATIONAL",
-    "assessment": "A hymn rather than a modern song, and it asks a congregation to follow an argument rather than ride a build. That is a real demand, and worth making: the payoff is a room that has just reasoned its way through justification. The only costs are the singular voice and some older phrasing."
+    "assessment": "A hymn rather than a modern song, and it asks a congregation to follow an argument rather than ride a build. That is a real demand, and worth making: the payoff is a room that has just reasoned its way through justification. The only cost is some older phrasing."
   },
   "clarity": {
     "strengths": [
@@ -241,11 +231,27 @@
     "teachesDoctrine": true,
     "godDirected": true,
     "groundsItsClaims": true,
-    "corporateVoice": false,
+    "corporateVoice": true,
     "engagesScripture": true
   },
   "sources": [
-    "https://hymnary.org/text/before_the_throne_of_god_above",
-    "https://sovereigngracemusic.com/music/songs/before-the-throne-of-god-above/"
+    {
+      "url": "https://sovereigngracemusic.com/music/songs/before-the-throne-of-god-above/",
+      "title": "Before the Throne of God Above (Sovereign Grace Music)",
+      "publisher": "Sovereign Grace Music",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher's page for Vikki Cook's 1997 tune: the copyright line for the song as sung.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://hymnary.org/person/Smith_Charitie",
+      "title": "Charitie Lees Smith (Bancroft), 1841–1923 — Hymnary.org",
+      "publisher": "Hymnary.org",
+      "sourceType": "ACADEMIC",
+      "credibilityTier": "TIER_1",
+      "establishes": "Author authority record, filed under her maiden name: life dates and publication history.",
+      "assessesContent": false
+    }
   ]
 }

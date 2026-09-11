@@ -240,6 +240,8 @@ function TwoAxes({
           ) : (
             <p className="mt-2 text-xs leading-relaxed text-ink-500">
               Nothing in this song was found to be wrong. That is not the same as saying much — see the other half.
+              {soundness.unverified &&
+                ' No independent source that examined what the song teaches was consulted, so the clean record is held one level below full.'}
             </p>
           )}
           {soundness.disqualifying && (

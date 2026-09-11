@@ -21,13 +21,13 @@
         "claim": "The singer asks to be drawn near, closer than before.",
         "subject": "Nearness to God",
         "location": "VERSE_1",
-        "lyricExcerpt": "Draw me close to You"
+        "lyricExcerpt": null
       },
       {
         "claim": "Nothing else the singer might want compares with the one addressed.",
         "subject": "The sufficiency of God",
         "location": "CHORUS",
-        "lyricExcerpt": "You're all I want"
+        "lyricExcerpt": null
       },
       {
         "claim": "The singer asks for help finding the way back.",
@@ -52,7 +52,7 @@
         "explanation": "The object throughout is the person addressed, not relief or blessing. In a genre that often asks God for outcomes, a song whose whole request is nearness is aiming at the right thing.",
         "songLocation": "CHORUS",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "You're all I want",
+        "lyricExcerpt": null,
         "scriptureReference": "Psalm 73:25",
         "scriptureRationale": "There is nothing on earth I desire besides you — the same appetite, and the same object."
       },
@@ -195,8 +195,32 @@
     "engagesScripture": false
   },
   "sources": [
-    "https://www.thebereantest.com/kelly-carpenter-draw-me-close",
-    "https://worshipmatters.com/2006/04/07/draw-me-close-is-it-biblical/",
-    "http://kellycarpentermusic.com/2014/01/16/draw-me-close-turns-20/"
+    {
+      "url": "https://www.thebereantest.com/kelly-carpenter-draw-me-close",
+      "title": "The Berean Test: Draw Me Close",
+      "publisher": "The Berean Test",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "A published theological critique of the song from a discernment blog.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://worshipmatters.com/2006/04/07/draw-me-close-is-it-biblical/",
+      "title": "Draw Me Close: Is It Biblical?",
+      "publisher": "Worship Matters (Bob Kauflin)",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_2",
+      "establishes": "A published pastoral assessment of the song's theology by Bob Kauflin.",
+      "assessesContent": true
+    },
+    {
+      "url": "http://kellycarpentermusic.com/2014/01/16/draw-me-close-turns-20/",
+      "title": "Draw Me Close Turns 20",
+      "publisher": "Kelly Carpenter",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "The writer's own account of when and why he wrote the song.",
+      "assessesContent": false
+    }
   ]
 }

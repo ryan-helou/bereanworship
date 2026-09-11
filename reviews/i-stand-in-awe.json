@@ -21,7 +21,7 @@
         "claim": "God's beauty exceeds description and his greatness exceeds comprehension.",
         "subject": "The incomprehensibility of God",
         "location": "VERSE_1",
-        "lyricExcerpt": "too marvelous for words"
+        "lyricExcerpt": null
       },
       {
         "claim": "No one can grasp God's wisdom or measure the depth of his love.",
@@ -39,7 +39,7 @@
         "claim": "God is holy and all praise is owed to him.",
         "subject": "The holiness of God",
         "location": "CHORUS",
-        "lyricExcerpt": "Holy God to whom all praise is due"
+        "lyricExcerpt": null
       },
       {
         "claim": "The fitting response to God is awe.",
@@ -68,7 +68,7 @@
     "teachesDoctrine": true,
     "godDirected": true,
     "groundsItsClaims": true,
-    "corporateVoice": false,
+    "corporateVoice": true,
     "engagesScripture": true
   },
   "theological": {
@@ -79,7 +79,7 @@
         "explanation": "The song's subject is that God exceeds what can be said about him. Very few congregational songs attempt this, and fewer make it the controlling idea rather than a passing line.",
         "songLocation": "VERSE_1",
         "magnitude": "MAJOR",
-        "lyricExcerpt": "too marvelous for words",
+        "lyricExcerpt": null,
         "scriptureReference": "Romans 11:33",
         "scriptureRationale": "God's judgements are unsearchable and his ways past finding out — the song's claim, in Paul's words."
       },
@@ -89,7 +89,7 @@
         "explanation": "The chorus does not stop at wonder. It calls God holy and says all praise is due to him, which turns an aesthetic response into an obligation the singer owes.",
         "songLocation": "CHORUS",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "Holy God to whom all praise is due",
+        "lyricExcerpt": null,
         "scriptureReference": "Psalm 29:2",
         "scriptureRationale": "Ascribe to the Lord the glory due his name — praise as debt rather than preference."
       },
@@ -139,18 +139,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Corporate voice",
-        "title": "Sung in the singular throughout",
-        "explanation": "The song is 'I stand', never 'we stand'. In a room it means each singer stands alone before God rather than the church standing together, which is a real if minor loss for a gathered congregation.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "singability": "EASY",
     "vocalRangeNote": "Sung here in A. A workable congregational key for a song of this shape, though a room with more low voices than high may prefer G.",
     "range": {
@@ -221,7 +210,23 @@
     ]
   },
   "sources": [
-    "https://sovereigngracemusic.com/music/songs/i-stand-in-awe/",
-    "https://hymnary.org/text/you_are_beautiful_beyond_description"
+    {
+      "url": "https://sovereigngracemusic.com/music/songs/i-stand-in-awe/",
+      "title": "I Stand in Awe",
+      "publisher": "Sovereign Grace Music",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher page: authorship by Mark Altrogge, 1986 copyright, and later re-recording.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://hymnary.org/person/Altrogge_M",
+      "title": "Mark Altrogge — Hymnary.org",
+      "publisher": "Hymnary.org",
+      "sourceType": "ACADEMIC",
+      "credibilityTier": "TIER_1",
+      "establishes": "Author authority record: life dates and publication history.",
+      "assessesContent": false
+    }
   ]
 }

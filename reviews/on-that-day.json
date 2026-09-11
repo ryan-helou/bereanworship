@@ -27,7 +27,7 @@
         "claim": "A final day is coming when present sorrow ends.",
         "subject": "The last day",
         "location": "CHORUS",
-        "lyricExcerpt": "On that day"
+        "lyricExcerpt": null
       },
       {
         "claim": "The redeemed will be gathered around the Saviour's throne.",
@@ -58,7 +58,7 @@
         "explanation": "The song is about something that will happen rather than about how the future makes the singer feel. Congregational song rarely looks past this life at all, and almost never this concretely.",
         "songLocation": "CHORUS",
         "magnitude": "MAJOR",
-        "lyricExcerpt": "On that day",
+        "lyricExcerpt": null,
         "scriptureReference": "Revelation 21:4",
         "scriptureRationale": "He will wipe away every tear — the day the chorus anticipates."
       },
@@ -185,7 +185,7 @@
     "assessment": "Clear and carefully sequenced. The song keeps present and future distinct, which is the main way songs of this kind go wrong, and its language is plain throughout. It leaves the precise ordering of the last things broad, which is a reasonable choice for congregational use."
   },
   "synthesis": {
-    "summary": "A song about the last day that treats it as an event rather than a mood, and grounds its certainty in the resurrection having already happened rather than in optimism. Its hope is corporate — a gathering, not an individual arrival — and its verses keep the singer honestly in the present. Fills a gap most catalogues have.",
+    "summary": "A song about the last day that treats it as an event rather than a mood, and grounds its certainty in the resurrection having already happened rather than in optimism. Its hope is corporate — a gathering, not an individual arrival — and its verses keep the singer honestly in the present.",
     "themes": [
       "Hope",
       "Heaven",
@@ -222,7 +222,14 @@
     "engagesScripture": false
   },
   "sources": [
-    "https://cityalight.com/song/on-that-day/",
-    "https://cityalight.com/wp-content/uploads/2022/08/On-That-Day_LS.pdf"
+    {
+      "url": "https://cityalight.com/song/on-that-day/",
+      "title": "On That Day",
+      "publisher": "CityAlight",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher page: authorship and release details.",
+      "assessesContent": false
+    }
   ]
 }

@@ -10,6 +10,7 @@ import {
   METHODOLOGY_VERSION,
   RUBRIC_MAX_LEVEL,
   SOUNDNESS_BASE,
+  UNVERIFIED_CLEAN_LEVEL,
   SCORE_BANDS,
   SCORING_VERSION,
   SONG_WEIGHTS,
@@ -253,6 +254,12 @@ an error binds outright; a clean record lifts a thin song a little`}
             possible but whether it is likely. A phrase that could theoretically mislead and one that does mislead
             should not cost a song the same.
           </p>
+          <p>
+            A clean record has to be checked. A song with nothing found wrong reaches full soundness only when at least
+            one independent scholarly or institutional source that examined what the song teaches stands behind the review. Otherwise it is held one level
+            below, at {UNVERIFIED_CLEAN_LEVEL}, and the song page says so — because &ldquo;nobody found anything&rdquo;
+            is not the same as &ldquo;nothing is wrong&rdquo;.
+          </p>
         </Section>
 
         <Section id="delivery" title="Hype, repetition, and who the song is for">
@@ -284,7 +291,9 @@ an error binds outright; a clean record lifts a thin song a little`}
             </li>
           </ul>
           <p>
-            Both are deducted from the total on purpose. The overall score is capped at the biblical score, so a penalty
+            When a song has both, the worse one is charged rather than the two together: they describe one experience of
+            the song, a room watching rather than singing. Both are deducted from the total on purpose. The overall score
+            is capped at the biblical score, so a penalty
             applied inside the 20% congregational component would vanish for most songs — it would look like weighing
             hype without actually weighing it.
           </p>
@@ -523,7 +532,10 @@ an error binds outright; a clean record lifts a thin song a little`}
         </Section>
 
         <Section id="sources" title="Sources and evidence standards">
-          <p>Every meaningful research claim is tied to a source, and sources are ranked:</p>
+          <p>
+            Sources are ranked, and a review is only as good as its independent ones. Every source a song review cites
+            states what kind of source it is, and every artist finding is tied to the source it rests on:
+          </p>
 
           <ol className="my-5 space-y-3 pl-5">
             <li className="list-decimal text-[0.9375rem] leading-relaxed text-ink-600">
@@ -543,6 +555,15 @@ an error binds outright; a clean record lifts a thin song a little`}
               resting only on tier-4 evidence is capped at a moderate penalty and published as contested.
             </li>
           </ol>
+
+          <h3 className="mt-8 text-lg font-semibold text-ink-900">For songs</h3>
+          <p>
+            A publisher, label or artist page is primary for a copyright line, a key or a release date, and is never
+            evidence about whether a song is sound: it exists to sell the song, and it does not count as independent at
+            any tier. Neither does a self-published reviewer&rsquo;s rating, which is one person&rsquo;s opinion — cited
+            where a review engages it, never the basis of a concern or a clearance. Pages that reproduce a song&rsquo;s
+            words are not cited at all.
+          </p>
 
           <h3 className="mt-8 text-lg font-semibold text-ink-900">Claims are graded</h3>
           <p>Each artist finding carries a visible evidence grade, so readers can see how well established it is:</p>

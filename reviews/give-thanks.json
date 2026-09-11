@@ -225,9 +225,41 @@
     ]
   },
   "sources": [
-    "https://en.wikipedia.org/wiki/Give_Thanks_with_a_Grateful_Heart",
-    "https://www.umcdiscipleship.org/articles/history-of-hymns-give-thanks-with-a-grateful-heart",
-    "https://www.thebereantest.com/henry-smith-give-thanks",
-    "https://integrityworship.com/songs/give-thanks-henry-smith/"
+    {
+      "url": "https://en.wikipedia.org/wiki/Give_Thanks_with_a_Grateful_Heart",
+      "title": "Give Thanks with a Grateful Heart",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Authorship by Henry Smith in 1978, the song's route to Integrity's Hosanna! Music, and 1986 publication.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.umcdiscipleship.org/articles/history-of-hymns-give-thanks-with-a-grateful-heart",
+      "title": "History of Hymns: Give Thanks with a Grateful Heart",
+      "publisher": "Discipleship Ministries of The United Methodist Church",
+      "sourceType": "THEOLOGICAL_ORGANIZATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "History of the song's writing, the sermon behind it, and how it reached publication.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.thebereantest.com/henry-smith-give-thanks",
+      "title": "Henry Smith – Give Thanks",
+      "publisher": "The Berean Test",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "A published lay doctrinal review of the song, consulted as an outside assessment of its claims.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://integrityworship.com/songs/give-thanks-henry-smith/",
+      "title": "Give Thanks",
+      "publisher": "Integrity Music",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher's song record: authorship and publishing credit.",
+      "assessesContent": false
+    }
   ]
 }

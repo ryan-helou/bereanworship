@@ -42,6 +42,10 @@ async function main() {
     if (r.unrated.length > 0) console.log(`  unrated  ${r.unrated.join(', ')} — no findings, excluded from the average`);
     console.log(`  findings ${r.findingCount}  ·  sources ${r.sourceCount}  ·  version ${r.reviewVersion}`);
     console.log(
+      `  sourcing ${r.sourcing.independent}/${r.sourcing.total} independent` +
+        (r.sourcing.independent === 0 ? ' — a clean record is held to the unverified level' : ''),
+    );
+    console.log(
       `  evidence ${r.evidence.grounded}/${r.evidence.total} findings checkable (${Math.round(r.evidence.ratio * 100)}%)` +
         ` · ${r.evidence.quoted} quote the song, ${r.evidence.quotedWords} lyric words total`,
     );

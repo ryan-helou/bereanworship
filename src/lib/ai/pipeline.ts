@@ -6,6 +6,7 @@ import {
   IdentificationSchema,
   SynthesisSchema,
   THEME_VOCABULARY,
+  type SongSource,
   applyQuotationBudget,
   type ArtistResearch,
   type ClaimExtraction,
@@ -144,6 +145,8 @@ export interface SongReviewResult {
   scores: SongScoreResult;
   themes: string[];
   citations: string[];
+  /** Classified sources, when the review states them (manual reviews since 3.2.0). */
+  sources?: SongSource[];
   stages: StageRecord[];
   usage: { inputTokens: number; outputTokens: number };
 }

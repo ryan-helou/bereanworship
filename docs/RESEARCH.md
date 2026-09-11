@@ -185,6 +185,85 @@ of which the left column answers. None of it requires the text.
 (Psalm 91)" was left out of the catalogue for exactly this reason — no well-known song
 by that title sets that psalm, and reviewing the wrong song is worse than a delay.
 
+## Song sources — what a review may rest on
+
+Song reviews used to record their sources as bare URLs, and the consequence was measured
+in September 2026: all 101 stored sources sat at the tier-3 default, 33 of 99 citations
+were the seller's own pages, the most-cited evaluative voice was a single-author blog, and
+19 of 36 reviews rested on no independent scholarship at all. The methodology page
+promised that every claim was tied to a ranked source; for songs that was not true.
+
+Since scoring 3.2.0 every song source states what it is (`SongSourceSchema`), and the
+engine counts only the independent ones.
+
+### Tiers for song research
+
+| Tier | What it is | Examples | Good for |
+|---|---|---|---|
+| 1 | Peer-reviewed scholarship, standard hymnological reference, denominational reports that give reasons, the writer's own account | *Journal of Congregational Song*; *Yale Journal of Music & Religion*; Canterbury Dictionary of Hymnology; hymnary.org record pages; Routledge Congregational Music Studies; OPC Committee on Song in Worship reports (1946–47); LCMS *Text, Music, Context* | Facts, criteria, published objections |
+| 2 | Edited or institutional secondary work; practitioners with real standing | Hymnology Archive; *First Things*; Desiring God; Calvin Institute resources; Bob Kauflin; Zac Hicks | Context and informed judgement |
+| 3 | Journalism and tertiary reference | Wikipedia; news coverage | Identification and dates |
+| 4 | Self-published reviewers, church pages, radio promotion | Single-author review blogs | An opinion held, attributed and dated — never evidence |
+
+Publisher, label, licensing and artist pages are recorded as `OFFICIAL_WEBSITE`. They are
+primary for a copyright line, a key or a release date, and never evidence about soundness:
+they exist to sell the song. They do not count as independent at any tier.
+
+### What counts in the score
+
+`independentSourceCount()` counts tier-1 and tier-2 sources that are not
+`OFFICIAL_WEBSITE` and that examined what the song teaches (`assessesContent`). An
+author's record on hymnary.org is tier 1 for who wrote a hymn and when, and says nothing
+about whether it is sound, so it does not count. A song with no theological concern reaches full soundness only when
+that count is at least one. Otherwise it is held one level below
+(`UNVERIFIED_CLEAN_LEVEL`), because "nobody found anything" is not "nothing is wrong".
+
+### Refused at the boundary
+
+The review payload rejects a lyrics site, any `/lyrics/` path, and hymnary.org `/text/`
+and `/hymn/` pages. hymnary.org is otherwise a tier-1 bibliographic source: its
+`/person/`, `/tune/` and `/hymnal/` records carry dates, meter and publication history
+without the text (checked 2026-09-07). On a tune page take only the metadata fields; its
+list of associated texts can show opening lines. A lead sheet, chord chart or score PDF
+reproduces the song as surely as a lyrics site does, and is not cited either.
+
+### Other reviewers
+
+A self-published reviewer's rating is one person's opinion. Cite it, attributed and dated,
+where the review engages it. Never let it be the basis of a concern or a clearance, and
+never adopt its score: citing another site's number while producing your own makes the
+result partly circular.
+
+### A standing bias control: the era gap
+
+"Old hymns are rich, new songs are shallow" is the prior a reviewer most often brings, and
+the evidence for it is weaker than it feels. Lester Ruth (Duke Divinity, 2012 lecture, not
+peer-reviewed) compared the 70 most-republished evangelical hymns of 1737–1860 with the 98
+most-used CCLI songs of 1989–2012:
+
+| Measure | CCLI songs | Classic hymns |
+|---|---|---|
+| All three Persons named | 4% | 4% |
+| First Person referenced | 14% | 23% |
+| Third Person referenced | 8% | 14% |
+| Focused on the Second Person | 49% | 74% |
+
+Hymns are somewhat stronger on most measures, both bodies are weak on the Trinity, and in
+Ruth's words the difference is one of degree rather than opposition. In September 2026 this
+catalogue scored pre-1900 hymns 14 points above post-1990 songs, with three times fewer
+concerns per song — a wider gap than the published comparison supports. Check any era gap
+against this before trusting it.
+
+### Writing without reproducing
+
+The copyright guardrail reads what a reviewer writes as well as what it fetches. Three
+responses were blocked in September 2026 with no fetch in them: drafts carrying short
+excerpts, and claims that paraphrased a chorus too closely. Since 3.2.0 every
+`lyricExcerpt` in the catalogue is null; findings describe what a section teaches, never
+how it is worded; and review files are edited programmatically by path, so existing text is
+never retyped. Nothing is lost in the score — a located finding is fully checkable — but a
+finding that turns on exact wording now has to make its case at the level of doctrine.
+
 ## Copyright
 
 Enforced at the schema boundary, not left to the prompt:

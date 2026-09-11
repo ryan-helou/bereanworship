@@ -27,7 +27,7 @@
         "claim": "God makes a way, works miracles, keeps promises and is light in darkness.",
         "subject": "The character of God",
         "location": "CHORUS",
-        "lyricExcerpt": "Way maker, miracle worker, promise keeper"
+        "lyricExcerpt": null
       },
       {
         "claim": "God touches and mends every heart in the room.",
@@ -45,7 +45,7 @@
         "claim": "These titles describe who God is, not merely what he does occasionally.",
         "subject": "The character of God",
         "location": "CHORUS",
-        "lyricExcerpt": "That is who You are"
+        "lyricExcerpt": null
       }
     ],
     "gospelClarity": "ABSENT"
@@ -67,7 +67,7 @@
         "explanation": "The chorus says these are who God is rather than what he happens to be doing. That is the right instinct: it makes the claim independent of whether the singer's circumstances have improved.",
         "songLocation": "CHORUS",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "That is who You are",
+        "lyricExcerpt": null,
         "scriptureReference": "Malachi 3:6",
         "scriptureRationale": "I the Lord do not change — character rather than mood."
       },
@@ -93,18 +93,6 @@
         "likelihood": "POSSIBLE",
         "scriptureReference": "Matthew 13:3-8",
         "scriptureRationale": "The same sowing meets four kinds of ground — the parable rules out assuming a uniform work in every hearer."
-      },
-      {
-        "category": "Doctrine of God",
-        "title": "Titles offered without the acts behind them",
-        "explanation": "Four titles are asserted and none is anchored in anything God has done. A congregation is asked to affirm that he makes a way without being told about a Red Sea, a cross or an empty tomb, so the words rest on the singer's experience of them.",
-        "songLocation": "CHORUS",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": true,
-        "likelihood": "POSSIBLE",
-        "scriptureReference": "Isaiah 43:16-19",
-        "scriptureRationale": "God's way-making is named alongside the sea he actually parted; the title comes with its history attached."
       }
     ],
     "doctrinesAffirmed": [
@@ -233,9 +221,41 @@
     "engagesScripture": false
   },
   "sources": [
-    "https://en.wikipedia.org/wiki/Way_Maker",
-    "https://www.thebereantest.com/sinach-way-maker",
-    "https://congregationalsong.org/the-overlooked-authorship-of-way-maker/",
-    "https://www.christianitytoday.com/2020/06/way-maker-worship-song-sinach-leeland-michael-w-smith/"
+    {
+      "url": "https://en.wikipedia.org/wiki/Way_Maker",
+      "title": "Way Maker",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Authorship, release date, chart record and Dove Award of the song.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.thebereantest.com/sinach-way-maker",
+      "title": "The Berean Test: Way Maker",
+      "publisher": "The Berean Test",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "A published theological critique of the song from a discernment blog.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://congregationalsong.org/the-overlooked-authorship-of-way-maker/",
+      "title": "The Overlooked Authorship of Way Maker",
+      "publisher": "The Center for Congregational Song (The Hymn Society)",
+      "sourceType": "THEOLOGICAL_ORGANIZATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Sinach's authorship of the song and its frequent misattribution to Western recording artists.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.christianitytoday.com/2020/06/way-maker-worship-song-sinach-leeland-michael-w-smith/",
+      "title": "Christianity Today, June 2020",
+      "publisher": "Christianity Today",
+      "sourceType": "JOURNALISM",
+      "credibilityTier": "TIER_3",
+      "establishes": "Reporting on the song's authorship and its spread through Western recordings.",
+      "assessesContent": true
+    }
   ]
 }

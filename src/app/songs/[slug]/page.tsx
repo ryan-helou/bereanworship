@@ -15,6 +15,7 @@ import {
 } from '@/lib/scoring';
 import { RangeBlock, RecommendationCallout, ScoreBar, ScoreBlock, ScorePill } from '@/components/score';
 import { ScoreContribution } from '@/components/score-contribution';
+import { independentSourceCount } from '@/lib/ai/schemas';
 import { FindingGroup, SongFindingItem, type FindingRole } from '@/components/findings';
 import { Badge, DataRow, Panel, SampleDataNotice, isSample } from '@/components/ui';
 
@@ -109,7 +110,11 @@ export default async function SongPage({ params }: { params: Params }) {
           groundsClaims: song.substGroundsClaims,
           corporateVoice: song.substCorporateVoice,
           engagesScripture: song.substEngagesScripture,
-        }, { performanceOrientation: song.performanceOrientation, repetition: song.repetition })
+        }, { performanceOrientation: song.performanceOrientation, repetition: song.repetition }, {
+          independentSources: independentSourceCount(
+            song.sources.map(({ source, assessesContent }) => ({ ...source, assessesContent })),
+          ),
+        })
       : null;
 
   // Mark the two findings that decided each criterion, using the scorer's own

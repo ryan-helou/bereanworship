@@ -27,7 +27,7 @@
         "claim": "The singer cannot know in advance how they will respond to seeing Christ.",
         "subject": "The limits of knowledge",
         "location": "CHORUS",
-        "lyricExcerpt": "I can only imagine"
+        "lyricExcerpt": null
       },
       {
         "claim": "Possible responses include dancing, being still, singing, and falling silent.",
@@ -61,7 +61,7 @@
         "explanation": "The song's central phrase concedes that the singer does not know. It is speculation that says so, which is a more honest form than speculation delivered as description.",
         "songLocation": "CHORUS",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "I can only imagine",
+        "lyricExcerpt": null,
         "scriptureReference": "1 Corinthians 2:9",
         "scriptureRationale": "What no eye has seen, nor ear heard — the limit the song's title concedes."
       },
@@ -75,32 +75,7 @@
         "scriptureRationale": "There is no other name under heaven by which we must be saved."
       }
     ],
-    "concerns": [
-      {
-        "category": "Anthropology",
-        "title": "The subject is the singer's reaction, not Christ",
-        "explanation": "Almost every line asks what the singer will do, feel or say. Christ appears mainly as the occasion for that response. A song about seeing him ends up mostly about the one seeing.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": true,
-        "likelihood": "LIKELY",
-        "scriptureReference": "Revelation 5:11-14",
-        "scriptureRationale": "The scene around the throne is described by what the Lamb is worth, not by how the watchers feel."
-      },
-      {
-        "category": "Assurance",
-        "title": "Standing there is assumed rather than grounded",
-        "explanation": "The song takes for granted that the singer will be in Christ's presence, and never says on what basis. Nothing about the cross, forgiveness or faith appears to explain why this future belongs to them.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": false,
-        "likelihood": "POSSIBLE",
-        "scriptureReference": "Jude 24",
-        "scriptureRationale": "He is able to present you blameless before his glory — the ground of standing there, which the song omits."
-      }
-    ],
+    "concerns": [],
     "doctrinesAffirmed": [
       "The believer's future with Christ",
       "The glory of Christ",
@@ -226,7 +201,23 @@
     "engagesScripture": false
   },
   "sources": [
-    "https://www.thebereantest.com/mercyme-i-can-only-imagine",
-    "https://en.wikipedia.org/wiki/I_Can_Only_Imagine_(MercyMe_song)"
+    {
+      "url": "https://www.thebereantest.com/mercyme-i-can-only-imagine",
+      "title": "The Berean Test: I Can Only Imagine",
+      "publisher": "The Berean Test",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "A published theological critique of the song from a discernment blog.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/I_Can_Only_Imagine_(MercyMe_song)",
+      "title": "I Can Only Imagine (MercyMe song)",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writer, the circumstances of writing, first recording and release history.",
+      "assessesContent": false
+    }
   ]
 }

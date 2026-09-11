@@ -66,7 +66,7 @@
         "title": "Praise detached from circumstance",
         "explanation": "The chorus commits to praise in loss as firmly as in gain. That is the harder half of the psalms and the half most contemporary worship omits, and here it is the song's central claim.",
         "songLocation": "CHORUS",
-        "magnitude": "MAJOR",
+        "magnitude": "MODERATE",
         "scriptureReference": "Job 1:21",
         "scriptureRationale": "The Lord gave and the Lord has taken away; blessed be the name of the Lord."
       },
@@ -229,8 +229,32 @@
     ]
   },
   "sources": [
-    "https://en.wikipedia.org/wiki/Praise_(Elevation_Worship_song)",
-    "https://en.wikipedia.org/wiki/Can_You_Imagine%3F",
-    "https://www.songfacts.com/lyrics/elevation-worship/praise"
+    {
+      "url": "https://en.wikipedia.org/wiki/Praise_(Elevation_Worship_song)",
+      "title": "Praise (Elevation Worship song)",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writers, recording and release dates, and chart record of the song.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Can_You_Imagine%3F",
+      "title": "Can You Imagine?",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "The album on which the song was released.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.christianitytoday.com/ct/2023/november-web-only/sing-enemies-elevation-praise-drown-imprecatory-psalms-wors.html",
+      "title": "Christianity Today, November 2023 (Kelsey Kramer McGinnis)",
+      "publisher": "Christianity Today",
+      "sourceType": "JOURNALISM",
+      "credibilityTier": "TIER_3",
+      "establishes": "Questions the song’s triumphalism and its unnamed enemies; the published criticism the review cites.",
+      "assessesContent": true
+    }
   ]
 }

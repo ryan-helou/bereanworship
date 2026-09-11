@@ -39,7 +39,7 @@
         "claim": "Christ was crucified and buried.",
         "subject": "The death of Christ",
         "location": "VERSE_3",
-        "lyricExcerpt": "Crucified, laid behind a stone"
+        "lyricExcerpt": null
       },
       {
         "claim": "Christ lived in order to die, and died rejected and alone.",
@@ -51,14 +51,14 @@
         "claim": "Christ's death is pictured as a rose trampled into the ground.",
         "subject": "The death of Christ",
         "location": "VERSE_3",
-        "lyricExcerpt": "Like a rose trampled on the ground"
+        "lyricExcerpt": null
       },
       {
         "claim": "In taking the fall, Christ thought of the individual singer above all else.",
         "subject": "The motive of the atonement",
         "location": "REFRAIN",
         "locationDetail": "the closing line of each section",
-        "lyricExcerpt": "thought of me above all"
+        "lyricExcerpt": null
       }
     ],
     "gospelClarity": "IMPLICIT"
@@ -88,8 +88,8 @@
         "title": "The death and burial are stated, not implied",
         "explanation": "The song does not stop at admiration. It names the crucifixion and the tomb plainly, which is more than a good deal of contemporary worship manages.",
         "songLocation": "VERSE_3",
-        "magnitude": "MODERATE",
-        "lyricExcerpt": "Crucified, laid behind a stone",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": null,
         "scriptureReference": "1 Corinthians 15:3-4",
         "scriptureRationale": "Christ died and was buried — the two facts the song puts in the congregation's mouth."
       },
@@ -113,7 +113,7 @@
         "severity": "MODERATE",
         "centrality": "CORE",
         "recurring": true,
-        "lyricExcerpt": "thought of me above all",
+        "lyricExcerpt": null,
         "scriptureReference": "John 17:1, 4",
         "scriptureRationale": "Christ's stated purpose at the hour is the Father's glory and the finishing of his work.",
         "likelihood": "LIKELY"
@@ -126,7 +126,7 @@
         "severity": "MINOR",
         "centrality": "IMPORTANT",
         "recurring": false,
-        "lyricExcerpt": "Like a rose trampled on the ground",
+        "lyricExcerpt": null,
         "scriptureReference": "John 10:18",
         "scriptureRationale": "He lays his life down of his own accord; no one takes it from him.",
         "likelihood": "POSSIBLE"
@@ -243,9 +243,41 @@
     ]
   },
   "sources": [
-    "https://en.wikipedia.org/wiki/Above_All_(song)",
-    "https://www.thebereantest.com/lenny-leblanc-above-all",
-    "https://worshipmatters.com/2007/10/03/our-god-saves-by-paul-baloche/",
-    "https://www.praisecharts.com/songs/details/1007/above-all-sheet-music"
+    {
+      "url": "https://en.wikipedia.org/wiki/Above_All_(song)",
+      "title": "Above All (song)",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Authorship by Paul Baloche and Lenny LeBlanc, 1999 publication by Integrity, and the Michael W. Smith recording.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.thebereantest.com/lenny-leblanc-above-all",
+      "title": "Lenny LeBlanc – Above All",
+      "publisher": "The Berean Test",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "A published lay doctrinal review of the song, consulted as an outside assessment of its claims.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://worshipmatters.com/2007/10/03/our-god-saves-by-paul-baloche/",
+      "title": "Our God Saves by Paul Baloche",
+      "publisher": "Worship Matters (Bob Kauflin)",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_2",
+      "establishes": "A worship leader's assessment of the songwriting of Paul Baloche, the song's co-writer.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.praisecharts.com/songs/details/1007/above-all-sheet-music",
+      "title": "Above All sheet music",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Published arrangement of the song: key, tempo and structure.",
+      "assessesContent": false
+    }
   ]
 }

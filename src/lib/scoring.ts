@@ -20,8 +20,8 @@ import type {
   Severity,
 } from '@prisma/client';
 
-export const SCORING_VERSION = '3.1.0';
-export const METHODOLOGY_VERSION = '3.1.0';
+export const SCORING_VERSION = '3.2.0';
+export const METHODOLOGY_VERSION = '3.2.0';
 export const DEFAULT_REVIEW_VERSION = 'v1.0';
 
 /** Component weights for the overall song score. Must sum to 1. */
@@ -202,7 +202,31 @@ export interface SoundnessResult {
   setBy: ScorableSongFinding | null;
   /** True when a major or severe error is present, which forces the verdict. */
   disqualifying: boolean;
+  /**
+   * True when no error was found but no independent source was consulted
+   * either, so "nothing wrong" rests on the reviewer alone.
+   */
+  unverified?: boolean;
 }
+
+/** What a review's sources can vouch for. See `independentSourceCount()`. */
+export interface SongEvidence {
+  independentSources: number;
+}
+
+/**
+ * The soundness a song reaches when nothing wrong was found and nothing
+ * independent was checked.
+ *
+ * Measured before 3.2.0: nineteen of thirty-six songs carried no theological
+ * concern, which handed each full soundness automatically — and most of them
+ * rested on an encyclopedia entry and the publisher's own page. "Nobody found
+ * anything" and "nothing is wrong" produced the same number, which is the
+ * fault the baseline of 70 was retired for. A clean record now earns the top
+ * level only when at least one independent tier-1 or tier-2 source stands
+ * behind the review.
+ */
+export const UNVERIFIED_CLEAN_LEVEL = RUBRIC_MAX_LEVEL - 1;
 
 /**
  * Soundness, set by the worst thing the song gets wrong.
@@ -292,6 +316,16 @@ export const REPETITION_PENALTY: Record<string, number> = {
 
 /** Points off the overall per level of delivery penalty. */
 export const DELIVERY_POINTS_PER_LEVEL = 3;
+
+/*
+ * Delivery charges the WORSE of performance orientation and repetition, not
+ * their sum. Before 3.2.0 the two stacked, so a performance-leaning song that
+ * also repeated past its content lost twelve points off the overall — on top
+ * of the substance points it had usually already lost for being about the
+ * singer. The two faults describe one experience of the song (a room watching
+ * rather than singing), and charging it once keeps each table's gradation
+ * while ending the stacking.
+ */
 
 export interface CommunalDelivery {
   performanceOrientation?: string | null;
@@ -592,13 +626,17 @@ export function scoreSong(
   findings: ScorableSongFinding[],
   substanceAnswers?: SubstanceAnswers | null,
   delivery?: CommunalDelivery | null,
+  evidence?: SongEvidence | null,
 ): SongScoreResult {
   const theologicalFindings = findings.filter((f) => f.component === 'THEOLOGICAL');
 
   // Biblical soundness runs on the two doctrinal axes. Communal and clarity
   // keep the 2.0.0 rubric: singability is a different kind of question and is
   // not improved by asking what a song teaches.
-  const soundness = scoreSoundness(theologicalFindings);
+  let soundness = scoreSoundness(theologicalFindings);
+  if (evidence && soundness.setBy === null && evidence.independentSources === 0) {
+    soundness = { ...soundness, level: UNVERIFIED_CLEAN_LEVEL, unverified: true };
+  }
   const substance = scoreSubstance(substanceAnswers);
 
   const theological: ComponentRubric = substance.unassessed
@@ -633,7 +671,7 @@ export function scoreSong(
   // score.
   const performancePenalty = PERFORMANCE_PENALTY[delivery?.performanceOrientation ?? 'BALANCED'] ?? 0;
   const repetitionPenalty = REPETITION_PENALTY[delivery?.repetition ?? 'NONE'] ?? 0;
-  const deliveryPenalty = performancePenalty + repetitionPenalty;
+  const deliveryPenalty = Math.min(performancePenalty, repetitionPenalty);
 
   const communal = rateComponent('COMMUNAL', findings.filter((f) => f.component === 'COMMUNAL'));
 
@@ -681,7 +719,8 @@ export function scoreSong(
   // cannot average its way past bad teaching.
   const doctrineCap = theological.score;
   const cappedScore = doctrineCap === null ? weightedScore : Math.min(weightedScore, doctrineCap);
-  const overallScore = Math.max(0, cappedScore + deliveryPenalty * DELIVERY_POINTS_PER_LEVEL);
+  const deliveryDeduction = deliveryPenalty * DELIVERY_POINTS_PER_LEVEL;
+  const overallScore = Math.max(0, cappedScore + deliveryDeduction);
 
   return {
     theological,
@@ -696,7 +735,7 @@ export function scoreSong(
     overallScore,
     overallCeiling: doctrineCap !== null && doctrineCap < weightedScore ? doctrineCap : null,
     unrated,
-    deliveryDeduction: deliveryPenalty * DELIVERY_POINTS_PER_LEVEL,
+    deliveryDeduction,
     recommendation: classifySongRecommendation(overallScore, theological.level, soundness.disqualifying),
   };
 }

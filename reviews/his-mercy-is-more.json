@@ -227,9 +227,41 @@
     ]
   },
   "sources": [
-    "https://www.mattpapa.com/songs/his-mercy-is-more",
-    "https://www.worshiptogether.com/songs/his-mercy-is-more-matt-papa-matt-boswell/",
-    "https://www.thebereantest.com/matt-boswell-matt-papa-his-mercy-is-more",
-    "https://en.wikipedia.org/wiki/Matt_Papa"
+    {
+      "url": "https://www.mattpapa.com/songs/his-mercy-is-more",
+      "title": "His Mercy Is More",
+      "publisher": "Matt Papa",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Writer's page: authorship by Matt Boswell and Matt Papa, and the writers' account of the song.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.worshiptogether.com/songs/his-mercy-is-more-matt-papa-matt-boswell/",
+      "title": "His Mercy Is More",
+      "publisher": "Worship Together",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Licensing page: authorship, copyright and key.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.thebereantest.com/matt-boswell-matt-papa-his-mercy-is-more",
+      "title": "His Mercy Is More review",
+      "publisher": "The Berean Test",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "An independent doctrinal review of the song.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Matt_Papa",
+      "title": "Matt Papa",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Background on the co-writer and the song's release.",
+      "assessesContent": false
+    }
   ]
 }

@@ -33,13 +33,13 @@
         "claim": "When the singer comes to die, their request is still Jesus.",
         "subject": "Death",
         "location": "VERSE",
-        "lyricExcerpt": "when I come to die, give me Jesus"
+        "lyricExcerpt": null
       },
       {
         "claim": "The world may be given to others; the singer wants Christ instead.",
         "subject": "The supreme worth of Christ",
         "location": "REFRAIN",
-        "lyricExcerpt": "You may have all this world"
+        "lyricExcerpt": null
       }
     ],
     "gospelClarity": "IMPLICIT"
@@ -61,7 +61,7 @@
         "explanation": "The refrain hands the world away and asks for one thing. It is the same trade Paul makes when he counts everything loss, put in words a congregation can sing without instruction.",
         "songLocation": "REFRAIN",
         "magnitude": "MAJOR",
-        "lyricExcerpt": "You may have all this world",
+        "lyricExcerpt": null,
         "scriptureReference": "Philippians 3:8",
         "scriptureRationale": "I count everything as loss because of the surpassing worth of knowing Christ Jesus my Lord."
       },
@@ -70,8 +70,8 @@
         "title": "Sings the hour of death without flinching",
         "explanation": "A verse addresses dying directly and asks for nothing but Christ there. Almost no song in current congregational use will name death at all, and this one makes it the climax rather than the exception.",
         "songLocation": "VERSE",
-        "magnitude": "MAJOR",
-        "lyricExcerpt": "when I come to die, give me Jesus",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null,
         "scriptureReference": "Philippians 1:21",
         "scriptureRationale": "To live is Christ, and to die is gain — the same valuation, at the same hour."
       },
@@ -190,8 +190,23 @@
     ]
   },
   "sources": [
-    "https://en.wikipedia.org/wiki/Give_Me_Jesus",
-    "https://hymnary.org/tune/give_me_jesus_spiritual",
-    "https://hymnary.org/hymn/ELW2006/770"
+    {
+      "url": "https://en.wikipedia.org/wiki/Give_Me_Jesus",
+      "title": "Give Me Jesus",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "General reference for the spiritual's origin, its 1873 Fisk Jubilee publication and later arrangements.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://hymnary.org/tune/give_me_jesus_spiritual",
+      "title": "GIVE ME JESUS (tune record)",
+      "publisher": "Hymnary.org",
+      "sourceType": "ACADEMIC",
+      "credibilityTier": "TIER_1",
+      "establishes": "Tune record for the spiritual: its traditional origin and its appearances in hymnals.",
+      "assessesContent": false
+    }
   ]
 }

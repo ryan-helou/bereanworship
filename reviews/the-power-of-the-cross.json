@@ -198,8 +198,8 @@
         "title": "The chorus's atonement phrases assume teaching",
         "explanation": "The chorus's two densest phrases carry the whole doctrine of substitution. Sung without explanation they can be heard as a Father punishing a Son, which is not what the writers mean and not what Paul says; a congregation needs one sentence on it.",
         "songLocation": "CHORUS",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
+        "severity": "MODERATE",
+        "centrality": "CORE",
         "recurring": true,
         "likelihood": "POSSIBLE",
         "scriptureReference": "2 Corinthians 5:19",
@@ -210,7 +210,7 @@
     "assessment": "Clear in structure and concrete in detail. The verses show a scene and the chorus states its meaning, so a newcomer knows both what happened and what the church says about it. The chorus's phrases on sin-bearing and wrath are exact but compressed, and a room that has never been taught them may hear the Father set against the Son. That is a teaching need, not a fault in the text."
   },
   "synthesis": {
-    "summary": "Good Friday sung as history, with a chorus confessing that Christ took our sin and God's wrath on himself so that we are forgiven, and a last line naming the one who died as the Son of God. Nothing in it is wrong. It stays at the cross throughout, so the resurrection is left to another song, and its two densest phrases want a sentence of teaching. The passion hymn a communion service or Good Friday is missing.",
+    "summary": "Good Friday sung as history. The chorus states substitutionary atonement, and the final chorus names the one who died as the Son of God. No doctrinal error was found. The song stays at the cross throughout, leaving the resurrection unsung. The chorus's two densest atonement phrases, sung each time it returns, can be heard without teaching as a Father punishing a Son, a reading the writers reject.",
     "themes": [
       "Cross",
       "Christ",
@@ -242,8 +242,32 @@
     ]
   },
   "sources": [
-    "https://www.stuarttownend.co.uk/song/the-power-of-the-cross/",
-    "https://www.worshiptogether.com/songs/the-power-of-the-cross-keith-and-kristyn-getty/",
-    "https://integrityworship.com/songs/the-power-of-the-cross-stuart-townend/"
+    {
+      "url": "https://www.stuarttownend.co.uk/song/the-power-of-the-cross/",
+      "title": "The Power of the Cross",
+      "publisher": "Stuart Townend",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Writer's page: authorship by Keith Getty and Stuart Townend, and publication details.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.worshiptogether.com/songs/the-power-of-the-cross-keith-and-kristyn-getty/",
+      "title": "The Power of the Cross",
+      "publisher": "Worship Together",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Licensing page: authorship, copyright and key.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://integrityworship.com/songs/the-power-of-the-cross-stuart-townend/",
+      "title": "The Power of the Cross",
+      "publisher": "Integrity Music",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher page: authorship and copyright.",
+      "assessesContent": false
+    }
   ]
 }

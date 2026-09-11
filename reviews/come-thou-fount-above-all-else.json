@@ -249,9 +249,41 @@
     ]
   },
   "sources": [
-    "https://www.hymnologyarchive.com/come-thou-fount",
-    "https://en.wikipedia.org/wiki/Come_Thou_Fount_of_Every_Blessing",
-    "https://www.hymnologyarchive.com/robert-robinson",
-    "https://en.wikipedia.org/wiki/Robert_Robinson_(Baptist)"
+    {
+      "url": "https://www.hymnologyarchive.com/come-thou-fount",
+      "title": "Come, Thou Fount of Every Blessing",
+      "publisher": "Hymnology Archive",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "History of Robinson's text and the NETTLETON tune, including dates of writing and first printing.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Come_Thou_Fount_of_Every_Blessing",
+      "title": "Come Thou Fount of Every Blessing",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "General reference for the hymn's authorship, date and tune.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.hymnologyarchive.com/robert-robinson",
+      "title": "Robert Robinson",
+      "publisher": "Hymnology Archive",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "Biography of the text's author and the status of the story that he later left the faith.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Robert_Robinson_(Baptist)",
+      "title": "Robert Robinson (Baptist)",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "General reference for the author's life and ministry.",
+      "assessesContent": false
+    }
   ]
 }

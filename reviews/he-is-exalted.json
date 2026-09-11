@@ -21,7 +21,7 @@
         "claim": "Christ is exalted and reigns on high.",
         "subject": "The exaltation of Christ",
         "location": "CHORUS",
-        "lyricExcerpt": "He is exalted, the King is exalted on high"
+        "lyricExcerpt": null
       },
       {
         "claim": "He is worthy of praise, and the singer will praise him.",
@@ -33,7 +33,7 @@
         "claim": "He is the Lord, and his truth will reign for ever.",
         "subject": "The reign of Christ",
         "location": "CHORUS",
-        "lyricExcerpt": "forever His truth shall reign"
+        "lyricExcerpt": null
       },
       {
         "claim": "Heaven and earth rejoice in his holy name.",
@@ -52,7 +52,7 @@
         "explanation": "The song declares Christ's exaltation as a fact rather than asking for an experience of it. A congregation making a public statement about who reigns is doing something different from a congregation asking to feel close, and it is worth doing.",
         "songLocation": "CHORUS",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "He is exalted, the King is exalted on high",
+        "lyricExcerpt": null,
         "scriptureReference": "Philippians 2:9",
         "scriptureRationale": "God has highly exalted him and bestowed on him the name above every name."
       },
@@ -62,7 +62,7 @@
         "explanation": "The claim is that his truth reigns for ever, which is a statement about what governs rather than only about who is strong. It gives a congregation something firmer than a general assertion of majesty.",
         "songLocation": "CHORUS",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "forever His truth shall reign",
+        "lyricExcerpt": null,
         "scriptureReference": "Psalm 117:2",
         "scriptureRationale": "The faithfulness of the Lord endures for ever."
       },
@@ -194,7 +194,23 @@
     "engagesScripture": false
   },
   "sources": [
-    "https://hymnary.org/text/he_is_exalted_the_king_is_exalted_on_hig",
-    "https://songselect.ccli.com/songs/17827/he-is-exalted"
+    {
+      "url": "https://songselect.ccli.com/songs/17827/he-is-exalted",
+      "title": "He Is Exalted",
+      "publisher": "CCLI SongSelect",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Licensing record: authorship by Twila Paris, 1985, and publisher.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://hymnary.org/person/Paris_T",
+      "title": "Twila Paris — Hymnary.org",
+      "publisher": "Hymnary.org",
+      "sourceType": "ACADEMIC",
+      "credibilityTier": "TIER_1",
+      "establishes": "Author authority record: life dates and publication history.",
+      "assessesContent": false
+    }
   ]
 }

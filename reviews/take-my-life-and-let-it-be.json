@@ -21,7 +21,7 @@
         "claim": "The singer offers their whole life to God to be consecrated.",
         "subject": "Consecration",
         "location": "VERSE_1",
-        "lyricExcerpt": "Take my life and let it be"
+        "lyricExcerpt": null
       },
       {
         "claim": "The singer's hands, feet and voice are given over to God's use.",
@@ -57,7 +57,7 @@
         "title": "Names what is surrendered, item by item",
         "explanation": "Most songs of surrender offer 'everything' and specify nothing. This one hands over hands, feet, voice, money and will separately, so a congregation cannot sing it without noticing what they have just said about their bank account.",
         "songLocation": "WHOLE_SONG",
-        "magnitude": "MAJOR",
+        "magnitude": "MODERATE",
         "scriptureReference": "Romans 12:1",
         "scriptureRationale": "Present your bodies as a living sacrifice — a bodily, itemised offering rather than a sentiment."
       },
@@ -66,7 +66,7 @@
         "title": "The will surrendered, not just the actions",
         "explanation": "One verse gives over the singer's will to become God's. That is the hardest thing in the list and the hymn does not soften it or leave it out.",
         "songLocation": "VERSE",
-        "magnitude": "MAJOR",
+        "magnitude": "MODERATE",
         "scriptureReference": "Luke 22:42",
         "scriptureRationale": "Not my will, but yours, be done — the surrender the verse asks for."
       },
@@ -80,20 +80,7 @@
         "scriptureRationale": "You cannot serve God and money — which is why naming it matters."
       }
     ],
-    "concerns": [
-      {
-        "category": "Gospel content",
-        "title": "Consecration without the mercies that prompt it",
-        "explanation": "The hymn is an offering from first line to last, and never says what God has done to make the offering fitting. Paul urges the same surrender by the mercies of God; here the appeal rests on the singer's willingness alone.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": false,
-        "likelihood": "POSSIBLE",
-        "scriptureReference": "Romans 12:1",
-        "scriptureRationale": "I appeal to you by the mercies of God — the ground stated first, and the one the hymn omits."
-      }
-    ],
+    "concerns": [],
     "doctrinesAffirmed": [
       "Whole-life consecration",
       "Surrender of the will",
@@ -216,7 +203,23 @@
     "engagesScripture": true
   },
   "sources": [
-    "https://hymnary.org/text/take_my_life_and_let_it_be",
-    "https://en.wikipedia.org/wiki/Take_My_Life_and_Let_It_Be"
+    {
+      "url": "https://hymnary.org/person/Havergal_FR",
+      "title": "Frances Ridley Havergal (author record)",
+      "publisher": "Hymnary.org",
+      "sourceType": "ACADEMIC",
+      "credibilityTier": "TIER_1",
+      "establishes": "Authorship of the text by Frances Ridley Havergal.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Take_My_Life_and_Let_It_Be",
+      "title": "Take My Life and Let It Be",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "General reference for the 1874 occasion of writing and the tunes it is sung to.",
+      "assessesContent": false
+    }
   ]
 }

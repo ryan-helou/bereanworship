@@ -22,61 +22,61 @@
         "claim": "God is uncreated — the source of everything, deriving his being from nothing outside himself.",
         "subject": "Aseity",
         "location": "VERSE",
-        "lyricExcerpt": "God the uncreated One"
+        "lyricExcerpt": null
       },
       {
         "claim": "God is the origin of salvation, not merely its announcer.",
         "subject": "Soteriology",
         "location": "VERSE",
-        "lyricExcerpt": "The Author of salvation"
+        "lyricExcerpt": null
       },
       {
         "claim": "God set the stars in place; the image is domestic and deliberate.",
         "subject": "Creation",
         "location": "VERSE",
-        "lyricExcerpt": "Hung the stars like chandeliers"
+        "lyricExcerpt": null
       },
       {
         "claim": "God's attention extends to the smallest particulars of creation.",
         "subject": "Omniscience",
         "location": "VERSE",
-        "lyricExcerpt": "Numbered every grain of sand"
+        "lyricExcerpt": null
       },
       {
         "claim": "The God who orders the cosmos also knows each person inwardly.",
         "subject": "Omniscience",
         "location": "VERSE",
-        "lyricExcerpt": "Knows the heart of every man"
+        "lyricExcerpt": null
       },
       {
         "claim": "God is the refuge and strength of his people.",
         "subject": "Providence",
         "location": "VERSE",
-        "lyricExcerpt": "God our fortress and our strength"
+        "lyricExcerpt": null
       },
       {
         "claim": "God is a stable foundation that can be relied upon.",
         "subject": "Providence",
         "location": "VERSE",
-        "lyricExcerpt": "The Rock on which we can depend"
+        "lyricExcerpt": null
       },
       {
         "claim": "God's majesty is without equal.",
         "subject": "Doctrine of God",
         "location": "VERSE",
-        "lyricExcerpt": "Matchless in His majesty"
+        "lyricExcerpt": null
       },
       {
         "claim": "God does not change; he is the same self-existent God who named himself to Moses.",
         "subject": "Immutability",
         "location": "VERSE",
-        "lyricExcerpt": "Never changing Great I Am"
+        "lyricExcerpt": null
       },
       {
         "claim": "Empires rise and collapse without affecting God's faithfulness.",
         "subject": "Providence over history",
         "location": "VERSE",
-        "lyricExcerpt": "Kingdoms rise and kingdoms fall"
+        "lyricExcerpt": null
       },
       {
         "claim": "God remains faithful through every upheaval.",
@@ -179,7 +179,7 @@
         "title": "Opens on aseity",
         "explanation": "The first four words assert that God is uncreated — the source of everything, dependent on nothing. Congregational song almost never attempts this, and rarely without muddling it.",
         "magnitude": "MAJOR",
-        "lyricExcerpt": "God the uncreated One",
+        "lyricExcerpt": null,
         "scriptureReference": "Acts 17:24-25",
         "scriptureExcerpt": "The God who made the world and everything in it… is not served by human hands, as though he needed anything.",
         "scriptureRationale": "Paul's argument in Athens is the hymn's opening claim exactly.",
@@ -190,7 +190,7 @@
         "title": "The incarnation stated without hedging",
         "explanation": "Not 'like God' or 'sent by God' — the mighty God himself, in mortal flesh. Four words carrying Chalcedon: full deity and real, dying humanity in one subject.",
         "magnitude": "MAJOR",
-        "lyricExcerpt": "Mighty God in mortal flesh",
+        "lyricExcerpt": null,
         "scriptureReference": "John 1:14",
         "scriptureExcerpt": "And the Word became flesh and dwelt among us, and we have seen his glory.",
         "scriptureRationale": "John makes the same identification of the eternal Word with the man.",
@@ -201,7 +201,7 @@
         "title": "Sinlessness and sacrifice named together",
         "explanation": "The refrain pairs the sinless man with the spotless Lamb — stating both that Christ had no sin of his own and that he died as a sacrificial victim, which is what makes substitution coherent.",
         "magnitude": "MAJOR",
-        "lyricExcerpt": "crucified the spotless Lamb",
+        "lyricExcerpt": null,
         "scriptureReference": "1 Peter 1:18-19",
         "scriptureExcerpt": "Ransomed… with the precious blood of Christ, like that of a lamb without blemish or spot.",
         "scriptureRationale": "Peter supplies the exact register: an unblemished victim, and a ransom paid for others.",
@@ -212,7 +212,7 @@
         "title": "The resurrection is the Father's act",
         "explanation": "The hymn attributes the raising to the Father, which is the dominant New Testament idiom, and it does so in the same breath as the crucifixion rather than leaving the song at the cross.",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "rescued by the Father's hand",
+        "lyricExcerpt": null,
         "scriptureReference": "Acts 2:24",
         "scriptureExcerpt": "God raised him up, loosing the pangs of death, because it was not possible for him to be held by it.",
         "scriptureRationale": "Peter at Pentecost frames the resurrection the same way — as the Father's deliverance.",
@@ -223,7 +223,7 @@
         "title": "Immutability made pastoral",
         "explanation": "The unchanging God is set directly against the turnover of empires, so the comfort offered is that God will hold, not that circumstances will.",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "Kingdoms rise and kingdoms fall",
+        "lyricExcerpt": null,
         "scriptureReference": "Daniel 2:21",
         "scriptureExcerpt": "He changes times and seasons; he removes kings and sets up kings.",
         "scriptureRationale": "Political instability as an instance of God's rule, not evidence against it.",
@@ -234,7 +234,7 @@
         "title": "Transcendence and immanence in one breath",
         "explanation": "The first verse moves from hanging the stars to counting sand to knowing a human heart, as one continuous thought rather than two competing ideas.",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "Knows the heart of every man",
+        "lyricExcerpt": null,
         "scriptureReference": "Psalm 147:4-5",
         "scriptureExcerpt": "He determines the number of the stars; he gives to all of them their names.",
         "scriptureRationale": "The psalm makes the identical move from cosmic scale to personal attention.",
@@ -245,7 +245,7 @@
         "title": "Lands on the seraphim's cry",
         "explanation": "The final verse turns from description to address and closes on the threefold holy, placing the congregation in the posture of Isaiah 6 rather than merely talking about it.",
         "magnitude": "MODERATE",
-        "lyricExcerpt": "You're holy, holy, holy Lord",
+        "lyricExcerpt": null,
         "scriptureReference": "Isaiah 6:3",
         "scriptureExcerpt": "Holy, holy, holy is the LORD of hosts; the whole earth is full of his glory!",
         "scriptureRationale": "The hymn ends where the seraphim begin.",
@@ -332,7 +332,7 @@
         "title": "A domestic picture for a cosmic act",
         "explanation": "Chandeliers make the hanging of the stars graspable without trivialising it, and the register is biblical — Isaiah stretches the heavens out like a curtain.",
         "magnitude": "MAJOR",
-        "lyricExcerpt": "Hung the stars like chandeliers",
+        "lyricExcerpt": null,
         "scriptureReference": "Isaiah 40:22",
         "scriptureExcerpt": "Who stretches out the heavens like a curtain, and spreads them like a tent to dwell in.",
         "scriptureRationale": "Scripture uses household imagery for cosmic acts in exactly this way.",
@@ -457,10 +457,32 @@
     ]
   },
   "sources": [
-    "https://commonhymnal.com/songs/god-the-uncreated-one-king-forevermore",
-    "https://lyricstranslate.com/en/aaron-keyes-god-uncreated-one-lyrics.html",
-    "https://www.praisecharts.com/songs/details/70716/god-the-uncreated-one-king-forevermore-sheet-music",
-    "https://www.fbchurch.org/resource/hymnology-god-the-uncreated-one",
-    "https://urcmusic.org/wp-content/uploads/2020/04/god-the-uncreated-one-king-forevermore.pdf"
+    {
+      "url": "https://commonhymnal.com/songs/god-the-uncreated-one-king-forevermore",
+      "title": "God the Uncreated One (King Forevermore)",
+      "publisher": "Common Hymnal",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher page: authorship and publication details.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.praisecharts.com/songs/details/70716/god-the-uncreated-one-king-forevermore-sheet-music",
+      "title": "God the Uncreated One (King Forevermore) sheet music",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Licensed arrangement listing: key and song form.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.fbchurch.org/resource/hymnology-god-the-uncreated-one",
+      "title": "Hymnology: God the Uncreated One",
+      "publisher": "fbchurch.org",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "A church's hymnology note on the song's teaching and congregational use.",
+      "assessesContent": true
+    }
   ]
 }

@@ -21,7 +21,7 @@
         "claim": "Whatever the singer's circumstances, it is well with their soul.",
         "subject": "Contentment in trial",
         "location": "REFRAIN",
-        "lyricExcerpt": "It is well with my soul"
+        "lyricExcerpt": null
       },
       {
         "claim": "Christ has regarded the singer's helpless state and shed his own blood for them.",
@@ -33,7 +33,7 @@
         "claim": "The singer's sin, whole and not partial, was nailed to the cross and is no longer borne by them.",
         "subject": "Substitution",
         "location": "VERSE_3",
-        "lyricExcerpt": "My sin, not in part but the whole"
+        "lyricExcerpt": null
       },
       {
         "claim": "The singer looks forward to Christ's return, when faith becomes sight.",
@@ -52,7 +52,7 @@
         "explanation": "The third verse says the whole of the singer's sin, not some of it, was nailed to the cross and is no longer theirs to carry. It leaves no room for a partial atonement or a debt still owing.",
         "songLocation": "VERSE_3",
         "magnitude": "MAJOR",
-        "lyricExcerpt": "My sin, not in part but the whole",
+        "lyricExcerpt": null,
         "scriptureReference": "Colossians 2:14",
         "scriptureRationale": "He set aside the record of debt, nailing it to the cross — the image the verse takes up directly."
       },
@@ -62,7 +62,7 @@
         "explanation": "The refrain is sung over sorrow that is not resolved. The hymn never claims the trouble has lifted; it claims the singer's standing has not moved. That is the harder and truer comfort.",
         "songLocation": "REFRAIN",
         "magnitude": "MAJOR",
-        "lyricExcerpt": "It is well with my soul",
+        "lyricExcerpt": null,
         "scriptureReference": "Romans 8:38-39",
         "scriptureRationale": "Nothing in life or death can separate us from the love of God in Christ — the security the refrain rests on."
       },
@@ -218,7 +218,23 @@
     "engagesScripture": true
   },
   "sources": [
-    "https://hymnary.org/text/when_peace_like_a_river_attendeth_my_way",
-    "https://en.wikipedia.org/wiki/It_Is_Well_with_My_Soul"
+    {
+      "url": "https://en.wikipedia.org/wiki/It_Is_Well_with_My_Soul",
+      "title": "It Is Well with My Soul",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "General reference for Spafford's text, the shipwreck that occasioned it, and Bliss's 1876 tune.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://hymnary.org/person/Spafford_HG",
+      "title": "Horatio Gates Spafford, 1828–1888 — Hymnary.org",
+      "publisher": "Hymnary.org",
+      "sourceType": "ACADEMIC",
+      "credibilityTier": "TIER_1",
+      "establishes": "Author authority record: life dates and publication history.",
+      "assessesContent": false
+    }
   ]
 }
