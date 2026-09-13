@@ -89,21 +89,7 @@
         "scriptureRationale": "Do not be anxious about tomorrow, for tomorrow will be anxious for itself — the command the verse obeys."
       }
     ],
-    "concerns": [
-      {
-        "category": "Christian life",
-        "title": "A brightening path can be heard as an easier one",
-        "explanation": "The second verse pictures the Christian walk as a climb with better things ahead. Taken alone it can sound like a promise that life improves for believers; the third verse corrects it, but a hearer who only catches the second may keep the wrong picture.",
-        "songLocation": "VERSE_2",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "POSSIBLE",
-        "lyricExcerpt": null,
-        "scriptureReference": "Acts 14:22",
-        "scriptureRationale": "Through many tribulations we must enter the kingdom of God — the better things ahead are heaven's, not this life's."
-      }
-    ],
+    "concerns": [],
     "doctrinesAffirmed": [
       "God's providence over the future",
       "God's care for his people, argued from his care for creation",
@@ -111,7 +97,7 @@
       "Trust in God through suffering, not only around it",
       "Christ's shed blood, in passing"
     ],
-    "assessment": "Orthodox and modest. The song teaches providence: the future is God's, he cares for his own as he cares for sparrows, and he goes ahead into whatever comes, suffering included. Jesus is named and heaven is the destination. Two reservations: the second verse's brightening path can sound like a promise of ease until the third verse corrects it, and Christ's blood, mentioned in passing, is never tied to the confidence of the refrain. Sin, forgiveness, the resurrection and the Spirit lie outside its scope."
+    "assessment": "Orthodox and modest. The song teaches providence: the future is God's, he cares for his own as he cares for sparrows, and he goes ahead into whatever comes, suffering included. Jesus is named and heaven is the destination. One reservation: Christ's blood, mentioned in passing, is never tied to the confidence of the refrain. Sin, forgiveness, the resurrection and the Spirit lie outside its scope."
   },
   "communal": {
     "strengths": [
@@ -131,16 +117,6 @@
       }
     ],
     "concerns": [
-      {
-        "category": "Corporate voice",
-        "title": "One person's testimony, sung by three hundred",
-        "explanation": "The whole song is a single voice reporting its own trust. A congregation can borrow it, but it is not written as a shared confession, and the verses in particular read as one story rather than the church's.",
-        "songLocation": "THROUGHOUT",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      },
       {
         "category": "Form",
         "title": "Verses written for a soloist",
@@ -166,7 +142,7 @@
     },
     "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The refrain returns unchanged after each of three verses, and each verse gives it something new to answer. That is a hymn refrain doing its job; nothing is sustained by repeating.",
-    "performanceOrientation": "PERFORMANCE_LEANING",
+    "performanceOrientation": "BALANCED",
     "assessment": "A solo testimony with a congregational refrain. The verses were written for one voice telling its own story and most people know them from quartet and soloist recordings; the refrain is short, unchanged and quickly owned. Sung in church it works best with a leader carrying the verses and the room joining the refrain, in a lowered key. Its pastoral reach is real: it gives anxious and grieving people plain words for a future they cannot see."
   },
   "clarity": {
@@ -188,10 +164,10 @@
     ],
     "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Plain throughout. The words are everyday, the image is one and each verse feeds it. The sparrow needs no gloss because the verse itself says what it proves: if God's care reaches birds it reaches the singer. The only place a hearer could drift is the second verse's brightening path, which can be taken as this life rather than the next; the third verse settles it, and the point is recorded as a theological reservation rather than a fault of wording."
+    "assessment": "Plain throughout. The words are everyday, the image is one and each verse feeds it. The sparrow needs no gloss because the verse itself says what it proves: if God's care reaches birds it reaches the singer."
   },
   "synthesis": {
-    "summary": "A testimony of trust from a dark year: the future is unknown, worry is refused, and the God whose care reaches sparrows keeps tomorrow and keeps the singer. Orthodox, plain and honest about suffering, with Jesus named and heaven in view. Its second verse can be heard as promising ease, and the blood it mentions is never tied to the confidence it sings. Solo-shaped verses; a refrain any room can carry.",
+    "summary": "A testimony of trust from a dark year: the future is unknown, worry is refused, and the God whose care reaches sparrows keeps tomorrow and keeps the singer. Orthodox, plain and honest about suffering, with Jesus named and heaven in view. The blood it mentions is never tied to the confidence it sings. Solo-shaped verses; a refrain any room can carry.",
     "themes": [
       "Providence",
       "Faith",

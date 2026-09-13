@@ -111,18 +111,7 @@
         "magnitude": "MAJOR"
       }
     ],
-    "concerns": [
-      {
-        "category": "Corporate voice",
-        "title": "Sung in the singular throughout",
-        "explanation": "The song is one person's confession. That suits its subject — nobody dies corporately — but it does mean a congregation sings alongside one another rather than as one voice.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "singability": "EASY",
     "vocalRangeNote": "Sung in many keys, most commonly around G or A flat in modern arrangements. The melody is narrow and stepwise, and the song survives any key a room can reach.",
     "range": {

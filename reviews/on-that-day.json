@@ -123,18 +123,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Repetition",
-        "title": "The chorus returns often on a short phrase",
-        "explanation": "The title line carries a lot of the running time. The content behind it is strong, but the phrase itself is brief and repeats more than it develops.",
-        "songLocation": "CHORUS",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "singability": "EASY",
     "vocalRangeNote": "Commonly published in D and E. Stepwise and undemanding, in keeping with CityAlight's usual practice of writing for the room rather than the platform.",
     "range": {
@@ -169,18 +158,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Ambiguity",
-        "title": "Which day, exactly, is left broad",
-        "explanation": "The song moves between death, resurrection and the final gathering without distinguishing them sharply. For most congregations that breadth is a feature, but a hearer wanting to know what happens when will not find it settled here.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "LOW",
     "assessment": "Clear and carefully sequenced. The song keeps present and future distinct, which is the main way songs of this kind go wrong, and its language is plain throughout. It leaves the precise ordering of the last things broad, which is a reasonable choice for congregational use."
   },

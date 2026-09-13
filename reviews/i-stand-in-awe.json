@@ -155,7 +155,7 @@
     "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The chorus repeats heavily, but its content is the song's doctrine rather than a hook. This is repetition used the way a refrain should be used.",
     "performanceOrientation": "CONGREGATIONAL",
-    "assessment": "Built for a congregation rather than a platform. Short, unhurried, no dependence on an arrangement, and its repeated line is worth repeating. The only communal weakness is the sustained first person, which leaves a room full of individuals rather than a church."
+    "assessment": "Built for a congregation rather than a platform. Short, unhurried, no dependence on an arrangement, and its repeated line is worth repeating."
   },
   "clarity": {
     "strengths": [
@@ -167,21 +167,9 @@
         "magnitude": "MAJOR"
       }
     ],
-    "concerns": [
-      {
-        "category": "Vocabulary",
-        "title": "'Beautiful' carries more weight than it can",
-        "explanation": "The opening word is aesthetic, and it is doing the work of God's glory. A modern hearer may take it as a statement of taste rather than of God's blazing weight, which is what the rest of the song means by it.",
-        "songLocation": "VERSE_1",
-        "locationDetail": "the opening line",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Clear throughout and unusually economical. One abstract doctrine is delivered in plain speech without jargon or padding. The only soft spot is that its opening adjective is weaker in modern ears than the song needs it to be."
+    "assessment": "Clear throughout and unusually economical. One abstract doctrine is delivered in plain speech without jargon or padding."
   },
   "synthesis": {
     "summary": "A short, sound song about God's incomprehensibility — that he exceeds description, and that awe is the fitting response. It names God holy and treats praise as a debt owed. Its limitation is that it describes God's attributes without recounting his acts, so it is best paired with a song that tells the story.",

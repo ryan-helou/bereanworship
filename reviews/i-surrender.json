@@ -91,21 +91,7 @@
         "scriptureRationale": "He breathed on them and said, Receive the Holy Spirit."
       }
     ],
-    "concerns": [
-      {
-        "category": "Subjectivity",
-        "title": "Assurance sought in felt presence",
-        "explanation": "What the singer asks for and measures by is God's presence experienced. A congregation taught to look there will read a flat Sunday as God's absence, because the song offers nothing outside the feeling to check it against.",
-        "songLocation": "BRIDGE",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": true,
-        "scriptureReference": "2 Corinthians 5:7",
-        "scriptureRationale": "We walk by faith, not by sight — the alternative measure the song does not offer.",
-        "likelihood": "LIKELY",
-        "lyricExcerpt": null
-      }
-    ],
+    "concerns": [],
     "doctrinesAffirmed": [
       "Surrender to God's will",
       "Desire for God himself",
@@ -124,38 +110,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Performance orientation",
-        "title": "A long build the room cannot sustain",
-        "explanation": "Most of the song's running time is a repeated bridge that climbs and holds. Congregations manage the opening and hand the climax to the platform, which is where the song spends its energy.",
-        "songLocation": "NOT_LYRICAL",
-        "severity": "MODERATE",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      },
-      {
-        "category": "Repetition",
-        "title": "Repetition doing emotional rather than doctrinal work",
-        "explanation": "The bridge repeats a short phrase many times over a rising arrangement. The effect is carried by the build rather than by what is being said, which is a different thing from a refrain that deepens a confession.",
-        "songLocation": "BRIDGE",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      },
-      {
-        "category": "Corporate voice",
-        "title": "Sung entirely in the singular",
-        "explanation": "Surrender is offered individually from first line to last. A congregation making the same offering together would carry more weight than a room of separate private submissions.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "singability": "MODERATE",
     "vocalRangeNote": "Commonly published in B flat and C. The verses sit comfortably; the repeated bridge is where an ordinary room stops singing.",
     "range": {
@@ -183,20 +138,9 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Ambiguity",
-        "title": "What is surrendered, and to what end, is left open",
-        "explanation": "The song says everything is given over without saying to what — obedience, a calling, a circumstance. The blank is easily filled with whatever the singer is feeling rather than with anything the song has taught.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "MODERATE",
-    "assessment": "Clear in what it says and open in what it means. The single idea is unmistakable, but its content is unspecified, so the song relies on the hearer to supply what surrender consists of — and gives them nothing to supply it from."
+    "assessment": "Clear in what it says. The single idea is unmistakable, and the song leaves what surrender consists of to the teaching around it rather than spelling it out."
   },
   "synthesis": {
     "summary": "Its only request is that the singer be given over, and its object is God rather than his gifts — both rarer than they should be. But the cross is absent, and surrender rests on the singer's hunger where Paul rests it on God's mercies. Musically it is built around a long bridge most congregations hand back to the platform.",

@@ -145,18 +145,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Weight",
-        "title": "Slow, dense verses that follow rather than lead",
-        "explanation": "The verses are narrative sung at a walking pace, and the room sings as onlookers being told to look. Congregations unfamiliar with it tend to listen to the verses and join the chorus, so it repays teaching before it is led.",
-        "songLocation": "NOT_LYRICAL",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "singability": "MODERATE",
     "vocalRangeNote": "The Gettys publish it in A; Integrity Music and Shane & Shane use F. The spread suggests the melody has a lift worth checking against a room before choosing the key.",
     "range": {
@@ -172,7 +161,7 @@
     "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The chorus returns after each verse and carries the doctrine; its final change of line is the hymn's climax. Repetition here is the confession deepening, not filling.",
     "performanceOrientation": "BALANCED",
-    "assessment": "A congregational passion hymn in verse-and-chorus form, with the chorus doing the corporate work and the verses doing the narrative. The recordings are weighty and slow, and rooms new to it follow the verses before they own them, but the chorus is learned on first hearing and the whole is well within an ordinary congregation's reach in F. Best placed at Good Friday or communion rather than as a general praise song."
+    "assessment": "A congregational passion hymn in verse-and-chorus form, with the chorus doing the corporate work and the verses doing the narrative. The chorus is learned on first hearing and the whole is well within an ordinary congregation's reach in F. Best placed at Good Friday or communion rather than as a general praise song."
   },
   "clarity": {
     "strengths": [

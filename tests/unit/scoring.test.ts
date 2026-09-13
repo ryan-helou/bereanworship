@@ -458,6 +458,12 @@ describe('a clean record must be checked', () => {
     expect(thin.soundness.level).toBe(sourced.soundness.level);
   });
 
+  it('does not let a concern that costs nothing exempt a song from the check', () => {
+    const trivial = [concern({ severity: 'MINOR', centrality: 'PERIPHERAL' })];
+    expect(scoreSoundness(trivial).level).toBe(RUBRIC_MAX_LEVEL);
+    expect(scoreSong(trivial, FULL, null, { independentSources: 0 }).soundness.level).toBe(UNVERIFIED_CLEAN_LEVEL);
+  });
+
   it('applies no evidence rule when evidence is not supplied', () => {
     expect(scoreSong([strength()], FULL).soundness.level).toBe(RUBRIC_MAX_LEVEL);
   });

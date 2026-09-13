@@ -102,13 +102,13 @@
         "title": "Asks to be led into deeper testing",
         "explanation": "The bridge prays for trust without limits and for deeper water, which amounts to asking God for trial as the means of growth. Christ taught his disciples to pray the opposite. The instinct behind it is real; the request is not one Scripture models.",
         "songLocation": "BRIDGE",
-        "severity": "MODERATE",
+        "severity": "MINOR",
         "centrality": "IMPORTANT",
         "recurring": true,
         "lyricExcerpt": null,
         "scriptureReference": "Matthew 6:13",
         "scriptureRationale": "Lead us not into temptation — the petition the bridge inverts, however sincerely.",
-        "likelihood": "LIKELY"
+        "likelihood": "POSSIBLE"
       }
     ],
     "doctrinesAffirmed": [
@@ -117,7 +117,7 @@
       "Christ as the object of faith",
       "Dependence rather than self-reliance"
     ],
-    "assessment": "A song about trust under pressure, and a good one on its own terms: the chorus argues from God's record rather than the singer's feeling, and the Peter account gives it a real shape. Two things limit it. The bridge asks to be led into deeper testing, which is close to the reverse of the petition Christ taught. And the gospel is absent — nothing says why the singer may call on God at all. Sound as a song of trust, thin as a diet."
+    "assessment": "A song about trust under pressure, and a good one on its own terms: the chorus argues from God's record rather than the singer's feeling, and the Peter account gives it a real shape. The bridge's request for deeper testing sits in real pastoral tension with the Lord's Prayer, though asking for deeper trust has warrant in Peter stepping onto the water and in the plea to increase our faith. The gospel is absent — nothing says why the singer may call on God at all. Sound as a song of trust, thin as a diet."
   },
   "communal": {
     "strengths": [
@@ -129,38 +129,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Singability",
-        "title": "Long, and built around a climb most rooms cannot make",
-        "explanation": "The song runs well past the length a congregation sustains and drives to a sustained high bridge. In practice the room carries the verses and the platform carries the climax, which is the wrong division of labour.",
-        "songLocation": "NOT_LYRICAL",
-        "severity": "MODERATE",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "POSSIBLE"
-      },
-      {
-        "category": "Performance orientation",
-        "title": "The recording is doing much of the work",
-        "explanation": "The build, the held notes and the long instrumental swell are where the song's effect lives. Reduced to a piano and a room it loses more than a congregational song should.",
-        "songLocation": "NOT_LYRICAL",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "POSSIBLE"
-      },
-      {
-        "category": "Corporate voice",
-        "title": "A private song sung in a crowd",
-        "explanation": "Every line is first person singular, and the subject is an individual calling. A congregation ends up singing three hundred separate prayers rather than one.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "singability": "DIFFICULT",
     "vocalRangeNote": "Commonly published in D. The bridge is where congregations drop out; if you keep the song, plan for the room to stop singing there or transpose to protect it.",
     "range": {
@@ -176,7 +145,7 @@
     "repetition": "HEAVY",
     "repetitionAssessment": "The bridge repeats at length and is the song's least defensible content, so the repetition works against it rather than for it.",
     "performanceOrientation": "PERFORMANCE_LEANING",
-    "assessment": "An anthem before it is a congregational song. One clear image carries it and the verses are within reach, but the length and the sustained bridge put the emotional centre beyond most rooms — and the section they cannot sing is the section carrying the request the review most questions."
+    "assessment": "An anthem before it is a congregational song. One clear image carries it and the verses are within reach. The bridge repeats at length and sits high, so pitch the key for the room or plan for many to listen through that section."
   },
   "clarity": {
     "strengths": [
@@ -188,25 +157,12 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Ambiguous referent",
-        "title": "Metaphor throughout, and the addressee left late",
-        "explanation": "The song runs almost entirely on figure, and the one who is being addressed is not named until the bridge. Sung without that section — as the radio edit does — nothing in it settles who is being sung to.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MODERATE",
-        "centrality": "IMPORTANT",
-        "recurring": false,
-        "scriptureReference": "Matthew 14:33",
-        "scriptureRationale": "The account names its object plainly — truly you are the Son of God — where the song waits.",
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "MODERATE",
-    "assessment": "Vivid and internally consistent, but almost wholly figurative. The identity of the one addressed arrives late and could be missed, and a hearer who does not know the Matthew account may take the whole song as a picture rather than a response to something that happened."
+    "assessment": "Vivid, internally consistent and almost wholly figurative. Its images answer to the Matthew account of Peter on the water, so where that account is not known it is worth reading or explaining alongside the song."
   },
   "synthesis": {
-    "summary": "A song of trust under pressure, argued from God's record rather than the singer's feeling, and built on Peter leaving the boat. Two limits: the bridge asks to be led into deeper testing, close to the reverse of the petition Christ taught, and the gospel is absent entirely. Musically an anthem whose climax sits beyond most congregations.",
+    "summary": "A song of trust under pressure, argued from God's record rather than the singer's feeling, and built on Peter leaving the boat. Its request for deeper testing sits in pastoral tension with the Lord's Prayer, though deeper trust has warrant in Peter's step and the plea for more faith. The gospel is absent entirely. Musically an anthem, with a long repeated bridge to pitch and plan for.",
     "themes": [
       "Faith",
       "Hope",

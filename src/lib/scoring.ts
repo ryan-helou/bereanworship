@@ -634,8 +634,12 @@ export function scoreSong(
   // keep the 2.0.0 rubric: singability is a different kind of question and is
   // not improved by asking what a song teaches.
   let soundness = scoreSoundness(theologicalFindings);
-  if (evidence && soundness.setBy === null && evidence.independentSources === 0) {
-    soundness = { ...soundness, level: UNVERIFIED_CLEAN_LEVEL, unverified: true };
+  // A concern that costs nothing — a peripheral minor one leaves soundness at
+  // the top — must not exempt a song from the check. Hymn of Heaven held a
+  // published 90 that way: as clean, and as unchecked, as a song with no
+  // concern at all, but shielded by a finding that changed nothing.
+  if (evidence && soundness.level === RUBRIC_MAX_LEVEL && evidence.independentSources === 0) {
+    soundness = { ...soundness, level: UNVERIFIED_CLEAN_LEVEL, setBy: null, unverified: true };
   }
   const substance = scoreSubstance(substanceAnswers);
 

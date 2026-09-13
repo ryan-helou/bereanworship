@@ -142,28 +142,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Corporate voice",
-        "title": "A private confession sung in unison",
-        "explanation": "Every line is I. The memorial stone, the wandering and the plea to be sealed are one person's testimony, so the room sings several hundred individual confessions rather than one. Whitefield's plural revision did not survive.",
-        "songLocation": "THROUGHOUT",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      },
-      {
-        "category": "Repetition",
-        "title": "The chorus is sung four times and says one thing",
-        "explanation": "The added section is a single affirmation and a single request, and the recording repeats it four times with tags. It is a genuine refrain, but a congregation gains nothing after the second pass.",
-        "songLocation": "CHORUS",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "singability": "MODERATE",
     "vocalRangeNote": "Shane & Shane publish it in D at a slow three; charts also circulate in C. NETTLETON itself spans about an octave, and the chorus stays close to it.",
     "range": {
@@ -179,7 +158,7 @@
     "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The verses do not repeat. The added chorus returns to one petition four times, which is a refrain deepening a request rather than filling time, though it runs longer than it needs.",
     "performanceOrientation": "BALANCED",
-    "assessment": "Built on one of the most singable tunes in the language, and the added chorus gives congregations raised on choruses a way in without touching Robinson's words. Two reservations: the voice is a sustained I, so the room sings a personal testimony in unison rather than a shared confession, and the chorus repeats past the point of adding anything. Leaders can sing it twice rather than four times and lose nothing."
+    "assessment": "Built on one of the most singable tunes in the language, and the added chorus gives congregations raised on choruses a way in without touching Robinson's words. The voice is a sustained I, so the room sings a personal testimony in unison rather than a shared confession."
   },
   "clarity": {
     "strengths": [
@@ -198,26 +177,12 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Vocabulary",
-        "title": "Ebenezer is a riddle without 1 Samuel",
-        "explanation": "The second verse opens on a Hebrew place-name most singers cannot place, and two more archaic words follow in the same verse. The central claims survive, but a newcomer sings a line whose meaning depends on a chapter they have not read; several hymnals substitute a clearer phrase.",
-        "songLocation": "VERSE_2",
-        "locationDetail": "the opening line",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "LIKELY",
-        "scriptureReference": "1 Samuel 7:12",
-        "scriptureRationale": "Samuel names the stone Ebenezer, saying the LORD has helped us thus far — the meaning the verse assumes its singer knows."
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Clear in its argument and vivid in its pictures, with a vocabulary that shows its age. The sequence from praise to testimony to confession is easy to follow, and the images do real work. But the second verse leans on a Hebrew place-name and two archaic words that a first-time singer will not know, and the hymn does not gloss them. The added chorus is plain throughout."
+    "assessment": "Clear in its argument and vivid in its pictures. The sequence from praise to testimony to confession is easy to follow, and the images do real work. The second verse borrows a Hebrew name from 1 Samuel, biblical vocabulary a church can teach. The added chorus is plain throughout."
   },
   "synthesis": {
-    "summary": "Robinson's hymn lets a congregation confess that the heart still drifts, and rests salvation and perseverance alike on grace and the blood of Christ who sought the wanderer. Shane Barnard's chorus adds a singable handle and no new doctrine. The voice is a sustained I, the chorus repeats longer than it needs, and the Ebenezer line will puzzle a newcomer. Suited to any congregation that will teach the second verse.",
+    "summary": "Robinson's hymn lets a congregation confess that the heart still drifts, and rests salvation and perseverance alike on grace and the blood of Christ who sought the wanderer. Shane Barnard's chorus adds a singable handle and no new doctrine. The voice is a sustained I throughout. Suited to any congregation, and its second verse borrows a Hebrew name from 1 Samuel that a church can teach.",
     "themes": [
       "Grace",
       "Christ",

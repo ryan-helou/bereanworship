@@ -104,29 +104,14 @@
         "scriptureRationale": "The psalmist's desire for God above all else is presented as the fitting posture, not as an unmet need."
       }
     ],
-    "concerns": [
-      {
-        "category": "Christology",
-        "title": "Brotherhood set against kingship",
-        "explanation": "The concessive phrasing treats Christ's kingship as an obstacle his brotherhood overcomes. Hebrews grounds the brotherhood in his saving work, not in spite of his office — he is not our brother despite being King.",
-        "songLocation": "VERSE_3",
-        "locationDetail": "the opening couplet",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": false,
-        "lyricExcerpt": null,
-        "scriptureReference": "Hebrews 2:11",
-        "scriptureRationale": "Christ is unashamed to call us brothers because he sanctifies us — the kingship is the ground, not the tension.",
-        "likelihood": "LIKELY"
-      }
-    ],
+    "concerns": [],
     "doctrinesAffirmed": [
       "God as the soul's true satisfaction",
       "God as strength and shield",
       "Exclusive devotion to God",
       "The worth of God above earthly good"
     ],
-    "assessment": "A short psalm-setting that does one thing and does it honestly. Its strength is that the best material is Scripture's own, and its chorus makes God the exclusive object of trust. The later verses are weaker than the first, and one line mishandles Christ's kingship, but nothing here is false. Sound for its purpose, and too narrow to carry a service by itself."
+    "assessment": "A short psalm-setting that does one thing and does it honestly. Its strength is that the best material is Scripture's own, and its chorus makes God the exclusive object of trust. Nothing here is false. Sound for its purpose, and too narrow to carry a service by itself."
   },
   "communal": {
     "strengths": [
@@ -145,18 +130,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Corporate voice",
-        "title": "Sung entirely in the singular",
-        "explanation": "Every line is 'I' and 'my'. The congregation never says 'we', so a room of three hundred sings three hundred private songs at once. Not an error, but it shapes what the gathering is doing.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "singability": "EASY",
     "vocalRangeNote": "Sung here in A. That is a workable congregational key for this melody's shape, though churches commonly pitch it lower in G or F.",
     "range": {
@@ -184,24 +158,12 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Diction",
-        "title": "Two registers stitched together",
-        "explanation": "The first verse keeps the psalm's older cadence; the verses added later speak in plain modern idiom. Sung end to end the seam shows, and the song sounds like two songs.",
-        "songLocation": "VERSE",
-        "locationDetail": "verse 1 against verses 2 and 3",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Plain and unambiguous throughout. Nothing in it can be misheard, and its one image carries the whole song. The only stylistic blemish is the join between the original verse and the two added later."
+    "assessment": "Plain and unambiguous throughout. Nothing in it can be misheard, and its one image carries the whole song."
   },
   "synthesis": {
-    "summary": "A simple setting of Psalm 42 whose chorus makes God the exclusive object of trust. Its best material is Scripture's own, and its weakest line makes Christ's kingship a tension rather than the ground of his brotherhood. Sound and easy to sing; too narrow in content to stand alone.",
+    "summary": "A simple setting of Psalm 42 whose chorus makes God the exclusive object of trust. Its best material is Scripture's own. Sound and easy to sing; too narrow in content to stand alone.",
     "themes": [
       "God",
       "Worship",

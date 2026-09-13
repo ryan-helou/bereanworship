@@ -124,18 +124,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Diction",
-        "title": "Nineteenth-century vocabulary throughout",
-        "explanation": "Cherubim, seraphim and older constructions are unexplained. The hymn rewards a congregation that has been taught it and asks real work of a first-time visitor.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "LIKELY"
-      }
-    ],
+    "concerns": [],
     "singability": "MODERATE",
     "vocalRangeNote": "Commonly published in E flat and D. The tune has a wide arch and the third phrase climbs; congregations manage it because they know it, not because it is easy.",
     "range": {
@@ -151,7 +140,7 @@
     "repetition": "PURPOSEFUL",
     "repetitionAssessment": "Only the opening cry repeats, and it repeats because Scripture repeats it. Four verses of otherwise new material, which is demanding by modern standards and worth the demand.",
     "performanceOrientation": "CONGREGATIONAL",
-    "assessment": "A hymn that a congregation can sing without being asked to feel anything in particular, which is its great communal strength. The tune is universally known and needs no band. Its cost is vocabulary: several words go unexplained and a newcomer will not follow all of it unaided."
+    "assessment": "A hymn that a congregation can sing without being asked to feel anything in particular, which is its great communal strength. The tune is universally known and needs no band."
   },
   "clarity": {
     "strengths": [
@@ -170,20 +159,9 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Vocabulary",
-        "title": "Several words a newcomer will not know",
-        "explanation": "The heavenly ranks and some older phrasing pass without explanation. The central claim survives intact, but parts of the hymn will wash over an unchurched hearer.",
-        "songLocation": "VERSE_2",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "LIKELY"
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Precise where precision is hardest. The Trinity is stated without hedging and the verse sequence is easy to follow. The only obstacle is period vocabulary, which obscures some detail without touching the hymn's central claim."
+    "assessment": "Precise where precision is hardest. The Trinity is stated without hedging and the verse sequence is easy to follow."
   },
   "synthesis": {
     "summary": "The clearest Trinitarian teaching in common congregational use, and it teaches by repetition rather than explanation — four verses, four statements of three persons and one God. Its opening is Scripture's own cry and it is honest that the God it praises cannot be looked at. Its one limit is scope: it is about who God is, not what he did to save.",

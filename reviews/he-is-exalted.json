@@ -102,28 +102,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Repetition",
-        "title": "One chorus asked to carry a whole song slot",
-        "explanation": "With no verses, the only way to extend it is to sing it again. The content is sound but finite, and repeated use in a service exhausts it quickly.",
-        "songLocation": "NOT_LYRICAL",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      },
-      {
-        "category": "Singability",
-        "title": "The climb at the end catches rooms out",
-        "explanation": "The closing phrase reaches higher than the rest and holds. Congregations manage the body of the chorus and thin out at the top, so the key is worth choosing carefully.",
-        "songLocation": "NOT_LYRICAL",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "singability": "MODERATE",
     "vocalRangeNote": "Commonly published in F and G. The final phrase is the demanding part; pitch the song for that rather than for its opening.",
     "range": {
@@ -136,10 +115,10 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
-    "repetition": "HEAVY",
+    "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The song is one chorus, so all its length is repetition. What repeats is a true confession about Christ, which holds up better than most repeated material.",
     "performanceOrientation": "CONGREGATIONAL",
-    "assessment": "Well shaped for a congregation and unusually corporate for its era, because it declares something about God rather than describing the singer. The practical limits are its length — one chorus and nowhere to go — and a closing phrase that sits higher than the rest."
+    "assessment": "Well shaped for a congregation and unusually corporate for its era, because it declares something about God rather than describing the singer. The closing phrase sits higher than the rest, so pitch the song for that phrase rather than for its opening."
   },
   "clarity": {
     "strengths": [

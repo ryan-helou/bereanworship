@@ -89,26 +89,13 @@
         "scriptureRationale": "I will bless the Lord at all times; his praise shall continually be in my mouth."
       }
     ],
-    "concerns": [
-      {
-        "category": "Worship",
-        "title": "Praise turned into a weapon",
-        "explanation": "The bridge pictures praise as water in which the singer's enemies drown. Christianity Today has questioned the imagery publicly. It makes worship an instrument aimed at opponents rather than an offering to God, and it leaves the enemies undefined so a congregation supplies its own.",
-        "songLocation": "BRIDGE",
-        "severity": "MODERATE",
-        "centrality": "IMPORTANT",
-        "recurring": false,
-        "scriptureReference": "Matthew 5:44",
-        "scriptureRationale": "Love your enemies and pray for those who persecute you — the posture the imagery sits awkwardly beside.",
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "doctrinesAffirmed": [
       "The duty of praise",
       "Praise independent of circumstance",
       "God as the proper object of worship"
     ],
-    "assessment": "Its central claim is a good and unfashionable one: praise is owed in loss as much as in gain, and it is a debt rather than a mood. That carries the song a long way. Two things pull against it. The bridge turns praise into a weapon that drowns unnamed enemies, which has been publicly questioned and sits badly beside Christ's command about enemies. And the song never says who is being praised or for what, so its reasons are the singer's resolve rather than God's acts."
+    "assessment": "Its central claim is a good and unfashionable one: praise is owed in loss as much as in gain, and it is a debt rather than a mood. That carries the song a long way. Some, Christianity Today among them, have questioned the emphasis of its bridge. What pulls against it is that the song never says who is being praised or for what, so its reasons are the singer's resolve rather than God's acts."
   },
   "communal": {
     "strengths": [
@@ -133,19 +120,9 @@
         "title": "Written around the recording",
         "explanation": "The call-and-response, the layered vocals and the extended closing depend on a full band and multiple leads. Reduced to a piano the song loses its shape rather than simplifying.",
         "songLocation": "NOT_LYRICAL",
-        "severity": "MODERATE",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "POSSIBLE"
-      },
-      {
-        "category": "Length",
-        "title": "Long, and longest where it is thinnest",
-        "explanation": "The closing sections repeat well past where the content has been exhausted. A congregation is asked to sustain energy through the part of the song with the least to say.",
-        "songLocation": "NOT_LYRICAL",
         "severity": "MINOR",
         "centrality": "PERIPHERAL",
-        "recurring": true,
+        "recurring": false,
         "likelihood": "POSSIBLE"
       }
     ],
@@ -161,9 +138,9 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
-    "repetition": "EXCESSIVE",
+    "repetition": "HEAVY",
     "repetitionAssessment": "Extensive in the closing sections. Early repetition drives the confession home; the later repetition is sustaining energy rather than adding content.",
-    "performanceOrientation": "PERFORMANCE_LEANING",
+    "performanceOrientation": "BALANCED",
     "assessment": "Genuinely singable and genuinely loud, which is not nothing — congregations do sing this rather than watch it. The cost is that it is built around a recording with multiple lead voices and a long closing, so what a normal Sunday band delivers is a reduction rather than a simplification."
   },
   "clarity": {
@@ -176,33 +153,12 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Ambiguity",
-        "title": "The enemies are never identified",
-        "explanation": "The bridge sets praise against opponents without saying who they are. Sung weekly, a congregation fills the blank with whoever is currently against them, which is not what the psalms mean by the word.",
-        "songLocation": "BRIDGE",
-        "severity": "MODERATE",
-        "centrality": "IMPORTANT",
-        "recurring": false,
-        "likelihood": "POSSIBLE"
-      },
-      {
-        "category": "Ambiguity",
-        "title": "The object of praise is left open",
-        "explanation": "No name, no attribute and no act identifies who is being praised. The song would be sung without alteration in a room that meant something else by the word Lord.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "MODERATE",
-    "assessment": "Plain in its words and open in its referents. Nothing is hard to follow, but two blanks sit at the centre — who is praised, and who the enemies are — and a congregation fills both from its own situation rather than from anything the song supplies."
+    "assessment": "Plain in its words. Nothing is hard to follow, but one blank sits at the centre — who is praised — and a congregation fills it from its own situation rather than from anything the song supplies."
   },
   "synthesis": {
-    "summary": "Its central claim is good and unfashionable: praise is owed in losing as much as winning, and it is a debt rather than a mood. But the bridge turns praise into a weapon drowning unnamed enemies — publicly questioned by Christianity Today — and the song never says who is praised or for what. Singable and loud; built around a recording rather than a room.",
+    "summary": "Its central claim is good and unfashionable: praise is owed in losing as much as winning, and it is a debt rather than a mood. Christianity Today has questioned the emphasis of its bridge. But the song never says who is praised or for what. Singable and loud, though written around a full-band recording.",
     "themes": [
       "Worship",
       "Thanksgiving",

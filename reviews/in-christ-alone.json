@@ -151,18 +151,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Demand",
-        "title": "Thirty-two lines with nowhere to rest",
-        "explanation": "There is no refrain, and each verse is dense. A congregation unused to hymnody works to hold the whole text, and rooms often drop a verse, which breaks the sequence that is the hymn's point.",
-        "songLocation": "NOT_LYRICAL",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "singability": "MODERATE",
     "vocalRangeNote": "The Gettys publish it in D; Passion's recording is in F and Shane & Shane sing it in E. The tune sits mostly mid-range with a lift in the third phrase; D suits most rooms.",
     "range": {
@@ -178,7 +167,7 @@
     "repetition": "NONE",
     "repetitionAssessment": "Nothing repeats. Four verses, each new, and the only recurring element is the title phrase opening the first and last.",
     "performanceOrientation": "CONGREGATIONAL",
-    "assessment": "Written for a congregation and sung as one across nearly every English-speaking tradition. The credal first person lets a room confess together, the tune is well known and carries unaccompanied, and the four verses reward being sung in full. The demand is real — a long, dense text with no refrain — and leaders who cut a verse should know which link of the argument they are removing."
+    "assessment": "Written for a congregation and sung as one across nearly every English-speaking tradition. The credal first person lets a room confess together, the tune is well known and carries unaccompanied, and the four verses reward being sung in full. Leaders who cut a verse should know which link of the argument they are removing."
   },
   "clarity": {
     "strengths": [
@@ -216,7 +205,7 @@
     "assessment": "Clear throughout. The doctrines are heavy and the words are plain, the order of the verses is the order of the gospel, and the object is never in doubt. The one line that needs a sentence of teaching is the one on wrath satisfied, which compresses the heart of the atonement into a phrase that can be heard as the Father against the Son if nobody has explained it."
   },
   "synthesis": {
-    "summary": "Four verses that set out the gospel in order: Christ as the ground of hope, the incarnation and his death in the sinner's place, his burial and resurrection, and his keeping of his people to the end. No doctrinal error was found. The hymn is long, with no refrain. Its compressed atonement line states penal substitution, has drawn a published objection, and without teaching can be heard as a Father punishing his Son.",
+    "summary": "Four verses that set out the gospel in order: Christ as the ground of hope, the incarnation and his death in the sinner's place, his burial and resurrection, and his keeping of his people to the end. No doctrinal error was found. Its compressed atonement line states penal substitution, has drawn a published objection, and without teaching can be heard as a Father punishing his Son.",
     "themes": [
       "Christ",
       "Cross",

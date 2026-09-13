@@ -85,29 +85,14 @@
         "scriptureRationale": "I am the LORD, your Holy One — the title the song opens with."
       }
     ],
-    "concerns": [
-      {
-        "category": "Use of Scripture",
-        "title": "Joel's battle summons borrowed for the believer",
-        "explanation": "The chorus takes its wording from Joel 3:10, where the weak are told to call themselves warriors as the nations are summoned to judgment. The truth the song means — strength in weakness through God's work — is Paul's, not Joel's, and the borrowed line carries a context that does not fit.",
-        "songLocation": "CHORUS",
-        "locationDetail": "the first line",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE",
-        "lyricExcerpt": null,
-        "scriptureReference": "Joel 3:9-10",
-        "scriptureRationale": "The line is addressed to the nations gathering for battle, not to God's people in weakness — the passage the song quotes is not the one it means."
-      }
-    ],
+    "concerns": [],
     "doctrinesAffirmed": [
       "The holiness of God",
       "The gift of the Son",
       "Strength in weakness through God's work",
       "Thanksgiving as the response to grace"
     ],
-    "assessment": "Eight lines, none of them wrong. Thanks is owed to the Holy One because he has given his Son, and the weak and poor may call themselves strong and rich because of what the Lord has done. Confidence is placed where Paul puts it. The one reservation is a borrowed text: the chorus is worded from Joel's summons to the nations, which is not about believers in weakness, so a Pauline truth is said in a prophet's unrelated words. What it lacks is scope — the cross, sin and the resurrection are never reached."
+    "assessment": "Eight lines, none of them wrong. Thanks is owed to the Holy One because he has given his Son, and the weak and poor may call themselves strong and rich because of what the Lord has done. Confidence is placed where Paul puts it. What it lacks is scope — the cross, sin and the resurrection are never reached."
   },
   "communal": {
     "strengths": [
@@ -133,18 +118,7 @@
         "magnitude": "MINOR"
       }
     ],
-    "concerns": [
-      {
-        "category": "Length",
-        "title": "Too short to stand alone",
-        "explanation": "The whole song is under a minute sung once. Arrangements fill a slot by repeating it two or three times, and past the second pass nothing further is being said.",
-        "songLocation": "NOT_LYRICAL",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "singability": "EASY",
     "vocalRangeNote": "Published in F and E flat, moving mostly by step in descending phrases; comfortable for an ordinary room in either key.",
     "range": {
@@ -160,7 +134,7 @@
     "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The title phrase returns several times by design and the whole is usually sung through twice. That is a refrain doing its job, not padding — though a third pass adds nothing.",
     "performanceOrientation": "CONGREGATIONAL",
-    "assessment": "Among the easiest congregational songs in current use: a stepwise tune, eight lines, an imperative the room addresses to itself, and no dependence on an arrangement. Its only limit is its length. Sung once it is under a minute, so it is usually repeated or paired with another song, and leaders should treat it as a response or a frame rather than a set piece."
+    "assessment": "Among the easiest congregational songs in current use: a stepwise tune, eight lines, an imperative the room addresses to itself, and no dependence on an arrangement. Sung once it is under a minute, so it is usually repeated or paired with another song."
   },
   "clarity": {
     "strengths": [
@@ -179,26 +153,12 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Ambiguity",
-        "title": "Strong and rich can be heard as money",
-        "explanation": "The chorus has the poor call themselves rich because of what the Lord has done. The writer meant the exchange of 2 Corinthians 8:9, riches in Christ, but the line does not say so, and in some rooms it will be heard as a promise about money.",
-        "songLocation": "CHORUS",
-        "locationDetail": "the second line",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": true,
-        "likelihood": "POSSIBLE",
-        "scriptureReference": "2 Corinthians 8:9",
-        "scriptureRationale": "Christ became poor so that by his poverty we might become rich — the sense the writer intended, which the words leave open."
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Plain to the point of transparency. Every line is a common word and every claim comes with its reason attached, so nothing needs explaining before a congregation can sing it and mean it. The single soft spot is the chorus's strong and rich, which the writer grounded in Christ's poverty for our sake but which the song leaves open to a material hearing in a room inclined to one."
+    "assessment": "Plain to the point of transparency. Every line is a common word and every claim comes with its reason attached, so nothing needs explaining before a congregation can sing it and mean it."
   },
   "synthesis": {
-    "summary": "Eight plain lines grounding thanksgiving in God's gift of his Son and placing the confidence of the weak on what the Lord has done. Nothing in it is wrong and any room can sing it unaccompanied. Its chorus is worded from Joel's summons to the nations, a borrowed text that does not fit the Pauline truth it carries, and its strong and rich can be heard as money. Best as a response or a frame; too short to carry a set.",
+    "summary": "Eight plain lines grounding thanksgiving in God's gift of his Son and placing the confidence of the weak on what the Lord has done. Nothing in it is wrong and any room can sing it unaccompanied.",
     "themes": [
       "Thanksgiving",
       "Grace",

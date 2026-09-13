@@ -100,18 +100,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Corporate voice",
-        "title": "Sung in the singular",
-        "explanation": "The psalm behind it is a personal confession and the song keeps that. A congregation sings alongside one another rather than as one voice, which suits the text but limits it corporately.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "singability": "EASY",
     "vocalRangeNote": "Commonly published in D and E. A narrow melody with short phrases; among the easiest songs in use for a mixed room.",
     "range": {
@@ -139,18 +128,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Ambiguous referent",
-        "title": "The one addressed is never named",
-        "explanation": "The song runs entirely on 'You'. The refuge imagery is biblical enough to make the intent plain inside a church, but nothing in the words names God, so the identification is supplied by the setting rather than the text.",
-        "songLocation": "CHORUS",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "LOW",
     "assessment": "Plain throughout, and its imagery is specific enough to be recognisably biblical. The one gap is that God is never named — carried here by the psalm's language rather than left wholly open, but carried nonetheless."
   },

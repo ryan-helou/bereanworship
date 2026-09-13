@@ -97,28 +97,14 @@
         "scriptureRationale": "The wise man who built his house on the rock — the picture the bridge is reaching for."
       }
     ],
-    "concerns": [
-      {
-        "category": "Discipleship",
-        "title": "The foundation named as love rather than obedience",
-        "explanation": "The bridge invokes Christ's parable but changes what the house is built on. In Matthew and Luke the rock is hearing his words and doing them; here it is God's love. The love is real and is not a wrong thing to rest on, but the song borrows a text and substitutes its point.",
-        "songLocation": "BRIDGE",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": true,
-        "lyricExcerpt": null,
-        "scriptureReference": "Matthew 7:24-27",
-        "scriptureRationale": "Everyone who hears these words of mine and does them — the parable makes obedience the rock.",
-        "likelihood": "LIKELY"
-      }
-    ],
+    "concerns": [],
     "doctrinesAffirmed": [
       "The holiness of God",
       "The worthiness of Christ",
       "Whole-life devotion",
       "Assurance grounded outside the believer"
     ],
-    "assessment": "A well-ordered song. It opens on God's holiness rather than on the singer's benefit, names Jesus instead of leaving an unspecified 'You', and its central move is a commitment about how a life will be built rather than a report of a feeling. The one imprecision is that the bridge invokes Christ's parable and swaps its point: the rock there is hearing his words and doing them. Sound throughout, with a borrowed text slightly rewritten."
+    "assessment": "A well-ordered song. It opens on God's holiness rather than on the singer's benefit, names Jesus instead of leaving an unspecified 'You', and its central move is a commitment about how a life will be built rather than a report of a feeling. Sound throughout."
   },
   "communal": {
     "strengths": [
@@ -144,18 +130,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Repetition",
-        "title": "The bridge runs long",
-        "explanation": "The closing repeats well past the point the claim has landed. It is the best content in the song, but a congregation's attention is finite and the repetition spends it.",
-        "songLocation": "BRIDGE",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "singability": "EASY",
     "vocalRangeNote": "Commonly published in G and A. The melody is stepwise and undemanding; this is among the easier songs in wide use for a mixed room.",
     "range": {
@@ -190,23 +165,12 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Ambiguity",
-        "title": "'Your love' is not anchored",
-        "explanation": "The bridge builds on God's love without saying where that love was shown. A hearer who supplies the cross gets the right answer; a hearer who supplies a feeling gets a foundation that moves.",
-        "songLocation": "BRIDGE",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "LOW",
     "assessment": "Clear and well-sequenced. The verses progress rather than repeat, and the central vow is stated in words nobody needs explained. Its one soft spot is that the love it builds on is never located in anything God did."
   },
   "synthesis": {
-    "summary": "Opens on God's holiness rather than the singer's benefit, names Jesus rather than an unspecified 'You', and commits a whole life rather than reporting a feeling. Easy to sing and built so the best line is the destination. Its one imprecision: the bridge invokes Christ's parable of the house on the rock and makes the foundation his love where he made it obedience to his words.",
+    "summary": "Opens on God's holiness rather than the singer's benefit, names Jesus rather than an unspecified 'You', and commits a whole life rather than reporting a feeling. Easy to sing and built so the best line is the destination. What it does not say is what God did to show the love it rests on.",
     "themes": [
       "God",
       "Christ",

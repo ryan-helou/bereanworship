@@ -42,7 +42,40 @@ The prompts distinguish five kinds of claim and weight them differently — bibl
 
 Explicitly **not** error: being charismatic or continuationist, Arminian, non-denominational, a large church, commercially successful, using contemporary music, or having critics. Treating any of those as theological error would make the evaluation worthless, and the artist prompt says so in as many words.
 
-Also not penalised: poetic and figurative language (Scripture is saturated with it), first-person singular (so are the Psalms), emotional intensity (biblical worship is deeply emotional), and incompleteness — a song about God's holiness need not also present the *ordo salutis*.
+Also not penalised: poetic and figurative language (Scripture is saturated with it, down to
+the concessive wonder of Philippians 2 — though he was rich, yet he became poor), emotional
+intensity (biblical worship is deeply emotional), and incompleteness — a song about God's
+holiness need not also present the *ordo salutis*. First-person singular is not an error either;
+so are the Psalms. It costs one content point on the corporate-voice test, because a gathered
+church singing "we" is doing something a room of private prayers is not, and it costs nothing
+else.
+
+### A concern has to be real
+
+A concern costs a song nothing until it passes a test, written in September 2026 after a review
+docked *As the Deer* for marvelling that the King is also friend and brother — which is
+Philippians 2's own note, and which Hebrews 2:11 states concessively itself.
+
+A concern stays when the song affirmatively says something false or misleading, read the way an
+ordinary congregation hears it, or when it has a real practical problem that is not already
+charged elsewhere. It goes when it:
+
+1. reads poetic or figurative language woodenly;
+2. depends on a misreading nobody would actually take;
+3. is an absence, which belongs in the substance checklist;
+4. charges a fault already paid for in the same review — singular voice, a song about the singer,
+   claims left ungrounded, no act of God stated, performance orientation, repetition;
+5. is style or taste — idiom, a seam between verses by different writers, intensity, genre;
+6. treats a position faithful Christians hold as an error;
+7. objects to a word Scripture itself uses;
+8. is about key or height — a high bridge, a climbing chorus, a demanding key. That belongs to the
+   arrangement: transpose and it is gone. It is reported in the song's range note and, when a chart
+   has been read, in the range score beside validity, never inside it.
+
+A real concern graded too hard is lightened rather than dropped: a misreading an ordinary singer
+would not take is only *possible*, a matter of imagery is *peripheral*, and a line sung once does
+not *recur*. None of this softens real error. A song that says something wrong about God still
+pays for it in full.
 
 ### Repetition and emotion
 

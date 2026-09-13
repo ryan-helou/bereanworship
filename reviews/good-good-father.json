@@ -91,21 +91,7 @@
         "scriptureRationale": "God shows his love in that Christ died for us while we were still sinners."
       }
     ],
-    "concerns": [
-      {
-        "category": "Identity",
-        "title": "Identity resting on being loved, undefined",
-        "explanation": "Being loved by God is a true thing to say about a Christian, and the chorus repeats it as the singer's whole identity without saying what makes it true of them. Sung often enough, it teaches a self-understanding with nothing underneath it.",
-        "songLocation": "CHORUS",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": true,
-        "lyricExcerpt": null,
-        "scriptureReference": "1 John 3:1",
-        "scriptureRationale": "We are called children of God — but the verse grounds the title in the love the Father has given, not in the singer's sense of it.",
-        "likelihood": "LIKELY"
-      }
-    ],
+    "concerns": [],
     "doctrinesAffirmed": [
       "The fatherhood of God",
       "The unchanging goodness of God",
@@ -138,18 +124,7 @@
         "magnitude": "MINOR"
       }
     ],
-    "concerns": [
-      {
-        "category": "Repetition",
-        "title": "The hook carries more weight than it can",
-        "explanation": "The doubled adjective and the threefold identity line are repeated heavily. The repeated content is thin enough that the repetition starts to do the work the words should be doing.",
-        "songLocation": "CHORUS",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "singability": "EASY",
     "vocalRangeNote": "Commonly published in A flat and G. The melody sits in a narrow band and is among the easier songs in current use for a mixed congregation.",
     "range": {
@@ -177,30 +152,9 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Ambiguity",
-        "title": "'Good' is never filled in",
-        "explanation": "The word carries the whole song and is never anchored in anything God has done. Without the cross behind it, a hearer may reasonably take God's goodness to mean that life will go well for them.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      },
-      {
-        "category": "Address",
-        "title": "The verses report, the chorus confesses",
-        "explanation": "The verses describe what others say about God before the chorus turns to address him. The switch is effective but leaves the first verse standing at a distance from the worship the song is doing.",
-        "songLocation": "VERSE_1",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "MODERATE",
-    "assessment": "Plain line by line and vague where it matters. Nothing in it can be misheard, but its central adjective rests on an argument the song never makes, so a hearer supplies the content themselves — and what they supply may be circumstantial rather than the cross."
+    "assessment": "Plain line by line, and nothing in it can be misheard. It states no act of God, so what grounds the goodness it confesses has to come from the hearer or from the service around it."
   },
   "synthesis": {
     "summary": "Warm, easy to sing, and true in what it affirms: God's fatherly goodness as settled character, and love that failure does not forfeit. But Jesus, the cross and salvation are absent entirely, so it celebrates a relationship without ever saying how a sinner came to stand in it. Best used where the rest of the service supplies the ground.",

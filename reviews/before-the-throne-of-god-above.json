@@ -135,18 +135,7 @@
         "magnitude": "MAJOR"
       }
     ],
-    "concerns": [
-      {
-        "category": "Diction",
-        "title": "Nineteenth-century vocabulary in places",
-        "explanation": "Some phrasing needs a moment from a first-time visitor. The density is the point rather than a flaw, but a leader should not assume every line lands unaided.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "singability": "MODERATE",
     "vocalRangeNote": "Vikki Cook's setting is commonly published in D and E flat. The melody is well within an ordinary room; the demand is on comprehension rather than on range.",
     "range": {
@@ -162,7 +151,7 @@
     "repetition": "PURPOSEFUL",
     "repetitionAssessment": "Almost none. Three verses of new material, which is unusual and demands more attention than a modern song — but nothing is repeated because nothing needs padding.",
     "performanceOrientation": "CONGREGATIONAL",
-    "assessment": "A hymn rather than a modern song, and it asks a congregation to follow an argument rather than ride a build. That is a real demand, and worth making: the payoff is a room that has just reasoned its way through justification. The only cost is some older phrasing."
+    "assessment": "A hymn rather than a modern song, and it asks a congregation to follow an argument rather than ride a build. That is a real demand, and worth making: the payoff is a room that has just reasoned its way through justification."
   },
   "clarity": {
     "strengths": [
@@ -181,20 +170,9 @@
         "magnitude": "MAJOR"
       }
     ],
-    "concerns": [
-      {
-        "category": "Vocabulary",
-        "title": "A few phrases assume some furniture",
-        "explanation": "The imagery of the throne, the advocate and the graven name rewards someone who knows the Scriptures behind them. A newcomer follows the sense but may miss the argument's force.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Unusually precise. Three hard doctrines are stated in plain words without being softened, and the repeated resolution makes the hymn's claim impossible to mistake. Its only demand is a little biblical furniture, which is a fair thing for a hymn to expect."
+    "assessment": "Unusually precise. Three hard doctrines are stated in plain words without being softened, and the repeated resolution makes the hymn's claim impossible to mistake."
   },
   "synthesis": {
     "summary": "As doctrinally dense as congregational song gets, and nothing in it is loose. It opens on Christ's present intercession rather than his past death, answers the accusing conscience with a legal argument rather than a feeling, and names the singer's righteousness as someone else's. Written for the worst week a believer will have.",

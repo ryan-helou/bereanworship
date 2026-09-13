@@ -255,7 +255,7 @@
     "concerns": []
   },
   "communal": {
-    "assessment": "Built for a congregation: strophic, one repeated refrain shape, and a voice that moves from declaration to address. Length invites cutting. The vocal range was not independently verified — published in E and F, so check the tessitura locally before introducing it.",
+    "assessment": "Built for a congregation: strophic, one repeated refrain shape, and a voice that moves from declaration to address. The vocal range was not independently verified — published in E and F, so check the tessitura locally before introducing it.",
     "singability": "UNKNOWN",
     "vocalRangeNote": "Not verified. Published arrangements appear in E and F; check locally and transpose without hesitation.",
     "repetition": "PURPOSEFUL",
@@ -296,22 +296,7 @@
         "songLocation": "REFRAIN"
       }
     ],
-    "concerns": [
-      {
-        "category": "Planning",
-        "title": "Four verses invite cutting the best one",
-        "explanation": "The verse most likely dropped for time is the third — incarnation, cross, resurrection — which is the one the hymn least survives without.",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "lyricExcerpt": null,
-        "scriptureReference": null,
-        "scriptureExcerpt": null,
-        "scriptureRationale": null,
-        "songLocation": "NOT_LYRICAL",
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "range": {
       "measured": false,
       "lowestNote": null,
@@ -324,7 +309,7 @@
     }
   },
   "clarity": {
-    "assessment": "Clear despite the doctrinal density: concrete biblical imagery, contemporary diction, almost no archaism. Two small frictions worth a sentence of introduction the first time a congregation meets it.",
+    "assessment": "Clear despite the doctrinal density: concrete biblical imagery, contemporary diction, almost no archaism.",
     "ambiguityLevel": "LOW",
     "strengths": [
       {
@@ -361,36 +346,7 @@
         "songLocation": "VERSE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Vocabulary",
-        "title": "'Uncreated' appears once and is never unpacked",
-        "explanation": "The word does the heaviest theological work in the song, sits in the opening line, and never returns — so some will sing it without registering the claim.",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "lyricExcerpt": null,
-        "scriptureReference": null,
-        "scriptureExcerpt": null,
-        "scriptureRationale": null,
-        "songLocation": "VERSE",
-        "likelihood": "POSSIBLE"
-      },
-      {
-        "category": "Pronoun clarity",
-        "title": "Two referents in one line",
-        "explanation": "The 'He' rescued and the Father doing the rescuing appear together without the distinction being introduced, and the song has spoken of God as one 'He' for two verses beforehand.",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "lyricExcerpt": null,
-        "scriptureReference": "Colossians 1:15-17",
-        "scriptureExcerpt": "He is the image of the invisible God… by him all things were created… and in him all things hold together.",
-        "scriptureRationale": "Paul makes the same identification, which is why the shift is defensible.",
-        "songLocation": "REFRAIN",
-        "likelihood": "POSSIBLE"
-      }
-    ]
+    "concerns": []
   },
   "synthesis": {
     "summary": "A doctrinally dense modern hymn that runs from God's self-existence through creation, providence, the incarnation, a plainly substitutionary cross and Christ's unending reign — never changing subject along the way. Sin is implied rather than named, so it sits best alongside a song of confession. Weighty content, unusually easy to sing.",

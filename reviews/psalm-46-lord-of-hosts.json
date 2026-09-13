@@ -116,18 +116,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Singability",
-        "title": "The chorus climbs and holds",
-        "explanation": "The refrain sits high and sustains, which is where the song puts its weight. Rooms manage the verses comfortably and thin out at the line the song most wants them to sing.",
-        "songLocation": "NOT_LYRICAL",
-        "severity": "MODERATE",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "LIKELY"
-      }
-    ],
+    "concerns": [],
     "singability": "MODERATE",
     "vocalRangeNote": "Commonly published in A and B flat. The chorus is the demanding part and it recurs; pitch the song for the refrain rather than the verses.",
     "range": {
@@ -143,7 +132,7 @@
     "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The refrain repeats as the psalm's refrain repeats. What returns is a scriptural sentence rather than a hook, which is repetition doing its proper work.",
     "performanceOrientation": "BALANCED",
-    "assessment": "Corporate by construction and usable in real trouble, which is a good combination. The practical caution is the chorus: it sits high and it is the line the congregation most needs to sing, so the key deserves care."
+    "assessment": "Corporate by construction and usable in real trouble, which is a good combination. The chorus is the highest part of the melody and the line the congregation most needs to sing, so choose the key with the chorus in mind."
   },
   "clarity": {
     "strengths": [
@@ -162,20 +151,9 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Vocabulary",
-        "title": "'Lord of hosts' passes unexplained",
-        "explanation": "The title carries armies and heavenly ranks behind it, and a modern hearer may take it as a general honorific. The song does not unpack it, though the psalm does not either.",
-        "songLocation": "CHORUS",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Clear and specifically addressed. The psalm's sequence keeps the argument coherent and the divine titles rule out any doubt about the object. Only 'Lord of hosts' goes by without its meaning being opened up."
+    "assessment": "Clear and specifically addressed. The psalm's sequence keeps the argument coherent and the divine titles rule out any doubt about the object."
   },
   "synthesis": {
     "summary": "A psalm set faithfully rather than loosely referenced: the argument stays in order, the refrain stays the refrain, and the worst case is left undomesticated — mountains falling into the sea, not a difficult week. Its confidence rests on God's presence rather than the trouble passing. As with the psalm, Christ is not named.",

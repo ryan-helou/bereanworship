@@ -378,6 +378,15 @@ an error binds outright; a clean record lifts a thin song a little`}
             is recorded as a strength. Nor is mystery treated as vagueness: a song may rightly describe the incarnation
             rather than explain it.
           </p>
+          <p>
+            <strong className="font-semibold text-ink-900">A concern has to be real.</strong> A finding costs a song
+            nothing unless the song actually says something false or misleading, heard the way an ordinary congregation
+            hears it, or has a practical problem not already counted elsewhere. Reading a figure of speech woodenly,
+            relying on a misreading nobody would take, faulting what a song never set out to say, charging the same
+            fault twice, and objecting to taste, tradition or a word Scripture itself uses do not count. Nor does a demanding key or a high chorus, which belongs to the
+            arrangement and is reported beside the score rather than inside it. None of this
+            softens real error: a song that says something wrong about God still pays for it in full.
+          </p>
         </Section>
 
 

@@ -115,7 +115,7 @@
       "Redemption purchased by blood",
       "Grace as a gift that cannot be repaid"
     ],
-    "assessment": "Nothing to correct and a great deal to commend. Sin is named honestly and mercy is measured against it and found greater, which is Romans 5:20 sung. Forgiveness is not God overlooking what he failed to notice: the first verse insists he knows every sin and chooses not to count it, and the third grounds that choice in a debt paid in blood. The limit is scope, not error. The cross as a word, the resurrection, the Spirit and repentance are not reached, and the one who paid is never named as Christ."
+    "assessment": "Nothing to correct and a great deal to commend. Sin is named honestly and mercy is measured against it and found greater, which is Romans 5:20 sung. Forgiveness is not God overlooking what he failed to notice: the first verse insists he knows every sin and chooses not to count it, and the third grounds that choice in a debt paid in blood. The limit is scope, not error. The cross as a word, the resurrection, the Spirit and repentance are not reached."
   },
   "communal": {
     "strengths": [
@@ -176,26 +176,12 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Ambiguous pronouns",
-        "title": "The one who paid the debt is never named",
-        "explanation": "Christ is a pronoun throughout. The chorus names the Lord, and a believer connects the blood of the third verse to Jesus without effort, but the song never says so, and a newcomer can sing the whole of it without learning who paid.",
-        "songLocation": "WHOLE_SONG",
-        "locationDetail": "every reference to the one who paid is a pronoun",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": false,
-        "likelihood": "POSSIBLE",
-        "scriptureReference": "1 Timothy 2:5-6",
-        "scriptureRationale": "Paul names the man Christ Jesus as the one who gave himself as a ransom; the song leaves the name to be supplied."
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Clear from first hearing. The claim is a single proportion, sin against mercy, restated after every verse in common words, and the verses' questions are answered before the room can wonder. The one gap is a name: the chorus names the Lord, but the person whose blood paid the debt is only ever a pronoun, so the song assumes a hearer already knows the story it is celebrating."
+    "assessment": "Clear from first hearing. The claim is a single proportion, sin against mercy, restated after every verse in common words, and the verses' questions are answered before the room can wonder."
   },
   "synthesis": {
-    "summary": "A modern hymn that names sin honestly and sets God's mercy over it as the greater thing, grounding that mercy in a debt paid in blood by a God who knows every sin and chooses not to count it. Nothing in it is wrong; its only soft spot is that Christ is never named, so a newcomer may not know who paid. We-voiced, plain and easy to carry; best after a confession of sin or at the Lord's table.",
+    "summary": "A modern hymn that names sin honestly and sets God's mercy over it as the greater thing, grounding that mercy in a debt paid in blood by a God who knows every sin and chooses not to count it. Nothing in it is wrong. We-voiced, plain and easy to carry; best after a confession of sin or at the Lord's table.",
     "themes": [
       "Grace",
       "Sin",

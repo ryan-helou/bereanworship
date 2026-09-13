@@ -127,28 +127,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Corporate voice",
-        "title": "Testimony rather than confession",
-        "explanation": "Every line is the singer's own account. The content is corporate truth, but the grammar keeps it private, so a room rehearses the gospel three hundred times separately rather than once together.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      },
-      {
-        "category": "Length",
-        "title": "Four verses, two bridges and a tag",
-        "explanation": "The song is long for its material and repeats its turn many times. In a service it needs trimming, and trimming a song whose structure is the argument risks losing the argument.",
-        "songLocation": "NOT_LYRICAL",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "singability": "MODERATE",
     "vocalRangeNote": "Commonly published in B flat and C. The verses sit comfortably; the bridges climb, which is the usual place a room drops out.",
     "range": {
@@ -164,7 +143,7 @@
     "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The title phrase returns constantly, and it is the song's argument rather than a hook. Repetition here is doing the teaching.",
     "performanceOrientation": "BALANCED",
-    "assessment": "The strongest thing about it congregationally is that its most memorable phrase is also its doctrine. The costs are length — four verses, two bridges and a tag is more than a service usually has room for — and a first-person grammar that keeps a corporate truth private."
+    "assessment": "The strongest thing about it congregationally is that its most memorable phrase is also its doctrine. The cost is a first-person grammar that keeps a corporate truth private."
   },
   "clarity": {
     "strengths": [

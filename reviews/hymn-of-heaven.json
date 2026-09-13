@@ -90,20 +90,7 @@
         "scriptureRationale": "A great multitude that no one could number, from every nation, standing before the throne."
       }
     ],
-    "concerns": [
-      {
-        "category": "Prayer",
-        "title": "All prayer characterised as crying out in pain",
-        "explanation": "The second verse frames the present life's prayers as cries of despair. Much prayer is that; much is thanksgiving, confession and intercession. As a description of the singer's whole prayer life it is narrower than Scripture's.",
-        "songLocation": "VERSE_2",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "POSSIBLE",
-        "scriptureReference": "Philippians 4:6",
-        "scriptureRationale": "In everything by prayer and supplication with thanksgiving — a wider range than lament alone."
-      }
-    ],
+    "concerns": [],
     "doctrinesAffirmed": [
       "The new creation",
       "The death and resurrection of Christ",
@@ -111,7 +98,7 @@
       "The gathered worship of the redeemed",
       "Universal acknowledgement of Christ"
     ],
-    "assessment": "One of the better songs about heaven in current use, largely because it declines to speculate. Its picture comes from Revelation and Philippians, the one worshipped there is named as the crucified and risen Christ, and it says why the singer may be present at all. The hope is corporate rather than solitary. One line narrows prayer to lament, which is a small imprecision in an otherwise careful song."
+    "assessment": "One of the better songs about heaven in current use, largely because it declines to speculate. Its picture comes from Revelation and Philippians, the one worshipped there is named as the crucified and risen Christ, and it says why the singer may be present at all. The hope is corporate rather than solitary."
   },
   "communal": {
     "strengths": [
@@ -137,18 +124,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Singability",
-        "title": "The outro sits high and sustains",
-        "explanation": "The song's closing section is written for a lead voice and holds above where most rooms are comfortable. Congregations carry the verses and hand back the climax.",
-        "songLocation": "NOT_LYRICAL",
-        "severity": "MODERATE",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "LIKELY"
-      }
-    ],
+    "concerns": [],
     "singability": "MODERATE",
     "vocalRangeNote": "Commonly published in A and B flat. The outro is the demanding part; pitch for that rather than for the opening verse.",
     "range": {
@@ -164,7 +140,7 @@
     "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The chorus and outro repeat substantially, and what repeats names the crucified and risen Christ. The repetition carries content rather than sustaining a mood.",
     "performanceOrientation": "BALANCED",
-    "assessment": "Well made for a congregation and corporate in both content and grammar. Its practical limit is the outro, which is written for a lead voice and sits above where most rooms will follow."
+    "assessment": "Well made for a congregation and corporate in both content and grammar. The outro sits highest, so pitch the song for that section rather than for the opening verse."
   },
   "clarity": {
     "strengths": [
@@ -183,23 +159,12 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Precision",
-        "title": "A grammatical slip in the third verse",
-        "explanation": "The line about standing face to face uses a subject pronoun where an object is required. It is a small thing, and it is the kind of thing a congregation sings hundreds of times.",
-        "songLocation": "VERSE_3",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Clear and well sequenced, with the object of worship named rather than implied. The only blemish is a grammatical slip in the third verse, which affects polish rather than meaning."
+    "assessment": "Clear and well sequenced, with the object of worship named rather than implied."
   },
   "synthesis": {
-    "summary": "One of the better songs about heaven in current use, largely because it declines to speculate: its picture comes from Revelation and Philippians, the one worshipped is named as the crucified and risen Christ, and it says why the singer may be there at all. One line narrows prayer to lament, which is a small imprecision in an otherwise careful song.",
+    "summary": "One of the better songs about heaven in current use, largely because it declines to speculate: its picture comes from Revelation and Philippians, the one worshipped is named as the crucified and risen Christ, and it says why the singer may be there at all.",
     "themes": [
       "Heaven",
       "Hope",

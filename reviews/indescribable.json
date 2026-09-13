@@ -89,7 +89,7 @@
       "The incomprehensibility of God",
       "Creation as testimony"
     ],
-    "assessment": "A creation psalm in modern dress, and it follows the psalter's method: evidence first, conclusion second. The line about God naming the stars is a real claim about his knowledge of individuals rather than a general statement of size, and the chorus's confession of incomprehensibility is earned by the verses that precede it. What it never does is move from Creator to Redeemer — the God who made the storms is not identified as the one who died."
+    "assessment": "A creation psalm in modern dress, and it follows the psalter's method: evidence first, conclusion second. The line about God naming the stars is a real claim about his knowledge of individuals rather than a general statement of size, and the chorus's confession of incomprehensibility is earned by the verses that precede it. Its subject throughout is God as Creator rather than Redeemer."
   },
   "communal": {
     "strengths": [
@@ -108,18 +108,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Singability",
-        "title": "The chorus climbs above the verses",
-        "explanation": "The song's memorable line is also its highest, and it recurs. Rooms sing the verses comfortably and strain at the part they most want to sing.",
-        "songLocation": "NOT_LYRICAL",
-        "severity": "MODERATE",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "LIKELY"
-      }
-    ],
+    "concerns": [],
     "singability": "MODERATE",
     "vocalRangeNote": "Commonly published in G and A. The chorus is the demanding part and returns often; pitch for it rather than for the verses.",
     "range": {
@@ -132,10 +121,10 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
-    "repetition": "HEAVY",
+    "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The chorus repeats a short list of adjectives. What returns is a confession about God's nature rather than a hook, though the list is short enough that it wears with heavy use.",
     "performanceOrientation": "CONGREGATIONAL",
-    "assessment": "Durable and straightforward, with a structure that holds no surprises for a congregation or a small band. The one practical difficulty is that the chorus — the part everyone wants to sing — sits above the rest of the song."
+    "assessment": "Durable and straightforward, with a structure that holds no surprises for a congregation or a small band. The chorus is the most demanding part and sits above the rest of the song, so set the key for the chorus rather than the verses."
   },
   "clarity": {
     "strengths": [
@@ -154,23 +143,12 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Ambiguity",
-        "title": "Which God, exactly, is left open",
-        "explanation": "A God who made the world and exceeds description is a claim many religions would sign. Nothing in the song names Christ or narrows it to the Christian God, so the identification comes from the room rather than the text.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "MODERATE",
-    "assessment": "Vivid and logically clear — the verses show and the chorus concludes. Its openness is at the level of identity rather than meaning: everything said is true of God, and nothing said is true only of the God who became flesh."
+    "assessment": "Vivid and logically clear — the verses show and the chorus concludes. It speaks of God as Creator throughout."
   },
   "synthesis": {
-    "summary": "A creation psalm in modern dress that follows the psalter's method — evidence first, conclusion second. Its claim about God naming the stars is a real statement about his knowledge of individuals, and the confession of incomprehensibility is earned by the verses that precede it. What it never does is move from Creator to Redeemer.",
+    "summary": "A creation psalm in modern dress that follows the psalter's method — evidence first, conclusion second. Its claim about God naming the stars is a real statement about his knowledge of individuals, and the confession of incomprehensibility is earned by the verses that precede it. Its subject is God as Creator rather than Redeemer.",
     "themes": [
       "God",
       "Creation",

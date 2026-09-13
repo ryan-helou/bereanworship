@@ -97,7 +97,7 @@
       "Creation through and for Christ",
       "Eternal worship of the redeemed"
     ],
-    "assessment": "Modern worship doing what it does well. The chorus is the seraphim's cry rather than a fresh sentiment, the bridge grounds it in the Lamb who was slain, and the second verse places the congregation inside a creation that already belongs to God. Nothing here needs correcting. What it stops short of is saying what the Lamb's death accomplished — the fact is named, the effect is not."
+    "assessment": "Modern worship doing what it does well. The chorus is the seraphim's cry rather than a fresh sentiment, the bridge grounds it in the Lamb who was slain, and the second verse places the congregation inside a creation that already belongs to God. Nothing here needs correcting."
   },
   "communal": {
     "strengths": [
@@ -123,18 +123,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Singability",
-        "title": "The bridge sits high and stays there",
-        "explanation": "As with much of this catalogue, the emotional peak is written for a lead voice. Rooms manage the chorus and thin out through the bridge, which is where the strongest content is.",
-        "songLocation": "NOT_LYRICAL",
-        "severity": "MODERATE",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "LIKELY"
-      }
-    ],
+    "concerns": [],
     "singability": "MODERATE",
     "vocalRangeNote": "Commonly published in B flat and C. The bridge is the demanding part; choose the key for that rather than for the verses, since the bridge carries the doctrine.",
     "range": {
@@ -150,7 +139,7 @@
     "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The title phrase repeats heavily, and what repeats is a scriptural cry rather than a hook. Repetition used the way a refrain should be.",
     "performanceOrientation": "BALANCED",
-    "assessment": "Built for a room and shaped so its climax is also its best content. The one practical caution is the bridge, which sits high — and since that is where the Lamb is named, losing the congregation there costs more than usual."
+    "assessment": "Built for a room and shaped so its climax is also its best content. The bridge sits highest and is where the Lamb is named, so choose the key for that section rather than for the verses."
   },
   "clarity": {
     "strengths": [
@@ -169,23 +158,12 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Ambiguity",
-        "title": "What the Lamb accomplished is left unsaid",
-        "explanation": "The bridge names him as slain but never says what the death achieved. A hearer who knows fills it in; one who does not hears that a lamb died and is now praised, without being told why the two are connected.",
-        "songLocation": "BRIDGE",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": false,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Clear throughout, with an unmistakable object and no jargon. Its one gap is at the most important point: the Lamb is named as slain, and what that death did is left for the hearer to supply."
+    "assessment": "Clear throughout, with an unmistakable object and no jargon."
   },
   "synthesis": {
-    "summary": "Modern worship doing what it does well: the chorus is the seraphim's cry rather than a fresh sentiment, the bridge grounds it in the Lamb who was slain, and the second verse places the congregation inside a creation that already belongs to God. Nothing needs correcting. What it stops short of is saying what the Lamb's death accomplished.",
+    "summary": "Modern worship doing what it does well: the chorus is the seraphim's cry rather than a fresh sentiment, the bridge grounds it in the Lamb who was slain, and the second verse places the congregation inside a creation that already belongs to God. Nothing needs correcting.",
     "themes": [
       "God",
       "Holiness",

@@ -107,10 +107,10 @@
         "title": "Written for a strong lead voice",
         "explanation": "The song comes from a soloist's catalogue and its phrasing shows it — long lines and a chorus that sits high. A room manages it with help and struggles without.",
         "songLocation": "NOT_LYRICAL",
-        "severity": "MODERATE",
+        "severity": "MINOR",
         "centrality": "PERIPHERAL",
         "recurring": false,
-        "likelihood": "LIKELY"
+        "likelihood": "POSSIBLE"
       }
     ],
     "singability": "MODERATE",
@@ -147,20 +147,9 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Ambiguity",
-        "title": "Blood that speaks needs its background",
-        "explanation": "The central image assumes the Hebrews passage and the sacrificial system behind it. A hearer without that will follow the sense but may find the figure strange rather than powerful.",
-        "songLocation": "CHORUS",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Clear about its claim and clear about its object. Its one demand is biblical background: the image of speaking blood rewards a hearer who knows Hebrews and puzzles one who does not."
+    "assessment": "Clear about its claim and clear about its object."
   },
   "synthesis": {
     "summary": "A blood hymn in a genre that mostly stopped writing them, handled carefully. It takes Hebrews' image of blood that speaks a better word and makes it the whole structure, lets the singer's guilt stand rather than minimising it, and answers accusation with Christ rather than with the singer's sincerity. Written for a strong lead voice more than a room.",

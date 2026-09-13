@@ -100,28 +100,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Performance orientation",
-        "title": "A radio single before a congregational song",
-        "explanation": "The arrangement builds through key and dynamics toward a soloist's climax, and the phrasing is written for one voice rather than a room. Congregations manage the chorus and hand the rest back.",
-        "songLocation": "NOT_LYRICAL",
-        "severity": "MODERATE",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "LIKELY"
-      },
-      {
-        "category": "Corporate voice",
-        "title": "Entirely one person's anticipation",
-        "explanation": "Every line is the singer's own imagined response. There is nothing the congregation affirms together, which makes a room of people singing separate private thoughts.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "singability": "DIFFICULT",
     "vocalRangeNote": "Commonly published in D and E flat. The verses sit low and the chorus climbs well above them; the span is wide for a mixed room and is the usual reason congregations drop out.",
     "range": {
@@ -134,10 +113,10 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
-    "repetition": "HEAVY",
+    "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The title phrase returns constantly and each return introduces a new guess. The repetition carries the structure honestly, though the accumulating questions never resolve into a statement.",
     "performanceOrientation": "PERFORMANCE_LEANING",
-    "assessment": "A radio single that churches adopted rather than a song written for a room. The chorus is unforgettable and it serves the grieving well, but the wide range and the soloist's build mean most congregations sing part of it and listen to the rest."
+    "assessment": "A radio single that churches adopted rather than a song written for a room. The chorus is unforgettable and it serves the grieving well. Its build is a soloist's and its range is wide, so pitch it for the room and expect a congregation to listen through part of it."
   },
   "clarity": {
     "strengths": [
@@ -149,20 +128,9 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Ambiguity",
-        "title": "Questions left as questions",
-        "explanation": "The chorus is a list of possibilities and the song never lands on one. That is honest about the unknown, but it means a congregation finishes having affirmed very little.",
-        "songLocation": "CHORUS",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Easy to follow and deliberately unresolved. Nothing is hard to understand; the open questions are the point rather than a defect, though they do leave the song asserting less than its length suggests."
+    "assessment": "Easy to follow and deliberately unresolved. Nothing is hard to understand; the open questions are the point rather than a defect."
   },
   "synthesis": {
     "summary": "Honest about being speculation — its title concedes it — and it names Jesus rather than leaving an open 'You'. It also looks past death, which almost nothing in current use does. But its real subject is the singer's anticipated reaction rather than Christ, and it assumes the singer will be standing there without saying why. A radio single more than a congregational song.",

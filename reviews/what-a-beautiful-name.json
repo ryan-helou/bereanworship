@@ -172,18 +172,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Singability",
-        "title": "The bridge sits high and stays there",
-        "explanation": "The song builds to a sustained bridge that most rooms manage only in part. It is worth transposing rather than losing the congregation at the section carrying the strongest doctrinal claims.",
-        "songLocation": "NOT_LYRICAL",
-        "severity": "MODERATE",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "singability": "MODERATE",
     "vocalRangeNote": "Widely published in D. The bridge is the demanding part; check it against your own room before choosing the key, since that is where the song's best content sits.",
     "range": {
@@ -199,7 +188,7 @@
     "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The title line returns at the end of every verse with one word changed. What repeats carries the argument rather than padding it.",
     "performanceOrientation": "BALANCED",
-    "assessment": "Built for a congregation and addressed to Christ throughout, with a form that teaches its own content. The one practical difficulty is the bridge, which sits high and holds there — a room that cannot reach it loses the section carrying the song's strongest claims, so transposing is worth the trouble."
+    "assessment": "Built for a congregation and addressed to Christ throughout, with a form that teaches its own content. The bridge sits highest and carries the song's strongest claims, so choose the key with that section in mind."
   },
   "clarity": {
     "strengths": [

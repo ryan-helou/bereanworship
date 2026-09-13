@@ -66,25 +66,12 @@
         "scriptureRationale": "Come, let us return to the Lord — the movement the verse asks for."
       }
     ],
-    "concerns": [
-      {
-        "category": "Discipleship",
-        "title": "Laying everything down offered for friendship",
-        "explanation": "The song makes the singer's surrender the price of hearing they are a friend. Christ names his disciples friends on the ground of what he has told them and done for them, and the obedience follows rather than purchases it. The order is reversed.",
-        "songLocation": "CHORUS",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": true,
-        "likelihood": "POSSIBLE",
-        "scriptureReference": "John 15:14-15",
-        "scriptureRationale": "He calls them friends because he has made known what he heard from the Father — the friendship is given, not earned."
-      }
-    ],
+    "concerns": [],
     "doctrinesAffirmed": [
       "God as the object of desire",
       "The need to return after drift"
     ],
-    "assessment": "Aimed at the right thing and carrying almost nothing to aim with. Its desire is for God himself rather than his gifts, and it admits drift instead of performing devotion — both genuine. But God, Jesus, the cross and salvation are never named, nothing God has done is stated, and the surrender it offers is framed as the price of friendship rather than the response to it. What the song asks for is good; what it gives a congregation to think about is very little."
+    "assessment": "Aimed at the right thing and carrying almost nothing to aim with. Its desire is for God himself rather than his gifts, and it admits drift instead of performing devotion — both genuine. But God, Jesus, the cross and salvation are never named, and nothing God has done is stated. What the song asks for is good; what it gives a congregation to think about is very little."
   },
   "communal": {
     "strengths": [
@@ -103,18 +90,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Corporate voice",
-        "title": "A private prayer sung in public",
-        "explanation": "Every line is one person asking for personal nearness. There is nothing a congregation says together about God, so a room ends up overhearing three hundred private prayers at once.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "singability": "EASY",
     "vocalRangeNote": "Commonly published in D and E flat. Undemanding throughout; the song's difficulty is not musical.",
     "range": {
@@ -142,25 +118,12 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Ambiguous referent",
-        "title": "Nothing in the song identifies who is addressed",
-        "explanation": "God, Jesus and the Spirit are never named, and no attribute or act appears that belongs only to God. Heard outside a church the song is indistinguishable from one addressed to a person, and a congregation has nothing in the text to correct that.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MODERATE",
-        "centrality": "IMPORTANT",
-        "recurring": true,
-        "likelihood": "LIKELY",
-        "scriptureReference": "Philippians 2:9-10",
-        "scriptureRationale": "The name above every name — a name the song never uses."
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "HIGH",
     "assessment": "Clear sentence by sentence and unclear about the one thing that matters most. Nothing in the words identifies who is being sung to, and no attribute or act narrows it. The song depends entirely on the room it is sung in to supply its object."
   },
   "synthesis": {
-    "summary": "Aimed at the right thing and carrying almost nothing to aim with. Its desire is for God himself rather than his gifts, and it admits drift honestly. But God and Jesus are never named, nothing God has done is stated, and the surrender it offers is framed as the price of friendship rather than the response to it. Outside a church, nothing in the words identifies who is addressed.",
+    "summary": "Aimed at the right thing and carrying almost nothing to aim with. Its desire is for God himself rather than his gifts, and it admits drift honestly. But God and Jesus are never named, and nothing God has done is stated. Outside a church, nothing in the words identifies who is addressed.",
     "themes": [
       "Prayer",
       "Worship",

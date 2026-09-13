@@ -117,18 +117,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Corporate voice",
-        "title": "Sung entirely in the singular",
-        "explanation": "Abiding is asked for individually throughout. The vine has many branches, and a song that said 'we' would have matched its own image more closely.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "singability": "EASY",
     "vocalRangeNote": "Commonly published in C and D. Stepwise and modest in compass; a straightforward song for a mixed room.",
     "range": {
@@ -163,20 +152,9 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Vocabulary",
-        "title": "'Abide' assumes the passage",
-        "explanation": "The word carries John 15 behind it and is not defined in the song. A hearer who does not know the chapter will take it as a general word for staying close rather than the specific thing Christ meant.",
-        "songLocation": "CHORUS",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Clear, single-minded and specifically addressed. Its one demand is that the hearer knows what abiding means, which the song assumes rather than teaches — reasonable, given how directly it points at the passage."
+    "assessment": "Clear, single-minded and specifically addressed, pointing directly at the passage it draws from."
   },
   "synthesis": {
     "summary": "A song about abiding that keeps the point of the image it borrows: the vine and branches is about fruitlessness apart from Christ, and the song states that rather than softening it into closeness. It quotes Christ's own self-description and grounds the abiding in a union already accomplished rather than one the singer must produce.",

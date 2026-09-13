@@ -81,27 +81,14 @@
         "scriptureRationale": "All the promises of God find their Yes in him."
       }
     ],
-    "concerns": [
-      {
-        "category": "Anthropology",
-        "title": "Universal claims about what God is doing in the room",
-        "explanation": "The verses say God is touching and mending every heart present. Sung in a mixed congregation that is not true of everyone, and it teaches a singer to read the room's emotion as evidence of God's work. The instinct is generous; the claim is larger than Scripture makes.",
-        "songLocation": "VERSE_2",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": true,
-        "likelihood": "POSSIBLE",
-        "scriptureReference": "Matthew 13:3-8",
-        "scriptureRationale": "The same sowing meets four kinds of ground — the parable rules out assuming a uniform work in every hearer."
-      }
-    ],
+    "concerns": [],
     "doctrinesAffirmed": [
       "The providence of God",
       "God's faithfulness to his promises",
       "God's character as unchanging",
       "God at work when unseen"
     ],
-    "assessment": "Its instinct is right where it matters most: the titles are presented as God's settled identity rather than his current mood, and the bridge insists he works when nothing is visible. But the song asserts four titles without anchoring any of them in something God has done, and tells the room that every heart present is being mended. Both leave the singer's own experience carrying weight the song should have put on God's acts."
+    "assessment": "Its instinct is right where it matters most: the titles are presented as God's settled identity rather than his current mood, and the bridge insists he works when nothing is visible. But the song asserts four titles without anchoring any of them in something God has done, which leaves the singer's own experience carrying weight the song should have put on God's acts."
   },
   "communal": {
     "strengths": [
@@ -120,28 +107,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Repetition",
-        "title": "Repetition doing the work the content should",
-        "explanation": "The chorus repeats four short phrases at length, and the song's effect builds through accumulation rather than through anything further being said. The words run out before the song does.",
-        "songLocation": "CHORUS",
-        "severity": "MODERATE",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      },
-      {
-        "category": "Corporate voice",
-        "title": "Sung in the singular",
-        "explanation": "The verses describe a room but the voice stays 'I'. A congregation asserting what God is doing among them would more naturally say 'we'.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "singability": "EASY",
     "vocalRangeNote": "Commonly published in E and F. The melody is narrow and the phrases are short; this is among the easiest songs in wide use for a mixed room.",
     "range": {
@@ -169,23 +135,12 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Ambiguity",
-        "title": "Way-making left undefined",
-        "explanation": "What kind of way God makes is never said. A hearer may fill it with a job, a diagnosis or a relationship as easily as with salvation, and the song does nothing to direct the filling.",
-        "songLocation": "CHORUS",
-        "severity": "MODERATE",
-        "centrality": "IMPORTANT",
-        "recurring": true,
-        "likelihood": "LIKELY"
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "MODERATE",
-    "assessment": "Every individual word is plain, and what they add up to is not. The four titles are concrete enough to sing confidently and vague enough that a congregation may each mean something different by them — most obviously about the kind of way God is making."
+    "assessment": "Every individual word is plain. The four titles are concrete enough to sing confidently, and because none is tied to something God has done, a congregation supplies what each means from its own experience."
   },
   "synthesis": {
-    "summary": "Its instinct is right where it matters most: the titles are God's settled identity rather than his current mood, and the bridge insists he works when nothing is visible. But four titles are asserted without anchoring any in something God has done, and the verses tell the room every heart present is being mended. Enormously singable, and carried by repetition more than by content.",
+    "summary": "Its instinct is right where it matters most: the titles are God's settled identity rather than his current mood, and the bridge insists he works when nothing is visible. But four titles are asserted without anchoring any in something God has done. Enormously singable, and carried by repetition more than by content.",
     "themes": [
       "God",
       "Providence",

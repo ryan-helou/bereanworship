@@ -106,28 +106,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Corporate voice",
-        "title": "Each singer commits alone",
-        "explanation": "The hymn is a personal act of consecration in the first person singular. A congregation makes six specific promises individually rather than committing together, which is a missed opportunity given the content.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      },
-      {
-        "category": "Pastoral use",
-        "title": "Asks for promises a room may not mean",
-        "explanation": "Sung casually it invites a congregation to promise their money and their will without reflection. That is a strength of the text and a risk in practice, and it deserves framing rather than dropping into a set unannounced.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": false,
-        "likelihood": "LIKELY"
-      }
-    ],
+    "concerns": [],
     "singability": "EASY",
     "vocalRangeNote": "Commonly published in F and G depending on the tune. Short phrases and a narrow compass; among the easier hymns for a mixed room.",
     "range": {
@@ -143,7 +122,7 @@
     "repetition": "PURPOSEFUL",
     "repetitionAssessment": "None beyond the opening formula of each verse, which is the device that makes the list audible as a list. Six verses of new material.",
     "performanceOrientation": "CONGREGATIONAL",
-    "assessment": "Easy to sing and flexible to programme. Its real communal question is not musical: it asks a room to promise specific things, including their money, and a leader should mean it before putting it in a set."
+    "assessment": "Easy to sing and flexible to programme. Its communal weight is not musical: it has a whole room offer specific things by name, including their money."
   },
   "clarity": {
     "strengths": [
@@ -155,20 +134,9 @@
         "magnitude": "MAJOR"
       }
     ],
-    "concerns": [
-      {
-        "category": "Vocabulary",
-        "title": "Some period phrasing",
-        "explanation": "A few nineteenth-century constructions take a moment for a modern hearer. The list itself is unaffected and remains completely plain.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Unusually concrete. The hymn's whole method is naming things one at a time, so nothing it asks for is left open to interpretation. Only some older phrasing dates it."
+    "assessment": "Unusually concrete. The hymn's whole method is naming things one at a time, so nothing it asks for is left open to interpretation."
   },
   "synthesis": {
     "summary": "A hymn of consecration that refuses to be vague: hands, feet, voice, money and will are each handed over by name, so a congregation hears exactly what it has committed. The will is not softened and the money is not skipped. What it never supplies is the ground — the offering is made without stating what God has done to make it fitting.",

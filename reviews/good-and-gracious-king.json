@@ -58,7 +58,7 @@
   },
   "substance": {
     "namesGod": true,
-    "statesAnAct": true,
+    "statesAnAct": false,
     "teachesDoctrine": true,
     "godDirected": true,
     "groundsItsClaims": true,
@@ -148,7 +148,7 @@
     "repetition": "PURPOSEFUL",
     "repetitionAssessment": "One chorus returning after each verse, carrying the song's title claim. The repeated content is doctrinal rather than a hook, and four verses keep it from wearing thin.",
     "performanceOrientation": "CONGREGATIONAL",
-    "assessment": "Written for a congregation and shaped like a hymn. Short verses, one chorus, no build to negotiate and no dependence on an arrangement. The only communal weakness is that a song about being received by God never lets the church say 'we'."
+    "assessment": "Written for a congregation and shaped like a hymn. Short verses, one chorus, no build to negotiate and no dependence on an arrangement."
   },
   "clarity": {
     "strengths": [
@@ -167,20 +167,9 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Ambiguity",
-        "title": "What makes the King gracious is never said",
-        "explanation": "Goodness and graciousness are asserted as the King's temperament rather than shown in anything he has done. A hearer is left to supply the reason, and the reason is the whole gospel.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MODERATE",
-        "centrality": "IMPORTANT",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "MODERATE",
-    "assessment": "Clear in what it says and quiet about what it assumes. The words are plain and the structure is unmistakable, but the song's central adjectives rest on an argument it never makes. A hearer who already knows the gospel fills the gap without noticing; one who does not, hears that God is simply kind."
+    "assessment": "Clear in what it says and quiet about what it assumes. The words are plain and the structure is unmistakable, but the song's central adjectives rest on an argument it never makes."
   },
   "synthesis": {
     "summary": "A disciplined hymn-shaped song about approaching God empty-handed, with every reason for confidence located in the King rather than the singer. It borrows Toplady's confession of empty hands but answers with the King's kindness where the original answered with the cross — which is never named, nor is Christ. Sound and singable, and incomplete on its own.",

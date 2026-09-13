@@ -119,18 +119,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Corporate voice",
-        "title": "Sung in the singular",
-        "explanation": "It is one soul's confession, which suits its origin and subject. A congregation still sings alongside one another rather than as one voice.",
-        "songLocation": "WHOLE_SONG",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": true,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "singability": "EASY",
     "vocalRangeNote": "Commonly published in C, D flat and D. The tune is broad but stepwise, and the refrain sits comfortably for a mixed room.",
     "range": {
@@ -165,20 +154,9 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Vocabulary",
-        "title": "Older diction in the outer verses",
-        "explanation": "Some nineteenth-century phrasing takes a moment for a modern hearer, particularly in the opening and closing verses. The central claims are unaffected.",
-        "songLocation": "VERSE",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Clear where it matters most. The hymn's central claim about sin and the cross is stated in the plainest words it has, and the verse-and-answer structure is audible immediately. Only some older phrasing at the edges asks anything of a modern hearer."
+    "assessment": "Clear where it matters most. The hymn's central claim about sin and the cross is stated in the plainest words it has, and the verse-and-answer structure is audible immediately."
   },
   "synthesis": {
     "summary": "A hymn about suffering that answers it with doctrine rather than sentiment. It states substitution in terms that leave nothing owing, grounds its peace in the cross rather than in the trouble lifting, and ends on Christ's return rather than the singer's endurance. Written out of bereavement, and singable by the bereaved without pretending.",

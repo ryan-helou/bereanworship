@@ -116,19 +116,6 @@
         "lyricExcerpt": null,
         "scriptureReference": "John 17:1, 4",
         "scriptureRationale": "Christ's stated purpose at the hour is the Father's glory and the finishing of his work.",
-        "likelihood": "LIKELY"
-      },
-      {
-        "category": "The cross",
-        "title": "A voluntary death rendered as misfortune",
-        "explanation": "A trampled flower is something done to a passive object. Christ said no one takes his life from him. The image carries real pathos and gives away the volition that makes the cross a sacrifice rather than a tragedy.",
-        "songLocation": "VERSE_3",
-        "severity": "MINOR",
-        "centrality": "IMPORTANT",
-        "recurring": false,
-        "lyricExcerpt": null,
-        "scriptureReference": "John 10:18",
-        "scriptureRationale": "He lays his life down of his own accord; no one takes it from him.",
         "likelihood": "POSSIBLE"
       }
     ],
@@ -149,28 +136,7 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Singability",
-        "title": "Written for a soloist's dynamic range",
-        "explanation": "It is a ballad that builds to a sustained climax and depends on that build for its effect. Congregations manage the opening comfortably and thin out where the song wants its biggest sound.",
-        "songLocation": "NOT_LYRICAL",
-        "severity": "MODERATE",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "POSSIBLE"
-      },
-      {
-        "category": "Performance orientation",
-        "title": "The recording is doing a lot of the work",
-        "explanation": "Much of the song's power is in the arrangement — the swell, the held notes, the band dropping out. Stripped to a piano and a room it loses more than a congregational song should.",
-        "songLocation": "NOT_LYRICAL",
-        "severity": "MINOR",
-        "centrality": "PERIPHERAL",
-        "recurring": false,
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "singability": "DIFFICULT",
     "vocalRangeNote": "Sung here in F. Publishers list A as the original, so F is already transposed down — the right instinct. Test the climax on your congregation, not your worship leader.",
     "range": {
@@ -186,7 +152,7 @@
     "repetition": "PURPOSEFUL",
     "repetitionAssessment": "The repeated phrase is the song's argument rather than a hook — a strength, except that what it drives home is the line that is the song's chief problem.",
     "performanceOrientation": "PERFORMANCE_LEANING",
-    "assessment": "A ballad before it is a congregational song. The shape is easy to follow and the closing phrase is unforgettable, but the piece is built around a climax most rooms cannot deliver, and it leans on the arrangement more than a song for the gathered church should."
+    "assessment": "A ballad before it is a congregational song. The shape is easy to follow and the closing phrase is unforgettable, but it leans on the arrangement more than a song for the gathered church should. It builds to a sustained climax, so test that section on your room when choosing a key."
   },
   "clarity": {
     "strengths": [
@@ -198,23 +164,9 @@
         "magnitude": "MODERATE"
       }
     ],
-    "concerns": [
-      {
-        "category": "Ambiguous referent",
-        "title": "'Above all' changes meaning without warning",
-        "explanation": "For most of the song the phrase ranks Christ over creation. At the end it ranks the singer in Christ's affections. The words are identical, the claim is not, and nothing signals the switch.",
-        "songLocation": "REFRAIN",
-        "locationDetail": "the closing line, against the earlier sections",
-        "severity": "MODERATE",
-        "centrality": "IMPORTANT",
-        "recurring": true,
-        "scriptureReference": "Philippians 2:9-11",
-        "scriptureRationale": "The exaltation of Christ is to the Father's glory, which is the sense the closing line quietly drops.",
-        "likelihood": "POSSIBLE"
-      }
-    ],
+    "concerns": [],
     "ambiguityLevel": "MODERATE",
-    "assessment": "Clear line by line and unclear where it matters. The one genuine ambiguity is load-bearing: the title phrase does different work at the end than it did throughout, and a congregation is unlikely to notice the substitution while singing it."
+    "assessment": "Clear line by line. The one ambiguity that matters is at the close, where the final line leaves room to hear the singer as what Christ prized above all."
   },
   "synthesis": {
     "summary": "A sustained confession of Christ's supremacy that names the crucifixion plainly, then resolves on the claim that the singer was what Christ prized above all — inverting its own argument at the climax. The cross arrives without sin or substitution. Musically a soloist's ballad more than a congregation's song.",
