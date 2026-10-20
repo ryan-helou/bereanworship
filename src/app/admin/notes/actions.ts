@@ -5,6 +5,8 @@ import { revalidatePath } from 'next/cache';
 import { audit, getSession } from '@/lib/auth';
 import { createNote, deleteNote, moveNote, updateNote } from '@/lib/notes';
 import { parseBucket, parseNoteForm, parseNoteId, type NoteErrorCode } from '@/lib/notes-schema';
+import { env } from '@/lib/env';
+import { hasSiteAccess } from '@/lib/site-access';
 import { prisma } from '@/lib/db';
 import { log } from '@/lib/logger';
 
@@ -102,14 +104,17 @@ export async function deleteNoteAction(formData: FormData): Promise<void> {
 }
 
 /**
- * Adds a note from a song's own page and returns there.
+ * Adds a note from a song's own page, for anyone who has the site password, and returns there.
  *
  * The song is looked up by id, so the note links to exactly this song even
  * when another song shares its title. The slug only decides where to return,
  * and is re-read from the database rather than trusted from the form.
  */
 export async function addSongNoteAction(formData: FormData): Promise<void> {
-  const actor = await requireAdmin();
+  // Open to anyone past the site password, not just the admin; checked here as
+  // well as in the middleware, like every other action.
+  if (!env.siteGateEnabled || !(await hasSiteAccess())) redirect('/enter');
+  const actor = 'site-visitor';
   const songId = String(formData.get('songId') ?? '');
   const song = songId
     ? await prisma.song.findUnique({ where: { id: songId }, select: { id: true, slug: true, displayTitle: true } })

@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { getSession } from '@/lib/auth';
+import { env } from '@/lib/env';
+import { hasSiteAccess } from '@/lib/site-access';
 import { notesForSong } from '@/lib/notes';
 import { BUCKET_INFO, MAX_NOTE_CHARS, NOTE_BUCKETS, NOTE_ERRORS, type NoteErrorCode } from '@/lib/notes-schema';
 import { addSongNoteAction } from '@/app/admin/notes/actions';
@@ -7,11 +8,13 @@ import { SubmitButton } from '@/app/admin/notes/submit-button';
 import { formatDate } from '@/lib/utils';
 
 /**
- * The owner's private verdict on this song: Approved, Maybe or Rejected, plus a
- * note. Rendered only for a signed-in admin; everyone else gets nothing at all.
+ * A private verdict on this song: Approved, Maybe or Rejected, plus a
+ * note. Rendered only for visitors who have passed the site password.
  */
 export async function SongNotePanel({ songId, error }: { songId: string; error?: string }) {
-  if (!(await getSession())) return null;
+  // Anyone who got past the site password may write notes; with the gate off
+  // the site is public, so there is nobody to write them and the box stays hidden.
+  if (!env.siteGateEnabled || !(await hasSiteAccess())) return null;
 
   const notes = await notesForSong(songId);
   const message = error && error in NOTE_ERRORS ? NOTE_ERRORS[error as NoteErrorCode] : null;
