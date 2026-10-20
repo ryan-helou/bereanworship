@@ -19,6 +19,8 @@ Both services deploy from the same build. `scripts/start.mjs` picks the role fro
 | `ADMIN_AUTH_SECRET` | yes | ≥32 chars. `openssl rand -base64 48`. Must match between `web` and `worker` |
 | `ADMIN_EMAIL` | yes (web) | The single admin account |
 | `ADMIN_PASSWORD_HASH` | yes (web) | `npm run admin:hash -- 'password'` |
+| `SITE_PASSWORD_HASH` | no (web) | A password that opens the **whole site** and nothing else, to give to others. When unset the site gate accepts the admin password. Same format and tool as above |
+| `SITE_GATE` | no (web) | Set to `off` to reopen the site to everyone, with no code change. Anything else keeps the gate on |
 | `ANTHROPIC_API_KEY` | for reviews | Without it the site is fully browsable; review jobs fail with a clear message |
 | `ANTHROPIC_MODEL` | no | Defaults to `claude-opus-5` |
 | `NEXT_PUBLIC_SITE_URL` | recommended | Canonical URLs, sitemap, OG tags. Falls back to `RAILWAY_PUBLIC_DOMAIN` |
@@ -138,6 +140,8 @@ Failed jobs can be retried individually or in bulk from the queue. Retries never
 **Health.** `GET /api/health` reports database connectivity, whether the AI pipeline is configured, and whether admin auth is configured. It returns 200 while the site can serve traffic — a missing API key degrades the pipeline, not the site, so it is reported without failing the check.
 
 **Logs.** Structured JSON, with secrets redacted before serialisation. Greppable events: `review_job.claimed`, `review_job.completed`, `review_job.failed`, `research.started`, `artist_research.completed`, `import.duplicate_detected`, `admin.login_failed`, `security.rate_limited`.
+
+**Site password and the admin password.** The whole site is behind a password (`/enter`). By default it accepts the admin password, so it works the moment it ships. Anyone you give that password to could then also try the admin sign-in, which still needs the admin email — so to share the site without sharing the keys, set `SITE_PASSWORD_HASH` and give out that one instead. It opens the public pages and nothing else; an admin sign-in always needs the admin password. Changing `SITE_PASSWORD_HASH` does not log existing visitors out (a pass lasts 30 days); to end every pass at once, rotate `ADMIN_AUTH_SECRET` (and the worker's copy), which also ends admin sessions.
 
 **Rotating the admin password.** Generate a new hash, update `ADMIN_PASSWORD_HASH`, redeploy. Existing sessions survive; to invalidate them, rotate `ADMIN_AUTH_SECRET` too (and update the worker to match).
 

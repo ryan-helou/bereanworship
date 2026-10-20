@@ -49,7 +49,7 @@ execSync('npx prisma db execute --stdin --schema prisma/schema.prisma', {
   input: `TRUNCATE TABLE
     "review_history", "song_findings", "song_scriptures", "song_themes", "song_sources",
     "artist_findings", "artist_sources", "review_jobs", "song_requests", "import_batches",
-    "sources", "songs", "artists", "rate_limit_buckets", "admin_audit_log"
+    "sources", "songs", "artists", "notes", "rate_limit_buckets", "admin_audit_log"
     RESTART IDENTITY CASCADE;`,
   stdio: ['pipe', 'ignore', 'inherit'],
 });

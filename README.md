@@ -77,6 +77,8 @@ npm run dev
 
 The site is at http://localhost:3000, the admin at `/admin/login`.
 
+**The whole site is behind a password.** You will meet a gate at `/enter` first. Enter the admin password you set above, or set `SITE_PASSWORD_HASH` for a password that opens the site and nothing else; `SITE_GATE=off` reopens it to everyone. See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).
+
 `--sample` seeds a small development dataset. Those reviews are **hand-written illustrations, not pipeline research**, and the interface says so: every seeded record carries the review version `sample-v1.0` and renders a visible "Sample data" notice. Omit the flag to seed only the theme vocabulary.
 
 ### Producing reviews

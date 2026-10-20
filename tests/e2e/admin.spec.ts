@@ -1,4 +1,5 @@
 import { expect, test } from '@playwright/test';
+import { SITE_STORAGE_STATE } from '../../playwright.config';
 
 /**
  * Authenticated admin flows.
@@ -134,8 +135,8 @@ test.describe('review queue', () => {
 
 test.describe('requests', () => {
   test('lists a public request and queues it for review', async ({ page, browser }) => {
-    // Submit as an anonymous member of the public, in a clean context.
-    const publicContext = await browser.newContext({ storageState: undefined });
+    // Submit as a member of the public who has the site password, in a clean context with no admin cookie.
+    const publicContext = await browser.newContext({ storageState: SITE_STORAGE_STATE });
     const publicPage = await publicContext.newPage();
     await publicPage.goto('/request');
     await publicPage.locator('#title').fill('An Admin Queued Song');

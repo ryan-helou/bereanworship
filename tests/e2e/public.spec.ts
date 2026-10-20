@@ -241,6 +241,15 @@ test.describe('SEO and accessibility basics', () => {
     expect(body).toContain('/methodology');
   });
 
+  test('is never cached for sharing: a page behind a password belongs to the person who entered it', async ({ request }) => {
+    const response = await request.get('/songs');
+    expect(response.status()).toBe(200);
+    // Prove this is the song list and not the gate page it would redirect a stranger to.
+    expect(response.url()).toMatch(/\/songs$/);
+    expect(await response.text()).toContain('Amazing Grace');
+    expect(response.headers()['cache-control'] ?? '').toMatch(/private|no-store/);
+  });
+
   test('keeps the admin area out of robots.txt', async ({ request }) => {
     const response = await request.get('/robots.txt');
     const body = await response.text();

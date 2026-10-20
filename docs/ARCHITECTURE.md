@@ -146,8 +146,9 @@ as a way around the rules.
 
 | Concern | Approach |
 |---|---|
+| Site gate | The whole site is behind a password at `/enter`. A visitor gets a read-only HS256 pass (audience `bereanworship:site`, httpOnly `SameSite=Lax`, 30 days), a different credential from an admin session so neither can be replayed as the other. Ten attempts per fifteen minutes per client; a locked-out client is refused even with the right password. Open to strangers: only `/enter`, `/api/health`, `/robots.txt` and the admin sign-in. `SITE_GATE=off` reopens the site |
 | Admin auth | scrypt password hash, HS256 JWT in an httpOnly `SameSite=Strict` cookie, 8-hour expiry |
-| Authorization | Edge middleware **plus** an independent server-side check in every admin page and handler. A hidden URL is never the control. |
+| Authorization | Edge middleware **plus** an independent server-side check in every admin page and handler. A hidden URL is never the control. Pages behind the site gate are sent `Cache-Control: private, no-store`, so no shared cache can hand a gated page to someone without the password. |
 | CSRF | Server actions are origin-checked by Next; a double-submit token is available for route handlers |
 | Rate limiting | Database-backed fixed windows — in-memory counters stop limiting the moment you run two instances |
 | Account enumeration | Wrong address and wrong password return the identical message |

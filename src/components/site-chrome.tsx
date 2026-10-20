@@ -41,6 +41,19 @@ export function SiteHeader() {
     };
   }, [mobileOpen]);
 
+  // The gate page is for entering, not browsing: every other link leads back to it.
+  if (pathname === '/enter') {
+    return (
+      <header className="band-dark border-b-2 border-volt-500">
+        <div className="container-page flex h-[4.5rem] items-center">
+          <span className="text-lg font-extrabold uppercase tracking-[-0.02em] text-bone-100">
+            Berean<span className="text-volt-400">Worship</span>
+          </span>
+        </div>
+      </header>
+    );
+  }
+
   return (
     <header className="band-dark sticky top-0 z-40 border-b-2 border-volt-500">
       <div className="container-page">
@@ -125,6 +138,9 @@ export function SiteHeader() {
 }
 
 export function SiteFooter() {
+  const pathname = usePathname();
+  if (pathname === '/enter') return null;
+
   return (
     <footer className="band-darker border-t-4 border-volt-500">
       <div className="container-page py-16">

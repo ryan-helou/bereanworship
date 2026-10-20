@@ -61,6 +61,27 @@ export const env = {
     return required('ADMIN_PASSWORD_HASH');
   },
 
+  /**
+   * A password that opens the public site and nothing else. Optional: when it
+   * is unset the gate accepts the admin password instead.
+   */
+  get sitePasswordHash(): string | null {
+    return process.env.SITE_PASSWORD_HASH?.trim() || null;
+  },
+
+  /** The whole site sits behind the password unless SITE_GATE=off. */
+  get siteGateEnabled(): boolean {
+    return process.env.SITE_GATE?.trim().toLowerCase() !== 'off';
+  },
+
+  /** True when there is a password to check and a secret to sign the pass with. */
+  get siteGateConfigured(): boolean {
+    return Boolean(
+      (process.env.SITE_PASSWORD_HASH?.trim() || process.env.ADMIN_PASSWORD_HASH?.trim()) &&
+        (process.env.ADMIN_AUTH_SECRET?.length ?? 0) >= 32,
+    );
+  },
+
   /** True when an admin account is fully configured; drives a clear login error. */
   get adminConfigured(): boolean {
     return Boolean(
