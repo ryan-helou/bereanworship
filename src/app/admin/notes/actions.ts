@@ -5,6 +5,7 @@ import { revalidatePath } from 'next/cache';
 import { audit, getSession } from '@/lib/auth';
 import { createNote, deleteNote, moveNote, updateNote } from '@/lib/notes';
 import { parseBucket, parseNoteForm, parseNoteId, type NoteErrorCode } from '@/lib/notes-schema';
+import { prisma } from '@/lib/db';
 import { log } from '@/lib/logger';
 
 /**
@@ -98,4 +99,35 @@ export async function deleteNoteAction(formData: FormData): Promise<void> {
     outcome = 'failed';
   }
   back(outcome === 'ok' ? undefined : outcome);
+}
+
+/**
+ * Adds a note from a song's own page and returns there.
+ *
+ * The song is looked up by id, so the note links to exactly this song even
+ * when another song shares its title. The slug only decides where to return,
+ * and is re-read from the database rather than trusted from the form.
+ */
+export async function addSongNoteAction(formData: FormData): Promise<void> {
+  const actor = await requireAdmin();
+  const songId = String(formData.get('songId') ?? '');
+  const song = songId
+    ? await prisma.song.findUnique({ where: { id: songId }, select: { id: true, slug: true, displayTitle: true } })
+    : null;
+  if (!song) redirect('/songs');
+
+  const here = `/songs/${song.slug}`;
+  const parsed = parseNoteForm(formData);
+  if (!parsed.ok) redirect(`${here}?note=${parsed.code}#my-note`);
+
+  let failed = false;
+  try {
+    const id = await createNote({ ...parsed.data, subject: song.displayTitle }, song.id);
+    await audit(actor, 'note.create', id, { bucket: parsed.data.bucket, from: 'song-page' });
+  } catch (error) {
+    log.error('note.create_failed', { error });
+    failed = true;
+  }
+  revalidatePath('/admin/notes');
+  redirect(failed ? `${here}?note=failed#my-note` : `${here}#my-note`);
 }

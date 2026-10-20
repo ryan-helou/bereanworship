@@ -83,7 +83,7 @@ function isNotFound(error: unknown): boolean {
   return typeof error === 'object' && error !== null && (error as { code?: string }).code === 'P2025';
 }
 
-export async function createNote(input: NoteFieldsInput): Promise<string> {
+export async function createNote(input: NoteFieldsInput, songId?: string): Promise<string> {
   // Both stamps come from one instant, so a note that has never been touched
   // has updatedAt === createdAt and any later change is strictly later. The
   // page can then say "updated" without a tolerance that would hide a quick
@@ -94,7 +94,7 @@ export async function createNote(input: NoteFieldsInput): Promise<string> {
       body: input.body,
       bucket: input.bucket,
       subject: input.subject,
-      songId: await resolveSongId(input.subject),
+      songId: songId ?? (await resolveSongId(input.subject)),
       createdAt: now,
       updatedAt: now,
     },
@@ -175,6 +175,11 @@ export async function listNotes(): Promise<NoteView[]> {
       song: stored ?? (n.subject ? (lateLinks.get(normalizeTitle(n.subject)) ?? null) : null),
     };
   });
+}
+
+/** Notes about one song, newest first, including notes linked to it by title. */
+export async function notesForSong(songId: string): Promise<NoteView[]> {
+  return (await listNotes()).filter((n) => n.song?.id === songId);
 }
 
 /** Titles offered as suggestions while typing a subject. */

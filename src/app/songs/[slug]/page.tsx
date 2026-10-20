@@ -17,6 +17,7 @@ import { RangeBlock, RecommendationCallout, ScoreBar, ScoreBlock, ScorePill } fr
 import { ScoreContribution } from '@/components/score-contribution';
 import { independentSourceCount } from '@/lib/ai/schemas';
 import { FindingGroup, SongFindingItem, type FindingRole } from '@/components/findings';
+import { SongNotePanel } from '@/components/song-note-panel';
 import { Badge, DataRow, Panel, SampleDataNotice, isSample } from '@/components/ui';
 
 /**
@@ -88,8 +89,15 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   };
 }
 
-export default async function SongPage({ params }: { params: Params }) {
+export default async function SongPage({
+  params,
+  searchParams,
+}: {
+  params: Params;
+  searchParams: Promise<{ note?: string }>;
+}) {
   const { slug } = await params;
+  const { note: noteError } = await searchParams;
   const song = await getSong(slug);
 
   if (!song || song.reviewStatus !== 'COMPLETED' || song.overallScore === null) notFound();
@@ -222,6 +230,8 @@ export default async function SongPage({ params }: { params: Params }) {
             </div>
           </div>
         </header>
+
+        <SongNotePanel songId={song.id} error={noteError} />
 
         {isSample(song.reviewVersion) && (
           <div className="band-bone border-b border-line">
