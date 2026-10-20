@@ -215,3 +215,23 @@ export async function listAutoRejected(): Promise<AutoRejectedSong[]> {
     return rule ? [{ slug: song.slug, displayTitle: song.displayTitle, artistName: song.artist.displayName, rule }] : [];
   });
 }
+
+/**
+ * The verdict on each song, for badges on the song list.
+ *
+ * The standing artist rule wins, then the newest note about the song. A song
+ * with neither has no entry, so the list shows nothing rather than a guess.
+ */
+export async function songVerdicts(
+  songs: { id: string; artist: { displayName: string } }[],
+): Promise<Map<string, NoteBucketValue>> {
+  const verdicts = new Map<string, NoteBucketValue>();
+  const newestFirst = await listNotes();
+  for (const note of newestFirst) {
+    if (note.song && !verdicts.has(note.song.id)) verdicts.set(note.song.id, note.bucket);
+  }
+  for (const song of songs) {
+    if (autoRejectedBy(song.artist.displayName)) verdicts.set(song.id, 'REJECTED');
+  }
+  return verdicts;
+}

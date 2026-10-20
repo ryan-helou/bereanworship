@@ -1,6 +1,9 @@
 import type { Metadata } from 'next';
 import { Suspense } from 'react';
 import { SearchBar } from '@/components/search-bar';
+import { env } from '@/lib/env';
+import { hasSiteAccess } from '@/lib/site-access';
+import { songVerdicts } from '@/lib/notes';
 import { SongCard, SongCardSkeleton } from '@/components/cards';
 import { FilterBar } from '@/components/filters';
 import { Pagination } from '@/components/pagination';
@@ -124,6 +127,9 @@ async function Results({ params }: { params: NormalizedParams }) {
     );
   }
 
+  // Verdicts are private: shown only behind the site password, never on an open site.
+  const verdicts = env.siteGateEnabled && (await hasSiteAccess()) ? await songVerdicts(result.items) : new Map();
+
   return (
     <>
       <div className="mt-8 flex items-center justify-between border-b-4 border-ink-900 pb-4">
@@ -140,7 +146,7 @@ async function Results({ params }: { params: NormalizedParams }) {
 
       <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {result.items.map((song) => (
-          <SongCard key={song.id} song={song} />
+          <SongCard key={song.id} song={song} verdict={verdicts.get(song.id) ?? null} />
         ))}
       </div>
 

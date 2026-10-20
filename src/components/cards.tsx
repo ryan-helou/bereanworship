@@ -3,6 +3,13 @@ import { cn } from '@/lib/utils';
 import { RangePill, RecommendationBadge, ScorePill, toneOf } from './score';
 import { Badge } from './ui';
 import type { ArtistListItem, SongListItem } from '@/lib/search';
+import { BUCKET_INFO, type NoteBucketValue } from '@/lib/notes-schema';
+
+const VERDICT_PILL = {
+  APPROVED: 'bg-emerald-700',
+  MAYBE: 'bg-amber-600',
+  REJECTED: 'bg-red-700',
+} as const;
 
 /**
  * List rows.
@@ -22,7 +29,15 @@ const TONE_TEXT = {
   unsound: 'text-flare-800',
 } as const;
 
-export function SongCard({ song, showArtist = true }: { song: SongListItem; showArtist?: boolean }) {
+export function SongCard({
+  song,
+  showArtist = true,
+  verdict = null,
+}: {
+  song: SongListItem;
+  showArtist?: boolean;
+  verdict?: NoteBucketValue | null;
+}) {
   return (
     <Link
       href={`/songs/${song.slug}`}
@@ -51,6 +66,11 @@ export function SongCard({ song, showArtist = true }: { song: SongListItem; show
       </dl>
 
       <div className="flex flex-wrap items-center gap-2 border-t-2 border-ink-900 bg-bone-100 p-3">
+        {verdict && (
+          <span className={`inline-flex items-center px-2.5 py-1 text-xs font-bold uppercase tracking-wider text-white ${VERDICT_PILL[verdict]}`}>
+            {BUCKET_INFO[verdict].label}
+          </span>
+        )}
         <RecommendationBadge recommendation={song.recommendation} size="sm" />
         <RangePill score={song.rangeScore} lowest={song.rangeLowest} highest={song.rangeHighest} />
         {song.themes.slice(0, 2).map((theme) => (
