@@ -9,9 +9,14 @@ describe('autoRejectedBy', () => {
     ['Elevation Worship', 'Elevation'],
     ['Bethel Music', 'Bethel'],
     ['Jenn Johnson & Bethel Music', 'Bethel'],
+    ['Pat Barrett', 'Pat Barrett'],
+    ['Housefires & Brandon Lake', 'Brandon Lake'],
+    ['Darlene Zschech', 'Darlene Zschech'],
+    ['Kalley Heiligenthal', 'Kalley Heiligenthal'],
+    ['Jeremy Riddle', 'Jeremy Riddle'],
   ])('rejects %s', (name, rule) => expect(autoRejectedBy(name)).toBe(rule));
 
-  it.each(['Matt Redman', 'Chris Tomlin', 'Bethelehem Choir', 'Elevationist', ''])('keeps %s', (name) =>
+  it.each(['Matt Redman', 'Brandon Heath', 'Pat Smith', 'Chris Tomlin', 'Bethelehem Choir', 'Elevationist', ''])('keeps %s', (name) =>
     expect(autoRejectedBy(name)).toBeNull(),
   );
 });

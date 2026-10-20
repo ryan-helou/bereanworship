@@ -11,6 +11,7 @@ import {
   type NoteBucketValue,
 } from '@/lib/notes-schema';
 import { formatDateTime, relativeTime } from '@/lib/utils';
+import { AUTO_REJECTED_ARTISTS } from '@/lib/auto-reject';
 import { Badge } from '@/components/ui';
 import { createNoteAction, deleteNoteAction, moveNoteAction, updateNoteAction } from './actions';
 import { SubmitButton } from './submit-button';
@@ -131,7 +132,7 @@ export default async function AdminNotesPage({ searchParams }: { searchParams: S
               {autoRejected.length}
             </Badge>
           </h2>
-          <p className="mt-0.5 text-xs text-ink-500">Songs by Hillsong, Elevation or Bethel are always rejected.</p>
+          <p className="mt-0.5 text-xs text-ink-500">Songs by {AUTO_REJECTED_ARTISTS.join(', ')} are always rejected.</p>
         </header>
         <ul className="grid gap-x-6 gap-y-1 p-4 text-sm sm:grid-cols-2 lg:grid-cols-3">
           {autoRejected.map((song) => (

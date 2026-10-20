@@ -8,7 +8,16 @@
  * "Bethel Music" all match and an unrelated name that merely contains the
  * letters does not.
  */
-export const AUTO_REJECTED_ARTISTS = ['Hillsong', 'Elevation', 'Bethel'] as const;
+export const AUTO_REJECTED_ARTISTS = [
+  'Hillsong',
+  'Elevation',
+  'Bethel',
+  'Jeremy Riddle',
+  'Pat Barrett',
+  'Kalley Heiligenthal',
+  'Brandon Lake',
+  'Darlene Zschech',
+] as const;
 
 const PATTERN = new RegExp(`\\b(${AUTO_REJECTED_ARTISTS.join('|')})\\b`, 'i');
 
