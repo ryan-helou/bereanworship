@@ -95,8 +95,9 @@ test.describe('song detail', () => {
 
     await expect(page.getByRole('heading', { level: 1, name: 'Amazing Grace' })).toBeVisible();
     await expect(page.getByText('Song validity', { exact: true })).toBeVisible();
-    await expect(page.getByText('Biblical / Theological')).toBeVisible();
-    await expect(page.getByText('Communal Worship')).toBeVisible();
+    // The label now appears in the score bar and in the breakdown, so assert that it is shown rather than that it is unique.
+    await expect(page.getByText('Biblical / Theological').first()).toBeVisible();
+    await expect(page.getByText('Communal Worship').first()).toBeVisible();
     await expect(page.getByText('Clarity', { exact: true }).first()).toBeVisible();
     await expect(page.getByText('Recommended', { exact: false }).first()).toBeVisible();
 

@@ -206,3 +206,90 @@ test.describe('songs, artists and sources', () => {
     await expect(page.getByText('Cannot independently establish a serious claim.')).toBeVisible();
   });
 });
+
+test.describe('notes', () => {
+  const column = (page: import('@playwright/test').Page, name: string) => page.getByRole('region', { name: new RegExp('^' + name) });
+  // A saved note's text is a paragraph; its collapsed edit form repeats the text in a textarea, so match the paragraph only.
+  const noteText = (page: import('@playwright/test').Page, name: string, text: string) => column(page, name).locator('p', { hasText: text });
+  // Next.js renders its own hidden role=alert route announcer, so scope to the page's own banner.
+  const banner = (page: import('@playwright/test').Page) => page.locator('p[role="alert"]');
+
+  test('adds a note, sorts it into a bucket, edits it and deletes it', async ({ page }) => {
+    await page.goto('/admin/notes');
+    await expect(page.getByRole('heading', { level: 1, name: 'Notes' })).toBeVisible();
+    await expect(page.getByText('never affect a song')).toBeVisible();
+
+    // New notes start in Maybe: undecided is the honest default.
+    await page.getByLabel('Note', { exact: true }).fill('Worth a second listen before we decide.');
+    await page.getByLabel('About (optional)').fill('E2E sample song');
+    await page.getByRole('button', { name: 'Add note' }).click();
+
+    await expect(page).toHaveURL(/\/admin\/notes$/);
+    await expect(noteText(page, 'Maybe', 'Worth a second listen before we decide.')).toBeVisible();
+    await expect(column(page, 'Maybe').getByRole('heading', { name: 'E2E sample song' })).toBeVisible();
+
+    // Sort it: Maybe -> Approved.
+    await column(page, 'Maybe').getByRole('button', { name: 'Move to Approved' }).click();
+    await expect(noteText(page, 'Approved', 'Worth a second listen before we decide.')).toBeVisible();
+    await expect(noteText(page, 'Maybe', 'Worth a second listen before we decide.')).toHaveCount(0);
+
+    // Edit it in place.
+    const card = column(page, 'Approved').getByRole('listitem').filter({ hasText: 'E2E sample song' });
+    await card.getByText('Edit', { exact: true }).click();
+    await card.getByLabel('Edit note text').fill('Decided: yes.');
+    await card.getByRole('button', { name: 'Save changes' }).click();
+    await expect(noteText(page, 'Approved', 'Decided: yes.')).toBeVisible();
+    await expect(noteText(page, 'Approved', '· updated')).toBeVisible();
+
+    // Delete asks first.
+    const edited = column(page, 'Approved').getByRole('listitem').filter({ hasText: 'Decided: yes.' });
+    await edited.getByText('Delete', { exact: true }).click();
+    await expect(edited.getByText('This cannot be undone')).toBeVisible();
+    await edited.getByRole('button', { name: 'Yes, delete this note' }).click();
+    await expect(page.getByText('Decided: yes.')).toHaveCount(0);
+  });
+
+  test('adds a note once even when the button is double clicked', async ({ page }) => {
+    await page.goto('/admin/notes');
+    await page.getByLabel('Note', { exact: true }).fill('double click guard');
+    await page.getByRole('button', { name: 'Add note' }).dblclick();
+
+    await expect(noteText(page, 'Maybe', 'double click guard')).toHaveCount(1);
+    // Give a second, duplicate submission time to land before concluding there was none.
+    await page.waitForTimeout(1000);
+    await page.reload();
+    await expect(noteText(page, 'Maybe', 'double click guard')).toHaveCount(1);
+  });
+
+  test('keeps a multi-line note exactly as written', async ({ page }) => {
+    await page.goto('/admin/notes');
+    await page.getByLabel('Note', { exact: true }).fill('line one\nline two');
+    // The column is also named Rejected, so pick the radio through its own label.
+    await page.locator('fieldset label', { hasText: 'Rejected' }).click();
+    await page.getByRole('button', { name: 'Add note' }).click();
+
+    const body = noteText(page, 'Rejected', 'line one');
+    await expect(body).toBeVisible();
+    expect(await body.evaluate((el) => getComputedStyle(el).whiteSpace)).toBe('pre-wrap');
+  });
+
+  test('does not execute markup typed into a note', async ({ page }) => {
+    const dialogs: string[] = [];
+    page.on('dialog', (d) => { dialogs.push(d.message()); void d.dismiss(); });
+
+    await page.goto('/admin/notes');
+    await page.getByLabel('Note', { exact: true }).fill('<img src=x onerror=alert(1)> <script>alert(2)</script>');
+    await page.getByRole('button', { name: 'Add note' }).click();
+
+    await expect(noteText(page, 'Maybe', '<script>alert(2)</script>')).toBeVisible();
+    expect(dialogs).toEqual([]);
+  });
+
+  test('shows a plain message when the note is blank, never reflecting the URL back', async ({ page }) => {
+    await page.goto('/admin/notes?error=%3Cscript%3Ealert(1)%3C/script%3E');
+    await expect(banner(page)).toHaveCount(0);
+
+    await page.goto('/admin/notes?error=empty');
+    await expect(banner(page)).toContainText('cannot be blank');
+  });
+});

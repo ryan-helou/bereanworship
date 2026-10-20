@@ -14,6 +14,7 @@ const LINKS = [
   { href: '/admin/songs', label: 'Songs' },
   { href: '/admin/artists', label: 'Artists' },
   { href: '/admin/sources', label: 'Sources' },
+  { href: '/admin/notes', label: 'Notes' },
 ];
 
 export function AdminNav({ email }: { email: string }) {

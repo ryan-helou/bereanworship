@@ -332,6 +332,7 @@ model Song {
   jobs       ReviewJob[]
   requests   SongRequest[]
   history    ReviewHistory[]
+  notes      Note[]
 
   @@index([searchVector], type: Gin)
   @@unique([artistId, normalizedTitle], name: "song_identity")
@@ -662,4 +663,38 @@ model RateLimitBucket {
 
   @@index([expiresAt])
   @@map("rate_limit_buckets")
+}
+
+/// Where a private note sits. Display order is Approved, Maybe, Rejected.
+enum NoteBucket {
+  APPROVED
+  MAYBE
+  REJECTED
+}
+
+/// The owner's own notes, sorted into three buckets. Private to the admin
+/// area and never an input to any score: a note is a decision about a song,
+/// not evidence about it.
+model Note {
+  id     String     @id @default(cuid())
+  body   String     @db.Text
+  bucket NoteBucket
+
+  /// What the note is about, in the writer's own words — a song title, or
+  /// "the whole Bethel catalogue". Free text so a note can be about a song
+  /// nobody has reviewed yet.
+  subject String?
+
+  /// Set when the subject names exactly one reviewed song. SET NULL rather
+  /// than CASCADE: the note is the owner's own writing and must outlive a
+  /// re-import or purge of the catalogue.
+  songId String?
+  song   Song?   @relation(fields: [songId], references: [id], onDelete: SetNull)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([bucket, createdAt])
+  @@index([songId])
+  @@map("notes")
 }

@@ -17,7 +17,7 @@ test.describe('unauthenticated access', () => {
   });
 
   test('protects every admin route, not just the dashboard', async ({ page }) => {
-    const routes = ['/admin/import', '/admin/jobs', '/admin/requests', '/admin/songs', '/admin/artists', '/admin/sources'];
+    const routes = ['/admin/import', '/admin/jobs', '/admin/requests', '/admin/songs', '/admin/artists', '/admin/sources', '/admin/notes'];
 
     for (const route of routes) {
       await page.goto(route);

@@ -58,6 +58,7 @@ const TABLES = [
   'artist_sources',
   'review_jobs',
   'song_requests',
+  'notes',
   'import_batches',
   'sources',
   'songs',

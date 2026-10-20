@@ -163,6 +163,17 @@ Environment variables get read out of `.env` files by dotenv, which Next.js runs
 
 This was a real bug. `verifyPassword` now reports *why* a hash is rejected instead of swallowing it, still accepts the legacy `$` form, and there is a regression test asserting the emitted hash survives dotenv expansion untouched.
 
+## Private notes
+
+The admin area has a notes page at `/admin/notes`: free-text notes sorted into three buckets — **Approved**, **Maybe**, **Rejected** — with move, edit and delete.
+
+- **Access.** The same login as the rest of the admin area; there is no second password. The edge middleware refuses unauthenticated requests, and the page and every server action check the session again. Nothing links to it from the public site, and the area is `noindex` and disallowed in `robots.txt`.
+- **Never a score input.** A note is a decision about a song, not evidence about it. Nothing in `scoring.ts` or the pipeline reads the `notes` table, and notes appear on no public page.
+- **Linking.** A note's optional *About* text links to a song only when exactly one *reviewed* song has that title: a wrong link is worse than none, and "Forever" alone is two songs. A note written before its song was reviewed is linked at read time once the song is published, and the guess is never written to the database.
+- **Durability.** `notes.songId` is `ON DELETE SET NULL`. The note is the owner's own writing and outlives a re-import or purge of the catalogue.
+- **Privacy in the audit log.** `admin_audit_log` records that a note was created, moved, edited or deleted, and its bucket — never its text.
+- **Works without JavaScript.** Edit and delete use native `<details>`, so the page is plain forms and delete asks before it acts. One small client component, `SubmitButton`, disables a button while its form is sending, so a double click cannot add a note twice or delete one twice. Errors come back as a short code in the URL from a fixed list, so nothing a visitor types is reflected into the page.
+
 ## Performance
 
 - Public pages use ISR (`revalidate = 3600`); the reviewed catalogue is pre-rendered via `generateStaticParams`.
