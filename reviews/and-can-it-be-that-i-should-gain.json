@@ -1,0 +1,216 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "And Can It Be That I Should Gain",
+    "artist": "Charles Wesley",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1739,
+    "genre": "Hymn",
+    "isPublicDomain": true,
+    "notes": "Text by Charles Wesley, written in 1738 after his conversion on 21 May 1738 and first published in 1739 in John Wesley's Hymns and Sacred Poems under the title 'Free Grace'. The tune churches most use is Sagina, by Thomas Campbell (1825), though other tunes have been used, and some churches use a Celtic or Wexford Carol tune. Public domain. The list's guess of Wesley is right. Reviewed as the hymn, not any one modern recording; several modern settings exist and the standard hymnal text is assumed.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "gospelClarity": "EXPLICIT",
+    "structuralNotes": "A long hymn of five or six stanzas, each with a repeated closing couplet in the Sagina setting. It opens in wonder that the singer can have a share in Christ's saving blood when he himself caused the Saviour's death. It moves through the mystery of the incarnation, in which the immortal God empties himself of glory and dies for sinners, and through God's love that sends Christ to die for rebels. It then uses the image of a prisoner whose chains fall away, and the light that wakes the soul, to describe freedom from sin and condemnation. It ends in confident approach to God's throne, clothed in Christ's righteousness, with no condemnation remaining. The voice is first person singular, but the content is what Christ has done: incarnation, kenosis, substitution, justification. Christ is named.",
+    "claims": [
+      {
+        "claim": "It is amazing that sinners, who caused Christ's death, can share the benefit of his blood.",
+        "subject": "Grace and substitution",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The eternal God emptied himself of glory and died for sinners; this is a mystery beyond understanding.",
+        "subject": "Incarnation and cross",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's love gave Christ to die for rebels.",
+        "subject": "The love of God",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The sinner was bound in sin and condemned, and Christ's light and grace freed him.",
+        "subject": "Liberation from sin",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Clothed in Christ's righteousness, the believer has no condemnation and can approach God's throne boldly.",
+        "subject": "Justification by faith",
+        "location": "WHOLE_SONG",
+        "locationDetail": "the final stanza",
+        "lyricExcerpt": null
+      }
+    ]
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "The cross as God's own act for sinners",
+        "explanation": "The hymn marvels that the immortal God died for those who rebelled against him. The cross is God's act and the singer's guilt is named, so the astonishment has a cause.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Philippians 2:6-8",
+        "scriptureRationale": "The Son emptying himself and becoming obedient to death - the mystery the stanza marvels at."
+      },
+      {
+        "category": "Justification",
+        "title": "Righteousness that is Christ's, not the singer's",
+        "explanation": "The final stanza rests the believer's standing on the righteousness of Christ received by faith. No condemnation remains and bold approach to God follows, which is justification sung.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Romans 8:1",
+        "scriptureRationale": "No condemnation for those in Christ Jesus - the confidence the closing stanza expresses."
+      },
+      {
+        "category": "Grace",
+        "title": "Salvation entirely unmerited",
+        "explanation": "The song begins in wonder that it should be so at all, and never moves from it. Nothing in the singer is offered as a reason for his rescue.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Ephesians 2:4-9",
+        "scriptureRationale": "Saved by grace through faith, not by works - the premise of the opening stanza."
+      },
+      {
+        "category": "Salvation",
+        "title": "Conversion as release from prison",
+        "explanation": "The chains-falling image, drawn from the story of Peter's release in Acts, pictures conversion as God's initiative: the light shines and the prisoner is freed.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Acts 12:7",
+        "scriptureRationale": "Chains falling from Peter at the angel's word - the scene behind the stanza's image."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The incarnation and self-emptying of the Son",
+      "Substitutionary atonement",
+      "Justification by faith in Christ's righteousness",
+      "Salvation by grace alone",
+      "Assurance and bold access to God"
+    ],
+    "assessment": "Nothing to correct. A great Protestant statement of the gospel: the incarnation, the substitution, the unmerited grace, the freeing of the sinner and the imputed righteousness that ends condemnation. Its language of a heart set free and light shining is biblical metaphor, not a claim about a second blessing. The Spirit and the church are not much reached; the song stays on Christ and the believer."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Content",
+        "title": "A hymn that teaches while it praises",
+        "explanation": "A congregation singing it states the whole path from guilt to justification, and the refrain-couplet in the Sagina setting gives the room a place to join in the wonder.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Use",
+        "title": "Fitting for Easter, communion and gospel proclamation",
+        "explanation": "Its content suits Good Friday, Communion and any service that sets out the gospel.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "The Sagina tune moves across a wide range and the stanzas are long; many hymnals print it in D or Eb. The UMC resource notes some find the tune hard and offers a Celtic tune as an alternative.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Commonly D or Eb in hymnals; no key verified",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The repeated closing couplet returns to the central amazement, so the repetition deepens rather than fills.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational and demanding. The stanzas are long and the tune requires confident singing; a room that knows it sings it with energy. A room that does not will benefit from the tune being taught or from choosing a gentler setting."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ and the cross are plain",
+        "explanation": "Every stanza is about what Christ did and what it means for the sinner, so a visitor learns the gospel from the words.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in its claims but dense in its eighteenth-century idiom: the prison and chains imagery and phrases like imputed righteousness may need explaining to newcomers. The meaning is not in doubt."
+  },
+  "synthesis": {
+    "summary": "Charles Wesley's 1738-39 hymn on his conversion: wonder that sinners who caused Christ's death can share its benefit, the immortal God dying for rebels, the prisoner freed, and the believer clothed in Christ's righteousness with no condemnation. No concern was found. The Spirit and the church are not reached; its tune and length are the practical limits.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Grace",
+      "Salvation",
+      "Faith",
+      "Assurance",
+      "Sin"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Philippians 2:6-8",
+        "relevance": "The Son emptying himself and dying - the second stanza's mystery."
+      },
+      {
+        "reference": "Romans 8:1",
+        "relevance": "No condemnation for those in Christ - the final stanza's confidence."
+      },
+      {
+        "reference": "Ephesians 2:4-9",
+        "relevance": "Saved by grace through faith - the premise of the whole hymn."
+      },
+      {
+        "reference": "Acts 12:7",
+        "relevance": "Peter's chains falling at the angel's word - the stanza's image of freedom."
+      },
+      {
+        "reference": "Hebrews 4:16",
+        "relevance": "Approaching the throne of grace with confidence - the closing boldness."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/And_Can_It_Be",
+      "title": "And Can It Be",
+      "publisher": "Wikipedia",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_3",
+      "establishes": "Wesley's authorship, 1738 composition after his conversion, 1739 publication as 'Free Grace', the Sagina tune, and the hymn's themes of justification, incarnation and release from sin.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://umcdiscipleship.org/resources/and-can-it-be-that-i-should-gain1",
+      "title": "And Can It Be That I Should Gain",
+      "publisher": "UMC Discipleship Ministries",
+      "sourceType": "THEOLOGICAL_ORGANIZATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "From search summary (fetch refused): 1739 text marking Wesley's conversion; many call it his greatest hymn; Sagina is hard, so an alternative tune is offered.",
+      "assessesContent": false
+    }
+  ]
+}

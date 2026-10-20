@@ -1,0 +1,217 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "MEDIUM",
+    "title": "He Will Hold Me Fast",
+    "artist": "Keith & Kristyn Getty (text by Ada R. Habershon, revised with new music by Matt Merker)",
+    "artistType": "GROUP",
+    "album": "Facing a Task Unfinished",
+    "releaseYear": 2016,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Two versions exist. The original is a hymn by Ada R. Habershon (1861-1918), a Plymouth Brethren writer who worked with the Torrey-Alexander campaign, with an early tune by Robert Harkness, introduced at the 1907 Moody Bible Conference at Northfield. The version churches now know is the modern setting: Matt Merker revised the first two stanzas, wrote a third stanza and a new tune, and Keith & Kristyn Getty recorded it on Facing a Task Unfinished and the Together for the Gospel Live III album (2016). The Getty setting is copyrighted (Getty Music; sources give 2013 and 2016 for the date), so it is not public domain, though Habershon's original is. Sources disagree on the exact dates and I found no single account of the arrangement's timeline; CCLI number not confirmed. The list's artist guess of the Gettys is right for the recording churches know. Reviewed as the Merker/Getty setting.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "gospelClarity": "EXPLICIT",
+    "structuralNotes": "Three stanzas with a refrain. The first admits that the singer's own faith and love are weak, that temptations come, and says the security of the believer rests on Christ's grip rather than his own. The second turns to Scripture and the Spirit's testimony in the face of fear and doubt, and the value God has given the believer in Christ. The third (Merker's) looks to the cross as the place where Christ's love is shown and where the debt of sin was paid, and to the believer being kept to the end and brought to glory. The voice is first person singular, but each claim is credal: Christ keeps, Christ loved and died, Christ will bring his people home. The believer's weakness is the foil, not the subject. Christ is named.",
+    "claims": [
+      {
+        "claim": "The believer's faith and love are weak and temptation is real, but Christ keeps him.",
+        "subject": "Perseverance",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer's hope rests on Christ's hold on him, not his hold on Christ.",
+        "subject": "Assurance",
+        "location": "REFRAIN",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Scripture and the Spirit's witness answer fear and doubt.",
+        "subject": "Assurance and the Word",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer is valued by God because of Christ.",
+        "subject": "Union with Christ",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ's death on the cross paid the debt of sin and shows God's love.",
+        "subject": "Atonement",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ will bring his people safely to glory.",
+        "subject": "Final perseverance",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      }
+    ]
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": false,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Assurance",
+        "title": "Security rests on Christ's keeping",
+        "explanation": "The song puts the believer's weakness plainly and answers it with Christ's hold on him. That is the biblical ground of assurance, and it is stated as a promise that does not depend on the singer's performance.",
+        "songLocation": "REFRAIN",
+        "magnitude": "MAJOR",
+        "scriptureReference": "John 10:28-29",
+        "scriptureRationale": "No one can snatch Christ's sheep from his hand - the security the refrain sings."
+      },
+      {
+        "category": "Atonement",
+        "title": "The cross as the proof of his love",
+        "explanation": "The third stanza turns to the cross: the debt paid, God's love shown. The singer's confidence is placed there and not in his feeling.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Romans 5:8",
+        "scriptureRationale": "God shows his love in Christ dying for sinners - what the third stanza says of the cross."
+      },
+      {
+        "category": "Scripture",
+        "title": "Doubt answered by the Word and the Spirit",
+        "explanation": "The second stanza sends the doubting believer to the Scriptures and to the Spirit's witness, not to his feelings.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 8:16",
+        "scriptureRationale": "The Spirit bearing witness that we are God's children - the second stanza's assurance."
+      },
+      {
+        "category": "Hope",
+        "title": "Kept to the end",
+        "explanation": "The song looks to glory, so assurance is not only present comfort but a promise of arrival.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Philippians 1:6",
+        "scriptureRationale": "God completing the work he began - the hope in the closing lines."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Perseverance of the saints",
+      "Assurance grounded in Christ",
+      "Substitutionary atonement",
+      "The witness of the Spirit and Scripture",
+      "Final glory"
+    ],
+    "assessment": "No concern. A clear statement of assurance, with weakness admitted and Christ's keeping as the ground. Those who hold that salvation can be lost may read the refrain differently, but that is a position faithful Christians dispute, not an error in the song. It reaches the cross and the Spirit; the resurrection and the church are not named."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A tune a congregation can learn",
+        "explanation": "Merker's melody was written for congregational singing; the refrain is easy to catch and the stanzas move in a stepwise, folk-leaning line.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Pastoral use",
+        "title": "For the doubting and the suffering",
+        "explanation": "It gives a congregation words for weakness and for trust, so it suits funerals, communion and hard seasons.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "The Getty setting is commonly led in lower-mid keys such as D or Eb; verify against the chart used. The melody is moderate in range and suits mixed congregations.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Published keys not verified",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The refrain returns to the central confession after each stanza's particular comfort.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational and calm. The pacing leaves room for a room to sing it as assurance and not as a performance, and the three stanzas are short enough to sing in full."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ and his keeping are plain",
+        "explanation": "The song says who holds the believer and why, so a visitor hears the promise clearly.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The 'I' of weakness and the 'he' of keeping are never confused, and the doctrine is the one the Bible states in plain terms."
+  },
+  "synthesis": {
+    "summary": "Ada Habershon's 1907 hymn on assurance as heard today in Matt Merker's revision and tune, recorded by Keith and Kristyn Getty. The believer's weakness is admitted and Christ's hold on him is the ground, with Scripture and the Spirit answering doubt and the cross shown as love and payment. No concern was found; the resurrection and church are not named. The version in use is the copyrighted Merker/Getty setting.",
+    "themes": [
+      "Assurance",
+      "Christ",
+      "Cross",
+      "Grace",
+      "Faith",
+      "Hope",
+      "Scripture"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "John 10:28-29",
+        "relevance": "Christ's sheep held in his hand - the security of the refrain."
+      },
+      {
+        "reference": "Romans 8:16",
+        "relevance": "The Spirit's witness to our adoption - the second stanza's comfort."
+      },
+      {
+        "reference": "Romans 5:8",
+        "relevance": "God's love shown in Christ's death - the third stanza."
+      },
+      {
+        "reference": "Philippians 1:6",
+        "relevance": "God completing what he began - the hope of arrival."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.christianity.com/wiki/christian-life/he-will-hold-me-fast.html",
+      "title": "Who Wrote the Hymn 'He Will Hold Me Fast'?",
+      "publisher": "Christianity.com",
+      "sourceType": "JOURNALISM",
+      "credibilityTier": "TIER_3",
+      "establishes": "Habershon's authorship, the Torrey-Alexander connection, the 1907 Northfield introduction, the Getty version, and the hymn's teaching on being kept by Christ.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.thegospelcoalition.org/blogs/justin-taylor/hymn-of-the-day-he-will-hold-me-fast/",
+      "title": "Hymn of the Day: He Will Hold Me Fast",
+      "publisher": "The Gospel Coalition",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "Seen in search summary only (page refused fetch): Habershon's text, Merker's revised stanzas and new tune, and the Getty Music copyright line.",
+      "assessesContent": false
+    }
+  ]
+}

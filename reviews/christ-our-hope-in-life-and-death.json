@@ -1,0 +1,204 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Christ Our Hope in Life and Death",
+    "artist": "Keith & Kristyn Getty and Matt Papa",
+    "artistType": "GROUP",
+    "album": null,
+    "releaseYear": 2020,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Written by Keith Getty, Matt Boswell, Jordan Kauflin, Matt Merker and Matt Papa, copyright 2020 Getty Music, Messenger Hymns, Love Your Enemies Publishing, Matthew Merker Music and Jordan Kauflin Music; CCLI 7147502 per hymnary and PraiseCharts records seen in search results. The list's writer guess omitted Matt Merker. Built on the first question and answer of the Heidelberg Catechism (1563) on the believer's only comfort in life and death. Boswell and Papa had each been trying to write a song on that question; the ideas were joined at Getty's home in Northern Ireland and the song took over two years. Released by Getty Music in March 2020, and recorded by Matt Papa with Keith & Kristyn Getty and by the Worship Initiative with Shane & Shane. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "CORPORATE_WE",
+    "structuralNotes": "Three verses and a chorus. Per a Getty-affiliated write-up, the first verse makes Christ the believer's sole hope and confidence, with God governing each day and Christ's love keeping believers to the end. The second says God's goodness and grace, known through the Redeemer's sacrifice, quiet an anxious soul and sustain faith through trials. The third looks past death to being raised to meet the Lord, the destruction of sin and death, and eternal life with Christ. The chorus is a shared confession and praise that Christ is the believer's hope in life and death, resting on his conquest of death. Verse content here rests on summaries from two articles, not on the text itself.",
+    "claims": [
+      {
+        "claim": "Christ alone is the believer's hope and confidence, and God governs every day.",
+        "subject": "Christ's sufficiency and providence",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ's redeeming sacrifice reveals God's grace and quiets an anxious soul.",
+        "subject": "The atonement and assurance",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God sustains the believer's faith through trials.",
+        "subject": "Perseverance",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Believers will be raised to meet the Lord, and sin and death will be destroyed.",
+        "subject": "Resurrection of the body",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ has conquered death and is the believer's hope in life and in death.",
+        "subject": "Christ's victory",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Hope",
+        "title": "Honest about death, grounded in the resurrection",
+        "explanation": "The song takes the catechism's question about dying seriously and answers it with Christ's conquest of death and the believer's rising. Comfort rests on what Christ has done, not on the singer's courage.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Corinthians 15:54-57",
+        "scriptureRationale": "Death swallowed up in victory through Christ - the answer the song gives to dying."
+      },
+      {
+        "category": "Atonement",
+        "title": "Grace known through the Redeemer's sacrifice",
+        "explanation": "The second verse locates peace in God's goodness and grace as revealed in Christ's redeeming sacrifice. The troubled soul is quieted by a finished work.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 5:1",
+        "scriptureRationale": "Peace with God through our Lord Jesus Christ - the source of the soul's calm."
+      },
+      {
+        "category": "Providence",
+        "title": "Everyday life under God's governance",
+        "explanation": "The first verse places each day under God and says Christ's love keeps believers to the end, which is the catechism's own theme.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 8:38-39",
+        "scriptureRationale": "Nothing separates believers from the love of God in Christ - the keeping the verse describes."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Christ the believer's only comfort in life and death",
+      "God's providence over each day",
+      "Atonement through Christ's redeeming sacrifice",
+      "Perseverance of the saints",
+      "Bodily resurrection of believers",
+      "The final destruction of sin and death"
+    ],
+    "assessment": "Nothing to correct was found on the sources read. It answers the Heidelberg Catechism's first question in sung form: Christ is the only comfort, grace comes through his sacrifice, and death is conquered and the dead will rise. The cross is stated in terms of redemption and grace rather than at length, and the Spirit is not reached in the summaries. The verse text itself was not read, so this rests on two articles' descriptions."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Use",
+        "title": "Written as a shared confession",
+        "explanation": "The chorus is described as the congregation's joint confession and praise, and the song was written for churches, with choral and congregational arrangements published.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Occasion",
+        "title": "Fits funerals and times of grief",
+        "explanation": "Its subject suits funerals, All Saints, Easter and any gathering facing death with hope.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Published keys were not checked. Test the chorus in rehearsal, as modern hymns of this kind often sit high for mixed congregations.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not stated; no chart read",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns as a confession after each verse, and each return follows a different stage from daily keeping to grace to resurrection.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in design: a sung confession for the whole church with a hymn-like verse structure. It suits funerals, Communion, All Saints and Easter."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Three verses with a clear arc",
+        "explanation": "Daily trust, then grace in trouble, then the resurrection, with a chorus tying each to Christ. A listener can follow where the song is going.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in its claims. The subject, Christ, is named and the hope is stated plainly, with nothing that invites a wrong reading on the evidence available."
+  },
+  "synthesis": {
+    "summary": "A 2020 modern hymn by Getty, Boswell, Kauflin, Merker and Papa on the Heidelberg Catechism's first question. It moves from Christ as sole hope and God's daily governance, through grace in his redeeming sacrifice, to the resurrection and the end of sin and death. No concern was found. Sourcing is limited to a sponsored article and the writer's page.",
+    "themes": [
+      "Christ",
+      "Hope",
+      "Resurrection",
+      "Assurance",
+      "Grace",
+      "Providence",
+      "Suffering",
+      "Cross"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "1 Corinthians 15:54-57",
+        "relevance": "Death swallowed up in victory - the third verse and chorus."
+      },
+      {
+        "reference": "Romans 8:38-39",
+        "relevance": "Christ's love keeping believers - the first verse's assurance."
+      },
+      {
+        "reference": "1 Thessalonians 4:16-17",
+        "relevance": "Believers raised to meet the Lord - the third verse's hope."
+      },
+      {
+        "reference": "Romans 5:1",
+        "relevance": "Peace with God through Christ - the second verse."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://challies.com/sponsored/christ-our-hope-in-life-and-death",
+      "title": "Christ Our Hope in Life and Death",
+      "publisher": "Challies.com (sponsored, with Getty Music)",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "Names the five writers, the Heidelberg Catechism origin, the 2020 release and what each verse and the chorus teach.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.mattpapa.com/songs/christ-our-hope-in-life-and-death",
+      "title": "Christ Our Hope In Life And Death",
+      "publisher": "Matt Papa",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writer's page: credits, 2020 copyright and a verse-by-verse description. Primary for the copyright line, not evidence of soundness.",
+      "assessesContent": false
+    }
+  ]
+}
