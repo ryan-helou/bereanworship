@@ -22,6 +22,7 @@ const NAV = [
   { href: '/songs', label: 'Songs' },
   { href: '/artists', label: 'Artists' },
   { href: '/methodology', label: 'Methodology' },
+  { href: '/notes', label: 'Notes' },
   { href: '/request', label: 'Request a Song' },
 ];
 
