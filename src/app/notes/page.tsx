@@ -40,7 +40,7 @@ export default async function NotesPage() {
           return (
             <section key={bucket} aria-labelledby={`b-${bucket}`} className="overflow-hidden rounded-xl border border-line-strong bg-white">
               <header className={`flex items-center justify-between px-5 py-4 text-white ${HEAD[bucket]}`}>
-                <h2 id={`b-${bucket}`} className="text-lg font-semibold">
+                <h2 id={`b-${bucket}`} className="text-lg font-semibold !text-white">
                   {BUCKET_INFO[bucket].label}
                 </h2>
                 <span className="rounded-full bg-white/20 px-3 py-0.5 text-sm font-semibold tnum">{count}</span>
