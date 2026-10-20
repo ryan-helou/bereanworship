@@ -17,6 +17,7 @@ import { RangeBlock, RecommendationCallout, ScoreBar, ScoreBlock, ScorePill } fr
 import { ScoreContribution } from '@/components/score-contribution';
 import { independentSourceCount } from '@/lib/ai/schemas';
 import { FindingGroup, SongFindingItem, type FindingRole } from '@/components/findings';
+import { autoRejectedBy } from '@/lib/auto-reject';
 import { SongNotePanel } from '@/components/song-note-panel';
 import { Badge, DataRow, Panel, SampleDataNotice, isSample } from '@/components/ui';
 
@@ -232,7 +233,7 @@ export default async function SongPage({
           </div>
         </header>
 
-        <SongNotePanel songId={song.id} error={noteError} />
+        <SongNotePanel songId={song.id} error={noteError} rejectedBy={autoRejectedBy(song.artist.displayName)} />
 
         {isSample(song.reviewVersion) && (
           <div className="band-bone border-b border-line">

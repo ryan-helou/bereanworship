@@ -18,7 +18,15 @@ const CHECKED = {
  * A private verdict on this song: Approved, Maybe or Rejected, plus a
  * note. Rendered only for visitors who have passed the site password.
  */
-export async function SongNotePanel({ songId, error }: { songId: string; error?: string }) {
+export async function SongNotePanel({
+  songId,
+  error,
+  rejectedBy,
+}: {
+  songId: string;
+  error?: string;
+  rejectedBy: string | null;
+}) {
   // Anyone who got past the site password may write notes; with the gate off
   // the site is public, so there is nobody to write them and the box stays hidden.
   if (!env.siteGateEnabled || !(await hasSiteAccess())) return null;
@@ -37,6 +45,11 @@ export async function SongNotePanel({ songId, error }: { songId: string; error?:
             </Link>
           </div>
           <p className="mt-1 text-sm text-ink-500">Only people with the site password can see notes.</p>
+          {rejectedBy && (
+            <p className="mt-4 rounded-lg bg-red-50 px-4 py-3 text-sm font-medium text-red-800">
+              Rejected automatically: songs by {rejectedBy} are always rejected.
+            </p>
+          )}
 
           {notes.length > 0 && (
             <ul className="mt-6 space-y-3">
@@ -66,7 +79,7 @@ export async function SongNotePanel({ songId, error }: { songId: string; error?:
               <div className="grid grid-cols-3 gap-2">
                 {NOTE_BUCKETS.map((bucket) => (
                   <label key={bucket} className="cursor-pointer">
-                    <input type="radio" name="bucket" value={bucket} defaultChecked={bucket === 'MAYBE'} className="peer sr-only" />
+                    <input type="radio" name="bucket" value={bucket} defaultChecked={bucket === (rejectedBy ? 'REJECTED' : 'MAYBE')} className="peer sr-only" />
                     <span
                       className={`flex h-11 items-center justify-center rounded-lg text-sm font-medium text-ink-700 ring-1 ring-inset ring-line-strong transition-colors hover:bg-bone-100 peer-checked:text-white peer-checked:ring-0 peer-focus-visible:ring-2 peer-focus-visible:ring-volt-700 ${CHECKED[bucket]}`}
                     >

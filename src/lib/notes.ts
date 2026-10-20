@@ -1,6 +1,7 @@
 import './server-guard';
 import { prisma } from './db';
 import { normalizeTitle } from './normalize';
+import { AUTO_REJECTED_ARTISTS, autoRejectedBy } from './auto-reject';
 import type { NoteFieldsInput, NoteBucketValue } from './notes-schema';
 
 /**
@@ -190,4 +191,27 @@ export async function reviewedSongTitles(): Promise<string[]> {
     orderBy: { displayTitle: 'asc' },
   });
   return songs.map((s) => s.displayTitle);
+}
+
+export interface AutoRejectedSong {
+  slug: string;
+  displayTitle: string;
+  artistName: string;
+  rule: string;
+}
+
+/** Reviewed songs rejected by the standing artist rule, A to Z. */
+export async function listAutoRejected(): Promise<AutoRejectedSong[]> {
+  const songs = await prisma.song.findMany({
+    where: {
+      reviewStatus: 'COMPLETED',
+      OR: AUTO_REJECTED_ARTISTS.map((name) => ({ artist: { displayName: { contains: name, mode: 'insensitive' as const } } })),
+    },
+    select: { slug: true, displayTitle: true, artist: { select: { displayName: true } } },
+    orderBy: { displayTitle: 'asc' },
+  });
+  return songs.flatMap((song) => {
+    const rule = autoRejectedBy(song.artist.displayName);
+    return rule ? [{ slug: song.slug, displayTitle: song.displayTitle, artistName: song.artist.displayName, rule }] : [];
+  });
 }

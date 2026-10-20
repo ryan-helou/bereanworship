@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { requireSession } from '@/lib/auth';
-import { listNotes, reviewedSongTitles, type NoteView } from '@/lib/notes';
+import { listAutoRejected, listNotes, reviewedSongTitles, type NoteView } from '@/lib/notes';
 import {
   BUCKET_INFO,
   MAX_NOTE_CHARS,
@@ -33,7 +33,7 @@ export default async function AdminNotesPage({ searchParams }: { searchParams: S
   const errorRaw = Array.isArray(params.error) ? params.error[0] : params.error;
   const error = isNoteErrorCode(errorRaw) ? NOTE_ERRORS[errorRaw] : null;
 
-  const [notes, titles] = await Promise.all([listNotes(), reviewedSongTitles()]);
+  const [notes, titles, autoRejected] = await Promise.all([listNotes(), reviewedSongTitles(), listAutoRejected()]);
   const byBucket = (bucket: NoteBucketValue) => notes.filter((n) => n.bucket === bucket);
 
   return (
@@ -122,6 +122,28 @@ export default async function AdminNotesPage({ searchParams }: { searchParams: S
           <BucketColumn key={bucket} bucket={bucket} notes={byBucket(bucket)} />
         ))}
       </div>
+
+      <section aria-labelledby="auto-rejected" className="border border-line-strong bg-bone-100">
+        <header className="border-b border-line-strong bg-bone-50 px-4 py-3">
+          <h2 id="auto-rejected" className="flex items-center gap-2 text-base font-semibold text-ink-900">
+            Rejected automatically
+            <Badge tone="danger" className="tnum">
+              {autoRejected.length}
+            </Badge>
+          </h2>
+          <p className="mt-0.5 text-xs text-ink-500">Songs by Hillsong, Elevation or Bethel are always rejected.</p>
+        </header>
+        <ul className="grid gap-x-6 gap-y-1 p-4 text-sm sm:grid-cols-2 lg:grid-cols-3">
+          {autoRejected.map((song) => (
+            <li key={song.slug}>
+              <Link href={`/songs/${song.slug}`} className="text-volt-700 hover:underline">
+                {song.displayTitle}
+              </Link>
+              <span className="text-ink-500"> · {song.artistName}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
     </div>
   );
 }
