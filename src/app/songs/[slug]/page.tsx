@@ -29,7 +29,8 @@ import { Badge, DataRow, Panel, SampleDataNotice, isSample } from '@/components/
  * the two ratings are never read as one.
  */
 
-export const revalidate = 3600;
+// Dynamic: the owner's private note box reads the session cookie, which a cached page cannot do.
+export const dynamic = 'force-dynamic';
 
 type Params = Promise<{ slug: string }>;
 
