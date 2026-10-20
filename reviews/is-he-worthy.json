@@ -1,0 +1,286 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Is He Worthy?",
+    "artist": "Andrew Peterson",
+    "artistType": "INDIVIDUAL",
+    "album": "Resurrection Letters, Vol. I",
+    "releaseYear": 2018,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Words and music by Andrew Peterson and Ben Shive, 2018; copyright Capitol CMG Genesis, Vamos Publishing and Junkbox Music (admin. Capitol CMG Publishing) with Jakedog Music (admin. Music Services); CCLI 7108951; published in B. Released on Peterson's Resurrection Letters, Vol. I (Centricity Music, 2018). Peterson's own account is that he wanted congregational songs about the resurrection because few hymns treat it, and that he built this one on liturgical call and response so that a room could answer rather than listen; he says audiences join in immediately even where the tradition is not liturgical. The central section is Revelation 5 put as questions. The song has been widely taken up outside his own catalogue: Getty Music made it a hymn of the month in April 2024, and a live version recorded with Keith and Kristyn Getty and Chris Tomlin on the Sing! Great Commission tour carries the same CCLI number. The list's guess of Andrew Peterson is correct; Ben Shive is the uncredited co-writer in most listings of the song by artist."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ABOUT_GOD",
+    "structuralNotes": "Call and response from the first bar to the last. A leader puts a question and the gathered church answers it in a short affirmation; there is no first person singular anywhere in the song. The opening section asks whether the world is broken, whether the shadows are deepening and whether creation is groaning, and the room agrees that it is, before turning to ask whether a new creation is coming and whether the glory of the Lord will be the light in its midst, which the room also affirms. The central section is Revelation 5 recast as questions: whether anyone is worthy, whether anyone is able to break the seal and open the scroll, answered by naming the Lion of Judah who conquered the grave, the root of David and the Lamb who died to ransom slaves, and then by affirming that he is worthy of blessing and honour and glory. A later section asks whether the Father truly loves his people, whether the Spirit moves among them, whether the Messiah holds forever those he loves and whether God means to dwell with them again; each is answered in the affirmative, so the three persons are confessed in a few lines. The atonement is named as a ransoming death rather than described, and sin and repentance are not treated.",
+    "claims": [
+      {
+        "claim": "The world is broken and creation is groaning under it.",
+        "subject": "The fall and the condition of creation",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "A new creation is coming, and the glory of the Lord will be the light within it.",
+        "subject": "New creation and eschatology",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "No one is worthy or able to break the seal and open the scroll.",
+        "subject": "The vision of Revelation 5",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lion of Judah, the root of David, is worthy, and he conquered the grave.",
+        "subject": "The person of Christ and the resurrection",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lamb died in order to ransom slaves.",
+        "subject": "Atonement as ransom",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "He is worthy of all blessing and honour and glory.",
+        "subject": "The worthiness of Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Father loves his people and the Spirit moves among them.",
+        "subject": "The Trinity",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Messiah holds forever those he loves, and God intends to dwell with his people again.",
+        "subject": "Preservation and the dwelling of God",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christology",
+        "title": "Revelation 5's question, answered by the room",
+        "explanation": "The central section asks John's question and then has the congregation answer it by naming the Lion of Judah, the root of David and the slain Lamb who ransomed slaves. The room is not told the answer; it is made to give it, which is what a creed does.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": null,
+        "scriptureReference": "Revelation 5:5-9",
+        "scriptureRationale": "The search for one worthy to open the scroll and the Lamb who was slain and purchased people — the section’s whole substance."
+      },
+      {
+        "category": "Hope",
+        "title": "Groaning and new creation in the same breath",
+        "explanation": "The song makes the congregation admit out loud that the world is broken and creation is groaning before it lets them affirm that a new creation is coming. Lament is not a different song here; it is the first half of the same sentence.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": null,
+        "scriptureReference": "Romans 8:22-23",
+        "scriptureRationale": "Creation groaning together while awaiting the redemption of our bodies — the order the opening section follows."
+      },
+      {
+        "category": "Trinity",
+        "title": "Father, Spirit and Messiah confessed in one section",
+        "explanation": "A later section names the Father's love for his people, the Spirit's moving among them and the Messiah's keeping of those he loves, with the room affirming each. Few songs in common use put the three persons in a congregation's mouth this plainly.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null,
+        "scriptureReference": "John 10:28-29",
+        "scriptureRationale": "The Son holding his own and no one taking them from the Father’s hand — the keeping the section affirms."
+      },
+      {
+        "category": "Eschatology",
+        "title": "The hope stated without a millennial scheme",
+        "explanation": "The song affirms the renewal of creation, the reign of Christ and God dwelling with his people again, without committing the congregation to a sequence.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null,
+        "scriptureReference": "Revelation 21:3-5",
+        "scriptureRationale": "God dwelling with his people and making all things new — the hope the song states without dating it."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The brokenness of creation under the fall",
+      "The worthiness of the slain Lamb",
+      "Atonement as ransom",
+      "The resurrection of Christ",
+      "The renewal of creation",
+      "The Trinity",
+      "The preservation of those Christ loves",
+      "God dwelling with his people"
+    ],
+    "assessment": "Nothing to correct, and unusually much taught for a song this short. Revelation 5 is set almost intact, Romans 8's groaning is admitted before the hope is affirmed, and the three persons are confessed in a single section. The opening questions ask the congregation what it perceives rather than what it feels, and the answers are assertions about the world and about Christ. The limits are scope: the atonement is named as a ransom rather than explained, and sin and repentance are not treated."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Corporate voice",
+        "title": "Not one line in the first person singular",
+        "explanation": "Every line is either a question put to the church or the answer the church gives. Nothing reports a private experience, so there is nothing an individual has to mean on his own before he can sing it.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      },
+      {
+        "category": "Accessibility",
+        "title": "The congregation's part is a handful of short answers",
+        "explanation": "The demanding material belongs to whoever leads. The room has only brief affirmations to give, which is why Peterson reports audiences joining the first time they hear it, in churches with no liturgical habit.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Published in B, with transpositions offered; the Sing! live version is listed in D. The congregation sings only the short answers, so the leader carries the range.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "B (original); the Sing! live version is listed in D",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The same few affirmations recur, because answering is what the form is. Each return answers a question that has not been asked before rather than extending the last one.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "A liturgy rather than a song a room can wander into: it needs someone to put the questions and a congregation that knows it is meant to answer, and it works best when a leader says so before the first verse. Given that, the congregational part is among the easiest in modern use. It suits Easter, Advent, funerals, and any service that has to hold grief and hope at once; the call-and-response shape also makes it a natural reading of Revelation 5 in a service of the word."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Nothing is left as a question",
+        "explanation": "Every question in the song is answered within a line or two, so a hearer never carries an unresolved doubt out of it. The form itself prevents the song from ending in its own lament.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      },
+      {
+        "category": "Diction",
+        "title": "Figures taken from Revelation and explained by the answers",
+        "explanation": "The Lion, the root, the Lamb, the seal and the scroll are all Revelation 5’s own images, and the responses say who is meant. The language is dense but it is not vague.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Not ambiguous, but demanding. A published reviewer notes that a newcomer will find the imagery heavy going, and that is fair: the central section assumes some acquaintance with Revelation 5 and the opening assumes Romans 8. Nothing in it can be taken two ways, so the work a leader has to do is explanation rather than correction."
+  },
+  "synthesis": {
+    "summary": "A call-and-response hymn on Revelation 5. The congregation is asked whether the world is broken and whether anyone is worthy, and answers by naming the Lion of Judah, the root of David and the slain Lamb who ransomed slaves and conquered the grave; a later section confesses Father, Spirit and Messiah. Sin and repentance are not treated. It needs a leader and a room told what to do.",
+    "themes": [
+      "Christ",
+      "Hope",
+      "Resurrection",
+      "Worship",
+      "Trinity",
+      "Heaven",
+      "Lament"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Revelation 5:1-9",
+        "relevance": "The search for one worthy to open the scroll and the Lamb who was slain — the central section."
+      },
+      {
+        "reference": "Revelation 5:12-13",
+        "relevance": "Blessing, honour and glory ascribed to the Lamb, which the room affirms."
+      },
+      {
+        "reference": "Romans 8:22-23",
+        "relevance": "Creation groaning as it waits — what the opening section makes the church admit."
+      },
+      {
+        "reference": "Revelation 21:3-5",
+        "relevance": "God dwelling with his people and making all things new — the hope affirmed at the close."
+      },
+      {
+        "reference": "John 10:28-29",
+        "relevance": "Christ holding his own forever — the keeping the later section confesses."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/72937",
+      "title": "Is He Worthy chart listing",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Authorship by Peterson and Shive, CCLI 7108951, original key B, 4/4, the album and the full copyright and publisher line.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.thegospelcoalition.org/article/andrew-peterson-resurrection-letters/",
+      "title": "Andrew Peterson's New Song for the People",
+      "publisher": "The Gospel Coalition",
+      "sourceType": "THEOLOGICAL_ORGANIZATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "Not opened by the reviewer (the site blocks automated access); listed from its search-result summary only, so nothing is taken from it.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.thegospelcoalition.org/blogs/trevin-wax/guide-music-andrew-peterson/",
+      "title": "A Guide to the Music of Andrew Peterson",
+      "publisher": "The Gospel Coalition",
+      "sourceType": "THEOLOGICAL_ORGANIZATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "Not opened by the reviewer (the site blocks automated access); listed from its search-result summary only, so nothing is taken from it.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.helwyssocietyforum.com/reflections-on-is-he-worthy/",
+      "title": "Reflections on “Is He Worthy?”",
+      "publisher": "Helwys Society Forum",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Not opened by the reviewer (the site blocks automated access); listed from its search-result summary only, so nothing is taken from it.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.gettymusic.com/fhotm-april24",
+      "title": "Favourite Hymn of the Month, April 2024: Is He Worthy?",
+      "publisher": "Getty Music",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Writers and 2018 date, the call-and-response design and how the congregation takes part, and a reflection on what the hymn teaches about sorrow and resurrection.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.thebereantest.com/andrew-peterson-is-he-worthy",
+      "title": "Andrew Peterson – Is He Worthy?",
+      "publisher": "The Berean Test",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "A lay doctrinal review scoring it 9.5/10, mapping each section to Scripture and cautioning that the imagery is heavy going for a newcomer.",
+      "assessesContent": true
+    }
+  ]
+}

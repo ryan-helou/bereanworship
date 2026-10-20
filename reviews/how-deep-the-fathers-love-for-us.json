@@ -1,0 +1,277 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "How Deep the Father's Love for Us",
+    "artist": "Stuart Townend",
+    "artistType": "INDIVIDUAL",
+    "album": "My First Love",
+    "releaseYear": 1996,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Words and music by Stuart Townend; the copyright line is dated 1995 and the publisher is Thankyou Music, administered by Capitol CMG Publishing outside the United Kingdom and Europe and by Integrity Music within them; CCLI 1558110. It was first printed in The Best of Stoneleigh (Kingsway, 1996) as a melody line with keyboard accompaniment and guitar chords rather than as a four-part hymnal score, and first recorded on the live Stoneleigh International Bible Week album My First Love, taped at the National Agricultural Centre in Warwick in summer 1996 and released on 4 October 1996. The list's guess of Stuart Townend is correct for both the writer and the recording churches first knew, though many congregations have met the hymn through later recordings by Selah, Fernando Ortega and Austin Stone Worship. Townend's own account is that he had written contemporary worship songs without thinking of himself as a hymn writer, felt prompted to attempt a hymn, and wrote while meditating on what it cost the Father to give up his Son and on his own complicity: he reckons he would have been in the crowd calling for the crucifixion. He says the melody came quickly and the words took much longer. Reviewed as the song, not as any particular recording."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Three stanzas on one tune, with no chorus and no refrain; nothing in the hymn returns. The first stanza is in the third person about the Father and the Son: the Father's love is too vast to measure, shown in giving his only Son to make a wretch into his treasure, and then, in a single unqualified clause, the Father is said to have averted his face from the Son while the Son bore the sin of the world. The second stanza moves to the first person and to the foot of the cross: the singer's own sin is on Christ's shoulders, the singer puts his own voice among those mocking, he states that it was his sin that kept Christ there until the work was completed, and that Christ's dying breath gave him life and the work is finished. The third stanza renounces boasting in any gift, power or wisdom and boasts instead in Christ's death and resurrection; it asks why the singer should profit from what Christ earned, concedes that he cannot answer, and rests on the claim that Christ's wounds paid his ransom. God is spoken about throughout and never addressed.",
+    "claims": [
+      {
+        "claim": "The Father's love is beyond measuring, and he gave his only Son in order to make a wretch his treasure.",
+        "subject": "The love of the Father",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Father averted his face from the Son while the Son was bearing the sin of the world.",
+        "subject": "The Father and the Son at the cross",
+        "location": "VERSE_1",
+        "locationDetail": "the closing couplet",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer's own sin was laid on Christ as he hung on the cross.",
+        "subject": "Imputation of sin to Christ",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer places his own voice among those who mocked Christ.",
+        "subject": "Human guilt",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "It was the singer's sin that held Christ on the cross until the work was completed, and Christ's death gave the singer life.",
+        "subject": "Substitutionary atonement and the finished work",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer will boast in nothing of his own — no gift, no power, no wisdom — but only in Christ's death and resurrection.",
+        "subject": "Boasting only in Christ",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer cannot explain why he should benefit from what Christ earned, but knows Christ's wounds paid his ransom.",
+        "subject": "Grace and redemption",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "A transfer, and then a completion",
+        "explanation": "The second stanza puts the singer's own sin on Christ and then declares the work finished; the third stanza names the wounds as the ransom that was paid. Substitution is not left as atmosphere — the thing transferred, the one who bore it and the outcome are all stated.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Peter 2:24",
+        "scriptureRationale": "Bearing our sins in his body on the tree — the transfer and the location the second stanza asserts."
+      },
+      {
+        "category": "Grace",
+        "title": "Boasting renounced in Paul's own categories",
+        "explanation": "The third stanza refuses gift, power and wisdom by name and boasts only in Christ's death. That is not general humility; it is the specific renunciation Paul makes, and it closes off the two places a congregation usually looks for standing.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Galatians 6:14",
+        "scriptureRationale": "Boasting in nothing except the cross of Christ — the renunciation the third stanza makes line by line."
+      },
+      {
+        "category": "The love of God",
+        "title": "The Father's love is measured by what he gave",
+        "explanation": "The hymn's governing claim is that the depth of the Father's love is shown in the giving of the Son, not in the singer's experience of being loved. The title question is answered by an act outside the singer entirely.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 8:32",
+        "scriptureRationale": "God not sparing his own Son — the act by which the first stanza measures his love."
+      },
+      {
+        "category": "Sin",
+        "title": "The singer is implicated, not a spectator",
+        "explanation": "The second stanza places the singer among the mockers and makes his sin the reason Christ stayed there. That blocks the sentimental reading in which the congregation pities Jesus from a distance, and it is why the hymn's grief is confession rather than sympathy.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 53:6",
+        "scriptureRationale": "Each of us turning to our own way, with the iniquity of all laid on him."
+      },
+      {
+        "category": "Resurrection",
+        "title": "The resurrection is boasted in, not assumed",
+        "explanation": "A hymn this concentrated on the cross could easily stop at the tomb. The third stanza boasts in Christ's death and his resurrection together, which keeps the finished work from being only a death well suffered.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Corinthians 15:3-4",
+        "scriptureRationale": "Death, burial and resurrection held together as the one gospel the third stanza boasts in."
+      }
+    ],
+    "concerns": [
+      {
+        "category": "The Father and the Son",
+        "title": "The Father's turning from the Son is stated flatly, and has been objected to in print",
+        "explanation": "The first stanza states as bare fact that the Father withdrew his face from the Son while the Son bore sin. Psalm 22:24 is pressed against it in print, and theologians who hold the same view of the cross divide on the question, so it is a minor note, not an error.",
+        "songLocation": "VERSE_1",
+        "locationDetail": "the closing couplet",
+        "severity": "MINOR",
+        "centrality": "CORE",
+        "recurring": false,
+        "lyricExcerpt": null,
+        "scriptureReference": "Psalm 22:24",
+        "scriptureRationale": "The psalm of dereliction itself denies that God hid his face from the sufferer — the text reviewers set against the hymn's claim.",
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "doctrinesAffirmed": [
+      "The Father's love shown in giving the Son",
+      "The imputation of the believer's sin to Christ",
+      "Substitutionary atonement",
+      "The finished work of the cross",
+      "The resurrection of Christ",
+      "Redemption by ransom",
+      "Boasting only in Christ"
+    ],
+    "assessment": "Substitution stated without euphemism: the singer's own sin laid on Christ, the work declared finished, the wounds named as the ransom, the resurrection boasted in alongside the death. One clause is contested. The first stanza says as bare fact that the Father turned from the Son, which is a claim about the relations of Father and Son, and Psalm 22:24 has been pressed against it in print. It is not repeated, and the stanza's frame is the Father's love, but it is graded rather than waived."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "One tune, three stanzas, nothing to learn twice",
+        "explanation": "There is no chorus, no bridge and no repeated hook. A congregation that has the first stanza has the whole hymn, and the text advances every line instead of circling.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Written for Good Friday and the table",
+        "explanation": "The hymn moves from the Father's giving to the singer's guilt to the finished ransom, which is the order a communion service or a Good Friday gathering needs. It gives a room something to confess, not only something to admire.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Original key D; arrangements circulate in B flat, E flat, G and D flat. The melody spans widely and each stanza climbs, so set the key for the room. No chart was read, so the pitches are not stated.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "D (original); also Bb, Eb, G, Db",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "NONE",
+    "repetitionAssessment": "There is no refrain and no repeated line. Every stanza says something the previous one did not, and nothing in the hymn is sustained by saying it again.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "A text a congregation can carry, in a form that does not make it easy. Three long stanzas with no refrain mean the room is reading rather than anticipating, and the melody's wide span and rising lines are why the hymn is so often programmed as a solo or a choir item. Sung slowly, in a key chosen for ordinary voices, it works congregationally; taken at its recorded pitch it becomes something the church listens to. Suited to Good Friday, to communion, and to any service where confession precedes assurance."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "The Father's giving, the singer's guilt, the singer's boast",
+        "explanation": "Each stanza has one job and they run in order, so the argument is visible without being announced. A hearer can say afterwards what each stanza claimed.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Diction",
+        "title": "Concrete nouns for the whole doctrine",
+        "explanation": "A wretch, shoulders, scoffers, a dying breath, wounds, a ransom. The hymn carries imputation, substitution and redemption without a single abstract term, which is why it survives being sung by people who could not define them.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "MODERATE",
+    "assessment": "Clear line by line and concrete throughout. The one place a hearer can be left with the wrong picture is the first stanza's clause about the Father and the Son, which is stated as bare fact and qualified nowhere; everything after it is plain. The third stanza's refusal to explain why the singer should benefit reads as wonder, not agnosticism, since the next line names the ransom."
+  },
+  "synthesis": {
+    "summary": "Three stanzas of substitution stated plainly: the singer's own sin laid on Christ, the work declared finished, the wounds named as the ransom, and the resurrection boasted in alongside the death. The first stanza also states, as bare fact, that the Father turned from the Son while he bore sin — the hymn's one contested claim, answered in print from Psalm 22:24. No refrain; nothing repeats.",
+    "themes": [
+      "Cross",
+      "Christ",
+      "Grace",
+      "Sin",
+      "Resurrection",
+      "God"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Romans 8:32",
+        "relevance": "God not sparing his own Son — the act by which the first stanza measures the Father's love."
+      },
+      {
+        "reference": "Psalm 22:24",
+        "relevance": "God not hiding his face from the afflicted — the text set against the first stanza's claim."
+      },
+      {
+        "reference": "Matthew 27:46",
+        "relevance": "The cry of dereliction, which the hymn's disputed clause is attempting to account for."
+      },
+      {
+        "reference": "1 Peter 2:24",
+        "relevance": "Bearing our sins in his body on the tree — the transfer the second stanza asserts."
+      },
+      {
+        "reference": "Galatians 6:14",
+        "relevance": "Boasting in nothing but the cross — the renunciation the third stanza makes."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.hymnologyarchive.com/how-deep-the-fathers-love-for-us",
+      "title": "How Deep the Father's Love for Us",
+      "publisher": "Hymnology Archive",
+      "sourceType": "ACADEMIC",
+      "credibilityTier": "TIER_2",
+      "establishes": "Hymnological essay: the 1995 copyright, 1996 Kingsway printing and Stoneleigh recording, the hymn's scriptural basis, Christopher Idle's appraisal, and the published dispute over the first stanza.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.stuarttownend.co.uk/song/how-deep-the-fathers-love-for-us/",
+      "title": "How deep the Father's love",
+      "publisher": "Stuart Townend",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "The writer's own account: Thankyou Music, 1995, and his intention to write the cross from the cost to the Father, with his own complicity in view. Offers no answer to the published objection.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.thebereantest.com/stuart-townend-how-deep-the-fathers-love-for-us",
+      "title": "Is 'How Deep the Father's Love for Us' Biblical?",
+      "publisher": "The Berean Test",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "The objection set out at length: argued from Psalm 22:24 and against the use of Habakkuk 1:13, with a reworded line proposed. Scores the hymn 9/10 otherwise and commends its gospel content.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.psephizo.com/biblical-studies/did-jesus-die-to-satisfy-gods-wrath/",
+      "title": "Did Jesus die to 'satisfy God's wrath'?",
+      "publisher": "Psephizo (Ian Paul)",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_2",
+      "establishes": "A theologian's objection to the hymn image of the Father turning from the Son as dividing the Trinity, citing Rishmawy and Calvin. Raised while discussing a different Townend text.",
+      "assessesContent": true
+    }
+  ]
+}

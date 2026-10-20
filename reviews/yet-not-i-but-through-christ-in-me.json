@@ -1,0 +1,277 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Yet Not I But Through Christ In Me",
+    "artist": "CityAlight",
+    "artistType": "GROUP",
+    "album": "Yet Not I",
+    "releaseYear": 2018,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Words and music by Jonny Robinson, Rich Thompson and Michael Farren, copyright 2018 Farren Love And War Publishing, Integrity's Alleluia! Music and CityAlight Music (admin. Integrity Music); CCLI 7121852. The list's guess of CityAlight is correct: CityAlight is the music ministry of St Paul's Anglican Church, Castle Hill, in the Diocese of Sydney, and the song is the title track of their November 2018 EP. Robinson and Thompson told Tim Challies in December 2018 that this one took about twelve weeks to write, that they treat singability as a first-order concern because a complicated tune distracts a congregation, and that they regard songwriters as carrying a responsibility close to a preacher's because songs form what people believe. In the same interview they described the hymn as holding together the mystery of Christ indwelling the believer, real human labour that is nevertheless never done alone, and the assurance that Christ will bring his own to glory. PraiseCharts lists the original key as C with arrangements in Bb, C, D and E. Reviewed as the song, not as any one recording of it."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "Four verses and no separate chorus. Each verse ends with the same two-part cadence: a confession introduced by a formula of holding fast, then the title line, repeated. The voice is first person singular from first line to last, but Christ is the grammatical subject of nearly every predicate; the singer appears almost exclusively as the one acted upon. The first verse calls Jesus himself the grace God gives and the singer's redeemer, says heaven holds nothing greater than him, and identifies him as the substance of the singer's joy, righteousness, freedom, love and peace, with the singer's life bound wholly to his. The second verse sets a dark night against the Saviour's remaining presence, says the singer works on both weak and rejoicing because God's power is shown in his need, and identifies Christ as the shepherd leading him through the darkest valley. The third verse states that the singer dreads no fate because he is forgiven and the price has been paid, that Jesus suffered and died to secure his pardon and was raised to defeat death, that his sin has been conquered, and that Jesus is the sole basis of his appeal to God. The fourth verse turns to perseverance and glory: a longing to follow, Christ's promise to bring him home, daily renewal, standing before the throne, glory ascribed to Christ for ever, and the same confession still being made when his course is finished. The Holy Spirit is never named, and nothing is said about the church.",
+    "claims": [
+      {
+        "claim": "Jesus is himself the grace God gives, and heaven holds nothing greater than him.",
+        "subject": "Grace and the sufficiency of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is the singer's righteousness, freedom, joy, love and peace, and the singer's life is wholly bound to his.",
+        "subject": "Union with Christ and imputed righteousness",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "In darkness the believer is not forsaken, because the Saviour stays beside him and leads him through the deepest valley.",
+        "subject": "Providence and the perseverance of the saints",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's power is displayed precisely in the believer's weakness, so he labours on both weak and rejoicing.",
+        "subject": "Strength in weakness",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus suffered and died to secure the singer's pardon, and was raised to defeat death.",
+        "subject": "Substitutionary atonement and the resurrection",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer's sin has been conquered, his future is secure, and Jesus is the sole basis of his appeal to God.",
+        "subject": "Justification and assurance",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ has promised to bring the believer home, renews him day by day, and will set him before the throne with joy.",
+        "subject": "Sanctification and glorification",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Whatever the believer does or becomes is not his own doing but Christ's work in him, and all glory belongs to Christ for ever.",
+        "subject": "Grace and the glory of Christ",
+        "location": "REFRAIN",
+        "locationDetail": "the title line closing every verse",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "The cross stated as purchase, the tomb as defeat",
+        "explanation": "The third verse does not gesture at Calvary. It says Jesus suffered and died in order to secure the singer's pardon, that the price has been paid, and that he was raised to defeat death. Substitution and resurrection are both named, and assurance is drawn from them rather than asserted.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Corinthians 15:3-4",
+        "scriptureRationale": "Christ died for our sins and was raised — the two facts on which the verse rests its freedom from dread."
+      },
+      {
+        "category": "Grace",
+        "title": "The refrain denies the singer any credit at all",
+        "explanation": "Every verse ends by taking back whatever the singer might have claimed and attributing it to Christ within him. It is Galatians 2:20 made the hinge of the whole hymn, so that nothing in four verses can be heard as the singer's achievement.",
+        "songLocation": "REFRAIN",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Galatians 2:20",
+        "scriptureRationale": "No longer I who live but Christ who lives in me — the sentence the title line compresses."
+      },
+      {
+        "category": "Christology",
+        "title": "Christ named as the righteousness, not the means to it",
+        "explanation": "The first verse does not say Christ gives joy, freedom and righteousness; it says he is them. The believer's standing is identified with a person rather than with a transaction he underwent, which is the stronger and the harder claim.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Corinthians 1:30",
+        "scriptureRationale": "Christ made to us wisdom, righteousness, sanctification and redemption — the identification the verse makes."
+      },
+      {
+        "category": "Suffering",
+        "title": "Weakness is where the power shows, not an obstacle to it",
+        "explanation": "The second verse sets darkness and weakness alongside labour and rejoicing without resolving the tension, and gives the reason: the need is the occasion of the power. It neither denies the dark nor promises its removal.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "2 Corinthians 12:9",
+        "scriptureRationale": "Power made perfect in weakness, so that weakness is boasted in — exactly the logic of the verse."
+      },
+      {
+        "category": "Perseverance",
+        "title": "The keeping is Christ's work, and it reaches the throne",
+        "explanation": "The fourth verse grounds the believer's arrival in Christ's own promise and his daily renewing, not in the longing to follow that opens it. The hymn ends on glorification rather than on resolve.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Philippians 1:6",
+        "scriptureRationale": "He who began the work will complete it at the day of Christ — the ground the verse gives for standing before the throne."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Union with Christ",
+      "Substitutionary atonement",
+      "The bodily resurrection of Christ",
+      "Justification by faith alone",
+      "Imputed righteousness",
+      "Assurance of salvation",
+      "Progressive sanctification",
+      "The perseverance and final glorification of believers"
+    ],
+    "assessment": "Four verses of doctrine with nothing in them to correct. The cross is stated as a purchase and the resurrection as a conquest of the grave; righteousness, freedom and joy are identified with Christ himself rather than with the singer's condition; weakness is given its biblical function; and the closing line of every verse strips the singer of any credit. The one reach it does not make is the Holy Spirit, who is never named although the hymn's subject is Christ indwelling the believer; the church is likewise absent."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Corporate voice",
+        "title": "A credal I, not a testimonial one",
+        "explanation": "The hymn is first person singular throughout, but what the singular asserts is who Christ is and what he has done; there is no episode from anyone's biography in it. Three hundred people saying it are making one confession, not three hundred reports.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Accessibility",
+        "title": "A tune deliberately kept simple",
+        "explanation": "The writers say they treat a simple melody as a doctrinal concern, since a complicated one draws attention to itself, and that this hymn took twelve weeks largely for that reason. It is a slow 4/4 published in four keys and needs no band.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Built for the end of a hard week",
+        "explanation": "Assurance, suffering and perseverance are all in it, so it serves a congregation at a funeral, after a confession of sin, or at the close of a service where people need the ground of their standing restated.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Original key C, 4/4, slow; also published in Bb, D and E. The melody is stepwise and repeats across all four verses, but the lines are long and word-dense. No chart was read for this review.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "C (original); also published in Bb, D and E",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "One line returns at the end of every verse and is sung twice each time. It is the hymn's thesis and the correction of everything before it, so the repetition is doing the song's main work.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in voice and in construction: one credal first person, a stepwise tune the writers worked twelve weeks to keep simple, four published keys, and no dependence on an arrangement. The difficulty is density rather than pitch — the lines are long and carry a great deal at once, so a congregation meeting it for the first time will sing the refrain before it has caught the verses. Worth teaching rather than dropping in."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Every verse is corrected by its own last line",
+        "explanation": "The verse states what is true of the singer; the closing line says whose doing it is. The form makes the hymn's point four times without the words having to argue for it, and a hearer cannot miss where the credit is being placed.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Diction",
+        "title": "Doctrine in words a newcomer already owns",
+        "explanation": "Pardon, forgiven, raised, paid, home. The hymn carries justification, union and glorification without a technical term in it, and its one slightly literary claim, about heaven holding nothing greater, explains itself from context.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Nothing in it is ambiguous. The hymn's one potentially startling claim, that heaven holds nothing greater than Christ, is a concessive overstatement of Romans 8:32 and is read that way by every published assessment of it. The weight on the hearer is the amount said per line, not any doubt about what is meant."
+  },
+  "synthesis": {
+    "summary": "A modern hymn that states the cross as a purchase and the resurrection as the overthrow of the grave, identifies the believer's righteousness and freedom with Christ himself, gives weakness its biblical function, and ends each verse by denying the singer any credit. The Holy Spirit is never named despite the theme of Christ indwelling. Credal first person, deliberately simple tune, dense lines.",
+    "themes": [
+      "Christ",
+      "Grace",
+      "Assurance",
+      "Cross",
+      "Resurrection",
+      "Faith",
+      "Hope",
+      "Suffering"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Galatians 2:20",
+        "relevance": "No longer I who live but Christ in me — the sentence the title line and the whole hymn turn on."
+      },
+      {
+        "reference": "1 Corinthians 15:3-4",
+        "relevance": "Christ died for our sins and was raised — the third verse's two facts and the ground of its assurance."
+      },
+      {
+        "reference": "1 Corinthians 1:30",
+        "relevance": "Christ made to us righteousness and redemption — the identification the first verse makes."
+      },
+      {
+        "reference": "2 Corinthians 12:9",
+        "relevance": "Power made perfect in weakness — the reason the second verse gives for labouring on."
+      },
+      {
+        "reference": "Psalm 23:4",
+        "relevance": "The shepherd's presence in the darkest valley — the image the second verse uses."
+      },
+      {
+        "reference": "Philippians 1:6",
+        "relevance": "The work begun being carried to completion — the ground of the fourth verse's confidence."
+      },
+      {
+        "reference": "Romans 8:32",
+        "relevance": "God having given his Son, how will he not give all else — the sense of the first verse's claim about heaven."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://praisecharts.com/songs/details/73121/yet-not-i-but-through-christ-in-me",
+      "title": "Yet Not I But Through Christ In Me sheet music",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Published arrangement: writers, copyright line, CCLI 7121852, original key C, available keys, 4/4 meter and slow tempo.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://challies.com/interviews/get-to-know-cityalight-and-their-new-album",
+      "title": "Get to Know CityAlight and Their New Album",
+      "publisher": "Challies.com",
+      "sourceType": "INTERVIEW",
+      "credibilityTier": "TIER_1",
+      "establishes": "Robinson and Thompson's own December 2018 account of what this hymn holds together doctrinally, the twelve weeks it took, and their reasons for keeping melodies simple.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.thebereantest.com/cityalight-yet-not-i-but-through-christ-in-me",
+      "title": "CityAlight – Yet Not I But Through Christ in Me",
+      "publisher": "The Berean Test",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "A published lay doctrinal review scoring the hymn 10/10, with a withdrawn objection about glory ascribed to the Son and a reader's note that the Spirit is never named.",
+      "assessesContent": true
+    }
+  ]
+}

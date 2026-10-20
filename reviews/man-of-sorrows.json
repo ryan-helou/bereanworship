@@ -1,0 +1,276 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Man of Sorrows",
+    "artist": "Hillsong Worship",
+    "artistType": "GROUP",
+    "album": "Glorious Ruins",
+    "releaseYear": 2012,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Words and music by Matt Crocker and Brooke Ligertwood, then credited as Brooke Fraser; copyright 2012 Hillsong Music Publishing, administered by Capitol Christian Music Publishing; CCLI 6476063; published in F, 4/4, a medium-slow ballad. Released first as a free Easter download in 2012 and then as track nine of Hillsong Worship's live album Glorious Ruins (2 July 2013 internationally, 28 June in Australia and New Zealand; Hillsong, Capitol and Sparrow), led on that recording by Jad Gillies and Annie Garratt. The title is Isaiah's description of the suffering servant in Isaiah 53:3. Some catalogues file the song under Hillsong United rather than Hillsong Worship; Glorious Ruins is a Hillsong Worship record. It is distinct from Philip Bliss's 1875 hymn of the same title, with which sources sometimes confuse it. The list's guess of Hillsong Worship is correct."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Two narrative verses, a chorus, a bridge and a closing verse. The first verse names Christ by Isaiah's title and as the Lamb of God, says he was betrayed by one of his own, and states that the sin of man and the wrath of God were laid on Jesus; it then describes him silent under accusation, beaten and mocked, bowing to the Father's will and crowned with thorns. The second verse says the Son was sent from heaven to purchase, redeem and reconcile the very people who nailed him to the cross. The chorus is addressed to Christ: the cross is named as the singer's salvation and as the place where his love was poured out, and the singer answers with praise and honour. The bridge states that the singer's debt is paid in full by Christ's blood, that the curse of sin has no hold on him, and that whoever the Son sets free is free indeed, which is John 8:36. The closing verse reports the stone rolled away and the empty tomb and says he is risen. The verses speak about Christ in the third person; the chorus and bridge are first person singular, but their content is what Christ did rather than how the singer feels, so the voice is that of a creed rather than a testimony. The Holy Spirit is not named and the singer's repentance is not treated.",
+    "claims": [
+      {
+        "claim": "Christ is the man of sorrows of Isaiah's prophecy and the Lamb of God, and he was betrayed by one of his own.",
+        "subject": "The person of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The sin of man and the wrath of God were laid on Jesus.",
+        "subject": "Penal substitution",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ stood silent under accusation, was beaten and mocked, and bowed to the Father's will.",
+        "subject": "The passion and the obedience of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's own Son was sent from heaven to purchase and redeem.",
+        "subject": "The incarnation and redemption",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "He was sent to reconcile the very people who crucified him.",
+        "subject": "Reconciliation",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The cross is the singer's salvation and the place where Christ's love was poured out.",
+        "subject": "The cross",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer's debt is paid in full by Christ's blood, and the curse of sin has no hold on him.",
+        "subject": "Justification and freedom from sin",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The stone was rolled away, the tomb is empty, and Christ is risen.",
+        "subject": "The resurrection",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "God's wrath named, and named as borne by Christ",
+        "explanation": "The first verse states both halves of substitution: the sin of man and the wrath of God were laid on Jesus. The second half is what most songs in common use leave out, and this one puts it in the opening lines rather than burying it.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": null,
+        "scriptureReference": "Isaiah 53:5-6",
+        "scriptureRationale": "The servant pierced for our transgressions, with the iniquity of us all laid on him — the laying the verse states."
+      },
+      {
+        "category": "Reconciliation",
+        "title": "The reconciled are the ones who killed him",
+        "explanation": "The second verse says the Son was sent to redeem and reconcile the very people who nailed him to the cross. A congregation is put in the crowd at the crucifixion and then among the reconciled, which is harder and truer than being put among the sympathetic.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": null,
+        "scriptureReference": "Romans 5:10",
+        "scriptureRationale": "Reconciled to God while we were still his enemies — the order the second verse insists on."
+      },
+      {
+        "category": "Justification",
+        "title": "A debt settled, and a freedom that does not depend on the singer",
+        "explanation": "The bridge says the debt is paid in full and that sin’s curse has no claim, and grounds the freedom in the Son’s act rather than in the singer’s grip on it. Assurance is stated as a completed transaction, not as a mood.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null,
+        "scriptureReference": "Colossians 2:13-14",
+        "scriptureRationale": "The record of debt cancelled and nailed to the cross — the settled account the bridge claims."
+      },
+      {
+        "category": "Resurrection",
+        "title": "The song does not stop at the tomb",
+        "explanation": "The closing verse reports the stone rolled away, the empty tomb and the risen Christ. A passion narrative that ends at the grave teaches half the gospel; this one spends its last section on the other half.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null,
+        "scriptureReference": "1 Corinthians 15:3-4",
+        "scriptureRationale": "Christ died, was buried and was raised — the three facts the song narrates in order."
+      },
+      {
+        "category": "Christology",
+        "title": "Isaiah's title placed on Jesus by name",
+        "explanation": "The song takes its name from the prophet's description of the suffering servant and applies it to Jesus directly, alongside the Lamb of God and the Father's own Son. The identification is made rather than assumed.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null,
+        "scriptureReference": "Isaiah 53:3",
+        "scriptureRationale": "The man of sorrows, acquainted with grief, whom the song names as Jesus."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Penal substitutionary atonement",
+      "The deity and sending of the Son",
+      "The obedience of Christ to the Father",
+      "Reconciliation of enemies",
+      "Justification as a debt paid",
+      "Freedom from the curse of sin",
+      "The resurrection of Christ"
+    ],
+    "assessment": "Among the fullest statements of substitution in common contemporary use. Sin and wrath are both named and both said to have fallen on Jesus; the sending is purposive; the reconciliation reaches his executioners; the debt is called settled; and the song ends at the empty tomb rather than the cross. Bob Kauflin lists it among songs that already say what he wants an atonement song to say. The first person singular is credal, not testimonial: its content is Christ’s act. The Spirit is not named."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "A hymn's shape in a modern setting",
+        "explanation": "Narrative verses, a chorus that responds, a bridge that states the benefit, and a closing verse that moves to the resurrection. Reviewers note that the shape suits congregations of either tradition because the form does the teaching.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      },
+      {
+        "category": "Use",
+        "title": "Good Friday through Easter morning",
+        "explanation": "It was written for Easter and still fits that arc exactly: the passion in the verses, the benefit in the bridge, the empty tomb at the close. It also sits well before the Lord’s table.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR",
+        "lyricExcerpt": null
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Published in F, a medium-slow ballad in 4/4, with transpositions offered. The bridge sits higher than the verses, so test that section on the room rather than on the leader.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "F (original, per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns and the bridge repeats its claim that the debt is paid. What comes round again is a confession about what Christ did rather than a hook, and nothing is extended past its content.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "A slow, sustained ballad, but congregational in structure: no solo material, a hymn’s narrative order, and a bridge the room can carry. The one practical caution is the climb into the bridge, which is where a congregation drops out if the key has not been lowered. Place it from Good Friday to Easter morning, or before communion, where a congregation needs to say in order what happened at the cross and then at the tomb."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Told in order, betrayal to empty tomb",
+        "explanation": "The song follows the events as they happened, so a hearer who knows nothing still leaves with the sequence: betrayal, trial, crucifixion, the debt settled, the stone rolled away.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      },
+      {
+        "category": "Diction",
+        "title": "The doctrine carried in plain nouns",
+        "explanation": "Sin, wrath, blood, debt, curse, free. There is no abstraction to decode and no phrase that could be taken to mean something else, which is unusual for a song this emotionally pitched.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear from first hearing and unusually concrete. A hearer knows exactly what the song says happened at the cross, to whom, and on whose behalf, and nothing in it rewards a second, different reading."
+  },
+  "synthesis": {
+    "summary": "A narrative hymn taking its title from Isaiah 53:3. The first verse states that the sin of man and the wrath of God were laid on Jesus, the second that he was sent to redeem and reconcile the people who crucified him, the bridge that the debt is paid and sin's curse has no hold, and the closing verse reports the empty tomb. The singular voice is credal rather than testimonial. The Spirit is not named.",
+    "themes": [
+      "Cross",
+      "Christ",
+      "Resurrection",
+      "Salvation",
+      "Sin",
+      "Grace"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Isaiah 53:3-6",
+        "relevance": "The title the song takes and the laying of iniquity the first verse states."
+      },
+      {
+        "reference": "Romans 5:10",
+        "relevance": "Enemies reconciled to God — the second verse’s claim about his executioners."
+      },
+      {
+        "reference": "Colossians 2:13-14",
+        "relevance": "The record of debt cancelled at the cross, which the bridge calls paid in full."
+      },
+      {
+        "reference": "John 8:36",
+        "relevance": "Whoever the Son sets free is free indeed — the bridge’s closing claim."
+      },
+      {
+        "reference": "1 Corinthians 15:3-4",
+        "relevance": "Died, buried and raised — the sequence the song narrates to its close."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/23872",
+      "title": "Man of Sorrows chart listing",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Authorship by Crocker and Ligertwood, CCLI 6476063, original key F, 4/4, the album, and the 2012 Hillsong copyright line.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Glorious_Ruins",
+      "title": "Glorious Ruins",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Album release dates and labels, the song as track nine with Jad Gillies and Annie Garratt leading, and its earlier release as a free Easter download.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.9marks.org/article/ten-atonement-songs-you-should-consider-singing/",
+      "title": "Ten Atonement Songs You Should Consider Singing",
+      "publisher": "9Marks",
+      "sourceType": "THEOLOGICAL_ORGANIZATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "Bob Kauflin names this song among those already expressing substitution, with no caution attached, and sets out the criteria an atonement song has to meet.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.logos.com/grow/man-of-sorrows-an-old-hymn-reimagined-song-analysis/",
+      "title": "“Man of Sorrows”: An Old Hymn Reimagined (Song Analysis)",
+      "publisher": "Logos (Word by Word)",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_3",
+      "establishes": "A song analysis reading it through Isaiah 53, placing the passion in the verses, the believer’s benefit in the bridge and the resurrection at the close, and distinguishing it from Bliss’s hymn.",
+      "assessesContent": true
+    }
+  ]
+}

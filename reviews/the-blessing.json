@@ -1,0 +1,276 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "The Blessing",
+    "artist": "Kari Jobe, Cody Carnes & Elevation Worship",
+    "artistType": "COLLECTIVE",
+    "album": "Graves Into Gardens",
+    "releaseYear": 2020,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Chris Brown, Cody Carnes, Kari Jobe and Steven Furtick; copyright 2020 Capitol CMG Paragon, Writers Roof Publishing, Worship Together Music and Kari Jobe Carnes Music (admin. Capitol CMG Publishing), music by Elevation Worship Publishing (admin. Essential Music Publishing); CCLI 7147007; published in B at about 70bpm in 4/4. Written in a session at Elevation Church on 27 February 2020 and first led by Jobe and Carnes at the Ballantyne campus on 1 March 2020, where the recording was made; released as a single on 20 March 2020, the lead single from Elevation Worship's Graves Into Gardens and from Jobe's live album The Blessing. The live cut runs about 8:34 against a 4:35 radio edit. GMA Dove Awards for Worship Recorded Song of the Year (2020) and Song of the Year (2021), a Grammy nomination, and RIAA double platinum. Through 2020 it was re-recorded by churches worldwide, including a Pittsburgh version, a UK version drawing on more than 65 churches, Canadian and Aotearoa versions, and a 2021 compilation in 257 languages. The list's guess was right in substance; the billing credits Jobe and Carnes with Elevation Worship."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ABOUT_GOD",
+    "structuralNotes": "An opening section, a chorus of repeated affirmation, and three added sections stacked at the end. The opening sets the priestly benediction of Numbers 6:24-26 almost word for word: that the Lord bless the hearer and keep them, that he make his face shine on them and be gracious to them, that he turn his face toward them and give them peace. The chorus is the word amen, repeated. The three sections that follow are not in Numbers 6. The first asks that God's favour rest on the hearer and on a thousand generations, on their family, their children and their children's children, taking up the covenant language of Exodus 20:6, Deuteronomy 7:9 and Psalm 103:17. The second asks that God's presence go before, behind, beside, around and within them, then states twice that he is with them. The third names morning and evening, coming and going, weeping and rejoicing, and states twice that he is for them. The first two thirds are in the optative, a blessing asked rather than pronounced; the closing assertions are in the indicative. The song is addressed to the hearer rather than to God, though God is the actor in every clause and is named as the Lord. Christ, the cross, the Spirit by name, sin and repentance do not appear, and no act of God in history is stated. Recorded length is carried by repeating the affirmation and each added section.",
+    "claims": [
+      {
+        "claim": "The Lord is asked to bless the hearer and to keep them.",
+        "subject": "The priestly benediction",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lord is asked to make his face shine on the hearer and to be gracious to them.",
+        "subject": "The grace of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lord is asked to turn his face toward the hearer and to give them peace.",
+        "subject": "The peace of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's favour is asked for the hearer's family and descendants, to a thousand generations.",
+        "subject": "Covenant faithfulness across generations",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's presence is asked to surround the hearer on every side and to be within them.",
+        "subject": "The presence of God",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is with the hearer.",
+        "subject": "The presence of God",
+        "location": "BRIDGE",
+        "locationDetail": "stated, not asked",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is for the hearer in every circumstance, in morning and evening, coming and going, weeping and rejoicing.",
+        "subject": "Assurance",
+        "location": "BRIDGE",
+        "locationDetail": "stated, not asked",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Scripture",
+        "title": "The priestly benediction set almost word for word",
+        "explanation": "The opening section is the Aaronic blessing with almost nothing added or smoothed. A congregation sings the exact words God gave Israel’s priests for putting his name on his people, which is a rarer thing in modern worship than it sounds.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null,
+        "scriptureReference": "Numbers 6:24-26",
+        "scriptureRationale": "The blessing the Lord commanded Aaron to speak over Israel — the text the opening section sets."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "The generational section asks for a covenant promise, not a sentiment",
+        "explanation": "Blessing on a thousand generations is not invented warmth; it is the covenant formula of Exodus 20 and Deuteronomy 7, where God binds himself to steadfast love over that span. The song asks God for the thing he has already said he does.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null,
+        "scriptureReference": "Deuteronomy 7:9",
+        "scriptureRationale": "God keeping covenant and steadfast love to a thousand generations — the promise the section takes up."
+      },
+      {
+        "category": "Assurance",
+        "title": "Presence and favour, said plainly at the close",
+        "explanation": "The last sections stop asking and start stating: that God is with his people and that he is for them, across weeping as well as rejoicing. What they state is what Paul says of those who are in Christ, and they state it without qualification or hedging.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null,
+        "scriptureReference": "Romans 8:31",
+        "scriptureRationale": "If God is for us, who can be against us — the assurance the closing section asserts."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God's blessing and keeping of his people",
+      "The grace and peace of God",
+      "God's covenant love to a thousand generations",
+      "The omnipresence of God",
+      "God's indwelling presence",
+      "God's favour toward his people"
+    ],
+    "assessment": "Nothing here is false; the limit is what it does not contain. The opening is Numbers 6 almost verbatim, and the added sections ask for blessings Scripture itself asks for. The published objection, that an outsider could hear unconditional favour without repentance, charges an absence rather than an assertion: the song nowhere says God's favour rests on the unrepentant, and for two thirds of its length it asks rather than declares. But no act of God is stated, and Christ, the cross and sin are absent."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Corporate voice",
+        "title": "The church blesses itself in God's own words",
+        "explanation": "There is no first person singular in the song. The gathered church speaks a blessing over itself and over whoever is in front of it, which is what a benediction is for, and no line reports how anyone feels.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      },
+      {
+        "category": "Accessibility",
+        "title": "A short text an untrained room has by the second pass",
+        "explanation": "The sung text is brief and mostly repeated. That is why congregations with no rehearsal took it up in hundreds of languages within months, and why it travels into settings a more intricate song could not reach.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      },
+      {
+        "category": "Use",
+        "title": "A sung benediction for the end of a service",
+        "explanation": "Its grammar is a blessing spoken over people, so it does the work a closing benediction does, and serves as well over a particular group being sent out, a congregation at a baptism or a family.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR",
+        "lyricExcerpt": null
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published in B at about 70bpm, with transpositions offered. The melody is short and repeated, but B is high for a congregation and most rooms will want it lower.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "B (original, per PraiseCharts and the Elevation recording)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "Each added section says something the last did not. But the recorded length, about eight and a half minutes live against a four-and-a-half-minute edit, rests on repeating them and the sung amen.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Built for a room rather than a stage: no solo material, a short text, and a tune congregations in hundreds of languages learned without rehearsal. Two practical matters. The published key is high, so transpose before testing it. And the song is long by design; a church using it as a closing blessing will want the shorter shape. Because its grammar is a blessing spoken over people rather than praise offered to God, it belongs at the end of a service or over a group being sent, not in a set of praise songs."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Diction",
+        "title": "Plain words and no figures to decode",
+        "explanation": "Bless, keep, shine, gracious, peace, with you, for you. Every clause says what it means on first hearing, and the one image in the song, God turning his face toward someone, is the Scripture’s own and carries its own sense.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      },
+      {
+        "category": "Structure",
+        "title": "One movement, from asking to saying",
+        "explanation": "The song begins by asking God for blessing and ends by telling the hearer that he is with them and for them. The shape is easy to follow and a hearer always knows which of the two is happening.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "MODERATE",
+    "assessment": "Clear line by line, with one thing genuinely unspecified: the ground on which God is with and for the hearer, and who the hearer is. In a gathered church the words land on the church, which is where they belong; sung over a general audience they are under-specified, because the song never says that this favour comes through Christ. That is what a leader has to supply, and it is a matter of framing rather than of correction."
+  },
+  "synthesis": {
+    "summary": "A sung benediction: the priestly blessing of Numbers 6:24-26 set almost word for word, a repeated amen, then three added sections asking God's favour on the hearer's descendants to a thousand generations and his presence on every side, closing by stating that he is with them and for them. Nothing false is said. No act of God is stated, and Christ, the cross and sin do not appear.",
+    "themes": [
+      "God",
+      "Grace",
+      "Providence",
+      "Assurance",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Numbers 6:24-26",
+        "relevance": "The priestly blessing the opening section sets almost word for word."
+      },
+      {
+        "reference": "Deuteronomy 7:9",
+        "relevance": "Covenant love to a thousand generations — the promise behind the generational section."
+      },
+      {
+        "reference": "Psalm 103:17-18",
+        "relevance": "God's steadfast love to children's children, and the covenant it is attached to."
+      },
+      {
+        "reference": "Psalm 139:5-10",
+        "relevance": "God hemming his people in behind and before — the presence the second added section asks for."
+      },
+      {
+        "reference": "Romans 8:31",
+        "relevance": "God being for his people, which the closing section states rather than asks."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Blessing_(song)",
+      "title": "The Blessing (song)",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writer credits, the February 2020 writing session and first performance, key and tempo, running times, charts, awards and the worldwide re-recordings.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.praisecharts.com/songs/details/74573",
+      "title": "The Blessing (Live) chart listing",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "CCLI 7147007, original key B, 4/4, the album and the full 2020 copyright and publisher line.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://api.crossref.org/works/10.3390/rel16070908",
+      "title": "\"The Blessing\" as Prophetic Declaration and Communal Prayer (Religions 16:7, 908)",
+      "publisher": "Religions (MDPI), via the Crossref record",
+      "sourceType": "ACADEMIC",
+      "credibilityTier": "TIER_1",
+      "establishes": "Peer-reviewed analysis by Hiwee Leng Toh, 2025: the song is a sung benediction grounded in Numbers 6:24-26 whose repeated amen seals it. MDPI refused the fetch; read via Crossref.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.premierchristianity.com/home/explained-the-meaning-of-the-blessing-lyrics/2814.article",
+      "title": "Explained: The meaning of The Blessing lyrics",
+      "publisher": "Premier Christianity",
+      "sourceType": "JOURNALISM",
+      "credibilityTier": "TIER_3",
+      "establishes": "Lois Tverberg on what the Numbers 6 terms mean — blessing, keeping, the face, grace and shalom — and a reading of the 2020 UK recording as the church speaking God’s promise.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.reformedworship.org/resource/make-me-blessing-benedictions-are-more-pious-wishes",
+      "title": "Make Me a Blessing: Benedictions Are More Than Pious Wishes",
+      "publisher": "Reformed Worship (Calvin Institute of Christian Worship)",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "Emily Brink on the difference between a blessing asked for and one pronounced, and on who may pronounce one — the category this song sits in. Does not discuss the song.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.thebereantest.com/elevation-worship-feat-cody-carnes-kari-jobe-the-blessing",
+      "title": "Is 'The Blessing' Biblical?",
+      "publisher": "The Berean Test",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "The published objection that an outsider could hear favour without repentance, the passages behind each section, and a 9.5/10 verdict after revision.",
+      "assessesContent": true
+    }
+  ]
+}

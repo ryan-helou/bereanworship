@@ -1,0 +1,284 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "This Is Amazing Grace",
+    "artist": "Phil Wickham",
+    "artistType": "INDIVIDUAL",
+    "album": "The Ascension",
+    "releaseYear": 2013,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Words and music by Phil Wickham, Josh Farro and Jeremy Riddle; copyright 2012 Phil Wickham Music, Seems Like Music and Sing My Songs (admin. Music Services), WB Music Corp. and Can You Take Me Higher (admin. Essential Music Publishing); CCLI 6333821. Wickham's account is that he and a friend wrote the chorus years earlier and he forgot it; Jeremy Riddle of Bethel Church sent him the demo about two years later, rewrote the verses and recorded it for Bethel Music's For the Sake of the World. Wickham then recorded his own faster version as the lead single from The Ascension (6 August 2013, Fair Trade Services). That is the recording churches know: Billboard named it the number one Christian Airplay song of 2014, and the RIAA certified it platinum in 2018. Wickham cites 2 Corinthians 6:18 and Revelation 5:11-13 as sources. Reviewed as the song, not as any particular recording. The list's guess of Phil Wickham is correct for the recording in common use, though the first release was Bethel's."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Two verses, a chorus and a repeated bridge. The verses are built from rhetorical questions about God in the third person: the first that his voice shakes the earth and leaves those who hear it trembling, that he reigns in power and that his might is the ground of wonder; the second that he brings disorder back into order and makes the orphan a son and daughter, naming him the King of glory and the King above all kings. The chorus turns and addresses Christ directly: that he took the place that was the singer's and bore the cross the singer had coming, that he laid down his life so the singer would be set free, and that the singer sings for what he has done. The bridge is Revelation 5's acclamation in two lines, that the Lamb who was slain is worthy and the King who conquered the grave is worthy, sung several times over. God is spoken about in the verses and addressed in the chorus and bridge, where he is named as Jesus and as the Lamb. The first verse uses the plural for those who hear him; the chorus is first person singular, and its content is what Christ has done rather than how the singer feels. Sin is never named as such, and repentance and the Holy Spirit do not appear.",
+    "claims": [
+      {
+        "claim": "God's voice shakes the whole earth and leaves those who hear it trembling in awe.",
+        "subject": "The power and majesty of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God reigns and acts in power, and his might is the ground of the wonder the song expresses.",
+        "subject": "The sovereignty of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God brings disorder back into order.",
+        "subject": "Providence",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God makes the orphan a son and a daughter.",
+        "subject": "Adoption",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is the King of glory and the King above all other kings.",
+        "subject": "The kingship of Christ",
+        "location": "VERSE_2",
+        "locationDetail": "the closing couplet",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ took the place that belonged to the singer and bore the cross the singer had coming.",
+        "subject": "Substitutionary atonement",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ laid down his life so that the singer would be set free.",
+        "subject": "Redemption",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lamb who was slain is worthy, and the King who conquered the grave is worthy.",
+        "subject": "The worthiness of Christ and the resurrection",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "Substitution stated outright in the chorus",
+        "explanation": "The chorus does not merely admire grace. It says Christ took the place that was the singer's and bore the cross the singer had coming, and that his laid-down life is what sets the singer free. Substitution is the content of the line every congregation sings most often.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": null,
+        "scriptureReference": "2 Corinthians 5:21",
+        "scriptureRationale": "Christ made to be what we were so that we might have what is his — the exchange the chorus states."
+      },
+      {
+        "category": "Resurrection",
+        "title": "The slain Lamb and the conquered grave together",
+        "explanation": "The bridge puts Revelation 5's acclamation of the slain Lamb into the room's mouth and adds, in the same breath, that he conquered the grave. The cross is never sung here without the empty tomb attached to it.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": null,
+        "scriptureReference": "Revelation 5:12",
+        "scriptureRationale": "The heavenly acclamation of the Lamb who was slain, which the bridge repeats almost unaltered."
+      },
+      {
+        "category": "Adoption",
+        "title": "Grace described as a change of family",
+        "explanation": "The second verse says God makes the orphan a son and a daughter. Grace is given as an altered standing in a household rather than only an altered feeling, which is what Paul means when he calls it adoption.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null,
+        "scriptureReference": "Galatians 4:4-5",
+        "scriptureRationale": "Redemption issuing in adoption as sons — the move the second verse makes in one line."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "God's power is established before his grace is praised",
+        "explanation": "The verses spend their whole length on who it is that stooped: the one whose voice shakes the earth and whose rule is over every king. By the time the chorus calls grace amazing, the song has already said who is giving it, which is what makes the word amazing do any work.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null,
+        "scriptureReference": "Psalm 29:3-4",
+        "scriptureRationale": "The voice of the Lord over the waters, powerful and full of majesty — the picture the first verse draws on."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Substitutionary atonement",
+      "The resurrection of Christ",
+      "The worthiness of the slain Lamb",
+      "Adoption into God’s family",
+      "The kingship of Christ over all kings",
+      "The power of God in creation",
+      "Grace as unfailing love"
+    ],
+    "assessment": "Nothing in it is false, and its centre is the gospel. The chorus states substitution plainly and the bridge adds the resurrection from Revelation 5. The line that has drawn published scrutiny is the chorus saying Christ bore the cross that was the singer's; set beside its own parallel about taking the singer's place, it restates substitution rather than confusing it with Luke 9:23, which is where the reviewers who raised it landed. The limits are scope: sin is not named, and repentance and the Spirit do not appear."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A bridge with nothing to learn",
+        "explanation": "The bridge is two short acclamations in plain words, so a congregation joins it the first time it comes round. It is the most demanding moment musically and the least demanding verbally, which is the right way for that to fall.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      },
+      {
+        "category": "Use",
+        "title": "Built for Easter and the table",
+        "explanation": "A Methodist School of Music reviewer places it in Lent and Easter for exactly this reason: it moves from God's majesty to the cross and out to the empty tomb, which is the shape of those services.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR",
+        "lyricExcerpt": null
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Wickham's recording is published in B flat and the Bethel arrangement in C. A Methodist School of Music reviewer says the original sits too high for most congregations and should be dropped.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "B flat (Phil Wickham recording); C (Bethel arrangement)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The bridge repeats a two-line acclamation drawn from Revelation 5. What is repeated is the song's confession about Christ rather than a hook, and nothing is padded.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Verse, chorus and bridge, all of it singable by the room, with no solo material and no dependence on the arrangement, which is why it crossed from radio into ordinary Sunday use. The one real practical obstacle is the published key: both the Bethel and the Wickham versions sit high, and a church should transpose down before testing it. It fits any service that moves from the greatness of God to the cross, and sits naturally at Easter or before the Lord’s table."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "The verses ask, the chorus names",
+        "explanation": "The verses pile up questions about an unnamed subject and the chorus answers by naming Jesus and saying what he did. A hearer is carried from wonder to the specific act rather than left in the wonder.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      },
+      {
+        "category": "Diction",
+        "title": "Plain nouns for the central claim",
+        "explanation": "Place, cross, life, free. The chorus carries the doctrine in words a child uses, and the one figure in the song, the orphan made a son, explains itself.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear from first hearing. The only phrase a hearer could stumble over is the chorus's talk of Christ bearing the singer's cross, which the line beside it settles by saying he took the singer's place; commenters have raised it and reviewers have answered it the same way. Otherwise the song states what it means in common words."
+  },
+  "synthesis": {
+    "summary": "Rhetorical questions about God's power in creation and his adoption of outsiders resolve into a chorus that states substitution outright — Christ took the singer's place and laid down his life to set them free — and a bridge that acclaims the slain Lamb and the risen King from Revelation 5. Sin is not named as such and the Spirit does not appear. The published key is the main practical obstacle.",
+    "themes": [
+      "Grace",
+      "Cross",
+      "Christ",
+      "Resurrection",
+      "Salvation"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "2 Corinthians 5:21",
+        "relevance": "The exchange the chorus states: Christ taking the place that was ours."
+      },
+      {
+        "reference": "Revelation 5:11-13",
+        "relevance": "The acclamation of the slain Lamb that the bridge repeats, and a source Wickham names."
+      },
+      {
+        "reference": "Galatians 4:4-5",
+        "relevance": "Redemption issuing in adoption — the second verse’s claim about orphans."
+      },
+      {
+        "reference": "Psalm 29:3-4",
+        "relevance": "The voice of the Lord in power and majesty, the picture behind the first verse."
+      },
+      {
+        "reference": "2 Corinthians 6:18",
+        "relevance": "God receiving outsiders as sons and daughters; a source Wickham names for the song."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/This_Is_Amazing_Grace",
+      "title": "This Is Amazing Grace",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Authorship by Wickham, Farro and Riddle, the writing history, the Bethel and Wickham releases, and the chart and certification record.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://methodistmessage.sg/this-is-amazing-grace/",
+      "title": "This Is Amazing Grace",
+      "publisher": "Methodist Message (Methodist Church in Singapore)",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "A denominational music department assessment of what the song teaches about creation, the cross and kingship, plus its caution that the original key is too high.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.praisecharts.com/songs/details/25298",
+      "title": "This Is Amazing Grace (Phil Wickham) chart listing",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Published arrangement of the Wickham recording: original key B flat, 4/4, CCLI 6333821 and the copyright line.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.praisecharts.com/songs/details/24053",
+      "title": "This Is Amazing Grace (Bethel Music) chart listing",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Published arrangement of the Bethel recording: original key C, writers, publishers and the full 2012 copyright line.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.movieguide.org/news-articles/phil-wickham-shares-origin-of-this-is-amazing-grace.html",
+      "title": "Phil Wickham Forgot About This Beloved Worship Song Until…",
+      "publisher": "Movieguide",
+      "sourceType": "JOURNALISM",
+      "credibilityTier": "TIER_3",
+      "establishes": "Wickham's own account of the writing: the chorus written years earlier, Riddle's demo and rewritten verses, and the Scriptures he names as sources.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.thebereantest.com/phil-wickham-this-is-amazing-grace",
+      "title": "Phil Wickham – This Is Amazing Grace",
+      "publisher": "The Berean Test",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "A lay doctrinal review scoring it 10/10, and the published exchange over whether the chorus's cross-bearing line conflicts with Luke 9:23.",
+      "assessesContent": true
+    }
+  ]
+}

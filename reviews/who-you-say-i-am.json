@@ -1,0 +1,280 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Who You Say I Am",
+    "artist": "Hillsong Worship",
+    "artistType": "COLLECTIVE",
+    "album": "There Is More",
+    "releaseYear": 2018,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Reuben Morgan and Ben Fielding, copyright Hillsong Music Publishing (listed variously as 2017 and 2018); CCLI 7102401. Recorded live on 15-17 November 2017 at Hillsong Church in Sydney during the Hillsong Worship and Creative Conference, and released on There Is More (6 April 2018, Hillsong Music and Capitol Christian Music Group), where it is led by Brooke Ligertwood and Reuben Morgan. It went out as a promotional single on 2 March 2018 and as the album's lead single on 15 June 2018. Morgan and Fielding say the one thing they had agreed on before writing was to work from John 8:36, and they describe the result as a declaration of identity. One listing adds Ran Jackson as a third writer; neither Wikipedia nor the publisher's credits corroborate that, so it is left out here. Not to be confused with the unrelated 2015 song and album of the same title by Among the Thirsty. The list's guess of Hillsong Worship is correct."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Two verses, a chorus after each and repeated at the close, and a bridge; no pre-chorus. The voice is first person singular throughout, and verse one and the bridge address God directly. Verse one asks who the singer is that the highest King would welcome him, answers that he was lost and has been brought near, and states that he is forgiven and that God is for him. The chorus is John 8:36 put in the first person: whom the Son sets free is free indeed, and the singer is a child of God. Verse two states that the singer was a slave to sin, that Jesus died for him and ransomed him, and that grace runs deep, so freedom is defined as release from sin rather than from circumstance. A later chorus adds that there is a place for the singer in the Father's house. The bridge confesses four things in order: the singer is chosen and not forsaken, he is who God says he is, God is for him and not against him. Every predicate in the song is an act of God or a word of God; the singer is the recipient and never the actor, and nothing in the song reports a feeling or promises an effort. The resurrection, the Holy Spirit and repentance do not appear.",
+    "claims": [
+      {
+        "claim": "The singer was lost, and the highest King welcomed him and brought him near.",
+        "subject": "Grace and the condescension of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer is forgiven, and God is for him.",
+        "subject": "Forgiveness and assurance",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Whoever the Son sets free is free indeed.",
+        "subject": "Freedom in Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer is a child of God.",
+        "subject": "Adoption",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer was a slave to sin; Jesus died for him and ransomed him, and grace runs deep.",
+        "subject": "Atonement",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "There is a place for the singer in the Father's house.",
+        "subject": "Adoption and heaven",
+        "location": "CHORUS",
+        "locationDetail": "the later chorus",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer is chosen and not forsaken, and God is for him and not against him.",
+        "subject": "Election and assurance",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer's identity is whatever God declares it to be, not what he declares of himself.",
+        "subject": "Identity as God's gift",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "Sin is named, and the death is said to be for the singer",
+        "explanation": "Verse two states that the singer was a slave to sin and that Jesus died for him and ransomed him. That is substitution in plain words, and it is the ground the rest of the song's claims about identity stand on rather than an aside.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": null,
+        "scriptureReference": "Romans 5:8",
+        "scriptureRationale": "Christ died for us while we were still sinners — the order verse two keeps."
+      },
+      {
+        "category": "Freedom",
+        "title": "The chorus is a setting of John 8:36",
+        "explanation": "The writers say the verse was their agreed starting point, and the chorus stays close to it. Freedom is defined by the next verse as release from slavery to sin, so the word is not left to mean relief from hardship or from other people.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": null,
+        "scriptureReference": "John 8:36",
+        "scriptureRationale": "If the Son sets you free you are free indeed — the sentence the chorus sets."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "The identity is given, never asserted",
+        "explanation": "Every clause of the bridge has God as the one who chooses, keeps and declares; the singer's part is only to agree with him. A song about identity that puts the verb on God's side is doing the opposite of self-definition, whatever its title sounds like.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": null,
+        "scriptureReference": "Ephesians 1:4-5",
+        "scriptureRationale": "Chosen and adopted by God's will before the world was made — whose act the bridge keeps it."
+      },
+      {
+        "category": "Adoption",
+        "title": "Sonship with its ground beneath it",
+        "explanation": "The song does not simply assert that the singer is God's child. It states the ransom first and the welcome into the Father's house after, which is the order Galatians uses: redemption, then adoption, then the standing that follows.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null,
+        "scriptureReference": "Galatians 4:4-7",
+        "scriptureRationale": "Redemption first, then adoption as sons and the inheritance that comes with it."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Slavery to sin",
+      "The substitutionary death of Christ",
+      "Redemption by ransom",
+      "Freedom in Christ",
+      "Adoption as children of God",
+      "Election",
+      "The assurance that God is for his people",
+      "Forgiveness"
+    ],
+    "assessment": "A fuller gospel than the title suggests. Slavery to sin is named, Christ's death is said to be for the singer, and ransom, freedom and adoption follow in order; every clause of the bridge has God as the one who chooses and declares, so the identity is received rather than claimed. Readers have asked whether the repeated self-naming echoes God's own I AM; the line answers that inside itself by naming who is speaking. The limits are matters of scope: the resurrection, the Spirit and repentance never arrive."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Corporate voice",
+        "title": "A singular voice whose content is the gospel",
+        "explanation": "Nothing in the song reports a mood or promises an effort. What the first person asserts is what is true of every Christian, so three hundred people saying it are saying one thing rather than three hundred private prayers.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      },
+      {
+        "category": "Teaching",
+        "title": "A chorus that teaches a verse of Scripture",
+        "explanation": "The part a congregation repeats most is the part closest to John 8:36, and the verse that follows says what the freedom is from. The repetition therefore drills a text rather than a hook.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      },
+      {
+        "category": "Accessibility",
+        "title": "Learned in one hearing",
+        "explanation": "Short sections, a two-clause chorus and a bridge of four plain confessions. A room that has never heard it is usually singing the chorus by its second appearance, which is part of why it spread so quickly.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MINOR",
+        "lyricExcerpt": null
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "The published key was not verified for this review. The bridge is the highest and most sustained section and carries the song's strongest content, so choose the key with that part in mind.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": null,
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated, and the published key was not verified."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns three times and the bridge repeats four confessions. What recurs is the song's doctrine; the Berean Test reviewer marked it down at first and later withdrew the criticism.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Built to be learned fast: short sections, a chorus that is nearly a verse of Scripture, and a bridge of four plain confessions. The voice is first person singular throughout, which some readers judge too individual for a gathered church; what that singular asserts, though, is true of every Christian rather than anything about the particular singer, so a room can say it as one. Pair it with a song chiefly about God's character if a service wants the balance."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "The question is asked and then answered",
+        "explanation": "Verse one puts the question of who the singer is and the chorus and bridge answer it in terms of what God has done and said. A hearer is never left holding the question the title raises.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      },
+      {
+        "category": "Diction",
+        "title": "The freedom is defined",
+        "explanation": "Verse two says what the singer was freed from, namely slavery to sin, so the song's central word does not float. That one line keeps the chorus from being heard as freedom from difficulty or from other people's opinions.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The song asks who the singer is and answers it in terms of what God has done, and it says plainly what the freedom is freedom from. Two published objections do not hold: the repeated self-naming is qualified in the same line by the one doing the naming, which rules out any echo of the divine name, and the awkward construction in the chorus that one reader flagged does not change its sense."
+  },
+  "synthesis": {
+    "summary": "Hillsong's setting of John 8:36. Slavery to sin is named, Christ's death is said to be for the singer, and ransom, freedom and adoption follow in order; every clause of the bridge has God as the one who chooses and declares. First person singular throughout, but what the singular asserts is true of every Christian. The resurrection, the Spirit and repentance are not reached.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Salvation",
+      "Sin",
+      "Grace",
+      "Assurance"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "John 8:36",
+        "relevance": "The verse the writers set out from and the chorus stays close to."
+      },
+      {
+        "reference": "Romans 5:8",
+        "relevance": "Christ dying for sinners — the order verse two keeps when it names the slavery first."
+      },
+      {
+        "reference": "Galatians 4:4-7",
+        "relevance": "Redemption, then adoption, then standing — the sequence the song follows."
+      },
+      {
+        "reference": "Romans 8:31-32",
+        "relevance": "God being for his people rather than against them, which the bridge confesses."
+      },
+      {
+        "reference": "John 14:2",
+        "relevance": "A place prepared in the Father's house, the claim the later chorus adds."
+      },
+      {
+        "reference": "Ephesians 1:4-5",
+        "relevance": "Chosen and adopted by God's own will — whose act the bridge keeps it."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/There_Is_More",
+      "title": "There Is More",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writers Reuben Morgan and Ben Fielding, the album's live recording dates in Sydney, the label, and the song's promotional and lead-single release dates.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.logos.com/grow/who-you-say-i-am-a-song-of-freedom-song-discovery/",
+      "title": "“Who You Say I Am”: A Song of Freedom (Song Discovery)",
+      "publisher": "Logos / Song Discovery",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "An edited worship-ministry assessment: the writers' account that they set out from John 8:36, and a reading of the song's teaching on freedom, adoption and identity.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.thebereantest.com/hillsong-worship-who-you-say-i-am",
+      "title": "Is 'Who You Say I Am' Biblical?",
+      "publisher": "The Berean Test",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "A line-by-line lay review scoring it 9.5/10, matching sections to John 8 and the adoption texts, and answering objections to the singular voice and the self-naming.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Who_You_Say_I_Am",
+      "title": "Who You Say I Am (Among the Thirsty album)",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "An unrelated 2015 song and album of the same title by Among the Thirsty, confirming that the song reviewed here is a distinct work.",
+      "assessesContent": false
+    }
+  ]
+}

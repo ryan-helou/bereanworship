@@ -1,0 +1,241 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Blessed Be Your Name",
+    "artist": "Matt Redman",
+    "artistType": "INDIVIDUAL",
+    "album": "Where Angels Fear to Tread",
+    "releaseYear": 2002,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Matt Redman and Beth Redman; copyright 2002 Thankyou Music, administered by Capitol Christian Music Publishing; CCLI 3798438. The list's guess of Matt Redman is right for the recording churches know, but the song is a co-write with his wife Beth, and the credit matters: published accounts place its writing in the months after the attacks of 11 September 2001, when the Redmans set out to give congregations words for worship in grief. It first appeared on Redman's album Where Angels Fear to Tread (2002), published with B as the original key. The text is built on Job's response to catastrophic loss in Job 1:21, which the bridge nearly quotes, and the song has become a standard example in discussions of lament and suffering in contemporary worship; Bob Kauflin names it as a model of a wisely written song for hard seasons. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Four short verses in two matched pairs, a pre-chorus, a chorus and a bridge. The verses alternate circumstance: the first blesses God's name in a place of plenty where abundance flows, the second blesses it in a desert and a wilderness, the third in bright and settled conditions when the world is as it should be, the fourth on a road marked by suffering where the offering itself is painful. The pre-chorus answers each pair, promising to return every blessing God pours out as praise and to keep speaking when darkness closes in. The chorus is a simple blessing formula: the name of the Lord, and his glorious name, is blessed. The bridge is a near quotation of Job 1:21, ascribing both the giving and the taking to God himself, and answering with the singer's deliberate choice to bless him either way. God is addressed throughout in the second person; the first person appears only in the pledges of the pre-chorus and bridge. The engine of the song is the will to bless rather than a stated ground for blessing: no act of redemption is named, and the cross, the resurrection and the Spirit do not appear.",
+    "claims": [
+      {
+        "claim": "God's name is to be blessed in a place of plenty where blessing is flowing.",
+        "subject": "Worship in prosperity",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's name is to be blessed equally in a desert and a wilderness.",
+        "subject": "Worship in hardship",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's name is to be blessed when conditions are bright and the world is as it should be.",
+        "subject": "Worship in prosperity",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's name is to be blessed on a road marked by suffering, when making the offering is itself painful.",
+        "subject": "Worship in suffering",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Every blessing God pours out should be turned back to him as praise, and praise should continue when darkness closes in.",
+        "subject": "Thanksgiving and perseverance",
+        "location": "PRE_CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The name of the Lord is blessed, and his name is glorious.",
+        "subject": "The name of God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God himself both gives and takes away, and the singer's heart deliberately chooses to bless him in either case.",
+        "subject": "The sovereignty of God over loss",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": false,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Sovereignty",
+        "title": "Loss is ascribed to God, in Job's own words",
+        "explanation": "The bridge does not say that loss happens or that God permits it at a distance; it ascribes the taking to God and blesses him in the same breath. That is Job's confession after the worst day of his life, and the narrator's verdict on it is that he did not sin in saying it. Most songs will not go near the claim.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Job 1:21-22",
+        "scriptureRationale": "Job ascribing both gift and loss to the Lord and blessing his name, with the narrator affirming he did not sin."
+      },
+      {
+        "category": "Worship",
+        "title": "God's worth is detached from circumstance",
+        "explanation": "The verses deliberately pair plenty with desert and brightness with suffering, and give the same answer to each. The doctrine carried is that God's worthiness does not rise and fall with what he gives, which is precisely the question Job's accuser raised.",
+        "songLocation": "THROUGHOUT",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Job 2:10",
+        "scriptureRationale": "Receiving good and evil from God's hand alike - the symmetry the four verses are built on."
+      },
+      {
+        "category": "Thanksgiving",
+        "title": "Praise commanded in every circumstance, not only felt in good ones",
+        "explanation": "The pre-chorus treats praise as something owed and returned rather than produced by mood, and keeps promising it into the dark. That matches the apostolic command to give thanks in all circumstances, which is an instruction rather than a description of how worship feels.",
+        "songLocation": "PRE_CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Thessalonians 5:18",
+        "scriptureRationale": "Thanks in all circumstances as God's will - the stance the pre-chorus takes up."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The sovereignty of God over gift and loss",
+      "God's worthiness regardless of circumstance",
+      "The glory of God's name",
+      "Praise as an act of will and obedience",
+      "Thanksgiving in all circumstances"
+    ],
+    "assessment": "Nothing false is said. The one objection worth raising - that Job's losses came by the accuser's hand, so a song should not ascribe the taking to God - is answered by the passage itself: Job says it, and the narrator records that he did not sin in saying it. The real limit is that the song supplies no ground for its own resolve. Its engine is the choice to bless, and no act of redemption stands under that choice: no cross, no resurrection, nothing of what God has done to make blessing him in the dark reasonable."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Use",
+        "title": "Words for a congregation in grief",
+        "explanation": "Most of a church's repertoire assumes the room is well. This one gives a congregation something true to sing at a funeral, after a disaster, or on an ordinary Sunday when some are in the wilderness. Bob Kauflin commends it on exactly that ground.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Structure",
+        "title": "Matched verses that make the point by their shape",
+        "explanation": "Plenty is answered by desert and brightness by suffering, in the same metre with the same response. A congregation learns the song's claim from its symmetry before anyone explains it, and the verses are short enough to hold.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Accessibility",
+        "title": "A chorus that is one sentence",
+        "explanation": "The chorus is a blessing formula with no complex syntax, over a plain four-chord pattern that any church band can play. Grieving people can sing it without concentrating on it, which is the point.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published with B as the original key, high for an untrained room; arrangements also exist in A, Bb and G, and a lower key suits the settings this song is needed in. No chart was read.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "B (original per PraiseCharts); also in A, Bb and G",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus and bridge recur heavily, and the bridge's repeated choice to bless is the song's argument rather than a hook. What repeats is a confession being made harder to say.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Easy to sing and genuinely useful: short matched verses, a one-sentence chorus and a bridge that a room can take up when individuals cannot manage it alone. Two cautions for a leader. The published key of B sits high for the settings this song is actually needed in, so transpose. And the music is bright and driving, which can pull a congregation past the suffering verses at speed; the fourth verse and the bridge are the song's weight and should be given room rather than sung as a celebration."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Diction",
+        "title": "Two plain images carry the whole song",
+        "explanation": "Streams and plenty on one side, desert and wilderness on the other. Both are biblical and both explain themselves on first hearing, so the song's claim is intelligible to someone who has never been in a church.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "The bridge says outright what the verses imply",
+        "explanation": "Any ambiguity about how far the song means to go is removed by the bridge, which names God as the one who takes as well as gives. The hardest claim is made explicit rather than left to inference.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Unambiguous. The circumstances are concrete, the response is the same in each, and the bridge states the song's sharpest claim plainly instead of hinting at it. What a hearer may need taught is not the meaning but the warrant - why blessing God in loss is reasonable, which the song does not supply."
+  },
+  "synthesis": {
+    "summary": "Job 1:21 made singable: four verses pair plenty with wilderness and brightness with suffering, answer each with the same blessing, and a bridge ascribes both the giving and the taking to God while choosing to bless him either way. Nothing false is said. But the song's engine is the singer's resolve, and it names no redemptive act to stand under it. Easy to sing, and widely commended for use in grief.",
+    "themes": [
+      "Suffering",
+      "Lament",
+      "Sovereignty",
+      "Worship",
+      "Providence",
+      "Thanksgiving",
+      "God"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Job 1:21-22",
+        "relevance": "Job blessing the Lord who gives and takes away, and the narrator's verdict that he did not sin - the bridge's text."
+      },
+      {
+        "reference": "Job 2:10",
+        "relevance": "Receiving both good and evil from God's hand - the symmetry of the four verses."
+      },
+      {
+        "reference": "1 Thessalonians 5:18",
+        "relevance": "Thanks in all circumstances as God's will - the pre-chorus's stance."
+      },
+      {
+        "reference": "Psalm 113:2",
+        "relevance": "The name of the Lord blessed now and for ever - the chorus's formula."
+      },
+      {
+        "reference": "Habakkuk 3:17-18",
+        "relevance": "Rejoicing in God when the harvest fails - the biblical pattern the suffering verses follow."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://worshipmatters.com/2005/11/17/songs-for-the-hard-times-part-3/",
+      "title": "Songs for the Hard Times, Part 3",
+      "publisher": "Worship Matters (Bob Kauflin)",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_2",
+      "establishes": "Kauflin's assessment: he names the song a wisely written model for hard seasons and reads it as teaching that God deserves worship when everything is lost, rooted in Job 1:21.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.logos.com/grow/choosing-to-praise-blessed-be-your-name-song-analysis/",
+      "title": "Choosing to Praise: Blessed Be Your Name Song Analysis",
+      "publisher": "Logos (Word by Word)",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "A published song analysis: the Job 1:21 basis, the post-9/11 origin, the song's treatment of praise as a deliberate choice, and its simple chord structure.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.praisecharts.com/songs/details/2634",
+      "title": "Blessed Be Your Name - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Matt and Beth Redman, the album, CCLI 3798438, the 2002 Thankyou Music copyright line, original key B, meter and tempo.",
+      "assessesContent": false
+    }
+  ]
+}

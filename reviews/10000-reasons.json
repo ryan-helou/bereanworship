@@ -1,0 +1,233 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "10,000 Reasons (Bless the Lord)",
+    "artist": "Matt Redman",
+    "artistType": "INDIVIDUAL",
+    "album": "10,000 Reasons",
+    "releaseYear": 2011,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Matt Redman and Jonas Myrin; copyright 2011 Atlas Mountain Songs, sixsteps Music, Thankyou Music and worshiptogether.com songs, administered by Capitol CMG Publishing; CCLI 6016351. The list's guess of Matt Redman is right as to the recording churches know, but incomplete: Myrin is co-writer and, by hymnal and reviewer accounts, brought the chorus melody first, which Redman recognised as a fit for the opening of Psalm 103. Title track of Redman's tenth album (2011); released as a single 24 May 2012. It won two Grammys in 2013 (Best Contemporary Christian Music Song and Best Gospel/Contemporary Christian Music Performance) and GMA Dove Song of the Year, and aggregated CCLI reporting ranked it the most-used worship song of the 2010s. Reviewers also note an allusion to Henry Francis Lyte's 'Praise, My Soul, the King of Heaven'. Reviewed as the song, not as any one recording."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "A chorus with three short verses, the chorus returning after each and closing the song. The chorus is modelled directly on the opening of Psalm 103: the singer summons his own soul to bless the Lord and to worship God's holy name, and pledges praise with everything in him for the whole of his life and beyond. The first verse takes the sunrise as the occasion for a fresh song and resolves to be still singing when evening comes, whatever the day brings. The second verse is the song's doctrinal centre: it lists God's character as the reason for praise, naming him rich in love, slow to anger, great in name and kind in heart. The third verse turns to the singer's own death, with strength failing and the end near, and says the soul's praise will continue past it without end. The voice is first person singular throughout and God is addressed in the second person. No act of God in history is narrated: the song predicates attributes rather than deeds. The cross, the resurrection, the Spirit and repentance do not appear, and the hymn allusion reviewers hear is not quoted outright.",
+    "claims": [
+      {
+        "claim": "God's holy name is to be blessed and worshipped with the whole of a person, for the whole of a life and beyond it.",
+        "subject": "The worship owed to God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Each new morning is an occasion for fresh praise, and the resolve to praise should outlast whatever the day holds.",
+        "subject": "Daily worship",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is rich in love and slow to anger.",
+        "subject": "The character of God",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's name is great and his heart is kind, and these are the reasons praise is owed him.",
+        "subject": "The character of God",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "When the singer's strength fails and death arrives, his praise of God will continue without end.",
+        "subject": "Worship beyond death",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The reasons for blessing God are beyond counting; ten thousand is spoken of as a figure rather than a tally.",
+        "subject": "The inexhaustible worth of God",
+        "location": "THROUGHOUT",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Doctrine of God",
+        "title": "Praise grounded in God's own self-description",
+        "explanation": "The second verse gives the reasons: rich in love, slow to anger, great in name, kind in heart. That is the self-description God gives of himself in Exodus 34 and which Psalm 103 repeats, and the song puts it in a congregation's mouth as the ground of worship rather than as decoration.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Exodus 34:6",
+        "scriptureRationale": "God's own naming of himself as merciful, slow to anger and abounding in love - the four things the verse says about him."
+      },
+      {
+        "category": "Scripture",
+        "title": "Psalm 103 set closely, self-address and all",
+        "explanation": "The chorus keeps the psalm's strangest feature, a worshipper commanding his own soul to bless God, instead of smoothing it into a statement of feeling. The verses then do what the psalm does, listing reasons while conceding the list is nowhere near complete.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 103:1-2",
+        "scriptureRationale": "The psalm's opening summons to one's own soul, and its refusal to forget God's benefits, are the chorus's shape."
+      },
+      {
+        "category": "Hope",
+        "title": "A worship song that reckons with dying",
+        "explanation": "The third verse brings the singer's own death into the act of worship and says praise outlasts it. Contemporary worship rarely goes there, and Psalm 103 does: the psalm sets human frailty against the everlasting love of God. Reviewers single this verse out for exactly this reason.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 103:15-17",
+        "scriptureRationale": "Human life as grass that passes, set against the steadfast love of the Lord from everlasting - the move the third verse makes."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The holiness of God's name",
+      "The steadfast love of God",
+      "The patience of God",
+      "The goodness of God",
+      "God's inexhaustible worth",
+      "Praise that continues beyond death"
+    ],
+    "assessment": "Nothing in it is false. It is Psalm 103 handled with care: God's self-description from Exodus 34 given as the reason for praise, the psalm's self-address kept, and its reckoning with mortality kept too. The limit is scope, not error. The song predicates attributes and narrates no act - no creation, no cross, no resurrection, no Spirit - so a congregation learns who God is, not what he has done. The title's number is plainly a figure of speech."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A chorus that teaches itself on first hearing",
+        "explanation": "Short phrases, a narrow stepwise melody and a chorus that returns after every verse. The most-reported worship song of a decade is reported that widely partly because an untrained room can carry it without rehearsal.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Usable at a graveside",
+        "explanation": "Because the third verse faces death and answers it with praise, the song serves funerals and visits to the dying, not only Sunday mornings. Publishers index it for funeral use, and that pastoral reach is unusual for a contemporary chorus.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Three short verses the room can hold",
+        "explanation": "Each verse is four lines and leads straight back to the chorus, so nobody is left reading a screen through a long stanza. The form keeps the congregation singing rather than following.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published with G as the original key; also issued in C, D and Db. A medium-slow 4/4 with a stepwise chorus most rooms manage in the published key. No chart was read, so the span is not stated.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "G (original per PraiseCharts); also published in C, D and Db",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns after each of three verses and closes the song. It is the same summons each time, but the verses keep adding reasons to obey it, so repetition is being filled rather than padded.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Built for a room rather than a stage: a small melodic span, four-line verses, no dependence on an arrangement or a soloist's moment. The one thing a leader should notice is that the voice is singular throughout - a worshipper addressing his own soul - so it works as many individuals praying one prayer together rather than as a confession the church makes as a body. That is Psalm 103's own device, not a defect, but it suits adoration and pastoral settings, funerals among them, better than corporate confession."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Diction",
+        "title": "Common words for the things said about God",
+        "explanation": "Love, anger, name, heart, goodness. Nothing needs decoding and nothing is abstract, so a visitor with no church vocabulary still leaves knowing what the song claimed about God's character.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Figure",
+        "title": "A number nobody mistakes for a count",
+        "explanation": "The title quantity reads as poetic excess on first hearing, and the song never treats it as arithmetic. A reviewer asked about the related span of years in the chorus and was answered the same way: hyperbole, not a timetable.",
+        "songLocation": "CHORUS",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear on first hearing. One claim - God is worth blessing, and here is what he is like - stated in plain words and restated after every verse. The only figurative element is the counting language, which an ordinary singer reads as excess rather than as a tally."
+  },
+  "synthesis": {
+    "summary": "Psalm 103 set as a chorus, with God's self-description from Exodus 34 given as the reason for praise, the psalm's self-address kept intact, and a third verse that faces the singer's own death. Nothing in it is wrong. It predicates attributes rather than narrating any act of God, so the cross and the resurrection are never reached; the voice is singular throughout.",
+    "themes": [
+      "God",
+      "Worship",
+      "Thanksgiving",
+      "Hope",
+      "Scripture"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 103:1-2",
+        "relevance": "The summons to one's own soul to bless the Lord, which the chorus keeps as its shape."
+      },
+      {
+        "reference": "Psalm 103:8",
+        "relevance": "The Lord merciful, slow to anger and abounding in love - the second verse's list of reasons."
+      },
+      {
+        "reference": "Exodus 34:6",
+        "relevance": "God's own self-description, which the psalm and then the song repeat."
+      },
+      {
+        "reference": "Psalm 103:15-17",
+        "relevance": "Human frailty set against God's everlasting love - the move of the third verse."
+      },
+      {
+        "reference": "Psalm 146:2",
+        "relevance": "Praise promised for as long as the singer has being, which the chorus pledges."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/10,000_Reasons_(Bless_the_Lord)",
+      "title": "10,000 Reasons (Bless the Lord)",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Authorship by Redman and Myrin, the 2011 album and 2012 single, the Psalm 103 and Lyte hymn basis, Grammy and Dove awards, and CCLI usage ranking.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://zachicks.com/review-of-10000-reasons-by-matt-redman/",
+      "title": "Review of 10,000 Reasons, by Matt Redman",
+      "publisher": "Zac Hicks",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_2",
+      "establishes": "A worship pastor and author's theological review: commends the psalm echo and the mortality verse, and answers the counting language as hyperbole.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.praisecharts.com/songs/details/20858",
+      "title": "10,000 Reasons (Bless the Lord) - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: CCLI 6016351, the 2011 copyright line and publishers, original key G, meter and tempo, and indexed uses including funerals.",
+      "assessesContent": false
+    }
+  ]
+}

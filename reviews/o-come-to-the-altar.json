@@ -1,0 +1,266 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "O Come to the Altar",
+    "artist": "Elevation Worship",
+    "artistType": "COLLECTIVE",
+    "album": "Here as in Heaven",
+    "releaseYear": 2016,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Words and music by Chris Brown, Mack Brock, Steven Furtick and Wade Joye, copyright 2015 Music by Elevation Worship Publishing (admin. Essential Music Publishing); CCLI 7051511. The list's guess of Elevation Worship is correct. It is track four on Here as in Heaven, the collective's fifth live album, recorded before a crowd of more than sixteen thousand in Charlotte on 31 July 2015 and released by Essential Worship on 5 February 2016; a shortened radio edit closes the album and adds Matthews Ntlele to the credits. It was issued as the album's first single on 23 February 2017 and placed third on Worship Leader magazine's Top 20 Songs of 2016. The album reached No. 1 on Billboard's Top Christian Albums chart and No. 15 on the Billboard 200, went Gold in the United States and New Zealand, and was nominated for Worship Album of the Year at the 2016 Dove Awards. PraiseCharts publishes the song in nine keys from Ab to G, original key B. Reviewed as the song, not as any one recording of it."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Two verses, a chorus and a bridge, with the verses' closing line functioning as an internal refrain. There is no first person singular anywhere in the song. The verses are a series of questions put to the hearer in the second person — whether he is in pain and inwardly broken, whether his own sin is crushing him, whether he has exhausted himself and is thirsty — each answered by the statement that Christ is summoning him. The second verse turns to imperatives: leave the past behind, come now rather than later, take up his cross while awaiting the crown, and make known to others what he has received. The chorus is the song's doctrinal centre: it summons the hearer to the altar, says the Father receives him with open arms, and states that forgiveness was purchased at the cost of the blood of Jesus Christ. The bridge leaves the hearer and turns to adoration of Christ in the third person and to the room in the imperative: an exclamation over the Saviour, a call to sing praise because Christ has been raised, and a call to bow before him as ruler of everything. Jesus Christ is named outright; the Father is named; the Holy Spirit is not. The song never spells out faith or repentance as the means of coming, and the word altar is used without explanation.",
+    "claims": [
+      {
+        "claim": "The hearer may be in pain, inwardly broken, and crushed by the burden of his own sin.",
+        "subject": "Sin and human need",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ summons the hurting and the thirsty to himself.",
+        "subject": "The call of Christ",
+        "location": "VERSE_1",
+        "locationDetail": "the refrain line that closes each couplet",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Father receives those who come with open arms.",
+        "subject": "The welcome of the Father",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Forgiveness was purchased at the cost of the blood of Jesus Christ.",
+        "subject": "Atonement",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The hearer should leave his past behind and come now rather than wait.",
+        "subject": "Repentance",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The one who comes is to take up his cross while awaiting the crown, and to make known to others what he has received.",
+        "subject": "Discipleship and mission",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ has been raised, is Lord of all, and is to be worshipped and bowed before.",
+        "subject": "The resurrection and lordship of Christ",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "Forgiveness is priced, and the price is named",
+        "explanation": "The chorus does not merely announce that God forgives. It states that forgiveness was purchased, and names the price as the blood of Jesus Christ. The congregation sings the welcome and its cost in the same breath, which keeps the open arms from sounding like leniency.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Peter 1:18-19",
+        "scriptureRationale": "Ransomed not with silver or gold but with the precious blood of Christ — the transaction the chorus states."
+      },
+      {
+        "category": "Sin",
+        "title": "Sin is named as sin, and as a weight",
+        "explanation": "The first verse does not stop at hurt and brokenness. It asks whether the hearer is crushed by the burden of his sin, so the need the song addresses is guilt and not only pain. An invitation song that says this is doing more than most.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 38:4",
+        "scriptureRationale": "Iniquities described as a weight too heavy to bear — the image the first verse uses."
+      },
+      {
+        "category": "The call of Christ",
+        "title": "The summons belongs to Christ, not to the room",
+        "explanation": "Each question is answered by the same statement, that Christ is summoning him. The agent of the summons is Christ, not the band, the preacher or the moment, which is the difference between an invitation and a pressure.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Matthew 11:28",
+        "scriptureRationale": "Christ's own summons to the weary and burdened — the call the refrain line reports."
+      },
+      {
+        "category": "Resurrection",
+        "title": "The bridge ends on an empty tomb and a throne",
+        "explanation": "Having spent two verses on the hearer, the song turns and puts the resurrection and the universal lordship of Christ in the congregation's mouth. The invitation is grounded in a risen Lord rather than left as a decision about one's own life.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Philippians 2:9-11",
+        "scriptureRationale": "Every knee bowing to the exalted Christ as Lord — what the bridge calls the room to do and to confess."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "A Father who meets the returning",
+        "explanation": "The chorus places the Father's welcome at the point where the sinner arrives, which is Luke 15 compressed into a line. The welcome is attributed to the Father's disposition and not to the sinner's improvement.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Luke 15:20",
+        "scriptureRationale": "The father seeing his son far off and running to embrace him — the picture the chorus borrows."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The guilt and weight of sin",
+      "Forgiveness purchased by the blood of Christ",
+      "Christ's call to sinners",
+      "The Father's welcome of the returning",
+      "The bodily resurrection of Christ",
+      "The universal lordship of Christ",
+      "Cross-bearing discipleship",
+      "The believer's witness to the world"
+    ],
+    "assessment": "For an invitation song this carries an unusual amount of doctrine, and none of it is wrong. Sin is named as sin and as guilt, forgiveness is said to have been bought and the price named as Christ's blood, the Father's welcome rests on his own disposition, and the bridge ends on the resurrection and the lordship of Christ. What it does not do is say how a hearer comes: faith and repentance are implied by the imperatives but never named, and the word altar is never explained. Those are absences, not errors."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Corporate voice",
+        "title": "Nobody sings about themselves",
+        "explanation": "There is no first person singular in the song at all. The room questions and summons the hearer, then together bows to a risen Lord. It is one of the few widely-sung contemporary songs with no autobiography in it.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Accessibility",
+        "title": "A ballad an untrained room can carry",
+        "explanation": "A medium-slow 6/8 with a stepwise melody and short repeated phrases, published in nine keys. There is nothing in it that needs a strong lead voice or a band to hold it up.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "A song for the moment of response",
+        "explanation": "It is built for one job and does it: the point in a service where people are called to come, with the ground of the welcome stated as they come. It also works ahead of the Lord's table.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Original key B, 6/8, medium slow; PraiseCharts publishes it in nine keys from Ab to G, so a leader can place it wherever the room sits. No chart was read, so the span is not stated.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "B (original); published in A, Ab, B, Bb, C, D, E, F and G",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The refrain line answers each question in turn and the bridge repeats the resurrection, so what returns is the song's content. Live arrangements extend the bridge; the written song does not pad.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational by construction: no first person, a stepwise 6/8 melody, nine published keys, and nothing that depends on the arrangement. The one thing a leader must handle is the word altar, which the song never explains and which means different things in different traditions — in a church with no altar and no invitation, the room is being told to do something the service is not asking of it. Placed at a genuine point of response, it says what it means."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Questions, then an answer, then adoration",
+        "explanation": "The form carries the argument: the verses diagnose, the chorus answers with an open welcome and a purchased forgiveness, and the bridge turns the whole thing toward Christ. A hearer is never left holding a question.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Diction",
+        "title": "Plain words for the hardest things",
+        "explanation": "Sin, blood, forgiveness, resurrection, lordship. The doctrinal load is carried by ordinary words rather than by abstraction, and a newcomer knows exactly what has been said about his condition and about Christ.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear line by line. The one term that carries unstated freight is altar, which in the song's own tradition means the front of the room at an invitation and in Hebrews means the sacrifice of Christ; the song does not choose between them. Nothing else needs explaining, and the chorus removes any doubt about where forgiveness comes from."
+  },
+  "synthesis": {
+    "summary": "An invitation song that names sin as guilt, says forgiveness was bought and names the price as Christ's blood, locates the welcome in the Father's own disposition, and ends on the resurrection and the lordship of Christ. It never says how a hearer comes, and never explains the altar it summons him to. No first person singular anywhere, and easy for an untrained room.",
+    "themes": [
+      "Salvation",
+      "Repentance",
+      "Grace",
+      "Cross",
+      "Resurrection",
+      "Sin",
+      "Mission"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Matthew 11:28",
+        "relevance": "Christ summoning the weary and burdened — the call the verses keep reporting."
+      },
+      {
+        "reference": "1 Peter 1:18-19",
+        "relevance": "Redemption by the precious blood of Christ — the transaction the chorus states outright."
+      },
+      {
+        "reference": "Luke 15:20",
+        "relevance": "The father running to embrace the returning son — the welcome the chorus pictures."
+      },
+      {
+        "reference": "Isaiah 55:1",
+        "relevance": "The thirsty called to come and drink without price — the question the first verse puts."
+      },
+      {
+        "reference": "Luke 9:23",
+        "relevance": "Taking up the cross daily — the discipleship the second verse asks for."
+      },
+      {
+        "reference": "Philippians 2:9-11",
+        "relevance": "Every knee bowing to Christ as Lord — the confession the bridge puts in the room's mouth."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://praisecharts.com/songs/details/27778/o-come-to-the-altar-sheet-music",
+      "title": "O Come To The Altar sheet music",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Published arrangement: writers, copyright line, CCLI 7051511, original key B, nine available keys, 6/8 meter and medium-slow tempo.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Here_as_in_Heaven",
+      "title": "Here as in Heaven",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Album recording date and venue, release by Essential Worship, the song's track position and writers, its single release date, and its third place on Worship Leader's Top 20 Songs of 2016.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.thebereantest.com/elevation-worship-o-come-to-the-altar",
+      "title": "Elevation Worship – O Come to the Altar",
+      "publisher": "The Berean Test",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "A published lay doctrinal review scoring the song 10/10 while noting that it never says how a hearer comes, with comment threads on the altar and on purchased forgiveness.",
+      "assessesContent": true
+    }
+  ]
+}

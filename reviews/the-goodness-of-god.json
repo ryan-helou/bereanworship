@@ -1,0 +1,269 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Goodness of God",
+    "artist": "Bethel Music",
+    "artistType": "COLLECTIVE",
+    "album": "Victory",
+    "releaseYear": 2019,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Credited to Ed Cash, Ben Fielding, Jason Ingram, Brian Johnson and Jenn Johnson, copyright 2018; CCLI 7117726, with Bethel Music, Hillsong Music and Essential Music Publishing among the rights holders. Jenn Johnson leads it on Bethel Music's live album Victory, where it went out as a promotional single on 4 January 2019 and as a radio single on 1 November 2019, produced by Ed Cash. Jenn and Brian Johnson say it came out of the adoption of their fourth child: she began singing about God's faithfulness into her phone while driving a long country road during the process, and the co-writers finished it. Recorded in A-flat at 63 BPM. Gold in the United States, No. 15 on Hot Christian Songs, and honoured in the 2020 Dove Awards' Worship Recorded Song category; CeCe Winans' platinum 2021 recording is the version many churches now know. The list gave the title as The Goodness of God; the published title has no article. Its guess of Bethel Music and Jenn Johnson is right."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Two verses, a chorus after each, and a bridge, with live and radio cuts extending the bridge. Everything is addressed to God in the second person and spoken in the first person singular. Verse one declares love for the Lord, says his mercy has never failed, says the singer has been held in his hands all her days, and resolves to sing of God's goodness from waking to sleeping. The chorus is a statement about God's record rather than the singer's: all her life God has been faithful and good, and she will sing of that as long as she has breath. Verse two says God has led her through fire and is close in the darkest night, and that she has known him as a Father and as a friend, so the claim of goodness is made with hardship named rather than left out. The bridge says God's goodness pursues her, in the language of Psalm 23:6, and closes with her life laid down in surrender. Jesus is never named; sin, the cross, the resurrection and salvation do not appear. God's goodness is attested from one life rather than from his acts in history, and no part of the song reaches the gospel.",
+    "claims": [
+      {
+        "claim": "God's mercy has never failed the singer, and she has been held in his hands all her days.",
+        "subject": "The mercy and providence of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer will sing of God's goodness from the moment she wakes until she sleeps.",
+        "subject": "Thanksgiving",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God has been faithful and good throughout the whole of the singer's life.",
+        "subject": "The faithfulness of God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer will sing of God's goodness for as long as she has breath.",
+        "subject": "Thanksgiving",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God has led the singer through fire and is close to her in the darkest night.",
+        "subject": "Providence in suffering",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer has known God as a Father and as a friend.",
+        "subject": "The fatherhood and friendship of God",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's goodness pursues the singer.",
+        "subject": "The goodness of God",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer lays her life down and surrenders everything to God.",
+        "subject": "Consecration",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Providence",
+        "title": "Goodness claimed with the fire named",
+        "explanation": "The song does not keep its claim safe by leaving out hardship. The same singer who says God has been good all her life says he led her through fire and was closest in the darkest night. That is the harder version of the claim, and the biblical one.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": null,
+        "scriptureReference": "Isaiah 43:2",
+        "scriptureRationale": "God with his people as they pass through fire and water — the setting in which the song still calls him good."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "God's faithfulness does not wait on ours",
+        "explanation": "The chorus states God's record, not the singer's. What is being sung is what he has been, so the ground of the whole song is his character rather than any consistency in the one singing it.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null,
+        "scriptureReference": "2 Timothy 2:13",
+        "scriptureRationale": "God remains faithful even when we are faithless — the asymmetry the chorus assumes."
+      },
+      {
+        "category": "Mercy",
+        "title": "Mercy that never fails, in Jeremiah's words",
+        "explanation": "The first verse's claim that God's mercy has never failed and that the singer has been held every day is the Lamentations passage in modern speech, and it dates the mercy from before the singer could notice it.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null,
+        "scriptureReference": "Lamentations 3:22-23",
+        "scriptureRationale": "Mercies that never come to an end and are new every morning — the sense the first verse carries."
+      },
+      {
+        "category": "The goodness of God",
+        "title": "The pursuit is the psalm's own verb",
+        "explanation": "The bridge's picture of God's goodness coming after the singer is what Psalm 23:6 says; the Hebrew verb is one of pursuit, and the familiar English rendering is the softer of the two. Readers who heard the line as an overreach were answered from the lexicons they cited.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null,
+        "scriptureReference": "Psalm 23:6",
+        "scriptureRationale": "Goodness and mercy pursuing the psalmist all his days — the claim the bridge makes."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The unfailing mercy of God",
+      "The faithfulness of God",
+      "God's providence in suffering",
+      "The fatherhood of God",
+      "The goodness of God as his own nature",
+      "God's pursuit of his people"
+    ],
+    "assessment": "True throughout, and narrower than it sounds. Everything it says about God is sound: mercy that has never failed, faithfulness that does not wait on ours, goodness claimed with fire and darkness named. The pursuit in the bridge is Psalm 23:6's own verb, not an overreach, as the lexicons the objectors cited in fact show. What it does not do is reach the gospel. Jesus is never named, and sin, the cross and salvation never appear; the goodness is attested from one life, not from God's acts in history."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A chorus of two clauses",
+        "explanation": "The chorus states one thing about God twice over and then says the singer will keep saying it. It is short, stepwise and learned at a first hearing, which is much of why it has crossed traditions that agree on little else.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      },
+      {
+        "category": "Use",
+        "title": "Singable in a hard week",
+        "explanation": "Because the second verse names fire and the darkest night, a room that is suffering can sing the chorus without pretending. Most songs of thanksgiving give a congregation no way to do that.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Recorded in A-flat. The bridge is the sustained, highest part and the place a congregation tires, so choose the key there rather than on the verse. No chart was read, so the span is not stated.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "A-flat (original recording)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns to one confession about God's record and the second verse deepens it. Live and radio cuts extend the bridge past its single idea, which a shortened close solves.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Easy to sing and honest enough for a hard week, since it names fire and darkness before it claims goodness. The voice is first person singular about the singer's own life rather than a shared confession, so a congregation sings many separate testimonies at once; that is what the song is rather than a fault in how it says it. Because it never states an act of God in history, leaders should set it beside something that does."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "One claim, stated and then tested",
+        "explanation": "The song makes a single claim about God's goodness and then puts the hardest case against it in the second verse. Nobody is left wondering what the claim is meant to cover.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      },
+      {
+        "category": "Diction",
+        "title": "Nothing needs decoding",
+        "explanation": "Mercy, faithful, good, Father, friend, fire, darkness. The one figure, God's goodness in pursuit, comes straight out of a psalm most hearers already know.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR",
+        "lyricExcerpt": null
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Unambiguous about what it claims. The one published objection is to the bridge's pursuit language, which several readers took for a hunt; the reviewer and his commenters settled that against them from the Hebrew of Psalm 23:6. What a hearer will not learn from this song is how God's goodness reaches a sinner, since neither sin nor Christ is mentioned anywhere in it."
+  },
+  "synthesis": {
+    "summary": "A sustained claim that God has been faithful and good across one life, made with fire and the darkest night named rather than edited out, and grounded in his record instead of the singer's. The bridge's pursuit language is Psalm 23:6's own verb. Jesus is never named: sin, the cross and salvation do not appear. First person singular throughout.",
+    "themes": [
+      "God",
+      "Providence",
+      "Thanksgiving",
+      "Suffering",
+      "Hope",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Lamentations 3:22-23",
+        "relevance": "Mercies that never fail and are new every morning, the sense of the first verse."
+      },
+      {
+        "reference": "Psalm 23:6",
+        "relevance": "Goodness and mercy in pursuit all one's days, which the bridge renders closely."
+      },
+      {
+        "reference": "2 Timothy 2:13",
+        "relevance": "God's faithfulness holding when ours does not, the asymmetry the chorus assumes."
+      },
+      {
+        "reference": "Isaiah 43:2",
+        "relevance": "God present as his people pass through fire, the setting of the second verse."
+      },
+      {
+        "reference": "James 1:17",
+        "relevance": "Every good gift coming down from an unchanging Father, the ground of the chorus's claim."
+      },
+      {
+        "reference": "Romans 12:1",
+        "relevance": "A life presented to God, which is what the bridge's closing surrender offers."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Goodness_of_God",
+      "title": "Goodness of God",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "The five writers, the Victory album and both single releases, the key of A-flat, chart and certification data, and CeCe Winans' later recording.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.samstorms.org/enjoying-god-blog/post/a-defense-of-singing-songs-from-bethel-and-hillsong",
+      "title": "A Defense of Singing Songs from Bethel and Hillsong",
+      "publisher": "Sam Storms, Enjoying God",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_2",
+      "establishes": "Storms names this song among those he judges consistent with Scripture and worthy of God, and argues a song must be weighed by its own words, not its publishing church.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.thebereantest.com/bethel-music-goodness-of-god",
+      "title": "Is 'Goodness of God' Biblical?",
+      "publisher": "The Berean Test",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "Chris Mellon's line-by-line lay review scoring it 10/10, and a long published exchange over whether the bridge's pursuit language fits Psalm 23:6.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.christianpost.com/news/bethel-leaders-open-up-about-miracle-adoption-inspiration-for-worship-anthem.html",
+      "title": "Bethel leaders open up about 'miracle' adoption inspiration for worship anthem",
+      "publisher": "The Christian Post",
+      "sourceType": "JOURNALISM",
+      "credibilityTier": "TIER_3",
+      "establishes": "The Johnsons' own account that the song came out of their son's adoption and that Jenn began it while driving, days afterward.",
+      "assessesContent": false
+    }
+  ]
+}

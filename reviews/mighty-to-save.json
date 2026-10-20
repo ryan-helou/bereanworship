@@ -1,0 +1,293 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Mighty to Save",
+    "artist": "Hillsong Worship",
+    "artistType": "COLLECTIVE",
+    "album": "Mighty to Save",
+    "releaseYear": 2006,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Words by Ben Fielding and music by Reuben Morgan, copyright 2006 Hillsong Music Publishing, administered in North America by Capitol CMG Publishing; CCLI 4591782. Recorded live on 5 March 2006 at the Sydney Entertainment Centre and released on the Hillsong album of the same name in July 2006. It won Worship Song of the Year at the 40th GMA Dove Awards in 2009. Laura Story's 2008 cover reached No. 9 on Billboard's Hot Christian Songs, and the song has been recorded many times since; it has sat in the CCLI top tier for most of two decades. The title phrase is Isaiah's and Zephaniah's. Reviewed as the song rather than as any one recording. The list's guess of Hillsong Worship is correct."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Two verses, a chorus sung after each, and a bridge that the recorded arrangement repeats at length to close; no pre-chorus. Verse one speaks in the third person about everyone: all people need compassion and a love that never fails, all need forgiveness, and the kindness of the Saviour is named as the hope of the nations. So the need is stated before any remedy is offered. The chorus is confession: the Saviour can move mountains, God is mighty to save, he is the everlasting author of salvation, and he rose and conquered the grave. Jesus is named there and the resurrection is stated outright rather than implied. Verse two turns to first person singular address to God, asking to be taken as the singer is found, with his fears and failures, and ending in surrender. The bridge is plural and outward: it asks God to shine his light so the whole world sees, and says the room sings for the glory of the risen King. Sin appears only as the need of forgiveness; the cross as a word, substitution and the Holy Spirit do not appear, though the resurrection does.",
+    "claims": [
+      {
+        "claim": "Everyone needs compassion and a love that never fails.",
+        "subject": "The need of humanity",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Everyone needs forgiveness, and the kindness of the Saviour is the hope of the nations.",
+        "subject": "The need of forgiveness",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Saviour can move mountains.",
+        "subject": "The power of Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is mighty to save.",
+        "subject": "Salvation as God's own work",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus is the everlasting author of salvation.",
+        "subject": "Christ as the source of salvation",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus rose and conquered the grave.",
+        "subject": "The resurrection",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer asks God to receive him as he is, with his fears and failures, and surrenders his life to follow what he believes.",
+        "subject": "Consecration",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The church asks God to shine his light so that the world may see, and sings for the glory of the risen King.",
+        "subject": "Mission",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Resurrection",
+        "title": "The empty tomb is stated, and the name is said",
+        "explanation": "The chorus does not leave the resurrection to be inferred: it says that he rose and conquered the grave, and names Jesus as the one who did. That is more than a great deal of contemporary worship puts in a congregation's mouth, and it is the line the song returns to most.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": null,
+        "scriptureReference": "1 Corinthians 15:3-4",
+        "scriptureRationale": "Christ was raised on the third day — the fact the chorus asserts rather than assumes."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "Saving is God's power, in Isaiah's own phrase",
+        "explanation": "The title line is lifted from the prophets, where the one coming from Edom is mighty to save and the Lord in the midst of his people is a mighty one who saves. The song therefore locates salvation in God's strength rather than in anything the singer brings to it.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null,
+        "scriptureReference": "Isaiah 63:1",
+        "scriptureRationale": "The phrase the song takes for its title, where saving is the strength of the one who comes."
+      },
+      {
+        "category": "Sin",
+        "title": "The need is universal, and stated first",
+        "explanation": "Before any remedy appears, verse one says that everyone needs compassion and everyone needs forgiveness. The Saviour arrives as a remedy for a stated condition rather than as an improvement on a life already going well.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null,
+        "scriptureReference": "Romans 3:23",
+        "scriptureRationale": "All have sinned — the universal condition the first verse assumes without hedging."
+      },
+      {
+        "category": "Christology",
+        "title": "Christ named as the author of salvation",
+        "explanation": "The chorus calls him the everlasting author of salvation, which is Hebrews' own title for him. Salvation is not a thing he enables; he is its source, and the word forever puts that beyond the singer's lifetime.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null,
+        "scriptureReference": "Hebrews 5:9",
+        "scriptureRationale": "Christ became the source of eternal salvation — the title the chorus gives him."
+      },
+      {
+        "category": "Mission",
+        "title": "The light is asked for so the world will see",
+        "explanation": "The bridge does not ask for light so that the singer may feel it. It asks that the whole world see, and says the room sings for the risen King's glory. The song ends facing outward, which is uncommon in a song that began with personal need.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MINOR",
+        "lyricExcerpt": null,
+        "scriptureReference": "Matthew 5:16",
+        "scriptureRationale": "Light shining before others so that they glorify the Father — the shape of the bridge's petition."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The universal need of forgiveness",
+      "Salvation as the work of God",
+      "Christ as the author of salvation",
+      "The bodily resurrection of Christ",
+      "The power of Christ over all obstacles",
+      "The church's witness to the nations"
+    ],
+    "assessment": "Sound, and fuller than its reputation. Verse one says everyone needs compassion and forgiveness before any remedy appears; the chorus names Jesus, calls him the everlasting author of salvation and says outright that he rose and conquered the grave. Premier Christianity's theology column cautions that the title can be heard as rescue from every hardship, but the verse ties the saving to forgiveness, so that reading has to strain. The limit is scope: the cross as a word, substitution and the Spirit are never reached."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Corporate voice",
+        "title": "The chorus carries the whole argument",
+        "explanation": "Everything the song asserts about God sits in the chorus, which is short and returns after both verses. A room that learns only that much has learned the song, and nothing in it depends on the band.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      },
+      {
+        "category": "Use",
+        "title": "It ends with the room facing outward",
+        "explanation": "The closing bridge is plural and missional, so the song finishes with a congregation asking that the world see rather than with a private resolution. That makes it fit a service that is going on to commission or send.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MINOR",
+        "lyricExcerpt": null
+      },
+      {
+        "category": "Accessibility",
+        "title": "Most rooms already know it",
+        "explanation": "Nearly two decades in the CCLI top tier, a Dove award, and recordings by many other artists mean a congregation will usually arrive already able to sing it, which is a real practical asset whatever one thinks of its origins.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MINOR",
+        "lyricExcerpt": null
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Recorded in A, which is high for a congregation, and both the chorus and the bridge sit near the top of it. Many churches drop it to G or F. No chart was read, so the span is not stated.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "A (original recording)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The chorus and bridge both carry content and bear returning to, but the published arrangement repeats the bridge well past where the words run out. A shortened close keeps what it was for.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Built to be sung by a room: the chorus holds the song's whole claim, the bridge is plural and outward-facing, and nothing needs the arrangement. Two things want a leader's hand. It was recorded in A, high enough that the chorus and the bridge both strain an ordinary congregation, which is why most churches move it down; and the published close repeats the bridge long past the point the words have more to say, which a shortened ending solves."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "The need, then the remedy, in that order",
+        "explanation": "Verse one states the condition and the chorus states who answers it. Nobody has to work out what the song is for, and the order means the Saviour is heard as a solution to something named rather than as a sentiment.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      },
+      {
+        "category": "Diction",
+        "title": "Jesus is named, not implied",
+        "explanation": "The chorus says the name. A newcomer is never left to supply who the Saviour is or who rose, which is the commonest vagueness in songs of this kind.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Discipleship",
+        "title": "What the singer follows is left as his own beliefs",
+        "explanation": "The song's one statement of commitment names the object of following not as Christ but as everything the singer believes in, so the clearest moment of resolve is also the vaguest line in the song. The surrounding address to God supplies the sense most rooms will hear.",
+        "songLocation": "VERSE_2",
+        "locationDetail": "the second couplet",
+        "lyricExcerpt": null,
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": false,
+        "likelihood": "POSSIBLE",
+        "scriptureReference": "Luke 9:23",
+        "scriptureRationale": "Christ makes himself the object of following — the thing the line leaves to the singer's own convictions."
+      }
+    ],
+    "ambiguityLevel": "LOW",
+    "assessment": "Plain. The need is stated first and the Saviour named second, and Jesus is named rather than left to be guessed. Two objections raised elsewhere do not survive the song: Premier Christianity's worry that the title promises rescue from all hardship is answered by the verse's talk of forgiveness, and the prophetic phrase is Isaiah's own. The one real vagueness is in verse two, where what the singer follows is left as his own beliefs."
+  },
+  "synthesis": {
+    "summary": "Verse one says everyone needs compassion and forgiveness; the chorus names Jesus, calls him the everlasting author of salvation and says he rose and conquered the grave. Saving is God's strength throughout, in Isaiah's phrase, and the bridge ends facing the world. The cross as a word and substitution are never reached. Recorded high in A with a long repeated close.",
+    "themes": [
+      "Christ",
+      "Resurrection",
+      "Salvation",
+      "God",
+      "Mission",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Isaiah 63:1",
+        "relevance": "The phrase the song takes for its title, where saving is the strength of the one who comes."
+      },
+      {
+        "reference": "Zephaniah 3:17",
+        "relevance": "The Lord in the midst of his people as a mighty one who saves — the other prophetic source of the title."
+      },
+      {
+        "reference": "1 Corinthians 15:3-4",
+        "relevance": "The resurrection the chorus states outright rather than implying."
+      },
+      {
+        "reference": "Hebrews 5:9",
+        "relevance": "Christ as the source of eternal salvation, the title the chorus gives him."
+      },
+      {
+        "reference": "Romans 3:23",
+        "relevance": "The universal need the first verse states before any remedy appears."
+      },
+      {
+        "reference": "Matthew 5:16",
+        "relevance": "Light shining so that others glorify God — the shape of the bridge's petition."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Mighty_to_Save_(song)",
+      "title": "Mighty to Save (song)",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writers Ben Fielding and Reuben Morgan, Hillsong Publishing, the live recording of 5 March 2006, the 2009 Dove award and Laura Story's cover.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.premierchristianity.com/home/theology-test-your-worship-songs/3652.article",
+      "title": "Theology test your worship songs",
+      "publisher": "Premier Christianity",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "A theology column with CWR tutor Andy Peck: it cautions the title can be heard as rescue from every hardship, while granting a true celebration of God's saving power.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.thebereantest.com/hillsong-worship-mighty-to-save",
+      "title": "Is 'Mighty to Save' Biblical?",
+      "publisher": "The Berean Test",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "A line-by-line lay doctrinal review scoring it 10/10, matching each section to passages and recommending fewer repeats of the closing bridge.",
+      "assessesContent": true
+    }
+  ]
+}

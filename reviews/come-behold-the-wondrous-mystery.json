@@ -1,0 +1,267 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Come Behold the Wondrous Mystery",
+    "artist": "Matt Boswell & Matt Papa",
+    "artistType": "GROUP",
+    "album": null,
+    "releaseYear": 2013,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Words and music by Matt Boswell, Matt Papa and Michael Bleecker — the list's guess named only Boswell and Papa and omitted Bleecker, who is a full co-writer. The idea came to Boswell in November 2012 while he was at Providence Church in Frisco, Texas, and the text and melody were finished with Bleecker and Papa around New Year 2013. CCLI 7026028, registered 16 July 2014. Copyright lines differ by score, which is worth noting for anyone reporting credits: Getty's own listing gives 2013 Getty Music Songs LLC (ASCAP designee), McKinney Music Inc. (BMI, administered by Capitol CMG), Love Your Enemies Publishing (ASCAP) and Bleecker Publishing (ASCAP); the LifeWay score credits only McKinney Music and Bleecker Publishing, reflecting Boswell's songwriting contract with LifeWay; other sheets carry a 2012 date and different publisher lists. First recorded by Matt Papa on Look & Live, released 17 September 2013; the version most churches know is Boswell and Papa's, and it also appears on His Mercy Is More: The Hymns of Matt Boswell and Matt Papa. Getty classifies it for Advent, Christmas, Holy Week, Easter, Christ's life and ministry, and the return of Christ. Reviewed as the song, not as any particular recording."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "CORPORATE_WE",
+    "structuralNotes": "Four stanzas on one tune, with no chorus; each opens with the same summons to come and look, so the form is a single sustained call to behold Christ, taken through his work in chronological order. The first stanza is the incarnation: the King's arrival, the theme of heaven's own praise clothed in frail humanity, the light of life coming into the singers' longing and darkness, and Christ condescending to take on flesh in order to ransom them. The second is fallen humanity enslaved to sin, with Christ as the true and better Adam who comes to save those bound for hell and as the sure fulfilment of the law, in whom they stand. The third is the cross: Christ on the tree in the place of ruined sinners, the Lamb hanging in victory, the price of redemption, and the Father's plan unfolding to bring many sons to glory, with grace and love beyond measure. The fourth is the resurrection: the God of life put to death, whom no grave could restrain, alive and raised in power, and the singers' own future resurrection when he comes. The voice is first person plural and God is spoken about rather than addressed.",
+    "claims": [
+      {
+        "claim": "Christ, the King and the theme of heaven's praise, was clothed in frail humanity.",
+        "subject": "The incarnation",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ condescended and took on flesh in order to ransom his people, bringing the light of life into their longing and darkness.",
+        "subject": "The purpose of the incarnation",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Fallen humanity is a slave to sin and bound for hell.",
+        "subject": "Sin and human condition",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is the true and better Adam and the great and sure fulfilment of the law, and believers stand in him.",
+        "subject": "Christ as second Adam and fulfiller of the law",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ hung on the cross in the place of ruined sinners, as the Lamb, and this was the price of our redemption.",
+        "subject": "Substitutionary atonement",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The cross is the Father's plan unfolding, to bring many sons to glory, in grace and love beyond measuring.",
+        "subject": "The Father's purpose in the cross",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The God of life was put to death, but no grave could hold him and he is alive, raised in power.",
+        "subject": "The resurrection of Christ",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "His resurrection is a foretaste of the singers' own deliverance: they will be raised as he was when he comes.",
+        "subject": "The resurrection of believers",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christology",
+        "title": "The whole of Christ's work, in order, in four stanzas",
+        "explanation": "Incarnation, sinless obedience under the law, substitution at the cross, resurrection, and the singers' own resurrection at his return — each gets a stanza and they run in sequence. A congregation that sings it through has sung the shape of the gospel, not one favoured moment of it.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Philippians 2:6-11",
+        "scriptureRationale": "The descent from equality with God to death and the exaltation that follows — the arc the four stanzas trace."
+      },
+      {
+        "category": "Atonement",
+        "title": "Substitution said as place-taking, and priced",
+        "explanation": "The third stanza says Christ hung in the place of ruined sinners and calls that the price of redemption. The exchange and its cost are both named, and the stanza calls the crucified one the Lamb, so the sacrificial category is supplied rather than assumed.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MAJOR",
+        "scriptureReference": "2 Corinthians 5:21",
+        "scriptureRationale": "The sinless one made sin for us so that we might become righteousness — the substitution the stanza states."
+      },
+      {
+        "category": "Christology",
+        "title": "The law fulfilled, not only the penalty paid",
+        "explanation": "The second stanza makes Christ the sure fulfilment of the law and says believers stand in him. His obedience is put in the congregation's mouth alongside his death, which very little congregational song reaches.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 5:19",
+        "scriptureRationale": "Many made righteous by the obedience of one man — the second Adam the stanza names."
+      },
+      {
+        "category": "Providence",
+        "title": "The cross as the Father's plan, not a tragedy",
+        "explanation": "The third stanza presents the crucifixion as the Father's purpose unfolding to bring many sons to glory. The cross is therefore intended rather than suffered upon Christ, and the Father is its author rather than its bystander.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Hebrews 2:10",
+        "scriptureRationale": "Bringing many sons to glory through the sufferings of the pioneer of salvation — the stanza's own phrase and doctrine."
+      },
+      {
+        "category": "Resurrection",
+        "title": "His rising, and then ours",
+        "explanation": "The last stanza does not stop at the empty grave. It ties the singers' own bodily resurrection to Christ's and dates it to his return, so the resurrection is given as a promise about the congregation and not only a fact about Christ.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Corinthians 15:20-23",
+        "scriptureRationale": "Christ the firstfruits, and those who belong to him raised at his coming — the order the stanza follows."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The incarnation and condescension of the Son",
+      "The sinlessness of Christ",
+      "Christ as the second Adam",
+      "The active obedience of Christ in fulfilling the law",
+      "Substitutionary atonement",
+      "The Father's purpose in the cross",
+      "The bodily resurrection of Christ",
+      "The bodily resurrection of believers at his return"
+    ],
+    "assessment": "Nothing to correct, and an unusually complete arc: incarnation, the law fulfilled, substitution, resurrection, and the singers' own resurrection, in that order, with the cross presented as the Father's plan rather than a tragedy. The second stanza's claim that Christ is the law's sure fulfilment puts his obedience as well as his death in the congregation's mouth, which little congregational song attempts. The limits are scope: the Spirit is never named, and the song asks nothing of the singer but to look."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "The same summons orients the room four times",
+        "explanation": "Every stanza opens the same way, so the congregation always knows it is being told to look at something new about the same person. The repeated call does the work a chorus would do without taking a stanza's worth of room to do it.",
+        "songLocation": "THROUGHOUT",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Corporate voice",
+        "title": "Plural throughout, and never a report of feeling",
+        "explanation": "The pronouns are ours and us, and the only emotional words describe the human condition the stanzas are diagnosing rather than the singers' present mood. There is nothing in it that an individual has to mean privately for the room to sing it honestly.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "One song that serves Advent through Easter",
+        "explanation": "Because the stanzas run chronologically, a church can sing it whole as a summary of the gospel or lean on one stanza for a season — the first at Christmas, the third on Good Friday or at the table, the fourth at Easter.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Getty's listing gives no key and none was verified for this review. Four long stanzas with no refrain, so the room carries the melody throughout. No chart was read, so the pitches are not stated.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not verified; publisher gives no key",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "Only the opening summons returns, and it returns to introduce new content each time. Nothing in the song is held up by repeating itself.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Written for a room rather than a stage: one tune, four stanzas, plural voice, and no section that needs a band to make sense. The cost of having no chorus is that the congregation is reading four dense stanzas rather than settling into something familiar, so it rewards being taught and repeated over a season rather than dropped in once. Serviceable from Advent to Easter, and a natural communion hymn on the strength of the third stanza."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Chronology makes the teaching self-explaining",
+        "explanation": "The stanzas follow Christ's life in order, so a hearer never has to work out how one claim relates to the last. The sequence itself is the argument, and it is the sequence a catechism would use.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Diction",
+        "title": "The one piece of shorthand is explained in the same breath",
+        "explanation": "The second Adam would be opaque on its own; the stanza immediately supplies the content by calling Christ the law's fulfilment and saying believers stand in him. The theological term arrives with its definition attached.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear despite being dense. The title's mystery is abstract until the first stanza fills it, and the fourth stanza's paradox about the God of life being put to death is resolved in the following line — a figure Scripture itself uses of Christ. Nothing is left for the hearer to guess at."
+  },
+  "synthesis": {
+    "summary": "Four stanzas that walk through Christ's work in order — incarnation, the law fulfilled, the cross in the place of ruined sinners, the resurrection, and the singers' own resurrection at his return — each opening with the same summons to look. The cross is presented as the Father's plan. Nothing in it is wrong. The Spirit is not named and the song calls for no response but beholding.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Resurrection",
+      "Salvation",
+      "Grace",
+      "Advent",
+      "Hope"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Philippians 2:6-11",
+        "relevance": "The descent to death and the exaltation that follows — the arc the four stanzas trace."
+      },
+      {
+        "reference": "Romans 5:19",
+        "relevance": "Many made righteous by the obedience of one — the second stanza's second Adam."
+      },
+      {
+        "reference": "2 Corinthians 5:21",
+        "relevance": "The sinless one made sin for us — the substitution the third stanza states."
+      },
+      {
+        "reference": "Hebrews 2:10",
+        "relevance": "Bringing many sons to glory through suffering — the third stanza's account of the Father's plan."
+      },
+      {
+        "reference": "1 Corinthians 15:20-23",
+        "relevance": "Christ the firstfruits and his people raised at his coming — the last stanza's promise."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.hymnologyarchive.com/come-behold-the-wondrous-mystery",
+      "title": "Come, behold the wondrous mystery",
+      "publisher": "Hymnology Archive",
+      "sourceType": "ACADEMIC",
+      "credibilityTier": "TIER_2",
+      "establishes": "Hymnological essay: the three writers, the November 2012 origin, Papa's 2013 first recording, the varying publisher credits, and an appreciative reading of the hymn's narrative of Christ's work.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://gettymusic.store/products/come-behold-the-wondrous-mystery",
+      "title": "Come Behold the Wondrous Mystery",
+      "publisher": "Getty Music",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher's listing: the three writer credits, the 2013 copyright line and its four publishers, CCLI 7026028, and the liturgical seasons Getty assigns the song.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://thevillagechapel.com/resources/come-behold-the-wondrous-mystery/",
+      "title": "Come Behold the Wondrous Mystery",
+      "publisher": "The Village Chapel, Nashville",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "A church resource page summarising what each stanza teaches — incarnation, law fulfilled, substitution, resurrection and future hope. Offers no criticism, and its copyright line differs from Getty's.",
+      "assessesContent": true
+    }
+  ]
+}

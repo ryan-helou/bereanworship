@@ -1,0 +1,262 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "How Great Is Our God",
+    "artist": "Chris Tomlin",
+    "artistType": "INDIVIDUAL",
+    "album": "Arriving",
+    "releaseYear": 2004,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Chris Tomlin, Jesse Reeves and Ed Cash; copyright 2004 sixsteps Music and worshiptogether.com songs, administered by Capitol CMG Publishing, with Wondrously Made Songs administered by Reservoir Media; CCLI 4348399. The list's guess of Chris Tomlin is correct for the recording churches know, and the usual three credits are confirmed by the publisher catalogue and the Wikipedia article. Tomlin's own account, given to CCM Magazine, is that he began it in 2004 in Austin while reading Psalm 104, could not finish the verses for some time, and completed it with his producer Ed Cash, who supplied the bridge. First released on the album Arriving (21 September 2004) and worked as a single into 2006, when it reached number one on Billboard's Hot Christian Songs chart. It won GMA Dove Song of the Year and Worship Song of the Year in 2006 and Worship Song of the Year again in 2008, and stood fifth on CCLI's top 25 in late 2014. Tomlin has since sung it in many languages on tour. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ABOUT_GOD",
+    "structuralNotes": "Two short verses, a chorus repeated after each, a bridge, and a closing tag that repeats the chorus's central phrase. The first verse draws on Psalm 104 and the enthronement psalms: God is a king robed in splendour and majesty, the earth is called to rejoice at it, he clothes himself in light, and darkness hides and trembles before his voice. The chorus is a corporate declaration of God's greatness with an explicit summons to the people around the singer to join in. The second verse carries the doctrinal weight: God is unchanged from age to age, time is held in his hand, he is the beginning and the end, he is the Godhead three in one - named as Father, Spirit and Son - and he is both Lion and Lamb. The bridge confesses his name as above every name and worthy of all praise. The song is cast about God in the third person, with a corporate 'our' and a first-person pledge to sing in the bridge; God is not directly addressed for most of its length. No act of God in history is narrated: the register is majesty and attribute rather than deed. Sin, repentance and the cross are not named, though the Lamb figure points at the last of these.",
+    "claims": [
+      {
+        "claim": "God is a king clothed in splendour and majesty, and the whole earth is summoned to rejoice at it.",
+        "subject": "The majesty of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God clothes himself in light, and darkness recoils and trembles at his voice.",
+        "subject": "The glory of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is unchanged from age to age and holds time in his hand; he is the beginning and the end.",
+        "subject": "The eternity and immutability of God",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is three in one, named as Father, Spirit and Son.",
+        "subject": "The Trinity",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is both the Lion and the Lamb.",
+        "subject": "Christology",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's greatness is to be declared together, and the singer calls those around him to sing it with him.",
+        "subject": "Corporate worship",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's name is above every name and worthy of all praise.",
+        "subject": "The name of God",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Trinity",
+        "title": "A congregation confesses three in one by name",
+        "explanation": "The second verse states that God is three in one and then names the persons. Almost nothing else in heavy CCLI rotation asks a room to say that out loud, and the doctrine is not gestured at but affirmed - the unity first, then the three named within it.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Matthew 28:19",
+        "scriptureRationale": "The one name in which the three persons are named together - the structure the verse reproduces."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "God's eternity stated as his unchangeableness",
+        "explanation": "Age to age he stands, time is in his hand, he is the beginning and the end. That is not merely that God lasts a long time; it is that he is not subject to time as his creatures are, and that the end of history is already in his keeping. It is said in two lines a child can sing.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 1:8",
+        "scriptureRationale": "The Lord as Alpha and Omega, who is and was and is to come - the claim the verse puts in plain speech."
+      },
+      {
+        "category": "Christology",
+        "title": "Lion and Lamb held together",
+        "explanation": "The same figure that names God's conquering strength names him as the sacrifice, exactly as Revelation 5 does: the Lion of Judah has triumphed, and what the throng then sees is a slain Lamb. The song declines to choose between majesty and sacrifice.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 5:5-6",
+        "scriptureRationale": "The Lion who has conquered and the Lamb who was slain are one figure in the vision - the pairing the verse makes."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "Majesty taken from the psalms rather than imagined",
+        "explanation": "The opening images - a king robed in majesty, light as a garment, the earth summoned to rejoice - are the enthronement psalms and Psalm 104, which Tomlin says he was reading when he began the song. The praise is of a God described by Scripture, not of a feeling.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 104:1-2",
+        "scriptureRationale": "God clothed with splendour and majesty, covering himself with light - the first verse's own imagery."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The majesty and glory of God",
+      "The Trinity: three persons, one God",
+      "The eternity and immutability of God",
+      "God's sovereignty over time and history",
+      "Christ as both Lion and Lamb",
+      "The supremacy of God's name"
+    ],
+    "assessment": "Doctrinally clean, and it confesses the Trinity outright, which is rare in songs this widely used. The one published objection, in Methodist Message in 2009, is to the order in which the persons are named, for fear singers conclude the Spirit is second. It is not kept as a concern: the song asserts nothing about order or procession, and Scripture itself varies the sequence. The real limit is register - no act of God is narrated, and sin and the cross go unnamed, only the Lamb figure pointing that way."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Corporate voice",
+        "title": "The chorus is addressed to the room",
+        "explanation": "The possessive is plural and the chorus explicitly asks the people nearby to sing along, so the song's grammar makes the congregation the singer rather than the audience. Few modern choruses build that in.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Accessibility",
+        "title": "A chorus a room can carry unaccompanied",
+        "explanation": "Short repeated phrases over a simple chord pattern, which is why it has survived translation into many languages and congregational singing without a band. Tomlin reports whole rooms abroad taking it over in their own tongue.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Memorability",
+        "title": "A tag that fixes the one claim",
+        "explanation": "The closing repetition of the chorus's central phrase leaves the room with the song's single assertion about God rather than with a hook about itself. The form serves the content.",
+        "songLocation": "TAG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published with Db as the original key, which leaves the chorus and bridge high for an ordinary room; most congregations are better served a tone or two lower. Test the bridge. No chart was read.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Db (original per PraiseCharts); published in several keys",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus and its closing phrase recur a great deal, but what recurs is a confession about God, and the verses keep adding grounds for it. Repetition carries content here.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "About as congregational as modern worship gets: plural voice, an explicit invitation to the room, short phrases, a melody that survives being sung badly. The practical caution is the published key - Db leaves the bridge high for an untrained congregation, so transpose and test that section. Suited to opening a service, or anywhere the gathering must declare something about God together; it will not serve confession or the Lord's table, never reaching sin or the cross."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "One claim, grounds added verse by verse",
+        "explanation": "The chorus states the thesis and each verse supplies reasons. Nobody is left wondering what the song was about, and the doctrinal content arrives as support rather than as decoration.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Diction",
+        "title": "Biblical figures that explain themselves",
+        "explanation": "King, light, darkness, Lion, Lamb. The images are Scripture's own and carry their sense in the singing, so a visitor is not left decoding metaphor, even if the Lamb's full weight needs the sermon.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Plain throughout. The only line needing instruction is the Lion and Lamb pairing, whose sense a congregation taught from Revelation 5 will have; nothing else in the song is open to a second reading."
+  },
+  "synthesis": {
+    "summary": "A short declaration of God's greatness built from Psalm 104 and the enthronement psalms, which confesses the Trinity by name and states God's eternity and his hold on time - unusual doctrinal weight for a chorus this widely sung. It narrates no act of God and never names sin or the cross, so it declares who God is rather than what he has done. Plural-voiced and easy to carry, though the published key sits high.",
+    "themes": [
+      "God",
+      "Trinity",
+      "Christ",
+      "Worship",
+      "Sovereignty"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 104:1-2",
+        "relevance": "God clothed in splendour and covered with light - the first verse's imagery, and the psalm Tomlin says began the song."
+      },
+      {
+        "reference": "Psalm 93:1",
+        "relevance": "The Lord reigning, robed in majesty - the enthronement note the opening strikes."
+      },
+      {
+        "reference": "Revelation 1:8",
+        "relevance": "The Alpha and Omega who is and was and is to come - the second verse's claim about time."
+      },
+      {
+        "reference": "Revelation 5:5-6",
+        "relevance": "The conquering Lion who appears as a slain Lamb - the pairing the second verse makes."
+      },
+      {
+        "reference": "Matthew 28:19",
+        "relevance": "The three persons named in one name - the Trinitarian confession the verse reproduces."
+      },
+      {
+        "reference": "Philippians 2:9-10",
+        "relevance": "The name above every name, which the bridge confesses."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/How_Great_Is_Our_God",
+      "title": "How Great Is Our God",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Authorship by Tomlin, Reeves and Cash, the Arriving album, chart placing, Dove awards and CCLI top-25 standing.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://methodistmessage.sg/song-gives-a-glimpse-of-the-age-to-come-when-christ-reigns/",
+      "title": "Song gives a glimpse of the age to come when Christ reigns",
+      "publisher": "Methodist Message (The Methodist Church in Singapore)",
+      "sourceType": "THEOLOGICAL_ORGANIZATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "A denominational worship column assessing the song: commends its Trinitarian content and eschatological picture, objects to the order in which the persons are named.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.ccmmagazine.com/?p=73526",
+      "title": "Chris Tomlin on How Great Is Our God",
+      "publisher": "CCM Magazine",
+      "sourceType": "JOURNALISM",
+      "credibilityTier": "TIER_3",
+      "establishes": "Tomlin's own account: begun in 2004 from Psalm 104, verses finished later with Ed Cash, who added the bridge; the song's global use.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.praisecharts.com/songs/details/2202",
+      "title": "How Great Is Our God - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: CCLI 4348399, the 2004 copyright line and publishers, the three writers, original key Db, meter and tempo.",
+      "assessesContent": false
+    }
+  ]
+}

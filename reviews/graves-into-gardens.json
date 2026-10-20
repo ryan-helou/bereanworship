@@ -1,0 +1,267 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Graves Into Gardens",
+    "artist": "Elevation Worship",
+    "artistType": "COLLECTIVE",
+    "album": "Graves Into Gardens",
+    "releaseYear": 2020,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Words and music by Brandon Lake, Chris Brown, Steven Furtick and Tiffany Hammer (listed on some records as Tiffany Hudson), copyright 2019 Bethel Music Publishing, Maverick City Publishing Worldwide, Brandon Lake Music, Music by Elevation Worship Publishing and Be Essential Songs; CCLI 7138219. The list's guess of Elevation Worship is correct; the recording churches know is Elevation Worship with Brandon Lake singing lead, cut live at Elevation Church's Ballantyne campus on 15 January 2020, issued as a promotional single that March and as the album's second single on 7 August 2020. It reached No. 1 on Hot Christian Songs in February 2021 — a first for both acts, and the slowest climb to No. 1 in that chart's history — topped Christian Airplay, went 2x Platinum, won the 2021 Billboard Music Award for Top Christian Song and the 2021 Dove for Worship Recorded Song of the Year. Chris Brown and Tiffany Hammer have both said the song came out of a Steven Furtick sermon on 2 Kings 13:20-21, where a dead man revives on touching Elisha's bones. A studio cut without the live spoken interludes is published alongside the live version. Reviewed as the song, not as any one recording of it."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Two verses, a pre-chorus, a chorus and a bridge; the live recording adds spoken interludes and extended repeats that the studio cut omits. Every section is addressed to God in the second person, but the two verses are voiced by a single speaker reporting his own history, while the pre-chorus, chorus and bridge have no first person in them at all. The first verse reports having looked to the world and to human praise and to wealth and found none of it enough, and then says God has restored him and now satisfies all he wanted. The pre-chorus states flatly that nothing surpasses God himself. The chorus names three reversals God works upon what is dead — a burial place made fruitful, scattered bones made a living army, a sea made passable — and attaching to each set the claim that no one else is able. The second verse brings the singer's weakness, failures and flaws to a God who has already seen them all and counts him a friend nonetheless, and says the God of the heights is the same God in the depths, with no place beyond the reach of his mercy. The bridge names three further reversals: grief exchanged for gladness, beauty given in place of ashes, disgrace turned to honour, with the same exclusive claim attached. Christ is never named, and the cross, the resurrection, the Spirit and repentance do not appear. God is addressed as Lord and spoken of as God; no reversal is located in the resurrection or in the age to come.",
+    "claims": [
+      {
+        "claim": "Nothing the world offers — its praise, its wealth, its treasures — is enough, and God alone satisfies.",
+        "subject": "The sufficiency and incomparable worth of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Nothing surpasses God himself.",
+        "subject": "The worth of God",
+        "location": "PRE_CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God brings life out of burial places, armies out of dry bones and a road out of the sea, and no one else is able to.",
+        "subject": "The power of God to bring life out of death",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God has already seen the singer's weakness, failures and flaws in full, and counts him a friend nonetheless.",
+        "subject": "Grace and the omniscience of God",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The God of the heights is the same God in the depths; there is no place his mercy and grace will not reach.",
+        "subject": "Providence",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God exchanges grief for gladness, beauty for ashes and disgrace for honour, and he alone is able.",
+        "subject": "The reversals God works",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Doctrine of God",
+        "title": "Six reversals, each taken from a passage",
+        "explanation": "The chorus and bridge are not invented images. Bones raised into an army is Ezekiel 37, a sea made passable is Exodus 14, beauty for ashes is Isaiah 61, grief turned to gladness is Psalm 30. The congregation sings six compressed Scriptures about what God does with what is dead.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Ezekiel 37:1-10",
+        "scriptureRationale": "A valley of dry bones raised into a living army — the reversal the chorus names first."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "God alone is said to be able",
+        "explanation": "Each set of reversals carries the claim that no one else is able. The song does not say God is best at this or most likely to do it; it denies that anything else can. That is a monotheistic claim, repeated more than any other line in the song.",
+        "songLocation": "THROUGHOUT",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 45:5-6",
+        "scriptureRationale": "There is no God besides the Lord — the exclusivity the repeated line asserts."
+      },
+      {
+        "category": "Grace",
+        "title": "Seen in full, and counted a friend anyway",
+        "explanation": "The second verse does not ask God to overlook anything. It says he has already seen the weakness, the failures and the flaws, and that the friendship stands anyway. Welcome rests on what God knows and chooses, not on what the singer has managed to hide.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "John 15:15",
+        "scriptureRationale": "Christ naming his disciples friends — the standing the verse claims."
+      },
+      {
+        "category": "Providence",
+        "title": "The same God on the height and in the depth",
+        "explanation": "The second verse refuses the idea that God belongs to good seasons. The God of the height is the God of the depth, and no place lies outside the reach of his mercy, which is Psalm 139 put into one couplet.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MINOR",
+        "scriptureReference": "Psalm 139:7-10",
+        "scriptureRationale": "No height or depth beyond God's presence and hand — the claim the couplet makes."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "The world weighed and found wanting",
+        "explanation": "Before it says anything about reversal, the first verse states that human praise and fading treasure are not enough. The song's claim about God's worth is made by comparison with what people actually chase, which is the move Psalm 73 makes.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MINOR",
+        "scriptureReference": "Psalm 73:25",
+        "scriptureRationale": "Nothing on earth desired beside God — the comparison the first verse draws."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God alone raises the dead",
+      "The incomparable worth of God",
+      "The omniscience of God",
+      "Grace toward the failing",
+      "The providence of God in affliction",
+      "God's reversal of mourning and shame"
+    ],
+    "assessment": "Nothing here is false. The six reversals are drawn straight from Ezekiel, Exodus, Isaiah and the Psalms, the exclusive claim attached to them is real monotheism, and the second verse grounds welcome in what God already knows rather than in the singer's record. The limit is reach, not accuracy. Christ is never named; the cross, the resurrection and the Spirit do not appear; and the song never says where or when the reversal comes, so it states God's power without locating it in Christ's own grave and garden."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Memorability",
+        "title": "A chorus built from pictures",
+        "explanation": "Three concrete reversals, parallel in shape, each landing on the same exclusive claim. A room learns it on one hearing and remembers it for years, which is the reason the song travelled.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Words for a congregation with something buried",
+        "explanation": "The second verse hands a room a way to bring failure and loss to God without first tidying it up, and the chorus answers with what God can do. It has a clear place in a service dealing with grief or long disappointment.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Published in B, also in A and Bb; 6/8, medium-fast. The chorus climbs to a sustained peak on the lead vocal, so most rooms will need it below B. No chart was read, so the span is not stated.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "B (original); also published in A and Bb",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The repeated line is the song's thesis, not a hook. But the live cut extends the bridge and adds spoken interludes past where the words run out; the studio cut drops them.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "The chorus and bridge are genuinely congregational — no first person, parallel images, one repeated claim. The verses are not: they are a single speaker's account of his own search and his own failures, which three hundred people sing as three hundred separate testimonies rather than as one confession. Add a stadium-shaped build and a peak written for a strong lead voice and the live cut leans toward the platform. Use the studio arrangement, drop the key below B, and it works in an ordinary room."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Diction",
+        "title": "Images that explain themselves",
+        "explanation": "Every picture in the chorus and bridge carries its own meaning: a grave and a garden need no gloss, and the hearer knows at once which direction the change runs. There is no abstraction to decode anywhere in the song.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "One claim, stated six ways",
+        "explanation": "Chorus and bridge make the same assertion six times with different pictures and the same closing claim. Nobody finishes the song unsure what was claimed about God, and the parallel shape makes the claim easy to follow on first hearing.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Plain from first hearing. What is left open is not the meaning but the scope: the song says God brings life out of burial places without ever saying when, so a hearer in a hard season has to supply the timing themselves. Leaders who sing it alongside the resurrection will be filling that gap rather than correcting anything."
+  },
+  "synthesis": {
+    "summary": "Six reversals taken straight from Ezekiel, Exodus, Isaiah and the Psalms, each capped with the claim that God alone can work them, and a verse that grounds God's welcome in what he already knows of our failures. Christ, the cross and the resurrection are never named, and the reversal is never located in time. Testimonial verses with a congregational chorus.",
+    "themes": [
+      "God",
+      "Hope",
+      "Grace",
+      "Sovereignty",
+      "Providence",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Ezekiel 37:1-10",
+        "relevance": "Dry bones raised into an army — the chorus's second image, and the source of its whole conceit."
+      },
+      {
+        "reference": "Exodus 14:21-22",
+        "relevance": "The sea divided into a road — the chorus's third image."
+      },
+      {
+        "reference": "Isaiah 61:3",
+        "relevance": "Beauty given for ashes — the bridge's second claim, quoted almost as a title."
+      },
+      {
+        "reference": "Psalm 30:11",
+        "relevance": "Mourning turned to dancing — the bridge's first claim."
+      },
+      {
+        "reference": "Psalm 73:25",
+        "relevance": "Nothing on earth desired beside God — the comparison the first verse works through."
+      },
+      {
+        "reference": "John 15:15",
+        "relevance": "Christ calling his disciples friends — the standing the second verse claims for the failing."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Graves_into_Gardens_(song)",
+      "title": "Graves into Gardens (song)",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writers, single and album dates, the live recording date, chart peaks, certification and awards, and Chris Brown's account of the sermon the song came from.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://praisecharts.com/songs/details/75379/graves-into-gardens-studio-sheet-music",
+      "title": "Graves Into Gardens (Studio) sheet music",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Published arrangement: full copyright line, CCLI 7138219, writer credits, original key B, available keys, 6/8 meter and tempo.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://air1.com/music/blog/behind-the-music/hear-the-story-behind-the-song-921",
+      "title": "Hear the Story Behind the Song",
+      "publisher": "Air1",
+      "sourceType": "JOURNALISM",
+      "credibilityTier": "TIER_3",
+      "establishes": "The writers' own account: the 2 Kings 13:20-21 sermon behind the song, and Tiffany Hammer's and Chris Brown's statements of what it is meant to say.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.ccmmagazine.com/reviews/music/elevation-worship-graves-into-gardens/",
+      "title": "Elevation Worship 'Graves into Gardens'",
+      "publisher": "CCM Magazine",
+      "sourceType": "JOURNALISM",
+      "credibilityTier": "TIER_3",
+      "establishes": "Dan MacIntosh's 3.5-of-5 album review, which reads the title track as centred on God's power to transform lives.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.thebereantest.com/elevation-worship-feat-brandon-lake-graves-into-gardens",
+      "title": "Elevation Worship feat. Brandon Lake – Graves Into Gardens",
+      "publisher": "The Berean Test",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "A published lay doctrinal review scoring the song 9/10, cross-referencing Ezekiel 37, Exodus 14 and Psalm 37:4, and objecting to the live interludes and bridge repetition.",
+      "assessesContent": true
+    }
+  ]
+}

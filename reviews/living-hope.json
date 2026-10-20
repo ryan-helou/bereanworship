@@ -1,0 +1,271 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Living Hope",
+    "artist": "Phil Wickham",
+    "artistType": "INDIVIDUAL",
+    "album": "Living Hope",
+    "releaseYear": 2018,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Brian Johnson and Phil Wickham; copyright 2017 Phil Wickham Music, Simply Global Songs and Sing My Songs, administered by Essential Music Publishing, with Bethel Music Publishing; CCLI 7106807. The list's guess of Phil Wickham is right for the recording churches know, but the song is a co-write: Johnson sent Wickham a hummed melody by voice memo and the two traded lyrics and memos by text over about a month. Wickham has said he wanted a song carrying the gospel from start to finish, that Johnson helped steer the lyric, and that he wrote the record for the local church rather than as personal statement. Both men's congregations were singing it before release. Released as a single on Good Friday, 30 March 2018, with the album following on 3 August 2018; it topped Christian Airplay and won GMA Dove Worship Song of the Year in 2019. Note that the copyright year is 2017 while the release year is 2018. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Two verses, each with its own second half, a chorus repeated after each, and a short bridge. The first verse opens with the distance between a holy God and a sinner: the singer stood condemned, with the law able only to pronounce judgement and no hope in himself. Its second half answers with mercy: the God of ages came down from glory into the world to rescue, and bore the singer's sin and shame to the cross, dying in his place. The chorus is praise addressed to Christ for setting the singer free, declaring that death has lost its hold, that every chain is broken, that salvation is in his name, and naming Jesus Christ as the singer's living hope. The second verse narrates the resurrection as an event on a particular morning: the buried body breathed again, the promise was sealed, and the grave was declared to have no claim on the singer. The bridge ascribes the victory to Jesus. The voice is first person singular, but what it says is what Christ has done; Christ is named outright, and the sequence runs condemnation, incarnation, substitution, death, resurrection, victory. The Spirit, the church and the second coming are not reached.",
+    "claims": [
+      {
+        "claim": "A sinner stands at an unbridgeable distance from a holy God, and the law can only pronounce condemnation.",
+        "subject": "Sin and the law",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The eternal God came down from glory into the world to rescue the helpless.",
+        "subject": "The incarnation",
+        "location": "VERSE_1",
+        "locationDetail": "the second half of the verse",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ carried the singer's sin and shame to the cross and died in his place.",
+        "subject": "Substitutionary atonement",
+        "location": "VERSE_1",
+        "locationDetail": "the second half of the verse",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ's buried body came to life again on a particular morning, sealing God's promise.",
+        "subject": "The bodily resurrection",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Because Christ is risen, the grave has no claim on the believer and death has lost its hold.",
+        "subject": "Union with Christ in his victory",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Salvation is in the name of Jesus Christ, who is himself the singer's living hope.",
+        "subject": "Salvation in Christ alone",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The victory belongs to Jesus.",
+        "subject": "The lordship of Christ",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "The gospel",
+        "title": "The gospel told in its own order",
+        "explanation": "Condemnation under the law, then the incarnation, then substitution at the cross, then the resurrection, then victory. A congregation sings the sequence rather than a mood, and nothing is skipped on the way from a sinner's plight to a risen Christ. Wickham says this was the aim, and the song delivers it.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Corinthians 15:3-4",
+        "scriptureRationale": "Christ died for our sins, was buried, and was raised - the spine of the song's two verses."
+      },
+      {
+        "category": "Resurrection",
+        "title": "A resurrection with a body in it",
+        "explanation": "The second verse says the buried body began to live again on a specific morning. That is the bodily resurrection as event, not the singer's sense of new life, and it is the claim on which the chorus's freedom from death rests.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Corinthians 15:54-57",
+        "scriptureRationale": "Death swallowed up in victory, with the sting removed through Christ - what the verse grounds in a bodily rising."
+      },
+      {
+        "category": "Atonement",
+        "title": "Substitution stated, not implied",
+        "explanation": "Christ is said to carry the singer's own sin and shame to the cross and to die in his place. Sin is the singer's, the death is Christ's, and the exchange is named - which is more than most songs reaching for the cross manage.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Peter 2:24",
+        "scriptureRationale": "Christ bearing our sins in his body on the tree - the exchange the verse puts in the congregation's mouth."
+      },
+      {
+        "category": "Sin",
+        "title": "The law's verdict comes before mercy",
+        "explanation": "The song begins with a sinner who has no standing and a law that can only condemn. Naming the problem in those terms is what makes the rescue intelligible, and it keeps the chorus's talk of freedom from being freedom in general.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 3:19-20",
+        "scriptureRationale": "The law stopping every mouth and bringing knowledge of sin rather than acquittal - the verse's opening claim."
+      },
+      {
+        "category": "Hope",
+        "title": "Hope that is a person, from 1 Peter",
+        "explanation": "The title phrase is Peter's: hope is living because the one it rests on is alive, and the song keeps that logic by naming Jesus himself as the hope rather than making hope a feeling about the future. The chorus is where that is stated.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Peter 1:3",
+        "scriptureRationale": "A living hope through the resurrection of Jesus Christ from the dead - the phrase and the reasoning the chorus adopts."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Human sinfulness and condemnation under the law",
+      "The incarnation of the eternal Son",
+      "Substitutionary atonement",
+      "The bodily resurrection of Christ",
+      "Victory over death for those in Christ",
+      "Salvation in the name of Jesus alone",
+      "Hope founded on a living Christ"
+    ],
+    "assessment": "Nothing to correct. The song moves through the gospel in order and states what most contemporary worship leaves implicit: a law that condemns, an incarnation that condescends, a substitution in which Christ bears the singer's sin, a bodily resurrection on a particular morning, and a victory that is Christ's before it is the singer's. Two published assessments find it sound. The descent-from-glory language is ordinary hymn idiom. The Spirit, the church and the second coming are not reached."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A melody the room remembers",
+        "explanation": "The Hymn Society's reviewer calls the tune singable and memorable and the song the strongest and most adaptable on the album, while noting the recording's vocal is beyond an ordinary singer. The shape survives being taken out of the concert arrangement.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Written for congregations, and released for Good Friday",
+        "explanation": "Wickham says he wrote the record for the local church rather than as personal statement, and both writers' congregations were singing this one before it was released. The Good Friday single and the Easter content make its place in a church year obvious.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Narrative order a room can follow",
+        "explanation": "Verse one is the problem and the rescue, verse two is the rising, and the chorus is the response to both. A congregation always knows where in the story it is, and the chorus means something different after the second verse than after the first.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Published with Eb as the original key. The Hymn Society reviewer advises dropping it a step or two for mixed congregations and warns the recorded vocal is no model for a congregation. Test the chorus.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Eb (original per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns after each verse and the bridge is short and repeated, but each return follows a new piece of the story, so the same words land on changed ground.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Congregational in its words and its form, with a real caution about its delivery: the song is built to climb, the published key leaves the chorus high, and the recording invites a leader to perform the top of it rather than to carry a room through it. Transpose down and resist the build, and an ordinary congregation sings it well. Its content places it naturally at Good Friday and Easter, at baptisms, and wherever the gospel is being stated in full."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Jesus Christ is named, not gestured at",
+        "explanation": "The chorus names Christ outright and puts salvation in his name, so the song's 'you' is never an unspecified addressee. A visitor leaves knowing exactly who is being praised and for what.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "A story told in sequence",
+        "explanation": "Because the song proceeds in the gospel's own order, each claim is interpreted by the one before it. Freedom in the chorus can only mean freedom from the condemnation named in the first verse.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in its claims, with a vocabulary that is frankly churchly: chasm, law, chains, the grave's claim, a roaring lion. One lay reviewer notes that some of the idiom needs theological literacy, and that is fair - the figures are biblical and need teaching - but nothing in the song is open to a wrong reading."
+  },
+  "synthesis": {
+    "summary": "A modern hymn that walks through the gospel in order: a sinner condemned by the law, the eternal God coming down, Christ bearing the singer's sin to the cross, a buried body raised on a particular morning, death's hold broken. Christ is named and salvation located in his name. Nothing in it is wrong; the Spirit and the second coming are not reached. The published key and the build are what a leader must manage.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Resurrection",
+      "Salvation",
+      "Sin",
+      "Grace",
+      "Hope"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "1 Peter 1:3",
+        "relevance": "The living hope given through Christ's resurrection - the phrase and the logic of the chorus."
+      },
+      {
+        "reference": "1 Corinthians 15:3-4",
+        "relevance": "Died, buried, raised - the order the song's two verses follow."
+      },
+      {
+        "reference": "Romans 3:19-20",
+        "relevance": "The law silencing every mouth rather than acquitting - the first verse's opening verdict."
+      },
+      {
+        "reference": "1 Peter 2:24",
+        "relevance": "Christ bearing our sins in his body on the tree - the substitution the first verse states."
+      },
+      {
+        "reference": "Philippians 2:6-8",
+        "relevance": "The Son's descent and obedience to death - the incarnation language of the verse."
+      },
+      {
+        "reference": "1 Corinthians 15:54-57",
+        "relevance": "Death swallowed up in victory through Christ - the ground of the chorus's claim."
+      },
+      {
+        "reference": "Revelation 5:5",
+        "relevance": "The Lion of Judah who has conquered - the figure the second verse uses of the risen Christ."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://congregationalsong.org/?p=1091",
+      "title": "Album review: Phil Wickham, Living Hope",
+      "publisher": "The Center for Congregational Song (The Hymn Society)",
+      "sourceType": "THEOLOGICAL_ORGANIZATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "A hymnological body's review by David Calvert: commends the song's biblical and theological language and singability, advises lowering the key for mixed congregations.",
+      "assessesContent": true
+    },
+    {
+      "url": "http://www.multitracks.com/blog/new-single-from-phil-wickham-living-hope",
+      "title": "New single from Phil Wickham: Living Hope",
+      "publisher": "MultiTracks",
+      "sourceType": "INTERVIEW",
+      "credibilityTier": "TIER_3",
+      "establishes": "Wickham's own account of the co-write with Brian Johnson by voice memo and text, the song's use in both writers' churches, and the 2018 single release.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.praisecharts.com/songs/details/71163",
+      "title": "Living Hope - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Brian Johnson and Phil Wickham, CCLI 7106807, the 2017 copyright line and publishers, original key Eb, meter and tempo.",
+      "assessesContent": false
+    }
+  ]
+}

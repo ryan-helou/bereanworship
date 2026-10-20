@@ -77,6 +77,16 @@ would not take is only *possible*, a matter of imagery is *peripheral*, and a li
 not *recur*. None of this softens real error. A song that says something wrong about God still
 pays for it in full.
 
+**Settled doctrine, or an open dispute.** A line that contradicts a doctrine this framework treats
+as settled is an error: God's self-sufficiency is stated in Acts 17:25 and in every confession the
+framework draws on, so a line that puts a want in God is graded MODERATE with centrality CORE. A
+line that takes a side in an open exegetical question, where serious theologians who share the
+song's view of the cross land on both sides, is at most MINOR. Whether the Father turned from the
+Son at the cross is the standing example: Christ's cry of forsakenness and Psalm 22:24 are both
+cited on each side. How loudly a line has been criticised is not the test; whether the criticism
+is about a settled point is. And a line that only *could be misheard*, while asserting something
+the framework holds true, is a clarity note.
+
 ### Repetition and emotion
 
 Both are judged rather than reflexively penalised.

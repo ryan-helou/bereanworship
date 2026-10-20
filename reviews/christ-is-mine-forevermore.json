@@ -1,0 +1,294 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Christ Is Mine Forevermore",
+    "artist": "CityAlight",
+    "artistType": "GROUP",
+    "album": "Only A Holy God",
+    "releaseYear": 2016,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Words and music by Jonny Robinson and Rich Thompson, copyright 2016 CityAlight Music (admin. Integrity Music Publishing); CCLI 7036096. The list's guess of CityAlight is correct: CityAlight is the music ministry of St Paul's Anglican Church, Castle Hill, in the Diocese of Sydney, and the hymn appeared on Only A Holy God in December 2016. In August 2018 the ministry published a song-story video and a stripped-back acoustic arrangement for this hymn alongside three others, part of a stated aim to make the songs workable in a small church or a home with one piano as well as in an auditorium. Writers from the same team have described their process as slow and reviewed by pastors and lyricists before release. The hymn has been recorded live at the Sing! conference with Sandra McCracken and by the Worship Initiative with Shane & Shane. PraiseCharts lists the original key as Bb, in 3/4, with arrangements in A, Bb and C. Reviewed as the song, not as any one recording of it."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "Four verses of parallel construction plus a short closing refrain, in a slow 3/4. Every verse opens with a possessive claim about the singer's circumstances, pivots on an adversative, and closes with a possessive claim about what Christ has given; the title line ends the song. The voice is first person singular throughout, but the possessives are generic rather than autobiographical — what is claimed is what belongs to any Christian, not an episode in one person's life. The first verse says the singer's days are numbered by God and he was made to walk with him, admits he looks instead for worldly treasure and forsakes the King, then sets against that a hope in his Redeemer whose love holds even when he falls, because Christ has paid for all of it. The second verse grants weeping, a darkness he cannot yet make sense of and a valley with no visible earthly benefit, and sets against it a peace that comes from heaven, strength supplied at the point of need, suffering that will not be purposeless and a work Christ is completing in him. The third verse describes life as a stranger and pilgrim on a narrow road who will meet injury and hostility on account of Christ, and sets against it armour adequate to the whole conflict and Christ's undertaking to bring him safely to the far shore. The closing verse claims a right of entry to the city of Zion, where the singer walks beside the King and finds what his heart most values. The Holy Spirit is never named, and the resurrection is not stated, though final deliverance and heaven are.",
+    "claims": [
+      {
+        "claim": "God has numbered the singer's days, and he was made to walk with God.",
+        "subject": "Providence and the purpose of human life",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer looks for worldly treasure and forsakes the King he owes himself to.",
+        "subject": "Sin and idolatry",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ has paid for all the singer's sin, so the Redeemer's love holds even when he falls.",
+        "subject": "Atonement and assurance",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Weeping and a darkness he cannot make sense of are the believer's lot, and no earthly benefit may be visible in the valley.",
+        "subject": "Suffering",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer's peace comes from heaven, his strength is given at the point of need, his suffering will not be purposeless, and Christ is completing his work in him.",
+        "subject": "Providence and sanctification",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Christian lives as a stranger and pilgrim and will meet injury and hostility on account of Christ.",
+        "subject": "Persecution and the Christian life",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer has armour adequate to the whole conflict, and Christ has undertaken to bring him safely through.",
+        "subject": "Spiritual warfare and preservation",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer has a right of entry to the city of Zion, where he will walk beside the King, and Christ is his for ever.",
+        "subject": "Heaven and the believer's inheritance",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "The payment is said to cover all of it",
+        "explanation": "The first verse admits idolatry rather than weakness, and then says Christ has paid for all of it. The scope of the payment is stated, which is what makes the assurance in the next three verses something the song has earned rather than asserted.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Colossians 2:13-14",
+        "scriptureRationale": "The record of debt cancelled entirely at the cross — the completeness the verse claims."
+      },
+      {
+        "category": "Suffering",
+        "title": "Darkness granted before it is answered",
+        "explanation": "The second verse concedes weeping, incomprehension and a valley with nothing good in view before it says anything consoling. The hymn refuses to explain the suffering away, and the comfort it gives is Christ's work rather than a reinterpretation of the pain.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Romans 8:28",
+        "scriptureRationale": "All things worked toward good for those God called — the only thing the verse claims about pain it cannot explain."
+      },
+      {
+        "category": "Perseverance",
+        "title": "Equipment said to last the whole conflict",
+        "explanation": "The third verse does not promise that the conflict will be short or that injury will be avoided; it promises equipment adequate to the whole of it and a Christ who has undertaken to deliver. Both the realism and the ground of the confidence are Ephesians 6.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Ephesians 6:13",
+        "scriptureRationale": "The whole armour of God taken up so as to stand — the sufficiency the verse claims."
+      },
+      {
+        "category": "Hope",
+        "title": "Hope is a city and a person, not a mood",
+        "explanation": "The closing verse ends not on relief but on a place and a presence: entry to Zion, walking beside the King, and finding there what the heart most values. Heaven is stated as the believer's possession in Christ rather than as a reward for endurance.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Hebrews 12:22-23",
+        "scriptureRationale": "Believers come to Mount Zion, the city of the living God — the destination the closing verse names."
+      },
+      {
+        "category": "Sin",
+        "title": "The singer accuses himself before he is comforted",
+        "explanation": "Of the four verses, the first spends its opening half on the singer's own forsaking of God. A hymn of assurance that begins by conceding idolatry is giving the congregation an honest reason to need what follows.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Jeremiah 2:13",
+        "scriptureRationale": "God's people forsaking him for what cannot hold water — the exchange the verse confesses."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God's ordering of the believer's days",
+      "Human sin and idolatry",
+      "Atonement covering all the believer's sin",
+      "Assurance that does not depend on the believer's steadiness",
+      "God's purpose in suffering",
+      "Progressive sanctification",
+      "Preservation to the end",
+      "The hope of heaven"
+    ],
+    "assessment": "Nothing here is false, and a good deal is unusually hard-headed. Sin is confessed as idolatry rather than frailty, the atonement is said to cover all of it, suffering is granted its full weight before any comfort is offered, and perseverance is grounded in Christ's promise rather than the singer's grip. Two absences: the Holy Spirit is never mentioned, and the resurrection is not stated, so the deliverance the song promises rests on the payment and the promise without its historical guarantee being sung."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Corporate voice",
+        "title": "A singular that is generic, not autobiographical",
+        "explanation": "Every possessive in the hymn claims what is true of any Christian — these days, this weeping, this armour, this city. Nothing in it belongs to one person's history, so a room says it as one confession rather than as many private reports.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "A funeral and a bad week both have a use for it",
+        "explanation": "Suffering, persecution, perseverance and heaven are all in it, with the comfort placed in Christ's completed payment. It has been widely used at funerals and in churches after corporate grief, which is what it was written for.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Accessibility",
+        "title": "Written to work on one piano",
+        "explanation": "A slow 3/4 with a repeating verse tune, published in three keys, and released by the writers' own ministry with a stripped-back arrangement for small gatherings. Nothing in it needs a band.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Original key Bb, 3/4, slow; also published in A and C. The same melody carries all four verses and an acoustic arrangement for small gatherings exists. No chart was read for this review.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Bb (original); also published in A and C",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "Only the title line recurs, and it closes the hymn rather than running through it. The repeated element is the parallel construction of the verses, which carries fresh content each time.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "A hymn in construction and in use: one tune across four verses, a slow 3/4, three published keys, and an acoustic arrangement the writers released specifically for rooms with one instrument. The voice is singular but generic, so it works for a congregation and for a graveside equally. The one practical caution is diction rather than difficulty: Zion, pilgrimage and the armour all assume a hearer who knows the figures, so a newcomer may follow the mood before the argument."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Four verses with the same hinge",
+        "explanation": "Each verse states a hard fact, turns on an adversative, and answers with something Christ has given. The form itself teaches that the comfort is a reply to the trouble rather than a denial of it, and the hearer learns the pattern by the second verse.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Diction",
+        "title": "No line asks to be decoded",
+        "explanation": "The figures are biblical and each is given enough context to be understood from the verse it sits in. The hymn never leaves what it is claiming about Christ in doubt, even where the imagery is older than the hearer's vocabulary.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in what it affirms. The load it places on a hearer is background rather than ambiguity: Zion, the pilgrim road and the armour are all scriptural figures that a congregation unfamiliar with them will feel before it follows. Published assessments make the same observation and record no doctrinal ambiguity in the text."
+  },
+  "synthesis": {
+    "summary": "A modern hymn that confesses idolatry rather than frailty, states that Christ has paid for every failing, grants suffering its full weight before offering comfort, and grounds perseverance in Christ's promise rather than the singer's grip. The Spirit is never named and the resurrection is not stated. Singular but generic in voice, easy on one instrument, and widely used at funerals.",
+    "themes": [
+      "Christ",
+      "Assurance",
+      "Suffering",
+      "Hope",
+      "Heaven",
+      "Sin",
+      "Providence",
+      "Grace"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 139:16",
+        "relevance": "The days of a life written and numbered by God — the claim the first verse opens with."
+      },
+      {
+        "reference": "Colossians 2:13-14",
+        "relevance": "The whole record of debt cancelled at the cross — the scope the first verse gives the payment."
+      },
+      {
+        "reference": "Romans 8:28",
+        "relevance": "All things worked toward good — the only thing the second verse claims about unexplained pain."
+      },
+      {
+        "reference": "Philippians 1:6",
+        "relevance": "The work Christ began being carried through — what the second verse says is happening in the valley."
+      },
+      {
+        "reference": "Ephesians 6:13",
+        "relevance": "The whole armour of God, taken up in order to stand — the third verse's confidence."
+      },
+      {
+        "reference": "1 Peter 2:11",
+        "relevance": "Believers as strangers and exiles — the self-description the third verse begins with."
+      },
+      {
+        "reference": "Hebrews 12:22-23",
+        "relevance": "Coming to Mount Zion, the city of the living God — the destination the closing verse claims."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://praisecharts.com/songs/details/73795/christ-is-mine-forevermore",
+      "title": "Christ Is Mine Forevermore sheet music",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Published arrangement: writers, copyright line, CCLI 7036096, album, original key Bb, available keys, 3/4 meter and slow tempo.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://20schemesequip.com/christ-is-mine-forevermore/",
+      "title": "Christ Is Mine Forevermore",
+      "publisher": "20schemes Equip",
+      "sourceType": "THEOLOGICAL_ORGANIZATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "Sol Fenne's February 2020 account of the hymn's pastoral theology and use in a Scottish housing-scheme church after bereavement: Christ's victory over death as the ground of joy in grief.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://sydneyanglicans.net/news/alight-for-the-lord",
+      "title": "Alight for the Lord",
+      "publisher": "Sydney Anglicans",
+      "sourceType": "JOURNALISM",
+      "credibilityTier": "TIER_3",
+      "establishes": "Diocesan report, August 2018: CityAlight as the music ministry of St Paul's Castle Hill, its aim of simple melodies usable on one piano, and the song-story and acoustic videos made for this hymn.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://challies.com/interviews/get-to-know-cityalight-and-their-new-album",
+      "title": "Get to Know CityAlight and Their New Album",
+      "publisher": "Challies.com",
+      "sourceType": "INTERVIEW",
+      "credibilityTier": "TIER_1",
+      "establishes": "Robinson and Thompson's own account of CityAlight's aims and slow writing process; this hymn is not discussed in it.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://thebereantest.com/cityalight-christ-is-mine-forevermore",
+      "title": "CityAlight – Christ Is Mine Forevermore",
+      "publisher": "The Berean Test",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "A published lay doctrinal review scoring the hymn 9.5/10, with its only caution being the accessibility of Zion, the armour and pilgrimage to outsiders.",
+      "assessesContent": true
+    }
+  ]
+}

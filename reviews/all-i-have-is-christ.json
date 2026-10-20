@@ -1,0 +1,262 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "All I Have Is Christ",
+    "artist": "Sovereign Grace Music",
+    "artistType": "MINISTRY",
+    "album": "Looked Upon",
+    "releaseYear": 2008,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Words and music by Jordan Kauflin, copyright 2008 Sovereign Grace Praise (BMI), administered worldwide by Capitol CMG Publishing except in the United Kingdom, where Integrity Music administers it; CCLI 5174122, as stated on the writer's own page. It first appeared on Looked Upon, released 1 May 2008 and recorded by Na Band, the Sovereign Grace project led by Devon Kauflin and tied to the Next conference. The list's guess of Sovereign Grace Music is right for the recording churches know, but the writer is Jordan Kauflin, then a Sovereign Grace pastor, not the ministry collectively. His father Bob Kauflin, who directs Sovereign Grace Music, edited it: he pressed for a plainer chorus and supplied the idea in the third verse that the strength to obey comes from God rather than from the singer. The publisher's own listing tags the song with regeneration, election and justification and cites Ephesians 2:1-3. Piano and vocal scores are published in C and D. Reviewed as the song, not as any particular recording."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "Three verses and a two-line chorus, on one hymn tune, with no bridge. The first verse is the singer's life before conversion: he thought he knew his way, the sin that promised him life brought him to death instead, he had no expectation that God would love him, and while he ran heedlessly on God looked at his helpless condition and brought him to the cross. The second verse is what he found there: God's love on display, Christ suffering in his place and bearing the wrath that had been reserved for him, so that grace is now the whole of what he knows. The third verse is a consecration: a resolve to be God's alone and to live so that others see it, the admission that the strength to keep God's commands could never come from himself, a petition that God use his ransomed life however he chooses, and a request that God be his only boast. The chorus is a doubled hallelujah confessing that Christ is all he has and that Jesus is his life. The voice is first person singular from beginning to end and God is addressed directly from the first verse onward.",
+    "claims": [
+      {
+        "claim": "Before his conversion the singer followed his own way, and the sin that promised him life led him to death instead.",
+        "subject": "Sin and human lostness",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer had no expectation that God would love him.",
+        "subject": "Human helplessness",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "While the singer ran on heedless of the cost, God looked at his helpless state and brought him to the cross.",
+        "subject": "Effectual grace and divine initiative",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "At the cross God's love was displayed: Christ suffered in the singer's place and bore the wrath that had been reserved for him.",
+        "subject": "Penal substitution",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Since then grace is the whole of what the singer knows.",
+        "subject": "Grace",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is all the singer has, and Jesus is his life.",
+        "subject": "Union with Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer resolves to belong to God alone and to live so that others may see it.",
+        "subject": "Consecration",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The strength to keep God's commands could never come from the singer himself.",
+        "subject": "Sanctification and human inability",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer asks God to use his ransomed life however God chooses, and to be his only boast.",
+        "subject": "Prayer and boasting in God",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "The wrath is named, and it is the singer's own",
+        "explanation": "The second verse does not say Christ died for sin in general. It says he suffered in the singer's place and bore the wrath that had been reserved for the singer. Substitution is stated with the person and the penalty both specified, which is what makes it a doctrine rather than a sentiment.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Isaiah 53:5",
+        "scriptureRationale": "Wounded for our transgressions and crushed for our iniquities — the exchange the second verse puts in the singer's mouth."
+      },
+      {
+        "category": "Grace",
+        "title": "God moves first, and the singer is not looking",
+        "explanation": "In the first verse every verb that changes anything belongs to God. The singer is running the other way and indifferent when God looks at his helpless state and brings him to the cross. Nothing in him begins the rescue, so grace is not a reward for seeking.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Ephesians 2:4-5",
+        "scriptureRationale": "God, being rich in mercy, making the dead alive — the turn the first verse narrates."
+      },
+      {
+        "category": "Sanctification",
+        "title": "A vow immediately stripped of self-reliance",
+        "explanation": "The third verse makes a resolve and then undercuts it in the next breath: the strength to obey could never come from the singer. The song gives a congregation a consecration that does not depend on the singer's willpower to be true.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Philippians 2:12-13",
+        "scriptureRationale": "Working out what God works in — the order the third verse keeps between resolve and enablement."
+      },
+      {
+        "category": "The Christian life",
+        "title": "Boasting is relocated, not abolished",
+        "explanation": "The song ends by asking that God himself be the singer's only boast. That is more exact than disclaiming boasting altogether, and it names the thing the rest of the song has been doing.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Corinthians 1:31",
+        "scriptureRationale": "Let the one who boasts boast in the Lord — the request the last line makes."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The deadliness of sin",
+      "Human inability before conversion",
+      "God's initiative in salvation",
+      "Penal substitution",
+      "Justification by grace",
+      "Union with Christ",
+      "Sanctification by God's strength",
+      "Boasting only in God"
+    ],
+    "assessment": "Nothing to correct. Substitution is stated with both the person and the penalty named; the first verse makes God the only actor while the sinner runs the other way; and the third verse's consecration is grounded in God's strength before it can become a vow the singer cannot keep. The limits are scope and voice. The resurrection is never mentioned, the Spirit is never named, and the whole song is first person singular, so the doctrine arrives as one man's account rather than the church's confession."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A hymn tune and a two-line chorus",
+        "explanation": "Three verses to one melody and a chorus of two short confessions. It needs no arrangement, no band and no rehearsal, and a congregation that has heard it once can sing the chorus the second time round.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "The chorus is the conclusion, not the hook",
+        "explanation": "Each verse argues toward the same two statements, so the chorus lands as the inference the verse has just drawn rather than as a refrain the song returns to for momentum.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "A song for after the sermon, or a baptism",
+        "explanation": "It is a conversion account in singable form, which makes it a natural response to preaching on grace and a natural accompaniment to a baptism, where one person's testimony is the point.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "The writer publishes piano and vocal scores in C and D. The melody is hymn-shaped and the chorus sits at the top of it. No chart was read, so the span is not stated.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "C and D (piano/vocal scores published by the writer)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "Only the two-line chorus returns, and it returns to a confession rather than to a hook. Nothing in the song is sustained by repeating itself.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Built for a room with a piano and nothing else: one tune, three verses, a chorus of two lines, no climb that needs a band behind it. The thing a leader has to weigh is not the music but the voice. It is first person singular throughout, a conversion narrative in which each singer states his own past and then makes his own vow, so the congregation sings many accounts at once rather than one confession. That is recorded in the substance answers rather than charged again here, and it shapes where the song fits."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Before, at the cross, after",
+        "explanation": "The three verses run in plain chronological order, so the song's argument is its sequence. Nobody has to work out how the parts relate; each verse is the next thing that happened.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Diction",
+        "title": "Hard doctrine in ordinary words",
+        "explanation": "Wrath, grace and ransom all appear, and none of them needs a gloss: the wrath is said to have been reserved for the singer, the grace is what he knows instead, the ransom is what his life now is. A newcomer could repeat the claim accurately.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear on first hearing. The chorus is the only line that could be read loosely, and the verses have already fixed its sense: what the singer has is Christ because Christ took what was due to him."
+  },
+  "synthesis": {
+    "summary": "A conversion account in which God does all the acting: he looks on a sinner who is running the other way and brings him to the cross, where Christ bore the wrath reserved for him. The third verse's consecration is grounded in God's strength, and the song ends by relocating all boasting to God. Nothing in it is wrong. The resurrection and the Spirit are not reached, and the voice is singular throughout.",
+    "themes": [
+      "Grace",
+      "Salvation",
+      "Sin",
+      "Cross",
+      "Christ"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Ephesians 2:1-5",
+        "relevance": "Dead in sin and made alive by mercy — the movement the first verse narrates, and the passage the publisher cites."
+      },
+      {
+        "reference": "Isaiah 53:5",
+        "relevance": "The servant wounded for the transgressions of others — the exchange the second verse states."
+      },
+      {
+        "reference": "Romans 5:8-9",
+        "relevance": "Christ dying for sinners while they were still sinners, and rescue from wrath."
+      },
+      {
+        "reference": "Philippians 3:7-8",
+        "relevance": "Counting everything loss for the sake of Christ — the sense the chorus carries."
+      },
+      {
+        "reference": "1 Corinthians 1:31",
+        "relevance": "Boasting only in the Lord — the request the song closes on."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.jordankauflin.com/allihaveischrist",
+      "title": "All I Have Is Christ",
+      "publisher": "Jordan Kauflin",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "The writer's own page: words and music by Jordan Kauflin, copyright 2008 Sovereign Grace Praise (BMI), administration, CCLI 5174122, and scores published in C and D.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://sovereigngracemusic.com/music/albums/looked-upon/",
+      "title": "Looked Upon",
+      "publisher": "Sovereign Grace Music",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher's album page: the song first appeared on Looked Upon, released 1 May 2008 and recorded by Na Band under Devon Kauflin.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.thebereantest.com/sovereign-grace-music-all-i-have-is-christ",
+      "title": "Is 'All I Have Is Christ' Biblical?",
+      "publisher": "The Berean Test",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "A lay doctrinal review that raises no objection and commends the song's account of conversion, of love as response to God's prior love, of substitution and of consecration.",
+      "assessesContent": true
+    }
+  ]
+}

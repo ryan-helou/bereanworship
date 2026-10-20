@@ -1,0 +1,261 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "No Longer Slaves",
+    "artist": "Bethel Music",
+    "artistType": "COLLECTIVE",
+    "album": "We Will Not Be Shaken",
+    "releaseYear": 2015,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Jonathan David Helser, Joel Case and Brian Johnson, published by Bethel Music Publishing; CCLI 7030123. Led by Jonathan David and Melissa Helser, who sings it without a writing credit. First released on Bethel Music's live album We Will Not Be Shaken (26 January 2015), recorded on a mountaintop above Shasta Lake in northern California; a reworked studio version produced by Ed Cash followed as the album's lead single on 21 August 2015. It won Worship Song of the Year at the 47th GMA Dove Awards in October 2016, is certified platinum in the United States, and reached No. 19 on Hot Christian Songs. The list's guess of Bethel Music with Jonathan David Helser names the performing credit correctly but not the full writing credit, which includes Joel Case and Brian Johnson."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Two verses, a chorus, an instrumental interlude and a bridge, with the chorus and bridge repeated at length in the live form and a separate spontaneous section recorded alongside it. Addressed to God in the second person and sung in the first person singular. Verse one says God surrounds the singer with a song of deliverance from his enemies until his fears are gone, which is Psalm 32:7 put in the first person. The chorus confesses two things in a single breath: the singer is no longer a slave to fear, and he is a child of God. Verse two states that God chose him from his mother's womb, that love called his name, that he has been born again into God's family, and then, in a family-bloodline figure that the previous line sets up, that God's blood runs in his veins. The bridge applies the Red Sea crossing to the singer: God split the sea so that he could walk through it, his fears were drowned in perfect love, and God rescued him so that he could stand and sing that he is a child of God. Election, regeneration and adoption are each stated outright. Sin is never named: the bondage the song addresses is fear. The cross, the resurrection and repentance do not appear.",
+    "claims": [
+      {
+        "claim": "God surrounds the singer with a song of deliverance from his enemies until his fears are gone.",
+        "subject": "Deliverance",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer is no longer a slave to fear.",
+        "subject": "Freedom from fear",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer is a child of God.",
+        "subject": "Adoption",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God chose the singer from his mother's womb and called him by name.",
+        "subject": "Election",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer has been born again into God's family.",
+        "subject": "Regeneration",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer belongs to God's family as closely as by blood.",
+        "subject": "Adoption",
+        "location": "VERSE_2",
+        "locationDetail": "the closing line, a family figure",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God split the sea so the singer could walk through it, and his fears were drowned in perfect love.",
+        "subject": "Deliverance",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God rescued the singer so that he could stand and sing.",
+        "subject": "The purpose of deliverance",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Election",
+        "title": "Chosen before he could choose",
+        "explanation": "Verse two dates God's choosing from the womb and says love called the singer's name. The song leaves no room for a decision of the singer's that came first, which is a stronger doctrine of grace than most songs of its kind attempt.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "lyricExcerpt": null,
+        "scriptureReference": "Galatians 1:15",
+        "scriptureRationale": "Set apart before birth and called by grace — the order the verse states."
+      },
+      {
+        "category": "Adoption",
+        "title": "Fear and sonship set against each other, as Paul sets them",
+        "explanation": "Readers have objected that the gospel frees from sin rather than from fear. Paul makes exactly this contrast: not a spirit of slavery leading back to fear, but the Spirit of adoption. The chorus keeps both halves, so the freedom is defined by the sonship beside it.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null,
+        "scriptureReference": "Romans 8:15",
+        "scriptureRationale": "Slavery to fear opposed to the Spirit of adoption — the pair the chorus holds together."
+      },
+      {
+        "category": "Regeneration",
+        "title": "New birth, not merely acceptance",
+        "explanation": "The song says the singer has been born again into God's family rather than that he has been welcomed or affirmed. That is a change of nature and standing, and the family figure that follows is explained by it.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null,
+        "scriptureReference": "John 3:3",
+        "scriptureRationale": "No one sees the kingdom without being born again — the act verse two claims for the singer."
+      },
+      {
+        "category": "Deliverance",
+        "title": "The rescue has a purpose beyond relief",
+        "explanation": "The bridge does not stop at the singer's fears being drowned. It says he was rescued in order to stand and sing, so deliverance is given an end outside the one delivered.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MINOR",
+        "lyricExcerpt": null,
+        "scriptureReference": "Psalm 40:2-3",
+        "scriptureRationale": "Lifted out and given a new song to sing — the sequence the bridge follows."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Election before birth",
+      "Regeneration",
+      "Adoption as children of God",
+      "God's deliverance of his people",
+      "Perfect love casting out fear",
+      "Deliverance given for the sake of praise"
+    ],
+    "assessment": "More substantial than a song about fear sounds. Election from the womb, new birth and adoption are each stated outright, and the singer grounds nothing in himself. Two published objections do not hold: freedom from fear rather than sin is Paul's own contrast in Romans 8:15, which the chorus keeps intact by pairing it with sonship; and the bloodline line is the family figure the line before it sets up, not a claim to God's nature. The limits are absences: sin, the cross and the resurrection never appear."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Corporate voice",
+        "title": "A chorus of two exact confessions",
+        "explanation": "One negative and one positive clause, learned together at a first hearing and doctrinally precise. What the singular voice asserts there is true of every believer, so a room says one thing rather than three hundred.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      },
+      {
+        "category": "Scripture",
+        "title": "What the room repeats is scriptural material",
+        "explanation": "The two strongest sections are a psalm and an event rather than a sentiment: Psalm 32 behind the first verse and the Red Sea behind the bridge. The repetition therefore drills Scripture's own content.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "The published key was not verified for this review. The bridge is the highest and most sustained section, and the radio version is pitched for a soloist, so test the bridge on the room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": null,
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated, and the published key was not verified."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus's two confessions and the bridge both carry content worth returning to. The live form extends them well past that, and a spontaneous section follows; the shorter form keeps the point.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "A short chorus of two exact confessions and a bridge built on the Exodus: quickly learned and worth repeating. The first person singular is sustained, but what it asserts, that the singer is chosen, born again and a child of God, is true of every believer, so a room can say it as one. The live form extends the chorus and bridge past their content and adds a spontaneous section, so the shorter arrangement is the congregational one, and the bridge is where to test the key."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "The chorus says both what the freedom is from and what it is to",
+        "explanation": "Two clauses, one naming the bondage left behind and one naming the standing gained. A hearer gets the whole claim in a single line and does not have to assemble it from the verses.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null
+      },
+      {
+        "category": "Imagery",
+        "title": "The scenes are named, not alluded to",
+        "explanation": "A hearer who knows Psalm 32 or the Red Sea recognises them at once, and one who does not is still given a complete picture rather than a fragment. Neither image needs a footnote to work.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR",
+        "lyricExcerpt": null
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "MODERATE",
+    "assessment": "Clear in its claims, with two figures that ask to be read as figures. The bloodline line is explained by the statement just before it that the singer has been born into God's family; taken woodenly it could sound like a claim to share God's nature, but in context it is adoption. The Red Sea is applied to the singer the way the New Testament itself applies it. What the song never says is what else, besides fear, the singer was freed from."
+  },
+  "synthesis": {
+    "summary": "A Bethel song that states election from the womb, new birth and adoption outright, with Psalm 32 behind the first verse and the Red Sea behind the bridge, and grounds nothing in the singer. The bondage it addresses is fear, which is Paul's own contrast in Romans 8:15; sin, the cross and the resurrection never appear. The live form repeats well past its content.",
+    "themes": [
+      "God",
+      "Grace",
+      "Salvation",
+      "Assurance",
+      "Hope",
+      "Faith"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 32:7",
+        "relevance": "God as a hiding place surrounding his own with songs of deliverance, which the first verse renders."
+      },
+      {
+        "reference": "Romans 8:15",
+        "relevance": "Slavery to fear set against the Spirit of adoption, the pair the chorus holds."
+      },
+      {
+        "reference": "Galatians 1:15",
+        "relevance": "Set apart from the womb and called by grace, the claim of the second verse."
+      },
+      {
+        "reference": "John 3:3",
+        "relevance": "New birth as the condition of seeing the kingdom, which verse two states."
+      },
+      {
+        "reference": "1 John 4:18",
+        "relevance": "Perfect love casting out fear, the line the bridge turns on."
+      },
+      {
+        "reference": "1 Corinthians 10:1-2",
+        "relevance": "The New Testament applying Israel's sea crossing to the church, as the bridge does."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/No_Longer_Slaves",
+      "title": "No Longer Slaves",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writers Jonathan Helser, Joel Case and Brian Johnson, the 2015 album and single, the mountaintop recording, the platinum certification and the 2016 Dove award.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.samstorms.org/enjoying-god-blog/post/a-defense-of-singing-songs-from-bethel-and-hillsong",
+      "title": "A Defense of Singing Songs from Bethel and Hillsong",
+      "publisher": "Sam Storms, Enjoying God",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_2",
+      "establishes": "Storms names this song among those he judges consistent with Scripture and worthy of God, and argues a song must be weighed by its own words, not its publishing church.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.thebereantest.com/bethel-worship-no-longer-slaves",
+      "title": "Is 'No Longer Slaves' Biblical?",
+      "publisher": "The Berean Test",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "A line-by-line lay review scoring it 9/10, matching sections to Psalm 32, Romans and the adoption texts, and a published exchange over fear rather than sin as the bondage.",
+      "assessesContent": true
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Behold Our God",
+    "artist": "Sovereign Grace Music",
+    "artistType": "MINISTRY",
+    "album": "Risen",
+    "releaseYear": 2011,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Words and music by Jonathan Baird, Meghan Baird, Ryan Baird and Stephen Altrogge, 2011, Sovereign Grace Music; the CCLI number reported across chart listings is 5937510. The song first appeared on Risen, an Easter album released by Sovereign Grace Music on 1 March 2011 and credited on the publisher's own page to Sal Oliveri. The list's guess of Sovereign Grace Music is right for the recording churches know, but the writers are the three Baird siblings with Stephen Altrogge, not the ministry collectively. One caution for cataloguing: Sovereign Grace later released a different album titled Behold Our God (9 July 2019, with the Shiloh Church Choir) whose credits name Bob Kauflin, Joseph Pace II and H.B. Charles Jr; that is not this song's authorship. The publisher lists the song's scriptural basis as Isaiah 25:9, 35:4 and 40:12-17 with Psalm 46:6-10; a church hymn study adds Job 38-42 and Romans 11:33-36. Reviewed as the song, not as any particular recording."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Three verses, a chorus and a short bridge. Each verse is a run of rhetorical questions in the third person whose implied answer is nobody, and the chorus answers them by summoning the congregation to look at God enthroned and adore him. The first verse asks who holds the oceans and has counted every grain of sand, and says that kings and nations tremble at his voice while all creation rises to rejoice: Isaiah 40:12 put as interrogation. The second asks who has advised the Lord, who can question what he says, who could teach the one who knows everything, and who can take the measure of his works: Isaiah 40:13-14 and Romans 11:33-34. The third turns the same question form on the cross and answers it with a name: who has felt the nails and borne the guilt of sinful man, the eternal God brought low to the grave, Jesus the Saviour now risen to reign. The bridge is a single confession that God will reign for ever, with a petition that his glory fill the earth. God is spoken about in the verses and addressed directly in the bridge; the first person plural appears only in the chorus's possessive and its summons."
+    ,
+    "claims": [
+      {
+        "claim": "God holds the oceans and has numbered every grain of sand — his power and knowledge extend over the whole of creation.",
+        "subject": "The power and knowledge of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Kings and nations tremble at God's voice, and all creation rises to rejoice in him.",
+        "subject": "The sovereignty of God over nations",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Nobody has given God counsel, can question his word, can teach the one who knows all things, or can fathom his works.",
+        "subject": "The omniscience and unsearchable wisdom of God",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The one who felt the nails bore the whole guilt of sinful humanity.",
+        "subject": "Substitutionary atonement",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The eternal God was humbled as far as the grave, and Jesus the Saviour is now risen to reign.",
+        "subject": "The incarnation, death and resurrection of Christ",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is seated on his throne and nothing can be compared with him; the congregation calls itself to adore him.",
+        "subject": "The worship due to God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God will reign for ever, and the singers ask that his glory fill the earth.",
+        "subject": "The eternal reign of God",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Doctrine of God",
+        "title": "Isaiah's questions are left as questions",
+        "explanation": "The first verse does not translate Isaiah 40 into assurances. It keeps the prophet's interrogation, so the congregation arrives at God's incomparability the way Isaiah makes his hearers arrive at it, by finding that no answer is available.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 40:12",
+        "scriptureRationale": "The measuring of waters, heavens and dust by hand and span — the questions the first verse puts to the room."
+      },
+      {
+        "category": "Doctrine of God",
+        "title": "God takes no advice and cannot be taught",
+        "explanation": "The second verse denies that anyone has counselled God, can correct him or could instruct the one who knows everything. A congregation is given God's wisdom as independent rather than merely large, which is the harder and more biblical claim.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 11:33-34",
+        "scriptureRationale": "Paul's two unanswerable questions about who has known the Lord's mind or been his counsellor."
+      },
+      {
+        "category": "Atonement",
+        "title": "The same God who cannot be measured bore the guilt of sinners",
+        "explanation": "The third verse answers its own question with a name. The eternal God took nails, carried the guilt of sinful man, was brought as low as a grave, and is risen to reign. Incarnation, substitution, burial and resurrection are all stated, and all of it is said of the God the first two verses placed beyond reach.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Isaiah 53:6",
+        "scriptureRationale": "The iniquity of us all laid on the servant — the transfer the third verse asserts."
+      },
+      {
+        "category": "Worship",
+        "title": "The summons rests on who God is, not on how the room feels",
+        "explanation": "The chorus gives the congregation a reason before it gives it an imperative: he is enthroned, nothing compares with him, therefore adore him. No line reports the singers' emotional state or makes their response the ground of the praise.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 95:6",
+        "scriptureRationale": "A call to bow grounded in the Lord's identity as maker — the order the chorus keeps."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The incomparability of God",
+      "God's sovereignty over creation and nations",
+      "The omniscience and unsearchable wisdom of God",
+      "The incarnation of the eternal God",
+      "Substitutionary atonement",
+      "The resurrection and present reign of Christ",
+      "The everlasting kingdom of God"
+    ],
+    "assessment": "Nothing to correct. Isaiah 40 is set as interrogation rather than reassurance, so the room sings God's power and his independent wisdom before it is told anything about itself, and the third verse turns the same question on the cross: the eternal God bore the guilt of sinners, was brought to a grave and reigns risen. The limits are scope, not error. The Spirit is never named, sin appears only in the third person and never as the singers' own, and the song asks nothing of the congregation except adoration."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Corporate voice",
+        "title": "A chorus the room addresses to itself",
+        "explanation": "The chorus is plural and imperative: the congregation tells itself to look and to adore. Nothing in it is a private report, so three hundred people are saying one thing rather than three hundred things.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Accessibility",
+        "title": "Three verses built to the same pattern",
+        "explanation": "Every verse is the same shape — a pair of questions, then a pair of statements — on the same melody, so the room learns the whole song once and has it. The form is what carries the teaching.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "An opening song that starts with God",
+        "explanation": "It is built to begin a gathering: it establishes who God is before anything is asked of the singers, and the third verse makes it serviceable at Easter as well as on an ordinary Sunday.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Chart listings publish it in C and in A. The chorus sits high and the bridge climbs higher still, so choose the key for the room. No chart was read, so the span is not stated.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "C and A appear in published chart listings",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns after each verse and the bridge repeats one confession. As published the song is short; how far the bridge is extended in use is the leader's decision rather than the writers'.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Congregational in substance: a plural chorus, three verses of identical shape, and no line that depends on a soloist. What leans the other way is the shape of the climb. The chorus already sits high, the bridge goes higher on a single line, and the recorded versions drive it hard, so a room that is given the original key and an extended bridge will end up listening rather than singing. Transposed down and kept to its printed length it is a strong congregational hymn, and it is a natural opening song."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "The question form does the teaching",
+        "explanation": "Each verse asks what nobody can answer and the chorus supplies the response, so a hearer is never holding an unresolved question. The shape itself tells the congregation what the song is claiming.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Diction",
+        "title": "Concrete images for abstract attributes",
+        "explanation": "Oceans, grains of sand, trembling kings, nails and a grave. The attributes are large and the words are not: omnipotence, omniscience and condescension all arrive as things a newcomer can picture.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear from first hearing. The one turn that could catch a hearer is the third verse, where the implied answer to the question changes from nobody to God himself, and the verse resolves it immediately by naming Jesus."
+  },
+  "synthesis": {
+    "summary": "Isaiah 40's rhetorical questions set as a hymn, answered by a chorus that summons the room to adore God enthroned, with a third verse that turns the same question on the cross: the eternal God bore the guilt of sinners, was brought to a grave and reigns risen. Nothing in it is wrong. Sin is named only in the third person, the Spirit is absent, and the climb is high.",
+    "themes": [
+      "God",
+      "Sovereignty",
+      "Christ",
+      "Cross",
+      "Resurrection",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Isaiah 40:12",
+        "relevance": "The measuring of the waters and the heavens — the questions the first verse puts to the congregation."
+      },
+      {
+        "reference": "Isaiah 40:13-14",
+        "relevance": "Who has directed the Spirit of the Lord or taught him — the second verse's subject."
+      },
+      {
+        "reference": "Romans 11:33-36",
+        "relevance": "God's unsearchable judgements and the denial that anyone has been his counsellor."
+      },
+      {
+        "reference": "Isaiah 53:6",
+        "relevance": "The iniquity of us all laid on the servant — the transfer the third verse asserts."
+      },
+      {
+        "reference": "Revelation 4:2-11",
+        "relevance": "The one seated on the throne and the adoration owed him — the picture the chorus sings."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://sovereigngracemusic.com/music/albums/risen/",
+      "title": "Risen",
+      "publisher": "Sovereign Grace Music",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher's album page: the song first appeared on Risen, released 1 March 2011 and credited to Sal Oliveri, an album framed around the resurrection.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://sovereigngracemusic.com/music/albums/behold-our-god/",
+      "title": "Behold Our God (album)",
+      "publisher": "Sovereign Grace Music",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "A different Sovereign Grace album of the same title (2019, Shiloh Church Choir), credited to Kauflin, Pace and Charles — not this song's writers. Cited to prevent conflation.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.renewingworshipnc.org/behold-our-god/",
+      "title": "Behold Our God",
+      "publisher": "Renewing Worship, Baptist State Convention of North Carolina",
+      "sourceType": "THEOLOGICAL_ORGANIZATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "A denominational worship ministry's assessment: the four writers, the Isaiah 40 basis, and a judgement that it suits all ages and any instrumentation. Brief and wholly favourable.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.fbchurch.org/resource/hymnology-behold-our-god",
+      "title": "Hymnology: Behold Our God",
+      "publisher": "Faith Bible Church",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "A music pastor's hymn study: the four writers, the 2011 Risen release, the Isaiah 40 basis, and the substitution, resurrection and reign in the third verse. No criticism offered.",
+      "assessesContent": true
+    }
+  ]
+}
