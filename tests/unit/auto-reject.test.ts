@@ -14,6 +14,8 @@ describe('autoRejectedBy', () => {
     ['Darlene Zschech', 'Darlene Zschech'],
     ['Kalley Heiligenthal', 'Kalley Heiligenthal'],
     ['Jeremy Riddle', 'Jeremy Riddle'],
+    ['Jesus Culture', 'Jesus Culture'],
+    ['Lauren Daigle', 'Lauren Daigle'],
   ])('rejects %s', (name, rule) => expect(autoRejectedBy(name)).toBe(rule));
 
   it.each(['Matt Redman', 'Brandon Heath', 'Pat Smith', 'Chris Tomlin', 'Bethelehem Choir', 'Elevationist', ''])('keeps %s', (name) =>
