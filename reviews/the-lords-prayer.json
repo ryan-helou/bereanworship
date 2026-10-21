@@ -1,0 +1,215 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "MEDIUM",
+    "title": "The Lord's Prayer",
+    "artist": "Paul Zach",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 2021,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "A sung setting of the prayer Jesus taught (Matthew 6:9-13; Luke 11:2-4), with the traditional closing doxology. The words are Scripture and liturgy; the music is credited to Paul Zach, with a Brian Chapple credit appearing on the page read. Paul Zach is a songwriter associated with The Porter's Gate and Integrity Music. The 2021 year comes from the reading note, and no publisher or CCLI number for this setting could be confirmed: searches turned up other settings (Matt Maher's It's Yours; a UK children's-resource setting) but nothing tying a CCLI number to Zach's. Reviewed as the sung prayer, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "CORPORATE_WE",
+    "structuralNotes": "A single sung setting of the traditional prayer from the address to the Father through to the closing doxology and Amen, with no added lines. It runs in the prayer's own order: address to the Father in heaven and the hallowing of his name; petitions for his kingdom and will; daily bread; forgiveness; deliverance from temptation and evil; and closing praise to the kingdom, power and glory. The voice is plural throughout, a congregation praying together. The wording is the traditional older English form. There is nothing to repeat beyond the Amen.",
+    "claims": [
+      {
+        "claim": "God is addressed as Father in heaven, and his name is to be treated as holy.",
+        "subject": "The Fatherhood and holiness of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The petitions ask that God's kingdom come and his will be done on earth as in heaven.",
+        "subject": "The kingdom and the will of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is asked to provide daily bread, acknowledging dependence on him for every day's needs.",
+        "subject": "Providence",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is asked to forgive sins as we forgive those who sin against us.",
+        "subject": "Forgiveness",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is asked to keep his people from temptation and deliver them from evil.",
+        "subject": "Protection from evil",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The kingdom, the power and the glory belong to God forever.",
+        "subject": "Doxology",
+        "location": "VERSE_1",
+        "lyricExcerpt": null,
+        "locationDetail": "the closing line"
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Scripture",
+        "title": "The prayer Jesus taught, sung whole",
+        "explanation": "The text is the model prayer itself, so the congregation prays in the words Christ gave rather than in a songwriter's paraphrase. Nothing is added or subtracted.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Matthew 6:9-13",
+        "scriptureRationale": "The model prayer Jesus gave his disciples, set from address to doxology."
+      },
+      {
+        "category": "God",
+        "title": "God addressed as Father and hallowed",
+        "explanation": "The prayer begins with who God is before it asks for anything: Father, in heaven, with a holy name. Requests rest on that.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Luke 11:2",
+        "scriptureRationale": "Jesus teaching the disciples to address God as Father and hallow his name."
+      },
+      {
+        "category": "Prayer",
+        "title": "Dependence and forgiveness in the same breath",
+        "explanation": "Daily bread, forgiveness and deliverance are asked together, so the congregation confesses need for body, conscience and holiness in one prayer.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Matthew 6:11-13",
+        "scriptureRationale": "Bread, forgiveness and deliverance from evil as the prayer's petitions."
+      },
+      {
+        "category": "Worship",
+        "title": "Praise to the kingdom, power and glory",
+        "explanation": "The doxology closes the prayer by returning everything to God. It is the long-standing ending in use, echoing David's praise.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MINOR",
+        "scriptureReference": "1 Chronicles 29:11",
+        "scriptureRationale": "Greatness, power and glory belonging to the Lord, as in the doxology."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The Fatherhood of God",
+      "The holiness of God's name",
+      "The coming of God's kingdom",
+      "God's provision and providence",
+      "Forgiveness of sins",
+      "Deliverance from evil",
+      "God's kingdom, power and glory"
+    ],
+    "assessment": "Nothing to correct: the text is the prayer Jesus taught. The doxology is later than the earliest Matthew manuscripts but is long-standing, orthodox and widely used. As a prayer it asks and praises rather than states what Christ has done, so the cross and resurrection are not reached; that is the nature of the text, not a fault."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Use",
+        "title": "A prayer the whole church already knows",
+        "explanation": "Because the words are familiar to most congregations, a sung setting lets them pray together without learning text, and suits any gathering from Sunday worship to a service of prayer.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Accessibility",
+        "title": "Short, plain and plural",
+        "explanation": "The setting adds no lines and no refrain, and the plural voice keeps it a shared prayer rather than a solo.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published keys for this setting were not checked. Familiar words and a single pass through the prayer make it easy for a congregation that knows the text; try it in the room's comfortable range.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not checked",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "NONE",
+    "repetitionAssessment": "Nothing repeats beyond the Amen; the song simply moves through the prayer once.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in words and form. The traditional wording is older English, which most churches that pray the prayer already use. Some recordings feature a guest vocalist, but the setting itself is simple enough to be led by anyone."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "God addressed plainly",
+        "explanation": "The opening names the Father and everything after is addressed to him, so there is no doubt who is being prayed to.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The language is traditional but familiar, and its meaning is the prayer's own, widely taught."
+  },
+  "synthesis": {
+    "summary": "A sung setting of the Lord's Prayer from Matthew 6, address to Father through to the closing doxology, with no added lines. Plural, God-directed and Scripture-built; nothing in it is wrong. The cross is not reached, which fits a prayer. No publisher or CCLI number for this setting could be confirmed.",
+    "themes": [
+      "Prayer",
+      "God",
+      "Worship",
+      "Providence",
+      "Sovereignty",
+      "Scripture"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Matthew 6:9-13",
+        "relevance": "The prayer itself, which the song sets from address to doxology."
+      },
+      {
+        "reference": "Luke 11:2-4",
+        "relevance": "Luke's parallel account of the prayer Jesus taught."
+      },
+      {
+        "reference": "1 Chronicles 29:11",
+        "relevance": "David's praise of greatness, power and glory, echoed in the doxology."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel, Musixmatch",
+      "url": "https://www.google.com/search?q=The+Lord%27s+Prayer+Paul+Zach+lyrics"
+    },
+    {
+      "url": "https://worshipforeveryone.com/?p=3438",
+      "title": "The Lord's Prayer - Resource Pack",
+      "publisher": "Worship For Everyone",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_3",
+      "establishes": "A different new Lord's Prayer setting (CCLI 7252346), not confirmed as Zach's; shows settings of this text are common. No independent assessment of Zach's setting found.",
+      "assessesContent": false
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "The Risen Lamb of God",
+    "artist": "The Church Will Sing (feat. Matthews Ntlele and Bridge Worship)",
+    "artistType": "GROUP",
+    "album": "The Church Will Sing (Vol 2)",
+    "releaseYear": 2021,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Daniel Doss, Jonathan Lee, Ryan Ellis and Taylor Agan; CCLI 7115271; Curb Music Publishing per PraiseCharts. Released by Curb | Word Entertainment on 16 April 2021, produced by Andrew Bergthold. CCM Magazine says the lyrics are rooted in Colossians 1:15-19. Published keys disagree (G at PraiseCharts, E on the project's own song page). The studio version reviewed carries the Matthews Ntlele and Bridge Worship wording. Reviewed as the song, not any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Verse one, a lift into the chorus, verse two, the chorus again, a bridge-style section, and a final chorus ending in a repeated tag. The verses describe the person and work of Christ: he bore sin, he is creator, he is saviour. The chorus proclaims the risen Lamb, the cornerstone, and death overcome. The bridge exalts his conquering name over demons and all creation. The voice mixes personal testimony (my sin, he knows my name) with corporate proclamation (we, our). Christ is named and acts throughout.",
+    "claims": [
+      {
+        "claim": "Christ bore the singer's sin as the Lamb of God.",
+        "subject": "The atoning Lamb",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is the creator who holds all things together, and also the saviour.",
+        "subject": "Christ as creator and saviour",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lamb who was slain is risen, and death has been overcome.",
+        "subject": "The resurrection",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is the cornerstone on which his people are built.",
+        "subject": "Christ the cornerstone",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "His name is above every power, including demons and all creation.",
+        "subject": "The supremacy of Christ",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ knows his people by name and is mighty to save.",
+        "subject": "Personal salvation",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "The Lamb who bore sin",
+        "explanation": "The first verse places Christ as the Lamb who carried the singer's sin, which is the substitution the title image depends on. The chorus then turns to his rising, so the cross is not left unanswered.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "John 1:29",
+        "scriptureRationale": "Behold the Lamb of God who takes away the sin of the world - the figure the song is built on."
+      },
+      {
+        "category": "Resurrection",
+        "title": "The slain Lamb is risen",
+        "explanation": "The chorus joins the Lamb of Revelation 5 to the empty tomb, declaring death overcome. It states the resurrection as something Christ has done, not a mood about new life.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Revelation 5:6-12",
+        "scriptureRationale": "The Lamb standing as though slain and worthy of worship - the picture the chorus proclaims as risen."
+      },
+      {
+        "category": "Christ's person",
+        "title": "Creator, cornerstone and saviour",
+        "explanation": "The verses and chorus gather Colossians 1 and the cornerstone texts: the one who made and sustains all things is also the one who saves and on whom the church is built.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Colossians 1:16-17",
+        "scriptureRationale": "All things created through and held together in him - the claim the verse draws on."
+      },
+      {
+        "category": "Lordship",
+        "title": "A name above every power",
+        "explanation": "The bridge ascribes to his name authority over demons and creation, in the pattern of Philippians 2. It places the victory with Christ and not with the singer.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Philippians 2:9-11",
+        "scriptureRationale": "The name above every name, to which every knee bows - what the bridge exalts."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Christ as the atoning Lamb of God",
+      "The resurrection of Christ",
+      "Christ as creator and sustainer",
+      "Christ as the cornerstone of the church",
+      "The supremacy of Christ over every power",
+      "Personal salvation through Christ"
+    ],
+    "assessment": "Nothing to correct on the evidence of the reading note. The song is built on Scripture's own images of the Lamb, the cornerstone and the conquering name, and it states what Christ has done: bore sin, rose, reigns. The personal lines are testimony grounded in his work. The Spirit, repentance and the church's future hope are not reached. No independent assessment of its teaching was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Use",
+        "title": "Anthemic and easy to carry",
+        "explanation": "The chorus is a short proclamation a room can take up quickly, and the plural voice in much of it suits gathered singing.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Verses that build to the chorus",
+        "explanation": "Each verse adds a statement about Christ before the chorus answers with his rising, so the repeated chorus gains weight as it returns.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Published keys differ: G at PraiseCharts, E on the project's own song page. Moderate range per the note; test the chorus in a congregational key.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "G (PraiseCharts) or E (The Church Will Sing)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The chorus and the closing tag repeat heavily. Each return is a declaration about the risen Lamb, so the repetition mostly restates the confession, but the tag can run long.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "An anthem for a room to sing, with a strong melody and a moderate range. The studio arrangement leans on the featured vocalists and a build; a congregation will do better with the chorus pitched where it can reach it and the tag kept short. It suits Easter and any service centred on the reign of Christ."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ is the subject throughout",
+        "explanation": "The Lamb, the cornerstone and the saviour are all named as Christ, and each title is tied to something he has done.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The images are biblical and familiar (Lamb, cornerstone, conquering name), and the mix of personal and corporate voice does not blur who is being praised."
+  },
+  "synthesis": {
+    "summary": "A Christ-centred anthem that names him as the slain and risen Lamb, creator, cornerstone and saviour, and ends by exalting his name over every power. It rests on John 1, Revelation 5, Colossians 1 and Philippians 2. The personal lines are testimony grounded in his work. Repetition in the chorus and tag is heavy. No concern was found, and no independent assessment of its teaching was found.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Resurrection",
+      "Salvation",
+      "Worship",
+      "Sovereignty"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "John 1:29",
+        "relevance": "The Lamb of God who takes away the world's sin - the central image."
+      },
+      {
+        "reference": "Revelation 5:6-12",
+        "relevance": "The slain Lamb worthy of worship - the song's heavenly picture."
+      },
+      {
+        "reference": "Psalm 118:22",
+        "relevance": "The stone the builders rejected - behind the cornerstone line."
+      },
+      {
+        "reference": "Colossians 1:16-17",
+        "relevance": "All things made and held together in Christ - the creator claim."
+      },
+      {
+        "reference": "Philippians 2:9-11",
+        "relevance": "The name above every name - the bridge's exaltation."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.ccmmagazine.com/news/the-church-will-sing-releases-the-risen-lamb-of-god/",
+      "title": "The Church Will Sing Releases 'The Risen Lamb Of God'",
+      "publisher": "CCM Magazine",
+      "sourceType": "JOURNALISM",
+      "credibilityTier": "TIER_3",
+      "establishes": "Release news: 16 April 2021, writers Doss, Agan, Lee and Ellis, Curb | Word label, and the lyrics described as rooted in Colossians 1:15-19.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.google.com/search?q=Risen+Lamb+of+God+The+Church+Will+Sing+lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google (LyricFind panel)",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

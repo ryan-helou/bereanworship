@@ -1,0 +1,214 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Revelation Song",
+    "artist": "Jennie Lee Riddle",
+    "artistType": "INDIVIDUAL",
+    "album": "Gateway Worship, Living for You (2006); Kari Jobe (2009)",
+    "releaseYear": 2004,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Jennie Lee Riddle in 2004, with the text adapted from Revelation 4; copyright given by listings as Gateway Create Publishing / Integrity's Praise! Music; CCLI 4447960 (as listed by Easysong). It reached radio first in a 2004 recording by Christ for the Nations Institute, then on Gateway Worship's 2006 album and on Kari Jobe's self-titled album. Phillips, Craig and Dean's single of 2009 reached number one on Christian radio and won the 2010 Dove Worship Song of the Year. The list's artist (Jobe) is a well-known recording rather than the writer; the reading note used Jobe's wording. Reviewed as the song.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Verse one, chorus, verse two, chorus, bridge, chorus and a short outro. The verses describe the throne-room vision of Revelation: the slain Lamb, the one on the throne and creation's praise. The chorus gives the threefold holy acclamation and then turns to personal adoration. The bridge is awe at Christ's name. The voice moves from heavenly description to first-person worship. The song is anchored in Revelation 4 and 5, with Isaiah 6, and presents the Lamb as worthy. It does not speak of sin or what the Lamb's death accomplished beyond calling him slain.",
+    "claims": [
+      {
+        "claim": "The one on the throne is eternal and is to be worshipped.",
+        "subject": "The majesty of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lamb who was slain is worthy of praise.",
+        "subject": "The worthiness of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "All creation joins heaven in praise of God.",
+        "subject": "Creation's worship",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is holy, and is worshipped as such.",
+        "subject": "The holiness of God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer personally adores God.",
+        "subject": "Personal adoration",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The name of Christ is to be revered with awe.",
+        "subject": "The name of Christ",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Scripture",
+        "title": "Revelation 4 and 5 set closely",
+        "explanation": "The song is built on the throne-room vision, so the congregation sings what John saw: the one on the throne, the slain Lamb, creation's praise. The text carries its authority from the passage.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Revelation 4:8",
+        "scriptureRationale": "Holy, holy, holy, the Lord God Almighty - the acclamation the chorus takes up."
+      },
+      {
+        "category": "Christ",
+        "title": "The Lamb who was slain is worthy",
+        "explanation": "The slain Lamb is named worthy, so the cross is the ground of the praise even though the song does not explain it.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 5:12",
+        "scriptureRationale": "Worthy is the Lamb who was slain - the claim of the verse."
+      },
+      {
+        "category": "God",
+        "title": "The holiness and eternity of God",
+        "explanation": "The song lifts attention to God's holiness and eternal kingship, away from the singer.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 6:3",
+        "scriptureRationale": "The seraphim's cry of holiness, behind the threefold acclamation."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The holiness and eternity of God",
+      "The worthiness of the slain Lamb",
+      "Creation's praise of God",
+      "Christ's name as worthy of awe"
+    ],
+    "assessment": "Nothing false. Its words follow Revelation 4 and 5 and Isaiah 6, and nothing in the note departs from them. It is worship of a throne-room God more than a statement of the gospel: the Lamb is slain, but what the death did for sinners is not said. No independent source assessing its content was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A familiar chorus",
+        "explanation": "The chorus is well known and congregation-friendly, learned quickly by rooms that have sung it elsewhere.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Suited to a call to worship",
+        "explanation": "Its vision of heaven's worship suits openings and times of adoration.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Published keys vary by recording; the chorus has a wide melodic reach. Choose the key by testing the chorus with the room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Varies by recording; not checked",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns three or more times, each time after a new piece of the vision, so the acclamation of holiness is reinforced rather than filled in.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "A familiar congregational song whose chorus is wide-ranging and needs a key chosen for the room. It builds toward its return, and a leader should carry the room through the chorus rather than perform it."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Scripture",
+        "title": "Drawn from a known passage",
+        "explanation": "The images are those of Revelation, so a congregation that knows the passage reads them correctly.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The figures are the book's own. A visitor would learn that God is holy and the Lamb worthy, but not why."
+  },
+  "synthesis": {
+    "summary": "A throne-room song adapted from Revelation 4 and 5 with Isaiah 6: it describes the one on the throne, the slain Lamb and creation's praise, then turns to personal adoration. No false claim found. It lifts God's holiness but says little of sin or what the Lamb's death accomplished. No independent source on its content was found.",
+    "themes": [
+      "Worship",
+      "God",
+      "Christ",
+      "Heaven",
+      "Creation",
+      "Sovereignty"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Revelation 4:2-8",
+        "relevance": "The throne-room scene and the threefold holiness."
+      },
+      {
+        "reference": "Revelation 5:9-12",
+        "relevance": "The slain Lamb worthy of praise."
+      },
+      {
+        "reference": "Revelation 1:8",
+        "relevance": "The Lord God, the one who is and was and is to come."
+      },
+      {
+        "reference": "Revelation 4:11",
+        "relevance": "Worthy is the Lord to receive glory."
+      },
+      {
+        "reference": "Isaiah 6:3",
+        "relevance": "The seraphim's cry of holiness."
+      },
+      {
+        "reference": "Hebrews 4:16",
+        "relevance": "The throne of grace approached with confidence."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Revelation_Song",
+      "title": "Revelation Song",
+      "publisher": "Wikipedia",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writer Jennie Lee Riddle, 2004, text adapted from Revelation 4; early recordings; the 2009 Phillips, Craig and Dean single and its awards. No doctrinal assessment.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com/Kari-jobe-revelation-song-lyrics"
+    }
+  ]
+}

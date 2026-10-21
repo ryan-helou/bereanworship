@@ -1,0 +1,200 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "MEDIUM",
+    "title": "Trust You",
+    "artist": "Shane & Shane",
+    "artistType": "GROUP",
+    "album": "The Worship Initiative Vol. 11",
+    "releaseYear": 2016,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Writers given as Owen Palmer, Shane Levan and Alisun Hernandez, with the recording by Shane & Shane on The Worship Initiative Vol. 11 (2016). These credits come from the reading note for this review; searches within the review budget did not turn up a catalogue page confirming writers, publisher or CCLI number, so they are stated with reduced confidence and no CCLI number is given. This is not the 7 Hills Worship song of the same title. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Two verses, a repeated chorus and a bridge, with the chorus returning at the close. The verses address the Father as the giver of every good gift and light, who knows the singer fully, provides for need, holds the world, and calls the singer by name. The chorus is a personal pledge to trust Jesus with the whole of life. The bridge, drawn from Jeremiah 9, warns against trusting in wisdom, strength or riches and points to knowing God as the only right boast. The voice is first-person prayer and vow. The address moves from the Father in the verses to Jesus in the chorus, which is not an error. The cross, resurrection and forgiveness are not reached.",
+    "claims": [
+      {
+        "claim": "The Father is the giver of every good gift and the source of light.",
+        "subject": "God as giver",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God knows the singer completely and knew them before birth.",
+        "subject": "God's knowledge of his people",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God provides for the needs of those who look to him.",
+        "subject": "Providence and provision",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God holds the world and calls his people by name.",
+        "subject": "Sovereignty and personal calling",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer vows to trust Jesus with the whole of life.",
+        "subject": "Trust in Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Wisdom, strength and riches are not to be trusted or boasted in; knowing God is the only proper boast.",
+        "subject": "Boasting in the Lord",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Providence",
+        "title": "God's provision and care stated as fact",
+        "explanation": "The verses ground trust in who the Father is and what he does: gives, knows, provides, holds, calls. The pledge in the chorus rests on that rather than on the singer's resolve.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Matthew 6:25-34",
+        "scriptureRationale": "God feeding and clothing those who seek him first - the provision the verses sing."
+      },
+      {
+        "category": "Scripture",
+        "title": "Jeremiah 9 in the bridge",
+        "explanation": "The bridge sets the prophet's contrast between boasting in wisdom, strength and riches and boasting in knowing the Lord. It is the song's clearest teaching and it is faithful to the passage.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Jeremiah 9:23-24",
+        "scriptureRationale": "Let him who boasts boast in understanding and knowing the Lord."
+      },
+      {
+        "category": "God",
+        "title": "The Father known personally",
+        "explanation": "God is presented as one who knows the singer in full and calls by name, drawing on Psalm 139 and Isaiah 43. Trust is made reasonable by his nearness.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 139:1-4",
+        "scriptureRationale": "The Lord searching and knowing his people - the personal knowledge the verse sings."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God as giver of every good gift",
+      "God's exhaustive knowledge of his people",
+      "Divine providence and provision",
+      "Trust in Christ rather than human resources",
+      "Boasting only in knowing the Lord"
+    ],
+    "assessment": "Nothing to correct. The song teaches trust on the basis of God's character and care, and its bridge keeps faith from being placed in wisdom, strength or wealth. The move from addressing the Father to addressing Jesus is not an error. The chorus is a personal vow, so the gospel itself, the cross and resurrection, is not stated."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A quiet line that is easy to learn",
+        "explanation": "A simple, reflective melody with a short chorus means a room can take it up after one hearing.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fits seasons of uncertainty",
+        "explanation": "The theme of trusting God with provision and the future suits services on anxiety, providence or stewardship.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published keys were not checked for this review. The line is reported as simple and reflective; test the key with the congregation.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not stated",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns several times, each time as the response to the verses or the bridge, so the repeated vow lands on a different reason for trust.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form: a short, repeated pledge that a room can learn quickly and sing quietly. The vow is in the singular, which suits personal reflection and prayer more than a credal moment."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "The Father and Jesus are named",
+        "explanation": "God is addressed as Father and Jesus is named in the chorus, so the addressee is never vague.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The address shifts from the Father to Jesus, which a congregation will hear as natural. The vocabulary is plain and the Scripture it draws on is recognisable."
+  },
+  "synthesis": {
+    "summary": "A prayer and vow of trust. The verses address the Father as giver, knower, provider and sustainer who calls the singer by name; the chorus pledges to trust Jesus with life; the bridge, from Jeremiah 9, rejects trust in wisdom, strength and riches. No false teaching is found. The song does not reach the cross or resurrection, and its credits could not be confirmed.",
+    "themes": [
+      "God",
+      "Faith",
+      "Providence",
+      "Sovereignty",
+      "Christ",
+      "Scripture"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "James 1:17",
+        "relevance": "The Father of lights as giver of every good gift."
+      },
+      {
+        "reference": "Matthew 6:25-34",
+        "relevance": "God's provision for those who seek him first."
+      },
+      {
+        "reference": "Philippians 4:19",
+        "relevance": "God supplying every need."
+      },
+      {
+        "reference": "Isaiah 43:1",
+        "relevance": "God calling his people by name."
+      },
+      {
+        "reference": "Psalm 139:1-16",
+        "relevance": "God's full knowledge of the singer before birth."
+      },
+      {
+        "reference": "Jeremiah 9:23-24",
+        "relevance": "Boasting only in knowing the Lord - the bridge."
+      },
+      {
+        "reference": "Proverbs 3:5",
+        "relevance": "Trusting in the Lord with all one's heart."
+      }
+    ]
+  },
+  "sources": []
+}

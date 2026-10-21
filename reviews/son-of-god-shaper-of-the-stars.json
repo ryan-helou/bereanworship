@@ -1,0 +1,246 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "MEDIUM",
+    "title": "Son of God",
+    "artist": "Starfield (featuring Chris Tomlin)",
+    "artistType": "GROUP",
+    "album": "Beauty in the Broken",
+    "releaseYear": 2006,
+    "genre": "Contemporary worship",
+    "isPublicDomain": false,
+    "notes": "The list's attribution to Sovereign Grace / Worship Initiative is wrong: this is a Starfield song, track 3 on Beauty in the Broken (Sparrow, 16 May 2006) with Chris Tomlin as guest vocalist. Wikipedia's track listing credits Jon and Tim Neufeld; a search summary of WorshipTogether's catalogue also lists Ed Cash and Gordon Cochran, which I did not confirm on the page itself, so the writer credit is uncertain. Publisher and CCLI number were not found. If a different Sovereign Grace song of the same name is intended, this review does not cover it.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Four short verses, an adoration section and a closing lift of praise, with no distinct chorus. The verses address Christ as creator and as the one who dwells in the heart; as the Father's gift and the sacrificial Lamb; as strength and kindness; and as the promised redeemer, asked to come again. The closing section is praise of his worthiness and beauty. The voice addresses Christ directly, mostly 'You', with personal and corporate pronouns in places. It leans on Colossians 1, John 3:16, 1 Peter 1, Isaiah 7 and 9, and Revelation 5 and 22.",
+    "claims": [
+      {
+        "claim": "Christ is the creator of all things.",
+        "subject": "Christ the creator",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ dwells in the believer's heart.",
+        "subject": "Indwelling of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is the Father's gift to the world.",
+        "subject": "The Father's gift",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is the sacrificial Lamb whose blood redeems.",
+        "subject": "Atonement",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ's kindness draws people to himself.",
+        "subject": "The kindness of God",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is the promised redeemer, and the singers ask him to come again.",
+        "subject": "Prophecy and return",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is worthy and beautiful.",
+        "subject": "The worthiness of Christ",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christ",
+        "title": "Christ as creator and Lamb",
+        "explanation": "The song joins Christ's work as creator with his work as the sacrificial Lamb, so the one worshipped is both the maker of all things and the one whose blood redeems.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Colossians 1:16-17",
+        "scriptureRationale": "All things created through and for Christ, who holds them together."
+      },
+      {
+        "category": "Atonement",
+        "title": "The Father's gift, the Lamb's blood",
+        "explanation": "Christ is given by the Father and offered as the Lamb, so redemption is traced to the Father's love and Christ's sacrifice, not to the singer.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "John 3:16",
+        "scriptureRationale": "God so loved the world that he gave his Son."
+      },
+      {
+        "category": "Advent",
+        "title": "The promised redeemer and his return",
+        "explanation": "The promised Christ of Isaiah is named, and the song closes its story by asking him to come again.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 22:20",
+        "scriptureRationale": "Come, Lord Jesus - the prayer the verse takes up."
+      },
+      {
+        "category": "Worship",
+        "title": "Worth as the ground of praise",
+        "explanation": "The close praises Christ as worthy and beautiful, so adoration rests on who he is.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 5:12",
+        "scriptureRationale": "The Lamb who was slain is worthy."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Christ as creator",
+      "The incarnation and the Father's gift",
+      "Sacrificial atonement by the Lamb's blood",
+      "The indwelling of Christ",
+      "Christ's kindness leading to repentance",
+      "Fulfilment of prophecy",
+      "Christ's return",
+      "Christ's worthiness"
+    ],
+    "assessment": "Nothing to correct. The song speaks of Christ as creator, gift, Lamb, redeemer and returning king, each drawn from Scripture. It names the cross through the Lamb and his blood but does not state sin or substitution plainly. No independent source assessing what it teaches was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Short lines, easy to learn",
+        "explanation": "Modest repetition and short lines keep the song easy to pick up for a congregation.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Praise that moves through Christ's work",
+        "explanation": "The sections move from creator to Lamb to returning king and end in adoration, so a congregation sings an ordered account of who Christ is.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Key not verified; no chart was read. The recording is a band arrangement with a featured guest vocalist, so a leader should set a key in rehearsal.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not verified",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "Repetition is modest. The closing lift repeats praise, but the verses carry the content.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Congregational in form, with short verses and a simple close, though it comes from a band recording with a featured vocalist. It suits a service on Christ's person and work and adapts easily."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ is addressed throughout",
+        "explanation": "The song names Christ directly as Son, Lamb and Redeemer, so the addressee is never vague.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. Its titles for Christ are biblical and familiar. The gospel is implied through the Lamb and the blood rather than told as a sequence, so a visitor would learn who Christ is more than why he died."
+  },
+  "synthesis": {
+    "summary": "A song addressed to Christ as creator, the Father's gift, the sacrificial Lamb, the promised redeemer and the one asked to come again, ending in praise of his worthiness. Each image rests on Scripture. Nothing in it is wrong; sin and substitution are not stated plainly. No independent source assessing its teaching was found.",
+    "themes": [
+      "Christ",
+      "Creation",
+      "Cross",
+      "Advent",
+      "Worship",
+      "Grace",
+      "Hope"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Colossians 1:16-17",
+        "relevance": "Christ as creator and sustainer."
+      },
+      {
+        "reference": "John 3:16",
+        "relevance": "The Father's gift of the Son."
+      },
+      {
+        "reference": "1 Peter 1:18-19",
+        "relevance": "Redemption by the blood of the Lamb."
+      },
+      {
+        "reference": "John 1:29",
+        "relevance": "The Lamb of God."
+      },
+      {
+        "reference": "Ephesians 3:17",
+        "relevance": "Christ dwelling in the heart."
+      },
+      {
+        "reference": "Isaiah 9:6",
+        "relevance": "The promised child and son."
+      },
+      {
+        "reference": "Revelation 22:20",
+        "relevance": "The prayer for Christ's return."
+      },
+      {
+        "reference": "Revelation 5:12",
+        "relevance": "The worthy Lamb."
+      },
+      {
+        "reference": "Romans 2:4",
+        "relevance": "God's kindness leading to repentance."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Beauty_in_the_Broken",
+      "title": "Beauty in the Broken",
+      "publisher": "Wikipedia",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_3",
+      "establishes": "Album released 16 May 2006 on Sparrow; Son of God is track 3 featuring Chris Tomlin; track list credits Jon and Tim Neufeld; Ed Cash produced.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://genius.com/Starfield-son-of-god-lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "genius.com",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

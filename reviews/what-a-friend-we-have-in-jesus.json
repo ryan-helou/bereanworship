@@ -1,0 +1,197 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "What a Friend We Have in Jesus",
+    "artist": "Joseph M. Scriven (text); Charles C. Converse (tune)",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1855,
+    "genre": "Traditional Hymn",
+    "isPublicDomain": true,
+    "notes": "Text by Joseph M. Scriven, written in 1855 in Canada to comfort his mother in Ireland; first published anonymously (1865, H. L. Hastings) and credited to Scriven only in the 1880s. Tune CONVERSE by Charles Crozat Converse, 1868; text and tune were first printed together in 1870 (Oliver Ditson). Public domain. Some catalogues give 1857 for the writing; 1855 is the more widely cited date. Reviewed as the standard three-stanza text, not any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Three eight-line stanzas with no separate chorus; each stanza closes with an exhortation to prayer. Stanza one celebrates the privilege of bringing every burden to God and laments the peace lost by not doing so. Stanza two takes up trials and temptation, with Jesus as the faithful friend who knows weakness and shares sorrow. Stanza three turns to the weary and the abandoned and points to Christ as refuge and protector. The voice is corporate and pastoral, with direct questions to the singers. Christ is named; his cross, resurrection and the believer's sin are not stated.",
+    "claims": [
+      {
+        "claim": "The believer may bring every sin and grief to God in prayer, and loses peace by not doing so.",
+        "subject": "Access to God in prayer",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus is a faithful friend who knows our weakness, shares our sorrow and bears our burdens.",
+        "subject": "Christ's sympathy as priest",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "In trial and temptation we are to take everything to Jesus rather than carry it alone.",
+        "subject": "Prayer in trial",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The weary and the friendless can find in Christ a refuge and protector.",
+        "subject": "Christ our refuge",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": false,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Prayer",
+        "title": "An invitation to pray about everything",
+        "explanation": "The hymn is a sustained call to bring every sin, grief and care to God in prayer, and it ends each stanza on that call. It teaches a congregation to pray rather than describing prayer.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Philippians 4:6",
+        "scriptureRationale": "Prayer with thanksgiving about everything - the hymn's repeated appeal."
+      },
+      {
+        "category": "Christ",
+        "title": "Jesus who knows our weakness",
+        "explanation": "The second stanza rests on Christ's sympathy with human weakness and shared sorrow, which is the ground given for praying at all.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Hebrews 4:15-16",
+        "scriptureRationale": "A high priest who sympathizes with weakness, so we draw near with confidence."
+      },
+      {
+        "category": "Comfort",
+        "title": "Burdens cast on a caring Lord",
+        "explanation": "The third stanza points the weary and abandoned to Christ as refuge and protector, in the pastoral register of the psalms and the gospel invitation.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Peter 5:7",
+        "scriptureRationale": "Casting every anxiety on him because he cares."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Access to God through prayer",
+      "Christ's sympathy with human weakness",
+      "Christ as refuge for the weary",
+      "The friendship of Christ with believers"
+    ],
+    "assessment": "Nothing false. The hymn is a pastoral exhortation to prayer resting on Christ's nearness and sympathy. The line about needless suffering is exhortation, not a claim that prayer removes all pain. It does not state the cross, the believer's sin as dealt with by Christ, or the resurrection, so its comfort leans on who Jesus is rather than on what he did. A Lutheran hymnal handbook has called it sentimental in type; the text itself makes no false claim."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A tune everyone knows",
+        "explanation": "Converse's plain melody is among the most familiar in English-language hymnody and is learned by ear within a verse.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Pastoral and prayer settings",
+        "explanation": "Its content suits services of prayer, funerals, times of trial and the pastoral prayer lead-in.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Commonly printed in lower keys such as F or Eb in hymnals; the range is modest. Choose a key that sits comfortably for the room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Varies by hymnal; no chart read",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "Each stanza closes on the same call to prayer, which is the hymn's point rather than padding.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in words and form: three stanzas, no chorus, a tune known by heart. It carries well in unaccompanied or simple settings. Because it speaks to the singers as much as to God, it works best as a song of encouragement in prayer-focused services."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Jesus is named plainly",
+        "explanation": "The hymn names Jesus and speaks of him as friend, refuge and protector, so no listener doubts whom the song is about.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Plain and direct. The vocabulary is nineteenth-century but simple, and the exhortations are clear. It does not tell the gospel, so a visitor learns that Jesus is a friend to bring burdens to, without hearing why he can bear them."
+  },
+  "synthesis": {
+    "summary": "A three-stanza hymn by Joseph Scriven (1855) set to Converse's tune (1868). It calls believers to bring every sin, trial and sorrow to Jesus in prayer, grounding that call in his sympathy with weakness and his role as refuge. It names Christ and is built on several New Testament texts. It does not state the cross or resurrection. No false claim was found.",
+    "themes": [
+      "Prayer",
+      "Christ",
+      "Faith",
+      "Suffering",
+      "Assurance",
+      "Hope"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Philippians 4:6",
+        "relevance": "Prayer about everything - the hymn's repeated appeal."
+      },
+      {
+        "reference": "1 Peter 5:7",
+        "relevance": "Casting every care on him - the stanza-one burden language."
+      },
+      {
+        "reference": "Hebrews 4:15-16",
+        "relevance": "Christ's sympathy with weakness and the throne of grace - stanza two."
+      },
+      {
+        "reference": "Matthew 11:28",
+        "relevance": "The invitation to the weary - stanza three."
+      },
+      {
+        "reference": "John 15:13-15",
+        "relevance": "Jesus calling his disciples friends - the title idea."
+      },
+      {
+        "reference": "Proverbs 18:24",
+        "relevance": "A friend who sticks closer than a brother."
+      },
+      {
+        "reference": "Psalm 55:22",
+        "relevance": "Cast your burden on the LORD."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/What_a_Friend_We_Have_in_Jesus",
+      "title": "What a Friend We Have in Jesus",
+      "publisher": "Wikipedia",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_3",
+      "establishes": "Text by Joseph Scriven, 1855; tune by Converse, 1868; first printed together 1870. Notes one published criticism of the hymn as sentimental in type.",
+      "assessesContent": true
+    }
+  ]
+}

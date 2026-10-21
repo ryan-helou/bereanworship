@@ -1,0 +1,216 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "MEDIUM",
+    "title": "Tethered to the Cross",
+    "artist": "Danny O'Callaghan",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": null,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Integrity Music's catalogue page credits Danny O'Callaghan, Michael Farren and Krissy Nordhoff as writers, with a 2025 Integrity Music copyright line, CCLI 7133199, original key Eb, 65 BPM, 5/4. The list's artist guess is right for the recording named. The reading note describes a 2019 album text; no independent page confirming the album or original release year was found within the search budget, so the year is left unstated. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Six verses, each closing with the same refrain line, and a chorus placed after the second verse and again after the fourth or fifth. The early verses state steadfast faith amid hardship and temptation. The chorus gives thanks for being saved. Later verses carry that trust through trouble, uncertainty, death and the final judgment, and the last verse affirms that the cross will hold. The voice is first person singular testimony.",
+    "claims": [
+      {
+        "claim": "Under hardship and temptation the believer's faith is held fast by the cross.",
+        "subject": "Perseverance in Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null,
+        "locationDetail": "the early verses"
+      },
+      {
+        "claim": "The singer gives thanks that he has been saved.",
+        "subject": "Salvation",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ's keeping power holds the believer through trouble, danger and affliction.",
+        "subject": "Security in Christ",
+        "location": "VERSE_3",
+        "lyricExcerpt": null,
+        "locationDetail": "the middle verses"
+      },
+      {
+        "claim": "The cross remains the believer's anchor through death and the final judgment.",
+        "subject": "Assurance in death and judgment",
+        "location": "VERSE",
+        "lyricExcerpt": null,
+        "locationDetail": "the later verses"
+      },
+      {
+        "claim": "The cross will hold to the end.",
+        "subject": "Final perseverance",
+        "location": "VERSE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Assurance",
+        "title": "The cross as the believer's anchor",
+        "explanation": "The song's one controlling image is the cross holding the believer fast, which builds assurance on a finished work rather than on the singer's grip. It carries that trust through hardship, death and judgment.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Hebrews 6:19",
+        "scriptureRationale": "Hope as an anchor of the soul - the image the whole song is built on."
+      },
+      {
+        "category": "Assurance",
+        "title": "Security in Christ's hand",
+        "explanation": "The scripture the note identifies behind the middle verses is Christ's promise that none will be snatched from his hand and Paul's list of things that cannot separate us from his love. The song sets these as the believer's ground.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 8:35-39",
+        "scriptureRationale": "Nothing in creation can separate the believer from Christ's love - the confidence the later verses carry."
+      },
+      {
+        "category": "Resurrection",
+        "title": "Death and judgment faced with victory",
+        "explanation": "The later verses look at death and the last day and answer them with Christ's victory, so the song does not stop at present comfort.",
+        "songLocation": "VERSE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Corinthians 15:57",
+        "scriptureRationale": "Thanks to God for the victory through Jesus Christ - the answer the song gives to death."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Salvation given by Christ",
+      "Perseverance and security of the believer",
+      "The cross as the believer's boast and anchor",
+      "Victory over death and confidence at the judgment"
+    ],
+    "assessment": "Nothing to correct. The song is a sustained testimony of trust in the cross, built on biblical images of anchoring, hiding and being kept. It is thin on the cross's content: the atoning work itself, sin and substitution are assumed more than stated. That belongs to the substance answers, not to a concern. The singular testimonial voice is recorded there too."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A simple, learnable melody",
+        "explanation": "The reading note finds the tune simple and easy to learn, and the single refrain line returning every verse lets a room join by the second verse.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Pastoral use",
+        "title": "Words for seasons of trial and grief",
+        "explanation": "A song that carries trust through trouble and death gives a congregation something to sing at a funeral or in a hard season.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published by Integrity with Eb as the original key, in 5/4 at about 65 BPM. The unusual meter needs a leader who counts it in.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Eb (original per Integrity Music)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The same closing line returns every verse and the chorus repeats, but each return follows new circumstances (trouble, death, judgment), so the repeated confession is tested rather than padded.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Easy to learn and suited to a congregation, with a first person voice that a room can adopt as its own confession. The six verses make it long; a leader may choose three or four."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Imagery",
+        "title": "One image, held throughout",
+        "explanation": "The anchor and the tether are the single metaphor and each verse applies it to a new circumstance, so a visitor can follow the song.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The figures are biblical and familiar. The cross is named, though the gospel is stated by implication rather than explained."
+  },
+  "synthesis": {
+    "summary": "A first person testimony of holding to the cross through hardship, temptation, death and the final judgment, one refrain returning each verse and a chorus of thanks for salvation. Built on the anchor of Hebrews 6 and Romans 8. Nothing in it is wrong; it assumes the atonement more than it states it, and is sung in the singular.",
+    "themes": [
+      "Cross",
+      "Assurance",
+      "Salvation",
+      "Faith",
+      "Hope",
+      "Suffering",
+      "Providence"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Hebrews 6:19",
+        "relevance": "Hope as an anchor of the soul - the governing image."
+      },
+      {
+        "reference": "Romans 8:35-39",
+        "relevance": "Nothing can separate the believer from Christ's love."
+      },
+      {
+        "reference": "John 10:28-29",
+        "relevance": "No one snatches the believer from Christ's hand."
+      },
+      {
+        "reference": "Psalm 23:4",
+        "relevance": "Presence through the valley of the shadow of death."
+      },
+      {
+        "reference": "Psalm 32:7",
+        "relevance": "God as the believer's hiding place."
+      },
+      {
+        "reference": "1 Corinthians 15:57",
+        "relevance": "Victory over death through Christ."
+      },
+      {
+        "reference": "Galatians 6:14",
+        "relevance": "Boasting only in the cross."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://integrityworship.com/songs/tethered-to-the-cross-danny-ocallaghan/",
+      "title": "Tethered To The Cross",
+      "publisher": "Integrity Music",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers O'Callaghan, Farren and Nordhoff, CCLI 7133199, Integrity Music copyright, original key Eb, 65 BPM, 5/4.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://genius.com/Danny-ocallaghan-tethered-to-the-cross-lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "genius.com",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

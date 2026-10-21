@@ -1,0 +1,231 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "MEDIUM",
+    "title": "You Are My All in All",
+    "artist": "Dennis Jernigan",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1991,
+    "genre": "Contemporary Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Dennis Jernigan; copyright held by Shepherd's Heart Music, administered by PraiseCharts Publishing; CCLI 825356 (listed by several catalogue pages). The lyric panel the text was read from credits a different name as writer, which the catalogue pages do not support. Sources disagree on the year: 1990, 1991 and 1992 all appear, so 1991 is the best-supported date and is uncertain. Jernigan's own version is the one churches know and is what was reviewed.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Two short verses and a refrain that returns many times, ending on a repeated naming of the Lamb. The verses speak of God as the singer's strength in weakness and as the treasure to be sought; he lifts the singer when he falls and fills him when he is empty. The refrain turns to Jesus directly and calls him the Lamb of God who takes away sin, bears the cross and its shame, rises, and is worthy. The voice is first person singular and devotional. The Lamb language is the song's doctrinal centre; the Spirit, the church and the second coming are not reached.",
+    "claims": [
+      {
+        "claim": "God is the singer's strength in weakness and the treasure to be sought above all.",
+        "subject": "God as strength and treasure",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God raises the singer when he falls and supplies him when he is dry.",
+        "subject": "God's sustaining care",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus is the Lamb of God who takes away sin.",
+        "subject": "Christ the sin-bearing Lamb",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus bore the cross and its shame and rose again.",
+        "subject": "Cross and resurrection",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lamb is worthy.",
+        "subject": "The worthiness of Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christ",
+        "title": "The Lamb who takes away sin",
+        "explanation": "The refrain names Jesus as the Lamb of God and says he takes away sin, bears the cross and rises. That is the gospel's centre stated in a line a congregation can hold, and it is addressed to Christ himself.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "John 1:29",
+        "scriptureRationale": "Behold the Lamb of God who takes away the sin of the world - the title the refrain gives Jesus."
+      },
+      {
+        "category": "Atonement",
+        "title": "The cross borne and shame endured",
+        "explanation": "Christ's suffering is put in the refrain as something he did for sin, not as a scene to admire. The rising follows it, so the cross is not left as the last word.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 53:4-6",
+        "scriptureRationale": "The servant bearing griefs and iniquity for others - the pattern the Lamb's work follows."
+      },
+      {
+        "category": "Worship",
+        "title": "Worth ascribed to the Lamb",
+        "explanation": "The song ends by declaring the Lamb worthy, which is the worship of heaven turned into a congregational line and puts the reason for praise in who Christ is.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 5:12",
+        "scriptureRationale": "The Lamb who was slain is worthy - the declaration the refrain closes on."
+      },
+      {
+        "category": "Providence",
+        "title": "Strength made perfect in weakness",
+        "explanation": "The verses ground the singer's standing in God's strength given to the weak, not the singer's resolve, and describe him lifting the fallen and filling the empty.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MINOR",
+        "scriptureReference": "2 Corinthians 12:9-10",
+        "scriptureRationale": "God's power perfected in weakness - the idea of the first verse."
+      },
+      {
+        "category": "Worship",
+        "title": "God as the treasure sought",
+        "explanation": "God is presented as the one worth seeking above all else, a thought from the parables of the hidden treasure and the pearl.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MINOR",
+        "scriptureReference": "Matthew 13:44-46",
+        "scriptureRationale": "The kingdom as a treasure worth everything - the sense in which God is called the thing sought."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Christ as the Lamb of God who takes away sin",
+      "The cross and resurrection",
+      "The worthiness of Christ",
+      "God's strength in human weakness",
+      "God's sustaining care"
+    ],
+    "assessment": "Nothing to correct. The refrain is addressed to Christ and names him as the Lamb who takes away sin, bears the cross and rises, and the verses rest on God's strength rather than the singer's. It is short, and the gospel is stated in outline rather than argued. The Spirit, the church and the second coming are not reached. No independent assessment of its content was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Short and easy to learn",
+        "explanation": "Two brief verses and a refrain give a congregation a song it can sing from memory after one hearing, without a screen or a chart.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "A refrain that returns to Christ",
+        "explanation": "Each return of the refrain brings the room back to the Lamb, so the repetition keeps the song's one confession in front of the singers.",
+        "songLocation": "CHORUS",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published key not confirmed for this review. The melody is simple and the song is short, so check the key against the room before use.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not confirmed",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The refrain returns many times and the close repeats the Lamb's name. The returning words are the confession itself, so the repetition carries the content rather than replacing it.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Built for a room to sing: short, simple, a refrain that is easy to learn, and a leader can repeat it as long as the moment needs. It suits communion, a response after a sermon on the cross, and any time the congregation is to be brought to Christ's worthiness. The first-person voice is devotional, which is natural for the form."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Jesus is named",
+        "explanation": "The refrain addresses Jesus by name and as the Lamb, so the addressee is never an unspecified you.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The verses speak of God in general terms, and the refrain makes the addressee Jesus. The Lamb title needs the listener to know John's Gospel or Revelation, but nothing invites a wrong reading."
+  },
+  "synthesis": {
+    "summary": "A short devotional song: two verses on God as strength for the weak and treasure to be sought, and a refrain that addresses Jesus as the Lamb of God who takes away sin, bears the cross and its shame, rises and is worthy. Sound in what it says, and the substance is concentrated in the refrain. The singular voice is testimonial in the verses. The gospel is outlined, not argued.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Resurrection",
+      "Worship",
+      "Grace",
+      "Providence"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "John 1:29",
+        "relevance": "The Lamb of God who takes away the sin of the world - the refrain's title for Jesus."
+      },
+      {
+        "reference": "Isaiah 53:4-6",
+        "relevance": "The sin-bearing servant - the background to the Lamb's work."
+      },
+      {
+        "reference": "Revelation 5:12",
+        "relevance": "The slain Lamb is worthy - the closing declaration."
+      },
+      {
+        "reference": "2 Corinthians 12:9-10",
+        "relevance": "Strength in weakness - the first verse."
+      },
+      {
+        "reference": "Psalm 145:14",
+        "relevance": "The Lord upholds the falling - the second verse."
+      },
+      {
+        "reference": "Matthew 13:44-46",
+        "relevance": "The treasure of the kingdom - God as the thing sought."
+      },
+      {
+        "reference": "Hebrews 12:2",
+        "relevance": "Jesus enduring the cross and its shame - the refrain's cross language."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Dennis_Jernigan",
+      "title": "Dennis Jernigan",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Names this as Jernigan's most notable song. Carries no account of its writing, year or content.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.google.com/search?q=You+Are+My+All+in+All+Dennis+Jernigan+lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "You Deserve the Glory",
+    "artist": "Terry MacAlmon",
+    "artistType": "INDIVIDUAL",
+    "album": "Live Worship from the World Prayer Center",
+    "releaseYear": 2000,
+    "genre": "Contemporary Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Eva-Lena Hellmark; the artist's own site says MacAlmon did not write it, though he is closely associated with it through his live recording at the World Prayer Center, released in 2000. Its copyright line there gives 1992, with administration by Music Services; a publisher listing gives 2005, and one catalogue (hymnary) credits MacAlmon as composer, which the other sources contradict. No CCLI number was found. The list's guess of MacAlmon is right for the recording but wrong for the writer.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "A three-line verse sung twice, then a very short chorus, looped. The congregation, in the plural, tells God that he is worthy of glory and honor, and speaks of lifting hands and of his holy name, his greatness and his miracles, and that none compare to him. It is adoration throughout. It names no particular act of God beyond his wonders in general, and it does not mention Christ, the cross or the resurrection by name. The words are built on Revelation 4 and 5 and on psalms of worship.",
+    "claims": [
+      {
+        "claim": "God is worthy of glory and honor.",
+        "subject": "The worthiness of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The congregation lifts hands and honors his holy name.",
+        "subject": "Worship response",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is great and does miracles.",
+        "subject": "God's greatness and wonders",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "No one compares to God.",
+        "subject": "The incomparability of God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Worship",
+        "title": "God's worthiness declared",
+        "explanation": "The song's whole subject is that God deserves glory and honor, which is the cry of heaven in Revelation put into a congregation's mouth. The reason is God's own worth, not the singer's feeling.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 4:11",
+        "scriptureRationale": "Worthy are you to receive glory and honor and power - the verse the song is built on."
+      },
+      {
+        "category": "God",
+        "title": "The incomparable God",
+        "explanation": "The song says none compare to him and ties this to his greatness and wonders, which is the confession of Israel in the psalms and at the sea.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Exodus 15:11",
+        "scriptureRationale": "Who is like you among the gods - the exclamation the claim follows."
+      },
+      {
+        "category": "Worship",
+        "title": "Glory due to his name",
+        "explanation": "It calls the congregation to honor his holy name, which sets the worship on his character, as the psalm does.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MINOR",
+        "scriptureReference": "Psalm 29:2",
+        "scriptureRationale": "Ascribe to the Lord the glory due his name - the call the verse carries."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The worthiness of God to receive glory",
+      "The greatness and wonders of God",
+      "The incomparability of God"
+    ],
+    "assessment": "Nothing to correct. It says only that God is worthy and incomparable, which Scripture says, and what it says is true. It is thin: it names no particular act of God and does not mention Christ, so it teaches little beyond adoration. No independent assessment of its content was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "As easy as a song gets",
+        "explanation": "A three-line verse and a very short chorus give any congregation a song it can sing at once, with no screen, which makes it usable in a crowd that has never met it.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Use",
+        "title": "Room to stay and respond",
+        "explanation": "The artist's own site describes the live version as a place to remain and respond rather than a piece to finish, which the looped shape allows.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published key not confirmed for this review. The melody is very simple; check the key against the room before use.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not confirmed",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The song is a short loop and depends on repetition for its length. The repeated words are true and the repeating is the point of the form, so it is heavy but not empty.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "A congregation's song in words and form, using the plural and a loop that any room can sing. The risk is of length without content: a leader who extends it should have something more to say, such as a reading from Revelation, since the song itself will not supply it."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Directness",
+        "title": "Plain adoration",
+        "explanation": "The meaning is immediate and the address is to God, so a visitor understands what the room is doing.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear and plain. It says God is worthy and incomparable and does not say why beyond his greatness and wonders, so the gospel has to come from somewhere else in the service."
+  },
+  "synthesis": {
+    "summary": "A short, looped song of adoration in the plural: God is worthy of glory and honor, his name is holy, his works are great and none compare. Everything it says is true and built on Revelation and the psalms. It names no particular act of God and does not reach Christ, the cross or the resurrection, so the gospel is absent. Singability is as high as it gets.",
+    "themes": [
+      "God",
+      "Worship",
+      "Sovereignty"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Revelation 4:11",
+        "relevance": "Worthy to receive glory and honor - the song's central claim."
+      },
+      {
+        "reference": "Revelation 5:12",
+        "relevance": "The Lamb worthy of honor and glory - the heavenly worship echoed."
+      },
+      {
+        "reference": "Psalm 29:2",
+        "relevance": "Glory due his name - the call to honor his name."
+      },
+      {
+        "reference": "Psalm 86:8",
+        "relevance": "None like the Lord among the gods - the incomparability."
+      },
+      {
+        "reference": "Psalm 77:14",
+        "relevance": "The God who works wonders - the miracles."
+      },
+      {
+        "reference": "Exodus 15:11",
+        "relevance": "Who is like the Lord - the exclamation behind the chorus."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://terrymacalmon.com/pages/you-deserve-the-glory-terry-macalmon-at-pikes-peak-worship-festival",
+      "title": "You Deserve the Glory (Pikes Peak Worship Festival)",
+      "publisher": "Terry MacAlmon",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Credits Eva-Lena Hellmark as writer, gives a 1992 copyright line, and says MacAlmon did not write it but is closely associated with it through his live recording.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://hymnary.org/tune/you_deserve_the_glory_macalmon",
+      "title": "You Deserve the Glory (tune)",
+      "publisher": "Hymnary.org",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record listing the tune in two hymnals; credits MacAlmon as composer on the page and Hellmark in one hymnal entry, so the catalogue itself conflicts.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://genius.com/Terry-macalmon-you-deserve-the-glory-lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "The Lord Is My Salvation",
+    "artist": "Keith & Kristyn Getty",
+    "artistType": "GROUP",
+    "album": "Facing a Task Unfinished",
+    "releaseYear": 2016,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Written by Keith Getty, Kristyn Getty, Nathan Nockels and Jonas Myrin; 2016 copyright held by Getty Music Publishing with Sweater Weather Music, Capitol CMG Paragon and Son of the Lion, per search listings. Getty Music describes it as a testimony song inspired in part by Psalm 27. The 2016 Getty recording is the one churches know; it also appears on Sing! Live at the Getty Music Worship Conference. The task's names and artist are right. No CCLI number was confirmed. Reviewed as the song, not any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Five verses, a repeated refrain, and a closing Trinitarian doxology; each verse ends with the same affirmation that the Lord is the singer's salvation. The verses move from rescue by grace, to fearlessness in darkness, to hope in God's promises, to waiting and weakness, to death and resurrection. The refrain exalts the Lord's incomparability and the finished payment of the debt. The doxology gives glory to Father, Son and Spirit and shifts from singular to plural. The voice is first-person testimony in the verses and corporate in the refrain and doxology.",
+    "claims": [
+      {
+        "claim": "God rescues the singer by grace, drawing him out of the depths.",
+        "subject": "Rescue by grace",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lord is light and salvation, so there is no need to fear in darkness.",
+        "subject": "God's protection",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's promises hold, and hope rests on them.",
+        "subject": "The faithfulness of God",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "In waiting and weakness the singer relies on the Lord's strength.",
+        "subject": "Dependence on God",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Death is not the end; the believer will be raised, as Christ was.",
+        "subject": "Resurrection hope",
+        "location": "VERSE",
+        "lyricExcerpt": null,
+        "locationDetail": "the fifth verse"
+      },
+      {
+        "claim": "No one is like the Lord, and the debt has been paid in full.",
+        "subject": "Incomparability and finished atonement",
+        "location": "CHORUS",
+        "lyricExcerpt": null,
+        "locationDetail": "the refrain"
+      },
+      {
+        "claim": "Glory belongs to Father, Son and Holy Spirit.",
+        "subject": "The Trinity",
+        "location": "OUTRO",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "The debt paid in full",
+        "explanation": "The refrain states that the payment for sin is finished, the language of Colossians 2. It puts salvation in God's completed act, not in the singer's effort.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Colossians 2:14",
+        "scriptureRationale": "The record of debt cancelled and nailed to the cross - the finished payment the refrain proclaims."
+      },
+      {
+        "category": "Trinity",
+        "title": "Glory to Father, Son and Spirit",
+        "explanation": "The closing doxology gives glory to all three persons and moves from one voice to many, so the testimony ends in the church's shared worship.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Matthew 28:19",
+        "scriptureRationale": "Baptism in the name of the Father, Son and Holy Spirit - the Trinitarian pattern the doxology adopts."
+      },
+      {
+        "category": "Resurrection",
+        "title": "Death met with resurrection hope",
+        "explanation": "The final verse looks to death and rising, grounding the believer's hope in Christ's resurrection and God's promise rather than in the singer's courage.",
+        "songLocation": "VERSE",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Corinthians 15:51-57",
+        "scriptureRationale": "The dead raised and death swallowed up in victory - the hope of the last verse."
+      },
+      {
+        "category": "God",
+        "title": "The Lord is incomparable",
+        "explanation": "The refrain exalts the Lord as without equal, and the verses ground each affirmation in who he is and what he does, so the testimony points to God and not the singer.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 113:5",
+        "scriptureRationale": "Who is like the Lord our God - the thought of the refrain."
+      },
+      {
+        "category": "Scripture",
+        "title": "A song of psalms",
+        "explanation": "Exodus 15 and Psalm 118 supply the title confession, and Psalms 27, 40 and 69 shape the verses' fear, rescue and waiting. The song is closely built on the psalter.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 27:1",
+        "scriptureRationale": "The Lord as light and salvation, so no fear - the confession the verses carry."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Salvation as God's gift and act",
+      "The finished payment of the debt of sin",
+      "The resurrection of believers",
+      "The incomparability of God",
+      "The faithfulness of God's promises",
+      "The Trinity"
+    ],
+    "assessment": "Nothing to correct on the evidence of the reading note. The first-person verses are testimony, but each rests on who the Lord is and what he has done, and the refrain and doxology are corporate. The spring-after-winter imagery is poetic and is not read as doctrine. Repentance is only implied and the church is reached in the doxology. No independent assessment of its teaching was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Memorable tune, accessible range",
+        "explanation": "The refrain is memorable and the range is accessible, so a room can learn it quickly.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Testimony that ends in shared worship",
+        "explanation": "The shift from singular verses to a plural doxology moves the individual into the church's voice.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "No published key was confirmed for this review. The note describes the range as accessible; test the refrain in the room's key.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not confirmed",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The refrain is very repetitive and each verse ends on the same affirmation, but each return follows a new stage of the story. The doxology is a simple closing chant.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Written for gathered singing: a memorable tune, an accessible range, five verses a room can follow and a doxology that gathers everyone. Five verses is long, so a leader may choose among them. It suits Easter, funerals, and any service on hope in suffering."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Father, Son and Spirit are named",
+        "explanation": "The doxology names all three persons and the refrain names the Lord, so the addressee is never vague.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The personal verses and the corporate refrain do not blur who is praised, and the seasonal imagery is plainly poetic."
+  },
+  "synthesis": {
+    "summary": "A testimony hymn in five verses with a refrain and a Trinitarian doxology. It moves from rescue by grace through fearlessness, promise, waiting and death, and rests on Exodus 15, the psalms, Colossians 2 and 1 Corinthians 15. The refrain proclaims the debt paid and the Lord without equal. The verses are personal but grounded in God's acts. No concern was found, and no independent assessment of its teaching was found.",
+    "themes": [
+      "God",
+      "Trinity",
+      "Salvation",
+      "Grace",
+      "Resurrection",
+      "Hope",
+      "Assurance",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Exodus 15:2",
+        "relevance": "The Lord as strength and salvation - the title confession."
+      },
+      {
+        "reference": "Psalm 27:1",
+        "relevance": "The Lord as light and salvation, so no fear."
+      },
+      {
+        "reference": "Psalm 40:2",
+        "relevance": "Lifted from the pit - the rescue verse."
+      },
+      {
+        "reference": "Psalm 113:5",
+        "relevance": "None like the Lord our God - the refrain."
+      },
+      {
+        "reference": "Colossians 2:14",
+        "relevance": "The debt cancelled - the finished payment."
+      },
+      {
+        "reference": "1 Corinthians 15:51-57",
+        "relevance": "Resurrection and victory over death - the last verse."
+      },
+      {
+        "reference": "Matthew 28:19",
+        "relevance": "The Trinitarian name - the doxology."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.challies.com/sponsored/the-lord-is-my-salvation/",
+      "title": "The Lord Is My Salvation (sponsored)",
+      "publisher": "Challies.com (Getty Music)",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "Sponsored Getty Music post: credits Keith and Kristyn Getty, Jonas Myrin and Nathan Nockels; presents the song as a testimony hymn inspired in part by Psalm 27.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.google.com/search?q=The+Lord+Is+My+Salvation+Keith+%26+Kristyn+Getty+lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google (Musixmatch panel)",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

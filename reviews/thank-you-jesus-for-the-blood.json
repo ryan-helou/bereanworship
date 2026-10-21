@@ -1,0 +1,215 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Thank You Jesus for the Blood",
+    "artist": "Charity Gayle",
+    "artistType": "INDIVIDUAL",
+    "album": "Endless Praise",
+    "releaseYear": 2021,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Charity Gayle, David Gentiles, Steven Musso, Ryan Kennedy and Bryan McCleery. PraiseCharts lists a 2021 copyright shared among ComissionMusic, Come Up Kings Publishing, Gather House Music, Steven Musso Music and Watershed Worship Publishing, with Watershed Music Group as the listed publisher; CCLI 7172456; original key Bb, medium slow, 4/4. The recording churches know is Charity Gayle's on Endless Praise (2021). The list's guess of Charity Gayle is right. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Verse 1, chorus, verse 2, chorus, bridge, chorus, tag. The first verse recounts being lost and separated from God by sin and brought across by Christ at the cross. The second recounts Christ's burial, resurrection and the end of death's sting. The chorus thanks Jesus for the blood that washes and saves. The bridge exalts the power of the blood and adoption as sons and daughters, and shifts to a corporate we. The tag gives glory. The voice is first person singular thanksgiving, with a plural in the bridge.",
+    "claims": [
+      {
+        "claim": "Sin separated the singer from God, and Christ brought him across at the cross.",
+        "subject": "Sin and reconciliation",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ was buried and rose, and death's sting has ended.",
+        "subject": "The resurrection",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus' blood washes and saves, and the singer thanks him for it.",
+        "subject": "Atonement through the blood",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The blood has power, and through it believers are adopted as sons and daughters.",
+        "subject": "Adoption through Christ's blood",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Glory belongs to Jesus.",
+        "subject": "Doxology",
+        "location": "TAG",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "Salvation through Christ's blood",
+        "explanation": "The song makes the blood of Christ the ground of cleansing, redemption and nearness to God, and says so in the chorus the room sings most often.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Peter 1:18-19",
+        "scriptureRationale": "Redeemed with the precious blood of Christ - the claim the chorus repeats."
+      },
+      {
+        "category": "Sin",
+        "title": "Separation named before reconciliation",
+        "explanation": "The first verse puts the problem first: sin separates from God and Christ bridges the gap at the cross, which makes thanks for the blood intelligible.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 59:2",
+        "scriptureRationale": "Iniquities separating from God - the verse's starting point."
+      },
+      {
+        "category": "Resurrection",
+        "title": "Burial, rising and death's sting removed",
+        "explanation": "The second verse carries the story past the cross to the resurrection and the end of death's power.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Corinthians 15:55-57",
+        "scriptureRationale": "Death's sting answered by victory through Christ."
+      },
+      {
+        "category": "Adoption",
+        "title": "Adoption as sons and daughters",
+        "explanation": "The bridge moves from forgiveness to sonship, joining the blood to adoption by the Spirit and heirship with Christ.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 8:15-17",
+        "scriptureRationale": "Receiving the Spirit of adoption and being heirs with Christ."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Sin separates from God",
+      "Redemption and cleansing through Christ's blood",
+      "The burial and resurrection of Christ",
+      "Victory over death",
+      "Adoption as children of God"
+    ],
+    "assessment": "Nothing to correct. The song is full of the language of the cross and the blood, set out across the whole of Scripture (Hebrews 9, Revelation 1 and 12, Ephesians 1 and 2, 1 Peter 1) and echoing the older hymn on the power of the blood. The blood language is biblical and is used in a biblical sense. The singular testimonial voice is recorded in the substance answers, not charged here."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A thankful refrain a room can own",
+        "explanation": "The chorus is direct thanks to Jesus and returns often, so a congregation can learn it on first hearing.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "The bridge turns the song corporate",
+        "explanation": "The shift to we in the bridge lets a room sing the adoption together after singing the testimony singly.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "PraiseCharts gives Bb as the original key. The reading note finds the range larger than a simple song; test the bridge and lower the key if a mixed room struggles.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Bb (original per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns three times and the bridge repeats, but each return follows a new part of the story (the separation, the rising, the adoption), so the thanks lands on changed ground.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Strong in its content and workable for a congregation, with a wider range than a simple song and a build in the bridge that a leader should hold in check. It suits communion, Good Friday, Easter and any service where the cross is the theme."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Jesus named and thanked for the blood",
+        "explanation": "The song names Jesus and says what he did, so the addressee and the reason for thanks are never in doubt.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The blood language is plainly biblical and is explained by the verses around it, which tell the story of separation, the cross, the burial and the rising."
+  },
+  "synthesis": {
+    "summary": "A thanksgiving for the blood of Jesus: sin separated the singer from God, Christ brought him across at the cross, rose from the grave and ended death's sting, and through his blood believers are washed and adopted. Christ is named throughout and the chorus is plain thanks. Nothing in it is wrong; the voice is mostly singular and the range is wide.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Resurrection",
+      "Grace",
+      "Salvation",
+      "Sin",
+      "Thanksgiving",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Isaiah 59:2",
+        "relevance": "Sin separating from God - the first verse's problem."
+      },
+      {
+        "reference": "Ephesians 1:7",
+        "relevance": "Redemption through his blood."
+      },
+      {
+        "reference": "Ephesians 2:13",
+        "relevance": "Brought near by the blood of Christ."
+      },
+      {
+        "reference": "1 Peter 1:18-19",
+        "relevance": "Redeemed with the precious blood of Christ."
+      },
+      {
+        "reference": "1 Corinthians 15:55-57",
+        "relevance": "Death's sting removed - the second verse."
+      },
+      {
+        "reference": "Romans 8:15-17",
+        "relevance": "Adoption as children and heirs - the bridge."
+      },
+      {
+        "reference": "Revelation 12:11",
+        "relevance": "Victory by the blood of the Lamb."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://praisecharts.com/songs/details/76701/thank-you-jesus-for-the-blood-chords",
+      "title": "Thank You Jesus For The Blood - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: five writers, CCLI 7172456, 2021 copyright and publishers, original key Bb, medium slow 4/4, Endless Praise.",
+      "assessesContent": false
+    }
+  ]
+}

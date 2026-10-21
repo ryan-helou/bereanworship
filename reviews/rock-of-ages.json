@@ -1,0 +1,229 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Rock of Ages",
+    "artist": "Augustus Toplady",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1776,
+    "genre": "Hymn",
+    "isPublicDomain": true,
+    "notes": "Text by Augustus Montague Toplady, a Reformed Anglican minister. The opening lines first appeared in The Gospel Magazine in October 1775; the full hymn ran there in March 1776 and a slightly revised text was published in his Psalms and Hymns for Public and Private Worship in July 1776. A composition date of 1763 is traditional but uncertain, and the shelter-from-a-storm story is not firmly documented. Usual tunes: Toplady (Thomas Hastings, revised by Lowell Mason) in the United States; Redhead 76 (Petra) by Richard Redhead in Britain. Later hymnals edited the wording, and the text was partly a reply in the Calvinist-Arminian dispute with Wesley. Public domain; the list's guess is right. Reviewed as the standard four-stanza text.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Four stanzas with no chorus; the last returns to the opening plea, framing the hymn. Stanza one asks for refuge and cleansing in Christ, whose side was pierced. Stanza two denies that works, zeal or tears can satisfy the law, and says only grace saves. Stanza three confesses empty-handed helplessness and clinging to the cross. Stanza four looks to death and judgment and returns to the plea for refuge. The voice is a first-person prayer and confession.",
+    "claims": [
+      {
+        "claim": "Christ is the sinner's refuge, and cleansing comes through his pierced side.",
+        "subject": "Christ as refuge and cleansing",
+        "location": "VERSE_1",
+        "lyricExcerpt": null,
+        "locationDetail": "stanza one"
+      },
+      {
+        "claim": "Neither works nor repentance can satisfy the law; only grace saves.",
+        "subject": "Justification by grace, not works",
+        "location": "VERSE_2",
+        "lyricExcerpt": null,
+        "locationDetail": "stanza two"
+      },
+      {
+        "claim": "The sinner brings nothing and clings to the cross.",
+        "subject": "Empty-handed faith",
+        "location": "VERSE_3",
+        "lyricExcerpt": null,
+        "locationDetail": "stanza three"
+      },
+      {
+        "claim": "The sinner needs Christ for cleansing from sin's guilt and defilement.",
+        "subject": "Cleansing",
+        "location": "VERSE_3",
+        "lyricExcerpt": null,
+        "locationDetail": "stanza three"
+      },
+      {
+        "claim": "At death and on the day of judgment the sinner's only plea is Christ.",
+        "subject": "Judgment and assurance",
+        "location": "VERSE_4",
+        "lyricExcerpt": null,
+        "locationDetail": "stanza four"
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Justification",
+        "title": "Grace alone, works excluded",
+        "explanation": "The second stanza denies that effort or sorrow can answer the law and places salvation wholly in grace. It is among the clearest statements of justification in the hymn tradition.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Galatians 2:16",
+        "scriptureRationale": "Not justified by works of the law but through faith in Christ - the claim of the stanza."
+      },
+      {
+        "category": "Atonement",
+        "title": "Refuge in the pierced Christ",
+        "explanation": "The first stanza locates cleansing and shelter in Christ's wounded side, tying the cross to both pardon and safety.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "John 19:34",
+        "scriptureRationale": "Blood and water from the pierced side - the image the stanza builds on."
+      },
+      {
+        "category": "Faith",
+        "title": "Empty-handed dependence",
+        "explanation": "The third stanza confesses that the singer brings nothing and clings only to the cross, which is the posture of faith and not of resolve.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Ephesians 2:8-9",
+        "scriptureRationale": "Saved by grace through faith, not from works - the posture confessed."
+      },
+      {
+        "category": "Assurance",
+        "title": "Facing death and judgment in Christ",
+        "explanation": "The last stanza carries the plea to the hour of death and the judgment, so the hymn's confidence reaches past this life.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Hebrews 9:27-28",
+        "scriptureRationale": "Appointed to die once, then judgment, with Christ appearing to save - the horizon of the stanza."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Christ as refuge for sinners",
+      "Cleansing through his death",
+      "Justification by grace, not works",
+      "Faith as empty-handed dependence",
+      "The judgment and the sinner's plea in Christ"
+    ],
+    "assessment": "Nothing to correct on the reading note. The plea language (cleanse, save, I die) is penitent urgency in a prayer and is sound. The hymn's stress on grace excluding works is its core, and later editors have softened one stanza's wording; the standard Toplady text is the one reviewed. The Spirit, the resurrection and the church are not reached."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Familiar tune, plain structure",
+        "explanation": "Four stanzas, no chorus and a well-known tune make it easy to learn and carry in a room.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "A hymn of penitence and assurance",
+        "explanation": "It fits communion, funerals, and any service that names sin and grace together.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Public domain; sung to Toplady or Redhead 76 in many keys. The note calls the tune familiar and easy; pick a key that suits the room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Varies by hymnal and tune",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "There is no repetition beyond the final stanza's return to the opening plea, which frames the hymn.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "A congregational hymn in every respect: no refrain to manage, a familiar tune, a first-person prayer that the room makes its own. Its editing history means different books carry different wording in one stanza, so a leader should check the text the congregation holds."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "The rock and the cleft are clear in context",
+        "explanation": "The central image is introduced at once and returned to at the end, so a hearer follows who the refuge is and why.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. Old idiom (cleft, eye-strings in earlier editions, judgment-throne) needs explaining to newcomers, but the claims are plain: the sinner cannot save himself and Christ is the refuge."
+  },
+  "synthesis": {
+    "summary": "A four-stanza prayer by Augustus Toplady (1776) that sets Christ as the sinner's refuge and cleansing, denies that works or tears can satisfy the law, confesses empty-handed dependence on the cross, and carries the plea to death and judgment. It rests on Exodus 33, Isaiah 26, John 19 and Galatians 2. No concern was found; later editions vary the wording of one stanza.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Grace",
+      "Salvation",
+      "Sin",
+      "Faith",
+      "Assurance",
+      "Repentance"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Exodus 33:22",
+        "relevance": "God placing Moses in a cleft of the rock - the opening image."
+      },
+      {
+        "reference": "Isaiah 26:4",
+        "relevance": "The LORD as an everlasting rock - the source of the title image."
+      },
+      {
+        "reference": "John 19:34",
+        "relevance": "Blood and water from Christ's side - the first stanza's cleansing."
+      },
+      {
+        "reference": "Galatians 2:16",
+        "relevance": "Justification by faith and not works - the second stanza's claim."
+      },
+      {
+        "reference": "Ephesians 2:8-9",
+        "relevance": "Salvation by grace through faith - the hymn's central confession."
+      },
+      {
+        "reference": "Titus 3:5",
+        "relevance": "Saved not by works but by mercy - the washing language."
+      },
+      {
+        "reference": "Hebrews 9:27-28",
+        "relevance": "Death, judgment and Christ's saving work - the last stanza."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Rock_of_Ages_(Christian_hymn)",
+      "title": "Rock of Ages (Christian hymn)",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Author Toplady; 1775 and 1776 appearances; tunes Toplady and Redhead 76; notes the Calvinist-Arminian debate over the text and how later editing was read.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://www.hymnal.net/en/hymn/h/1058",
+      "title": "Hymn text read for this review",
+      "publisher": "hymnal.net",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

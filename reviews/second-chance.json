@@ -1,0 +1,211 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "MEDIUM",
+    "title": "Second Chance",
+    "artist": "Rend Collective",
+    "artistType": "GROUP",
+    "album": "Homemade Worship by Handmade People",
+    "releaseYear": 2012,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Track 4 of Homemade Worship by Handmade People (Rend Collective Experiment, Kingsway, 10 January 2012; producer Gareth Gilkeson), re-recorded on Campfire (2013). Search listings give the writer credit as Rend Collective, copyright 2011 Thankyou Music administered by EMI Christian Music Publishing, CCLI 6186054; no source loaded names the individual writers, so the reading note's three names are not confirmed. The Wikipedia album article reports Gilkeson saying the song centres on the cross and grace rather than the law, and that it reached No. 24 on the US Christian Songs chart. The text was read from the campfire-version wording, which may differ slightly from the studio cut. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "Six short verses with a shared chorus that returns after verse pairs, and a closing bridge. The early verses ask God to keep re-creating the singer and describe the blood as offering a fresh start. The chorus celebrates the cross as the source of a new beginning. The later verses speak of brokenness redeemed and of mercy. The bridge repeats the theme of second chances at the cross and shifts to the plural. The voice is first person singular petition and testimony. Scripture is behind it in many places: creation from dust, sins removed, new creation, mercy new each morning, grace abounding. The imagery of romance and a kiss is figurative.",
+    "claims": [
+      {
+        "claim": "God formed the singer from dust and is asked to keep re-creating him.",
+        "subject": "Creation and renewal",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The blood of Christ offers the singer a fresh start.",
+        "subject": "Atonement and cleansing",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The cross is the source of a new beginning.",
+        "subject": "The cross",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Brokenness is redeemed and God shows mercy to the singer.",
+        "subject": "Redemption and mercy",
+        "location": "THROUGHOUT",
+        "lyricExcerpt": null,
+        "locationDetail": "the later verses"
+      },
+      {
+        "claim": "Grace and mercy are given again and again at the cross.",
+        "subject": "Persistent grace",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "The blood and the cross as the ground",
+        "explanation": "The song places the singer's new start in the cross and the blood of Christ rather than in any resolve. Its repeated message is that the fresh start is given, which is the right ground.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Hebrews 9:14",
+        "scriptureRationale": "The blood of Christ cleansing the conscience from dead works."
+      },
+      {
+        "category": "Grace",
+        "title": "Mercy renewed daily",
+        "explanation": "The song dwells on mercy that does not run out and sins removed from the singer, which is a real comfort for those weighed down by failure.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Lamentations 3:22-23",
+        "scriptureRationale": "The Lord's mercies are new every morning."
+      },
+      {
+        "category": "Salvation",
+        "title": "New creation in Christ",
+        "explanation": "The song speaks of being made new and of beauty given in place of ashes, which follows Scripture's own language of renewal.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "2 Corinthians 5:17",
+        "scriptureRationale": "If anyone is in Christ, he is a new creation."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The cross and the blood of Christ as the ground of forgiveness",
+      "God's mercy renewed daily",
+      "New creation in Christ",
+      "Sins removed and brokenness redeemed",
+      "Grace abounding where sin abounded"
+    ],
+    "assessment": "No concern is recorded. The reading note finds the recurring phrase about second chances imprecise, because it could be heard as a repeatable probation. In the song the new start is always given at the cross and by mercy, and Scripture speaks of daily mercy and of confession and cleansing. That is compatible with once-for-all justification, though the song does not state it, and the absence belongs in the substance and clarity notes, not in a concern."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Use",
+        "title": "A song for the weary and the failing",
+        "explanation": "For a congregation carrying shame, the chorus is a clear reminder that the cross gives a fresh start. It suits a time of confession and assurance.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "No key was confirmed from a loaded source for this review, so none is stated. The verses are wordy; test them at tempo with your congregation.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not confirmed",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns after verse pairs and the bridge repeats the theme of the cross, so the repetition keeps returning to the one confession.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "The chorus is easy to join, but six wordy verses with poetic phrasing are harder for a room to carry. A leader may choose fewer verses. The band-style folk setting leans toward the group more than the room unless the arrangement is scaled back."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "The cross is named as the source",
+        "explanation": "The chorus puts the new beginning at the cross, so the answer to the failure the song describes is not left vague.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "MODERATE",
+    "assessment": "The cross and the blood are named, so the gospel is clear. The phrase second chance can be heard as a repeatable do-over rather than as a settled standing, and a few of the images, such as a kiss and romance, are figurative and need explaining. These affect clarity, not soundness."
+  },
+  "synthesis": {
+    "summary": "A first-person petition and testimony that locates the singer's fresh start in the blood and the cross, with mercy renewed and brokenness redeemed. The recurring second-chance wording is imprecise and could be heard as repeatable probation, but nothing in the song says that salvation is earned. The verses are wordy and poetic. No independent assessment of its content was found.",
+    "themes": [
+      "Cross",
+      "Grace",
+      "Salvation",
+      "Repentance",
+      "Hope",
+      "Thanksgiving"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Genesis 2:7",
+        "relevance": "The singer formed from dust - the song's opening image."
+      },
+      {
+        "reference": "Psalm 103:12",
+        "relevance": "Sins removed as far as east from west."
+      },
+      {
+        "reference": "2 Corinthians 5:17",
+        "relevance": "The new creation in Christ."
+      },
+      {
+        "reference": "Isaiah 61:3",
+        "relevance": "Beauty given in place of ashes."
+      },
+      {
+        "reference": "Romans 5:20",
+        "relevance": "Grace abounding where sin abounded."
+      },
+      {
+        "reference": "Lamentations 3:22-23",
+        "relevance": "Mercies new every morning - the renewed start."
+      },
+      {
+        "reference": "Ephesians 2:4-5",
+        "relevance": "Made alive by rich mercy and great love."
+      },
+      {
+        "reference": "Hebrews 9:14",
+        "relevance": "The blood of Christ cleansing the conscience."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Homemade_Worship_by_Handmade_People",
+      "title": "Homemade Worship by Handmade People",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Album details: Kingsway, 10 January 2012, producer Gilkeson, Second Chance as track 4 and a single peaking at No. 24; reports Gilkeson's own account that the song centres on the cross and grace.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "genius.com",
+      "url": "https://genius.com/Rend-collective-second-chance-lyrics"
+    }
+  ]
+}

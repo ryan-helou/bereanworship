@@ -1,0 +1,224 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "The Lion and the Lamb",
+    "artist": "Big Daddy Weave",
+    "artistType": "GROUP",
+    "album": "Beautiful Offerings",
+    "releaseYear": 2015,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Leeland Mooring, Brenton Brown, Brian Johnson and Richard Kingsmore; CCLI 7038281; copyright 2015 Meaux Mercy, The Devil Is A Liar Publishing, Thankyou Music (admin. Capitol CMG Publishing) and Bethel Music Publishing, per PraiseCharts. The task listed three writers; the catalogue record adds Kingsmore. Original key B in that edition. The recording churches know is Big Daddy Weave's on Beautiful Offerings (2015). Reviewed as the song, not any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Two short verses, a main chorus, a long repeated tag built on rhetorical questions near the end, and wordless sections; the chorus returns several times. The verses proclaim Christ's coming in the clouds, chains breaking and the gates opening for the King. The chorus sets the two Revelation images side by side, the conquering lion and the slain lamb, and ends in universal homage. The tag asks who can stand against the Lord. The voice is corporate declaration, praise of God in the second and third person, with no personal testimony. Christ is named by his titles and acts throughout.",
+    "claims": [
+      {
+        "claim": "Christ will come in the clouds as King, and the gates are opened for him.",
+        "subject": "The return and kingship of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Chains are broken by Christ's work; captives are set free.",
+        "subject": "Liberation through the atonement",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is both the conquering Lion and the slain Lamb.",
+        "subject": "The Lion and the Lamb",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lamb takes away the sin of the world.",
+        "subject": "The atoning Lamb",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Every knee will bow and every creature give him homage.",
+        "subject": "Universal homage to Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "No one can thwart the purpose of the Lord.",
+        "subject": "God's sovereignty",
+        "location": "TAG",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christ's person",
+        "title": "Lion and Lamb held together",
+        "explanation": "The chorus joins the conquering Lion of Judah and the slain Lamb of Revelation 5 as one person, so power and sacrifice are not separated. Victory comes through the death.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Revelation 5:5-6",
+        "scriptureRationale": "The Lion who has conquered appears as a Lamb standing as though slain - the pairing the chorus sings."
+      },
+      {
+        "category": "Atonement",
+        "title": "The Lamb who takes away sin",
+        "explanation": "The chorus uses John the Baptist's title for Christ, placing the removal of the world's sin in the Lamb. It is the language of John 1:29, not a claim that all are saved.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "John 1:29",
+        "scriptureRationale": "Behold the Lamb of God who takes away the sin of the world - the title the chorus uses."
+      },
+      {
+        "category": "Lordship",
+        "title": "Every knee bowed to the King",
+        "explanation": "The close declares universal homage to Christ in the pattern of Philippians 2 and looks to his coming in the clouds, so the song ends on his reign and return.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Philippians 2:10-11",
+        "scriptureRationale": "Every knee bowing and every tongue confessing - the homage the chorus ends on."
+      },
+      {
+        "category": "Sovereignty",
+        "title": "None can stop the Lord",
+        "explanation": "The tag asks, in Isaiah's manner, who can overturn what God has purposed. It rests the song's confidence on God's power, not the singer's.",
+        "songLocation": "CHORUS",
+        "magnitude": "MINOR",
+        "scriptureReference": "Isaiah 14:27",
+        "scriptureRationale": "The Lord has purposed and who can annul it - the thought behind the tag."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The deity and kingship of Christ",
+      "Christ as the slain Lamb who takes away sin",
+      "The return of Christ in the clouds",
+      "Freedom from bondage through Christ's work",
+      "Universal homage to Christ at the last",
+      "God's sovereignty"
+    ],
+    "assessment": "Nothing to correct on the evidence of the reading note. The song rests on Revelation 5, John 1, Philippians 2, Daniel 7 and Psalm 24. The blood-breaks-chains idea is a familiar atonement idiom, and the Lamb who takes away the world's sin is John 1:29's own wording, not universalism. The cross is stated briefly; repentance and the Spirit are not reached. No independent assessment of its teaching was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Use",
+        "title": "A simple anthem for a gathered room",
+        "explanation": "The chorus is short, plain and easy to learn, and the corporate voice suits a congregation declaring Christ's reign together.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Wordless sections that give a room space",
+        "explanation": "The wordless passages let a room sing without lyrics to follow, though a leader must judge their length.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published original key B in the PraiseCharts edition, with A, Ab, Bb, F and G also offered. Test the chorus in a lower key for a mixed room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "B (original per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The chorus returns several times and the rhetorical-question tag runs long. The repeated lines are declarations about Christ, but the tag does much of its work by repetition rather than new content.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "An anthem built to be sung by a room: easy to learn, corporate in voice, and strong in its closing build. The heavy repetition and the long tag need a leader who ends them rather than letting them run. It suits Advent, Easter and services centred on Christ's reign."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ's identity is clear",
+        "explanation": "The Lion and the Lamb are plainly Christ, and each image is a biblical title a congregation can trace to Revelation 5.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The images are biblical and the voice never shifts to the singer. The gospel is implicit in the Lamb language rather than told as a sequence."
+  },
+  "synthesis": {
+    "summary": "A corporate anthem proclaiming Christ as the conquering Lion and the slain Lamb, coming in the clouds, breaking chains and receiving the homage of every creature. It rests on Revelation 5, John 1, Philippians 2 and Psalm 24. The cross is touched rather than told. Repetition is heavy. No concern was found, and no independent assessment of its teaching was found.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Sovereignty",
+      "Worship",
+      "Hope"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Revelation 5:5-6",
+        "relevance": "The Lion who has conquered, standing as a slain Lamb."
+      },
+      {
+        "reference": "John 1:29",
+        "relevance": "The Lamb who takes away the sin of the world."
+      },
+      {
+        "reference": "Philippians 2:10-11",
+        "relevance": "Every knee bowing to Christ."
+      },
+      {
+        "reference": "Matthew 24:30",
+        "relevance": "The Son of Man coming on the clouds."
+      },
+      {
+        "reference": "Psalm 24:7-10",
+        "relevance": "The gates opened for the King of glory."
+      },
+      {
+        "reference": "Isaiah 61:1",
+        "relevance": "Captives set free."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://praisecharts.com/songs/details/27480/lion-and-the-lamb-sheet-music",
+      "title": "The Lion and the Lamb - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Mooring, Brown, Johnson and Kingsmore, CCLI 7038281, 2015 copyright line and publishers, original key B, Big Daddy Weave on Beautiful Offerings.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.google.com/search?q=The+Lion+and+the+Lamb+Big+Daddy+Weave+lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google (Musixmatch panel)",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

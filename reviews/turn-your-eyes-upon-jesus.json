@@ -1,0 +1,229 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Turn Your Eyes",
+    "artist": "Sovereign Grace Music",
+    "artistType": "GROUP",
+    "album": "The Glorious Christ (Live)",
+    "releaseYear": 2019,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Verse one is the first verse of Helen H. Lemmel's hymn, with her music; verses two to four and the chorus are new, by George Romanacce, Nathan Stiff, Nic Trout and Kevin Winebarger. Copyright 2019 Sovereign Grace Worship (ASCAP), Sovereign Grace Praise (BMI) and Sovereign Grace Songs (SESAC), administered by Integrity Music; CCLI 7120053. Recorded live on The Glorious Christ. This is not the full Lemmel hymn, which has a different chorus; only its first verse is reused, and the Lemmel text is public domain while the new material is under copyright. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Four verses, with a chorus after verses two, three and four and the chorus repeated at the close. The first verse is Lemmel's call to look to Jesus. The second verse takes the cross as the place where justice and mercy meet and the debt is cancelled. The third verse is the resurrection and the end of the fear of death. The fourth is the return of the King and the confession by all of his lordship. The verses exhort the congregation; the chorus is a corporate response of adoration in the plural. Christ is named throughout. The sequence runs from looking to Christ, through cross and resurrection, to his return. The Spirit is not reached.",
+    "claims": [
+      {
+        "claim": "Believers are called to fix their gaze on Jesus.",
+        "subject": "Looking to Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "At the cross God's justice and mercy meet, and the debt of sin is cancelled.",
+        "subject": "Atonement and justification",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ has risen and death is defeated, releasing believers from fear of it.",
+        "subject": "Resurrection and victory over death",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ the King will return and every voice will confess his lordship.",
+        "subject": "Second coming and universal confession",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The congregation responds in adoration of Christ.",
+        "subject": "Worship",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "The gospel",
+        "title": "Cross, resurrection and return in order",
+        "explanation": "After the call to look to Jesus, three verses tell what he has done and will do: cancel the debt at the cross, defeat death, and return as King. The congregation is pointed to Christ and then given the reasons.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Corinthians 15:3-4",
+        "scriptureRationale": "Died for sins and raised - the core the middle verses state."
+      },
+      {
+        "category": "Atonement",
+        "title": "Justice and mercy met at the cross",
+        "explanation": "The second verse holds God's justice and mercy together at the cross and says the debt is erased. That is substitution and justification without softening either side.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Romans 3:25-26",
+        "scriptureRationale": "God showing himself just and the justifier of those who believe - the verse's claim."
+      },
+      {
+        "category": "Resurrection",
+        "title": "Fear of death answered",
+        "explanation": "The third verse grounds freedom from the fear of death in Christ's victory over it rather than in the singer's courage.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Hebrews 2:14-15",
+        "scriptureRationale": "Christ destroying the one who has the power of death and freeing those afraid of it."
+      },
+      {
+        "category": "Return",
+        "title": "The King's return and universal confession",
+        "explanation": "The final verse looks forward to Christ's return and every tongue confessing him Lord, giving the song a future horizon most worship songs omit.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Philippians 2:10-11",
+        "scriptureRationale": "Every knee bowing and every tongue confessing that Jesus Christ is Lord."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Fixing the eyes on Christ",
+      "Penal substitution and justification",
+      "Cancellation of the debt of sin",
+      "The resurrection and defeat of death",
+      "Christ as the Lion of Judah",
+      "The return of Christ",
+      "Universal confession of his lordship"
+    ],
+    "assessment": "Nothing to correct. The song extends a single old verse into a full account of Christ: his glory, his cross where justice and mercy meet, his victory over death and his return. Each claim is stated, Christ is named, and the chorus answers with adoration. The Spirit and the church's mission are not reached."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A short chorus a room can hold",
+        "explanation": "The chorus is short and repeated, and the first verse is a familiar old text, so the song is easy to join.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Covers the whole Christ story",
+        "explanation": "It suits services on Christ's person and work, from Good Friday and Easter to Advent or the return of Christ.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Published keys were not checked for this review. The range is reported as moderate; test the key with the congregation.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not stated",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns after each of the last three verses and at the close, each time as a response to a new part of Christ's work.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form: exhortation in the verses, a plural response in the chorus, and a short repeated refrain. The recording features a lead voice but the arrangement is built to be sung by a room."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ named and the story ordered",
+        "explanation": "Christ is named throughout, and each verse takes up one part of his work, so a visitor can follow where the song is going.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The mix of Lemmel's old verse with newer verses is seamless in subject, and the Scripture behind each verse is recognisable."
+  },
+  "synthesis": {
+    "summary": "A modern expansion of Lemmel's first verse into a four-verse account of Christ: a call to look to him, the cross where justice and mercy meet and the debt is cancelled, the resurrection and release from the fear of death, and the return of the King with all confessing his lordship. The chorus is a corporate response of adoration. No false teaching is found; the Spirit is not reached.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Resurrection",
+      "Grace",
+      "Worship",
+      "Hope",
+      "Faith"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Hebrews 12:2",
+        "relevance": "Fixing the eyes on Jesus - the opening call."
+      },
+      {
+        "reference": "Romans 3:25-26",
+        "relevance": "God's justice and mercy met in Christ's sacrifice."
+      },
+      {
+        "reference": "Psalm 85:10",
+        "relevance": "Mercy and truth meeting - the figure behind verse two."
+      },
+      {
+        "reference": "Colossians 2:14",
+        "relevance": "The record of debt cancelled at the cross."
+      },
+      {
+        "reference": "Revelation 5:5",
+        "relevance": "The Lion of the tribe of Judah who has conquered."
+      },
+      {
+        "reference": "Hebrews 2:14-15",
+        "relevance": "Death defeated and fear of it ended."
+      },
+      {
+        "reference": "Acts 1:11",
+        "relevance": "The return of Christ."
+      },
+      {
+        "reference": "Philippians 2:10-11",
+        "relevance": "Every tongue confessing Jesus Christ as Lord."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://sovereigngracemusic.com/?p=8037",
+      "title": "Turn Your Eyes",
+      "publisher": "Sovereign Grace Music",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher page: Lemmel's first verse plus new verses and chorus by Romanacce, Stiff, Trout, Winebarger; 2019 copyright; CCLI 7120053; verses run from Christ's glory to his return.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com/Sovereign-grace-music-turn-your-eyes-live-lyrics"
+    }
+  ]
+}

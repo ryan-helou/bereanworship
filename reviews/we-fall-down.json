@@ -1,0 +1,178 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "We Fall Down",
+    "artist": "Chris Tomlin",
+    "artistType": "INDIVIDUAL",
+    "album": "The Noise We Make",
+    "releaseYear": 2001,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Chris Tomlin alone; copyright 1998 worshiptogether.com songs, administered by Capitol Christian Music Publishing; CCLI 2437367. Sources give 1998 as the copyright and composition year and 2001 as the release on The Noise We Make; the live recording most churches know is on Passion: Live Worship From The 268 Generation. The list's artist is correct. Reviewed as the song, not as one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "CORPORATE_WE",
+    "structuralNotes": "One short verse and one chorus, repeated in a loop with no further stanzas. The gathered church casts itself and its crowns down before Jesus. The greatness of his mercy and love is named. The congregation cries out the threefold holiness of the Lamb. The voice is plural throughout and the content is adoration with no personal narrative. It is built on the heavenly worship scenes of Revelation 4 and 5 and on Isaiah's vision of the holy God.",
+    "claims": [
+      {
+        "claim": "The church bows before Jesus and lays down its crowns in homage.",
+        "subject": "Worship of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ's mercy and love are great beyond the worshippers' measure.",
+        "subject": "Christ's mercy and love",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lamb is holy, as the heavenly worshippers declare, and the congregation joins that cry.",
+        "subject": "The holiness of the Lamb",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Worship",
+        "title": "Joins the worship of heaven",
+        "explanation": "The song places the congregation in the scene John saw, where the redeemed lay down their crowns before the Lamb. That connects earthly worship to the heavenly pattern.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 4:10-11",
+        "scriptureRationale": "The elders cast their crowns before the throne - the act the song takes up."
+      },
+      {
+        "category": "Christ",
+        "title": "The Lamb is called holy",
+        "explanation": "Holiness belongs to the Lamb, which attributes the threefold praise of Isaiah's seraphim to Jesus and so confesses his deity.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 5:12-13",
+        "scriptureRationale": "Worship given to the Lamb alongside the one on the throne - the praise the chorus echoes."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The holiness of Christ the Lamb",
+      "Christ's mercy and love",
+      "Christ's worthiness of worship",
+      "Humility of the church before its Lord"
+    ],
+    "assessment": "No concern. The note records nothing doubtful, and the song is a close echo of Revelation 4 and 5 and Isaiah 6. It adores the Lamb and names his mercy and love but states no particular act of God, so the gospel is only implicit. That is a limit of scope, not an error."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Instantly singable",
+        "explanation": "The song is very short and easy, so a room can sing it from memory after one pass.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "A natural response song",
+        "explanation": "Its corporate voice and posture of prostration suit a moment of adoration after the word has been read or sung.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Original key E per PraiseCharts. Test the chorus for a mixed congregation.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "E (original per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "One verse and chorus looped; the repetition carries much of the weight, though what is repeated is a confession of the Lamb's holiness.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Written for a gathered church in the plural, and short enough to be learned instantly. Because it is so brief, a leader should place it where it follows teaching of the cross, since it adores the Lamb without saying what he has done."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Jesus and the Lamb are named",
+        "explanation": "The song names Jesus and the Lamb, so the room knows to whom its worship is directed.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear and simple. The Revelation imagery of crowns and the Lamb is biblical and familiar to most congregations; the gospel behind it is assumed rather than stated."
+  },
+  "synthesis": {
+    "summary": "A short corporate song of adoration drawn from Revelation 4 and 5 and Isaiah 6: the church lays down its crowns before Jesus, names his mercy and love, and cries the holiness of the Lamb. No concern was found. It states no act of God, so the gospel is implicit. It is very brief and heavily repeated. No independent source assessing its teaching was found.",
+    "themes": [
+      "Worship",
+      "Christ",
+      "Holiness",
+      "Heaven",
+      "Thanksgiving"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Revelation 4:10-11",
+        "relevance": "The elders cast their crowns before the throne - the central image."
+      },
+      {
+        "reference": "Revelation 5:6-14",
+        "relevance": "The Lamb worshipped by heaven and earth."
+      },
+      {
+        "reference": "Isaiah 6:3",
+        "relevance": "The threefold cry of holiness."
+      },
+      {
+        "reference": "Philippians 2:10-11",
+        "relevance": "Every knee bowing to Jesus."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/2183/we-fall-down-sheet-music/reason-file",
+      "title": "We Fall Down (Chris Tomlin / Passion)",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writer Chris Tomlin, 1998 copyright to worshiptogether.com songs, CCLI 2437367, original key E.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel (Genius also listed)",
+      "url": "https://www.google.com/search?q=We+Fall+Down+Chris+Tomlin+lyrics"
+    }
+  ]
+}

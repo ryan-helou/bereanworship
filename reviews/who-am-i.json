@@ -1,0 +1,231 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Who Am I",
+    "artist": "Casting Crowns",
+    "artistType": "GROUP",
+    "album": "Casting Crowns",
+    "releaseYear": 2004,
+    "genre": "Contemporary Christian",
+    "isPublicDomain": false,
+    "notes": "Written by Mark Hall, Casting Crowns' lead singer; the reading note's credit to other writers does not match the published account and is not followed. Second single from the band's 2003 self-titled debut, released 22 February 2004, produced by Mark A. Miller and Steven Curtis Chapman. Hall has said the idea came while driving home and marvelling that a person can pray to God at all, set beside the thought that believers are new creations while human life is brief. It won Song of the Year at the 36th GMA Dove Awards and was certified Platinum. No publisher or CCLI number was found within the review budget, so none is given. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Two verses, a repeated chorus and a closing refrain. The first verse wonders why the Lord of all would know and care for the singer. The chorus says God's love rests on who he is and not on the singer's merit, and that the singer, though fleeting, is heard and held. The second verse marvels that the one who sees sin looks with love and quiets inner storms. The close affirms belonging and freedom from fear. The voice is first-person singular and partly addressed to God. The cross, resurrection and forgiveness are not stated as acts, though grace is the ground of the whole song.",
+    "claims": [
+      {
+        "claim": "The Lord of all knows and cares for the singer, which is a wonder.",
+        "subject": "God's care for the individual",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's love rests on who he is, not on the singer's merit.",
+        "subject": "Grace",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Human life is brief and fleeting, yet God hears and holds his people.",
+        "subject": "Human frailty and God's care",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God sees sin and still looks on his people with love.",
+        "subject": "Love toward sinners",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God calms the storms within the believer.",
+        "subject": "God's peace",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer belongs to God and need not fear.",
+        "subject": "Adoption and assurance",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Grace",
+        "title": "Love grounded in God, not the singer",
+        "explanation": "The chorus puts the cause of God's love in himself rather than in the singer's worth. That is the logic of grace, and it keeps the humility of the verses from turning into self-regard.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Ephesians 2:8-9",
+        "scriptureRationale": "Salvation by grace, not by works - the ground the chorus gives for God's love."
+      },
+      {
+        "category": "Humility",
+        "title": "Wonder at being known by God",
+        "explanation": "The song begins from the question of why the Lord of all would attend to a creature who is like grass, built on Psalm 8 and Psalm 144. It is the posture Scripture itself models.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 8:4",
+        "scriptureRationale": "What is man that you are mindful of him - the wonder the first verse sings."
+      },
+      {
+        "category": "Assurance",
+        "title": "Belonging without fear",
+        "explanation": "The close affirms that the believer is held and has no cause for fear, resting on God's love rather than the singer's strength.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 8:14-17",
+        "scriptureRationale": "Those led by the Spirit are children of God and heirs - the belonging the close affirms."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God's love as unmerited grace",
+      "Human frailty and creatureliness",
+      "God's care for each of his people",
+      "Love toward sinners who are seen as sinners",
+      "Assurance and belonging as God's children"
+    ],
+    "assessment": "Nothing to correct. The song rests God's love on his character and not on the singer's merit, and holds human frailty beside divine care in the manner of the psalms. It is a song of wonder rather than narration, so the cross and resurrection are not stated, though the grace it sings depends on them."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A familiar, learnable chorus",
+        "explanation": "The chorus is widely known and easily learned, so a room can join it after a hearing.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fits humility, frailty and assurance",
+        "explanation": "It suits services on God's care, human frailty and adoption, and works as a reflective response.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Published keys were not checked for this review. The song is a piano-led ballad that leans toward a solo voice; test the key with the congregation.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not stated",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns after each verse and in the closing refrain, each time restating that God's love rests on who he is.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Congregationally workable, though the singular, reflective voice and ballad shape lean toward a lead singer. The chorus carries the song and is easy to hold."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "A clear question and answer",
+        "explanation": "The song poses one question and answers it in the chorus, so the argument is easy to follow.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The vocabulary is plain and the Scripture behind it recognisable. The gospel itself is implied by the grace it sings rather than told."
+  },
+  "synthesis": {
+    "summary": "A song of wonder at being known and held by God. The verses ask why the Lord of all would care for a fleeting creature who is also a sinner; the chorus answers that his love rests on who he is, not on the singer's merit; the close affirms belonging and freedom from fear. No false teaching is found. The cross and resurrection are not stated, and no publisher or CCLI number was found.",
+    "themes": [
+      "God",
+      "Grace",
+      "Assurance",
+      "Faith",
+      "Sin",
+      "Prayer"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 8:4",
+        "relevance": "What is man that God is mindful of him - the opening wonder."
+      },
+      {
+        "reference": "Psalm 103:15-16",
+        "relevance": "Human life like grass - frailty beside divine care."
+      },
+      {
+        "reference": "James 4:14",
+        "relevance": "Life as a vapour."
+      },
+      {
+        "reference": "Isaiah 40:6-8",
+        "relevance": "All flesh is grass, God's word stands."
+      },
+      {
+        "reference": "Psalm 144:3-4",
+        "relevance": "Man like a breath - God taking notice."
+      },
+      {
+        "reference": "Psalm 27:1",
+        "relevance": "The Lord as light and salvation, so no fear."
+      },
+      {
+        "reference": "Mark 4:39",
+        "relevance": "Christ calming the storm - the inner calm of verse two."
+      },
+      {
+        "reference": "Ephesians 2:8-9",
+        "relevance": "Saved by grace, not works."
+      },
+      {
+        "reference": "Titus 3:4-5",
+        "relevance": "Saved by mercy, not by deeds."
+      },
+      {
+        "reference": "Romans 8:14-17",
+        "relevance": "Children of God and heirs - the belonging at the close."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Who_Am_I_(Casting_Crowns_song)",
+      "title": "Who Am I (Casting Crowns song)",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writer Mark Hall, 2004 single from the 2003 debut, producers, Hall's account of its origin, awards and Platinum certification, and critics' responses.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google",
+      "url": "https://www.google.com/search?q=Who+Am+I+Casting+Crowns+lyrics"
+    }
+  ]
+}

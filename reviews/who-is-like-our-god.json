@@ -1,0 +1,217 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Who Is Like the Lord Our God? (Psalm 113)",
+    "artist": "Wendell Kimbrough",
+    "artistType": "INDIVIDUAL",
+    "album": "Hallel Psalms",
+    "releaseYear": 2013,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Listed as Who Is Like Our God; the correct title is Who Is Like the Lord Our God? (Psalm 113). Written by Wendell Kimbrough and Bruce Benedict, published by Cardiphonia Music, 2013, on the Cardiphonia Hallel Psalms collection. No CCLI number was found. The page read for this review ended in a cut-off, so a stanza after the fifth may exist and is unread. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Verse pairs with a returning chorus. Verses one and two retell Psalm 113: the Father lifts the poor, seats them with the princes and settles the lonely in families. The chorus asks who compares to the God who is high yet dwells with the broken. Verses three and four turn to Christ, equal with God, taking servant form, obeying to death on the cross, then raised and exalted. The fifth verse exhorts the saints to fix their eyes on the Saviour, count righteousness as loss, be found in him and share in his death. The voice mixes narrative, a rhetorical question and exhortation to fellow believers. The text read may be cut off after the fifth stanza.",
+    "claims": [
+      {
+        "claim": "The Father lifts the poor and needy and gives the lonely a family.",
+        "subject": "God's care for the lowly",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "No one compares to the God who is exalted yet dwells with the broken.",
+        "subject": "God's incomparability and nearness",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ, equal with God, took the form of a servant and obeyed to death on the cross.",
+        "subject": "The humiliation of Christ",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God raised and exalted Christ.",
+        "subject": "The resurrection and exaltation",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Believers are to fix their eyes on the Saviour, count their own righteousness as loss, and be found in him.",
+        "subject": "Righteousness in Christ",
+        "location": "VERSE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christ",
+        "title": "Philippians 2 sung through",
+        "explanation": "The song carries Christ's equality with God, his servant form, his obedience to the cross, and his raising and exaltation in order. It teaches the person and work of Christ with plain doctrine.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Philippians 2:5-11",
+        "scriptureRationale": "The hymn of Christ's descent and exaltation - the structure of the middle stanzas."
+      },
+      {
+        "category": "Scripture",
+        "title": "Psalm 113 set closely",
+        "explanation": "The first stanzas follow the psalm's account of the Lord who raises the poor and settles the lonely. The song is built on a passage and stays in it.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 113:5-9",
+        "scriptureRationale": "The Lord enthroned on high who stoops to the needy."
+      },
+      {
+        "category": "Righteousness",
+        "title": "Righteousness found in Christ, not self",
+        "explanation": "The closing exhortation counts one's own righteousness as loss and asks to be found in Christ. That puts the believer's standing where Paul puts it.",
+        "songLocation": "VERSE",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Philippians 3:8-10",
+        "scriptureRationale": "Counting all as loss to gain Christ and be found in him."
+      },
+      {
+        "category": "God",
+        "title": "High and near together",
+        "explanation": "The chorus holds God's exaltation and his nearness to the broken in one question, which guards against a distant or a cosy God.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 57:15",
+        "scriptureRationale": "The high and holy One who dwells with the contrite."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God's incomparability and care for the lowly",
+      "The deity of Christ",
+      "His incarnation and obedience to death",
+      "Christ's resurrection and exaltation",
+      "Righteousness found in Christ",
+      "Union with Christ in his death"
+    ],
+    "assessment": "Nothing to correct. The song moves from the psalm's picture of the Lord who stoops to the poor to Paul's picture of Christ who humbled himself and was exalted, then to a call to be found in him. It is doctrinally full and plainly Christ-centred. The final stanza read may not be the last, so the ending is unread."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Folk melody for the room",
+        "explanation": "A congregational folk tune with a returning chorus lets a room join without a leader carrying it.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fits Epiphany, Lent and Psalm-based worship",
+        "explanation": "Its psalm base and Philippians 2 centre suit the church year and lectionary use.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "No chart was read, so no key is stated. Five stanzas make it long; a leader may choose which to sing.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not stated; no chart read",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns between the verses as a question, and each return follows a new part of the story.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in words and form. Its length is the main practical matter, and the chorus carries the room between stanzas."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "The Father and Christ are named in turn",
+        "explanation": "The song distinguishes the Father who lifts the poor from Christ who humbled himself, so a visitor knows who does what.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The psalm and Philippians are well known and the song keeps close to both."
+  },
+  "synthesis": {
+    "summary": "A psalm-based song that begins with the Lord who lifts the poor and settles the lonely, asks who compares to him, then turns to Christ who took servant form, obeyed to death and was raised and exalted. It closes by calling believers to count their own righteousness as loss and be found in him. No concern was found; the ending is unread in case a stanza is missing.",
+    "themes": [
+      "God",
+      "Christ",
+      "Cross",
+      "Resurrection",
+      "Grace",
+      "Worship",
+      "Scripture",
+      "Sovereignty"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 113:5-9",
+        "relevance": "The psalm the first stanzas and chorus retell."
+      },
+      {
+        "reference": "Philippians 2:5-11",
+        "relevance": "Christ's humiliation and exaltation - the middle stanzas."
+      },
+      {
+        "reference": "Philippians 3:8-10",
+        "relevance": "Counting loss to be found in Christ - the closing stanza."
+      },
+      {
+        "reference": "Isaiah 57:15",
+        "relevance": "The high God who dwells with the lowly - the chorus."
+      },
+      {
+        "reference": "Luke 1:52-53",
+        "relevance": "The lowly lifted, in Mary's song - the first stanzas."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://expositorysongs.com/song/who-is-like-the-lord-our-god-psalm-113/",
+      "title": "Who Is Like the Lord Our God? (Psalm 113)",
+      "publisher": "Expository Songs",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Catalogue record: writers Wendell Kimbrough and Bruce Benedict, Cardiphonia Music, 2013, Hallel Psalms; classed as expository of Psalm 113.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Cardiphonia (Bandcamp)",
+      "url": "https://cardiphonia.bandcamp.com/track/who-is-like-the-lord-our-god-psalm-113"
+    }
+  ]
+}

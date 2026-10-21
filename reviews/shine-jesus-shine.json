@@ -1,0 +1,239 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Shine, Jesus, Shine",
+    "artist": "Graham Kendrick",
+    "artistType": "INDIVIDUAL",
+    "album": "Make Way for Jesus (March for Jesus series)",
+    "releaseYear": 1987,
+    "genre": "Contemporary congregational song",
+    "isPublicDomain": false,
+    "notes": "Written by Graham Kendrick; copyright 1987 Make Way Music (administered in the Western Hemisphere by Integrity's Hosanna! Music); CCLI 30426 as reported by a search summary of Hymnary's record. Kendrick wrote the verses first, out of study of God's holiness, then added the chorus months later; it was launched at Spring Harvest in 1987 and became the anthem of the March for Jesus movement. The common key is A major. No independent reviewer of the song's content beyond the Hymnology Archive essay was found. Reviewed as the 1987 original text.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Four verses, each followed by a refrain line and the chorus. Verse one addresses Christ as the light of the world and asks him to shine and set free by truth. The chorus asks for the Father's glory to fill the land, the Spirit's fire to be sent, grace to flood the nations and God's word to bring light. Verse two approaches God through the blood into his brightness and asks to be searched. Verse three speaks of transformation as the worshipper beholds his glory. The voice moves between first person singular and corporate, missional language about the land and the nations. Father, Son and Spirit are each addressed.",
+    "claims": [
+      {
+        "claim": "Jesus Christ is the light of the world and is asked to shine and bring freedom through truth.",
+        "subject": "Christ the light",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Father's glory is asked to fill the land and the nations.",
+        "subject": "The glory of God and mission",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Spirit is asked to be sent as fire.",
+        "subject": "The work of the Spirit",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's grace is asked to flood the nations and his word to bring light.",
+        "subject": "Grace, the nations and Scripture",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Believers draw near to God through the blood of Christ into his brightness and ask to be searched by him.",
+        "subject": "Access to God through the cross",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Beholding Christ's glory transforms those who look on him.",
+        "subject": "Transformation by beholding",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christ",
+        "title": "Christ as the light that frees",
+        "explanation": "The first verse asks the light of the world to shine and to set free by truth. It takes its images straight from John's Gospel and puts Christ at the centre of the whole song.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "John 8:12, 32",
+        "scriptureRationale": "Christ the light of the world, whose truth sets free - the verse's opening petition."
+      },
+      {
+        "category": "Trinity",
+        "title": "All three persons are addressed",
+        "explanation": "The chorus asks the Father for his glory, the Spirit for his fire and the Son for his light. The Hymnology Archive reads the refrain as a prayer to each person of the Trinity.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Habakkuk 2:14",
+        "scriptureRationale": "The earth filled with the knowledge of God's glory - the hope the chorus prays for."
+      },
+      {
+        "category": "Cross",
+        "title": "Access to God by the blood",
+        "explanation": "The second verse approaches God's brightness through the blood of Christ, and asks to be searched. Approach is grounded in the cross, not in the singer's worthiness.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Hebrews 10:19-22",
+        "scriptureRationale": "Confidence to enter through the blood of Jesus - the way of approach the verse takes."
+      },
+      {
+        "category": "Mission",
+        "title": "A song that looks past the room",
+        "explanation": "The chorus prays for the land and the nations, so the church's singing is turned outward toward mission rather than inward toward the singer's feelings.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Habakkuk 2:14",
+        "scriptureRationale": "The knowledge of the Lord's glory covering the earth."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Christ as the light of the world",
+      "The truth that sets free",
+      "The Trinity addressed in prayer",
+      "Access to God through Christ's blood",
+      "Transformation by beholding Christ's glory",
+      "God's purpose for the nations"
+    ],
+    "assessment": "Nothing to correct. The song is built on John, 2 Corinthians 3, Hebrews 10 and Psalm 139 and says nothing false. The gospel is implicit rather than told: the cross appears as the way of access in verse two, but sin, substitution and resurrection are not stated. Hymnology Archive finds the text densely biblical and praises its doctrinal content."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A chorus a room can own",
+        "explanation": "The chorus recurs after every verse and is well known across denominations, so a congregation can sing it without a screen.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Written for corporate, missional singing",
+        "explanation": "It became the anthem of March for Jesus and has been used in traditional and contemporary settings for decades. Its corporate prayer for the land and nations suits gathered worship.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Commonly published in A major; one hymnal arrangement sets it in A-flat. Test the chorus against the room before choosing a key.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "A major (commonly published)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns after each of four verses, and each return follows a new section of prayer, so it works as a refrain that gathers the verses.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in words and form: a well-known chorus, a clear structure and corporate petitions that a room can pray together. It has long served as a prayer for the nation and for mission as well as for personal renewal."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Father, Son and Spirit are each named",
+        "explanation": "The addressee is never an unspecified 'you'; the chorus names who is being asked for what.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The images of light, fire and flood are biblical and easily understood. The song prays more than it narrates, so a visitor learns whom to ask and for what, but would not hear the gospel told in full."
+  },
+  "synthesis": {
+    "summary": "A prayer addressed to the light of the world, the Father and the Spirit, built from John, Hebrews, Psalm 139 and 2 Corinthians 3. It asks for truth that frees, access through the blood, transformation by beholding Christ, and glory, grace and light for the nations. Nothing in it is wrong. The gospel is implicit rather than told, and sin, substitution and resurrection are not stated.",
+    "themes": [
+      "Christ",
+      "Trinity",
+      "Mission",
+      "Prayer",
+      "Cross",
+      "Holiness",
+      "Scripture",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "John 8:12",
+        "relevance": "Christ the light of the world - the song's governing image."
+      },
+      {
+        "reference": "John 8:32",
+        "relevance": "The truth that sets free - the first verse's petition."
+      },
+      {
+        "reference": "Habakkuk 2:14",
+        "relevance": "The earth filled with the knowledge of the Lord's glory - the chorus's hope."
+      },
+      {
+        "reference": "Hebrews 10:19-22",
+        "relevance": "Entering by the blood of Jesus - the second verse's way of approach."
+      },
+      {
+        "reference": "Psalm 139:23-24",
+        "relevance": "Asking God to search the heart - the second verse's request."
+      },
+      {
+        "reference": "2 Corinthians 3:18",
+        "relevance": "Transformed by beholding the Lord's glory - the third verse."
+      },
+      {
+        "reference": "John 1:5",
+        "relevance": "The light shining in the darkness."
+      },
+      {
+        "reference": "Genesis 1:3",
+        "relevance": "God's word bringing light."
+      },
+      {
+        "reference": "Revelation 22:1-2",
+        "relevance": "Water of life and healing for the nations."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.hymnologyarchive.com/shine-jesus-shine",
+      "title": "Shine, Jesus, Shine",
+      "publisher": "Hymnology Archive",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "Essay: Kendrick wrote it in the 1980s, launched at Spring Harvest 1987; finds the text densely biblical and the refrain a prayer to each person of the Trinity.",
+      "assessesContent": true
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Graham Kendrick (author's site)",
+      "url": "https://grahamkendrick.co.uk/shine-jesus-shine/"
+    }
+  ]
+}

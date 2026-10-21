@@ -1,0 +1,226 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Whom Shall I Fear (God of Angel Armies)",
+    "artist": "Chris Tomlin",
+    "artistType": "INDIVIDUAL",
+    "album": "Burning Lights",
+    "releaseYear": 2012,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Chris Tomlin, Ed Cash and Scott Cash (Scott McTyeire Cash). Lead single from Tomlin's seventh studio album Burning Lights, released in the United States on 9 November 2012; it reached number one on several Billboard Christian charts and was certified Platinum. CCLI 6440288 per WorshipTogether, which lists no publisher on the page. An account relayed by a UK review has Cash improvising the chorus after waking in the night and then writing the song with Tomlin; no writer statement was found. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Two verses, a repeated chorus, a bridge and a final run of the chorus, ending on a repeated question. The first verse says God hears prayer and brings light into darkness, so there is nothing to fear. The second says God defeats the enemy and is shield and deliverer. The chorus declares that God goes before and stands behind the singer, as commander of heavenly hosts and as friend. The bridge affirms that no weapon formed against the singer will prevail and that God is faithful. The voice is a first-person confession of trust. The song itself admits that troubles remain. The cross, resurrection and forgiveness are not reached.",
+    "claims": [
+      {
+        "claim": "God hears the prayers of his people and brings light into darkness, so there is nothing to fear.",
+        "subject": "Prayer and God's light",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God defeats the enemy and is the believer's shield and deliverer.",
+        "subject": "God as deliverer",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God goes before and stands behind his people; he is the commander of heavenly hosts and also a friend.",
+        "subject": "God's presence and protection",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "No weapon formed against the believer will prevail, because God is faithful.",
+        "subject": "God's faithfulness and protection",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "God",
+        "title": "God as protector and companion",
+        "explanation": "The chorus joins God's might as commander of heavenly hosts with his nearness as friend, so confidence rests on who he is and not on the singer's courage.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Psalm 27:1",
+        "scriptureRationale": "The Lord as light and salvation, so that there is no one to fear - the question the song is built on."
+      },
+      {
+        "category": "Providence",
+        "title": "Trust grounded in God's acts",
+        "explanation": "The verses name what God does: hears, brings light, defeats the enemy, shields and delivers. Fear is answered by his deeds.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 18:2",
+        "scriptureRationale": "The Lord as rock, fortress, deliverer and shield - the images the verse uses."
+      },
+      {
+        "category": "Scripture",
+        "title": "Psalms and promises worked together",
+        "explanation": "The song is built on Psalm 27, Psalm 18, Psalm 46 and Romans 8, and the title phrase draws on the story of Elisha and the heavenly army.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 8:31",
+        "scriptureRationale": "If God is for us, who can be against us - the assurance the whole song rests on."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God hears prayer",
+      "God as shield and deliverer",
+      "God's presence before and behind his people",
+      "God's rule over heavenly hosts",
+      "God's faithfulness",
+      "Victory over the enemy"
+    ],
+    "assessment": "Nothing to correct. The bridge uses Isaiah 54:17 as a word of personal protection, where the verse in context is a promise to God's servants, but the song does not claim the believer will meet no trouble and itself acknowledges that troubles remain. Read as assurance that no enemy finally prevails against God's people, it is faithful to Romans 8. The cross and resurrection are not stated."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A chorus a room learns quickly",
+        "explanation": "The chorus is short, strong and repeated, so it is easily learned and sung with energy.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fits fear, trial and spiritual conflict",
+        "explanation": "It suits services on trust in suffering, spiritual warfare and God's protection.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published keys were not checked for this review. The song is high-energy and the chorus is reported as strong and easy; test the key with the congregation.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not stated",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns several times and the ending repeats the question, each time re-answering fear with God's presence and power.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form: a strong, simple chorus and a driving build that a room can sing together. The singular voice is a personal confession of trust."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "A single question answered",
+        "explanation": "The title question is posed and answered throughout, so the song's point is never in doubt.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The bridge's use of Isaiah 54:17 could be heard as a guarantee of safety, but the song's own admission of remaining trouble guards against that reading."
+  },
+  "synthesis": {
+    "summary": "A confession of trust that answers fear with God's character and acts: he hears prayer, brings light, defeats the enemy, goes before and behind his people, and is both commander of hosts and friend. The bridge uses Isaiah 54:17 as a personal promise of protection, though the song allows that trouble remains. No false teaching is found. The cross and resurrection are not stated.",
+    "themes": [
+      "God",
+      "Faith",
+      "Providence",
+      "Sovereignty",
+      "Assurance",
+      "Suffering",
+      "Prayer"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 27:1",
+        "relevance": "The Lord as light and salvation, so no fear - the title question."
+      },
+      {
+        "reference": "Psalm 18:2",
+        "relevance": "The Lord as rock, fortress and shield."
+      },
+      {
+        "reference": "Isaiah 54:17",
+        "relevance": "No weapon formed against God's servants will prevail - used in the bridge."
+      },
+      {
+        "reference": "Romans 16:20",
+        "relevance": "God crushing Satan under the church's feet."
+      },
+      {
+        "reference": "Isaiah 52:12",
+        "relevance": "God going before and behind his people."
+      },
+      {
+        "reference": "Psalm 46:7",
+        "relevance": "The Lord of hosts is with us."
+      },
+      {
+        "reference": "Psalm 91",
+        "relevance": "God's shelter and protection."
+      },
+      {
+        "reference": "Psalm 28:7",
+        "relevance": "The Lord as strength and shield."
+      },
+      {
+        "reference": "Romans 8:31",
+        "relevance": "If God is for us, who can be against us."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.worshiptogether.com/songs/whom-shall-i-fear-chris-tomlin/",
+      "title": "Whom Shall I Fear",
+      "publisher": "WorshipTogether",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue page: writers Chris Tomlin, Ed Cash and Scott Cash, CCLI 6440288, themes of faith, trust and trials, and references Deuteronomy 31:8 and Psalm 139:5.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Whom_Shall_I_Fear_(God_of_Angel_Armies)",
+      "title": "Whom Shall I Fear (God of Angel Armies)",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writers, 2012 release as lead single of Burning Lights, Billboard chart positions and Platinum certification.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google",
+      "url": "https://www.google.com/search?q=Whom+Shall+I+Fear+God+of+Angel+Armies+Chris+Tomlin+lyrics"
+    }
+  ]
+}

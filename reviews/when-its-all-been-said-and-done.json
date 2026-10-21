@@ -1,0 +1,204 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "When It's All Been Said and Done",
+    "artist": "Robin Mark",
+    "artistType": "INDIVIDUAL",
+    "album": "Revival in Belfast",
+    "releaseYear": 1999,
+    "genre": "Contemporary Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Jim Cowan (credited on PraiseCharts; one lyrics site credits it to Robin Mark, which the catalogue record does not support). Copyright 1999 Integrity's Hosanna! Music, administered by Capitol CMG Publishing; CCLI 2788353. The recording churches know is Robin Mark's on Revival in Belfast; Don Moen also recorded it. The catalogue lists C as the original key, with D also available. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "A chorus-led song with two short verses. The chorus comes first and returns, and ends with a short personal resolution. It poses a reflective question to the singer about whether life was lived for truth and for the Lord, and says earthly treasures will count for nothing while what is done in love lasts. Verse one praises the Lord's mercy, which sees past weakness and makes sinners into saints. Verse two promises lifelong praise, declares heaven to be home, and calls the Lord life beyond death. The voice is first person singular and reflective. The cross, the resurrection, the Spirit and the church are not reached.",
+    "claims": [
+      {
+        "claim": "At the end of life, earthly treasures count for nothing, while what is done in love and for the Lord's truth lasts.",
+        "subject": "Eternal reward and the shortness of life",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer asks himself whether he lived for truth and for the Lord.",
+        "subject": "Self-examination before God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lord's mercy sees past human weakness and makes sinners into saints.",
+        "subject": "Mercy and sanctification",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer will praise the Lord all his life.",
+        "subject": "Lifelong worship",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Heaven is the believer's home, and the Lord is life beyond death.",
+        "subject": "Heaven and eternal life",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": false,
+    "groundsItsClaims": false,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Eschatology",
+        "title": "Earthly treasure weighed against eternity",
+        "explanation": "The chorus sets the passing value of earthly treasure against what lasts, which is the point Paul makes of work tested at the judgement. It turns a congregation to the end of life and asks what it has been for.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Corinthians 3:11-15",
+        "scriptureRationale": "Work tested by fire, with lasting work rewarded - the chorus's measure of what endures."
+      },
+      {
+        "category": "Mercy",
+        "title": "Mercy credited for making sinners saints",
+        "explanation": "The first verse puts the change in sinners at the Lord's mercy, not at the singer's effort. It sits beside the chorus and supplies the ground the chorus leaves unsaid.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Ephesians 2:4-5",
+        "scriptureRationale": "God, rich in mercy, made us alive - the source the verse names."
+      },
+      {
+        "category": "Hope",
+        "title": "Heaven named as home",
+        "explanation": "The second verse says heaven is the believer's home and calls the Lord life beyond death, which fixes hope on a place and a person rather than on this life.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Philippians 3:20",
+        "scriptureRationale": "Our citizenship is in heaven - the claim the verse makes in plain terms."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The Lord's mercy toward sinners",
+      "The believer's final accounting and reward",
+      "Heaven as the believer's home",
+      "Life beyond death in the Lord"
+    ],
+    "assessment": "No false statement found. The chorus centres the singer's life and what he has done in love, and a congregation could hear the end as measured by effort. The first verse answers that by crediting the Lord's mercy for making sinners saints, and the chorus is faithful to Paul's teaching on the judgement of believers' work. The song does not reach the cross or the resurrection, so its gospel is implicit and its weight falls on the singer's response."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A memorable, plain melody",
+        "explanation": "The chorus is the song, it is sung first and returns, and its tune is easy to carry. A room learns it in one pass.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Suited to funerals and the close of a service",
+        "explanation": "Its subject, the end of life and heaven as home, places it naturally at a funeral, a commissioning or a sending.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Catalogue original key is C, with D also available. No chart was read, so test the chorus in the room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "C (original per PraiseCharts); D available",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns after each short verse and each return is the song's one question, so the repetition stays with the content rather than replacing it.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form and easy to sing. The singular voice and the reflective chorus make it better suited to quiet, personal moments than to a full-throated gathering song."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Plain speech",
+        "title": "Everyday words, no obscure terms",
+        "explanation": "The song uses ordinary language and a single question, so a visitor follows it at once.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The one ambiguity is whether the chorus rests on the singer's deeds or on the Lord's work, and the first verse settles it toward mercy."
+  },
+  "synthesis": {
+    "summary": "A reflective chorus asks whether a life was lived for truth and for the Lord and says only what is done in love will last. The verses praise the Lord's mercy in making sinners saints, promise lifelong praise, and call heaven home. The voice is the singer's own, and the cross and resurrection are not reached. Nothing in it is false.",
+    "themes": [
+      "Hope",
+      "Heaven",
+      "Holiness",
+      "Worship",
+      "Faith",
+      "Assurance"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "1 Corinthians 3:11-15",
+        "relevance": "Work tested at the judgement, with lasting work rewarded - the chorus's theme."
+      },
+      {
+        "reference": "2 Corinthians 5:10",
+        "relevance": "Every believer appears before Christ's judgement seat - the accounting the chorus imagines."
+      },
+      {
+        "reference": "Philippians 3:20",
+        "relevance": "Heaven as the believer's true home - the second verse."
+      },
+      {
+        "reference": "Hebrews 11:13-16",
+        "relevance": "Pilgrims seeking a better country - the sense of heaven as home."
+      },
+      {
+        "reference": "Ephesians 2:4-5",
+        "relevance": "God's mercy making dead sinners alive - the first verse's source."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://praisecharts.com/songs/details/1722/when-its-all-been-said-and-done",
+      "title": "When It's All Been Said And Done - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writer Jim Cowan, Robin Mark recording on Revival in Belfast, 1999 Integrity's Hosanna! Music, CCLI 2788353, original key C.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com/Robin-mark-when-its-all-said-and-done-lyrics"
+    }
+  ]
+}

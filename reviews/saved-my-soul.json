@@ -1,0 +1,223 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "MEDIUM",
+    "title": "Saved My Soul",
+    "artist": "CityAlight",
+    "artistType": "GROUP",
+    "album": "Only a Holy God",
+    "releaseYear": 2016,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "CityAlight's own song page credits James Ferguson, Dustin Smith and Rich Thompson, CCLI 7073333; the album is Only a Holy God, copyright 2016 CityAlight Music with Integrity's Praise! Music (per a worship-resource listing seen in search). The reading note credited David Thomson, Robbie Patterson and Ryan Malcolm and a 2021 version, which does not match the artist's own page; the artist's page is followed here. The CityAlight page did not state the year or publisher, and the album link there was inferred. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "A chorus that declares security in and belonging to God, two verses each followed by a pre-chorus and the chorus, a short section on being made alive from death that is repeated, and a final chorus. The voice is first person singular, a testimony addressed to God. Verse one recounts being lost and bound and then set free. Verse two pictures the singer before the King with sin paid for. The closing section celebrates new life out of death. Scripture is plainly behind it, especially Ephesians 2, John 10 and Romans 8. Nothing in it is doubtful. The cross is not named in the note's description of the sections.",
+    "claims": [
+      {
+        "claim": "The singer was lost and held in bondage, and God set the singer free.",
+        "subject": "Salvation as rescue",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer stands before the King with sin paid for.",
+        "subject": "Justification and forgiveness",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Those made dead in sin have been made alive by God.",
+        "subject": "New life by grace",
+        "location": "OUTRO",
+        "lyricExcerpt": null,
+        "locationDetail": "the repeated closing section"
+      },
+      {
+        "claim": "The singer belongs to God and is held secure by him.",
+        "subject": "Assurance",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer's salvation is God's work and the singer is not moved.",
+        "subject": "Perseverance and security",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Salvation",
+        "title": "Dead made alive, by grace",
+        "explanation": "The closing section says the singer was dead and has been made alive, which puts salvation on God's initiative rather than the singer's effort. The song keeps that logic and does not hand the work back to the singer.",
+        "songLocation": "OUTRO",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Ephesians 2:1-9",
+        "scriptureRationale": "Made alive together with Christ while dead in trespasses, saved by grace."
+      },
+      {
+        "category": "Assurance",
+        "title": "Security rooted in God's hold",
+        "explanation": "The chorus declares that the singer belongs to God and will not be moved. The ground is God's keeping, not the singer's grip, and it is repeated until a congregation can say it from memory.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "John 10:28-29",
+        "scriptureRationale": "No one will snatch Christ's sheep from his hand."
+      },
+      {
+        "category": "Atonement",
+        "title": "Sin paid for before the King",
+        "explanation": "Verse two sets the singer before the King with sin already dealt with, so standing is a gift and not a verdict still pending.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 8:1",
+        "scriptureRationale": "No condemnation for those in Christ Jesus."
+      },
+      {
+        "category": "Salvation",
+        "title": "Rescue from bondage",
+        "explanation": "Verse one tells of being lost and bound and then freed. It names the plight before the deliverance, so the freedom of the chorus has something to be free from.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Colossians 1:13-14",
+        "scriptureRationale": "Delivered from the domain of darkness and brought into the Son's kingdom."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Salvation by grace alone",
+      "Spiritual death and new life",
+      "Forgiveness and a settled standing before God",
+      "Assurance and the believer's security",
+      "Deliverance from bondage to sin"
+    ],
+    "assessment": "Nothing to correct on the evidence of the doctrine-level reading. The song tells one person's rescue in order: lost, bound, freed, forgiven, made alive, held. Each claim rests on what God has done. The cross itself is not named in the sections as read, so substitution is stated only as sin being paid for. No independent assessment of the content was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Short phrases that are learned quickly",
+        "explanation": "The chorus is built from short phrases and returns often, so a congregation has it by the second pass. A testimony song that a room can sing back needs exactly that.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "A song of assurance for a mixed room",
+        "explanation": "Its content fits baptisms, testimony, and any setting where believers are being reminded they are held. New and long-time Christians can sing it with the same words.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "No key was confirmed from a loaded source for this review, so none is stated. Check the key for your room and test the chorus before using it.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not confirmed",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns many times and the dead-made-alive section is repeated, but the repeats keep returning to the same confession of belonging and new life, so the repetition serves the words.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Easy to learn and written in plain, short phrases that a room can sing back. The heavy return of the chorus is purposeful: each return is the same confession of security. A leader should keep the build modest so the repeated section remains a congregation's own statement."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "God is addressed directly",
+        "explanation": "The song speaks to God and about his work, so a visitor can tell who is being praised and what he has done.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The plight (lost, bound, dead), the rescue and the standing that results are each stated plainly. The one gap is that the cross is not named in the sections as read."
+  },
+  "synthesis": {
+    "summary": "A first-person testimony addressed to God: lost and bound, set free, standing before the King with sin paid for, made alive from death, and held secure. Each claim rests on what God has done. Nothing misleading was found in the reading note. The cross is not named in the sections described. No independent assessment of its content was found.",
+    "themes": [
+      "Salvation",
+      "Grace",
+      "Assurance",
+      "Sin",
+      "Hope",
+      "Thanksgiving"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Ephesians 2:1-9",
+        "relevance": "Dead in trespasses, made alive and saved by grace - the closing section's claim."
+      },
+      {
+        "reference": "John 10:28-29",
+        "relevance": "No one snatches Christ's sheep from his hand - the chorus's security."
+      },
+      {
+        "reference": "Colossians 1:13-14",
+        "relevance": "Delivered from darkness into the Son's kingdom - the first verse's rescue."
+      },
+      {
+        "reference": "Romans 8:1",
+        "relevance": "No condemnation in Christ - the standing before the King in verse two."
+      },
+      {
+        "reference": "Luke 15:24",
+        "relevance": "Dead and alive again, lost and found - the joy of new life."
+      },
+      {
+        "reference": "1 Corinthians 15:57",
+        "relevance": "Thanks to God who gives the victory through Christ."
+      },
+      {
+        "reference": "Psalm 40:2-3",
+        "relevance": "Lifted from the pit and given a new song."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://cityalight.com/song/saved-my-soul/",
+      "title": "Saved My Soul",
+      "publisher": "CityAlight",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Artist's own song page: writers James Ferguson, Dustin Smith and Rich Thompson, CCLI 7073333, and a title link to the album Only a Holy God. No assessment of content.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google (Musixmatch panel)",
+      "url": "https://www.google.com/search?q=Saved+My+Soul+CityAlight+lyrics"
+    }
+  ]
+}

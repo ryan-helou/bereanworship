@@ -1,0 +1,217 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Refiner's Fire",
+    "artist": "Brian Doerksen",
+    "artistType": "INDIVIDUAL",
+    "album": "Vineyard Music compilations; later Integrity collections",
+    "releaseYear": 1990,
+    "genre": "Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Brian Doerksen alone, dated 1990 (Wikipedia's list of his songs); copyright line given by listings as Mercy/Vineyard Publishing, administered by Integrity Music; CCLI 426298 (Integrity Worship page). Doerksen was then worship pastor at Langley Vineyard in British Columbia. The list's artist is right. A 35th-anniversary version credits additional contributors and adds a closing tag; the core text is the same. Reviewed as the song, not any one recording. Publication details beyond the 1990 date and CCLI were not found on a page that loaded.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "A short opening refrain, a chorus, a second prayer stanza, then an extended closing section that repeats the chorus, with a tag on the anniversary version. The voice is first person singular throughout, a prayer to God. The opening and second stanza petition for inner cleansing, using the refiner and silver image from Malachi. The chorus states a resolve to be holy and set apart for God. The tag adds readiness to love, serve and care as Christ does. The cross, the resurrection and the Spirit are not named; the song is a prayer for sanctification rather than a statement of the gospel.",
+    "claims": [
+      {
+        "claim": "God purifies his people as a refiner purifies silver, and the singer asks to be cleansed within.",
+        "subject": "Sanctification as refining",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer asks God to search and renew the inner life.",
+        "subject": "Prayer for a clean heart",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer resolves to be holy and set apart for God.",
+        "subject": "Holiness and consecration",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer offers himself wholly to God as his own.",
+        "subject": "Self-offering",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer is ready to love and serve others as Christ does.",
+        "subject": "Christlike service",
+        "location": "TAG",
+        "lyricExcerpt": null,
+        "locationDetail": "the anniversary version"
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": false,
+    "godDirected": true,
+    "groundsItsClaims": false,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Holiness",
+        "title": "A prayer to be made holy",
+        "explanation": "The song asks God, not the singer, to do the cleansing, and it frames holiness as being set apart for him. Sanctification is something sought from the refiner.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Peter 1:15-16",
+        "scriptureRationale": "The call to be holy as God is holy - the aim the chorus resolves toward."
+      },
+      {
+        "category": "Scripture",
+        "title": "Malachi's refiner at the centre",
+        "explanation": "The central image is built on Malachi's picture of God refining his people, with Zechariah and 1 Peter on testing as background. The congregation is taught that trials and cleansing are God's work.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Malachi 3:2-3",
+        "scriptureRationale": "The refiner who purifies silver and cleanses his people - the song's governing picture."
+      },
+      {
+        "category": "Heart",
+        "title": "Inner cleansing, not outward show",
+        "explanation": "The petitions concern the heart and not performance, in the line of David's prayer for a clean heart.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MINOR",
+        "scriptureReference": "Psalm 51:10",
+        "scriptureRationale": "Create in me a clean heart - the shape of the second stanza's petition."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God refines and sanctifies his people",
+      "The call to holiness",
+      "Whole-life consecration",
+      "Christlike love and service"
+    ],
+    "assessment": "Nothing false. The resolve in the chorus is a consecration prayer, not a claim to earn salvation, and the singer asks God to do the work. The song is thin on the gospel: it does not name the cross, the resurrection or the grounds on which a sinner is made clean, so it should sit beside songs that do. No independent source assessing its content was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Simple and slow",
+        "explanation": "A slow prayer with a few repeated phrases that a room learns on first hearing.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fits a time of consecration",
+        "explanation": "Its content suits prayer, response after preaching and times of rededication.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Integrity lists E as a key and notes other keys are available. Check the chorus against the room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "E (per Integrity Worship page); other keys published",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The chorus is looped in the long closing section. The repetition is meant for prayerful consecration, but it carries more of the song than the words add.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational and easy to sing, a slow prayer that a leader can sustain as long as a room wants to pray. The risk is length: the closing section loops the chorus, and the song is better held to the moment of response than extended."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Image",
+        "title": "A single image carried through",
+        "explanation": "The refiner and silver picture is biblical and widely understood, so the meaning is readable without explanation.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The petitions and the resolve are plain, and the biblical image is easily taken. What a newcomer would not learn is how a sinner is made clean."
+  },
+  "synthesis": {
+    "summary": "A first-person prayer to be cleansed and set apart, built on the Malachi picture of a refiner. It asks God to do the work, resolves to live holy and, in the anniversary version, to love and serve like Christ. It does not state the gospel and names no act of God. No false claim found; no independent source on its content was found.",
+    "themes": [
+      "Holiness",
+      "Prayer",
+      "Faith",
+      "Suffering",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Malachi 3:2-3",
+        "relevance": "The refiner who purifies silver - the song's governing image."
+      },
+      {
+        "reference": "Zechariah 13:9",
+        "relevance": "God refining his people through fire."
+      },
+      {
+        "reference": "1 Peter 1:7",
+        "relevance": "Faith tested as gold is by fire."
+      },
+      {
+        "reference": "1 Peter 1:15-16",
+        "relevance": "Be holy as God is holy - the chorus's aim."
+      },
+      {
+        "reference": "Psalm 51:10",
+        "relevance": "A prayer for a clean heart - the second stanza."
+      },
+      {
+        "reference": "Romans 12:1",
+        "relevance": "Presenting oneself to God - the consecration of the chorus."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://integrityworship.com/songs/refiners-fire-brian-doerksen/",
+      "title": "Refiner's Fire - Brian Doerksen",
+      "publisher": "Integrity Worship",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher page: writer Brian Doerksen, CCLI 426298, key E, 4/4. Gives no year or copyright line.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Brian_Doerksen",
+      "title": "Brian Doerksen",
+      "publisher": "Wikipedia",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_3",
+      "establishes": "Lists the song among his notable songs, 1990; places him as Langley Vineyard worship pastor in that period. No discussion of content.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel (Musixmatch)",
+      "url": "https://www.google.com/search?q=Refiner%27s+Fire+Brian+Doerksen+lyrics"
+    }
+  ]
+}

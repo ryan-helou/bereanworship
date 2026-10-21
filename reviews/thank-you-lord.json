@@ -1,0 +1,232 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Thank You Lord",
+    "artist": "Don Moen",
+    "artistType": "INDIVIDUAL",
+    "album": "Thank You Lord",
+    "releaseYear": 2004,
+    "genre": "Contemporary Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Don Moen and Paul Baloche; copyright 2004 Integrity's Hosanna! Music, administered by Capitol CMG Publishing; CCLI 4220833. The list's guess of Don Moen is right for the recording churches know: the live album Thank You Lord, recorded in October 2003 at Regent University and released 6 April 2004 by Integrity Music. The recording includes spoken exhortation and extended ad-lib sections that are part of that version rather than the written song. Published key F per PraiseCharts and MultiTracks. Reviewed as the song as presented on that recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "A spoken introduction, verse one, a chorus, verse two, the chorus again, then long repeated ad-lib sections, including spoken exhortation from the leader, and a final chorus. Verse one gives thanks for gifts seen and unseen. The chorus pledges a grateful heart, a song and lifted hands in blessing God's name. Verse two gives thanks for light in the darkness and for Christ bearing sin, shame, sickness and pain. The closing section is open-ended thanks. The voice is first person singular and corporate thanksgiving addressed to God, with leader prompts to the congregation. The gospel is present in one line; most of the song is repeated thanks.",
+    "claims": [
+      {
+        "claim": "God is thanked for his gifts, both those seen and those unseen.",
+        "subject": "God as giver",
+        "location": "VERSE",
+        "lyricExcerpt": null,
+        "locationDetail": "verse one"
+      },
+      {
+        "claim": "The singer pledges a thankful heart, song and lifted hands to bless God's name.",
+        "subject": "Thanksgiving as response",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is thanked for light in darkness.",
+        "subject": "Christ as light",
+        "location": "VERSE",
+        "lyricExcerpt": null,
+        "locationDetail": "verse two"
+      },
+      {
+        "claim": "Christ is thanked for bearing sin, shame, sickness and pain.",
+        "subject": "Atonement",
+        "location": "VERSE",
+        "lyricExcerpt": null,
+        "locationDetail": "verse two"
+      },
+      {
+        "claim": "Thanks is offered without limit, in open-ended repeated sections led by the leader.",
+        "subject": "Thanksgiving",
+        "location": "OUTRO",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": false,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Thanksgiving",
+        "title": "Thanksgiving built on Scripture",
+        "explanation": "The song is an extended act of thanks drawing on the thanksgiving psalms and the command to give thanks in all circumstances. Congregations are taught to respond to God's gifts with gratitude rather than leaving it to private feeling.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Thessalonians 5:18",
+        "scriptureRationale": "Give thanks in all circumstances - the stance the song rehearses and repeats."
+      },
+      {
+        "category": "Atonement",
+        "title": "Christ's bearing of sin and shame is named",
+        "explanation": "Verse two thanks Christ for taking sin and shame, so the cross is present even though it is a single line within a song mostly about gratitude. It gives the thanks a ground beyond circumstances.",
+        "songLocation": "VERSE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 53:4-5",
+        "scriptureRationale": "The servant bearing griefs and sorrows, wounded for transgressions - the source of the verse's thanks."
+      },
+      {
+        "category": "Providence",
+        "title": "Every good gift traced to God",
+        "explanation": "Verse one credits seen and unseen gifts to God, teaching that blessings are received rather than earned, and giving the congregation a reason for thanks that does not depend on how the week has gone.",
+        "songLocation": "VERSE",
+        "magnitude": "MINOR",
+        "scriptureReference": "James 1:17",
+        "scriptureRationale": "Every good gift comes from the Father of lights - the claim of verse one."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God as giver of every good gift",
+      "Thanksgiving as the fitting response to God",
+      "Christ bearing sin and shame",
+      "Christ as light in darkness"
+    ],
+    "assessment": "No concern is kept. The line thanking Christ for bearing sickness and pain echoes Isaiah 53 and Matthew 8:17; sung without comment it can be heard as promising healing now, but the wording is Scripture's own and a position faithful Christians hold, so it is not charged as misleading. The weakness is thinness: the gospel is one line in a song of repeated thanks, and the cause of the thanks is mostly the singer's own gratitude. The leader's spoken additions on the recording are not part of the written song."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Very easy to sing",
+        "explanation": "A short refrain and a plain tune let a room join at once, with no verse learning needed and the leader free to prompt. It works as an entry into thanks for a congregation of any age.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "A natural song for thanksgiving gatherings",
+        "explanation": "Its open-ended structure suits a set built around gratitude, a harvest or Thanksgiving service, or a time of testimony, with room for the leader to guide.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published in the key of F per PraiseCharts and MultiTracks. The melody is plain, so most congregations will not need to transpose.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "F (per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The title phrase returns dozens of times and the ad-lib sections stretch the song well past its written form. The repetition carries the mood of thanks more than it adds content.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form and extremely easy to sing. The recorded version relies on a leader's exhortation and long repeated sections, which a church can shorten. Because the content is thin, it is best placed beside songs that state what God has done."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Plainness",
+        "title": "Plain words a visitor understands",
+        "explanation": "The vocabulary is ordinary and the theme of giving thanks is stated at once. No one leaving the room is confused about what the song is doing.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear and simple. The one place that benefits from a word of context is the line about sickness and pain, which is best explained by Isaiah 53 and the final healing in the resurrection."
+  },
+  "synthesis": {
+    "summary": "A repeated song of thanksgiving addressed to God for gifts seen and unseen, light in darkness, and Christ bearing sin, shame, sickness and pain. The gospel is present in one line; the rest is gratitude and open-ended thanks, with leader prompts on the recording. The healing line is Scripture's own wording and no concern is kept. Content is thin, singability very high.",
+    "themes": [
+      "Thanksgiving",
+      "Worship",
+      "Christ",
+      "Providence",
+      "Cross"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 92:1",
+        "relevance": "It is good to give thanks to the Lord - the song's purpose."
+      },
+      {
+        "reference": "Psalm 100:4",
+        "relevance": "Entering with thanksgiving and praise - the framing of the chorus."
+      },
+      {
+        "reference": "Psalm 103:2-5",
+        "relevance": "Forgiveness and healing among the benefits not to be forgotten."
+      },
+      {
+        "reference": "Isaiah 53:4-5",
+        "relevance": "The servant bearing griefs and sorrows - behind verse two."
+      },
+      {
+        "reference": "1 Thessalonians 5:18",
+        "relevance": "Give thanks in all circumstances - the song's stance."
+      },
+      {
+        "reference": "James 1:17",
+        "relevance": "Every good gift from above - the claim of verse one."
+      },
+      {
+        "reference": "John 8:12",
+        "relevance": "Christ as light of the world - behind the light in darkness."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/1902/thank-you-lord-sheet-music",
+      "title": "Thank You Lord - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Paul Baloche and Don Moen, CCLI 4220833, 2004 copyright line, Integrity Music, original key F, album Thank You Lord.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Thank_You_Lord",
+      "title": "Thank You Lord (album)",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Don Moen live album recorded 3 October 2003 and released 6 April 2004 by Integrity Music; the title song is track 3.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.multitracks.com/songs/don-moen/arise/thank-you-lord/",
+      "title": "Thank You Lord by Don Moen",
+      "publisher": "MultiTracks",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_3",
+      "establishes": "Catalogue entry listing the song with key F and a brief description as gratitude to God for blessings, forgiveness and healing.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com/Don-moen-thank-you-lord-lyrics"
+    }
+  ]
+}

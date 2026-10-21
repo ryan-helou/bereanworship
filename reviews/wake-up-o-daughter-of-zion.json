@@ -1,0 +1,208 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Wake Up O Daughter of Zion",
+    "artist": "Wendell Kimbrough",
+    "artistType": "INDIVIDUAL",
+    "album": "Psalms We Sing Together",
+    "releaseYear": 2016,
+    "genre": "Contemporary Psalm Setting",
+    "isPublicDomain": false,
+    "notes": "Words and music by Wendell Kimbrough, copyright 2014 Wendell Kimbrough; released 23 September 2016 as track 8 of Psalms We Sing Together. The artist given in the list is correct. The Bandcamp page says it draws on Isaiah 52 and 62 and Psalm 45. No CCLI number was found. Reviewed as the song, not as one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Two verses and a recurring chorus that returns after each verse, with a short closing tag. God addresses Zion directly in the first person, calling her to rise, put off shame and her former identity, and be clothed in new garments and given a new name. A middle verse describes the King rejoicing over her in song. A third verse names her as the bride who was sought, married and redeemed, and as God's crown. The singer receives the word rather than confessing. The imagery is the prophetic and New Testament picture of God's covenant people as a bride.",
+    "claims": [
+      {
+        "claim": "God calls his people to rise from shame and the old identity and receive new garments and a new name.",
+        "subject": "Restoration and new identity",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The King delights in his people and rejoices over them in song.",
+        "subject": "God's delight in his people",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's people are his bride, sought, married and redeemed by him, and his crown.",
+        "subject": "The church as the redeemed bride",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The call to wake and rise returns as the refrain the congregation hears and takes up.",
+        "subject": "The summons to the people of God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Church",
+        "title": "The people of God as the redeemed bride",
+        "explanation": "The song sets out God's covenant people as a bride he sought, married and redeemed, so identity rests on his action, not on the singer's standing. The imagery stays corporate.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Ephesians 5:25-27",
+        "scriptureRationale": "Christ gave himself for the church to present her holy - the bridal picture the verse draws on."
+      },
+      {
+        "category": "Grace",
+        "title": "Shame removed by God's word, not by effort",
+        "explanation": "God speaks first and clothes his people in new garments and a new name. The movement is from shame to honour and is wholly his gift.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 61:10",
+        "scriptureRationale": "Clothed in garments of salvation and robes of righteousness - the exchange the verse sings."
+      },
+      {
+        "category": "God",
+        "title": "A God who rejoices over his people",
+        "explanation": "The King is shown singing over his people with delight, taken from Zephaniah, which gives the congregation a warm and accurate picture of God's disposition toward his own.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Zephaniah 3:17",
+        "scriptureRationale": "The Lord rejoices over his people with singing - the picture of the middle verse."
+      },
+      {
+        "category": "Scripture",
+        "title": "Built plainly on the prophets",
+        "explanation": "Isaiah 52 and 62 supply the structure and the New Testament bridal passages complete it, so the song teaches what those texts teach.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 62:1-5",
+        "scriptureRationale": "Zion called by a new name and rejoiced over as a bride - the passage the song follows."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God's initiative in restoring his people",
+      "New identity and a new name from God",
+      "The church as the bride of Christ",
+      "God's delight in his redeemed people",
+      "Redemption of a covenant people"
+    ],
+    "assessment": "No concern. The reading note finds nothing doubtful. The bridal imagery is the standard prophetic and apostolic picture of God's people, and the song keeps it corporate and centred on God's action. The cross is not named and the gospel is implicit rather than stated, which is recorded in the substance answers and not charged as an error."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A chorus that is easy to learn",
+        "explanation": "The note describes a melodic song that is quick to learn, with a chorus that returns after each verse so a room can join by the second pass.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "A closing tag that settles the room",
+        "explanation": "The short repeated tag at the end gives a congregation a place to rest on what it has heard.",
+        "songLocation": "CHORUS",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published key not established for this review. Test the chorus with the room before choosing a key.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not established",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns often and ends on a repeated tag, but each return follows a verse adding a new picture of God's people, so it reinforces the call.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Written as a psalm and prophecy setting for the gathered church, with a shape a congregation can learn in one hearing. A leader may need to help the room hear that God is the speaker in the verses and the people are those spoken to."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Voice",
+        "title": "God as the speaker",
+        "explanation": "Because God speaks to Zion in the first person, the room can tell who is speaking and who is addressed, and the Isaiah passages behind it make the meaning available.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The figures of garments, a new name, a bride and a crown are all biblical and need only a word of explanation. Without it a visitor might hear a song about personal romance with God, so introducing the Isaiah text helps."
+  },
+  "synthesis": {
+    "summary": "A setting of Isaiah's call to Zion in which God speaks, summoning his people to rise from shame, clothing them, rejoicing over them, and naming them his redeemed bride and crown. It rests on Isaiah, Zephaniah, Ezekiel, Hosea, Ephesians and Revelation, stays corporate and grace-centred, and no concern was found. The cross is not named. No independent source assessing its teaching was found.",
+    "themes": [
+      "Church",
+      "Grace",
+      "Salvation",
+      "Worship",
+      "Hope",
+      "Scripture"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Isaiah 52:1-2",
+        "relevance": "Zion told to wake, put on strength and shake off the dust - the opening call."
+      },
+      {
+        "reference": "Isaiah 62:1-5",
+        "relevance": "A new name and God rejoicing over his people as a bridegroom over a bride."
+      },
+      {
+        "reference": "Zephaniah 3:17",
+        "relevance": "The Lord singing over his people with delight."
+      },
+      {
+        "reference": "Ephesians 5:25-27",
+        "relevance": "Christ loving and presenting the church as a bride."
+      },
+      {
+        "reference": "Revelation 19:7-8",
+        "relevance": "The bride clothed in fine linen at the marriage of the Lamb."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://wendellk.bandcamp.com/track/wake-up-o-daughter-of-zion",
+      "title": "Wake Up O Daughter Of Zion",
+      "publisher": "Wendell Kimbrough (Bandcamp)",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Writer and copyright line (2014), album Psalms We Sing Together, release 23 September 2016, and the Isaiah 52, 62 and Psalm 45 basis.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel (Bandcamp also listed)",
+      "url": "https://www.google.com/search?q=Wake+Up+O+Daughter+of+Zion+Wendell+Kimbrough+lyrics"
+    }
+  ]
+}

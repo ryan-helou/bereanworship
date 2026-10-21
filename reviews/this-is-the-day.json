@@ -1,0 +1,216 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "This Is the Day",
+    "artist": "CityAlight",
+    "artistType": "GROUP",
+    "album": "There Is One Gospel (Live)",
+    "releaseYear": 2022,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Jonny Robinson, Rich Thompson and Tiarne Tranter; copyright 2022 CityAlight Music, administered with Integrity Music; CCLI 7195146. Released as a single on 11 April 2022 and then on the live album There Is One Gospel. The recording churches know is CityAlight's. Published key listed as Eb. The song is not the same as the older Psalm 118 chorus of the same title. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "A refrain built on Psalm 118:24 calling the congregation to rejoice in the day the Lord has made, two verses, a middle section and a closing tag. The verses affirm that God is good whatever the circumstances, in prosperity or trouble, life or death, and that the believer walks by faith as a redeemed child of God. The middle section announces Christ reigning on the throne of grace and looks ahead to being brought home on the last day. The refrain returns many times and the middle section is sung three times. The voice is corporate in the refrain and middle section and first person in the verses.",
+    "claims": [
+      {
+        "claim": "Each day is a gift from the Lord, and the congregation is called to rejoice in it.",
+        "subject": "Psalm 118:24 and God's providence",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is good in every circumstance, in joy and in pain, in life and in death.",
+        "subject": "The goodness and sovereignty of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer is a redeemed child of God and walks by faith.",
+        "subject": "Redemption and adoption",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ reigns on the throne of grace, where his people may draw near.",
+        "subject": "The reign and mediation of Christ",
+        "location": "BRIDGE",
+        "lyricExcerpt": null,
+        "locationDetail": "the middle section"
+      },
+      {
+        "claim": "A coming day will bring God's people home.",
+        "subject": "Future hope",
+        "location": "BRIDGE",
+        "lyricExcerpt": null,
+        "locationDetail": "the middle section"
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Providence",
+        "title": "God's goodness held in every circumstance",
+        "explanation": "The verses say God is good in sun and rain, life and death, joy and pain, and rest that confidence on who he is, not on how the day goes. That is a settled, scriptural way to teach trust.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 8:28",
+        "scriptureRationale": "All things working for good for those who love God - the reasoning behind the verses."
+      },
+      {
+        "category": "Scripture",
+        "title": "Psalm 118:24 as the refrain",
+        "explanation": "The refrain is built on the psalm and keeps the rejoicing addressed to the Lord who made the day, so the congregation's joy is anchored in a text rather than a mood.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 118:24",
+        "scriptureRationale": "The day the Lord has made, to be received with rejoicing."
+      },
+      {
+        "category": "Christ",
+        "title": "Christ on the throne of grace",
+        "explanation": "The middle section places the reigning Christ where sinners can draw near, which ties confidence in daily life to his mediation.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Hebrews 4:16",
+        "scriptureRationale": "Approaching the throne of grace with confidence."
+      },
+      {
+        "category": "Hope",
+        "title": "Going home as the believer's end",
+        "explanation": "The song looks to the day God's people are brought home, naming a real future rather than leaving hope as sentiment.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Peter 1:3-5",
+        "scriptureRationale": "A living hope and an inheritance kept in heaven."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God's goodness and providence in all circumstances",
+      "Redemption and adoption as God's child",
+      "The reign and mediation of Christ",
+      "Future hope of being brought home"
+    ],
+    "assessment": "Nothing to correct. The song is Scripture-fed (Psalm 118, Romans 8, Hebrews 4, 1 Peter 1) and places its joy in God's character and Christ's reign rather than in circumstances. The gospel is present by implication in redemption and the throne of grace; the cross itself is not told."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A strong, singable refrain",
+        "explanation": "The refrain is short, easy to learn and carries the whole song's note of rejoicing; a congregation picks it up quickly.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fits gathering and sending",
+        "explanation": "Its call to rejoice in the day suits the start of a service or the Lord's Day, while the home-going section suits a close.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published key listed as Eb. No chart was read; check the refrain against your congregation's comfortable range.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Eb (as listed by a third-party track listing)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The refrain returns many times and the middle section three times, but each return follows a verse that gives the rejoicing a reason, so the repeated words carry meaning.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Written and arranged for a room to sing: a plain refrain, a corporate middle section, and verses a congregation can follow. The repetition is heavy but anchored to the confession of God's goodness."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Lord and Christ named",
+        "explanation": "The refrain addresses the Lord and the middle section names Christ on the throne, so the object of the rejoicing is plain.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear throughout. The language is plain and biblical, with no figure that a congregation would misread."
+  },
+  "synthesis": {
+    "summary": "A Psalm 118 refrain with verses affirming God's goodness in every circumstance and the believer's standing as a redeemed child, and a middle section on Christ reigning on the throne of grace and the coming home-going. Scripture-fed and corporate in its refrain. No concerns found; the cross is implied rather than narrated. No independent source assessing its content was found.",
+    "themes": [
+      "God",
+      "Thanksgiving",
+      "Providence",
+      "Hope",
+      "Faith",
+      "Christ",
+      "Assurance"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 118:24",
+        "relevance": "The day the Lord has made - the refrain's text."
+      },
+      {
+        "reference": "Romans 8:28",
+        "relevance": "God's goodness working through all circumstances - the verses' ground."
+      },
+      {
+        "reference": "Hebrews 4:16",
+        "relevance": "The throne of grace - the middle section's picture of Christ."
+      },
+      {
+        "reference": "1 Peter 1:3-5",
+        "relevance": "Living hope and an inheritance kept - the going-home hope."
+      },
+      {
+        "reference": "Galatians 4:4-7",
+        "relevance": "Adoption as God's child - the believer's standing in the verses."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://cityalight.com/song/this-is-the-day/",
+      "title": "This is the Day",
+      "publisher": "CityAlight",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Writers Jonny Robinson, Rich Thompson and Tiarne Tranter, CCLI 7195146; the page summarises the refrain, verses and bridge themes.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel / Musixmatch",
+      "url": "https://www.google.com/search?q=This+Is+the+Day+CityAlight+lyrics"
+    }
+  ]
+}

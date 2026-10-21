@@ -1,0 +1,194 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Trust and Obey",
+    "artist": "John H. Sammis (text); Daniel B. Towner (tune)",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1887,
+    "genre": "Gospel Hymn",
+    "isPublicDomain": true,
+    "notes": "Text by John H. Sammis, a Presbyterian minister, and tune by Daniel B. Towner, published in 1887 in Hymns Old and New. Tradition ties it to a Moody revival meeting at Brockton, Massachusetts where Towner led the singing and a young man's testimony prompted the hymn; accounts differ on whether text or tune came first. Sometimes titled by its first line. Public domain; the United Methodist Hymnal 1989 text is representative. Reviewed as the standard text.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "CORPORATE_WE",
+    "structuralNotes": "Four verses, each followed by a fixed refrain. The first verse speaks of walking in the light of the Word with God's presence. The second says burdens, sorrows and losses are repaid and blessed for those who obey. The third speaks of full surrender on the altar before knowing the delights of his love. The fourth looks to future fellowship and willing following wherever he sends. The voice is corporate exhortation and encouragement. The refrain states that trusting and obeying is the way to be happy in Jesus. The hymn does not narrate the cross or resurrection.",
+    "claims": [
+      {
+        "claim": "Those who walk in the light of God's Word know his presence.",
+        "subject": "Walking in the light",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God repays and blesses the burdens, sorrows and losses of those who obey him.",
+        "subject": "Obedience and blessing",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Full surrender to God comes before the delights of his love are known.",
+        "subject": "Consecration",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer will have future fellowship with Christ and follows where he sends.",
+        "subject": "Discipleship and fellowship",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Trusting and obeying is the way to be happy in Jesus.",
+        "subject": "Trust and obedience",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": false,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Discipleship",
+        "title": "Trust and obedience held together",
+        "explanation": "The refrain joins trust with obedience so that neither stands alone, a biblical pairing of faith with its fruit.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 John 5:2-3",
+        "scriptureRationale": "Loving God and keeping his commandments, which are not burdensome."
+      },
+      {
+        "category": "Consecration",
+        "title": "Surrender as a living sacrifice",
+        "explanation": "The third verse calls for whole-life surrender, echoing the apostle's appeal to offer oneself to God.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 12:1",
+        "scriptureRationale": "Presenting bodies as a living sacrifice."
+      },
+      {
+        "category": "Scripture",
+        "title": "Walking in the light",
+        "explanation": "The first verse builds on the picture of walking in the light of God's Word and enjoying fellowship.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MINOR",
+        "scriptureReference": "1 John 1:7",
+        "scriptureRationale": "Walking in the light brings fellowship."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The call to trust and obey God",
+      "Surrender to God",
+      "God's presence with those who walk in his Word",
+      "Future fellowship with Christ"
+    ],
+    "assessment": "No concern is kept. The verses tie blessing and presence to obedience, which a congregation could hear as obedience earning favour; but the refrain pairs trust with obedience, the language is Johannine and Old Testament covenant idiom, and faithful Christians sing it as faith's fruit. The gospel is not narrated, and God's saving acts are not stated, so the hymn rests its claims on the believer's response; a leader may place it after a gospel text."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A fixed, memorable refrain",
+        "explanation": "The refrain is the same after every verse and the gospel-hymn tune is easy, so a congregation learns it in one pass.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Suited to commitment and sending",
+        "explanation": "Its themes of surrender and following suit a response or sending moment.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Standard hymnal settings sit in a comfortable congregational range; no chart was read for this review, so check the key in your hymnal.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Varies by hymnal",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The refrain returns after each verse and restates the hymn's one thesis, with each verse giving it a new occasion.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "A classic gospel hymn built for a room: four verses, a fixed refrain, a rhythmic tune. Nothing in it needs a soloist."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "One thesis, four illustrations",
+        "explanation": "Each verse shows a different facet of trusting and obeying, so the hymn's point is never in doubt.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The one point that can be misheard is the link between obedience and blessing, which is best framed by singing it with the gospel in view."
+  },
+  "synthesis": {
+    "summary": "A four-verse gospel hymn (Sammis, 1887, tune by Towner) on trusting and obeying: walking in the light, blessing for the obedient, surrender, and future fellowship. Corporate and easy to sing. It links presence and blessing to obedience and does not narrate Christ's saving work, so it rests on the believer's response; no theological concern is kept. No independent source assessing its content was found.",
+    "themes": [
+      "Faith",
+      "Holiness",
+      "Worship",
+      "Assurance",
+      "Christ"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "1 John 5:2-3",
+        "relevance": "Loving God shown in keeping his commandments."
+      },
+      {
+        "reference": "1 John 1:7",
+        "relevance": "Walking in the light and fellowship."
+      },
+      {
+        "reference": "Romans 12:1",
+        "relevance": "Presenting oneself as a living sacrifice."
+      },
+      {
+        "reference": "John 14:21",
+        "relevance": "Love for Christ shown in obedience."
+      },
+      {
+        "reference": "Psalm 119:105",
+        "relevance": "God's word as light for the path."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/John_H._Sammis",
+      "title": "John H. Sammis",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Credits Sammis with Trust and Obey, made with Daniel B. Towner in 1887; Sammis wrote more than 100 hymns, mostly of trust and obedience.",
+      "assessesContent": false
+    }
+  ]
+}

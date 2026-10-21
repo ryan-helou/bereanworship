@@ -1,0 +1,226 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "When Christ Our Life Appears",
+    "artist": "Sovereign Grace Music",
+    "artistType": "GROUP",
+    "album": "The Glorious Christ (Live)",
+    "releaseYear": 2019,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Dave Fournier, George Romanacce, Nathan Stiff and Kevin Winebarger; copyright 2019 Sovereign Grace Worship (ASCAP) and Sovereign Grace Songs (SESAC), administered by Integrity Music; CCLI 7138123. Recorded live on The Glorious Christ (released 6 December 2019), vocal by Reuben Foster. The list's guess of Sovereign Grace Music is right. Reviewed as the song, not any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Three verses, each followed by the same chorus, with a final chorus repeat. Verse one anticipates Christ's return, longings fulfilled and tears turned to praise. Verse two looks to the curse undone, wickedness ended and creation and hearts renewed. Verse three has trials passing, crowns received and death destroyed. The chorus voices longing for that day and the sight of Christ, faith giving way to sight. The voice is corporate, we and our, hopeful and eschatological. Christ is named. The cross and the believer's sin are not stated; the song is about the end, not the means of salvation.",
+    "claims": [
+      {
+        "claim": "When Christ appears, believers' longings are fulfilled and their tears turn to praise.",
+        "subject": "Christ's return and glory",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The curse will be undone, wickedness ended, and creation and hearts made new.",
+        "subject": "New creation",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Trials will pass, crowns will be received, and death will be destroyed.",
+        "subject": "Final victory over death",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Believers long for the day when faith becomes sight and they see Christ.",
+        "subject": "The beatific vision",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Eschatology",
+        "title": "The return of Christ as the believer's hope",
+        "explanation": "Verse one and the chorus fix hope on Christ's appearing and on seeing him, rather than on circumstances. This follows the New Testament's own pattern of looking to the day Christ is revealed.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Colossians 3:4",
+        "scriptureRationale": "When Christ appears, believers appear with him in glory."
+      },
+      {
+        "category": "New creation",
+        "title": "Curse reversed, creation renewed",
+        "explanation": "Verse two says the curse is undone and creation and hearts are renewed, tying personal hope to the restoration of all things.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Revelation 22:3-5",
+        "scriptureRationale": "No more curse, and the servants of God see his face."
+      },
+      {
+        "category": "Victory",
+        "title": "Death destroyed, crowns received",
+        "explanation": "Verse three names death as the last enemy brought to nothing and trials as passing, a firm basis for suffering believers.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Corinthians 15:26",
+        "scriptureRationale": "The last enemy to be destroyed is death."
+      },
+      {
+        "category": "Assurance",
+        "title": "Faith turning to sight",
+        "explanation": "The chorus sets the present life of faith against the coming sight of Christ, a sound account of what is promised.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "2 Corinthians 5:7",
+        "scriptureRationale": "We walk by faith, not by sight."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The return of Christ",
+      "Glorification of believers",
+      "The curse removed and creation renewed",
+      "Death destroyed",
+      "The vision of God",
+      "Perseverance through trial"
+    ],
+    "assessment": "Nothing to correct. The song is built from many passages on the last things and states the hope plainly: Christ appears, the curse is lifted, death is destroyed, and believers see him. It leaves the cross and the believer's sin unmentioned, so it is a hymn of the end that depends on the gospel being sung elsewhere. No independent assessment of the song was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Use",
+        "title": "A song for suffering and for the Advent hope",
+        "explanation": "Its first-person plural voice and focus on the final day suit funerals, seasons of suffering, Advent and the close of a service.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Accessibility",
+        "title": "Mid-length lines a room can follow",
+        "explanation": "The lines are of moderate length and the chorus returns after every verse, so a congregation learns it in one pass.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Key not read; test the chorus in the room and lower the key if the chorus sits high for mixed voices.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not stated; no chart read",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The chorus follows every verse and is repeated again at the end. The repeated words are the song's central confession of longing, so the weight is not empty, but the count is high.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Written for congregational singing: plural voice, mid-length lines, a returning chorus. The heavy chorus repetition suits a build to a close but can run long if every return is extended."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ named and his appearing the subject",
+        "explanation": "The title and chorus put Christ at the centre, so a visitor knows whose return is being sung.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The images are biblical (curse, crowns, sight for faith) and read as intended. The song states the hope but not the gospel by which believers have it."
+  },
+  "synthesis": {
+    "summary": "A congregational song by Fournier, Romanacce, Stiff and Winebarger (Sovereign Grace, 2019) on the hope of Christ's return: longings fulfilled, the curse undone, creation renewed, trials ended, death destroyed, and faith turning to sight. It draws on Colossians 3 and Revelation 21-22. The cross is not stated. No concern found; no independent source assessing content found.",
+    "themes": [
+      "Christ",
+      "Hope",
+      "Heaven",
+      "Resurrection",
+      "Assurance",
+      "Suffering",
+      "Creation"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Colossians 3:4",
+        "relevance": "Christ our life appearing - the title and first verse."
+      },
+      {
+        "reference": "1 John 3:2",
+        "relevance": "We shall see him as he is."
+      },
+      {
+        "reference": "Revelation 21:4",
+        "relevance": "Tears wiped away, death no more."
+      },
+      {
+        "reference": "Revelation 22:3-5",
+        "relevance": "No more curse; seeing his face."
+      },
+      {
+        "reference": "1 Corinthians 13:12",
+        "relevance": "Seeing face to face, knowing fully."
+      },
+      {
+        "reference": "2 Corinthians 5:7",
+        "relevance": "Walking by faith, not by sight - the chorus."
+      },
+      {
+        "reference": "Isaiah 25:8",
+        "relevance": "Death swallowed up forever."
+      },
+      {
+        "reference": "Romans 8:18-21",
+        "relevance": "Creation set free from its bondage."
+      },
+      {
+        "reference": "1 Corinthians 15:26",
+        "relevance": "Death the last enemy destroyed."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://sovereigngracemusic.com/music/songs/when-christ-our-life-appears/",
+      "title": "When Christ Our Life Appears",
+      "publisher": "Sovereign Grace Music",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Writers Fournier, Romanacce, Stiff, Winebarger; copyright 2019 Sovereign Grace Worship and Songs, Integrity; CCLI 7138123; themes and Scripture list.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.google.com/search?q=When+Christ+Our+Life+Appears+Sovereign+Grace+Music+lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Victory in Jesus",
+    "artist": "Eugene M. Bartlett",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1939,
+    "genre": "Gospel Hymn",
+    "isPublicDomain": false,
+    "notes": "Words and music by Eugene Monroe Bartlett, published in 1939 (confirmed by the Wikipedia disambiguation page that describes it as a shape note gospel song). Search snippets add that Bartlett wrote it after a stroke that year, was president of Hartford Music Company, and died in 1941; first appearance is given as a 1939 songbook, but this was not confirmed on a page opened for this review. Reviewed as the standard Bartlett text, not the later Getty adaptation. No CCLI number was seen. The list's artist is a hymn author rather than a modern recording artist; no single recording is assumed.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Three verses, each followed by the same refrain. The voice is a believer's first-person testimony, with a refrain of praise. Verse one tells of hearing the gospel of the Savior's death and atoning blood and of the singer's response in repentance. Verse two speaks of Christ's healing and cleansing power, a cry for a broken spirit, and the hope of singing in heaven. Verse three looks to the home prepared in glory and tells the story of redemption. The refrain gives the praise to the Savior who sought, bought and loved first, and so names Christ as the source of the victory. Baptismal imagery appears as an image of cleansing, not as a doctrinal claim. The Spirit, the church and the resurrection as event are not reached.",
+    "claims": [
+      {
+        "claim": "The singer heard the story of the Savior's death and atoning blood, and responded in repentance.",
+        "subject": "The gospel heard and received",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The victory the singer knows came through the repentance and faith the hearing led to.",
+        "subject": "Victory",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ's power heals, cleanses and restores a broken spirit.",
+        "subject": "Cleansing and healing",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Believers hope to sing in heaven.",
+        "subject": "Heaven",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ has prepared a home in glory for his people, and redemption is the story told there.",
+        "subject": "The heavenly home",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Savior sought, bought with his blood and loved first, and so the praise and the victory are his.",
+        "subject": "Christ's initiative and victory",
+        "location": "REFRAIN",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "The gospel",
+        "title": "The Savior who sought and bought",
+        "explanation": "The refrain places everything in Christ's prior action: he sought the lost, purchased them with his blood, and loved before he was loved. Salvation is his work from first to last.",
+        "songLocation": "REFRAIN",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Peter 1:18-19",
+        "scriptureRationale": "Redeemed by the precious blood of Christ; the refrain's claim of purchase."
+      },
+      {
+        "category": "Atonement",
+        "title": "Death and atoning blood heard as good news",
+        "explanation": "The first verse names the Savior's death and his atoning blood as the content of what was heard, putting the cross at the root of the singer's response.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Romans 10:17",
+        "scriptureRationale": "Faith comes by hearing; the verse starts from the gospel heard, then the singer's repentance."
+      },
+      {
+        "category": "Hope",
+        "title": "A home prepared in glory",
+        "explanation": "The third verse points forward to the home Christ prepares, a plain statement of the believer's future hope.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "John 14:2-3",
+        "scriptureRationale": "Christ goes to prepare a place for his people; the verse echoes this."
+      },
+      {
+        "category": "Victory",
+        "title": "The victory is credited to Christ",
+        "explanation": "The song's title and refrain credit the victory to Jesus, in line with Paul's thanks to God for giving the victory through Christ.",
+        "songLocation": "REFRAIN",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Corinthians 15:57",
+        "scriptureRationale": "Thanks be to God who gives us the victory through our Lord Jesus Christ."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The atoning death and blood of Christ",
+      "Salvation initiated by Christ",
+      "Repentance in response to the gospel",
+      "Christ's power to heal and cleanse",
+      "The heavenly home prepared for believers",
+      "Victory through Christ"
+    ],
+    "assessment": "Nothing to correct. The note flags the first verse, where the singer says he repented and won the victory, as possibly sounding like a self-won victory. Taken as a testimony it reports repentance as the response to the gospel heard; the refrain then gives the victory to Christ who sought and bought the singer, so a congregation is not taught to credit itself. The baptismal image of plunging is cleansing language, not a claim about baptism. The resurrection is not stated."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A refrain that is known by heart",
+        "explanation": "The refrain follows every verse unchanged and is among the best known in gospel hymnody, so even a visiting congregation tends to join it.",
+        "songLocation": "REFRAIN",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Testimony and praise in turn",
+        "explanation": "Each verse tells the believer's story and the refrain turns it to praise of Christ, so testimony never stands without God at the center.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published keys were not checked. The gospel style is lively and often sung fast; slowing the tempo helps a congregation sing the words rather than rush them.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not stated in sources read",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The refrain returns after every verse and always returns to praise of the Savior who sought and bought, so the repetition does the work of the song's point.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form: a plain strophic text with a refrain that carries the room. Its gospel-style liveliness suits services of testimony, funerals and any occasion that calls for praise for salvation."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Savior and atonement are named",
+        "explanation": "The Savior, his death and his blood are named outright, so the hearer knows who is praised and for what.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The images (blood, plunging, the home in glory) are biblical and familiar. The one place that rewards a word of context is the first verse, where the singer's repentance is the response to a gospel received and not the source of the victory."
+  },
+  "synthesis": {
+    "summary": "A three-verse gospel hymn with a constant refrain: a believer's testimony of hearing the gospel of Christ's death and atoning blood and repenting, Christ's healing and cleansing, and the prepared home in glory. The refrain gives the victory to the Savior who sought, bought and loved first. The first verse might be heard as self-won victory, but the refrain answers it. The resurrection is not stated.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Salvation",
+      "Repentance",
+      "Grace",
+      "Heaven",
+      "Hope",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "1 Corinthians 15:57",
+        "relevance": "Victory given through Christ; the song's title and refrain."
+      },
+      {
+        "reference": "1 Peter 1:18-19",
+        "relevance": "Redemption by Christ's precious blood; the refrain's purchase."
+      },
+      {
+        "reference": "Luke 19:10",
+        "relevance": "The Son of Man came to seek the lost; the refrain's seeking."
+      },
+      {
+        "reference": "1 John 4:19",
+        "relevance": "We love because he first loved us; the refrain's loved first."
+      },
+      {
+        "reference": "John 14:2-3",
+        "relevance": "A place prepared for his people; the third verse."
+      },
+      {
+        "reference": "Romans 10:17",
+        "relevance": "Faith comes by hearing; the first verse's gospel heard."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Victory_in_Jesus",
+      "title": "Victory in Jesus (disambiguation)",
+      "publisher": "Wikipedia",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_3",
+      "establishes": "Identifies the song as a shape note gospel song written by Eugene Monroe Bartlett and published in 1939.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "GCCSATX",
+      "url": "https://gccsatx.com/hymns/victory-in-jesus"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "There Is a Redeemer",
+    "artist": "Melody Green",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1982,
+    "genre": "Contemporary Hymn",
+    "isPublicDomain": false,
+    "notes": "Words and music by Melody Green. The Praise Trust commentary says she wrote the first two verses and chorus in 1977 and that her husband Keith Green, feeling the song incomplete, added a third verse; Hymnary.org credits Melody alone. Copyright 1982 (the year Keith died), held by Birdwing Music, Ears to Hear Music and related publishers administered by CapitolCMG Publishing; CCLI 11483 per Hymnary.org. The list's guess of Melody Green is right, though the Keith Green version is the recording many churches know. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "One verse, a chorus of thanks, a second verse about glory, and the chorus again; the opening verse returns as a bookend. The first verse names Jesus as Redeemer, Son of God, Lamb and Messiah, and holy. The chorus turns to the Father in thanks for giving his Son and for the Spirit sent to continue the work on earth until it is done. The second verse looks ahead to seeing Christ's face and serving him forever. The voice is first person in the verses and direct address of thanks in the chorus. The cross is only implied in the title Lamb; the resurrection is not stated.",
+    "claims": [
+      {
+        "claim": "Jesus is the Redeemer, the Son of God, the Lamb and the Messiah, and is holy.",
+        "subject": "The person and titles of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Father is thanked for giving his Son.",
+        "subject": "The Father's gift of the Son",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Father is thanked for the Holy Spirit, given to carry on God's work on earth.",
+        "subject": "The giving of the Spirit",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer will one day see Christ's face and serve him forever.",
+        "subject": "Future glory",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christ",
+        "title": "Christ named by his Old and New Testament titles",
+        "explanation": "Redeemer, Son of God, Lamb and Messiah are all said of Jesus, which ties the Old Testament's redeemer to him and gives the congregation specific words for who he is.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "John 1:29",
+        "scriptureRationale": "Jesus as the Lamb of God, one of the titles the verse gathers."
+      },
+      {
+        "category": "Trinity",
+        "title": "Father, Son and Spirit thanked together",
+        "explanation": "The chorus thanks the Father for the Son and for the Spirit, so the three persons are acknowledged in a single act of gratitude.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "John 14:16-17",
+        "scriptureRationale": "The Father giving the Spirit to the believers, as the chorus thanks him for."
+      },
+      {
+        "category": "Hope",
+        "title": "A future spent seeing and serving Christ",
+        "explanation": "The final verse looks forward to the face-to-face sight of Christ and service to him, fixing hope on him.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 22:3-4",
+        "scriptureRationale": "His servants seeing his face and serving him."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Jesus as Redeemer, Son of God and Messiah",
+      "The Father's giving of the Son",
+      "The giving of the Holy Spirit",
+      "The Lamb of God",
+      "Future vision of Christ and eternal service"
+    ],
+    "assessment": "The note flags the chorus's mention of the Spirit continuing God's work until it is done as possibly heard as the Spirit's presence ending. Judged by the concern test, a congregation hears thanks for the Spirit's work now, not a claim that he departs; the phrase concerns the work, not his stay. No concern is charged. The cross and resurrection are not stated; that belongs to the substance answers."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Short, simple and quickly learned",
+        "explanation": "A brief verse and chorus with a gentle melody, learned in one pass and sung comfortably by a mixed congregation.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published in D and E major in different listings; the range is gentle and suits most congregations.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "D, E (varies by listing)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns and the opening verse bookends the song, but each return restates thanks and the Redeemer's name rather than filling space.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Written as a simple devotional song and singable by a whole congregation. The first person verses are a personal register, but the content is about Christ, and the chorus is thanks that any church can offer."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Jesus named under several titles",
+        "explanation": "The song identifies Jesus plainly, so no one is left unsure whom it praises.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear and short. Its plainness is its strength; the one phrase about the Spirit's work is easily understood in context."
+  },
+  "synthesis": {
+    "summary": "A short devotional song naming Jesus as Redeemer, Son of God, Lamb and Messiah, thanking the Father for the Son and the Spirit, and looking ahead to seeing Christ and serving him forever. It is built on several biblical passages. Its verses use a personal voice. The cross and resurrection are not stated. The reading note flags the Spirit phrasing, but the phrase concerns his work, so no concern is recorded.",
+    "themes": [
+      "Christ",
+      "God",
+      "Trinity",
+      "Thanksgiving",
+      "Hope",
+      "Heaven",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Job 19:25",
+        "relevance": "I know that my Redeemer lives - the Old Testament Redeemer title."
+      },
+      {
+        "reference": "John 1:29",
+        "relevance": "Jesus as the Lamb of God."
+      },
+      {
+        "reference": "John 3:16",
+        "relevance": "The Father giving his Son, thanked in the chorus."
+      },
+      {
+        "reference": "John 14:16-17",
+        "relevance": "The Father giving the Spirit to believers."
+      },
+      {
+        "reference": "Revelation 22:3-4",
+        "relevance": "Seeing his face and serving him, the final verse's hope."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praise.org.uk/hymns/there-is-a-redeemer",
+      "title": "There is a Redeemer",
+      "publisher": "Praise Trust",
+      "sourceType": "THEOLOGICAL_ORGANIZATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "Commentary naming Melody Green as author of the first two verses and chorus (1977), Keith Green's added verse, 1982 copyright, and what the hymn teaches about Christ, the Father and the Spirit.",
+      "assessesContent": true
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel, Musixmatch",
+      "url": "https://www.google.com/search?q=There+Is+a+Redeemer+Melody+Green+lyrics"
+    }
+  ]
+}
