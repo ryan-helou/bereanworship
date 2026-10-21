@@ -1,0 +1,237 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Be Thou My Vision",
+    "artist": "Traditional Irish; trans. Mary Byrne, versified by Eleanor Hull",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1912,
+    "genre": "Traditional Hymn",
+    "isPublicDomain": true,
+    "notes": "An Irish prayer of protection from a Middle Irish lorica, traditionally linked to Dallan Forgaill but dated by scholars to the late tenth or eleventh century. Mary Byrne made the literal English prose translation, published in the journal Eriu in 1905; Eleanor Hull versified it in The Poem-Book of the Gael (1912). Usually sung to the Irish folk tune Slane, first paired with the text in the Irish Church Hymnal in 1919, with harmonisations by David Evans (1927) and Erik Routley (1951). Public domain. Reviewed as the standard five-stanza Byrne/Hull text, not any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Five stanzas with no refrain or bridge, written as one continuous prayer addressed to the Lord and High King of heaven. Each stanza asks that God himself be the singer's vision, wisdom, defence, portion and ruler. Stanza one asks for God as the one thing in view and the light of waking and sleeping. Stanza two asks for wisdom, the true Word, and the closeness of a Father with a child, with God dwelling in the believer and reconciliation. Stanza three asks for protection under images of armour, shelter and tower, and to be raised heavenward. Stanza four prefers God to riches and human praise and names him as inheritance. Stanza five speaks of victory won, the hope of heaven and God as ruler of all. The voice is the singer's prayer and resolve rather than a credal statement, yet each petition rests on who God is. Christ, the cross, the resurrection and the Spirit are not named.",
+    "claims": [
+      {
+        "claim": "God himself, not any gift of his, is to be the singer's guiding vision and the chief object of thought, by day and night.",
+        "subject": "God as the believer's vision",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is the believer's wisdom and the true Word, and he stands to the believer as a Father to a child.",
+        "subject": "Wisdom, the Word and adoption",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God dwells in the believer and the believer is at one with him.",
+        "subject": "Indwelling and reconciliation",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is the believer's protection and defence, and the believer asks to be raised to heaven.",
+        "subject": "God as shield and refuge",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is to be preferred above riches and human praise, and is himself the believer's inheritance.",
+        "subject": "God as the believer's portion",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Victory is won and heaven is the believer's hope, with God ruling over all.",
+        "subject": "Victory, heaven and God's rule",
+        "location": "OUTRO",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "God",
+        "title": "God himself as the treasure",
+        "explanation": "Every petition asks for God rather than his gifts: his presence, wisdom, protection and rule. Riches and human praise are set beneath him and he is named the believer's inheritance. The song trains a congregation to want the giver more than the blessing.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Psalm 73:25-26",
+        "scriptureRationale": "God as the strength of the heart and portion forever, beside whom nothing on earth is desired."
+      },
+      {
+        "category": "Adoption",
+        "title": "Father and child, with God dwelling in the believer",
+        "explanation": "The second stanza speaks of God as Father to the believer as child, with God dwelling in the singer and reconciliation between them. That is the relationship the gospel gives, stated without drama.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Galatians 4:6-7",
+        "scriptureRationale": "The Spirit crying Abba, Father, so that the believer is no longer a slave but a son and heir."
+      },
+      {
+        "category": "Protection",
+        "title": "Spiritual warfare under God's defence",
+        "explanation": "Armour, shelter and tower images make God the believer's defence rather than the singer's own strength. This is a faithful setting of the biblical idiom, not a call to self-reliance.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Ephesians 6:10-17",
+        "scriptureRationale": "The armour of God and strength in the Lord's might, the source of the stanza's imagery."
+      },
+      {
+        "category": "Scripture",
+        "title": "Built from the Psalms and the Word",
+        "explanation": "Refuge, inheritance and light come from the Psalms and Malachi, wisdom from the wisdom literature and the Word from John's prologue. A congregation sings Scripture's own pictures of God.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 18:2",
+        "scriptureRationale": "The Lord as rock, fortress and refuge, a pattern the song's protective images follow."
+      },
+      {
+        "category": "Hope",
+        "title": "Hope of heaven and God's rule over all",
+        "explanation": "The close looks to victory won and heaven hoped for, with God ruling all. It ends the prayer on hope in his reign rather than the singer's state.",
+        "songLocation": "OUTRO",
+        "magnitude": "MINOR",
+        "scriptureReference": "1 Peter 1:3-4",
+        "scriptureRationale": "An inheritance kept in heaven for believers, the hope the last stanza reaches."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God as the believer's chief good",
+      "Adoption and God's fatherhood",
+      "Divine indwelling and reconciliation",
+      "God's protection of his people",
+      "Victory and the hope of heaven",
+      "The sovereign rule of God"
+    ],
+    "assessment": "Nothing to correct. The hymn is a prayer that God himself be the believer's vision, wisdom, defence and inheritance, and each petition rests on who he is. Its images are biblical and its heart is devotion to God above wealth and praise. Christ, the cross and the Spirit are not named, an absence the substance answers record and not a fault. Victory is implied rather than traced to the cross."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A tune a room knows",
+        "explanation": "Slane is an Irish folk melody in triple time and long familiar in hymnals. Stanzas follow one tune with no refrain, so a congregation that has sung it once can sing it again.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Use",
+        "title": "A prayer a whole congregation can pray",
+        "explanation": "The petitions are plain and personal enough for an ordinary congregation to own, and the hymn suits opening prayers, commitment and funerals alike.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Five stanzas, one movement",
+        "explanation": "Each stanza asks for a different thing from God and builds to the hope of heaven, so the hymn develops rather than circles.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Usually sung to Slane in a key set by the hymnal; leaders should choose one that keeps the climactic lines comfortable for mixed voices. Test the stanza peaks before the service.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Hymnal-dependent (varies by edition)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "NONE",
+    "repetitionAssessment": "No refrain and no repeated sections: five stanzas of new petitions to one tune.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in words and form. Five stanzas of unrepeated petitions, a long-loved folk tune, and a voice every worshipper can adopt. The thou-form is old idiom a congregation learns quickly. Its pace and rhythm suit unaccompanied or lightly accompanied singing and take well to a slow, steady tempo."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Directness",
+        "title": "Plain petitions to a named Lord",
+        "explanation": "Each stanza is a simple request to the Lord and High King of heaven, so there is never doubt who is addressed or what is asked.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Imagery",
+        "title": "Familiar biblical pictures",
+        "explanation": "Light, armour, tower, inheritance and Father are images a churchgoer already knows from Scripture, so the hymn explains itself.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The old English forms and the Irish imagery take a little getting used to, but the meaning of each petition is plain and nothing can be misheard as false."
+  },
+  "synthesis": {
+    "summary": "An Irish prayer of devotion in five stanzas, translated by Mary Byrne and versified by Eleanor Hull. Each petition asks that God himself be the singer's vision, wisdom, defence and inheritance, set above riches and praise, ending in the hope of heaven and God's rule. It is a singer's prayer more than a credal statement, and Christ and the cross are not named. No theological concern was found.",
+    "themes": [
+      "God",
+      "Worship",
+      "Prayer",
+      "Holiness",
+      "Faith",
+      "Hope",
+      "Heaven",
+      "Sovereignty"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 73:25-26",
+        "relevance": "God as the heart's strength and portion forever, preferred to all else."
+      },
+      {
+        "reference": "Ephesians 6:10-17",
+        "relevance": "The armour of God, behind the third stanza's protective images."
+      },
+      {
+        "reference": "Psalm 18:2",
+        "relevance": "The Lord as rock, fortress and refuge."
+      },
+      {
+        "reference": "John 1:1",
+        "relevance": "The Word, behind the title the second stanza uses."
+      },
+      {
+        "reference": "Galatians 4:6-7",
+        "relevance": "God as Father and the believer as child and heir."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Be_Thou_My_Vision",
+      "title": "Be Thou My Vision",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Origin as a Middle Irish lorica, Byrne's 1905 translation, Hull's 1912 verse, the Slane tune and its pairing; notes the hymn's devotion to God above wealth and praise and its armour imagery.",
+      "assessesContent": true
+    }
+  ]
+}

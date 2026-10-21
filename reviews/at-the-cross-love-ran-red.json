@@ -1,0 +1,229 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "At the Cross (Love Ran Red)",
+    "artist": "Chris Tomlin",
+    "artistType": "INDIVIDUAL",
+    "album": "Love Ran Red",
+    "releaseYear": 2014,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Chris Tomlin, Ed Cash, Jonas Myrin, Matt Armstrong and Matt Redman; CCLI 7017786 (per SongSelect listing); publishers shown by PraiseCharts as Brentwood-Benson Music and Capitol CMG. The recording churches know is Chris Tomlin's on the 2014 album Love Ran Red (sixsteps records), released as the album's third single in 2015. Wikipedia lists it at No. 14 on Worship Leader magazine's Top 20 Songs of 2014 and the album with 2015 Dove and 2016 Grammy nominations. It is also found on Passion: Take It All. Reviewed as the song in Tomlin's form, with Jesus named in the chorus, not as any one recording."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Two short verses, each followed by a pre-chorus and the chorus, then a bridge, a final chorus and an outro. The verses describe the cross as a place, not named until the chorus: mercy reigns there, grace flows, sin and shame have no power, and peace with God and forgiveness are found. The pre-chorus says all love known comes from that place. The chorus is addressed to Jesus: at the cross his love was shed in blood and sin is washed clean, and the singer surrenders his life and owes everything to him. The bridge says hope is found at the cross, the ground is holy, Christ's arms are open wide, and he saves; the response is bowing down. The outro acclaims Jesus as Savior of the world. The resurrection, return and Spirit are not named.",
+    "claims": [
+      {
+        "claim": "At the cross mercy reigns and grace flows, and sin and shame have no power there.",
+        "subject": "Grace at the cross",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The cross is where peace with God and forgiveness are found.",
+        "subject": "Peace and forgiveness",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "All the love the singer has known comes from the cross.",
+        "subject": "The source of love",
+        "location": "PRE_CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus' love was shed in blood at the cross, and sin is washed clean.",
+        "subject": "Atoning blood and cleansing",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer surrenders his life and owes everything to Jesus.",
+        "subject": "Surrender and debt",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "At the cross hope is found and Christ saves.",
+        "subject": "Hope in the cross",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus is the Savior of the world.",
+        "subject": "Universal saviorhood of Christ",
+        "location": "OUTRO",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "The cross as the place of cleansing",
+        "explanation": "Jesus' blood is shed and sin washed clean, with forgiveness and peace with God named as what the cross gives. Sin is dealt with at the cross, not by the singer's effort.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 John 1:7",
+        "scriptureRationale": "The blood of Jesus cleansing from all sin - the chorus's claim."
+      },
+      {
+        "category": "Grace",
+        "title": "Mercy and grace stated as reigning",
+        "explanation": "The verses locate mercy and grace at the cross and say sin and shame lose their power there, giving a congregation grace as something done rather than felt.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 5:20",
+        "scriptureRationale": "Where sin increased, grace abounded all the more - the verse's point."
+      },
+      {
+        "category": "Assurance",
+        "title": "Peace with God",
+        "explanation": "Peace with God and forgiveness are named as results of the cross, which grounds assurance in what Christ did.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 5:1",
+        "scriptureRationale": "Justified by faith, we have peace with God through Christ."
+      },
+      {
+        "category": "Christ",
+        "title": "Jesus named and acclaimed Savior",
+        "explanation": "The chorus names Jesus and the outro calls him Savior of the world, so the cross is explicitly Christ's and its reach is stated.",
+        "songLocation": "OUTRO",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 John 4:14",
+        "scriptureRationale": "The Father sent the Son as Savior of the world."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Atoning blood of Christ",
+      "Cleansing from sin",
+      "Forgiveness and peace with God",
+      "Grace and mercy at the cross",
+      "Jesus as Savior of the world"
+    ],
+    "assessment": "Nothing false. The song stays at the cross and says what happens there: blood shed, sin washed away, mercy and grace, peace with God, forgiveness. The phrases about love running red and open arms are figures of speech and are not misleading. The resurrection, the Spirit and the return are not reached, and the chorus and bridge turn largely to the singer's surrender and awe. No independent assessment of its content was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Easy to sing",
+        "explanation": "A plain tune and a repeating chorus make it quick to learn for a congregation, and it was widely used after release.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fits Lent, Good Friday and communion",
+        "explanation": "The cross is the whole subject, so it sits naturally in Passion-tide, at the Lord's Table and in a response to preaching.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published keys were not read. Tomlin's recording is pitched for a lead singer; test the chorus and bridge in your own room and transpose to suit.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not read",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The chorus is sung three times and the bridge and outro add repeated lines of surrender, so the second half leans on repetition more than on new content.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Congregational in words and tune and easy to learn. The arrangement is long, with a repeated chorus and an extended bridge, so a leader should watch that repetition does not replace the content the verses carry. The voice moves between confessing what Christ did and the singer's own surrender."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "The cross is named and Jesus is named",
+        "explanation": "The verses leave the place unnamed until the chorus, which names the cross and Jesus, so the build is easy to follow and the subject is never in doubt.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear: the central figures are plain and nothing here would be taken wrongly. The unnamed place in the verses resolves in the chorus, and an ordinary congregation will hear the cross."
+  },
+  "synthesis": {
+    "summary": "A cross-centered song: the verses describe a place of mercy, grace, forgiveness and peace with God, the chorus addresses Jesus, whose blood washes sin away, and the song closes calling him Savior of the world. Nothing in it is false. The singer's surrender and awe fill much of the chorus and bridge, and the chorus returns three times. The resurrection and the Spirit are not reached.",
+    "themes": [
+      "Cross",
+      "Grace",
+      "Christ",
+      "Salvation",
+      "Assurance",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "1 John 1:7",
+        "relevance": "The blood of Jesus cleanses from all sin - the chorus's claim."
+      },
+      {
+        "reference": "Romans 5:1",
+        "relevance": "Peace with God through Christ - named in the second verse."
+      },
+      {
+        "reference": "Ephesians 1:7",
+        "relevance": "Redemption through his blood, the forgiveness of sins."
+      },
+      {
+        "reference": "Isaiah 1:18",
+        "relevance": "Sins made white as snow - the washing language."
+      },
+      {
+        "reference": "Hebrews 4:16",
+        "relevance": "Approaching the throne of grace to receive mercy."
+      },
+      {
+        "reference": "Romans 5:20",
+        "relevance": "Grace abounding over sin - the verses' grace at the cross."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Love_Ran_Red",
+      "title": "Love Ran Red",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Five credited writers, 2014 album, 2015 single, Worship Leader Top 20 of 2014 placement and award nominations. No discussion of the song's message.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com/Chris-tomlin-at-the-cross-love-ran-red-lyrics"
+    }
+  ]
+}

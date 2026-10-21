@@ -1,0 +1,183 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Blessed Assurance",
+    "artist": "Fanny Crosby",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1873,
+    "genre": "Traditional Hymn",
+    "isPublicDomain": true,
+    "notes": "Text by Fanny Crosby and tune by Phoebe Knapp, both 1873. First printed in the July 1873 issue of Palmer's Guide to Holiness and Revival Miscellany. Knapp first called the tune 'Assurance'. Public domain."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Three stanzas, each followed by the same refrain; the refrain's two lines are each repeated within it.",
+    "claims": [
+      {
+        "claim": "The believer is assured that Jesus is his own.",
+        "subject": "Assurance of belonging to Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer is an heir of salvation, purchased by God, made new by the Spirit and cleansed by the blood of Christ.",
+        "subject": "Redemption, new birth and cleansing",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer's present assurance is a foretaste of glory.",
+        "subject": "Heavenly hope",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer submits and delights in God, and describes visions and angels as echoes of mercy and love.",
+        "subject": "Devotional experience",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer rests in and is happy with the Savior, watching and waiting, looking above and filled with his goodness.",
+        "subject": "Contentment and expectant hope",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The refrain is the believer's testimony and praise of the Savior throughout the day.",
+        "subject": "Testimony and praise",
+        "location": "REFRAIN",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Redemption",
+        "title": "The first stanza names redemption, new birth and cleansing",
+        "explanation": "The opening stanza states the work of God in plain terms: purchase, regeneration by the Spirit, and cleansing by Christ's blood. The assurance it describes rests on that work.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null,
+        "scriptureReference": "Titus 3:5-7",
+        "scriptureRationale": "God saved us through the washing of regeneration and the renewal of the Holy Spirit, poured out through Jesus Christ our Savior."
+      },
+      {
+        "category": "Assurance",
+        "title": "Assurance grounded in God's acts",
+        "explanation": "The song's central promise of assurance rests on what Christ has done and on the Spirit's new birth, not on the singer's feelings.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "lyricExcerpt": null,
+        "scriptureReference": "Ephesians 1:13-14",
+        "scriptureRationale": "The believers were sealed with the promised Holy Spirit, who is the guarantee of their inheritance."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Redemption by the blood of Christ",
+      "Regeneration by the Holy Spirit",
+      "Assurance of salvation as an heir of God",
+      "Hope of glory"
+    ],
+    "assessment": "The first stanza is a clear confession of redemption, regeneration and assurance. The later stanzas and the refrain are mostly devotional and experiential, describing rest, delight and praise. Nothing in them is a false doctrinal claim, and the imagery of visions and angels is devotional rather than doctrinal. No concern is recorded."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Memorability",
+        "title": "A refrain every room can join",
+        "explanation": "The refrain returns after each stanza and is simple enough for a congregation to learn on the first pass.",
+        "songLocation": "REFRAIN",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Key and range were not read from any chart for this review. The tune is a classic hymn tune and is widely sung within a comfortable range.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not recorded for this review",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The refrain returns after each stanza and its doubled lines are sung three times. The repetition gives the congregation a fixed point of testimony rather than substituting for content.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "A strophic hymn with a short refrain, built for the whole congregation to sing. It is among the most easily learned hymns in the tradition."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Clear stanzas and a fixed refrain",
+        "explanation": "Each stanza is clearly devotional and the refrain restates the testimony. The structure is easy to follow.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear line by line. The voice moves between a credal first stanza and a more experiential later stanzas, which a leader may want to notice when introducing it."
+  },
+  "synthesis": {
+    "summary": "A three-stanza hymn with a repeated refrain. The first stanza confesses redemption by Christ's blood, new birth by the Spirit, and assurance as an heir of God. The later stanzas and refrain are mostly devotional and experiential, describing rest, delight and praise of the Savior. The voice is mixed rather than corporate, and no doctrinal concern is recorded.",
+    "themes": [
+      "Assurance",
+      "Salvation",
+      "Grace",
+      "Christ",
+      "Hope",
+      "Heaven",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Titus 3:5-7",
+        "relevance": "Salvation by the washing of regeneration and the renewal of the Holy Spirit, which the first stanza states."
+      },
+      {
+        "reference": "Ephesians 1:13-14",
+        "relevance": "Being sealed with the Spirit as the guarantee of the inheritance, which underlies the song's assurance."
+      },
+      {
+        "reference": "1 Peter 1:8-9",
+        "relevance": "Joy in a Savior not seen and the salvation of the soul, which the later stanzas echo."
+      },
+      {
+        "reference": "1 John 3:1-3",
+        "relevance": "Being called children of God and the hope of being like him, which the song's hope of glory draws on."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Blessed_Assurance",
+      "title": "Blessed Assurance",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Text by Fanny Crosby and tune by Phoebe Knapp, both 1873, first printed July 1873 in Palmer's Guide; Knapp's tune was first called 'Assurance'.",
+      "assessesContent": false
+    }
+  ]
+}

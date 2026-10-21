@@ -1,0 +1,230 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Amazing Love (You Are My King)",
+    "artist": "Billy James Foote",
+    "artistType": "INDIVIDUAL",
+    "album": "Adoration: The Worship Album",
+    "releaseYear": 2003,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Billy James Foote. The earliest recording named by Wikipedia is Phillips, Craig & Dean on Let My Words Be Few (2001); SecondHandSongs reports a 1999 first release by Christy Nockels, and one source says Foote wrote it in 1995, so dates conflict. The Newsboys recorded it for Adoration: The Worship Album (2003, Sparrow), which reached No. 1 on Billboard Christian Songs. WorshipTogether lists CCLI 2456623 and original key G; a chord sheet lists CCLI 582943, so the CCLI database should settle licensing. A text copyright of 1999 worshiptogether.com songs, administered by Capitol CMG, was found in one source. The 2003 year is the release most churches know; the song is older. The list's artist Billy James Foote is the writer; Newsboys and Phillips, Craig & Dean sing the same text.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "One short five-line verse and one five-line chorus that alternate, verse and chorus twice, then a tag acclaiming Jesus as King, repeated, then the chorus once more. No bridge. The verse is addressed to Christ and sets out an exchange: he was forsaken so that the singer is forgiven, condemned so that the singer is accepted, and the singer is alive because he died and rose, with the Spirit indwelling. The chorus is wonder addressed to Christ as the King who died for the singer, with a response of honouring him in all of life. The tag simply acclaims Jesus as King. The voice is mostly credal, saying what Christ did and what it secured, with the chorus carrying the singer's wonder and resolve, grounded in the verse's facts.",
+    "claims": [
+      {
+        "claim": "Christ was forsaken on the cross so that the singer is forgiven.",
+        "subject": "Substitutionary atonement",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ was condemned so that the singer is accepted.",
+        "subject": "Justification and acceptance",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ died and rose, and the singer lives because of it.",
+        "subject": "Death and resurrection of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Spirit dwells in the believer.",
+        "subject": "Indwelling Spirit",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus is the King who died for the singer and is to be honoured in all of life.",
+        "subject": "Lordship and kingship of Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus is acclaimed as King.",
+        "subject": "Kingship of Christ",
+        "location": "TAG",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "The exchange stated in two lines",
+        "explanation": "The verse says Christ was forsaken and condemned so the singer is forgiven and accepted. The exchange is explicit, and it grounds the singer's standing in what Christ endured.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "2 Corinthians 5:21",
+        "scriptureRationale": "He who knew no sin was made sin for us, that we might become the righteousness of God."
+      },
+      {
+        "category": "Resurrection",
+        "title": "Life from his death and rising",
+        "explanation": "The singer is alive because Christ died and rose, so the song reaches the resurrection as well as the cross and ties new life to both.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Galatians 2:20",
+        "scriptureRationale": "Christ's life in the believer through his death and the faith of the Son of God."
+      },
+      {
+        "category": "Spirit",
+        "title": "The indwelling Spirit named",
+        "explanation": "Few short songs mention the Spirit. This one names his indwelling as part of what Christ's work secured.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 8:9-11",
+        "scriptureRationale": "The Spirit of God dwelling in the believer, who gives life to mortal bodies."
+      },
+      {
+        "category": "Christ",
+        "title": "Kingship as response to the cross",
+        "explanation": "The chorus makes Christ's lordship the fitting answer to his death, so devotion rests on what he did.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 8:1",
+        "scriptureRationale": "No condemnation for those in Christ - the acceptance the verse states."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Substitutionary atonement",
+      "Forgiveness and acceptance in Christ",
+      "Death and bodily rising of Christ",
+      "Indwelling of the Spirit",
+      "Lordship of Christ"
+    ],
+    "assessment": "Nothing to correct. In very few words the verse states the exchange at the cross, the resurrection and the Spirit's indwelling. The chorus's first-person wonder and resolve rest on those facts and do not replace them. A reminiscence of Charles Wesley's hymn is noted by Wikipedia. The Father and the church are not reached."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Short and easy to learn",
+        "explanation": "One verse and one chorus alternate, so a room has the whole song after a single pass.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Use",
+        "title": "Fits communion, Good Friday and Easter",
+        "explanation": "The cross-and-rising content and the closing acclamation make it a natural response to preaching on the atonement.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Original key G per WorshipTogether, with a stated range of G to C. Check the top of the chorus against your room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "G (original per WorshipTogether)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The verse and chorus each return once and the tag repeats the acclamation of Christ as King. The repetition returns to the same confession and does not stand in for content.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational and short. The tag lets a leader extend the acclamation, so watch that the repeat does not outrun the words."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ named and what he did stated",
+        "explanation": "Christ and his kingship are named, and the verse says plainly what he did, so the addressee is never vague.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The verse is compact, so a visitor needs a moment to unpack forsaken, condemned and accepted, but nothing is open to a wrong reading."
+  },
+  "synthesis": {
+    "summary": "A short verse-and-chorus song that states the exchange at the cross, the resurrection and the Spirit's indwelling in the verse, then answers with wonder and the acclamation of Jesus as King. Its first-person chorus rests on the verse's facts. No doctrinal concern was found. No independent source assessing its content was found within the budget.",
+    "themes": [
+      "Cross",
+      "Christ",
+      "Resurrection",
+      "Grace",
+      "Salvation",
+      "Worship",
+      "Sovereignty"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "2 Corinthians 5:21",
+        "relevance": "Christ made sin for us that we might be made righteous - the verse's exchange."
+      },
+      {
+        "reference": "Romans 8:1",
+        "relevance": "No condemnation in Christ - the acceptance the verse names."
+      },
+      {
+        "reference": "Galatians 2:20",
+        "relevance": "Life through Christ's death and faith in him."
+      },
+      {
+        "reference": "Romans 8:9-11",
+        "relevance": "The Spirit dwelling in believers."
+      },
+      {
+        "reference": "Matthew 27:46",
+        "relevance": "The cry of abandonment at the cross - the forsaking in the verse."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/You_Are_My_King_(Amazing_Love)",
+      "title": "You Are My King (Amazing Love)",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writer Billy James Foote; first recording by Phillips, Craig & Dean (2001); Newsboys on Adoration (2003); a likeness to Wesley's And Can It Be is noted.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.worshiptogether.com/songs/you-are-my-king-amazing-love-passion-chris-tomlin/",
+      "title": "You Are My King (Amazing Love)",
+      "publisher": "WorshipTogether",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Writer Billy James Foote, CCLI 2456623, original key G with range G to C.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com/Billy-james-foote-you-are-my-king-lyrics"
+    }
+  ]
+}

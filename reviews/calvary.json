@@ -1,0 +1,241 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "God of Calvary",
+    "artist": "Chris Tomlin",
+    "artistType": "INDIVIDUAL",
+    "album": "Never Lose Sight",
+    "releaseYear": 2016,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "The list's title was \"Calvary\". No Tomlin song titled just \"Calvary\" turned up; every search pointed to \"God of Calvary\", a track on Never Lose Sight (released 21 October 2016, sixsteps), track 5, 4:43. Credited writers: Chris Tomlin, Matt Maher, Matt Redman and Jonas Myrin, so the list's artist column is right for the recording churches know but the song is a four-way co-write. A Cross Rhythms review calls it a powerful co-write. A PraiseCharts listing seen in search results (not opened) gives CCLI 7069334 and tags it Calvary, Easter, Good Friday and Resurrection. The year of the song itself is not stated in the sources read; 2016 is the album year. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Two verses, each followed by the same chorus; a short bridge that is repeated; and a final chorus that is slightly altered to address Christ directly, closing on a tag and an instrumental. The first verse narrates the crucifixion as an event: Christ as the light of the world, bearing the weight of shame as the sinless one, the Father turning away, his final breath, and the Lamb of God slain. The second verse narrates his committing himself to the Father, his burial in a borrowed tomb, the stone moved, death conquered and the resurrection. The chorus speaks of being freed by his wounds and redeemed by his blood, and of praise to the God of Calvary. The bridge is a resolve never to lose sight of the cross and grace. The Spirit and Christ's return are not named.",
+    "claims": [
+      {
+        "claim": "Christ, the light of the world and the sinless one, bore the weight of shame on the cross.",
+        "subject": "Substitutionary atonement",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "On the cross the Father turned away and Christ gave up his final breath, the Lamb of God slain.",
+        "subject": "The crucifixion",
+        "location": "VERSE_1",
+        "locationDetail": "the second half of the verse",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ committed himself to the Father and was buried in a borrowed tomb.",
+        "subject": "The burial of Christ",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ rose from the grave and conquered death.",
+        "subject": "The resurrection",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Believers are freed by Christ's wounds and redeemed by his blood, and the great divide between God and sinners is crossed.",
+        "subject": "Redemption through the blood of Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer resolves never to lose sight of the cross and of grace, since the cross is all that is needed to be seen.",
+        "subject": "Keeping the cross central",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "The cross stated as atonement",
+        "explanation": "The song names the sinless one bearing the weight of shame, the Lamb of God slain, and redemption through his blood. Atoning death and substitution are stated outright rather than left to atmosphere, and the chorus turns them into the congregation's own confession of being freed and redeemed.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Isaiah 53:5",
+        "scriptureRationale": "Wounded for our transgressions and bruised for our iniquities, the chastisement of our peace upon him - the wounds and substitution the chorus names."
+      },
+      {
+        "category": "Resurrection",
+        "title": "A resurrection told as event",
+        "explanation": "The second verse narrates burial, the stone moved, death conquered and rising. The victory over the tomb is stated as something God did in history, and the song ends the story there rather than in the singer's feelings.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Matthew 28:1-6",
+        "scriptureRationale": "The stone rolled away and the tomb found empty - the sequence the second verse follows."
+      },
+      {
+        "category": "Scripture",
+        "title": "The crucifixion told from the Gospels",
+        "explanation": "The first verse follows the Gospel account closely: the darkness, the Father's turning away, the final breath and the Lamb of God. The song is built on the passion narrative rather than on a general image of the cross.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Matthew 27:45-51",
+        "scriptureRationale": "The darkness over the land, the cry of abandonment and the rending of the veil - the events the first verse walks through."
+      },
+      {
+        "category": "Christ",
+        "title": "Christ named as the one who died",
+        "explanation": "The chorus praises the God of Calvary and locates the freedom in his wounds and blood. The one addressed is the crucified and risen Christ, so the praise has a specific object.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Peter 2:24",
+        "scriptureRationale": "Christ bearing our sins in his body on the tree - the substitution the chorus's freedom rests upon."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Substitutionary atonement",
+      "The sinlessness of Christ",
+      "Redemption through the blood of Christ",
+      "The bodily resurrection and victory over death",
+      "The cross as the centre of the believer's hope"
+    ],
+    "assessment": "Nothing to correct. The song narrates the passion and resurrection in the Gospels' order and states what they mean: a sinless Christ bearing shame, a substitution in which he dies for sinners, a burial and rising that defeat death, and redemption through his blood. The Father turning away is a figure of the cross narrative, the common reading of the cry of abandonment; a leader may want to explain it briefly. The Spirit and Christ's return are not named."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Use",
+        "title": "A ready Good Friday and Easter song",
+        "explanation": "The song's own tags and the publisher's catalogue place it at Calvary, Good Friday, Easter and the resurrection, and its structure gives a room the passion in one piece.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Narrative verses with a returning chorus",
+        "explanation": "Each verse moves the story on and the chorus answers it, so a congregation always knows where it is in the passion and the response returns with new ground beneath it.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "No key was stated in the sources read for this review. The recording is a studio track; test the chorus and the final chorus, before leading it in a room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not stated in the sources read",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns after each verse and the bridge is repeated, but each return follows the next step of the story, so the repetition carries the narrative rather than standing in for it.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Congregational in its words and its verse-and-chorus form, with a studio arrangement that a leader can strip back. Its length and the repeated bridge are manageable for a room, and its content suits a Good Friday or Easter service directly."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "The crucified Christ named in the praise",
+        "explanation": "The chorus names the God of Calvary and places the freedom in his wounds and blood, so a visitor knows exactly who is praised and for what.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "The passion in order",
+        "explanation": "Crucifixion, burial and resurrection come in sequence, so each claim is read against the one before it and the bridge's resolve has a clear object.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in its claims. The one figure a room could misread is the Father's turning away in the first verse; read as a figure of the cross narrative it is not a problem, but it is the line a leader may want to explain."
+  },
+  "synthesis": {
+    "summary": "A narrative song of the passion and resurrection: a sinless Christ bearing shame, the Father turning away, a burial in a borrowed tomb, death conquered, and redemption through his blood. The chorus praises the God of Calvary and the bridge resolves to keep the cross in view. Nothing in it is wrong; the Spirit and Christ's return are not named. The Father's turning away is the figure a room may need explained.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Resurrection",
+      "Salvation",
+      "Sin",
+      "Grace"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Isaiah 53:5",
+        "relevance": "The wounds and substitution the chorus names as the source of freedom."
+      },
+      {
+        "reference": "1 Peter 2:24",
+        "relevance": "Christ bearing our sins on the tree - the substitution the song states."
+      },
+      {
+        "reference": "Matthew 27:45-51",
+        "relevance": "The darkness, the cry, and the final breath that the first verse narrates."
+      },
+      {
+        "reference": "Matthew 28",
+        "relevance": "The empty tomb and the rising that the second verse narrates."
+      },
+      {
+        "reference": "2 Corinthians 5:21",
+        "relevance": "The sinless one made sin for us - the exchange behind the bearing of shame."
+      },
+      {
+        "reference": "Ephesians 1:7",
+        "relevance": "Redemption through his blood - the phrase the chorus adopts."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Never_Lose_Sight",
+      "title": "Never Lose Sight",
+      "publisher": "Wikipedia",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_3",
+      "establishes": "Album release on 21 October 2016 on sixsteps and the track listing: 'God of Calvary' as track 5, 4:43, credited to Tomlin, Maher, Redman and Myrin.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://crossrhythms.co.uk/products/Chris_Tomlin/Never_Lose_Sight/163262/",
+      "title": "Chris Tomlin - Never Lose Sight",
+      "publisher": "Cross Rhythms",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Album review calling 'God of Calvary' a powerful co-write by Tomlin, Maher, Redman and Myrin; it does not discuss the song's content.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://genius.com/Chris-tomlin-god-of-calvary-lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

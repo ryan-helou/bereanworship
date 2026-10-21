@@ -1,0 +1,215 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Amazing Grace (My Chains Are Gone)",
+    "artist": "Chris Tomlin",
+    "artistType": "INDIVIDUAL",
+    "album": "See the Morning",
+    "releaseYear": 2006,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "John Newton's hymn text (public domain, with a traditional American melody) arranged with an added chorus by Chris Tomlin and Louie Giglio. PraiseCharts credits Newton, Tomlin and Giglio; copyright 2006, 2009, 2014 worshiptogether.com songs, sixsteps Music and Vamos Publishing, administered by Capitol CMG; CCLI 4768151; original key G. Tomlin's recording is on See the Morning (2006). The list's artist is right for the version churches know. Reviewed as the Newton text with the Tomlin/Giglio chorus; the Newton stanzas alone are public domain, the arrangement is not. Catalogue sellers vary on co-writer and publisher credits, so the CCLI database is the authority for licensing.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Four Newton stanzas plus an added chorus that returns three times, with no bridge. Stanzas one and two come first, stanza three follows the first chorus, and stanza four comes near the end with a short tag. Stanza one is a testimony of salvation by grace: lost then found, blind then seeing. Stanza two says grace both awakened fear of God and relieved it, and marks the hour of first believing. The chorus speaks to the congregation about God as the Savior who ransoms, whose mercy reigns and whose love does not end. Stanza three rests on God's promise and word as the singer's hope, with God as shield and portion. Stanza four says the creation will pass away while the God who called the believer endures, and ends addressed to God. The cross and resurrection are not named; ransom implies the cross. Christ is implied by Savior; the Spirit is not named.",
+    "claims": [
+      {
+        "claim": "Salvation is by grace: the singer was lost and blind and has been found and given sight.",
+        "subject": "Salvation by grace",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Grace taught the heart to fear God and also relieved that fear, from the hour of first believing.",
+        "subject": "Conviction and assurance",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Savior ransoms his people, mercy reigns, and his love does not end.",
+        "subject": "Redemption and mercy",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God has called the singer and his promise and word are the ground of hope; he is shield and portion.",
+        "subject": "God's promise and preservation",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The created order will pass away but the God who called the believer endures, and the believer is his for ever.",
+        "subject": "God's eternity and eternal security",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Grace",
+        "title": "Salvation as God's gift from first to last",
+        "explanation": "The hymn credits the whole of the singer's rescue to grace: finding, sight, the awakening of fear and its relief, and preservation to the end. Nothing in it rests on the singer's merit.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Ephesians 2:8-9",
+        "scriptureRationale": "Salvation by grace through faith, not of works - the hymn's governing claim."
+      },
+      {
+        "category": "Redemption",
+        "title": "The chorus: the Savior ransoms and mercy reigns",
+        "explanation": "The added chorus names a Savior who ransoms and a mercy that reigns, giving the congregation a statement of redemption it can sing as a body.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Mark 10:45",
+        "scriptureRationale": "The Son of Man giving his life as a ransom - the idea behind the chorus."
+      },
+      {
+        "category": "Assurance",
+        "title": "Preservation grounded in God's promise",
+        "explanation": "Stanzas three and four rest hope on God's word and on the God who outlasts creation, not on the singer's grip. Assurance is located in who God is.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MODERATE",
+        "scriptureReference": "John 10:28-29",
+        "scriptureRationale": "Christ's sheep held in his hand, no one able to snatch them away."
+      },
+      {
+        "category": "Scripture",
+        "title": "Newton's hymn is built on a passage",
+        "explanation": "The hymn is built on David's prayer in 1 Chronicles 17 and echoes the blind man's testimony and the reign of grace, so its wonder is scriptural rather than sentimental.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR",
+        "scriptureReference": "1 Chronicles 17:16-17",
+        "scriptureRationale": "David's wonder at God's unmerited favour, on which Newton built."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Salvation by grace",
+      "Redemption by ransom",
+      "Conviction of sin and the relief of the gospel",
+      "God's promise as the ground of hope",
+      "Preservation of the believer",
+      "God's eternity"
+    ],
+    "assessment": "Nothing to correct. The hymn is Newton's testimony of grace and the added chorus restates redemption in the congregation's voice. The cross and resurrection are implied (ransom) rather than named, and the Spirit is not reached, which is a limit of a short grace hymn rather than an error. The first-person voice reports what God did, not the singer's resolve."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A tune the room already knows",
+        "explanation": "The Newton hymn rides a traditional melody most congregations know, and the chorus is simple and repeated, so the song teaches itself in one hearing.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Use",
+        "title": "Bridges old and new",
+        "explanation": "Pairing a classic text with a plain chorus lets traditional and contemporary services share one song and one text.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published with G as the original key. Check the chorus against your own room; the melody is familiar and moves mostly by step.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "G (original per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns three times near the end, each time after a Newton stanza, so the refrain keeps returning to the same confession of ransom and mercy.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form and familiar in melody. The chorus is easy to learn, the stanzas are strophic, and nothing requires a soloist."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Directness",
+        "title": "Plain testimony in plain words",
+        "explanation": "Each stanza states one thing God did or promised, so the song needs little explanation. A visitor can follow the account of rescue.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The Savior is named by title and Christ is understood rather than spoken, so a newcomer may need the context of the Savior's work to hear the gospel fully."
+  },
+  "synthesis": {
+    "summary": "Newton's hymn of grace with an added chorus of ransom and reigning mercy. It credits rescue, awakening, assurance and preservation to God's grace and promise. The cross and resurrection are implied rather than named, and the Spirit is not reached. No doctrinal concern was found. No independent source assessing its content was found within the budget.",
+    "themes": [
+      "Grace",
+      "Salvation",
+      "Assurance",
+      "God",
+      "Providence",
+      "Hope"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Ephesians 2:8-9",
+        "relevance": "Salvation by grace through faith - the hymn's central claim."
+      },
+      {
+        "reference": "1 Chronicles 17:16-17",
+        "relevance": "David's prayer, the passage Newton built the hymn on."
+      },
+      {
+        "reference": "John 9:25",
+        "relevance": "The once-blind man's testimony of sight - the first stanza's image."
+      },
+      {
+        "reference": "Mark 10:45",
+        "relevance": "The ransom paid by the Son of Man - the chorus's idea."
+      },
+      {
+        "reference": "Romans 5:20-21",
+        "relevance": "Grace reigning through righteousness - the reign of mercy in the chorus."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/2517/amazing-grace-my-chains-are-gone-sheet-music",
+      "title": "Amazing Grace (My Chains Are Gone) - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: Newton, Tomlin and Giglio; copyright 2006/2009/2014 worshiptogether.com songs, sixsteps Music, Vamos; Capitol CMG; CCLI 4768151; original key G.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com/Chris-tomlin-amazing-grace-my-chains-are-gone-lyrics"
+    }
+  ]
+}

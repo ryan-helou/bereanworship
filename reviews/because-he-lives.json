@@ -1,0 +1,237 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Because He Lives",
+    "artist": "Bill and Gloria Gaither",
+    "artistType": "GROUP",
+    "album": "Because He Lives",
+    "releaseYear": 1971,
+    "genre": "Southern Gospel",
+    "isPublicDomain": false,
+    "notes": "Written by Bill and Gloria Gaither in 1970-71 during a hard season for the family, and recorded by the Bill Gaither Trio on the 1971 album Because He Lives (Heart Warming). First published as sheet music in 1971 by Gaither Music, Alexandria, Indiana, copyright 1971; the tune is named Resurrection. A widely recorded gospel standard used at Easter and in memorial services. The pronoun in the second verse has been debated: early printings capitalised it as Jesus, while the 1993 Homecoming songbook lowercased it. Reviewed as the song, not any one recording. No CCLI number was found.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Three verses, each followed by the same chorus. Verse one tells the gospel in the third person: God sent his Son, named Jesus, who came to love, heal and forgive, lived and died to buy pardon, and whose empty tomb shows he lives. Verse two sets the joy of a newborn beside the assurance that a child can meet uncertain days because Christ lives. Verse three anticipates the believer's own death, which gives way to victory, with glory ahead. The chorus draws the conclusion: because Christ lives, the singer faces tomorrow without fear and trusts him with the future, so that life is worth living. No bridge. The first verse is credal; the chorus and later verses are the singer's trust and assurance, grounded in the resurrection. The return of Christ and the Spirit are not reached.",
+    "claims": [
+      {
+        "claim": "God sent his Son, named Jesus, who came to love, heal and forgive.",
+        "subject": "The incarnation and ministry of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ lived and died to purchase pardon.",
+        "subject": "The atoning death of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The empty tomb shows that Christ lives.",
+        "subject": "The resurrection",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Because Christ lives, the believer can face an uncertain future without fear and trust him with it.",
+        "subject": "Assurance and providence",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ's resurrection gives a parent confidence for a child's uncertain days.",
+        "subject": "Providence and hope",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Death for the believer gives way to victory, with glory ahead.",
+        "subject": "Victory over death and heaven",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Resurrection",
+        "title": "Hope grounded in the risen Christ",
+        "explanation": "The chorus's confidence rests on a fact, that Christ lives, and not on the singer's courage. Everything that follows is made to depend on the resurrection.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "John 14:19",
+        "scriptureRationale": "Because I live, you also will live, the promise behind the title and its reasoning."
+      },
+      {
+        "category": "The gospel",
+        "title": "The gospel in a verse",
+        "explanation": "The first verse names the Son sent by God, his coming, his ministry of love, healing and forgiveness, his death to purchase pardon and the empty tomb. It is a short creed in story form.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Corinthians 15:3-4",
+        "scriptureRationale": "Christ died for our sins and was raised, the pattern the verse follows."
+      },
+      {
+        "category": "Death",
+        "title": "Victory over death for the believer",
+        "explanation": "The third verse looks past death to victory and glory, so a congregation sings its own death in light of Christ's, which is why the song serves funerals.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Corinthians 15:54-57",
+        "scriptureRationale": "Death swallowed up in victory through the Lord Jesus Christ."
+      },
+      {
+        "category": "Providence",
+        "title": "Trusting Christ with tomorrow",
+        "explanation": "The second verse and chorus set the future in Christ's hands, which is a legitimate use of the resurrection to console worry.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 8:38-39",
+        "scriptureRationale": "Nothing can separate the believer from God's love in Christ, the assurance the chorus applies to the future."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The incarnation",
+      "The atoning death of Christ",
+      "The bodily resurrection",
+      "Victory over death for believers",
+      "Christ's care for the future of his people",
+      "The hope of glory"
+    ],
+    "assessment": "Nothing to correct. The first verse states the gospel in sequence and the rest draws a believer's confidence from the resurrection. The chorus is testimony more than doctrine, but it rests squarely on Christ's rising. The return of Christ and the Spirit are not named. The second verse's pronoun has been read as the child or as Christ; either reading is orthodox."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A tune built to be sung",
+        "explanation": "A strophic gospel song with one chorus sung three times; it was a congregational standard within a few years of release and is learned in a single hearing.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Use",
+        "title": "Easter, funerals and trial",
+        "explanation": "Its content suits Easter, memorial services and seasons of fear, and it has been translated widely.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "A gospel verse before the testimony",
+        "explanation": "Verse one tells the gospel before the singer's assurance arrives, so the testimony has something to stand on.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Sung in the key the hymnal prints; the chorus climbs, so a congregation may want it one step lower than a solo recording. Test the chorus peak.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Hymnal-dependent (varies by edition)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The same chorus returns after each verse, but each return follows a new piece of the story, so the same confession lands on changed ground.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in design: simple strophic form, a memorable chorus, and words ordinary worshippers can adopt as their own testimony. The solo-trio recording is not a necessary model; the song works with plain accompaniment."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Jesus is named",
+        "explanation": "The first verse names Jesus and says what he did, so the chorus's 'he' is never in doubt.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Directness",
+        "title": "Plain words, one idea",
+        "explanation": "Each verse and the chorus say one clear thing, so the song is easy to follow on a first hearing.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The only ambiguity is the pronoun in the second verse, which hymnals have printed differently; neither reading is false."
+  },
+  "synthesis": {
+    "summary": "A 1971 gospel song by Bill and Gloria Gaither. Its first verse tells the gospel from the sending of the Son to the empty tomb; the second and third verses and the chorus draw from the resurrection a believer's confidence about the future and death. The chorus is testimony resting on the risen Christ. No theological concern was found. The second coming and the Spirit are not named.",
+    "themes": [
+      "Resurrection",
+      "Christ",
+      "Hope",
+      "Assurance",
+      "Providence",
+      "Heaven",
+      "Faith",
+      "Cross"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "John 14:19",
+        "relevance": "Because Christ lives, his people live, the basis of the title."
+      },
+      {
+        "reference": "1 Corinthians 15:3-4",
+        "relevance": "Christ died and was raised, the sequence of the first verse."
+      },
+      {
+        "reference": "1 Corinthians 15:54-57",
+        "relevance": "Death swallowed up in victory, behind the third verse."
+      },
+      {
+        "reference": "Matthew 1:21",
+        "relevance": "The name Jesus given because he saves, behind the first verse."
+      },
+      {
+        "reference": "Romans 8:38-39",
+        "relevance": "No power separates the believer from Christ's love, the chorus's assurance."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.hymnologyarchive.com/because-he-lives",
+      "title": "Because He Lives",
+      "publisher": "Hymnology Archive",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "Writers Bill and Gloria Gaither, 1971 album and sheet music (Gaither Music); tune Resurrection, the second-verse pronoun question, and that the song centres on the resurrection as ground of trust.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://gccsatx.com/hymns/because-he-lives/",
+      "title": "Lyrics page read for this review",
+      "publisher": "gccsatx.com",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

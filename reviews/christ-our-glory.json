@@ -1,0 +1,229 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Christ Our Glory",
+    "artist": "Sovereign Grace Music",
+    "artistType": "MINISTRY",
+    "album": "The Glorious Christ (Live)",
+    "releaseYear": 2019,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by David Zimmer and Nathan Stiff, as credited on PraiseCharts (a listing seen in search results; the page itself was not opened). The reading note says the words are adapted from Lyte; that is not confirmed by any source loaded for this review, so it is not stated here as fact. Published by Sovereign Grace Music; CCLI 7138118 per the same PraiseCharts listing. The Sovereign Grace album page (loaded) lists the album as The Glorious Christ (Live), released 6 December 2019, and gives track 16 as 'Christ Our Glory' without writer or copyright details on the page itself. The 2019 copyright year is from the PraiseCharts listing. The list's artist guess of Sovereign Grace Music is right. Reviewed as the song, in the 2019 Sovereign Grace form, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "CORPORATE_WE",
+    "structuralNotes": "Three verses, each followed by a chorus; the closing two lines of each chorus swap to echo the verse just sung, and the third chorus repeats its title line three times before the verse-three couplet. There is no bridge. The first verse is addressed to the congregation: the believer's rest is in heaven, so trials need not make them tremble, and death only shortens the journey home. The second verse exhorts the singers not to seek joy or set hope on what will perish, and to look for a city not made by hands and a country untouched by sin. The third verse sets present trouble against the glory in store and says the light of the Saviour outshines both joy and sorrow. The chorus names Christ as glory, hope and King forever. The cross and resurrection are not named; the Spirit is not named.",
+    "claims": [
+      {
+        "claim": "The believer's rest is in heaven, so trials need not make them tremble, and death only shortens the journey home.",
+        "subject": "Eschatological hope in the face of trial",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The people of God look for a heavenly city not built by hands and a country untouched by sin.",
+        "subject": "The heavenly city and new creation",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Present trouble cannot be compared with the glory that is to come.",
+        "subject": "The coming glory",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The light of the Saviour outshines both joy and sorrow.",
+        "subject": "Christ as the light of the believer",
+        "location": "VERSE_3",
+        "locationDetail": "the second half of the verse",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is glory, hope and King forever.",
+        "subject": "The reign of Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Hope",
+        "title": "Death as gain and the journey home",
+        "explanation": "The first verse tells the congregation that trials need not make them tremble and that death only shortens the road home. The hope is set on the final rest in Christ rather than on present circumstances, which keeps the comfort in the right place.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Philippians 1:21",
+        "scriptureRationale": "For to me to live is Christ and to die is gain - the confidence the first verse sets out."
+      },
+      {
+        "category": "Heaven",
+        "title": "The city and the country that are to come",
+        "explanation": "The second verse orients the singers toward a city not made by hands and a country untouched by sin, and so directs their hope away from what will be destroyed. The heavenly hope is stated as God's promised future rather than as a mood.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Hebrews 11:10",
+        "scriptureRationale": "Abraham looked for the city with foundations, whose architect and builder is God - the city the second verse names."
+      },
+      {
+        "category": "Christ",
+        "title": "Christ named as glory, hope and King",
+        "explanation": "The chorus names Christ himself as the object of glory, hope and the reign that lasts forever, so the praise has a specific object and is not a general hope.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Colossians 1:27",
+        "scriptureRationale": "Christ in you, the hope of glory - the phrase the chorus's naming of Christ as glory and hope echoes."
+      },
+      {
+        "category": "Suffering",
+        "title": "Trouble weighed against glory",
+        "explanation": "The third verse sets present trouble against the glory in store and says the light of the Saviour outshines both joy and sorrow, which gives the congregation a way to sing through suffering without denying it.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 8:18",
+        "scriptureRationale": "The sufferings of this present time are not worth comparing with the glory that is to be revealed."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The final rest of the believer in Christ",
+      "The heavenly city and the new creation",
+      "The reign of Christ as King forever",
+      "Christ as the believer's hope and glory",
+      "Comfort in suffering grounded in future glory"
+    ],
+    "assessment": "Nothing to correct. The song sets the congregation's rest, hope and comfort in Christ's glory and the city to come, and it exhorts singers to hold these above what passes away. Its line that the believer's rest is in heaven concerns the final rest, not a denial of present blessing. The cross, the resurrection and the Spirit are not named, so the song rests on the hope rather than on the saving work it presupposes."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Use",
+        "title": "A corporate hope for seasons of trial",
+        "explanation": "The plural voice and the subject of heaven make the song suited to a congregation facing hardship together.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "A chorus that picks up each verse",
+        "explanation": "Each chorus closes by echoing the verse just sung, so the room is led back to the same ground each time and the verse and chorus are tied together.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Published in Bb and C per PraiseCharts. No chart was read for this review, so the range is not stated. The text is dense with three verses and no bridge, so a leader may want to pace the verses.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Bb or C (published keys per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns after each verse and echoes the verse just sung. The third chorus repeats its title line three times, the one place repetition does more of the work.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in voice and form: plural, exhortatory and built to be sung by a room. Its text is heavier than most, with three verses and no bridge, so it asks more of the congregation's attention than a short chorus song does."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ named in the chorus",
+        "explanation": "The chorus names Christ as glory, hope and King, so the hope has a named object throughout.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Each verse answered by its chorus",
+        "explanation": "The echoing close of each chorus makes the link between the exhortation of each verse and the praise that follows it easy to follow.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in its claims. Its hope is stated plainly, and the one line a reader might take as a denial of present blessing, that the rest is in heaven, is about the final rest in Christ."
+  },
+  "synthesis": {
+    "summary": "A congregational hymn of hope that directs singers to their rest, glory and home in Christ: death as the road home, a heavenly city not made by hands, and the glory that outweighs present trouble. The chorus names Christ as glory, hope and King forever. Nothing in it is wrong; the cross, the resurrection and the Spirit are not named.",
+    "themes": [
+      "Christ",
+      "Hope",
+      "Heaven",
+      "Suffering",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "2 Corinthians 4:16-18",
+        "relevance": "Light and momentary affliction set against an eternal weight of glory - the contrast the third verse draws."
+      },
+      {
+        "reference": "2 Corinthians 5:1-5",
+        "relevance": "The eternal house not made with hands - the heavenly dwelling the second verse names."
+      },
+      {
+        "reference": "Hebrews 11:10",
+        "relevance": "The city whose architect and builder is God - the city the second verse looks for."
+      },
+      {
+        "reference": "Hebrews 11:16",
+        "relevance": "A better country, a heavenly one - the country the second verse names."
+      },
+      {
+        "reference": "Romans 8:18",
+        "relevance": "Present sufferings weighed against the glory to be revealed - the comparison in the third verse."
+      },
+      {
+        "reference": "Colossians 1:27",
+        "relevance": "Christ in you, the hope of glory - the chorus's naming of Christ as glory and hope."
+      },
+      {
+        "reference": "Revelation 22:5",
+        "relevance": "The glory of God and the Lamb lighting the new creation - the light the third verse sets against trouble."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://sovereigngracemusic.com/music/albums/the-glorious-christ-live/",
+      "title": "The Glorious Christ (Live) - album page",
+      "publisher": "Sovereign Grace Music",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher's album page: The Glorious Christ (Live), released 6 December 2019, with 'Christ Our Glory' as track 16; no writer or copyright line shown on the page.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://sovereigngracemusic.com/music/songs/christ-our-glory/",
+      "title": "Lyrics page read for this review",
+      "publisher": "Sovereign Grace Music",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}
