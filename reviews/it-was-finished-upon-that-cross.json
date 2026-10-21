@@ -1,0 +1,222 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "It Was Finished Upon That Cross",
+    "artist": "CityAlight",
+    "artistType": "GROUP",
+    "album": "It Was Finished Upon That Cross - Single",
+    "releaseYear": 2021,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Nigel Hendroff, Jonny Robinson and Rich Thompson; copyright 2021 CityAlight Music (admin. Integrity Music) and Shout! Music Publishing Australia (admin. Capitol CMG Publishing); CCLI 7171907. The list's guess of CityAlight is right. Published original key Eb. The release year is taken from the copyright line, since the catalogue page does not state one. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Two verses, each closing with a cross refrain, a bridge on death and resurrection, and a closing section of freedom and glory with a repeating tag. Verse one treasures the voice of Jesus declaring the work finished on the cross and evil triumphed over. Verse two declares the curse broken, a full pardon, and bold access to the Father in Christ's righteousness. The bridge says death and fear once held us but the risen Son sets us free. The last section celebrates freedom from darkness, the death of death and eternal glory. The voice is first person singular testimony that widens to corporate resurrection hope in the bridge. The Spirit, the church and the second coming are not reached.",
+    "claims": [
+      {
+        "claim": "Jesus declared the work of redemption finished on the cross, triumphing over evil.",
+        "subject": "The finished work of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The curse is broken and the believer is fully pardoned.",
+        "subject": "Redemption from the curse and justification",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Clothed in Christ's righteousness, the believer has bold access to the Father.",
+        "subject": "Imputed righteousness and access",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Death and fear once held us, but the risen Son sets us free.",
+        "subject": "Resurrection and freedom",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Death has died and eternal glory is the believer's hope.",
+        "subject": "Victory over death and future glory",
+        "location": "TAG",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "The cross as a finished work",
+        "explanation": "The song builds on Christ's own declaration that the work was finished and refrains to it at the end of every section, so assurance rests on what he completed rather than on the singer.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "John 19:30",
+        "scriptureRationale": "Christ's cry that it is finished - the claim the refrain keeps returning to."
+      },
+      {
+        "category": "Justification",
+        "title": "Pardon, no curse, righteousness given",
+        "explanation": "Verse two says the curse is broken, the pardon full, and the believer clothed in Christ's righteousness. Standing before God is credited, not earned.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Galatians 3:13",
+        "scriptureRationale": "Christ became a curse for us to redeem us from the law's curse."
+      },
+      {
+        "category": "Access",
+        "title": "Bold approach to the Father",
+        "explanation": "Because of the finished work, the singer draws near with confidence. That ties the cross to the believer's present access to God.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Hebrews 10:19-22",
+        "scriptureRationale": "Confidence to enter by the blood of Jesus."
+      },
+      {
+        "category": "Resurrection",
+        "title": "Death defeated, freedom given",
+        "explanation": "The bridge and closing section ground freedom from death and fear in the risen Son, and look ahead to eternal glory.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Corinthians 15:54-57",
+        "scriptureRationale": "Death swallowed up in victory through Christ."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The finished work of Christ on the cross",
+      "Redemption from the curse",
+      "Full pardon and no condemnation",
+      "Christ's righteousness given to the believer",
+      "Access to the Father",
+      "Resurrection and victory over death",
+      "Hope of eternal glory"
+    ],
+    "assessment": "Nothing to correct. The song keeps the cross, the pardon and the resurrection tied together, and its confidence rests on Christ's declared finished work. The singular testimony voice is credal in content. The Spirit, the church and the second coming are not reached."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A refrain a room can carry",
+        "explanation": "The cross refrain returns at the end of each section and in the closing tag, so a congregation learns it quickly and sings it with strength.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fits Good Friday, communion and assurance",
+        "explanation": "Its content suits Good Friday and Easter, the Lord's Supper, and any service stressing assurance of pardon.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published with Eb as the original key in 6/8. Test the refrain and closing section, and lower the key if the room sits low.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Eb (original per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The refrain returns to the same confession, that it is finished, after each section and several times in the tag; the repetition keeps the song on the cross rather than filling space.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form: a strong lift, a returning refrain and a tag that invites the whole room. The reading note records it as very singable."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ and the cross are plain",
+        "explanation": "The work of Jesus on the cross is the stated subject from the first verse, so no listener has to guess who is praised or why.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The vocabulary of curse, pardon and righteousness is biblical and easily taught; nothing invites a wrong reading."
+  },
+  "synthesis": {
+    "summary": "A cross-centred song built on Christ's declaration that the work was finished: the curse broken, a full pardon, bold access to the Father in Christ's righteousness, then death defeated by the risen Son and eternal glory ahead. Christ is named and the refrain keeps returning to the cross. Nothing in it is wrong; the Spirit and the church are not reached.",
+    "themes": [
+      "Cross",
+      "Christ",
+      "Grace",
+      "Salvation",
+      "Resurrection",
+      "Assurance",
+      "Hope",
+      "Heaven"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "John 19:30",
+        "relevance": "It is finished - the declaration the song is built on."
+      },
+      {
+        "reference": "Galatians 3:13",
+        "relevance": "Christ redeeming us from the curse - verse two."
+      },
+      {
+        "reference": "Colossians 2:13-15",
+        "relevance": "Forgiveness and triumph over the powers at the cross."
+      },
+      {
+        "reference": "Hebrews 10:19-22",
+        "relevance": "Bold access to God through Christ."
+      },
+      {
+        "reference": "Romans 8:1",
+        "relevance": "No condemnation for those in Christ."
+      },
+      {
+        "reference": "1 Corinthians 15:54-57",
+        "relevance": "Death swallowed up in victory - the bridge and close."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/76619/it-was-finished-upon-that-cross-sheet-music/rhythm",
+      "title": "It Was Finished Upon That Cross - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Hendroff, Robinson and Thompson, 2021 copyright line and publishers, CCLI 7171907, original key Eb.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.google.com/search?q=It+Was+Finished+Upon+That+Cross+City+Alight+lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel (Musixmatch)",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

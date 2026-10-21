@@ -1,0 +1,229 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Come Unto Jesus",
+    "artist": "Shane & Shane",
+    "artistType": "GROUP",
+    "album": "Modern Hymns",
+    "releaseYear": 2024,
+    "genre": "Modern hymn",
+    "isPublicDomain": false,
+    "notes": "Written by Laura Story, Jordan Kauflin and Matt Merker; copyright 2023 Getty Music Publishing, Matthew Merker Music, Jordan Kauflin Music, Getty Music Hymns and Songs and Laura's Stories and Songs (administered by Capitol CMG Publishing); CCLI 7228728. The recording churches know is Shane & Shane's, from Modern Hymns (Worship Initiative). Original key G, also offered in F, per PraiseCharts. The release year of 2024 is taken from the reading note; the catalogue gives only the 2023 copyright. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Three verses, each followed by a refrain, with a final repeated tag; the third verse flows into an extended repeat of the call. Verse one invites the weary and broken to Christ and echoes his gentle yoke. Verse two uses the imagery of the Lord's Supper: bread broken, the cup of promise, and feasting as sons and daughters. Verse three calls hearers to follow, to count worldly gain as loss, to take up the cross and to receive everlasting life. The refrain invites all to lay down their burdens and rest. The voice is a second person invitation, evangelistic and pastoral, speaking of Jesus in the third person, with a 'we' implied. It is built on Matthew 11:28-30 and the invitations of Isaiah 55 and John 6.",
+    "claims": [
+      {
+        "claim": "Christ invites the weary and burdened to come to him, and his yoke is gentle.",
+        "subject": "The invitation of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "All who come may lay their burdens down and find rest in him.",
+        "subject": "Rest in Christ",
+        "location": "REFRAIN",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "In the bread broken and the cup of promise Christ feeds his people, who feast as sons and daughters.",
+        "subject": "The Lord's Supper and adoption",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Following Christ means counting worldly gain as loss and taking up the cross.",
+        "subject": "The cost of discipleship",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Those who follow him receive life everlasting.",
+        "subject": "Eternal life",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "The gospel",
+        "title": "Christ's own invitation, sung",
+        "explanation": "The song sets Christ's call to the weary and burdened and puts the congregation in the position of both hearing and issuing it. Rest is offered in a person, not in a technique.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Matthew 11:28-30",
+        "scriptureRationale": "Come to me, all who labor; rest and a light yoke - the passage the song is built on."
+      },
+      {
+        "category": "Communion",
+        "title": "The table as a picture of the gospel",
+        "explanation": "Verse two draws on the Lord's Supper: bread broken, the cup of promise, and feasting as sons and daughters. It ties Christ's body and the new covenant to the welcome the refrain offers.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Luke 22:19-20",
+        "scriptureRationale": "The bread and the cup of the new covenant - the imagery the verse takes up."
+      },
+      {
+        "category": "Discipleship",
+        "title": "The invitation is costly",
+        "explanation": "Verse three does not leave the call at comfort: it speaks of counting worldly gain as loss and taking up the cross, then receiving everlasting life. Rest and the cost of following are held together.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Philippians 3:7-8",
+        "scriptureRationale": "Counting gain as loss for the sake of Christ."
+      },
+      {
+        "category": "Adoption",
+        "title": "Welcomed as sons and daughters",
+        "explanation": "The feast is set out as a family welcome, which echoes the Spirit of adoption who makes believers God's children.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MINOR",
+        "scriptureReference": "Romans 8:15",
+        "scriptureRationale": "Receiving the Spirit of adoption as sons."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Christ's free invitation to sinners and the weary",
+      "Rest in Christ",
+      "The Lord's Supper as a sign of his body and the new covenant",
+      "Adoption as sons and daughters",
+      "The cost of following Christ",
+      "Everlasting life"
+    ],
+    "assessment": "Nothing to correct. The song stays close to Christ's own invitation in Matthew 11, adds the table and the call to follow, and ends in eternal life. The atonement is present in the broken bread and cup rather than set out in full, and the cost of discipleship is not left out. No independent assessment of the song's content was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "An easy melody and a refrain to carry",
+        "explanation": "The refrain returns after every verse and the melody is easy, so a room learns it on the first pass and can sing the invitation to one another.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fitted to the table and to evangelism",
+        "explanation": "Its second verse suits communion, and the invitation form suits a call to worship or a response after the preaching of the gospel.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published in G, also offered in F (per PraiseCharts). Try F for mixed congregations.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "G (original per PraiseCharts); also F",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The refrain returns after every verse and again in a final tag, but each return follows a new part of the invitation, so the call to rest is repeated as a confession and not as filler.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Written as an invitation sung by a congregation, with an easy tune and a repeated refrain. The tag extends the call, so a leader should decide in advance how long to stay on it."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Jesus named and the call plain",
+        "explanation": "The invitation is Christ's, the refrain says what is offered, and the verses say what it costs and what follows.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The language is scriptural and plain. The communion imagery of verse two is familiar to churches that keep the table and is the only part that may need a sentence of explanation."
+  },
+  "synthesis": {
+    "summary": "A modern hymn built on Christ's invitation to the weary. Verse one calls the burdened to him, verse two draws on the Lord's Supper and adoption, verse three speaks of following him and receiving everlasting life, and the refrain invites all to rest. No doctrinal concern was found. The atonement is implicit in the bread and cup; no independent assessment was located.",
+    "themes": [
+      "Christ",
+      "Grace",
+      "Faith",
+      "Communion",
+      "Salvation",
+      "Hope",
+      "Church",
+      "Mission"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Matthew 11:28-30",
+        "relevance": "Christ's invitation to the weary and his gentle yoke - the base of the song."
+      },
+      {
+        "reference": "Isaiah 55:1-3",
+        "relevance": "Come to the waters and eat what is good - the open invitation."
+      },
+      {
+        "reference": "John 6:35",
+        "relevance": "Christ as the bread of life for those who come."
+      },
+      {
+        "reference": "Luke 22:19-20",
+        "relevance": "The bread and the cup of the new covenant."
+      },
+      {
+        "reference": "Philippians 3:7-8",
+        "relevance": "Counting gain as loss for Christ."
+      },
+      {
+        "reference": "Luke 9:23",
+        "relevance": "Taking up the cross daily to follow him."
+      },
+      {
+        "reference": "Psalm 34:8",
+        "relevance": "Taste and see that the Lord is good."
+      },
+      {
+        "reference": "Romans 8:15",
+        "relevance": "The Spirit of adoption who makes believers sons and daughters."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/85277/come-unto-jesus-sheet-music/orchestration",
+      "title": "Come Unto Jesus - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Laura Story, Jordan Kauflin and Matt Merker, CCLI 7228728, 2023 copyright line and publishers, original key G, album Modern Hymns.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel (Musixmatch text)",
+      "url": "https://www.google.com/search?q=Come+Unto+Jesus+Shane+%26+Shane+lyrics"
+    }
+  ]
+}

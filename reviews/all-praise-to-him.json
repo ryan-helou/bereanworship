@@ -1,0 +1,254 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "All Praise to Him",
+    "artist": "Sovereign Grace Music",
+    "artistType": "GROUP",
+    "album": "Prayers of the Saints (Live)",
+    "releaseYear": 2017,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Music and additional words by Matt Merker and Bob Kauflin, built on the hymn 'All Praise to Him Who Built the Hills' by Horatius Bonar (1808-1889). Copyright 2017 Sovereign Grace Praise, Sovereign Grace Music, administered by Integrity Music; CCLI 7096636. Recorded on the live album Prayers of the Saints, released 17 November 2017. The list's guess of Sovereign Grace Music is right. Original key G, with charts also published in Bb and Ab. The reviewed text is the Sovereign Grace three-verse version with no chorus. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Three eight-line verses and no chorus; each verse stands alone with a gentle build. The first verse praises God as creator and sustainer who is also near and hears prayer. The second praises Christ as the Servant King who left his throne, bore sin and shame, lived, died and rose as the sufficient sacrifice. The third praises the Holy Spirit and closes with a Trinitarian doxology of surrender and praise. The voice is corporate adoration, in the third person about God for most of the song and then in direct address to the triune God in the last lines. Scripture behind it: Genesis 1, Psalm 113, Isaiah 40 and 53, Mark 10:45, Philippians 2:6-11, 1 Timothy 2:5-6, Ephesians 1:3-14.",
+    "claims": [
+      {
+        "claim": "God is creator and sustainer of all things, yet near to his people and attentive to their prayer.",
+        "subject": "Creation, providence and nearness",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ, the Servant King, left his throne and took on the work of a servant.",
+        "subject": "The incarnation and humiliation of Christ",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ bore sin and shame, lived, died and rose again as the sufficient sacrifice.",
+        "subject": "Atonement and resurrection",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Holy Spirit is praised as God and as the one who applies salvation to believers.",
+        "subject": "The person and work of the Spirit",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Father, Son and Spirit are together worshipped, and the singers surrender themselves to the triune God.",
+        "subject": "The Trinity",
+        "location": "VERSE_3",
+        "lyricExcerpt": null,
+        "locationDetail": "the closing lines"
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Trinity",
+        "title": "All three persons praised in turn",
+        "explanation": "Each verse turns to a different person: the Father as creator, the Son as Servant King, the Spirit as giver and applier of grace, and the song ends by addressing the three together. Few congregational songs hold the Trinity in their structure.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Ephesians 1:3-14",
+        "scriptureRationale": "Blessing traced through the Father's choosing, the Son's redemption and the Spirit's seal - the pattern the verses follow."
+      },
+      {
+        "category": "Atonement",
+        "title": "The sufficient sacrifice of the Servant King",
+        "explanation": "The second verse says Christ left his throne, bore sin and shame, died and rose, and that his sacrifice suffices. The cross is stated as an act with a sufficient result, not left as a mood.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Isaiah 53:4-6",
+        "scriptureRationale": "The servant bearing griefs and sin in the sinner's place - the source of the verse's atonement language."
+      },
+      {
+        "category": "Incarnation",
+        "title": "Descent from the throne",
+        "explanation": "The Servant King language sets the incarnation within Philippians 2 and Mark 10:45: the one who is Lord took the place of a servant and gave himself for many.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Philippians 2:6-11",
+        "scriptureRationale": "The Son laying aside glory to take a servant's form and become obedient to death."
+      },
+      {
+        "category": "Creation",
+        "title": "God great and near",
+        "explanation": "The first verse sets God's creative and sustaining majesty beside his nearness to those who pray, which is the balance Psalm 113 and Isaiah 40 strike.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 113:4-9",
+        "scriptureRationale": "The Lord exalted above the nations yet stooping to look on the lowly."
+      },
+      {
+        "category": "Mediator",
+        "title": "One mediator, one ransom",
+        "explanation": "The song rests the sacrifice on Christ alone, in line with the apostolic statement that there is one mediator who gave himself as a ransom.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Timothy 2:5-6",
+        "scriptureRationale": "One mediator between God and men, who gave himself as a ransom for all."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God as creator and sustainer",
+      "The nearness of God and prayer",
+      "The incarnation of Christ",
+      "Substitutionary and sufficient atonement",
+      "The resurrection of Christ",
+      "The deity and work of the Holy Spirit",
+      "The Trinity"
+    ],
+    "assessment": "Nothing to correct. The song is a Trinitarian doxology that covers creation, incarnation, atonement, resurrection and the Spirit in three verses, each anchored in a named stretch of Scripture and each stating what God has done. It is a text that adapts Bonar's hymn rather than a feeling about God. The second coming and the church are not reached."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A hymn-like melody for the room",
+        "explanation": "Long verses with a hymn-like melody and no chorus mean a congregation learns one tune and uses it three times, with a gentle build rather than a lift to a high refrain.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fits a call to worship or a Trinity Sunday",
+        "explanation": "The movement from Father to Son to Spirit suits the opening of a service or a season that remembers the triune God, as well as ordinary Sunday use.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Each verse can stand alone",
+        "explanation": "Because there is no chorus, a leader can sing one verse, two or all three without damaging the sense.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Published in G, with charts also in Bb (capo 3) and Ab. The long eight-line verses need a confident leader the first time the song is used. Test the key against the room before the service.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "G (original per PraiseCharts); also Bb and Ab",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "NONE",
+    "repetitionAssessment": "No chorus and no refrain. Each verse carries new content, so nothing is repeated to fill space.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form and in voice. The melody is hymn-like and singable, and the lack of a chorus means no looping. The cost is length: the verses are long and a congregation meeting it for the first time depends on a leader who knows it."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Each person of the Trinity is addressed in turn",
+        "explanation": "Father, Servant King and Spirit are each praised in their own verse, and the closing lines address the three together. The congregation knows who is being praised at every point.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "One subject per verse",
+        "explanation": "Creation, the cross and the Spirit are each given their own verse, so no claim is crowded or open to being mistaken for another.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The vocabulary is that of a nineteenth-century hymn updated for singing, with some older phrasing, but the claims about the Father, the Son and the Spirit are plain and nothing is open to a wrong reading."
+  },
+  "synthesis": {
+    "summary": "A three-verse Trinitarian hymn adapted from Horatius Bonar's text: the Father as creator and hearer of prayer, Christ as the Servant King who left his throne, bore sin and shame and rose as the sufficient sacrifice, and the Spirit praised before a closing doxology of surrender. Nothing in it is wrong. No independent assessment of its teaching was found.",
+    "themes": [
+      "God",
+      "Trinity",
+      "Christ",
+      "Cross",
+      "Resurrection",
+      "Creation",
+      "Worship",
+      "Prayer"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Genesis 1",
+        "relevance": "God as creator, the first verse's ground."
+      },
+      {
+        "reference": "Psalm 113:4-9",
+        "relevance": "The Lord high above yet stooping to the lowly - the great-and-near balance of verse one."
+      },
+      {
+        "reference": "Isaiah 40:25-31",
+        "relevance": "The incomparable creator who strengthens the weary."
+      },
+      {
+        "reference": "Isaiah 53:4-6",
+        "relevance": "The servant bearing sin - the atonement of verse two."
+      },
+      {
+        "reference": "Mark 10:45",
+        "relevance": "The Son of Man coming to serve and give his life as a ransom."
+      },
+      {
+        "reference": "Philippians 2:6-11",
+        "relevance": "The Son's descent from glory and exaltation."
+      },
+      {
+        "reference": "1 Timothy 2:5-6",
+        "relevance": "One mediator who gave himself as a ransom."
+      },
+      {
+        "reference": "Ephesians 1:3-14",
+        "relevance": "Trinitarian blessing in election, redemption and the Spirit's seal."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/70586/all-praise-to-him-chords",
+      "title": "All Praise To Him (Sovereign Grace) - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Matt Merker and Bob Kauflin, 2017 copyright to Sovereign Grace Praise, CCLI 7096636, original key G.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "sovereigngracemusic.com",
+      "url": "https://sovereigngracemusic.com/music/songs/all-praise-to-him/"
+    }
+  ]
+}

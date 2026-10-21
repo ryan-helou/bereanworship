@@ -1,0 +1,232 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "The Lord Almighty Reigns",
+    "artist": "Keith & Kristyn Getty, Matt Papa, Matt Boswell",
+    "artistType": "GROUP",
+    "album": null,
+    "releaseYear": 2022,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Written by Keith Getty, Kristyn Getty, Matt Boswell and Matt Papa; copyright Getty Music and Messenger Hymns, with Love Your Enemies Publishing; CCLI 7207247. Getty Music says the writers gathered in Northern Ireland, Papa supplied the opening idea, Boswell drew on his own wedding for imagery, and the hymn was first sung at the Sing! Conference in Nashville in 2022, so 2022 is given as the release year; the exact copyright year was not shown on a page read. Recorded by the Gettys, with a Blessing Offor live version and a Shane & Shane version, and on The Worship Initiative with Hayden Browning. Original key Bb. Not the Sovereign Grace Psalm 93 song of the same name. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Four verses, each leading to a pre-chorus swell, with a hallelujah chorus after verses 2, 3 and 4 and a final repeat with a tag. The first verse looks ahead to an endless song from every tribe and tongue. The second pictures the bride of Christ praising the Lamb on the last day. The third sees the church join the feast, resting from battles and telling of God's wonders. The fourth calls the singers to proclaim Christ and share the gospel so that the chorus grows. The chorus ascribes the reign to the Lord Almighty. The voice is corporate and forward-looking, with a small mission turn in the last verse. Scripture behind it: Revelation 19:6-9 and 7:9-10, Psalms 93 and 47, Matthew 28:19-20.",
+    "claims": [
+      {
+        "claim": "People from every tribe and tongue will sing God's praise without end.",
+        "subject": "The multinational church in worship",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The bride of Christ will praise the Lamb at the marriage supper on the last day.",
+        "subject": "The return of Christ and the wedding feast",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The church will rest from its battles and join the feast, telling of God's wonders.",
+        "subject": "Rest and the consummation",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Believers are to proclaim Christ and share the gospel so that the chorus of the redeemed grows.",
+        "subject": "Mission and evangelism",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lord Almighty reigns, and the church answers with hallelujah.",
+        "subject": "The sovereignty of God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Sovereignty",
+        "title": "God reigns, and the church says so",
+        "explanation": "The chorus ascribes the reign to the Lord Almighty and answers it with hallelujah, setting present worship inside Revelation's picture of a God who reigns now and is acclaimed at the end.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Revelation 19:6",
+        "scriptureRationale": "The great multitude acclaiming that the Lord God Almighty reigns."
+      },
+      {
+        "category": "Hope",
+        "title": "The last day set before the congregation",
+        "explanation": "The second and third verses keep the marriage supper of the Lamb and the church's rest in view, so the song teaches the end toward which the church is going rather than only how it feels now.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Revelation 19:6-9",
+        "scriptureRationale": "The wedding supper of the Lamb and the bride made ready - the scene of verse two."
+      },
+      {
+        "category": "Church",
+        "title": "Every tribe and tongue",
+        "explanation": "The opening verse takes the multi-ethnic scope of the redeemed from Revelation 7 and makes the congregation one small part of it.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 7:9-10",
+        "scriptureRationale": "A great multitude from every nation standing before the throne and the Lamb."
+      },
+      {
+        "category": "Mission",
+        "title": "Worship that sends",
+        "explanation": "The final verse turns the vision into the task of proclaiming Christ and sharing the gospel, so that the song ends in the Great Commission rather than in contemplation alone.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Matthew 28:19-20",
+        "scriptureRationale": "Go and make disciples of all nations - the commission the last verse takes up."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The sovereign reign of God",
+      "The church as the bride of Christ",
+      "The marriage supper of the Lamb",
+      "The Lamb as the object of worship",
+      "The multi-ethnic worship of the redeemed",
+      "The rest of the people of God",
+      "The Great Commission"
+    ],
+    "assessment": "Nothing to correct. The song is forward-looking, and its claims are those of Revelation 7 and 19 set to a hallelujah chorus. It states little of what Christ has done at the cross, since its subject is the reign and the feast, so it works best beside a song that does. The mission turn in the last verse is faithful to Matthew 28."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A broad, singable hallelujah",
+        "explanation": "The chorus is built on a simple acclamation a congregation takes up quickly, and the pre-chorus builds gradually toward it.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "A call to worship or a closing",
+        "explanation": "Its scope suits the opening of a gathering or the sending out at the end, and the last verse points the congregation toward mission.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Each verse brings a new scene",
+        "explanation": "The verses move from the endless song to the bride, the feast and the task, so the chorus returns to different ground each time.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Published with Bb as the original key. The verses climb through a pre-chorus swell, so check the top of the chorus against a mixed congregation and lower the key if needed.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Bb (original per catalogue listings)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns three times and then once more with a tag. Each return follows a new scene of the last day, so the acclamation lands on changed ground rather than filling space.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Congregational in words and voice, with the usual risk of a built arrangement: the swell to the chorus can invite a leader to perform it. Kept at a congregational pitch, a room sings it well."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "The Lord Almighty and the Lamb are named",
+        "explanation": "The chorus names the Lord Almighty and the verses name the Lamb, so the addressee and the subject of the praise are clear throughout.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Scenes in order",
+        "explanation": "The verses move from the vision of the redeemed to the feast to the task, so each is read in light of the last.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The imagery is Revelation's and is stated plainly; a visitor unfamiliar with the book would need a word of explanation for the bride and the feast, but nothing invites a wrong reading. The gospel itself is implied rather than stated."
+  },
+  "synthesis": {
+    "summary": "A forward-looking hallelujah hymn drawn from Revelation: people of every tribe and tongue in endless praise, the bride of Christ at the Lamb's feast, the church resting from its battles, and a closing turn to proclaiming Christ so the chorus grows. The reign of the Lord Almighty is the refrain. Nothing in it is wrong; the cross is not narrated. No independent assessment of its teaching was found.",
+    "themes": [
+      "God",
+      "Sovereignty",
+      "Hope",
+      "Heaven",
+      "Church",
+      "Mission",
+      "Worship",
+      "Christ"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Revelation 19:6-9",
+        "relevance": "The Lord God Almighty reigns and the marriage supper of the Lamb - the chorus and the second verse."
+      },
+      {
+        "reference": "Revelation 7:9-10",
+        "relevance": "A multitude from every nation praising the Lamb - the first verse."
+      },
+      {
+        "reference": "Psalm 93",
+        "relevance": "The Lord reigns, robed in majesty - the source of the reign refrain."
+      },
+      {
+        "reference": "Psalm 47",
+        "relevance": "God as king over all the earth, to be praised by the nations."
+      },
+      {
+        "reference": "Matthew 28:19-20",
+        "relevance": "The commission to make disciples of all nations - the final verse's turn."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.gettymusic.com/fhotm-march24",
+      "title": "The Lord Almighty Reigns",
+      "publisher": "Getty Music",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher story: co-written with Papa and Boswell, tied to Revelation 19, first sung at Sing! 2022; presents the song as heaven's wedding feast and a call to evangelism.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "worshiptogether.com",
+      "url": "https://www.worshiptogether.com/songs/the-lord-almighty-reigns-matt-papa-matt-boswell/"
+    }
+  ]
+}

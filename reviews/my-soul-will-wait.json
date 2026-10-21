@@ -1,0 +1,230 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "My Soul Will Wait (Psalm 62)",
+    "artist": "Sovereign Grace Music",
+    "artistType": "GROUP",
+    "album": "Unchanging God: Songs From The Book Of Psalms Vol. 1",
+    "releaseYear": 2021,
+    "genre": "Psalm setting / Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Bob Kauflin and Keaton Bunting; copyright 2021 Sovereign Grace Praise, administered by Integrity Music, published with Sovereign Grace Music; CCLI 7190363. Appears on Sovereign Grace's Unchanging God, Psalms Vol. 1. The same text is also sung on a live Getty Sing! recording. Original key Eb per PraiseCharts, also offered in F. Release year taken from the copyright line, not a separate release record. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Three verses with the chorus after the first two, the third verse leading to the chorus with a tagline, and a closing bridge. The verses describe trusting God among enemies, fear, darkness and threats, and trace the outcome from the cross to the defeat of death. The chorus affirms God as rock, salvation, refuge and foundation and resolves to wait on him. The bridge moves from the singular voice to a corporate 'we' who pour out their hearts and trust a perfect Savior. The voice is first person singular, lament and trust, addressed to the Lord. The song is built on Psalm 62 and draws on Psalm 18, Isaiah 40, 1 Corinthians 15, Romans 8 and Lamentations 3.",
+    "claims": [
+      {
+        "claim": "In fear, darkness and opposition the believer's trust rests on God alone, not on any other help.",
+        "subject": "Trust in God amid threats",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is the believer's rock, salvation, refuge and foundation.",
+        "subject": "The character of God as refuge",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer waits quietly on the Lord, since waiting on him is good.",
+        "subject": "Waiting on God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The outcome of Christ's work is traced from the cross to the defeat of death.",
+        "subject": "The cross and victory over death",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Nothing can separate God's people from his love in Christ.",
+        "subject": "Assurance",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's people together pour out their hearts to him and trust a perfect Savior.",
+        "subject": "Corporate trust in Christ",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Scripture",
+        "title": "A psalm sung as a psalm",
+        "explanation": "The song is built on Psalm 62 and keeps its movement: trust in God alone, set against people who threaten, resolved into waiting. A congregation learns the psalm's own logic, not a mood about it.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 62:1-2",
+        "scriptureRationale": "Rest for the soul in God alone, who is rock, salvation and fortress - the base of the song."
+      },
+      {
+        "category": "God",
+        "title": "God as the ground of trust",
+        "explanation": "The chorus rests the singer's waiting on who God is: rock, salvation, refuge and foundation. The resolve to wait is grounded in his character, not in the singer's strength.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 18:2",
+        "scriptureRationale": "The Lord as rock, fortress and refuge - the names the chorus gathers."
+      },
+      {
+        "category": "Cross",
+        "title": "Cross and resurrection answer the threats",
+        "explanation": "The verses move from present fear to the cross and the defeat of death, so the believer's confidence is tied to what Christ has done and not only to the psalm's older setting.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Corinthians 15:55-57",
+        "scriptureRationale": "Victory over death through Christ - the outcome the verses trace."
+      },
+      {
+        "category": "Assurance",
+        "title": "Love that cannot be broken",
+        "explanation": "The song draws on Romans 8 to say nothing finally separates God's people from his love in Christ, which lets a lament end in trust rather than resignation.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 8:38-39",
+        "scriptureRationale": "Nothing in creation can separate us from God's love in Christ."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God as the sole refuge and salvation of his people",
+      "Trust in God amid suffering and opposition",
+      "The cross and the defeat of death",
+      "The believer's security in Christ",
+      "Waiting on the Lord as faith"
+    ],
+    "assessment": "Nothing to correct. A faithful setting of Psalm 62 that adds the New Testament answer: the verses move from threat to the cross and the defeat of death, and the bridge puts the trust in a perfect Savior. The gospel is present but implicit rather than the song's whole subject. No independent assessment of the song's content was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Use",
+        "title": "A slow song for hard seasons",
+        "explanation": "Reflective rather than driving, it gives a congregation words for fear and waiting, and ends in trust. It suits a slower slot after a reading or sermon on trust.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "The bridge widens the voice",
+        "explanation": "The closing bridge moves from the singular voice to a corporate we, so a room that began by singing alone ends singing together.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Published in Eb, also offered in F (per PraiseCharts). The range is modest; test the chorus in the room's key.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Eb (original per PraiseCharts); also F",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus recurs four times, each time after a new description of fear or deliverance, so the resolve to wait is renewed on changed ground.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "A congregational psalm setting with a modest range and a reflective feel. The verses are in the singular, but the bridge brings the whole room in. It suits a quieter place in a service."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "God named by what he is",
+        "explanation": "The chorus gives God plain names - rock, salvation, refuge, foundation - so the addressee is never vague.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The imagery is the psalm's own and needs no explanation. The gospel is implied by the cross and the defeat of death rather than stated at length."
+  },
+  "synthesis": {
+    "summary": "A setting of Psalm 62 for congregational use. The verses describe trusting God amid enemies, fear and darkness and trace the outcome from the cross to the defeat of death; the chorus calls God rock, salvation, refuge and foundation and resolves to wait; the bridge turns to corporate trust. No doctrinal concern was found. The gospel is implicit; no independent assessment was located.",
+    "themes": [
+      "God",
+      "Faith",
+      "Prayer",
+      "Suffering",
+      "Hope",
+      "Assurance",
+      "Scripture",
+      "Providence"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 62:1-2",
+        "relevance": "Rest for the soul in God alone - the base text of the song."
+      },
+      {
+        "reference": "Psalm 62:5-8",
+        "relevance": "Waiting, trusting at all times and pouring out the heart before him."
+      },
+      {
+        "reference": "Psalm 18:2",
+        "relevance": "The Lord as rock, fortress and refuge."
+      },
+      {
+        "reference": "Isaiah 40:31",
+        "relevance": "Strength renewed for those who wait on the Lord."
+      },
+      {
+        "reference": "1 Corinthians 15:55-57",
+        "relevance": "Victory over death through Christ."
+      },
+      {
+        "reference": "Romans 8:31-39",
+        "relevance": "No separation from God's love in Christ."
+      },
+      {
+        "reference": "Lamentations 3:25-26",
+        "relevance": "It is good to wait quietly for the Lord."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/77965/my-soul-will-wait-psalm-62-sheet-music/orchestration",
+      "title": "My Soul Will Wait (Psalm 62) - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Bob Kauflin and Keaton Bunting, CCLI 7190363, 2021 copyright line, publishers, original key Eb, album Unchanging God Vol. 1.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel (Musixmatch text)",
+      "url": "https://www.google.com/search?q=My+Soul+Will+Wait+Psalm+62+Sovereign+Grace+Music+lyrics"
+    }
+  ]
+}

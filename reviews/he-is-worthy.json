@@ -1,0 +1,232 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "He Is Worthy",
+    "artist": "Sovereign Grace Music",
+    "artistType": "GROUP",
+    "album": "The Glorious Christ (Live)",
+    "releaseYear": 2019,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by David Zimmer and Nathan Stiff; copyright 2019 Sovereign Grace Worship (ASCAP) and Sovereign Grace Praise (BMI), administered by Integrity Music, published through Sovereign Grace Music; CCLI 7138112. The recording churches know is the live version sung by Lacy Hudson on The Glorious Christ (Live). The publisher page gives no separate album release year and no writing story. Reviewed as the song, not as one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Three verses, each closing on a short worthiness refrain, then a doxology chorus, a bridge of holiness acclamation sung twice, and a return to the chorus. The verses open in the third person about Christ and declare who he is: the Son of God, the Word made flesh, and the sacrificial Lamb who cancels the debt and rises. The chorus turns to direct address in a corporate voice, ascribing glory to him and lifting his name. The bridge addresses the Lord Almighty as uniquely holy and worthy of praise. There is little personal experience; the song is adoration. Christ and the Lord Almighty are named. The Spirit is not reached.",
+    "claims": [
+      {
+        "claim": "Christ is the Son of God, the eternal Word who became flesh.",
+        "subject": "The incarnation",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is the sacrificial Lamb who cancels the debt of sin.",
+        "subject": "Atonement",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ rose and reigns, and every name is below his.",
+        "subject": "The resurrection and lordship of Christ",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The congregation ascribes glory to Christ and lifts up his name as without rival.",
+        "subject": "Worship of Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lord Almighty is uniquely holy and worthy of praise.",
+        "subject": "The holiness of God",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christ",
+        "title": "Worthiness grounded in who Christ is and what he did",
+        "explanation": "Each verse names a reason for the refrain: the Son's person, the Lamb's work that cancels the debt, and the rising. Worship rests on his identity and acts rather than on the singer's feeling.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Revelation 5:12",
+        "scriptureRationale": "The Lamb who was slain is worthy to receive honor and glory - the refrain's basis."
+      },
+      {
+        "category": "Atonement",
+        "title": "The Lamb who cancels the debt",
+        "explanation": "The debt-cancelling Lamb is stated as the ground of Christ's worthiness, tying praise to the cross and resurrection.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Colossians 2:14",
+        "scriptureRationale": "The record of debt nailed to the cross - the cancellation the verse sings."
+      },
+      {
+        "category": "Incarnation",
+        "title": "The Word made flesh",
+        "explanation": "Christ is named as the Son of God and the incarnate Word, so the one praised is both divine and human.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "John 1:14",
+        "scriptureRationale": "The Word became flesh and dwelt among us."
+      },
+      {
+        "category": "God",
+        "title": "Holiness acclaimed in Scripture's own pattern",
+        "explanation": "The bridge takes up the seraphs' and living creatures' cry of holiness, setting a congregation inside the heavenly liturgy.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 6:3",
+        "scriptureRationale": "Holy, holy, holy is the Lord of hosts - the acclamation of the bridge."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The deity of Christ",
+      "The incarnation",
+      "Substitutionary atonement as Lamb",
+      "The resurrection and reign of Christ",
+      "The holiness of God",
+      "Christ's name above every name"
+    ],
+    "assessment": "Nothing to correct. The song stays on Christ's person and work and moves from verses that say who he is to a congregational ascription of glory. It is built on Revelation 4 and 5, Isaiah 6, John 1 and Philippians 2. The Spirit is not reached, and no independent assessment of its content was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Voice",
+        "title": "Corporate address to Christ",
+        "explanation": "The chorus is plural and direct, so a room sings together to Christ rather than reporting personal experience.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Simple sections a room can learn",
+        "explanation": "Each section is short and plain, with a repeated refrain that a congregation picks up quickly.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Sheet music is published in E. No chart was read here, so test the chorus and bridge against your room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "E (per PraiseCharts catalogue listing)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The refrain closes each verse, the bridge is sung twice and the chorus returns at the end. Each return follows a statement of who Christ is, so the repetition is a confession being affirmed.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in words and form: plural address and simple sections. It is a long song because of its repeated refrains, so leaders should plan the length. Its content suits any service focused on Christ's worth, communion, and Easter or Advent."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ and the Lord Almighty are named",
+        "explanation": "The addressee is never an unspecified 'you': the Son, the Word and the Lamb are named, and the bridge names the Lord Almighty.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. Vocabulary is biblical (Lamb, Word, holy) and each claim is plainly stated."
+  },
+  "synthesis": {
+    "summary": "A Christ-centered song of adoration. The verses state who Christ is, as Son, incarnate Word and sacrificial Lamb who cancels the debt and rises. The chorus ascribes glory to him in a corporate voice and the bridge acclaims the Lord Almighty's holiness. No concern was found. The Spirit is not reached and no independent assessment was found.",
+    "themes": [
+      "Christ",
+      "Worship",
+      "Cross",
+      "Resurrection",
+      "Holiness",
+      "God"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Revelation 5:12",
+        "relevance": "The Lamb who was slain is worthy - the song's refrain."
+      },
+      {
+        "reference": "Isaiah 6:3",
+        "relevance": "The holiness acclamation the bridge takes up."
+      },
+      {
+        "reference": "Revelation 4:8",
+        "relevance": "The living creatures' unceasing cry of holiness."
+      },
+      {
+        "reference": "John 1:14",
+        "relevance": "The Word made flesh - the incarnation in the verses."
+      },
+      {
+        "reference": "Colossians 2:14",
+        "relevance": "The debt cancelled at the cross."
+      },
+      {
+        "reference": "Philippians 2:9-11",
+        "relevance": "The name above every name."
+      },
+      {
+        "reference": "Psalm 96:4",
+        "relevance": "The Lord is great and greatly to be praised."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://sovereigngracemusic.com/music/songs/he-is-worthy/",
+      "title": "he is worthy",
+      "publisher": "Sovereign Grace Music",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher record: writers David Zimmer and Nathan Stiff, 2019 copyright line, CCLI 7138112, The Glorious Christ (Live) recording.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://praisecharts.com/songs/details/74205/he-is-worthy-sheet-music",
+      "title": "he is worthy sheet music",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: authors, CCLI 7138112, published key E, 4/4.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel (Musixmatch text)",
+      "url": "https://www.google.com/search?q=He+Is+Worthy+Sovereign+Grace+Music+lyrics"
+    }
+  ]
+}

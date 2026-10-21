@@ -1,0 +1,220 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "All Creatures (Sing the Harmony)",
+    "artist": "Shane & Shane",
+    "artistType": "GROUP",
+    "album": "Psalms, Hymns, and Spiritual Songs (Live)",
+    "releaseYear": 2023,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "A new song by Shane Barnard, Bryan Fowler and Ross Fishburn built on St Francis of Assisi's canticle in William Draper's English hymn text. The studio listing on WorshipTogether credits the three modern writers, CCLI 7216561; PraiseCharts credits the live recording to Draper, St Francis, Barnard and Fowler without Fishburn, with original key D, copyright administered through Essential Music Publishing and Songs From Wellhouse (Capitol CMG Publishing). The two listings disagree on credits and the page shows no year; 2023 is the live album year from the reading note. The title appears as 'Sing the Harmony' and 'Sing In Harmony' in different catalogues. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "CORPORATE_WE",
+    "structuralNotes": "Classic hymn stanzas praising God through the elements of creation, with a repeated hallelujah response, a modern refrain inviting every part of creation to sing, and a final stanza of Trinitarian praise. The verses call sun, moon, wind, clouds and the evening lights to praise the Creator. The added refrain calls all landscapes and all creation to join the song, and repeats several times. The closing stanza turns to humble worship by all things and then to praise of Father, Son and Spirit. The voice is apostrophe and exhortation, with the congregation joining creation in corporate 'us' language.",
+    "claims": [
+      {
+        "claim": "The sun, moon, wind, clouds and evening lights are called to praise their Creator.",
+        "subject": "God as Creator",
+        "location": "VERSE_1",
+        "locationDetail": "the hymn stanzas",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "All landscapes and all creation are invited to join the singing.",
+        "subject": "Creation's praise",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Creation and the congregation sing together, with the congregation joining all that God has made.",
+        "subject": "The church within creation's praise",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "All things worship God in humility.",
+        "subject": "Humble worship",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Father, Son and Spirit are praised together.",
+        "subject": "The Trinity",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Creation",
+        "title": "The Creator is the one praised",
+        "explanation": "Creation is called to praise God, not praised itself. The stanzas keep the Creator as the object of every call, which is the logic of Psalm 148.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Psalm 148:1-5",
+        "scriptureRationale": "Sun, moon, stars and heavens called to praise the Lord - the idiom the stanzas use."
+      },
+      {
+        "category": "Trinity",
+        "title": "The closing stanza praises Father, Son and Spirit",
+        "explanation": "The song ends by naming all three persons together in praise, which gives a creation hymn a Trinitarian close.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Worship",
+        "title": "Creation's praise joined by the church",
+        "explanation": "The refrain and the 'with us' language place the congregation inside the whole creation's praise rather than apart from it, echoing the groaning and hope of Romans 8.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 8:19-22",
+        "scriptureRationale": "Creation waiting with eager longing for redemption - creation and the church in one hope."
+      },
+      {
+        "category": "Scripture",
+        "title": "Built on the psalms and the song of the three",
+        "explanation": "Psalm 148, Psalm 150, Psalm 96 and the song of the three in Daniel 3 are the pattern, and the refrain's mountains and fields call back Isaiah.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 55:12",
+        "scriptureRationale": "Mountains and hills breaking into song - the refrain's picture."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God as Creator",
+      "Creation's duty to praise its Maker",
+      "The Trinity",
+      "The church joining creation in worship"
+    ],
+    "assessment": "Nothing to correct. Calling creation to praise is the idiom of Psalm 148, not nature worship, and the Creator is kept as the object throughout. The song states little of the gospel, which is not its subject, and ends in praise of Father, Son and Spirit. No independent assessment of the song's content was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Short, learnable responses",
+        "explanation": "Short hallelujah responses and a refrain that returns make it very easy for a room to join on first hearing.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fits creation, harvest and gathering praise",
+        "explanation": "The corporate voice and wide scope suit services focused on creation, thanksgiving or a call to worship.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published in D, with C also offered. No chart was read, so the pitches are not stated; test the refrain with the room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "D (original per PraiseCharts); C also published",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The modern refrain repeats several times, with short hallelujah responses between stanzas. The repetition carries the song's one idea of all creation joining, and the stanzas still supply new content.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in its voice and very easy to sing. The repetition is heavy and mostly serves the thought of one great chorus, though a leader could let the refrain run longer than the words earn."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Creator, Father, Son and Spirit named",
+        "explanation": "The Creator is the object of every call and the final stanza names the three persons, so the song is plainly about God.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The poetic address to sun, moon and wind could startle a new hearer, but the Creator is named as the one praised and the psalms use the same figures."
+  },
+  "synthesis": {
+    "summary": "A new refrain and arrangement by Shane Barnard, Bryan Fowler and Ross Fishburn on the hymn text of St Francis in William Draper's English. The stanzas call the elements of creation to praise their Creator, the refrain invites all creation to join, and the last stanza praises Father, Son and Spirit. The address to creation follows Psalm 148. No concern found; no independent assessing source found.",
+    "themes": [
+      "God",
+      "Trinity",
+      "Creation",
+      "Worship",
+      "Thanksgiving",
+      "Providence"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 148",
+        "relevance": "Sun, moon, stars and weather called to praise the Lord - the stanzas' idiom."
+      },
+      {
+        "reference": "Psalm 150",
+        "relevance": "Let everything that has breath praise the Lord - the hallelujah close."
+      },
+      {
+        "reference": "Daniel 3:57-88",
+        "relevance": "The song of the three calling all creation to bless the Lord."
+      },
+      {
+        "reference": "Isaiah 40:4",
+        "relevance": "Valleys lifted and mountains made low - landscapes in the refrain."
+      },
+      {
+        "reference": "Isaiah 55:12",
+        "relevance": "Mountains and hills break into song - creation singing."
+      },
+      {
+        "reference": "Psalm 96:11-12",
+        "relevance": "Heavens, earth, sea and fields rejoice before the Lord."
+      },
+      {
+        "reference": "Romans 8:19-22",
+        "relevance": "Creation waiting in hope with the children of God."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://praisecharts.com/songs/details/80876/all-creatures-sing-in-harmony-live-sheet-music",
+      "title": "All Creatures (Sing In Harmony) (Live) - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Draper, St Francis, Barnard and Fowler, CCLI 7216561, publishers, original key D, album Psalms Hymns And Spiritual Songs (Live).",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel (Musixmatch text)",
+      "url": "https://www.google.com/search?q=All+Creatures+Sing+the+Harmony+Shane+%26+Shane+lyrics"
+    }
+  ]
+}

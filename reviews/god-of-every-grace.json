@@ -1,0 +1,233 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "God of Every Grace",
+    "artist": "Shane & Shane",
+    "artistType": "GROUP",
+    "album": "Modern Hymns",
+    "releaseYear": 2023,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Written by Keith Getty, Kristyn Getty, Matt Boswell and Bryan Fowler; copyright 2023 Getty Music Publishing, Messenger Hymns, bryanfowlersongs and Be Essential Songs, administered by Capitol CMG and Essential Music Publishing; CCLI 7223235. Kristyn Getty writes that it began with a melody and lyric from Fowler, and that the four shaped it over a couple of months, prompted partly by the 2023 Nashville school shooting and by family grief. The Getty, Boswell and Papa recording appears on I Set My Hope on Jesus (2023); Shane & Shane recorded it on Modern Hymns. Reviewed as the song, not as any one recording. Matt Papa is a recording artist, not a credited writer.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Three verses, each followed by the chorus, with the chorus repeated again in a closing outro. Verse one refuses to let sorrow steal hope, because the gospel shines in weakness; affliction is counted as a source of wisdom and God as the true treasure. Verse two prays for strength to rise, recalls Christ bearing grief at the cross, and trusts him to lead to glory. Verse three looks ahead to the dawn of hope, God's mercy swallowing up pain, and the gathering of God's children in heaven. The chorus praises the God who counts tears and holds days, and sings through sorrow in faith. The voice is first person singular lament and trust; the chorus is a personal doxology, with a corporate heaven scene in verse three. God is named as the addressee in the title and chorus; Christ appears at the cross.",
+    "claims": [
+      {
+        "claim": "The gospel's light shows in weakness, and affliction can be counted as a source of wisdom, with God himself as the believer's treasure.",
+        "subject": "Suffering and God's purposes",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer asks God for strength to rise and trusts him to lead through hardship to glory.",
+        "subject": "God's sustaining grace",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ bore grief at the cross, so he knows and carries the believer's sorrow.",
+        "subject": "Christ's suffering and atonement",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's mercy will swallow up pain, and his children will be gathered in heaven.",
+        "subject": "Final hope and glory",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God counts every tear and holds every day, so the believer can sing through sorrow in faith.",
+        "subject": "Providence and God's care",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Suffering",
+        "title": "Trust in God through affliction",
+        "explanation": "The song does not deny sorrow; it sings through it, grounding hope in God's character and purposes rather than in circumstances. Affliction is set under God's wisdom, which is the biblical way of facing it.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "2 Corinthians 4:7-9",
+        "scriptureRationale": "Afflicted but not crushed, treasure in jars of clay - the song's posture toward weakness."
+      },
+      {
+        "category": "Providence",
+        "title": "A God who counts tears and holds days",
+        "explanation": "The chorus rests the believer's comfort on God's attentive care, not on the singer's strength. It is a pastoral picture of providence that a grieving congregation can hold.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 56:8",
+        "scriptureRationale": "God keeping count of tossings and storing tears - the image the chorus builds on."
+      },
+      {
+        "category": "Christ",
+        "title": "Christ the suffering one at the centre",
+        "explanation": "Verse two places Christ bearing grief at the cross as the reason the believer can trust him in pain. The cross is the answer to suffering, not a decoration.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 53:4",
+        "scriptureRationale": "He has borne our griefs and carried our sorrows."
+      },
+      {
+        "category": "Hope",
+        "title": "The end of pain and the gathering in heaven",
+        "explanation": "The last verse fixes hope on God's mercy swallowing pain and the gathering of his children, so lament ends in promise rather than resignation.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 21:4",
+        "scriptureRationale": "God wiping every tear and ending death and mourning."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God's providence and care in suffering",
+      "Christ bearing grief at the cross",
+      "God's strength made perfect in weakness",
+      "The restoring grace of God",
+      "Final hope: pain ended and God's children gathered"
+    ],
+    "assessment": "Nothing to correct. The song speaks of suffering as ordinary Christian experience and answers it with God's care, Christ's cross and the promise of heaven. It is a song of comfort and trust more than a statement of the gospel's full order: sin and the resurrection are not reached, and the atonement appears as Christ bearing grief rather than sin. That is an absence, not an error."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A steady, pastoral melody",
+        "explanation": "The tune is steady and easy to learn, and the chorus returns often enough for a room to take it up by the second time through.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fits seasons of grief and lament",
+        "explanation": "Few modern songs give a congregation words for sorrow that still end in hope. It suits funerals, hard weeks and ordinary Sundays where people are hurting.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published with E as the original key, and also in Eb. Test the chorus for a mixed congregation and lower it if the top is a strain.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "E (original per PraiseCharts), also Eb",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns after every verse and again in the outro, but each return follows a new stage of the sorrow-to-hope movement, so the same confession lands on changed ground.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form and gentle in delivery. The chorus is learned quickly and the verses move at a pace that suits corporate singing. The voice is singular, which suits the personal register of lament."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "God addressed plainly",
+        "explanation": "The title and chorus name God as the one who sustains, so the song is never about an unnamed comfort. Christ is named at the cross.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in what it claims. Its picture language, tears counted and days held, is biblical and plainly understood. The gospel itself is implicit rather than set out, which is a matter of scope."
+  },
+  "synthesis": {
+    "summary": "A modern hymn of suffering and trust: sorrow is not denied, affliction is placed under God's wisdom, Christ is remembered bearing grief at the cross, and the final verse looks to pain swallowed by mercy and God's children gathered. God is named and the claims rest on his character. It does not reach sin, the resurrection or the Spirit, and its voice is singular.",
+    "themes": [
+      "God",
+      "Suffering",
+      "Providence",
+      "Hope",
+      "Heaven",
+      "Grace",
+      "Lament",
+      "Christ"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "1 Peter 5:10",
+        "relevance": "The God of all grace who restores after a little suffering - the song's title and theme."
+      },
+      {
+        "reference": "2 Corinthians 4:7-9",
+        "relevance": "Afflicted yet not crushed, treasure in jars of clay - the first verse's stance."
+      },
+      {
+        "reference": "2 Corinthians 12:9",
+        "relevance": "God's power made perfect in weakness - the gospel shining through weakness."
+      },
+      {
+        "reference": "Psalm 56:8",
+        "relevance": "God keeping count of tears - the chorus's image."
+      },
+      {
+        "reference": "Isaiah 53:4",
+        "relevance": "The servant bearing griefs and sorrows - Christ at the cross in verse two."
+      },
+      {
+        "reference": "Isaiah 25:8",
+        "relevance": "Death swallowed up forever - the third verse's hope."
+      },
+      {
+        "reference": "Revelation 21:4",
+        "relevance": "Every tear wiped away - the final gathering."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://challies.com/articles/god-of-every-grace-the-story-behind-the-song",
+      "title": "God of Every Grace: The Story Behind the Song",
+      "publisher": "Challies.com (guest article by Kristyn Getty)",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_3",
+      "establishes": "Co-writer Kristyn Getty's own account: origin with Bryan Fowler's melody, shaped over months by the four writers, and her description of the song's teaching on suffering. Not independent.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.praisecharts.com/songs/details/85181/god-of-every-grace",
+      "title": "God of Every Grace - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Keith Getty, Kristyn Getty, Matt Boswell and Bryan Fowler, CCLI 7223235, 2023 copyright and publishers, original key E, Shane & Shane on Modern Hymns.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com/Keith-and-kristyn-getty-matt-boswell-and-matt-papa-god-of-every-grace-lyrics"
+    }
+  ]
+}

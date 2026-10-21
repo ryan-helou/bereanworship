@@ -1,0 +1,244 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "But for the Cross of Christ",
+    "artist": "Keith & Kristyn Getty",
+    "artistType": "GROUP",
+    "album": "Sing! The Songs of the Bible (Live at the Getty Music Worship Conference)",
+    "releaseYear": 2024,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Written by Kristyn Getty, Bryan Fowler and Jessica Waterman; copyright 2024 Getty Music Publishing, Watermamma Music, Be Essential Songs and bryanfowlersongs, administered by Capitol CMG and Essential Music Publishing; CCLI 7226036. The recording churches know is the live Sing! version with Keith and Kristyn Getty and Fowler, from the 2024 conference album. Keith Getty is credited as recording artist, not as writer. Original key F per PraiseCharts. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Five verses, a chorus after the second verse and again after the fourth and at the end, and a closing tag. Verse one anchors guilt in Christ's shed blood and pardon at the cross. Verse two states the substitution: our sin for his righteousness, with God's wrath falling on the spotless Lamb. Verse three gives peace and humble confidence in the inheritance sealed by Christ. Verse four offers a cleansing stream when the believer stumbles into sin. Verse five anticipates seeing the King face to face and the end of death's sting. The chorus bids the singer behold the cross as the greatest love and confesses that the soul would be lost without it. The voice is first person singular, but its content is what Christ has done. Christ is named.",
+    "claims": [
+      {
+        "claim": "Guilt is answered by Christ's shed blood, and pardon is found at the cross.",
+        "subject": "Atonement and forgiveness",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ took the sinner's sin and gave his righteousness, and God's wrath fell on the spotless Lamb.",
+        "subject": "Substitutionary atonement and imputed righteousness",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Peace with God and humble confidence in the inheritance sealed by Christ belong to the believer.",
+        "subject": "Justification and assurance",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "When the believer stumbles into sin, Christ's blood still cleanses and the way to the throne stays open.",
+        "subject": "Ongoing cleansing and repentance",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer will see the King face to face and death's sting will end.",
+        "subject": "Final hope and resurrection victory",
+        "location": "VERSE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The cross is the greatest display of love, and without it the soul would be lost.",
+        "subject": "The love of God at the cross",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "Substitution and wrath stated",
+        "explanation": "Verse two names the exchange of the sinner's sin for Christ's righteousness and says God's wrath fell on the spotless Lamb. That is penal substitution put plainly, in terms a congregation can repeat.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "2 Corinthians 5:21",
+        "scriptureRationale": "He who knew no sin made sin for us, that we might become the righteousness of God."
+      },
+      {
+        "category": "The gospel",
+        "title": "The gospel from guilt to glory",
+        "explanation": "Five short verses move from guilt and pardon through substitution, peace, cleansing and final sight of the King. Little is skipped between a sinner's plight and the end of death.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Romans 5:1",
+        "scriptureRationale": "Justified by faith, we have peace with God through Christ - the verse-three assurance."
+      },
+      {
+        "category": "Assurance",
+        "title": "Peace grounded in Christ's work",
+        "explanation": "The believer's confidence is rested on what Christ has sealed, not on the singer's performance, which keeps assurance from becoming self-reliance.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Hebrews 4:16",
+        "scriptureRationale": "Approaching the throne of grace with confidence."
+      },
+      {
+        "category": "Repentance",
+        "title": "Cleansing for the stumbling believer",
+        "explanation": "Verse four gives ongoing sin a place and answers it with the cleansing stream, so grace is not only for the day of conversion.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 John 1:7-9",
+        "scriptureRationale": "The blood of Jesus cleanses us from all sin; confession brings forgiveness."
+      },
+      {
+        "category": "Hope",
+        "title": "Death's sting ended, the King seen",
+        "explanation": "The last verse looks to seeing the King face to face and death's sting removed, tying the cross to resurrection victory.",
+        "songLocation": "VERSE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Corinthians 15:55-57",
+        "scriptureRationale": "Death swallowed up in victory through our Lord Jesus Christ."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Penal substitutionary atonement",
+      "Imputed righteousness",
+      "Justification and peace with God",
+      "Ongoing cleansing from sin",
+      "The love of God shown at the cross",
+      "Final hope: seeing Christ and the end of death"
+    ],
+    "assessment": "Nothing to correct. The song states the cross plainly: Christ's blood, a substitution, God's wrath borne by the Lamb, peace with God, cleansing for the stumbling believer and a final hope. It is cross-centred without being only about the cross. The resurrection appears only in the closing hope and the Spirit is not reached; those are absences, not errors."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Short, hymn-shaped verses",
+        "explanation": "Short verses with a recurring chorus make this very learnable, and the five-verse hymn shape gives a room time to take in the cross.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fits Communion, Good Friday and ordinary Sundays",
+        "explanation": "Its content places it naturally at the Lord's Supper, Good Friday and any service that needs to state the atonement clearly.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Original key F per PraiseCharts, published in many keys. The reading note puts the range at moderate; test the chorus with your room and pick the key accordingly.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "F (original per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns after verses two and four and at the end, each time as the response to a distinct stage of the cross's meaning. The repetition serves the confession rather than filling time.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form: short verses, a chorus the room can hold, and a live recording made at a conference of thousands singing. Five verses is long for a modern service but each is brief, and a leader can omit one if time is short."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ and the cross named plainly",
+        "explanation": "Christ, the Lamb, the cross and the King are all named, so no singer is left guessing who is being praised or what was done.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear and explicit. Its vocabulary is churchly but familiar, and each verse makes one clear point about the cross."
+  },
+  "synthesis": {
+    "summary": "A modern hymn of the cross in five verses: guilt answered by Christ's blood, a substitution in which God's wrath falls on the spotless Lamb, peace and assurance, cleansing for the believer who falls, and the hope of seeing the King face to face. Christ is named throughout and the claims rest on his work. The resurrection is reached only in the closing hope and the Spirit is not reached.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Grace",
+      "Salvation",
+      "Sin",
+      "Repentance",
+      "Assurance",
+      "Hope"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "2 Corinthians 5:21",
+        "relevance": "Sin exchanged for righteousness - the verse-two substitution."
+      },
+      {
+        "reference": "Isaiah 53:5-6",
+        "relevance": "The servant pierced for our transgressions and laden with our iniquity."
+      },
+      {
+        "reference": "1 Peter 2:24",
+        "relevance": "Christ bearing our sins in his body on the tree."
+      },
+      {
+        "reference": "Romans 5:1",
+        "relevance": "Peace with God by faith - the verse-three assurance."
+      },
+      {
+        "reference": "Romans 5:8",
+        "relevance": "God showing his love while we were sinners - the chorus's love of the cross."
+      },
+      {
+        "reference": "Hebrews 4:16",
+        "relevance": "Confident approach to the throne of grace."
+      },
+      {
+        "reference": "1 John 1:7-9",
+        "relevance": "Cleansing by Christ's blood and forgiveness on confession - verse four."
+      },
+      {
+        "reference": "1 Corinthians 15:55-57",
+        "relevance": "Death's sting removed in victory - verse five."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/85474",
+      "title": "But For The Cross Of Christ - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Kristyn Getty, Bryan Fowler and Jessica Waterman, CCLI 7226036, 2024 copyright and publishers, original key F, Keith & Kristyn Getty on the Sing! live album.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "WorshipTogether",
+      "url": "https://www.worshiptogether.com/songs/but-for-the-cross-of-christ-bryan-fowler-sing/"
+    }
+  ]
+}

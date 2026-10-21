@@ -1,0 +1,249 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "To God Be the Glory",
+    "artist": "The Worship Initiative (Shane & Shane)",
+    "artistType": "GROUP",
+    "album": "To God Be The Glory",
+    "releaseYear": 2026,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Fanny Crosby's 1872 hymn text with W. Howard Doane's tune, reworked by The Worship Initiative (Shane & Shane) with a newly written chorus by Adam Westlake and Nathan Fox in place of Crosby's refrain. PraiseCharts credits Crosby, Westlake, Fox and Doane, arranged by Grant Wall and Daniel Galbraith, original key A, copyright line 2026 More Songs From Wellhouse and Songs From Wellhouse (admin. Capitol CMG Publishing), CCLI 7273208. WorshipTogether lists a different, shorter CCLI figure; the PraiseCharts number is the one used here. Year is taken from that copyright line, since no release date was found. Reviewed as this arrangement, not as Crosby's original or other settings.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "CORPORATE_WE",
+    "structuralNotes": "Three hymn verses, each followed by a newly written refrain-style chorus; the last chorus is extended with a closing tag. Verse one gives glory to God for the gospel: the Father's gift of the Son, the atonement, and the way opened for all. Verse two praises a redemption that is perfect and by blood, with pardon offered to the worst offender who believes. Verse three looks ahead to greater joy when Jesus is seen. The chorus calls the earth and its people to praise and invites all to come to the Father through the Son and give glory. The voice is corporate and evangelistic, mostly declaration and exhortation, with a few 'our' statements in verse three. The new chorus differs from Crosby's original refrain.",
+    "claims": [
+      {
+        "claim": "God is to be glorified for the gospel: he gave his Son, the atonement was made, and the way to him is open to all.",
+        "subject": "The gospel as God's gift",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Redemption is complete and accomplished by Christ's blood.",
+        "subject": "Redemption by blood",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Pardon is offered to the worst offender who believes.",
+        "subject": "Justification by faith",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "When believers see Jesus, their joy will exceed anything known now.",
+        "subject": "The beatific hope",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "All the earth and all people are summoned to praise God.",
+        "subject": "Universal praise",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "All are invited to come to the Father through the Son and give him glory.",
+        "subject": "Access to the Father through Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "The gospel",
+        "title": "Glory given for what God did",
+        "explanation": "The whole song ascribes glory to God for the gift of the Son, the atonement and the open way, so praise is grounded in an act rather than a mood.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "John 3:16",
+        "scriptureRationale": "God so loved the world that he gave his Son - the gift the first verse praises."
+      },
+      {
+        "category": "Atonement",
+        "title": "Redemption by blood, complete",
+        "explanation": "The second verse names redemption as accomplished by Christ's blood and as perfect, leaving nothing for the singer to add.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Acts 20:28",
+        "scriptureRationale": "The church bought with God's own blood - the price the verse names."
+      },
+      {
+        "category": "Justification",
+        "title": "Pardon for the worst offender who believes",
+        "explanation": "Pardon is offered to the vilest sinner on condition of belief, which keeps grace and faith in their right places.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Hope",
+        "title": "Seeing Jesus is the greater joy",
+        "explanation": "The last verse points beyond present blessing to the sight of Christ, setting the singer's hope on him rather than on gifts.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 John 3:2",
+        "scriptureRationale": "We shall see him as he is - the expectation the verse voices."
+      },
+      {
+        "category": "Worship",
+        "title": "A chorus that calls everyone to the Father through the Son",
+        "explanation": "The new chorus summons earth and people to praise and invites all to come through the Son, giving the song an evangelistic edge beyond a congregation's own praise.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 11:36",
+        "scriptureRationale": "From him and through him and to him are all things - the doxological frame."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The gift of the Son and the atonement",
+      "Redemption by Christ's blood",
+      "Pardon for the believing sinner",
+      "Access to the Father through the Son",
+      "The hope of seeing Christ",
+      "God's glory as the end of all things"
+    ],
+    "assessment": "Nothing to correct. Crosby's text keeps the gospel in view throughout, grounding glory in the gift of the Son, a finished redemption and pardon for the believing sinner. The newly written chorus fits it, adding a call to praise and to come to the Father through the Son. No independent assessment of the song's content was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A familiar hymn shape",
+        "explanation": "Three verses on a hymn-tune structure that congregations already know make the song easy to learn, with a chorus that returns after each verse.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Corporate and evangelistic voice",
+        "explanation": "Declaration and exhortation in the plural suit a gathered church, and the invitation to all to come to the Father suits a service with visitors.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published in A, with Ab also offered. No chart was read, so the pitches are not stated; test the chorus with the room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "A (original per PraiseCharts); Ab also published",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns three times, and the last is extended with a short closing tag. Each return follows a new verse, so the refrain gathers the verse's reason for praise.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in words and in form: a known hymn structure, a plural voice and a returning chorus. The extended final chorus is the one place a leader could build past the room, which is a matter of delivery."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "God, the Son and the Father are named",
+        "explanation": "The song names God, Jesus and the Father, so the one being glorified and the way to him are plain.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Each verse has one subject",
+        "explanation": "The gift of the Son, redemption by blood and the hope of seeing Christ each have a verse, then the chorus answers with praise.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The 19th-century idiom is light and the claims are stated directly. Nothing in it invites a wrong reading."
+  },
+  "synthesis": {
+    "summary": "Fanny Crosby's hymn with a newly written chorus by Adam Westlake and Nathan Fox. It gives glory to God for the gift of the Son, a redemption by blood that is complete, and pardon for the believing sinner, then looks to the joy of seeing Jesus. The chorus calls all people to come to the Father through the Son. No concern was found; no independent source assessing the content was found.",
+    "themes": [
+      "God",
+      "Cross",
+      "Grace",
+      "Salvation",
+      "Faith",
+      "Worship",
+      "Hope",
+      "Mission"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "John 3:16",
+        "relevance": "The Father's gift of the Son - the ground of the first verse."
+      },
+      {
+        "reference": "Ephesians 3:21",
+        "relevance": "Glory to God in the church and in Christ Jesus - the doxology."
+      },
+      {
+        "reference": "Romans 11:36",
+        "relevance": "From him, through him and to him are all things - glory as the end."
+      },
+      {
+        "reference": "Galatians 1:5",
+        "relevance": "To him be the glory for ever - the ascription of praise."
+      },
+      {
+        "reference": "Acts 20:28",
+        "relevance": "The church bought with God's own blood - redemption by blood."
+      },
+      {
+        "reference": "Psalm 126:3",
+        "relevance": "The Lord has done great things for us - gladness in his deeds."
+      },
+      {
+        "reference": "1 John 3:2",
+        "relevance": "We shall see him as he is - the last verse's hope."
+      },
+      {
+        "reference": "Revelation 22:4",
+        "relevance": "They will see his face - the sight of Christ."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/89552/to-god-be-the-glory-sheet-music",
+      "title": "To God Be The Glory - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Crosby, Westlake, Fox and Doane, arrangers, CCLI 7273208, 2026 copyright line, publisher Wellhouse, original key A.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "WorshipTogether",
+      "url": "https://www.worshiptogether.com/songs/to-god-be-the-glory-the-worship-initiative/"
+    }
+  ]
+}

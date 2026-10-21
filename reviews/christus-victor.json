@@ -1,0 +1,266 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Christus Victor (Amen)",
+    "artist": "Travis Cottrell with Brooke Voland",
+    "artistType": "INDIVIDUAL",
+    "album": "Christus Victor: Hymns of the Gettys (Vol. 1)",
+    "releaseYear": 2025,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Written by Keith Getty, Kristyn Getty, Matt Boswell, Matt Papa and Bryan Fowler; copyright 2024 Getty Music Publishing with Getty Music Hymns and Songs, LIVINGHYMNS, Love Your Enemies Publishing and Messenger Hymns; CCLI 7245980. The list's artist, Travis Cottrell, is the recording churches may know from 2025, but Cottrell and Brooke Voland perform it and are not credited as writers in the sources read. Getty Music says the Gettys first recorded it in 2024 for the Sing! conference, whose theme that year was songs of the Bible. It grew from the song of Moses and the song of the Lamb in Revelation 15; Matt Papa began the verse melody years earlier and Keith Getty wrote the chorus melody. Original key F. Reviewed as the song, not as any one recording; a shorter edit of the Cottrell and Voland version also exists.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Three verses, a hallelujah chorus with a second tag line extending the praise to every tribe and tongue, a long amen section, and a final repeat of the chorus. Verse one addresses the eternal King and covenant God who redeemed his people and led them through deep waters. Verse two addresses the incarnate Son who dwelt among us, the spotless Lamb who lived, died and rose. Verse three looks ahead to his return as King of the nations, the victor who was and is. The chorus ascribes blessing, honor, glory and power to the Lamb and joins the angels' anthem. The verses speak to Christ in the second person; the chorus is a corporate we joining the heavenly worship. The closing amen affirms all of it. The Spirit is not reached.",
+    "claims": [
+      {
+        "claim": "God redeemed his people and led them through deep waters, the covenant God who delivers.",
+        "subject": "The exodus as redemption",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The eternal Son became flesh and dwelt among us.",
+        "subject": "The incarnation",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The spotless Lamb lived, died and rose.",
+        "subject": "Christ's life, death and resurrection",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ will return as King of the nations; he is the victor who was and is.",
+        "subject": "The second coming and Christ's reign",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Blessing, honor, glory and power belong to the Lamb.",
+        "subject": "Worship of the Lamb",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Worship is joined with the angels and with every tribe and tongue.",
+        "subject": "The church's unity with heavenly worship",
+        "location": "CHORUS",
+        "lyricExcerpt": null,
+        "locationDetail": "the tag line"
+      },
+      {
+        "claim": "The church affirms all of it in a long amen.",
+        "subject": "Corporate affirmation",
+        "location": "BRIDGE",
+        "lyricExcerpt": null,
+        "locationDetail": "the closing amen section"
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christ",
+        "title": "Christ the victor from the whole Bible",
+        "explanation": "The verses run from the exodus deliverance through the incarnate Lamb to the returning King, so the song hears one story of redemption across the testaments. Getty Music names Christ's victory over sin and death as its center.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Colossians 2:15",
+        "scriptureRationale": "Christ disarming the powers and triumphing over them - the victory the title names."
+      },
+      {
+        "category": "Atonement",
+        "title": "The Lamb who lived, died and rose",
+        "explanation": "Verse two states what Christ did: the spotless Lamb lived, died and rose. The cross and resurrection are acts, not moods, and the Lamb language ties the work to its sacrificial meaning.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Peter 1:18-19",
+        "scriptureRationale": "Redeemed by the precious blood of a lamb without blemish or spot."
+      },
+      {
+        "category": "Worship",
+        "title": "Worship drawn directly from Revelation",
+        "explanation": "The chorus ascribes blessing, honor, glory and power to the Lamb and joins the angels, as the heavenly worship in Revelation does. The congregation sings what Scripture shows being sung.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 5:12-13",
+        "scriptureRationale": "Every creature giving blessing, honor, glory and might to the Lamb."
+      },
+      {
+        "category": "Hope",
+        "title": "The return of the King is not left out",
+        "explanation": "The final verse looks ahead to Christ's return, which many songs on the cross and resurrection skip. It gives the victory a destination.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 1:8",
+        "scriptureRationale": "The Alpha and Omega who is and was and is to come."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God's covenant faithfulness and redemption",
+      "The incarnation of the Son",
+      "Christ's death and resurrection as the spotless Lamb",
+      "Christ's victory over sin and death",
+      "Christ's return as King",
+      "The worship of the Lamb by all nations"
+    ],
+    "assessment": "Nothing to correct. The song builds on the exodus song, the Gospel of John and Revelation, and its subject is Christ named and praised for what he has done and will do. It does not say how the sinner is made right with God, so the cross is stated by act rather than explained; the Spirit is not reached. No independent assessment of its teaching was found; Getty Music's own account agrees with the reading."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A chorus that is quick to learn",
+        "explanation": "The hallelujah chorus is simple and repeats, so a congregation picks it up on first hearing, and the tag line widens it to every tribe and tongue.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Written for congregational singing",
+        "explanation": "The Gettys write each year's new hymns for the Sing! conference, and the closing threefold amen is a tradition of corporate affirmation sung in harmony.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Verses that move from past to future",
+        "explanation": "Deliverance, incarnation and return give three verses distinct work, and the chorus answers each in the same worship.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Published in F, also in E and G. The recording has a large-choir feel and sustained energy; a small band may need to scale it.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "F (original; also E and G per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns after each verse and again at the end, and the amen section is long, but each return follows a new part of Christ's work, so the repeated praise is an answer to what was just sung.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Congregational in its words and its chorus, with a recorded arrangement built for a large choir. A small band will need to scale the sustained intensity and the long amen section. Its content suits Easter, Christ the King Sunday, Advent and any service looking toward Christ's return."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ is named as Lamb, Son and King",
+        "explanation": "The verses and chorus name Christ in titles that Scripture gives him, so the addressee is never vague.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Language",
+        "title": "Biblical imagery with a plain chorus",
+        "explanation": "The exodus and Revelation figures are drawn from Scripture and explained by the verses, and the hallelujah chorus needs no explanation.",
+        "songLocation": "CHORUS",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The exodus and Lamb imagery is biblical and set in context by the verses. The Latin title may need a word of introduction, meaning Christ the Victor, but nothing in the song invites a wrong reading."
+  },
+  "synthesis": {
+    "summary": "A modern hymn that praises Christ across the whole Bible story: God's redemption of his people, the incarnate Lamb who lived, died and rose, and the returning King. The chorus joins the heavenly worship of the Lamb and a long amen affirms it. Nothing in it is wrong. The cross is stated by act rather than explained, and the Spirit is not reached. No independent assessment of its teaching was found.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Resurrection",
+      "Worship",
+      "Sovereignty",
+      "Hope",
+      "Heaven",
+      "Thanksgiving"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Revelation 5:12-13",
+        "relevance": "Blessing, honor, glory and power to the Lamb - the chorus's ascription."
+      },
+      {
+        "reference": "Revelation 1:8",
+        "relevance": "The Alpha and Omega who is and was and is to come - the third verse's title for Christ."
+      },
+      {
+        "reference": "Revelation 7:9-10",
+        "relevance": "A multitude from every tribe and tongue before the Lamb - the tag line."
+      },
+      {
+        "reference": "Exodus 15:2",
+        "relevance": "The song of Moses praising God as salvation - the first verse's source."
+      },
+      {
+        "reference": "Exodus 15:13",
+        "relevance": "God leading the redeemed people - the covenant redemption of the first verse."
+      },
+      {
+        "reference": "John 1:14",
+        "relevance": "The Word became flesh and dwelt among us - the second verse's incarnation."
+      },
+      {
+        "reference": "1 Peter 1:18-19",
+        "relevance": "Redemption by the spotless Lamb - the second verse's title for Christ."
+      },
+      {
+        "reference": "Colossians 2:15",
+        "relevance": "Christ triumphing over the powers - the victory of the title."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.gettymusic.com/fhotm-november24",
+      "title": "November 2024 - Family Hymn of the Month",
+      "publisher": "Getty Music",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "The writers' own account: authors, origin in Revelation 15 and the Sing! conference, first recorded 2024, and the victory of Christ as the central theme.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.praisecharts.com/songs/details/85225/christus-victor-amen-sheet-music/piano-vocal-pack",
+      "title": "Christus Victor (Amen) - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers, 2024 copyright and publishers, CCLI 7245980, original key F, meter and tempo.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.multitracks.com/songs/Travis-Cottrell/Christus-Victor-Hymns-of-the-Gettys-(Vol.-1)/Christus-Victor-(Amen)/overview/",
+      "title": "Christus Victor (Amen) - Travis Cottrell",
+      "publisher": "MultiTracks",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writers and publishers, and the Cottrell and Voland recording on Christus Victor: Hymns of the Gettys (Vol. 1), 2025, key F.",
+      "assessesContent": false
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "All Hail the Glorious Christ",
+    "artist": "Sovereign Grace Music",
+    "artistType": "GROUP",
+    "album": "The Glorious Christ (Live)",
+    "releaseYear": 2019,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Dave Fournier and Matt Papa; copyright 2019 Sovereign Grace Worship (ASCAP, admin. Integrity Music), Love Your Enemies Publishing and Getty Music Hymns and Songs (ASCAP, admin. Music Services), Sovereign Grace Music; CCLI 7138121. The recording churches know is the live version sung by Devon Kauflin on The Glorious Christ (Live). The publisher page gives no separate album release year and no writing story. Reviewed as the song, not as one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Three verses, a repeated chorus, and a final tag that reuses the chorus ending. The first verse presents Christ's supremacy over rulers and every opposing power. The second says his love overcomes temptation and removes condemnation. The third looks ahead to the feast with the redeemed on his mountain, shifting to a corporate 'we'. The chorus praises him for the victory won by his sacrifice, his reign and his resurrection. The voice is address to Christ throughout. Christ is named and the gospel is explicit. The Spirit is not reached.",
+    "claims": [
+      {
+        "claim": "Christ rules over earthly rulers and every opposing power, and stands when they fall.",
+        "subject": "The lordship of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ's love overcomes temptation and frees believers from death and condemnation.",
+        "subject": "Freedom from condemnation",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The redeemed will feast with Christ on his mountain in the age to come.",
+        "subject": "Future hope",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ has won the victory through his sacrifice and reigns, risen and exalted.",
+        "subject": "Atonement, resurrection and reign",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christ",
+        "title": "Christ's victory through his sacrifice",
+        "explanation": "The chorus rests praise on what he accomplished: victory won by his sacrifice, his resurrection and his reign. Triumph is Christ's own act, not the singer's.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Colossians 2:15",
+        "scriptureRationale": "He disarmed the powers and triumphed over them in the cross."
+      },
+      {
+        "category": "Assurance",
+        "title": "Freedom from condemnation",
+        "explanation": "The second verse states that Christ's love removes condemnation and breaks death's hold, grounding assurance in him.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Romans 8:1",
+        "scriptureRationale": "There is now no condemnation for those in Christ Jesus."
+      },
+      {
+        "category": "Hope",
+        "title": "The future feast with the redeemed",
+        "explanation": "The third verse looks to the feast on the Lord's mountain and the end of death, giving the song an eschatological horizon.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 25:6-9",
+        "scriptureRationale": "The feast on the mountain and death swallowed up."
+      },
+      {
+        "category": "Sovereignty",
+        "title": "Christ over every power",
+        "explanation": "The first verse sets Christ over rulers and opposing powers, so the congregation sings his lordship over the world as it is.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Philippians 2:9-11",
+        "scriptureRationale": "Every knee will bow to the name above every name."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The lordship and supremacy of Christ",
+      "Victory through Christ's sacrifice",
+      "The resurrection",
+      "No condemnation for those in Christ",
+      "The future feast and return of Christ",
+      "Christ's love overcoming sin"
+    ],
+    "assessment": "Nothing to correct. The song is built on Scripture and keeps the cross, resurrection and reign together. It also reaches past the cross to the future feast, which many songs omit. The Spirit is not reached, and no independent assessment of its content was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "A chorus built for a room",
+        "explanation": "The chorus is strong and repeats, so a congregation learns it quickly and sings it to Christ together.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Voice",
+        "title": "Corporate shift at the feast",
+        "explanation": "Verse three moves into a plural 'we' as the redeemed gather, so the congregation sings as the church.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Lead-line sheet is published in F. No chart was read here, so test the chorus against your room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "F (per digitalsongsandhymns lead line listing)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns three times and closes the song, each time after a new verse, so the same confession of Christ's victory lands on new ground.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in words and form, with easy-to-follow verses and a chorus that carries the room. It suits Easter, Ascension, Christ the King, and services about Christ's return."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ is named and addressed throughout",
+        "explanation": "The address to Christ is constant, so the congregation knows whom it is praising and why.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. Imagery is biblical (the mountain feast, victory over powers) and rooted in the cited passages."
+  },
+  "synthesis": {
+    "summary": "A song of praise to the risen, reigning Christ. The verses present his rule over every power, his love that overcomes temptation and condemnation, and the coming feast with the redeemed. The chorus praises him for the victory won by his sacrifice. No concern was found. The Spirit is not reached and no independent assessment was found.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Resurrection",
+      "Sovereignty",
+      "Assurance",
+      "Hope",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Isaiah 25:6-9",
+        "relevance": "The feast on the mountain and death swallowed up."
+      },
+      {
+        "reference": "Philippians 2:9-11",
+        "relevance": "Christ exalted over every name."
+      },
+      {
+        "reference": "Colossians 2:15",
+        "relevance": "Triumph over the powers at the cross."
+      },
+      {
+        "reference": "1 Corinthians 15:54-57",
+        "relevance": "Victory over death through Christ."
+      },
+      {
+        "reference": "Romans 8:1",
+        "relevance": "No condemnation in Christ."
+      },
+      {
+        "reference": "Revelation 5:12",
+        "relevance": "Worthy is the Lamb."
+      },
+      {
+        "reference": "Revelation 19:6-9",
+        "relevance": "The marriage supper and the Lord's reign."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://sovereigngracemusic.com/music/songs/all-hail-the-glorious-christ/",
+      "title": "all hail the glorious christ",
+      "publisher": "Sovereign Grace Music",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher record: writers Dave Fournier and Matt Papa, 2019 copyright line and publishers, CCLI 7138121, The Glorious Christ (Live).",
+      "assessesContent": false
+    },
+    {
+      "url": "https://digitalsongsandhymns.com/songs/all-hail-the-glorious-christ-lead-line",
+      "title": "all hail the glorious christ lead line",
+      "publisher": "Digital Songs and Hymns",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Catalogue listing: authors Dave Fournier and Matt Papa, published key F.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel (Musixmatch text)",
+      "url": "https://www.google.com/search?q=All+Hail+the+Glorious+Christ+Sovereign+Grace+Music+lyrics"
+    }
+  ]
+}
