@@ -1,0 +1,217 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Lord, I Need You",
+    "artist": "Matt Maher",
+    "artistType": "INDIVIDUAL",
+    "album": "All the People Said Amen",
+    "releaseYear": 2013,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Matt Maher, Christy Nockels, Daniel Carson, Jesse Reeves and Kristian Stanfill; copyright 2011 worshiptogether.com Songs, sixsteps Music, Sweater Weather Music, Valley of Songs Music and Thankyou Music; CCLI 5925687. Maher's recording is on the 2013 compilation All the People Said Amen (Essential Records), and the text matches the Passion version churches also know. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Two verses, a chorus repeated after each, a bridge, a closing chorus and a short outro. The first verse speaks of coming to the Lord in confession and rest. The second turns to grace overcoming sin and to freedom where God is present. The chorus declares constant dependence on Him and names Christ as the singer's righteousness. The bridge prays for help in temptation and weakness. The voice is a personal prayer to the Lord, in confession and dependence, with the singular voice throughout.",
+    "claims": [
+      {
+        "claim": "The singer comes to the Lord in confession and rest.",
+        "subject": "Confession",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Where sin increased, grace overflows, so grace overcomes the sinner's sin.",
+        "subject": "Grace over sin",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "There is freedom where the Lord is present.",
+        "subject": "Freedom in the Spirit",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer depends on God at every moment and has no other help.",
+        "subject": "Constant dependence",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is the singer's righteousness.",
+        "subject": "Imputed righteousness",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer asks for help in temptation and weakness.",
+        "subject": "Prayer in temptation",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Grace",
+        "title": "Grace is larger than sin",
+        "explanation": "The second verse rests the sinner's hope on grace overcoming sin, not on the singer's effort. Nothing in the verse suggests that standing with God is earned.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 5:20",
+        "scriptureRationale": "Where sin increased, grace abounded all the more."
+      },
+      {
+        "category": "Justification",
+        "title": "Christ as the singer's righteousness",
+        "explanation": "The chorus names Christ, not the singer's record, as the righteousness the singer relies on. A congregation rehearses where its standing comes from each time it sings it.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Corinthians 1:30",
+        "scriptureRationale": "Christ Jesus, who became to us righteousness."
+      },
+      {
+        "category": "Prayer",
+        "title": "Dependence taught through prayer",
+        "explanation": "The chorus and bridge teach the singer to depend on God and to pray for help in temptation, in the pattern of Hebrews' invitation to the throne of grace and of the older hymn it echoes.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Hebrews 4:15-16",
+        "scriptureRationale": "Approach the throne of grace to find help in time of need."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Human need of grace",
+      "Grace overcoming sin",
+      "Christ as the believer's righteousness",
+      "Freedom in God's presence",
+      "Dependence on God in temptation"
+    ],
+    "assessment": "Nothing to correct. The verse that ties holiness to Christ in us is acceptable when it is heard as union with Christ and sanctification by His work, which the chorus's naming of Christ as righteousness supports. The song does not tell the cross or the resurrection, and it states no act of God; those are absences, recorded in the substance answers. No independent published assessment of its teaching was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Easy to learn and sing",
+        "explanation": "The chorus is simple and repeated, the builds are quiet and the range is simple, so a congregation learns it in one pass.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "A prayer a room can make its own",
+        "explanation": "It fits a service of confession, a time of prayer, or a response after a sermon, where a plain statement of need is wanted.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "No chart was read. Essential Worship lists Bb as recommended; arrangements also circulate in A, D and E. Test the key with the congregation.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Bb recommended (Essential Worship); also A, D, E",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns after each verse and again at the close, and each return is a confession of need that the verses have prepared. The repetition does not stand in for content.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form: a quiet, repeated chorus that a room can carry without a leader pushing the build. It is easy to sing and suited to prayer."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "The Lord and Christ are named",
+        "explanation": "The song is a prayer to the Lord and names Christ as righteousness, so the addressee is not left unspecified.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in its claims. It is a prayer of need rather than an account of the gospel, and it says what it means in plain terms."
+  },
+  "synthesis": {
+    "summary": "A personal prayer of confession and dependence: coming to the Lord in rest, grace overcoming sin, freedom where He is, and Christ as the singer's righteousness, with a bridge praying for help in temptation and weakness. It echoes Romans 5, 2 Corinthians 3 and 1 Corinthians 1. No concern was found; it states no act of God and uses a singular voice. No independent assessment of its teaching was located.",
+    "themes": [
+      "Grace",
+      "Sin",
+      "Repentance",
+      "Prayer",
+      "Christ",
+      "Holiness",
+      "Faith",
+      "Assurance"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Romans 5:20",
+        "relevance": "Grace abounding where sin increased - the second verse."
+      },
+      {
+        "reference": "2 Corinthians 3:17",
+        "relevance": "Freedom where the Spirit of the Lord is."
+      },
+      {
+        "reference": "Colossians 1:27",
+        "relevance": "Christ in you, the hope of glory."
+      },
+      {
+        "reference": "1 Corinthians 1:30",
+        "relevance": "Christ as our righteousness - the chorus."
+      },
+      {
+        "reference": "Matthew 11:28",
+        "relevance": "The invitation to the weary to come for rest."
+      },
+      {
+        "reference": "Hebrews 4:15-16",
+        "relevance": "Help for the tempted at the throne of grace - the bridge."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Lord,_I_Need_You",
+      "title": "All the People Said Amen (album article)",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Lists the song on Matt Maher's 2013 compilation All the People Said Amen (Essential Records) with writers Carson, Maher, Nockels, Reeves and Stanfill.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://genius.com/Matt-maher-lord-i-need-you-lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "genius.com",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

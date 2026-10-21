@@ -1,0 +1,210 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "My Jesus, I Love Thee",
+    "artist": "William R. Featherston (attributed)",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1862,
+    "genre": "Hymn",
+    "isPublicDomain": true,
+    "notes": "Public-domain hymn. The text first appeared anonymously in The Christian Pioneer (London) in February 1862; it is commonly credited to William Ralph Featherston (the list's spelling Featherstone is a variant) on the strength of a 1906 account by Ira Sankey, though James H. Duffell has also been proposed and neither claim is firmly documented. Its opening lines echo an earlier hymn by Caleb Jarvis Taylor (1804). The tune churches know is GORDON, by the Baptist pastor Adoniram Judson Gordon, first printed in 1872; the earlier Welsh tune AFFECTION (ST. MEIFOD) carried the text when it first appeared with music in 1865. Dates given elsewhere for the text run from 1858 to 1864. Reviewed as the text, not any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Four stanzas, each closing with the same refrain-like line; no separate chorus. The first stanza declares the singer's love for Jesus and renounces sin. The second grounds that love in being loved first, and points to the pardon purchased at Calvary and the crown of thorns. The third vows love and praise through life and into death. The fourth looks ahead to adoring Christ in glory. The voice is first person singular devotion addressed to Jesus. The repeated closing line is a humble resolve, not a doubt of salvation.",
+    "claims": [
+      {
+        "claim": "The singer loves Jesus and turns from sin.",
+        "subject": "Love and renunciation of sin",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer's love answers Christ's prior love: he loved first.",
+        "subject": "God's prior love",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ purchased the singer's pardon at Calvary and wore the crown of thorns.",
+        "subject": "Atonement",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer will love and praise Christ through life and into death.",
+        "subject": "Perseverance in devotion",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer looks to adore Christ in glory.",
+        "subject": "Heavenly hope",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Grace",
+        "title": "Love grounded in being loved first",
+        "explanation": "The second stanza roots the singer's devotion in Christ's prior love and the pardon he bought, so the vow of love is a response and not a bid for favour.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 John 4:19",
+        "scriptureRationale": "We love because he first loved us - the ground the stanza gives for the singer's love."
+      },
+      {
+        "category": "Atonement",
+        "title": "Pardon purchased at Calvary",
+        "explanation": "The cross is named as the place where pardon was bought, with the crown of thorns marking Christ's suffering. The cost is Christ's, not the singer's.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Peter 2:24",
+        "scriptureRationale": "Christ bearing our sins on the tree - the purchase the stanza points to."
+      },
+      {
+        "category": "Hope",
+        "title": "Death and glory in view",
+        "explanation": "The third and fourth stanzas carry devotion through death and on to adoring Christ in glory, which keeps the hymn's love anchored in the believer's end as well as present feeling.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MODERATE",
+        "scriptureReference": "2 Timothy 4:8",
+        "scriptureRationale": "The crown laid up for those who love his appearing - the horizon of the last stanza."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Christ's prior love for sinners",
+      "Atonement purchased at Calvary",
+      "Renunciation of sin",
+      "Perseverance in devotion through death",
+      "Glory with Christ"
+    ],
+    "assessment": "Nothing to correct. The hymn is a devotional response to the cross: the pardon is Christ's purchase and the love is the singer's answer. The closing line each stanza is a humble resolve, not a doubt about salvation. It is light on the full gospel story (no incarnation or resurrection) and on the Spirit and the church, but nothing in it misleads."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A simple tune for common voices",
+        "explanation": "GORDON is stepwise and sits within an ordinary congregation's reach, and the hymn is short enough to memorise, which has kept it in use across denominations.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "A refrain that ties the stanzas",
+        "explanation": "The repeated closing line gathers the congregation on one confession each time, turning four stanzas into a single act of devotion.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published in several keys depending on hymnal; no chart was read here. Choose a key by testing the closing line of each stanza with the room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Varies by hymnal",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The same closing line returns each stanza, following a new thought each time, so it works as a confession rather than filler.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "A congregational hymn in every respect: short, memorable, unaccompanied-friendly and suited to communion, the cross, and moments of personal consecration. The archaic thee and thou are idiom, not an obstacle."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Jesus is named and addressed",
+        "explanation": "The hymn speaks to Jesus by name, so a visitor knows who is loved and why.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in what it says and who it is for. The archaic pronouns are the only barrier, and they are easily learned."
+  },
+  "synthesis": {
+    "summary": "A four-stanza devotion addressed to Jesus: love for him, grounded in his prior love and the pardon he bought at Calvary, carried through life and death toward adoring him in glory. The voice is singular and testimonial, and the hymn does not narrate the full gospel. No doctrinal problem was found. No independent source assessing its content was found.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Grace",
+      "Salvation",
+      "Worship",
+      "Assurance",
+      "Heaven"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "1 John 4:19",
+        "relevance": "We love because he first loved us - the ground of the second stanza."
+      },
+      {
+        "reference": "Galatians 2:20",
+        "relevance": "The Son of God loved me and gave himself for me."
+      },
+      {
+        "reference": "1 Peter 2:24",
+        "relevance": "Christ bearing our sins on the tree - the Calvary stanza."
+      },
+      {
+        "reference": "John 21:15-17",
+        "relevance": "Peter's love for Jesus affirmed - the devotion the hymn voices."
+      },
+      {
+        "reference": "2 Timothy 4:8",
+        "relevance": "The crown of righteousness - the glory the last stanza anticipates."
+      },
+      {
+        "reference": "Romans 14:8",
+        "relevance": "Whether we live or die we are the Lord's - the third stanza."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.hymnologyarchive.com/my-jesus-i-love-thee",
+      "title": "My Jesus I love thee",
+      "publisher": "Hymnology Archive",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "First printed anonymously 1862; credited to Featherston (Duffell proposed); tune GORDON by A. J. Gordon, printed 1872; earlier tune AFFECTION 1865.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://gccsatx.com/hymns/my-jesus-i-love-thee",
+      "title": "Lyrics page read for this review",
+      "publisher": "gccsatx.com",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

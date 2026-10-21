@@ -1,0 +1,249 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "O for a Thousand Tongues to Sing",
+    "artist": "Charles Wesley",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1739,
+    "genre": "Hymn",
+    "isPublicDomain": true,
+    "notes": "Written by Charles Wesley, dated 1739 and published in 1740 as part of a longer poem of 18 stanzas, written to mark his renewed faith after the illness and conversion of 1738. Public domain. Common tunes are Azmon (Carl Glaser 1828, arr. Lowell Mason 1839) in the United States and Lyngham (Thomas Jarman) in Britain and Australia, with Lydia, Richmond and others also used. The reading note was of an eleven-stanza arrangement; hymnals usually print four to seven, so any selection is the congregation's choice.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Eleven stanzas in the text read, no refrain. The first two wish for many voices to praise the Redeemer and spread his name. The third praises Jesus' name as calming fear and giving life and peace. The fourth says Christ breaks sin's power, frees prisoners, and cleanses by his blood, which availed for the singer. The fifth and sixth recall the healing and gospel miracles. The seventh has church and heaven praising together. The eighth is personal assurance of atoning blood and Christ's love. The ninth calls the nations to faith alone and justification by grace. The tenth and eleventh say sins were laid on the Lamb, an offering for many, and the worst sinners are saved. The voice mixes first-person testimony, speech about Christ, and calls to the nations.",
+    "claims": [
+      {
+        "claim": "Christ's name is to be praised and spread among all people.",
+        "subject": "Mission and worship",
+        "location": "VERSE_1",
+        "lyricExcerpt": null,
+        "locationDetail": "stanzas 1-2"
+      },
+      {
+        "claim": "The name of Jesus calms fear and gives life and peace.",
+        "subject": "The name of Jesus",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ breaks the power of sin, frees the captive, and his blood cleanses and availed for the singer.",
+        "subject": "Atonement and deliverance",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ's healing and gospel miracles show his power over death, deafness, blindness and lameness.",
+        "subject": "Christ's miracles",
+        "location": "VERSE",
+        "lyricExcerpt": null,
+        "locationDetail": "stanzas 5-6"
+      },
+      {
+        "claim": "The singer's own sins are forgiven by atoning blood and Christ loves him personally.",
+        "subject": "Assurance",
+        "location": "VERSE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The nations are called to faith alone; justification is by grace, not works.",
+        "subject": "Justification by faith",
+        "location": "VERSE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Sins were laid on the Lamb, an offering for many, and the worst sinners are saved.",
+        "subject": "Substitution and the sufficiency of grace",
+        "location": "VERSE",
+        "lyricExcerpt": null,
+        "locationDetail": "stanzas 10-11"
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "Blood that cleanses and a Lamb who bears sins",
+        "explanation": "The later stanzas say the sins of many were laid on the Lamb as an offering and that blood applied to the sinner cleanses, a plain substitutionary account.",
+        "songLocation": "VERSE",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Isaiah 53:6",
+        "scriptureRationale": "The Lord laid on him the iniquity of us all."
+      },
+      {
+        "category": "Salvation",
+        "title": "Justification by faith alone, by grace",
+        "explanation": "The ninth stanza calls the nations to faith alone and names justification by grace, which is the Reformation gospel in a hymn.",
+        "songLocation": "VERSE",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Ephesians 2:8-9",
+        "scriptureRationale": "Saved by grace through faith, not of works."
+      },
+      {
+        "category": "Assurance",
+        "title": "Personal assurance resting on Christ's work",
+        "explanation": "The eighth stanza moves from what Christ did to the singer's own pardon and his love, grounding assurance in Christ and not in feeling.",
+        "songLocation": "VERSE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Galatians 2:20",
+        "scriptureRationale": "The Son of God loved me and gave himself for me."
+      },
+      {
+        "category": "Grace",
+        "title": "The worst sinners are saved",
+        "explanation": "The last stanzas hold out salvation for the chief of sinners, resting on the Lamb's offering rather than the sinner's record.",
+        "songLocation": "VERSE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Timothy 1:15",
+        "scriptureRationale": "Christ came to save sinners, of whom I am foremost."
+      },
+      {
+        "category": "Worship",
+        "title": "The name above every name and praise of the whole church",
+        "explanation": "The opening wish, the praise of Jesus' name and the joining of earth and heaven in praise follow Philippians and Revelation.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Philippians 2:9-11",
+        "scriptureRationale": "Every knee bowing at the name of Jesus."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Substitutionary atonement",
+      "Justification by grace through faith",
+      "Assurance of pardon",
+      "Christ's power over sin and death",
+      "Universal call of the gospel",
+      "Praise of the church on earth and in heaven"
+    ],
+    "assessment": "Nothing to correct. The hymn praises Christ's name, says his blood cleanses and availed for the singer, calls the nations to faith alone, and holds out pardon to the worst of sinners, resting on the Lamb's offering. The Wesleyan emphasis on assurance and release from sin's power is biblical in tone, and the opening wish for many tongues is rhetorical only."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Common-meter hymn on well-loved tunes",
+        "explanation": "A regular metre set to tunes such as Azmon or Lyngham that congregations know by heart.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Opening praise and the gospel invitation",
+        "explanation": "The hymn serves as a call to worship and as a hymn of evangelism, and individual stanzas stand alone for other uses.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Hymnals give it in D or Eb on Azmon or Lyngham; the range suits ordinary congregations. Choosing four to seven stanzas is normal, since the full eleven read is long.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Varies by hymnal",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "NONE",
+    "repetitionAssessment": "No refrain; each stanza adds a new truth.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Fully congregational: plural-friendly, metrical and singable on its common tunes. Length is the practical matter, so leaders should choose a coherent selection of stanzas rather than all eleven."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ named throughout",
+        "explanation": "Redeemer, Jesus and the Lamb are named, and the work of his blood and the grace that justifies are stated outright.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. Eighteenth-century idiom and the miracle stanzas are easy to follow, and the hymn states the gospel openly."
+  },
+  "synthesis": {
+    "summary": "Charles Wesley's hymn of praise for his new faith, written in 1739. It wishes many voices for the Redeemer's name, praises that name, and says Christ breaks sin's power and his blood cleanses. Its later stanzas call the nations to faith alone, affirm justification by grace and say the Lamb bore sins and saves the worst of sinners. Nothing false was found. The eleven-stanza text read is longer than most hymnals print.",
+    "themes": [
+      "Christ",
+      "Worship",
+      "Salvation",
+      "Grace",
+      "Cross",
+      "Faith",
+      "Assurance",
+      "Mission"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Philippians 2:9-11",
+        "relevance": "The name above every name."
+      },
+      {
+        "reference": "Revelation 5:11-13",
+        "relevance": "Heaven and earth praising the Lamb."
+      },
+      {
+        "reference": "1 John 1:7",
+        "relevance": "The blood of Jesus cleansing from sin."
+      },
+      {
+        "reference": "Galatians 2:20",
+        "relevance": "Christ's love for me and gift of himself."
+      },
+      {
+        "reference": "Ephesians 2:8-9",
+        "relevance": "Salvation by grace through faith."
+      },
+      {
+        "reference": "Isaiah 53:6",
+        "relevance": "Our sins laid on the Lamb."
+      },
+      {
+        "reference": "1 Timothy 1:15",
+        "relevance": "Christ saving the foremost of sinners."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/O_for_a_Thousand_Tongues_to_Sing",
+      "title": "O for a Thousand Tongues to Sing",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Wesley as author, 1739 date, 1740 publication of the longer poem, common tunes, and a summary of what it teaches: atonement, salvation by faith and grace, invitation to sinners.",
+      "assessesContent": true
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "gccsatx.com",
+      "url": "https://gccsatx.com/hymns/o-for-a-thousand-tongues"
+    }
+  ]
+}

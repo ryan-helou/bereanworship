@@ -1,0 +1,220 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "MEDIUM",
+    "title": "In You, O Lord, I Am Found (Psalm 139)",
+    "artist": "Wendell Kimbrough",
+    "artistType": "INDIVIDUAL",
+    "album": "Psalms We Sing Together",
+    "releaseYear": 2013,
+    "genre": "Psalm Setting",
+    "isPublicDomain": false,
+    "notes": "Written by Wendell Kimbrough, both text and tune. The catalogue title says \"I'm Found\"; the published title is \"I Am Found\". Hymnary.org's Christian Worship listing gives a 2013 copyright, which is the year used here; the album Psalms We Sing Together was described as recent in a Calvin Chimes piece dated November 2016, and Expository Songs dates it 2016. Kimbrough wrote a psalm setting each week for about eighteen months for the congregation of Church of the Apostles, Fairhope, Alabama. No CCLI number or publisher was confirmed. His own recording is the only version. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Five short stanzas, each closing on the same refrain, with no separate chorus. The stanzas follow Psalm 139 in the first person: the Lord searches and knows the singer; the singer cannot hide or fully know himself; darkness and light are alike to God; God formed the singer and knew him before birth; no place or power can put the singer beyond God's love. The refrain turns each into a statement of being found in the Lord. The voice is personal confession and trust addressed to God. The Spirit by name, the cross and the church are not reached.",
+    "claims": [
+      {
+        "claim": "The Lord searches and knows the singer completely.",
+        "subject": "The omniscience of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer cannot hide from God and does not fully know himself.",
+        "subject": "Human limitation before God",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Darkness and light are alike to God, who is present everywhere.",
+        "subject": "The omnipresence of God",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God formed the singer and knew him before birth, with his days written.",
+        "subject": "God's creating and providential care",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Nothing in height or depth can separate the singer from God's love.",
+        "subject": "The security of God's love",
+        "location": "VERSE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "In the Lord the singer is found and known.",
+        "subject": "Assurance in God",
+        "location": "REFRAIN",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "God",
+        "title": "God's complete knowledge of his people",
+        "explanation": "Each stanza holds the singer before a God who searches, knows and is present in darkness and light. The comfort is grounded in who God is rather than in the singer's feelings.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Psalm 139:1-4",
+        "scriptureRationale": "The Lord has searched and known me - the opening claim the song sets."
+      },
+      {
+        "category": "Providence",
+        "title": "Formed and known before birth",
+        "explanation": "The fourth stanza says God made the singer and knew his days beforehand, tying personal worth to the Creator's care.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 139:13-16",
+        "scriptureRationale": "The inmost being knit together and the days written - the stanza's source."
+      },
+      {
+        "category": "Assurance",
+        "title": "Inseparable from God's love",
+        "explanation": "The last stanza rests assurance on the reach of God's love, with no height or depth able to part the singer from it.",
+        "songLocation": "VERSE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 8:38-39",
+        "scriptureRationale": "Nothing in all creation can separate us from the love of God - the New Testament counterpart."
+      },
+      {
+        "category": "Scripture",
+        "title": "A psalm set closely",
+        "explanation": "The stanzas keep to the psalm's own movement, so a congregation sings a passage rather than a mood.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 139:7-12",
+        "scriptureRationale": "Where could I go from your presence - the middle stanzas."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God's omniscience",
+      "God's omnipresence",
+      "God as creator of each person",
+      "God's providence over a life",
+      "The security of God's love"
+    ],
+    "assessment": "Nothing to correct. The song stays close to Psalm 139 and states what the psalm teaches: God knows, is present, made and keeps the singer. The refrain gives that an assurance in being found. Christ and the cross are not named, so the gospel is left implicit, and no independent assessment of the song's content was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Short stanzas and a fixed refrain",
+        "explanation": "Each stanza ends on the same line, so a congregation learns it by the second stanza without a sheet.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Suited to lament and assurance",
+        "explanation": "A slower reflective pace and a psalm basis fit services of comfort, anxiety or repentance.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "No key was stated in the sources read. Written as a congregational psalm setting at a reflective pace; test it in your room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not stated in the sources read",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The same closing line returns after every stanza, and each return answers a new aspect of God's knowledge, so the repetition is a confession being affirmed.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Written for the author's own congregation and built for them to sing: plain stanzas, a strong refrain, a gentle pace. The voice is a personal I, which suits a psalm of trust."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Each stanza has one clear idea",
+        "explanation": "The stanzas separate being known, hiding, darkness, formation and love, so each claim is heard on its own.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. Its vocabulary is the psalm's, and nothing is open to a wrong reading. Christ is not named, so a visitor learns who God is but not the gospel from it."
+  },
+  "synthesis": {
+    "summary": "A five-stanza setting of Psalm 139 in the first person: God searches and knows the singer, is present in darkness and light, formed him before birth, and holds him in a love nothing can break. A shared refrain names this as being found in the Lord. No concern was found. Christ and the cross are not reached, and no independent assessment of its content was found.",
+    "themes": [
+      "God",
+      "Providence",
+      "Assurance",
+      "Scripture",
+      "Creation",
+      "Prayer"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 139:1-4",
+        "relevance": "The Lord's searching knowledge of the singer."
+      },
+      {
+        "reference": "Psalm 139:7-12",
+        "relevance": "No hiding place; darkness and light alike to God."
+      },
+      {
+        "reference": "Psalm 139:13-16",
+        "relevance": "Formed in the womb, days written before they began."
+      },
+      {
+        "reference": "Romans 8:38-39",
+        "relevance": "Nothing in height or depth separates from God's love."
+      },
+      {
+        "reference": "Psalm 56:8",
+        "relevance": "God keeps account of the singer's sorrows."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://calvinchimes.org/?p=15185",
+      "title": "Calvin Chimes report on Wendell Kimbrough",
+      "publisher": "Calvin Chimes",
+      "sourceType": "JOURNALISM",
+      "credibilityTier": "TIER_3",
+      "establishes": "Student newspaper report that Kimbrough wrote a psalm setting weekly for Church of the Apostles in Fairhope and recorded them on Psalms We Sing Together.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Bandcamp (Wendell Kimbrough artist page)",
+      "url": "https://wendellk.bandcamp.com/track/in-you-o-lord-i-am-found-psalm-139"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "On My Cross",
+    "artist": "FFH",
+    "artistType": "GROUP",
+    "album": "Have I Ever Told You",
+    "releaseYear": 2001,
+    "genre": "Contemporary Christian",
+    "isPublicDomain": false,
+    "notes": "Written by Jeromy Deibler alone. Wikipedia lists it as the twelfth and final track of FFH's album Have I Ever Told You (2001), so the 2003 Ready to Fly date given with the song is wrong; some karaoke listings carry 2003 but the album sources point to 2001. The list's guess of FFH is right for the recording churches know. No CCLI number was found. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Two verses, a chorus, and a short spoken-style bridge. The verses marvel at the breadth of Christ's love and the depth of grace, with the singer confessing he does not understand why Christ took his place. The chorus owns the nails, the crown of thorns, the scorn and the tears as the singer's own sin and says Christ bore the shame and blame. The bridge imagines words of Christ about forgiveness and has Father and Son in an invented exchange in which the Son hesitates before agreeing to go; Scripture records no such exchange. The voice is a first-person confession to Jesus, but what it confesses is what Christ has done in the singer's place. The resurrection, the Spirit and the church are not reached.",
+    "claims": [
+      {
+        "claim": "Christ's love and grace are beyond the singer's grasp, and he does not understand why Christ took his place.",
+        "subject": "Grace and love of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer's own sin put Christ on the cross; the suffering of the crucifixion is owned as the singer's doing.",
+        "subject": "Personal ownership of sin",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ bore the shame and blame that belonged to the singer.",
+        "subject": "Substitutionary atonement",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ pleaded for forgiveness for those who crucified him.",
+        "subject": "Christ's forgiving prayer",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Son and the Father speak to each other before the Son goes to the cross, with the Son shown objecting before he chooses to go.",
+        "subject": "Imagined dialogue within the Godhead",
+        "location": "BRIDGE",
+        "locationDetail": "the spoken-style section",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "Substitution stated as the singer's own debt",
+        "explanation": "The chorus makes the cross the singer's doing and says Christ carried the shame and blame in his place. Sin is the singer's, the cost is Christ's, and the exchange is named rather than hinted at.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Peter 2:24",
+        "scriptureRationale": "Christ bearing our sins in his body on the tree, the exchange the chorus sings."
+      },
+      {
+        "category": "Sin",
+        "title": "Sin owned, not blamed on others",
+        "explanation": "The nails, the thorns and the scorn are attributed to the singer's sin instead of to the soldiers or the crowd. That is the right pointing of the cross for a congregation.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 53:4-6",
+        "scriptureRationale": "He was pierced for our transgressions; the LORD laid on him the iniquity of us all."
+      },
+      {
+        "category": "Grace",
+        "title": "Wonder at undeserved love",
+        "explanation": "The verses stand amazed that Christ would take the singer's place and describe the love as past measuring. This is concessive wonder drawn from Paul, and it keeps the grace unmerited.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Ephesians 3:18",
+        "scriptureRationale": "Grasping the breadth, length, height and depth of Christ's love, which surpasses knowledge."
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Doctrine of God",
+        "title": "An invented Father and Son exchange sets them apart",
+        "explanation": "The bridge stages a conversation in which the Son objects to the Father before choosing to go. Scripture records no such scene, and a hearer could take the cross as a reluctant concession rather than the one will of Father and Son. Gethsemane shows struggle with submission, not argument.",
+        "songLocation": "BRIDGE",
+        "locationDetail": "the spoken-style section",
+        "severity": "MINOR",
+        "centrality": "IMPORTANT",
+        "recurring": false,
+        "lyricExcerpt": null,
+        "scriptureReference": "John 10:17-18",
+        "scriptureRationale": "Christ lays down his life of his own accord by the Father's command; the cross is a shared purpose.",
+        "likelihood": "POSSIBLE"
+      }
+    ],
+    "doctrinesAffirmed": [
+      "Substitutionary atonement",
+      "Human sin as the cause of the cross",
+      "The unmerited grace and love of Christ",
+      "Christ's forgiveness of his killers"
+    ],
+    "assessment": "Sound on the heart of the gospel: the chorus is clear substitution and puts the cross on the singer's sin. The one problem is the invented dialogue in the bridge, which dramatises Father and Son as if their wills needed reconciling at the cross. It is a minor imprecision, not a denial, and a leader can simply omit the bridge. No independent assessment of the song's teaching was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A simple ballad shape",
+        "explanation": "Two plain verses and a returning chorus on a single image make the song easy to learn on one hearing.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fits Lent, Good Friday and communion",
+        "explanation": "The cross is the whole subject and the voice is confessional, which suits those occasions.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "A ballad of moderate range; a Bb arrangement is published, so check it against your room. The spoken-style bridge is a solo moment, not congregational, and a leader may omit it.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Bb (published transposable sheet music listing)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns to the same confession of ownership after each verse; the words land on the same truth each time rather than filling space.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Singable and personal, with a chorus a congregation can own. The bridge is closer to a recorded moment than to something sung together, which pulls the song toward performance when used."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ is plainly the one addressed",
+        "explanation": "The song speaks to Jesus and speaks of his cross, so no one wonders who is meant.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Gospel",
+        "title": "The cross carries the song",
+        "explanation": "Every section leads back to Christ bearing the singer's sin, which makes the central claim hard to miss.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear throughout. The one place a hearer might stumble is the imagined exchange in the bridge, whose point is easily taken as drama rather than doctrine."
+  },
+  "synthesis": {
+    "summary": "A confessional ballad to Christ: wonder at grace, the singer's sin owned as the cause of the cross, and Christ bearing the shame and blame in his place. The bridge invents a Father and Son exchange in which the Son hesitates, which Scripture does not record and which blurs their shared purpose; a minor imprecision. No independent assessment was found.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Grace",
+      "Sin",
+      "Salvation",
+      "Repentance"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Isaiah 53:4-6",
+        "relevance": "The Servant pierced for our transgressions, the sin laid on him."
+      },
+      {
+        "reference": "2 Corinthians 5:21",
+        "relevance": "Christ made sin for us - the substitution the chorus sings."
+      },
+      {
+        "reference": "Luke 23:34",
+        "relevance": "The forgiving prayer the bridge borrows, set in another scene."
+      },
+      {
+        "reference": "Hebrews 12:2",
+        "relevance": "Jesus enduring the cross and despising its shame."
+      },
+      {
+        "reference": "Ephesians 3:18",
+        "relevance": "The breadth and depth of Christ's love, the idea of the verses."
+      },
+      {
+        "reference": "1 Peter 2:24",
+        "relevance": "Christ bearing our sins in his body on the tree."
+      },
+      {
+        "reference": "John 10:17-18",
+        "relevance": "The Son lays down his life by the Father's command - the shared will the bridge's dialogue obscures."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Have_I_Ever_Told_You",
+      "title": "Have I Ever Told You",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "FFH album released 2001; On My Cross is its twelfth and final track, credited to Jeromy Deibler.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel (LyricFind)",
+      "url": "https://www.google.com/search?q=On+My+Cross+FFH+lyrics"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "MEDIUM",
+    "title": "Mon secours est en toi",
+    "artist": "Sébastien Corn",
+    "artistType": "INDIVIDUAL",
+    "album": "J'aime l'Eternel vol. 4",
+    "releaseYear": 2015,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "French-language song by Sébastien Corn, the Montreal-based francophone worship songwriter and leader of the Impact collective, catalogued in the JEM (Jeunesse en Mission) songbook series as JEM 1011, from the volume J'aime l'Eternel vol. 4, year given as 2015. Web searches did not independently confirm the title, publisher or CCLI number, so the identification rests on the JEM catalogue page read for the text; confidence is medium. Reviewed as the song in French, in the JEM text, which matches the Corn original. It is built on Psalm 121.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "A French-language song of three short stanzas, each followed by a two-part refrain and a four-line closing tag sung twice. The stanzas take three trials in turn: hostile elements, tears and stumbling, and fear with a failing heart. Each is answered by naming God as Creator and helper. The refrain lifts the eyes to the hills and confesses God alone as the singer's strength and restorer, and affirms that he carries the singer and never sleeps. The tag gathers victory, hope, the path, salvation and refuge into God. The voice is first person singular, a personal trust addressed to God in the second person. Christ and the gospel are not named; the song is a Father-focused paraphrase of Psalm 121.",
+    "claims": [
+      {
+        "claim": "God is Creator and the sole source of help for the one who looks up to the hills.",
+        "subject": "God as Creator and helper",
+        "location": "REFRAIN",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God never sleeps and keeps the singer by day and night.",
+        "subject": "God's watchful care",
+        "location": "REFRAIN",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God carries the singer through hostile conditions, tears and stumbling.",
+        "subject": "God sustains his people",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God alone is the singer's strength and restorer, and a refuge in fear.",
+        "subject": "God as refuge and strength",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Victory, hope, the path and salvation are found in God.",
+        "subject": "God as the ground of hope and salvation",
+        "location": "TAG",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Scripture",
+        "title": "Psalm 121 set faithfully",
+        "explanation": "The song follows the psalm's movement: the eyes lifted to the hills, a Helper who made heaven and earth, a keeper who does not sleep. The singer's trust is placed in who God is, not in the singer's own resolve.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 121:1-8",
+        "scriptureRationale": "The pilgrim's help comes from the Lord who made heaven and earth and keeps without slumber."
+      },
+      {
+        "category": "Providence",
+        "title": "God's care for the afraid",
+        "explanation": "Each stanza names a trial and answers it with God's presence and help, so fear and weakness are met with a Creator who carries. It teaches providence in the language of Scripture.",
+        "songLocation": "THROUGHOUT",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 46:1",
+        "scriptureRationale": "God is a refuge and strength, a help in trouble."
+      },
+      {
+        "category": "God",
+        "title": "Salvation and refuge placed in God",
+        "explanation": "The tag ties victory, hope and salvation to God alone, which is a clear confession that deliverance is God's, though the means is not yet named.",
+        "songLocation": "VERSE",
+        "magnitude": "MINOR",
+        "scriptureReference": "Psalm 62:6-8",
+        "scriptureRationale": "God alone is rock, salvation and fortress."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God as Creator",
+      "God's providential care and constant watchfulness",
+      "God as sole source of help",
+      "God as refuge and strength",
+      "Salvation and hope found in God"
+    ],
+    "assessment": "Nothing to correct. The song is a paraphrase of Psalm 121 with echoes of Psalms 46, 62 and 27, and it says what those psalms say. It is Father-focused: Christ, the cross and the gospel are not named, which is fitting for a psalm paraphrase and is recorded in the clarity answers rather than as a fault. No independent assessment of the song was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Simple and contemplative",
+        "explanation": "Short stanzas, a recurring refrain and a short tag give a French-speaking congregation something it learns in one pass and can sing without a leader carrying it.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fits times of fear and weakness",
+        "explanation": "Its three trials make it natural for seasons of anxiety, grief or transition, and for the pilgrim-psalm moments of a service such as a sending or a closing.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Key not established for this review. Test the refrain in the room before choosing a key; the text is French, so the song suits francophone congregations or bilingual services.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not established",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The refrain and the tag repeat heavily, but they return to a confession of the psalm rather than filling space, which suits a contemplative song of trust.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form and easy to learn. The repetition is heavy but carries the psalm's confession. Language is a practical limit outside French-speaking settings."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "God named as Creator and helper",
+        "explanation": "Each stanza answers the singer's need with God by role, as Creator, helper and refuge, so the addressee is never vague.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in French and plain in meaning because it tracks a well-known psalm. Christ and the gospel are not named, so used alone it does not tell a visitor how God saves; it is language of trust. The text is in French, which limits clarity for non-French speakers."
+  },
+  "synthesis": {
+    "summary": "A French-language, Father-focused paraphrase of Psalm 121 by Sébastien Corn: three trials, each answered by God as Creator and helper, a refrain that confesses God alone as strength, and a tag gathering hope, salvation and refuge in him. Nothing in it is wrong. Christ and the gospel are not named. No independent assessment was found, and identification rests on the JEM catalogue page.",
+    "themes": [
+      "God",
+      "Providence",
+      "Faith",
+      "Hope",
+      "Assurance",
+      "Creation",
+      "Scripture",
+      "Suffering"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 121:1-8",
+        "relevance": "The hills, the Helper who made heaven and earth, the keeper who never sleeps - the song's base text."
+      },
+      {
+        "reference": "Psalm 124:8",
+        "relevance": "Our help is in the name of the Lord, maker of heaven and earth."
+      },
+      {
+        "reference": "Psalm 46:1",
+        "relevance": "God as refuge, strength and ever-present help in trouble."
+      },
+      {
+        "reference": "Psalm 62:6-8",
+        "relevance": "God alone as rock, salvation and fortress."
+      },
+      {
+        "reference": "Psalm 27:1",
+        "relevance": "The Lord as light and salvation, answering fear."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "jemaf.fr",
+      "url": "https://jemaf.fr/chant/jem1011"
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Our God",
+    "artist": "Chris Tomlin",
+    "artistType": "INDIVIDUAL",
+    "album": "And If Our God Is for Us...",
+    "releaseYear": 2010,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Chris Tomlin, Jesse Reeves, Jonas Myrin and Matt Redman. First included on the live record Passion: Awakening from the 2010 Passion conference gathering, then the opening track of Tomlin's 2010 album And If Our God Is for Us.... Released as a single, it spent ten weeks at number one on Billboard Christian charts; it won Worship Song of the Year at the 2011 Dove Awards, and Wikipedia lists it among CCLI's most-sung songs. The list's title (Our God Is Greater) is a variant of the title as recorded. Tomlin recorded a 2011 remix with Lecrae and Redman recorded his own version in 2012. Publisher and CCLI number were not confirmed in the sources loaded. Reviewed as the song, with Tomlin's studio version as the reference.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "One verse, a pre-chorus, a repeated chorus, a bridge and an outro. The verse recalls Christ's miracles (water turned to wine, sight given to the blind) and his uniqueness. The pre-chorus speaks of light in darkness and of rising from ashes. The chorus declares God greater, stronger and higher than any other, a healer, awesome in power. The bridge asks who could stand against us if God is for us and with us. The verse and pre-chorus are addressed to God; the chorus is a third-person declaration. Christ is recalled by his works rather than named at length; the cross and resurrection are not stated.",
+    "claims": [
+      {
+        "claim": "Christ turned water to wine and gave sight to the blind, showing who he is.",
+        "subject": "The miracles of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God brings light into darkness and raises his people from ruin.",
+        "subject": "Redemption and renewal",
+        "location": "PRE_CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is greater, stronger and higher than any other.",
+        "subject": "The supremacy of God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is a healer, awesome in power.",
+        "subject": "God's power and care",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "If God is for us and with us, no one can stand against us.",
+        "subject": "Security in God",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "God's attributes",
+        "title": "God above every rival",
+        "explanation": "The chorus confesses that God is greater, stronger and higher than any other. It is a plain statement of his supremacy, sung in unison, and it rests on who God is rather than on the singer's mood.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Psalm 86:8",
+        "scriptureRationale": "There is none like you among the gods, O Lord - the claim of the chorus."
+      },
+      {
+        "category": "Christ",
+        "title": "Christ known by what he did",
+        "explanation": "The verse points to the signs at Cana and the healing of the blind man, anchoring the song's claims in recorded acts of Jesus rather than in generalities.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "John 2:1-11",
+        "scriptureRationale": "The first sign at Cana, where Jesus turned water to wine."
+      },
+      {
+        "category": "Assurance",
+        "title": "If God is for us",
+        "explanation": "The bridge sets Paul's argument in a congregation's mouth: with God for us, no opposition prevails. It grounds assurance in God's presence, not in the singer's strength.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 8:31",
+        "scriptureRationale": "If God is for us, who can be against us - the question the bridge asks."
+      },
+      {
+        "category": "Hope",
+        "title": "Light, ashes and renewal",
+        "explanation": "The pre-chorus draws on Isaiah's promise of beauty for ashes. Taken with the surrounding lines it speaks of God's work, not a promise of an easy life.",
+        "songLocation": "PRE_CHORUS",
+        "magnitude": "MINOR",
+        "scriptureReference": "Isaiah 61:3",
+        "scriptureRationale": "Beauty instead of ashes - the promise the lines echo."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The supremacy and uniqueness of God",
+      "The signs of Christ's ministry",
+      "God as healer",
+      "God's presence with his people",
+      "Assurance that nothing prevails against those God is for"
+    ],
+    "assessment": "Nothing to correct. The rising-from-ashes line is general and does not make a false promise on its own. The song declares God's supremacy, recalls two of Christ's signs and draws the bridge from Romans 8. It does not state the cross or the resurrection, and the gospel is implicit rather than told. No independent published assessment of its teaching was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A hook that is easy to hold",
+        "explanation": "The chorus is short and sits naturally on the voice, and the bridge repeats a simple question. It has been in wide congregational use since 2010.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Voice",
+        "title": "Declared together",
+        "explanation": "The chorus is a confession about God, sung by everyone, and the bridge speaks in the plural.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "No published key was confirmed from the sources loaded. Arrangements vary, so test the key the band will use against the congregation's comfortable range, especially for the chorus and bridge.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not confirmed",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus and bridge repeat, but the repetition returns to a confession of God's supremacy and to the question of who can stand against us, so it restates the words rather than substituting for them.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form and widely used, with an easy hook. Because the verse is short and the bridge builds, a leader should avoid letting the arrangement outrun the room."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Short and easy to follow",
+        "explanation": "With one verse, a pre-chorus and a chorus, a visitor can follow the line from Christ's works to God's supremacy without difficulty.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The chorus names God's attributes directly and the verse points to named miracles. The gospel itself (the cross and resurrection) is not stated, so the song is clear on who God is and less so on how he saves."
+  },
+  "synthesis": {
+    "summary": "A congregational declaration of God's supremacy that recalls Christ's signs at Cana and the healing of the blind, speaks of light in darkness, and closes by asking who can stand against those God is for. It is easy to sing and in wide use. No theological concern was found. The cross and resurrection are not stated, and no independent source assessing the teaching was found.",
+    "themes": [
+      "God",
+      "Christ",
+      "Worship",
+      "Hope",
+      "Assurance",
+      "Sovereignty"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "John 2:1-11",
+        "relevance": "The sign at Cana, recalled in the verse."
+      },
+      {
+        "reference": "John 9",
+        "relevance": "The healing of the man born blind, recalled in the verse."
+      },
+      {
+        "reference": "Isaiah 61:3",
+        "relevance": "Beauty for ashes - the pre-chorus's renewal language."
+      },
+      {
+        "reference": "Romans 8:31",
+        "relevance": "If God is for us, who can be against us - the bridge's question."
+      },
+      {
+        "reference": "Psalm 86:8",
+        "relevance": "None like the Lord among the gods - the chorus's claim."
+      },
+      {
+        "reference": "Isaiah 40:25",
+        "relevance": "To whom will you liken God - the uniqueness the chorus confesses."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Our_God_(song)",
+      "title": "Our God (song)",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writers Tomlin, Reeves, Myrin and Redman; first on Passion: Awakening and the 2010 album; ten weeks at No. 1; 2011 Dove Worship Song of the Year; CCLI ranking.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://genius.com/Chris-tomlin-our-god-lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

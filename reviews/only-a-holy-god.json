@@ -1,0 +1,229 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Only a Holy God",
+    "artist": "CityAlight",
+    "artistType": "GROUP",
+    "album": "Only a Holy God",
+    "releaseYear": 2016,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Michael Farren, Rich Thompson, Dustin Smith and Jonny Robinson; copyright 2016 Farren Love And War Publishing, Integrity's Alleluia! Music, Integrity's Praise! Music, Jonny Robinson, Rich Thompson and CityAlight Music, administered by Integrity Music; CCLI 7073332; original key D per PraiseCharts. The list's guess of CityAlight is right for the recording churches know. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Three verses built on rhetorical questions, each answered by the same short line, a chorus calling the congregation to behold and worship, and a closing repeat. The first verse concerns God's authority over heaven and kings; the second his beauty, majesty and justice; the third his glory, his power to raise the dead and his undefeated name. A final verse turns personal: God rescues the singer from failure, gave his Son, and invites the singer to call him Father. The chorus is a corporate exhortation, the verses declare, and the last verse is personal. The song is built on Isaiah 6, Psalm 96, Revelation 4, Romans 8 and John 3:16. The Spirit and the church are not named.",
+    "claims": [
+      {
+        "claim": "God holds authority over heaven and over earthly kings.",
+        "subject": "The sovereignty of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is beautiful, majestic and just, and only he is worthy of such praise.",
+        "subject": "The attributes of God",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's glory and power reach to raising the dead, and his name has never been defeated.",
+        "subject": "God's power and name",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The congregation is called to behold God and worship him.",
+        "subject": "Worship",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God rescues the singer from failure and gave his Son.",
+        "subject": "Salvation and the Father's gift",
+        "location": "VERSE_4",
+        "locationDetail": "the final verse",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Believers are invited to call God Father.",
+        "subject": "Adoption",
+        "location": "VERSE_4",
+        "locationDetail": "the final verse",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "God's holiness",
+        "title": "Holiness set beside majesty and justice",
+        "explanation": "Verses name God's authority, beauty, majesty, justice and glory, so worship is anchored in who he is before anything is asked or felt.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Isaiah 6:3",
+        "scriptureRationale": "The holiness of God that fills the earth with glory."
+      },
+      {
+        "category": "Sovereignty",
+        "title": "Kings and heaven under one rule",
+        "explanation": "The questions put heaven and earthly rulers under God's authority and the answer is always the same, so the claim is learned by repetition.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 96:4-9",
+        "scriptureRationale": "The Lord is great and to be feared above all gods."
+      },
+      {
+        "category": "Resurrection power",
+        "title": "Power to raise the dead and an undefeated name",
+        "explanation": "The third verse ties God's glory to his power over death and to the name above every name.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Philippians 2:9-11",
+        "scriptureRationale": "The name given to Christ before which every knee bows."
+      },
+      {
+        "category": "Adoption",
+        "title": "The holy God invites us to call him Father",
+        "explanation": "The final verse moves from rescue and the giving of the Son to access as a child, which is the gospel's own order of rescue then relationship.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 8:15",
+        "scriptureRationale": "The Spirit of adoption by whom we cry Abba, Father."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The holiness and majesty of God",
+      "God's sovereignty over rulers",
+      "God's power over death",
+      "The giving of the Son",
+      "Adoption as God's children"
+    ],
+    "assessment": "Nothing to correct. The song is a sustained declaration of God's holiness and rule, built on Isaiah 6 and Revelation 4, that turns at the end to rescue, the giving of the Son and adoption. The cross and resurrection are alluded to rather than told, and the Spirit is not named."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A question and answer pattern that teaches itself",
+        "explanation": "The repeated question, answered by one short line, is learned within a verse and invites the room to answer together.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Corporate voice",
+        "title": "The chorus calls the room to worship",
+        "explanation": "The chorus addresses the congregation rather than the singer's feelings, which suits gathered singing.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published with D as the original key per PraiseCharts. Test the chorus with the congregation before settling a key.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "D (original per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns several times, and the repeated answer line reinforces the claim being made rather than filling time.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in words and form. The pattern is easy to learn and the chorus speaks to the room, so it works as a call to worship or an opening song."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "God is the subject throughout",
+        "explanation": "Each verse is about God and his attributes, so the congregation knows whom it addresses and why.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in its claims. The cross and resurrection are not narrated, so a visitor learns who God is more fully than how sinners are saved, until the final verse."
+  },
+  "synthesis": {
+    "summary": "A declaration of God's holiness, authority, beauty and power over death, built on Isaiah 6 and Revelation 4, with a congregational chorus calling the room to behold and worship. A final verse turns to rescue, the giving of the Son and adoption. Nothing in it is wrong; the cross itself is not narrated. No independent assessment of its content was found.",
+    "themes": [
+      "God",
+      "Holiness",
+      "Worship",
+      "Sovereignty",
+      "Salvation"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Isaiah 6:3",
+        "relevance": "The threefold holiness cry the song builds on."
+      },
+      {
+        "reference": "Psalm 96:4-9",
+        "relevance": "God's greatness and a call to worship him."
+      },
+      {
+        "reference": "Revelation 4:8",
+        "relevance": "Heaven's unceasing praise of the holy God."
+      },
+      {
+        "reference": "Hebrews 12:29",
+        "relevance": "God as consuming fire, reverence in worship."
+      },
+      {
+        "reference": "Romans 8:15",
+        "relevance": "Adoption and calling God Father."
+      },
+      {
+        "reference": "John 3:16",
+        "relevance": "God gave his Son."
+      },
+      {
+        "reference": "Philippians 2:9-11",
+        "relevance": "The name above every name."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/73275",
+      "title": "Only a Holy God - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Farren, Thompson, Smith and Robinson, 2016 copyright line and publishers, CCLI 7073332, original key D.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel (Musixmatch)",
+      "url": "https://www.google.com/search?q=Only+a+Holy+God+CityAlight+lyrics"
+    }
+  ]
+}

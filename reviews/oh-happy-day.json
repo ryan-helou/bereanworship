@@ -1,0 +1,221 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Oh Happy Day",
+    "artist": "Edwin Hawkins Singers",
+    "artistType": "GROUP",
+    "album": "Let Us Go into the House of the Lord (single 1969; also It's a Happy Day)",
+    "releaseYear": 1969,
+    "genre": "Gospel",
+    "isPublicDomain": false,
+    "notes": "Edwin Hawkins's gospel arrangement, recorded in Berkeley by his youth choir in 1967-68 and released as a single in 1969 on Pavilion/Buddah (US Hot 100 No. 4, UK No. 2; 1970 Grammy). It rests on Philip Doddridge's 18th-century baptism hymn text (dated 1755 by some sources) and a campmeeting refrain first printed in the Wesleyan Sacred Harp (1854), tied to Edward Rimbault; Hawkins keeps only the refrain, drops the stanzas and adds his own treatment. The arrangement is Hawkins's, so it is not public domain. Publisher and CCLI number were not found in the pages read. The list's artist is right for the recording churches know. Reviewed as the Hawkins arrangement, not Doddridge's full hymn; a church must decide which version it means.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "A short refrain looped in call-and-response between a leader and choir, one verse-like section, an ad-lib bridge and a return of the refrain with improvised exclamations. The refrain celebrates the day Jesus washed the singer's sins away. The verse says Jesus taught the singer to watch, fight and pray and so to rejoice every day. The bridge speaks informally of arriving in heaven, a conversation with the Lord about a reward and paved streets. The closing ad-libs are exclamations to Jesus. The voice is a first-person testimony with choir echoes. 'Washed' is not specified: cross, baptism or conversion. The bridge is loose and the ad-libs are partly improvised, so the exact words vary by recording.",
+    "claims": [
+      {
+        "claim": "Jesus washed the singer's sins away, and the day this happened is a day for joy.",
+        "subject": "Cleansing from sin",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus taught the singer to watch, fight and pray, and so to rejoice every day.",
+        "subject": "Discipleship and perseverance",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer will arrive in heaven and meet the Lord, with a reward and streets of gold.",
+        "subject": "Heaven and reward",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer addresses Jesus directly in closing exclamations of praise.",
+        "subject": "Praise of Jesus",
+        "location": "OUTRO",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": false,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Salvation",
+        "title": "Cleansing from sin is credited to Jesus",
+        "explanation": "The refrain locates forgiveness in what Jesus did, not in the singer's effort, and the whole song returns to it. The act is stated without saying how, but it is rightly attributed to Christ.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 1:5",
+        "scriptureRationale": "Christ who loves us and freed us from our sins by his blood - the act the refrain credits to Jesus."
+      },
+      {
+        "category": "Discipleship",
+        "title": "Watching, fighting and praying as the Christian life",
+        "explanation": "The verse says Jesus is the teacher of the believer's vigilance and prayer. That ties joy to a life of perseverance and keeps the song from stopping at the moment of conversion.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Matthew 26:41",
+        "scriptureRationale": "Watch and pray that you may not enter into temptation - the pairing the verse echoes."
+      },
+      {
+        "category": "Hope",
+        "title": "Heaven and the believer's reward",
+        "explanation": "The bridge points ahead to meeting the Lord and a reward. The idiom is informal, but it affirms a hope beyond this life.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MINOR",
+        "scriptureReference": "2 Timothy 4:8",
+        "scriptureRationale": "The crown of righteousness laid up for those who love his appearing."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Forgiveness of sins through Jesus",
+      "Perseverance through watching and prayer",
+      "Heaven and reward for believers",
+      "Jesus as teacher and Lord"
+    ],
+    "assessment": "Nothing the song says is false. The refrain is thin by design: it says Jesus washed sins away and does not say how, so the cross is implied rather than stated. The bridge treats heaven and a reward in an informal, conversational idiom, which is style, not error. The sources found are mostly about origin and reception, so the assessment rests on the reading notes."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A refrain a room learns at once",
+        "explanation": "The refrain is short, rhythmic and learned by hearing, so a congregation can join within one pass.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fit for baptisms and celebrations",
+        "explanation": "Its theme of the day of cleansing suits baptism and testimony services, as Doddridge's original text did.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published keys vary by arrangement and none was checked. Congregations usually sing the refrain only; the choir and soloist parts of the recording are hard to reproduce and need a lead and group.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Varies by arrangement; not checked",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The refrain repeats dozens of times with improvised exclamations over it. The repetition carries joy rather than new content, though the refrain is itself a confession.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Easy for a congregation to join with a lead and a choir, and hard to copy in full. The recording's ad-libs are performance material; most churches will sing the refrain and a verse. Decide beforehand which version is meant, the Hawkins arrangement or Doddridge's hymn."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Jesus is named as the one who cleanses",
+        "explanation": "The refrain names Jesus as the cleanser, so the addressee and the act are plain.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "The main claim is clear and the vocabulary is plain. What is unspecified is how and by what means the washing occurred. The loose ad-lib bridge adds informal, partly improvised wording whose exact content varies by recording."
+  },
+  "synthesis": {
+    "summary": "A gospel arrangement built on an old baptism-hymn refrain: Jesus washed the singer's sins away, taught the singer to watch, fight and pray, and the bridge looks ahead to heaven and reward. Doctrine is light but sound; the cross is implied, not stated. The refrain is easy and repeated heavily, the bridge and ad-libs are informal, and a church must choose between this arrangement and Doddridge's hymn.",
+    "themes": [
+      "Christ",
+      "Salvation",
+      "Grace",
+      "Worship",
+      "Heaven",
+      "Hope",
+      "Baptism",
+      "Prayer"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Acts 22:16",
+        "relevance": "Baptism and washing away sins - the setting of the original hymn."
+      },
+      {
+        "reference": "1 Corinthians 6:11",
+        "relevance": "You were washed, sanctified, justified - the refrain's cleansing theme."
+      },
+      {
+        "reference": "Revelation 1:5",
+        "relevance": "Freed from sins by Christ's blood."
+      },
+      {
+        "reference": "Matthew 26:41",
+        "relevance": "Watch and pray - the verse's pairing."
+      },
+      {
+        "reference": "Ephesians 6:18",
+        "relevance": "Praying at all times and keeping watch."
+      },
+      {
+        "reference": "Revelation 21:21",
+        "relevance": "The street of the city - the bridge's picture of heaven."
+      },
+      {
+        "reference": "2 Timothy 4:8",
+        "relevance": "The crown laid up for believers - the reward the bridge mentions."
+      },
+      {
+        "reference": "Psalm 118:24",
+        "relevance": "This is the day the Lord has made - the rejoicing in a day."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oh_Happy_Day",
+      "title": "Oh Happy Day",
+      "publisher": "Wikipedia",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_3",
+      "establishes": "Doddridge's hymn text, Freylinghausen and Rimbault tunes, Hawkins's 1967 arrangement keeping only the refrain, Pavilion/Buddah release, chart record and 1970 Grammy.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.hymnologyarchive.com/oh-happy-day",
+      "title": "Oh Happy Day",
+      "publisher": "Hymnology Archive",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "Refrain first printed in the Wesleyan Sacred Harp (1854), linked to Rimbault; Hawkins's 1968 recording and 1969 success; discusses the arrangement's textual change and its context.",
+      "assessesContent": true
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel (Musixmatch)",
+      "url": "https://www.google.com/search?q=Oh+Happy+Day+Edwin+Hawkins+Singers+lyrics"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "O Sacred Head, Now Wounded",
+    "artist": "Traditional (Latin medieval; Paul Gerhardt, German 1656; J. W. Alexander, English 1830)",
+    "artistType": "UNKNOWN",
+    "album": null,
+    "releaseYear": 1656,
+    "genre": "Hymn",
+    "isPublicDomain": true,
+    "notes": "A Passion hymn from a long medieval Latin poem on Christ's wounded body, once credited to Bernard of Clairvaux and now often traced to Arnulf of Leuven (d. 1250). Paul Gerhardt reworked the final section into German, first printed in 1656 in Johann Crüger's Praxis pietatis melica. The English most sung is James Waddel Alexander's of 1830; John Gambold (1752), Catherine Winkworth (1855), H. W. Baker (1861) and Robert Bridges (1899) made others. The tune is the Passion Chorale, Hans Leo Hassler, c. 1600, adapted by Crüger and harmonised by Bach in the St Matthew Passion. Public domain. Reviewed as the standard five-stanza Alexander-based English text.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Five eight-line stanzas and no refrain. The first stanza beholds the crowned, beaten and anguished Christ. The second confesses that the singer's guilt and Christ's suffering are bound together, and asks grace of him. The third asks how to thank him and prays for lifelong love. The fourth asks him as Shepherd and Guardian to receive the singer, recalling his gifts, words and the Spirit's leading. The fifth asks his nearness at death. The voice is a meditative first person speaking to Christ, moving from sight to confession to prayer.",
+    "claims": [
+      {
+        "claim": "Christ, crowned with thorns and beaten, suffered in anguish on the cross.",
+        "subject": "The passion of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer's guilt is the cause of Christ's suffering; he bore what sinners deserved.",
+        "subject": "Substitutionary atonement",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The sinner falls before Christ and asks grace, not reward.",
+        "subject": "Repentance and grace",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ's suffering calls for lifelong thanks and love in return.",
+        "subject": "Gratitude",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is the Shepherd and Guardian who receives the one who belongs to him.",
+        "subject": "Christ as Shepherd",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer asks for Christ's nearness in death, relying on his own anguish for relief.",
+        "subject": "Assurance in death",
+        "location": "VERSE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "Guilt and the cross joined",
+        "explanation": "The second stanza ties the singer's own sin to Christ's suffering, so the cross is seen as the sinner's debt borne by another and not as a spectacle to pity.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Isaiah 53:4-6",
+        "scriptureRationale": "The servant wounded for our transgressions, the Lord laying our iniquity on him."
+      },
+      {
+        "category": "Atonement",
+        "title": "Beholding the crucified",
+        "explanation": "The first stanza looks long and plainly at the thorns, the blows and the anguish, which keeps the cost of salvation before a congregation.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "John 19:2",
+        "scriptureRationale": "The crown of thorns placed on Christ in his Passion."
+      },
+      {
+        "category": "Grace",
+        "title": "Repentance asking only grace",
+        "explanation": "The sinner falls down and asks for grace rather than offering merit, which is the posture of Romans 5:8.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 5:8",
+        "scriptureRationale": "Christ died for us while we were still sinners."
+      },
+      {
+        "category": "Christ",
+        "title": "Shepherd who keeps his own",
+        "explanation": "The fourth stanza turns to Christ as Shepherd and Guardian and recalls his gifts and the Spirit's leading, so the Passion meditation ends in trust.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 23:1",
+        "scriptureRationale": "The Lord as shepherd."
+      },
+      {
+        "category": "Assurance",
+        "title": "A prayer for a Christian death",
+        "explanation": "The last stanza asks Christ to be near at death, answering the fear of dying with his presence.",
+        "songLocation": "VERSE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Hebrews 13:5",
+        "scriptureRationale": "I will never leave you nor forsake you."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Substitutionary atonement",
+      "Human sinfulness",
+      "Grace received in repentance",
+      "Christ as Shepherd",
+      "Presence of Christ in death"
+    ],
+    "assessment": "Nothing to correct. The text moves from beholding the crucified Christ to confession that the singer's sin caused his suffering, then to thanks, trust and a prayer for death. Substitution is clear. Attribution to Bernard is traditional and uncertain, which affects history, not doctrine. The resurrection is not reached; it is a Passion hymn."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "The Passion Chorale",
+        "explanation": "A solemn, well-known chorale that congregations sing in parts and that carries the text without ornament.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Holy Week and Good Friday",
+        "explanation": "The content and tune fit Lent and Good Friday exactly and give a congregation a way to dwell on the cross.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Published in several keys depending on hymnal; the tune sits comfortably for mixed congregations in most settings. Slow tempo needs a steady leader.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Varies by hymnal",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "NONE",
+    "repetitionAssessment": "No refrain; each of the five stanzas advances the meditation.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form and voice. Five long stanzas are demanding, so a selection is common, and the slow chorale rewards confident part-singing and a steady pace."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ directly addressed",
+        "explanation": "The whole hymn is spoken to Christ and his sufferings are named, so no listener can miss who is addressed or why.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The older English idiom is easy to follow, and the movement from sight to confession to prayer is plain."
+  },
+  "synthesis": {
+    "summary": "A Passion meditation addressed to Christ: he is beheld wounded and crowned, the singer confesses that his own guilt lies behind the suffering and asks grace, then offers thanks, entrusts himself to the Shepherd and asks his nearness at death. Substitution is clear. Nothing false was found; the resurrection is not reached. Authorship of the Latin source is traditional and disputed.",
+    "themes": [
+      "Cross",
+      "Christ",
+      "Grace",
+      "Repentance",
+      "Suffering",
+      "Assurance",
+      "Prayer"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Isaiah 53:3-6",
+        "relevance": "The wounded servant bearing our iniquity, behind the whole hymn."
+      },
+      {
+        "reference": "John 19:2",
+        "relevance": "The crown of thorns the first stanza beholds."
+      },
+      {
+        "reference": "Psalm 23",
+        "relevance": "Christ as Shepherd in the fourth stanza."
+      },
+      {
+        "reference": "1 Peter 2:24",
+        "relevance": "Christ bearing our sins in his body on the tree."
+      },
+      {
+        "reference": "Romans 5:8",
+        "relevance": "Christ dying for us as sinners."
+      },
+      {
+        "reference": "2 Corinthians 5:21",
+        "relevance": "Sin laid on Christ so that we may be righteous."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/O_Sacred_Head,_Now_Wounded",
+      "title": "O Sacred Head, Now Wounded",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Latin origin and attribution (Arnulf of Leuven, once Bernard), Gerhardt's German 1656, Alexander's English 1830, Hassler's Passion Chorale.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "gccsatx.com",
+      "url": "https://gccsatx.com/hymns/o-sacred-head-now-wounded"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Jerusalem",
+    "artist": "CityAlight",
+    "artistType": "GROUP",
+    "album": "Yours Alone",
+    "releaseYear": 2014,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Jonny Robinson, Rich Thompson and Tiarne Tranter; copyright 2014 CityAlight Music, administered by Integrity Music; CCLI 7003218. The recording churches know is CityAlight's on Yours Alone; PraiseCharts gives original key B and tags it for Palm Sunday, Good Friday and Easter. The 2014 year is the copyright line; the album year was not separately confirmed. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Four narrative verses with no separate chorus; the final verse closes on a repeated call to lift voices to Christ. The verses call the church to look at Christ in order: the Palm Sunday crowd turning against him, the road to the cross, the crucifixion with the temple veil torn, the resurrection and reign, and the New Jerusalem. The voice is exhortation to the church that turns to praise, in the third person about Christ. One poetic line about the crowd's dust receiving his blood is vague but not false. The Spirit is not reached.",
+    "claims": [
+      {
+        "claim": "The crowd that welcomed Christ on Palm Sunday turned and demanded his death.",
+        "subject": "The passion narrative",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ, the Creator, went to the cross silent as a lamb.",
+        "subject": "The humility and deity of Christ",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "At the crucifixion the temple veil was torn and Christ's blood shields from God's wrath.",
+        "subject": "Propitiation and access to God",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ rose and reigns, and every knee will bow.",
+        "subject": "The resurrection and lordship of Christ",
+        "location": "VERSE_3",
+        "lyricExcerpt": null,
+        "locationDetail": "the closing lines"
+      },
+      {
+        "claim": "The redeemed will come to the New Jerusalem to see Christ enthroned.",
+        "subject": "Future hope",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The church is called to lift its voice to Christ.",
+        "subject": "Worship of Christ",
+        "location": "VERSE_4",
+        "lyricExcerpt": null,
+        "locationDetail": "the repeated closing call"
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "Blood that shields from wrath",
+        "explanation": "The cross is presented as Christ's blood standing between sinners and God's wrath, not merely as an example of love.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Romans 5:9",
+        "scriptureRationale": "Justified by his blood, saved from the wrath of God through him - the claim the verse makes."
+      },
+      {
+        "category": "Christ",
+        "title": "Creator who goes silent to the cross",
+        "explanation": "The one led to death is named as the maker of all things, so the cross is the Son's own act of humility.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Isaiah 53:7",
+        "scriptureRationale": "Silent as a lamb before its shearers - the figure of the verse."
+      },
+      {
+        "category": "Access",
+        "title": "The veil torn",
+        "explanation": "The torn veil is told as the opening of access to God by Christ's death.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Matthew 27:51",
+        "scriptureRationale": "The temple curtain torn in two at his death."
+      },
+      {
+        "category": "Hope",
+        "title": "From Palm Sunday to the new Jerusalem",
+        "explanation": "The song carries the narrative to the reign of Christ and the city to come, so the cross is set within the whole of redemption.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 21:2",
+        "scriptureRationale": "The holy city coming down from God - the verse's end point."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The deity of Christ as Creator",
+      "Substitutionary death",
+      "Propitiation: blood that shields from wrath",
+      "Access to God through the cross",
+      "The resurrection and reign of Christ",
+      "The new Jerusalem"
+    ],
+    "assessment": "Nothing to correct. The song walks from Palm Sunday through the cross, resurrection and reign to the new Jerusalem, and states the meaning of the cross as blood shielding from wrath. One line about the crowd's dust receiving his blood is vague poetry, not an error. The Spirit is not reached, and no independent assessment of its content was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Use",
+        "title": "A Palm Sunday and Good Friday song",
+        "explanation": "The narrative order gives churches a way to sing through Holy Week in one piece, and the catalogue tags it for those days.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "A closing call the room can join",
+        "explanation": "The last verse repeats a call to lift voices, which gives a congregation a place to join with the whole church.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Original key B per PraiseCharts, which is high for many rooms; B and C arrangements are listed. The verses are wordy for sight-reading, so teach it before leading.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "B (original per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The verses carry new content each time and only the closing call repeats, which gathers the narrative into praise.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in words and form: a singable melody and an exhortation to the church. The verses are word-heavy, so plan to teach it, and consider a lower key."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ is the plain subject",
+        "explanation": "Every verse is about Christ, in the order the Gospels give, so a visitor can follow who is being praised and why.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear and biblical in vocabulary. One image about the crowd's dust receiving his blood is vague, but nothing in the song is open to a wrong reading."
+  },
+  "synthesis": {
+    "summary": "A four-verse narrative that calls the church to look at Christ from the Palm Sunday crowd to the cross, the torn veil, the resurrection and reign, and the new Jerusalem. It says the blood shields from wrath and names Christ as Creator. One image is vague but not false. No concern was found. The Spirit is not reached and no independent assessment of its content was found.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Resurrection",
+      "Salvation",
+      "Worship",
+      "Heaven",
+      "Hope"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Matthew 21:9",
+        "relevance": "The Palm Sunday crowd welcoming Jesus."
+      },
+      {
+        "reference": "Matthew 27:22-23",
+        "relevance": "The crowd demanding his crucifixion."
+      },
+      {
+        "reference": "Isaiah 53:7",
+        "relevance": "Silent as a lamb before its shearers."
+      },
+      {
+        "reference": "Colossians 1:16",
+        "relevance": "All things created through him."
+      },
+      {
+        "reference": "Matthew 27:51",
+        "relevance": "The temple veil torn at his death."
+      },
+      {
+        "reference": "Romans 5:9",
+        "relevance": "Saved from wrath through his blood."
+      },
+      {
+        "reference": "Philippians 2:7-11",
+        "relevance": "Humility, exaltation and every knee bowing."
+      },
+      {
+        "reference": "Revelation 21:2",
+        "relevance": "The new Jerusalem."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/73796",
+      "title": "Jerusalem - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Jonny Robinson, Rich Thompson and Tiarne Tranter, 2014 copyright to CityAlight Music, CCLI 7003218, original key B, album Yours Alone.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com/Cityalight-jerusalem-lyrics"
+    }
+  ]
+}

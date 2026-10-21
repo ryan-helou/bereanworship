@@ -1,0 +1,208 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Jesus, Strong and Kind",
+    "artist": "CityAlight",
+    "artistType": "GROUP",
+    "album": "Jesus Strong and Kind",
+    "releaseYear": 2019,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Michael Farren, Jonny Robinson, Rich Thompson and Colin Buchanan; copyright 2019 CityAlight Music, Farren Love and War Publishing, Integrity's Alleluia! Music (admin. Capitol CMG Publishing) and Wanaaring Road Music; CCLI 7139992; PraiseCharts lists the original key as C. The list's artist is right for the recording churches know: CityAlight, from Sydney, released it on the album of the same name in 2019. It is a four-way co-write, and Buchanan is known for children's and family songs. The same words are used on the live recording from There Is One Gospel. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Three short verses with a repeated chorus. Each verse follows one pattern: Jesus invites us to bring Him something (thirst, weakness, fear, being lost) and the verse answers with what He gives. The chorus affirms that the Lord is good and faithful and calls the singer to run to Him. The final verse points to the cross as the proof that He seeks and saves the lost. The voice is simple first person and plural, a teaching and assurance voice suited to children and families. Christ is named. The Spirit, sin in detail and the resurrection are not reached.",
+    "claims": [
+      {
+        "claim": "Jesus invites the thirsty to come to Him and be satisfied.",
+        "subject": "Christ as the satisfier of thirst",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus meets our weakness with His own strength.",
+        "subject": "Strength in weakness",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus is a refuge and keeper who guards His people day and night, so they need not be afraid.",
+        "subject": "God's protection",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lord is good and faithful, and we are invited to run to Him.",
+        "subject": "The goodness and faithfulness of God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The cross proves that Jesus seeks the lost.",
+        "subject": "The mission of Christ",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christ",
+        "title": "Jesus invites and provides",
+        "explanation": "Each verse sets a human need beside Christ's own invitation and His sufficiency, so the song teaches who Jesus is for the weary and afraid rather than how the singer feels.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Matthew 11:28",
+        "scriptureRationale": "Christ calls the weary and burdened to come to Him - the pattern of every verse."
+      },
+      {
+        "category": "Cross",
+        "title": "The cross as proof He seeks the lost",
+        "explanation": "The last verse grounds the invitation in the cross: Christ came for the lost and went to the cross to find them.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Luke 19:10",
+        "scriptureRationale": "The Son of Man came to seek and save the lost."
+      },
+      {
+        "category": "Scripture",
+        "title": "Built on named passages",
+        "explanation": "Thirst, strength in weakness, and the keeping of Psalm 91 and Psalm 121 are set plainly, so children learn Scripture's own promises.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "John 7:37",
+        "scriptureRationale": "Jesus' invitation to the thirsty - the first verse's shape."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The sufficiency of Christ for the weak and needy",
+      "God's goodness and faithfulness",
+      "God's keeping care for his people",
+      "The cross as Christ's seeking of the lost"
+    ],
+    "assessment": "Nothing to correct. The song teaches who Christ is and what He gives, and ends at the cross. It is gentle and simple by design. It names no sin in detail and does not reach the resurrection or the Spirit; that is scope for a children's song, not a fault. The protection language is the Psalms' own idiom."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Short phrases for all ages",
+        "explanation": "Very short phrases and a repeated pattern let children and adults learn it in one pass.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fits families and mixed-age gatherings",
+        "explanation": "The teaching voice and assurance suit all-ages services, family worship and children's ministry.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "PraiseCharts lists the original key as C. The tune is simple, so any room should find a comfortable key.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "C (original per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The verses repeat one pattern and the chorus returns often. For a song meant for children the repetition is a teaching device and carries the words, though it is heavy.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form and easy to sing across ages. The repetition is heavy but suits its audience; it is a good song to teach a family or children's group Scripture's promises."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Jesus is named and invited to",
+        "explanation": "The song speaks about Jesus by name and states what He does for each need, so a visitor knows whom the song addresses.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear and plain. The gospel is implied through the cross verse rather than laid out in sequence."
+  },
+  "synthesis": {
+    "summary": "A simple, repeated song in which Jesus invites the thirsty, weak, fearful and lost to come to Him, with a chorus on the Lord's goodness and faithfulness and a last verse pointing to the cross as proof He seeks the lost. Nothing in it is wrong. It is brief on sin, the resurrection and the Spirit. Written for all ages, with heavy but purposeful repetition.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Grace",
+      "Faith",
+      "Assurance",
+      "Providence"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "John 7:37",
+        "relevance": "Jesus' invitation to the thirsty - the first verse's shape."
+      },
+      {
+        "reference": "2 Corinthians 12:9-10",
+        "relevance": "Strength made perfect in weakness - the weakness verse."
+      },
+      {
+        "reference": "Psalm 121:5-8",
+        "relevance": "The Lord keeping his people day and night."
+      },
+      {
+        "reference": "Luke 19:10",
+        "relevance": "The Son of Man seeking and saving the lost."
+      },
+      {
+        "reference": "Matthew 11:28",
+        "relevance": "Come to me, all who are weary."
+      },
+      {
+        "reference": "Psalm 100:5",
+        "relevance": "The Lord is good and his faithfulness endures."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/75850/jesus-strong-and-kind-sheet-music/rhythm",
+      "title": "Jesus Strong And Kind - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: four writers, 2019 copyright line and publishers, CCLI 7139992, original key C, CityAlight album.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://genius.com/Cityalight-jesus-strong-and-kind-lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "genius.com",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

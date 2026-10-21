@@ -1,0 +1,189 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "MEDIUM",
+    "title": "Open the Eyes of My Heart",
+    "artist": "Paul Baloche",
+    "artistType": "INDIVIDUAL",
+    "album": "Open the Eyes of My Heart",
+    "releaseYear": 1999,
+    "genre": "Contemporary Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Paul Baloche. Baloche wrote it at his home church, Community Christian Fellowship in Lindale, Texas, partly from Ephesians 1:18 and from a pastor's habit of praying for the eyes of the heart before preaching; he later added a section from Isaiah 6. First recorded by Sonicflood on their 1999 debut, then by Baloche on his 2000 album of the same name; Michael W. Smith, Phillips Craig and Dean and others recorded it. The list's guess of Paul Baloche is right as writer. The copyright year, publisher and CCLI number were not found on any page that loaded, so release year 1999 is the first recording. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "A short prayer refrain, a verse and chorus about seeing God lifted up, and a repeated bridge taking up the seraphim's cry of holiness. The refrain asks God to open the singer's spiritual eyes to see him. The verse describes beholding him high and exalted in glory and asks for his power and love to be poured out. The bridge repeats the heavenly cry and shifts to a plural voice. The song is a first person prayer; its content is a request for sight of God, built on Ephesians 1:18 and Isaiah 6.",
+    "claims": [
+      {
+        "claim": "The singer asks God to open the eyes of the heart so as to see him.",
+        "subject": "Illumination",
+        "location": "REFRAIN",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is to be seen high and exalted in glory.",
+        "subject": "The exaltation of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer asks that God's power and love be poured out.",
+        "subject": "Prayer for God's presence",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is holy, as the seraphim declare, and the congregation joins that cry.",
+        "subject": "The holiness of God",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": false,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Prayer",
+        "title": "A prayer for spiritual sight drawn from Paul",
+        "explanation": "The refrain turns Paul's prayer for enlightened hearts into the congregation's own request, asking God rather than relying on the singer.",
+        "songLocation": "REFRAIN",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Ephesians 1:18",
+        "scriptureRationale": "Paul's prayer that the eyes of the heart be enlightened."
+      },
+      {
+        "category": "God's holiness",
+        "title": "The seraphim's cry brought into the church's singing",
+        "explanation": "The bridge sets the congregation beside the heavenly worshippers in declaring God holy.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 6:1-3",
+        "scriptureRationale": "Isaiah's vision of the Lord high and lifted up and the seraphim's cry."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God's holiness",
+      "God as exalted in glory",
+      "Dependence on God for spiritual sight"
+    ],
+    "assessment": "Nothing to correct. A short prayer built on Ephesians 1:18 and Isaiah 6, asking God to give sight of himself. It states no act of God, such as the cross or resurrection, and the voice is the singer's own request, which is why those answers are recorded as they are."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Short and simple, learned in one hearing",
+        "explanation": "The few words and plain melody mean a congregation sings it without a screen, and it suits a quiet moment of prayer.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "No key was established from a page that loaded; test the key with the congregation.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not established",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The refrain and the holy cry return many times. Here the repetition serves a prayer for sight and a confession of holiness, though the words themselves are few.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Simple enough for any congregation. It is best led gently as a prayer; stretching it long leans on repetition rather than content."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "One request, one vision",
+        "explanation": "The song asks one thing and shows one picture, so nothing is hard to follow.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The song does not say who Christ is or what he has done, so a visitor learns that God is holy and to be sought, not how sinners come to him."
+  },
+  "synthesis": {
+    "summary": "A short first person prayer, built on Ephesians 1:18 and Isaiah 6, asking God to open the eyes of the heart to see him exalted, with a bridge taking up the seraphim's cry of holiness. It names no act of God and does not reach the gospel. Nothing in it is wrong. No independent assessment of its content was found.",
+    "themes": [
+      "God",
+      "Holiness",
+      "Prayer",
+      "Worship",
+      "Scripture"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Ephesians 1:18",
+        "relevance": "The prayer for enlightened hearts that the refrain adopts."
+      },
+      {
+        "reference": "Isaiah 6:1-3",
+        "relevance": "The vision of the Lord exalted and the seraphim's cry."
+      },
+      {
+        "reference": "Psalm 119:18",
+        "relevance": "A prayer that God open the eyes to see."
+      },
+      {
+        "reference": "Revelation 4:8",
+        "relevance": "Heaven's cry of holiness."
+      },
+      {
+        "reference": "Luke 24:31",
+        "relevance": "Eyes opened to recognise the Lord."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Open_the_Eyes_of_My_Heart",
+      "title": "Open the Eyes of My Heart",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writer Paul Baloche, basis in Ephesians 1:18, Sonicflood 1999 and Baloche 2000 recordings.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.praisecharts.com/blog/story-behind-open-the-eyes-of-my-heart/",
+      "title": "Story Behind Open The Eyes Of My Heart",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_3",
+      "establishes": "Baloche wrote it during ministry time at his home church in Lindale, Texas, partly from Ephesians 1:18.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google search excerpts (Genius, AZLyrics, Integrity)",
+      "url": "https://www.google.com/search?q=Open+the+Eyes+of+My+Heart+Paul+Baloche+lyrics"
+    }
+  ]
+}

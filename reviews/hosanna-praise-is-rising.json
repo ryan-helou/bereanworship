@@ -1,0 +1,202 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Hosanna (Praise Is Rising)",
+    "artist": "Paul Baloche",
+    "artistType": "INDIVIDUAL",
+    "album": "A Greater Song",
+    "releaseYear": 2006,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Paul Baloche and Brenton Brown; copyright 2005, 2006 Thankyou Music and Integrity's Hosanna! Music; CCLI 4662491 as widely listed (not checked against SongSelect). Baloche's live album A Greater Song, Integrity Music, released 4 April 2006, opens with it. The list's guess of Paul Baloche is right for the recording churches know; Brown co-wrote it and also recorded it. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Two verses, a repeated chorus, a short tag built on the verses' closing idea, and a closing chorus run-out. The verses speak as 'we' to God, describing the congregation turning toward him and being renewed in his presence. The chorus acclaims him as Savior with the Hosanna cry and asks him to act among the gathered people. The voice is plural and addressed to Christ. The cross, sin and the resurrection are not narrated.",
+    "claims": [
+      {
+        "claim": "The gathered people turn their attention to God and find strength and freedom from fear in his presence.",
+        "subject": "Presence and worship",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "In God's presence the worshipper is made new and brought into his kingdom.",
+        "subject": "New creation",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is acclaimed with the Hosanna cry as the one who saves.",
+        "subject": "Christ the Savior",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The congregation asks God to act among the people gathered.",
+        "subject": "Prayer for God's presence",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": false,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Worship",
+        "title": "The Hosanna cry given to Christ",
+        "explanation": "The chorus takes the crowd's acclamation at the triumphal entry and addresses it to Christ as Savior, so the congregation joins the praise of Matthew 21 rather than describing its own feelings.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 118:25-26",
+        "scriptureRationale": "The cry for salvation and the blessing on the one who comes - the source of the acclamation."
+      },
+      {
+        "category": "Presence",
+        "title": "Strength and fearlessness in God's presence",
+        "explanation": "The verses set the congregation's turning to God beside the Psalms' promise that fear gives way where he is. The hope lies in his presence, not in the singer.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 34:4-5",
+        "scriptureRationale": "Those who look to him are radiant and their faces not ashamed."
+      },
+      {
+        "category": "New creation",
+        "title": "Made new and brought into his kingdom",
+        "explanation": "The second verse names renewal in Christ and the transfer into his kingdom as things God does, in plain scriptural terms.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "2 Corinthians 5:17",
+        "scriptureRationale": "Anyone in Christ is a new creation."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Christ as Savior",
+      "The believer made new in Christ",
+      "Transfer into God's kingdom",
+      "God's presence with his gathered people"
+    ],
+    "assessment": "Nothing to correct. The song gives Christ the Hosanna acclamation and sings of renewal and freedom from fear in his presence, drawing on Psalm 118, Psalm 16, Psalm 34, 2 Corinthians 5 and Colossians 1. The chorus prayer for God to act among the gathered is a prayer for felt presence in worship, sound if not taken to mean he is otherwise absent. The cross, sin and the resurrection are not reached, and the claims lean on presence more than on his acts."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Short chorus, easy to learn",
+        "explanation": "A brief repeated chorus and a plain tune let a room join on first hearing.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "A gathering and opening song",
+        "explanation": "Plural voice and a prayer for God to meet the gathered people suit the start of a service.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Moderate range in the congregational version; no chart was read. Check the chorus against the room's voices and set the key accordingly.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Published in several keys (not checked)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The short chorus returns after each verse and in the run-out. It repeats the acclamation of Christ rather than standing in for content.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in voice and form. Short, repeated and easy to learn, with a plural voice addressed to Christ. A leader should not let the run-out grow into a mood in place of the acclamation."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ is acclaimed as Savior",
+        "explanation": "The chorus names the one praised and the reason, so the addressee is not left vague.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The Hosanna cry is biblical and widely understood, and the plural address to Christ is unambiguous. The prayer for God to act among the gathered is the one phrase to teach carefully."
+  },
+  "synthesis": {
+    "summary": "A congregational Hosanna addressed to Christ as Savior, with verses about turning to him, freedom from fear and being made new in his kingdom, and a chorus asking him to act among the gathered. Built on Psalms 118, 16 and 34, 2 Corinthians 5 and Colossians 1. No false claim found; the cross and resurrection are not narrated.",
+    "themes": [
+      "Worship",
+      "Christ",
+      "Salvation",
+      "Faith",
+      "Hope",
+      "Prayer"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 118:25-26",
+        "relevance": "The cry for salvation and blessing on the one who comes - the Hosanna acclamation."
+      },
+      {
+        "reference": "Matthew 21:9",
+        "relevance": "The crowd's Hosanna to the Son of David at the entry into Jerusalem."
+      },
+      {
+        "reference": "Psalm 16:11",
+        "relevance": "Fullness of joy in God's presence."
+      },
+      {
+        "reference": "Psalm 34:4-5",
+        "relevance": "Deliverance from fear for those who look to the Lord."
+      },
+      {
+        "reference": "2 Corinthians 5:17",
+        "relevance": "The believer as a new creation in Christ."
+      },
+      {
+        "reference": "Colossians 1:13",
+        "relevance": "Transfer into the kingdom of the beloved Son."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/A_Greater_Song",
+      "title": "A Greater Song",
+      "publisher": "Wikipedia",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_3",
+      "establishes": "Album released 4 April 2006 on Integrity Music; the song is track 1, credited to Paul Baloche and Brenton Brown.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com/Paul-baloche-hosanna-praise-is-rising-radio-mix-lyrics"
+    }
+  ]
+}

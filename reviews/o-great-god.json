@@ -1,0 +1,215 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "O Great God",
+    "artist": "Sovereign Grace Music",
+    "artistType": "GROUP",
+    "album": "Valley of Vision (Sovereign Grace); later on 30: Three Decades Of Songs For The Church",
+    "releaseYear": 2006,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Written by Bob Kauflin; copyright 2006 Sovereign Grace Praise, administered by Integrity Publishing; CCLI 4804015; original key D per PraiseCharts. A writer credit seen on one lyrics aggregator named other writers and looks unreliable; PraiseCharts credits Kauflin alone. The Sovereign Grace Music recording is the one churches know, and a later version features Matt Boswell. Release year given as the copyright year. No account of how the song was written was read. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Three verses and a closing tag. The first verse is a prayer that God would take the heart as his own, conquer rebellion and sin, because he has loved and purchased the singer. The second recalls a past blind, deaf and loveless, and new life given by the Spirit through the Word and the gospel, ending in hope and peace. The third asks for dependence on grace and protection from evil. The closing tag, repeated, says God is worthy of praise in thought and deed and asks him to glorify his own name through the singer. The voice is first-person prayer throughout.",
+    "claims": [
+      {
+        "claim": "God has loved and purchased the believer, so the heart belongs to him and he is asked to subdue sin and rebellion.",
+        "subject": "Redemption and ownership",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer was once spiritually blind and dead, unable to love God.",
+        "subject": "Human inability",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "New life comes by the Spirit through the Word and the gospel, bringing hope and peace.",
+        "subject": "Regeneration and justification",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer depends on grace and needs God's protection from evil.",
+        "subject": "Dependence on grace",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is worthy of praise in thought and deed, and the singer asks him to glorify his name through his life.",
+        "subject": "Worship and sanctification",
+        "location": "TAG",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Salvation",
+        "title": "New life by Spirit, Word and gospel",
+        "explanation": "The second verse describes the singer as once blind and dead and now alive by the Spirit working through the Word and the gospel. God does the whole work of new birth.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Ephesians 2:1-5",
+        "scriptureRationale": "Made alive with Christ when dead in trespasses - the movement of the verse."
+      },
+      {
+        "category": "Redemption",
+        "title": "Purchased, therefore his",
+        "explanation": "The prayer rests the believer's surrender on God's prior love and purchase, so obedience answers grace and does not earn it.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Corinthians 6:19-20",
+        "scriptureRationale": "You were bought with a price - the ground of the first verse's prayer."
+      },
+      {
+        "category": "Sanctification",
+        "title": "Holiness asked of God, not manufactured",
+        "explanation": "The verses ask God to conquer sin and guard the singer from evil, and the third verse names grace as the daily dependence.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 141:3-4",
+        "scriptureRationale": "A prayer that God would keep the heart from evil - the shape of the third verse."
+      },
+      {
+        "category": "Worship",
+        "title": "Life offered for God's glory",
+        "explanation": "The tag turns the whole prayer into a request that God glorify his name through thought and deed.",
+        "songLocation": "TAG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Corinthians 10:31",
+        "scriptureRationale": "Whatever you do, do all to the glory of God."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Redemption: believers are purchased by God",
+      "Human spiritual inability",
+      "Regeneration by the Spirit through the Word and gospel",
+      "Sanctification dependent on grace",
+      "Living for God's glory"
+    ],
+    "assessment": "Nothing to correct on the reading note. The prayer is built on Pauline texts: purchase, deadness and new life, and a heart kept from evil, with sanctification framed as dependent on grace. It addresses God throughout. No independent assessment of its teaching was found, so this is a clean record from the text alone."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A plain hymn-like tune",
+        "explanation": "The note describes a plain, hymn-like tune that a congregation can learn quickly.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Suits prayer and consecration",
+        "explanation": "Its prayer form fits times of confession, commitment and response after the Word.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published original key D (PraiseCharts). Test the melody with your congregation before keeping the key.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "D (original per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "Only the closing tag repeats, and it returns to a confession of God's worth and a request for his glory, so the repetition carries content.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational and easy to lead. Three verses and a short tag keep it compact."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "God is addressed directly",
+        "explanation": "The song is a prayer to God and its grounds are named: love, purchase, the Spirit, the Word and the gospel.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. Blind, dead and purchased are scriptural images, and nothing in the song is open to a wrong reading."
+  },
+  "synthesis": {
+    "summary": "A first-person prayer by Bob Kauflin: God has loved and purchased the singer, so the heart is his and sin is to be conquered. The second verse tells of new life by the Spirit through the Word and gospel, the third asks for grace and protection, and a repeated tag asks God to be glorified. The voice is the singer's own prayer. No independent assessment was found.",
+    "themes": [
+      "God",
+      "Grace",
+      "Salvation",
+      "Sin",
+      "Holiness",
+      "Prayer",
+      "Worship",
+      "Faith"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Romans 12:1-2",
+        "relevance": "Offering the whole self to God - the first verse's prayer."
+      },
+      {
+        "reference": "Psalm 51:10-12",
+        "relevance": "A clean heart and a renewed spirit asked of God."
+      },
+      {
+        "reference": "1 Corinthians 6:19-20",
+        "relevance": "Bought with a price - the ground of the first verse."
+      },
+      {
+        "reference": "Ephesians 2:1-5",
+        "relevance": "Dead in sin, made alive - the second verse."
+      },
+      {
+        "reference": "2 Corinthians 4:4-6",
+        "relevance": "Blindness lifted by the light of the gospel."
+      },
+      {
+        "reference": "Titus 3:5",
+        "relevance": "Saved by the renewing of the Holy Spirit, not by works."
+      },
+      {
+        "reference": "1 Corinthians 10:31",
+        "relevance": "All to the glory of God - the closing tag."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/25782/o-great-god",
+      "title": "O Great God - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: author Bob Kauflin, 2006 copyright Sovereign Grace Praise, CCLI 4804015, original key D, album 30: Three Decades Of Songs For The Church.",
+      "assessesContent": false
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "More Precious Than Silver",
+    "artist": "Lynn DeShazo",
+    "artistType": "INDIVIDUAL",
+    "album": "Hosanna! Music",
+    "releaseYear": 1982,
+    "genre": "Praise & Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Lynn DeShazo, who after graduating from Auburn University in 1978 worked at a McDonald's and later became an exclusive songwriter for Integrity for twenty-two years. Copyright 1982 Integrity's Hosanna! Music (ASCAP); hymnal indexes list CCLI 11335 and give keys of E and F. A Crosswalk column in the What Are We Singing series says the song grew out of a day of fasting on a restaurant shift, when she felt guilty and turned to Scripture. DeShazo has published a book of the stories behind her songs under this title (2010). The list's guess is right. Reviewed as the song with its full three parts, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "A short adoration song in three parts. The first stanza compares the worth of the Lord with precious things and says nothing the singer desires matches him; it is sung repeatedly. A middle section asks rhetorically who can measure the value of knowing and loving him. The last stanza praises the depth and breadth of his love and its reach to the nations, and the first stanza returns at the end. The voice is first-person worship addressed to the Lord, with some personal desire language and a closing line about wanting nothing more. Cross, sin and resurrection are not named; the song is adoration of God's worth and love.",
+    "claims": [
+      {
+        "claim": "The Lord is worth more than the most precious earthly things, and nothing the singer desires compares to him.",
+        "subject": "The supreme worth of God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The value of knowing and loving God cannot be measured.",
+        "subject": "Knowing God",
+        "location": "VERSE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's love has depth and breadth beyond measure.",
+        "subject": "The love of God",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's love reaches the nations.",
+        "subject": "Mission and God's universal love",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Worship",
+        "title": "God valued above all",
+        "explanation": "The song sets the worth of the Lord above riches and desire, which is the first commandment turned into adoration. The ground is who God is, not the singer's effort.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Philippians 3:8",
+        "scriptureRationale": "Counting everything loss for the surpassing worth of knowing Christ."
+      },
+      {
+        "category": "God",
+        "title": "Knowing God as the great good",
+        "explanation": "The middle section treats knowing and loving God as beyond measure in value, in line with the psalmists' preference of God over all else.",
+        "songLocation": "VERSE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 73:25",
+        "scriptureRationale": "Whom have I in heaven but you; nothing on earth I desire besides you."
+      },
+      {
+        "category": "Love of God",
+        "title": "The breadth of God's love",
+        "explanation": "The last stanza praises the depth and breadth of his love and its reach to the nations, which echoes Paul's prayer and keeps the song from being private only.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Ephesians 3:18-19",
+        "scriptureRationale": "Grasping the breadth, length, height and depth of Christ's love."
+      },
+      {
+        "category": "Scripture",
+        "title": "Wisdom better than silver",
+        "explanation": "The opening comparison is built on the Proverbs and Psalms passages that prize God's wisdom and word above silver and gold.",
+        "songLocation": "CHORUS",
+        "magnitude": "MINOR",
+        "scriptureReference": "Proverbs 3:13-15",
+        "scriptureRationale": "Wisdom is more profitable than silver and more precious than jewels."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The supreme worth of God",
+      "Knowing God as the greatest good",
+      "The immeasurable love of God",
+      "God's love for the nations"
+    ],
+    "assessment": "Nothing to correct. The comparisons are biblical idiom, not hyperbole to be read woodenly, and the claims about God's worth and love are true. The song carries no explicit gospel content: the cross, sin and resurrection are not named, and it states no act of God. No independent assessment was found; the Crosswalk piece is devotional."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Very simple and widely known",
+        "explanation": "A short melody and short stanzas make it learnable on one hearing, and it has been in hymnals for decades.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Quiet adoration",
+        "explanation": "Its contemplative scale suits response after a sermon, the offering, or the opening of a time of prayer.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Hymnal indexes list the keys of E and F. The tune is modest, so it generally suits mixed congregations; test the key in the room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "E or F (per hymnal indexes)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The opening stanza returns several times and again at the end, but each return confesses the same worth, and the middle and last stanza add new thoughts.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in words and form, easy to learn and sing. The repetition serves adoration. Because it states no act of God, it works best placed beside songs that tell the gospel."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Plain devotion to the Lord",
+        "explanation": "The Lord is addressed throughout and the comparisons are everyday, so the meaning is immediately plain to any congregation.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear and plain. Nothing is open to a wrong reading, though it names the Lord generally and does not set out the gospel, so a visitor learns that God is supremely worth knowing but not how he is known."
+  },
+  "synthesis": {
+    "summary": "A 1982 adoration song by Lynn DeShazo in three parts: the Lord's worth set above precious things, the unmeasurable value of knowing and loving him, and the breadth of his love reaching the nations. Biblical in idiom and nothing in it is wrong. It states no act of God and carries no explicit gospel content. No independent assessment of its teaching was found.",
+    "themes": [
+      "God",
+      "Worship",
+      "Grace",
+      "Mission",
+      "Scripture",
+      "Thanksgiving"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Proverbs 3:13-15",
+        "relevance": "Wisdom is better than silver and gold - the pattern of the opening comparison."
+      },
+      {
+        "reference": "Psalm 19:10",
+        "relevance": "God's word more desirable than gold."
+      },
+      {
+        "reference": "Psalm 73:25",
+        "relevance": "None desired beside God in heaven or on earth."
+      },
+      {
+        "reference": "Philippians 3:8",
+        "relevance": "The surpassing worth of knowing Christ."
+      },
+      {
+        "reference": "Ephesians 3:18-19",
+        "relevance": "The breadth and depth of Christ's love - the last stanza's theme."
+      },
+      {
+        "reference": "Revelation 7:9",
+        "relevance": "People of every nation worshipping - the stanza's reach to the nations."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://crosswalk.com/print/11582433",
+      "title": "More Precious Than Silver (What Are We Singing)",
+      "publisher": "Crosswalk.com",
+      "sourceType": "JOURNALISM",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writer Lynn DeShazo, the story of the song's origin, and a devotional reading that knowing God is worth more than possessions.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "gospelchoruses.wordpress.com",
+      "url": "https://gospelchoruses.wordpress.com/2017/03/16/more-precious-than-silver/"
+    }
+  ]
+}

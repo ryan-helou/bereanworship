@@ -1,0 +1,232 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Jesus, Thank You",
+    "artist": "Sovereign Grace Music",
+    "artistType": "GROUP",
+    "album": "Worship God Live",
+    "releaseYear": 2003,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Pat Sczebel; copyright 2003 Integrity's Hosanna! Music and Sovereign Grace Worship, administered by Integrity Music; CCLI 4475341; PraiseCharts lists the original key as G. First recorded by Sovereign Grace Music on Worship God Live; the Brook Hills Worship recording is the later one many churches know (on the Sovereign Grace 30-year collection). The list's artist is right in substance; the song is a solo write by Sczebel. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Two verses, a repeating chorus, a bridge of repeated devotion and an extended final chorus. The verses reflect on the mystery of the cross, the Father's judgment falling on the Son, and sinners brought near who were once enemies. The chorus thanks Christ for washing away sin, for satisfying the Father's wrath, and for seating former enemies at His table. The bridge is a short vow to live for Him. The voice is personal testimony addressed to Christ. In the first verse the second person appears to address Jesus while describing the Father crushing the Son, which reads as a Trinitarian wording quirk rather than an error. The Spirit and the resurrection are not reached.",
+    "claims": [
+      {
+        "claim": "The cross is a mystery: the Father's judgment fell on the Son.",
+        "subject": "Penal substitution",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Father crushed the Son according to his plan, and Christ willingly drank the cup.",
+        "subject": "The Father's plan and Christ's obedience",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Those once alienated and hostile are brought near through Christ.",
+        "subject": "Reconciliation",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ's blood has washed away the singer's sin.",
+        "subject": "Cleansing by the blood",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ satisfied the Father's wrath, and former enemies now sit at His table.",
+        "subject": "Propitiation and welcome",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer vows to live for Christ.",
+        "subject": "Response of devotion",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "Wrath satisfied in the Son",
+        "explanation": "The song states that the Father's judgment fell on Christ and that His death satisfied wrath, so the cross is taught as God's own plan, not only as a display of love.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Romans 3:25",
+        "scriptureRationale": "Christ as propitiation by his blood - the chorus's claim."
+      },
+      {
+        "category": "Reconciliation",
+        "title": "Enemies made welcome",
+        "explanation": "Former enemies are brought near and seated at His table; the song names the hostility before it names the welcome.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Colossians 1:21-22",
+        "scriptureRationale": "Once alienated and hostile, now reconciled by his death."
+      },
+      {
+        "category": "Cleansing",
+        "title": "Washed by His blood",
+        "explanation": "The chorus thanks Christ for washing sin away, putting the work on His side rather than the singer's.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 1:5",
+        "scriptureRationale": "Him who loves us and freed us from our sins by his blood."
+      },
+      {
+        "category": "Scripture",
+        "title": "The suffering Servant and the cup",
+        "explanation": "The first verse follows Isaiah 53 and Gethsemane, grounding the atonement in the Bible's own account.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 53:10",
+        "scriptureRationale": "It was the Lord's will to crush him."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Penal substitutionary atonement",
+      "Propitiation: the Father's wrath satisfied",
+      "Reconciliation of enemies to God",
+      "Cleansing by Christ's blood",
+      "Christ's willing obedience to the Father"
+    ],
+    "assessment": "Nothing to correct. The song states the doctrine many choruses avoid: the Father's judgment fell on the Son and satisfied wrath, and enemies are made welcome. The first verse's shift in the second person is a wording quirk; a singer understands the Father as the one who crushed the Son, so no false teaching results. The resurrection and the Spirit are not reached."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Easy to learn",
+        "explanation": "The thanks refrain and a plain tune are quick to pick up, so a congregation can sing it after one hearing.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Suited to communion and cross-centred services",
+        "explanation": "Its content fits communion, Good Friday and any service on the atonement.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "PraiseCharts lists the original key as G. The tune is plain, so most rooms should be comfortable; test the extended final chorus.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "G (original per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The thanks phrase repeats often and the final chorus is extended. The repetition is thanksgiving returning to a confession rather than filling space, though it is heavy.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "A congregational song of thanks, easy to learn. The voice is personal, the sort of testimony a church sings together. The extended ending invites a long repeated chorus; keep the focus on the words."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ is addressed by name",
+        "explanation": "The song speaks to Jesus directly and names what He did, so a visitor knows who is thanked and why.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The one small ambiguity is the first verse's second person, which can sound as though Jesus crushed himself; the context makes the Father the actor."
+  },
+  "synthesis": {
+    "summary": "A song of thanks to Christ for the cross: the Father's judgment falling on the Son, sin washed by His blood, wrath satisfied, and former enemies seated at His table, closing with a vow to live for Him. Nothing in it is wrong. The first verse's second person is a wording quirk, and the resurrection is not reached. Heavy but purposeful repetition.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Grace",
+      "Salvation",
+      "Thanksgiving",
+      "Communion"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Isaiah 53:10",
+        "relevance": "The Lord's will to crush his servant - the first verse."
+      },
+      {
+        "reference": "Matthew 26:39",
+        "relevance": "The cup Christ accepted in Gethsemane."
+      },
+      {
+        "reference": "Romans 3:25",
+        "relevance": "Christ as propitiation by his blood."
+      },
+      {
+        "reference": "Romans 5:9-10",
+        "relevance": "Saved from wrath and reconciled as enemies."
+      },
+      {
+        "reference": "Ephesians 2:13",
+        "relevance": "Brought near by the blood of Christ."
+      },
+      {
+        "reference": "Revelation 1:5",
+        "relevance": "Freed from our sins by his blood."
+      },
+      {
+        "reference": "Psalm 23:5",
+        "relevance": "A table prepared before the singer's enemies."
+      },
+      {
+        "reference": "Colossians 1:21-22",
+        "relevance": "Once alienated, now reconciled by his death."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/20605",
+      "title": "Jesus, Thank You - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writer Pat Sczebel, 2003 copyright and publishers, CCLI 4475341, original key G, album Worship God Live.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://genius.com/Sovereign-grace-music-and-brook-hills-worship-jesus-thank-you-lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "genius.com",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

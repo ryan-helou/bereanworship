@@ -1,0 +1,257 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Only a God Like You",
+    "artist": "Tommy Walker",
+    "artistType": "INDIVIDUAL",
+    "album": "Never Gonna Stop",
+    "releaseYear": 2000,
+    "genre": "Contemporary Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Tommy Walker alone; CCLI 3185395, published by Integrity Music (Capitol CMG Publishing administers). Recorded live at Christian Assembly in Los Angeles for the 2000 album Never Gonna Stop (Integrity, Hosanna! Music, Word), where it is the second track. The list's guess of Phillips, Craig and Dean is wrong; the song is Walker's own. The exact release date differs between sources (year 2000 either way). Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "A verse, a chorus, and a long extended section, returning to a chorus tag. The verse renounces human praise and worldly kingdoms in favour of serving the crucified Lord. The chorus declares that only this God is worthy of praise, hope and faith. The extended section moves to third person and lists titles of God and Christ - Maker, Father, Savior, Redeemer, Restorer - and recounts the incarnation, healing of the blind and the lost, the crown of thorns, and victory over sin and death. The voice is a first-person vow of allegiance; the long section is what Christ has done.",
+    "claims": [
+      {
+        "claim": "The singer renounces human praise and earthly kingdoms to serve the crucified Lord.",
+        "subject": "Allegiance to Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Only this God is worthy of praise, hope and faith; none is like him.",
+        "subject": "The uniqueness of God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is Maker, Father, Savior, Redeemer and Restorer.",
+        "subject": "Titles and work of God",
+        "location": "BRIDGE",
+        "locationDetail": "the extended section",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ took on human nature, humbling himself.",
+        "subject": "The incarnation",
+        "location": "BRIDGE",
+        "locationDetail": "the extended section",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ restores the blind and the lost.",
+        "subject": "Christ's saving mercy",
+        "location": "BRIDGE",
+        "locationDetail": "the extended section",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ wore the crown of thorns and won victory over sin and death.",
+        "subject": "Cross and victory",
+        "location": "BRIDGE",
+        "locationDetail": "the extended section",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "God",
+        "title": "The uniqueness of God declared",
+        "explanation": "The chorus puts hope and faith in this God alone, in the manner of the Song of Moses and Isaiah. It is a clear confession of monotheistic worship, not merely a mood.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Exodus 15:11",
+        "scriptureRationale": "Who is like you among the gods, O LORD - the question the chorus answers."
+      },
+      {
+        "category": "Christ",
+        "title": "The incarnation and the cross sung together",
+        "explanation": "The extended section names the Son's humbling, the crown of thorns and the defeat of sin and death. It teaches who Christ is and what he did, in order.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MAJOR",
+        "locationDetail": "the extended section",
+        "scriptureReference": "Philippians 2:6-8",
+        "scriptureRationale": "Christ taking human form and humbling himself to death - the arc the section follows."
+      },
+      {
+        "category": "Victory",
+        "title": "Victory over sin and death named",
+        "explanation": "The song ends its recital on Christ's conquest of sin and death, grounding the vow of allegiance in an achieved work.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "locationDetail": "the extended section",
+        "scriptureReference": "Hebrews 2:14-15",
+        "scriptureRationale": "Through death he destroyed the one who has the power of death, freeing those held in fear."
+      },
+      {
+        "category": "Worship",
+        "title": "Allegiance to God alone",
+        "explanation": "The verse sets the singer's service against human praise and worldly kingdoms, which is the first-commandment shape of true worship.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Matthew 4:10",
+        "scriptureRationale": "Worship the Lord your God and serve him only."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The uniqueness of God",
+      "The incarnation",
+      "Christ's cross and suffering",
+      "Victory over sin and death",
+      "God as Maker, Father and Redeemer",
+      "Worship of God alone"
+    ],
+    "assessment": "Nothing to correct. The song is a confession that no other god or ruler deserves the singer's praise, and its long section grounds that vow in the incarnation, the cross and Christ's victory. Trinity is only implied by the Father and Christ both being named, and the Spirit and the church are not reached. No independent assessment of the song's teaching was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A simple chorus",
+        "explanation": "The chorus is short and direct and easy to learn, even if the rest is heavy.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "A song of allegiance",
+        "explanation": "It suits a service about Christ's lordship or a call to worship him alone.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "No chart was read, so no key advice is firm. The long extended section is heavy for a room and better led by a cantor or spoken; the chorus is the congregational part.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "not stated (no chart read)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus repeats and a tag returns after the long recital, so the room keeps coming back to the central confession.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "The chorus is easy for a room; the extended section is long and wordy, which makes the song harder to sing together than to listen to. A leader can shorten it."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Titles that identify the God being praised",
+        "explanation": "Maker, Father, Savior, Redeemer and Restorer, with the work of Christ recounted, leave no doubt who is meant.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "locationDetail": "the extended section"
+      },
+      {
+        "category": "Structure",
+        "title": "Vow, confession, recital",
+        "explanation": "Allegiance, then the claim, then the reason, so each section answers why the singer can say what he does.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The titles are biblical and the recital follows the gospel narrative, so little is open to a wrong reading."
+  },
+  "synthesis": {
+    "summary": "A vow of allegiance that confesses no other god or ruler deserves the singer's praise, hope or faith, followed by a long recital of God's names and of Christ's work: the incarnation, mercy to the blind and the lost, the crown of thorns, and victory over sin and death. No false or misleading teaching was found. The long section is lyrically heavy for a congregation. No independent assessment of the song was found.",
+    "themes": [
+      "God",
+      "Christ",
+      "Cross",
+      "Worship",
+      "Faith",
+      "Hope",
+      "Sovereignty"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Exodus 15:11",
+        "relevance": "Who is like the LORD among the gods - the chorus's confession."
+      },
+      {
+        "reference": "Philippians 2:6-8",
+        "relevance": "Christ's humbling, incarnation and obedience to death."
+      },
+      {
+        "reference": "John 9:1-7",
+        "relevance": "Christ giving sight to the blind man."
+      },
+      {
+        "reference": "Luke 15:3-7",
+        "relevance": "The lost sheep sought and found."
+      },
+      {
+        "reference": "John 19:2",
+        "relevance": "The crown of thorns placed on Jesus."
+      },
+      {
+        "reference": "Hebrews 2:14-15",
+        "relevance": "Christ destroying the power of death."
+      },
+      {
+        "reference": "Matthew 4:10",
+        "relevance": "Worship and serve God only."
+      },
+      {
+        "reference": "Isaiah 42:8",
+        "relevance": "The LORD will not give his glory to another."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://integrityworship.com/songs/only-a-god-like-you-tommy-walker/",
+      "title": "Only A God Like You - Tommy Walker",
+      "publisher": "Integrity Music",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher page: writer Tommy Walker, CCLI 3185395.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Never_Gonna_Stop_(album)",
+      "title": "Never Gonna Stop (album)",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Live album recorded at Christian Assembly in Los Angeles, released 2000 by Integrity, Hosanna! Music and Word; the song is track two.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel (LyricFind)",
+      "url": "https://www.google.com/search?q=Only+a+God+Like+You+Tommy+Walker+lyrics"
+    }
+  ]
+}

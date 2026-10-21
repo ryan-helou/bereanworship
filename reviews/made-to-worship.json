@@ -1,0 +1,235 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Made to Worship",
+    "artist": "Chris Tomlin",
+    "artistType": "INDIVIDUAL",
+    "album": "See the Morning",
+    "releaseYear": 2006,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Chris Tomlin, Ed Cash and Stephan Sharp (credited as Steve Sharp in Wikipedia's track listing); CCLI 4794118; published through Worship Together with sixsteps Music and other 2006 copyright holders. Track 2 and first single from Tomlin's album See the Morning (Sparrow/sixsteps, 26 September 2006), first heard as an iTunes bonus track on the Passion album Everything Glorious; it received two nominations at the 38th GMA Dove Awards. The list's artist is right. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Three verses, a pre-chorus, and a chorus repeated with an extended ending. The verses speak of God stepping into time, of everything the singer has being gift from him, and of creation praising him; the verses partly address God. The pre-chorus calls the congregation to remember his wonders. The chorus turns to fellow worshipers and states their identity: made to worship, called to love, forgiven and free, with surrender and belief leading to becoming who they were meant to be. The voice is a corporate exhortation among believers, mostly horizontal with praise woven in. The cross, sin and the person of Christ by name are not reached.",
+    "claims": [
+      {
+        "claim": "God stepped into time, taking part in human history.",
+        "subject": "The incarnation",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Everything the worshiper has is a gift from God.",
+        "subject": "God as giver",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "All creation praises God and he is worthy of it.",
+        "subject": "Creation's praise",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The church is to remember God's wonders.",
+        "subject": "Remembrance",
+        "location": "PRE_CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Believers are made to worship and called to love, and are forgiven and free.",
+        "subject": "Identity of the believer",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Surrender and belief lead to becoming who we were meant to be.",
+        "subject": "Response and fulfilment",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": false,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Worship",
+        "title": "Worship as the purpose of creation",
+        "explanation": "The chorus tells the congregation that it was made to worship, and the verses widen that to all creation. Humanity's end is placed in God's glory rather than in the singer's experience.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 43:7",
+        "scriptureRationale": "Created for God's glory - the purpose the chorus names."
+      },
+      {
+        "category": "Incarnation",
+        "title": "God stepping into time",
+        "explanation": "The opening verse recalls that God entered history. It is stated as an act, not an attribute.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Galatians 4:4",
+        "scriptureRationale": "When the fullness of time came, God sent his Son."
+      },
+      {
+        "category": "Grace",
+        "title": "All we have is gift",
+        "explanation": "The second verse says everything the singer has comes from God, which keeps worship a response to grace and not a payment.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Chronicles 29:14",
+        "scriptureRationale": "All things come from you, and we have given you only what is yours."
+      },
+      {
+        "category": "Creation",
+        "title": "Creation joins the praise",
+        "explanation": "The third verse has creation itself praising God, using the picture of stones and every knee, and so sets the congregation inside a larger chorus.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MINOR",
+        "scriptureReference": "Revelation 5:13",
+        "scriptureRationale": "Every creature giving praise to the one on the throne."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God entered history in the incarnation",
+      "Everything we have is a gift from God",
+      "Humanity was made to worship",
+      "Believers are forgiven and free",
+      "All creation owes God praise"
+    ],
+    "assessment": "Nothing false is said. The chorus ends on becoming who we were meant to be after surrender and belief; that reads naturally as the believer's restoration in Christ rather than self-realization, though it is silent on how forgiveness was won. The cross, sin and Christ by name are not reached, which is recorded in the substance answers and not charged as a concern."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A chorus the room remembers",
+        "explanation": "The chorus is memorable and sits in an accessible range, so a congregation takes it up quickly.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Voice",
+        "title": "Plural exhortation",
+        "explanation": "The chorus speaks to fellow worshipers, which makes the song a call to the gathered church rather than a private statement.",
+        "songLocation": "CHORUS",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published keys not checked for this review; the range is accessible for most congregations. Test the chorus in the key your leader prefers.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not stated in the sources read",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns after each verse and extends at the end, restating the call to worship each time it comes back.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form and voice: a chorus that exhorts the gathered church, easy to learn, accessible in range. It suits a gathering call or an opening set."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Theme",
+        "title": "A plain statement of purpose",
+        "explanation": "The song says clearly what it is for: worship as the reason people exist and the response to a God who gives.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in its claims. The one place a listener might wonder is how forgiveness came about, because the song names the result and not the cross."
+  },
+  "synthesis": {
+    "summary": "A call to worship that tells the congregation it was made to worship, recalls God's entry into time, calls all we have a gift, and has creation praising him. The chorus declares believers forgiven and free, with surrender and belief leading to becoming who they were meant to be. No error was found. The cross, sin and Christ by name are absent. No independent content assessment was found.",
+    "themes": [
+      "Worship",
+      "Creation",
+      "Grace",
+      "Thanksgiving",
+      "God"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "John 1:14",
+        "relevance": "The Word became flesh - God stepping into history."
+      },
+      {
+        "reference": "Galatians 4:4",
+        "relevance": "The fullness of time - God entering time."
+      },
+      {
+        "reference": "1 Chronicles 29:14",
+        "relevance": "All things come from God - everything we have is gift."
+      },
+      {
+        "reference": "Luke 19:40",
+        "relevance": "The stones would cry out - creation praising."
+      },
+      {
+        "reference": "Philippians 2:10",
+        "relevance": "Every knee will bow."
+      },
+      {
+        "reference": "Revelation 4:11",
+        "relevance": "God is worthy to receive glory and honor."
+      },
+      {
+        "reference": "Revelation 5:13",
+        "relevance": "Every creature praising the one on the throne."
+      },
+      {
+        "reference": "Ephesians 2:8-10",
+        "relevance": "Saved by grace and created for good works."
+      },
+      {
+        "reference": "Isaiah 43:7",
+        "relevance": "Created for God's glory."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/See_the_Morning",
+      "title": "See the Morning",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Album release 26 September 2006 on Sparrow/sixsteps; Made to Worship is the first single, writers credited, two GMA Dove nominations.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://genius.com/Chris-tomlin-made-to-worship-lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "genius.com",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

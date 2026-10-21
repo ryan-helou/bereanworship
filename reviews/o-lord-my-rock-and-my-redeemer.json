@@ -1,0 +1,224 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "O Lord, My Rock and My Redeemer",
+    "artist": "Sovereign Grace Music",
+    "artistType": "GROUP",
+    "album": "Together For The Gospel Live IV",
+    "releaseYear": 2017,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Words and music by Nathan Stiff; copyright 2017 Sovereign Grace Praise, administered by Integrity Music; CCLI 7096627; original key D per PraiseCharts. The list's guess of CityAlight is wrong: this is a Sovereign Grace song. PraiseCharts ties it to the Together For The Gospel Live IV recording, and another listing names Prayers Of The Saints Live. No account of how it was written was read. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Three verses, each opening with the same address to the Lord and no chorus. The first names God as the singer's greatest treasure and delight and praises his grace, love, truth and wisdom. The second makes God the singer's defender, shield, hope, joy and refuge in battle and sorrow. The third is the gospel: the singer's guilt and its penalty laid on Christ, his death in the sinner's place, the resurrection conquering death and freeing from sin and shame, with a pledge to live for his glory. The voice is first-person prayer and praise to God.",
+    "claims": [
+      {
+        "claim": "God himself is the believer's greatest treasure and delight, and his grace, love, truth and wisdom are the believer's good.",
+        "subject": "God as the supreme good",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is the believer's defender, shield, hope, joy and refuge in battle and sorrow.",
+        "subject": "God's protection",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer's guilt was laid on Christ, who died in the place of sinners.",
+        "subject": "Penal substitution",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ rose and conquered death, freeing the believer from sin and shame.",
+        "subject": "Resurrection and freedom",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer pledges to live for God's glory.",
+        "subject": "Response of consecration",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "Penal substitution stated",
+        "explanation": "The third verse says the singer's guilt and its penalty were laid on Christ, who died in the place of sinners. The exchange is named plainly.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Peter 2:24",
+        "scriptureRationale": "Christ bore our sins in his body on the tree - the substitution the verse sings."
+      },
+      {
+        "category": "Resurrection",
+        "title": "Death conquered and sin's hold broken",
+        "explanation": "The verse joins the resurrection to freedom from sin and shame, so the cross is not left as the whole of the gospel.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Corinthians 15:54-57",
+        "scriptureRationale": "Death swallowed up in victory through Christ."
+      },
+      {
+        "category": "God",
+        "title": "God himself as the treasure",
+        "explanation": "The first verse makes God, not his gifts, the singer's delight, and praises his grace, love, truth and wisdom as the believer's good.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Ephesians 3:18-19",
+        "scriptureRationale": "Knowing the love of Christ that surpasses knowledge - the delight the verse names."
+      },
+      {
+        "category": "Providence",
+        "title": "A refuge in battle and sorrow",
+        "explanation": "The second verse uses the armour and refuge images of the Psalms and Ephesians for God's protection of the believer.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 18:2",
+        "scriptureRationale": "The Lord my rock, fortress, shield and refuge."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God as the believer's chief good",
+      "God's protection and refuge",
+      "Penal substitutionary atonement",
+      "The resurrection and victory over death",
+      "Freedom from sin's power and shame"
+    ],
+    "assessment": "Nothing to correct on the reading note. The first two verses are praise built on the Psalms and Ephesians, and the third states substitution and resurrection clearly. The voice is the singer's own prayer, which is why the corporate-voice test is not met. No independent assessment of its teaching was found, so this is a clean record from the text alone."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A learnable melody",
+        "explanation": "The note describes a strong melody that a congregation can learn, and the shared opening line gives each verse a familiar anchor.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Gospel in the final verse",
+        "explanation": "The third verse makes it usable where a leader wants the cross and resurrection sung as well as God's character.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published original key D, with arrangements in D and E (PraiseCharts). Test the melody with your congregation before keeping the key.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "D (original per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The same address opens each verse and returns at the close of the last, and each return anchors a different truth about God, so the repetition carries content.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form, with three verses and no chorus. The repeated opening gives the singer a fixed point to return to."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "God and Christ are addressed plainly",
+        "explanation": "The song prays to the Lord throughout and names the cross and resurrection in the final verse.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The rock, shield and sword images come straight from the Psalms and Ephesians, and nothing in the song is open to a wrong reading."
+  },
+  "synthesis": {
+    "summary": "A Nathan Stiff song of 2017 in three verses, each opening with the same address to the Lord. The first sets God himself as the singer's treasure, the second as defender and refuge, and the third tells the gospel: guilt laid on Christ, his death in the sinner's place, and the resurrection conquering death. It ends in a pledge to live for his glory. No independent assessment was found.",
+    "themes": [
+      "God",
+      "Christ",
+      "Cross",
+      "Resurrection",
+      "Grace",
+      "Worship",
+      "Providence",
+      "Hope"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 19:14",
+        "relevance": "The Lord, my rock and my redeemer - the opening address."
+      },
+      {
+        "reference": "Psalm 18:2",
+        "relevance": "The Lord as rock, fortress and shield."
+      },
+      {
+        "reference": "Ephesians 3:18-19",
+        "relevance": "Knowing Christ's love - the first verse's delight."
+      },
+      {
+        "reference": "Ephesians 6:10-17",
+        "relevance": "Sword and shield in the believer's battle - the second verse."
+      },
+      {
+        "reference": "Isaiah 53:4-6",
+        "relevance": "Our guilt laid on the servant - the third verse."
+      },
+      {
+        "reference": "1 Peter 2:24",
+        "relevance": "Christ bearing our sins on the tree."
+      },
+      {
+        "reference": "1 Corinthians 15:54-57",
+        "relevance": "Victory over death through Christ."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/72269/o-lord-my-rock-and-my-redeemer-sheet-music",
+      "title": "O Lord, My Rock And My Redeemer - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: author Nathan Stiff, Sovereign Grace Praise copyright, CCLI 7096627, album Together For The Gospel Live IV, original key D.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "East Coast Church (east.edu.sg)",
+      "url": "https://www.east.edu.sg/2020/03/30/o-lord-my-rock-and-redeemer/"
+    }
+  ]
+}

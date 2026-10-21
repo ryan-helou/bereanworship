@@ -1,0 +1,223 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Jesus Paid It All",
+    "artist": "Kristian Stanfill",
+    "artistType": "INDIVIDUAL",
+    "album": "Passion: Everything Glorious",
+    "releaseYear": 2006,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Hymn text by Elvina M. Hall, written in 1865 in Baltimore; tune by John T. Grape; first published in 1868 in Sabbath Carols according to some sources. The version churches know from Kristian Stanfill (with Passion) is a modern arrangement credited to Alex Nifong, Elvina Hall and John Grape, copyright 2006 Pay Me Please Publishing, sixsteps Music and worshiptogether.com songs, administered by Capitol CMG Publishing; CCLI 4689508; original key G. The hymn itself is in the public domain; the arrangement is not, so isPublicDomain is false. The arranger's added bridge is the new material. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Three hymn verses in part, the classic refrain, then a modern bridge and tag. The verses speak of Christ's call to the weak, his power to change a stony heart, and the believer standing complete before the throne. The refrain declares that Christ paid in full and washed away the stain of sin. The bridge praises the one who paid the debt and raised new life, and the tag closes with a run of titles for Christ. The voice is personal testimony to the congregation and praise to Christ. The note found nothing misleading, and the opening verse is faithful hymn text.",
+    "claims": [
+      {
+        "claim": "Christ calls the weak and helpless to himself and the believer owes everything to him.",
+        "subject": "Christ's call and grace",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ's power changes the heart and removes a sin the sinner cannot remove himself.",
+        "subject": "Regeneration and human inability",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Believers stand complete in Christ before the throne.",
+        "subject": "Justification and being complete in Christ",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ paid the whole debt of sin in full, and his blood washed away its stain.",
+        "subject": "Atonement and cleansing",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The one who paid the debt also raised new life, and he is worthy as Lord and Redeemer.",
+        "subject": "Resurrection and praise",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "The debt paid in full",
+        "explanation": "The refrain states that Christ settled the whole debt of sin and cleansed the sinner. Nothing is left for the singer to add.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Colossians 2:13-14",
+        "scriptureRationale": "The record of debt cancelled and nailed to the cross - the refrain's claim."
+      },
+      {
+        "category": "Grace",
+        "title": "Salvation by Christ's work, not the sinner's",
+        "explanation": "The verses present a weak sinner who cannot change himself, a Saviour who calls him and changes his heart, and a believer who stands complete before God on that basis.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Ezekiel 36:26",
+        "scriptureRationale": "God gives a new heart in place of a heart of stone - what the second verse attributes to Christ."
+      },
+      {
+        "category": "Assurance",
+        "title": "Complete in Christ",
+        "explanation": "The final verse sets the believer before the throne as complete, resting in Christ rather than in progress.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Colossians 2:10",
+        "scriptureRationale": "Complete in him who is the head of all rule - the standing the verse describes."
+      },
+      {
+        "category": "Resurrection",
+        "title": "The bridge adds new life",
+        "explanation": "The modern bridge joins the paid debt to the new life Christ raised, so the hymn's cross-centred refrain is completed by the resurrection.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 4:25",
+        "scriptureRationale": "Delivered up for our trespasses and raised for our justification."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Penal substitution and the debt paid in full",
+      "Cleansing by the blood of Christ",
+      "Human inability and the new heart given by Christ",
+      "Justification and being complete in Christ",
+      "Resurrection and new life"
+    ],
+    "assessment": "Nothing to correct on the note's reading. The hymn text is faithful and the added bridge supplies the resurrection the old verses leave implicit. Only the Genius page was read as a source; no independent assessment of its teaching was found, so the record is an unverified clean one."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A familiar refrain",
+        "explanation": "The hymn refrain is known across traditions, so the song reaches congregations who do not know contemporary worship.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Bridges old and new",
+        "explanation": "A hymn with a modern bridge can serve a mixed congregation, and its content fits communion, repentance and assurance.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published original key G for the PraiseCharts arrangement; a choral version is listed in B. Test the bridge with your congregation before keeping the key.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "G (original per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The refrain returns after each verse and the modern bridge and tag repeat heavily, though they stay simple and repeat a confession of Christ's work rather than empty filler.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Instantly familiar and easy to sing. The added bridge and tag repeat more than the hymn, so a leader should watch that the build does not turn a congregational refrain into a performance."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ and his work are named",
+        "explanation": "The refrain and tag name what Christ has done and give him titles, so the addressee and the ground of praise are clear.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The debt and stain images are biblical and long familiar, and nothing in the song is open to a wrong reading."
+  },
+  "synthesis": {
+    "summary": "A hymn by Elvina Hall with a modern bridge: Christ calls the weak, changes the heart and pays the debt of sin in full, and the believer stands complete before the throne. The bridge adds new life raised by Christ and a run of titles. The voice is a personal testimony. Only the Genius page was read; no independent assessment was found.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Grace",
+      "Salvation",
+      "Sin",
+      "Repentance",
+      "Assurance"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Isaiah 1:18",
+        "relevance": "Sins like crimson made white as snow - the cleansing image."
+      },
+      {
+        "reference": "Colossians 2:13-14",
+        "relevance": "The debt cancelled at the cross - the refrain's claim."
+      },
+      {
+        "reference": "Ezekiel 36:26",
+        "relevance": "A new heart in place of a stony one."
+      },
+      {
+        "reference": "Jeremiah 13:23",
+        "relevance": "The sinner cannot change his own stain."
+      },
+      {
+        "reference": "Colossians 2:10",
+        "relevance": "Complete in Christ - the final verse."
+      },
+      {
+        "reference": "1 Peter 1:18-19",
+        "relevance": "Redeemed by the precious blood of Christ."
+      },
+      {
+        "reference": "Romans 4:25",
+        "relevance": "Raised for our justification - the bridge."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/2449/jesus-paid-it-all-sheet-music",
+      "title": "Jesus Paid It All - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: Kristian Stanfill and Passion, album Passion: Everything Glorious, authors Alex Nifong, Elvina Hall and John Grape, 2006 copyright, CCLI 4689508, key G.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com/Kristian-stanfill-jesus-paid-it-all-lyrics"
+    }
+  ]
+}

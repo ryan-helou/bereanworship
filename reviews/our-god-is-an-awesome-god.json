@@ -1,0 +1,218 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Awesome God",
+    "artist": "Rich Mullins",
+    "artistType": "INDIVIDUAL",
+    "album": "Winds of Heaven, Stuff of Earth",
+    "releaseYear": 1988,
+    "genre": "Contemporary Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Rich Mullins and first recorded on his 1988 album Winds of Heaven, Stuff of Earth, as the album's first single; it reached number one on Christian AC radio and became his signature song and a widely used congregational song. The title draws on a biblical expression found in Nehemiah 1:5, Nehemiah 9:32, Psalm 47 and Daniel 9:4. Mullins said in a 1996 interview that he thought it one of his worst-crafted songs and that the message mattered more than the craft. The list's title (Our God Is an Awesome God) is a variant of the title as recorded. Phil Wickham released a separate remake, What an Awesome God, in 2025; that is a different recording and is not reviewed here. Publisher and CCLI number were not confirmed in the sources loaded. Reviewed as the song, with the Mullins original as the reference version.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ABOUT_GOD",
+    "structuralNotes": "A repeated chorus, verses that move from God's might to his judgment and the cross, and a closing return to the chorus. The chorus declares that God reigns from heaven with wisdom, power and love. The verses portray God's creative and storm-like power, then the brokenness of sin and the expulsion from Eden, then Calvary as the place where judgment and love meet. The voice is a congregational declaration about God in the third person. The text was read in part (chorus and the opening of the first verse, with the remainder known from the standard song). The Spirit, the church and the resurrection are not reached.",
+    "claims": [
+      {
+        "claim": "God reigns from heaven with wisdom, power and love.",
+        "subject": "The sovereignty of God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's power over creation and storm is displayed in his might.",
+        "subject": "Creation and divine power",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Human sin broke what God made and led to expulsion from Eden.",
+        "subject": "The fall",
+        "location": "VERSE_2",
+        "locationDetail": "the middle verses",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "At Calvary God's judgment and his love meet.",
+        "subject": "The cross",
+        "location": "VERSE_3",
+        "locationDetail": "the closing verse",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "God's attributes",
+        "title": "God's rule, wisdom, power and love held together",
+        "explanation": "The chorus joins sovereignty with love rather than offering power alone, and the verses keep both in view through to Calvary. A congregation learns that God's might is not detached from his character.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Psalm 47:2",
+        "scriptureRationale": "The Lord Most High is awesome, a great king over all the earth - the chorus's confession."
+      },
+      {
+        "category": "The cross",
+        "title": "Calvary as where judgment and love meet",
+        "explanation": "The closing verse places judgment and love together at the cross instead of setting them against each other. It is brief, but it names the cross as the answer to the brokenness of sin described earlier.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "John 3:16",
+        "scriptureRationale": "God so loved the world that he gave his Son - the love the cross verse sets beside judgment."
+      },
+      {
+        "category": "Creation and power",
+        "title": "God's might in creation and storm",
+        "explanation": "The verses draw on the Old Testament's picture of God's power over the natural world, grounding the title's claim in what he has done.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Nahum 1:3",
+        "scriptureRationale": "The Lord's way is in whirlwind and storm - the imagery of God's power."
+      },
+      {
+        "category": "Sin",
+        "title": "The fall named plainly",
+        "explanation": "The song does not pass over sin; it speaks of the breaking of creation and the loss of Eden before reaching the cross, which gives the cross its reason.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Genesis 3",
+        "scriptureRationale": "The expulsion from the garden - the account the verse recalls."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The sovereignty and kingship of God",
+      "God's wisdom, power and love",
+      "God's power in creation",
+      "The fall and human sin",
+      "The cross as the meeting of judgment and love"
+    ],
+    "assessment": "Nothing to correct. The song is a declaration of who God is, built on a phrase Scripture itself uses, and it carries the gospel from judgment to the cross in a few lines. The colloquial tone about God's anger and judgment is vivid but not false. The cross is stated briefly and the resurrection, the Spirit and the church are not reached. No independent published assessment of its teaching was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "An easy, high-energy refrain",
+        "explanation": "The chorus is short, repeats and is known across churches, so a room can join without a screen. It is one of the most widely recognised congregational choruses of its generation.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Voice",
+        "title": "A confession about God, sung by everyone",
+        "explanation": "The voice is a third-person declaration, so the congregation says the same thing together rather than describing private experience.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "No published key was confirmed from the sources loaded. The song is simple and lies comfortably for most voices in common worship arrangements; test the key the band will use, since arrangements vary.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not confirmed",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns after the verses and again at the close, each time following a new aspect of God's power or the cross, so the repetition restates a confession rather than filling time.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in words and form. The chorus is easy and well known, the verses are narrative and short. It suits opening a service or a gathering song, and the cross verse makes it more than a song about power alone."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "God is named and his acts are stated",
+        "explanation": "The song speaks of God, his reign, his power and Calvary directly, so a visitor is not left to guess who is being praised or why.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The title phrase is biblical and 'awesome' is used in its older sense of awe-inspiring, which a congregation may need to hear explained. The gospel is present but compressed to the cross, so it reads as implicit rather than fully told."
+  },
+  "synthesis": {
+    "summary": "A congregational declaration that God reigns from heaven in wisdom, power and love, tracing his might through creation and storm, the brokenness of sin and Eden, to Calvary where judgment and love meet. Third person, easy to sing, built on a biblical phrase. No theological concern was found. The cross is stated briefly, and no independent source assessing the teaching was found.",
+    "themes": [
+      "God",
+      "Sovereignty",
+      "Worship",
+      "Creation",
+      "Sin",
+      "Cross"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Nehemiah 1:5",
+        "relevance": "The great and awesome God - the source of the title phrase."
+      },
+      {
+        "reference": "Psalm 47:2",
+        "relevance": "The Lord Most High is awesome, a great king over all the earth."
+      },
+      {
+        "reference": "Psalm 97",
+        "relevance": "The Lord reigns - the kingship the chorus confesses."
+      },
+      {
+        "reference": "Nahum 1:3",
+        "relevance": "God's way in whirlwind and storm - the power imagery of the verses."
+      },
+      {
+        "reference": "Genesis 3",
+        "relevance": "The fall and expulsion from Eden - the second verse's setting."
+      },
+      {
+        "reference": "John 3:16",
+        "relevance": "God's love given in his Son - what the cross verse places beside judgment."
+      },
+      {
+        "reference": "Habakkuk 3",
+        "relevance": "God's majesty and power displayed - the pattern of the verses."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Awesome_God",
+      "title": "Awesome God",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writer Rich Mullins, first recorded on the 1988 album Winds of Heaven, Stuff of Earth; biblical origin of the title; Mullins' own comment on the song; Wickham's separate 2025 remake.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.google.com/search?q=Our+God+Is+an+Awesome+God+Rich+Mullins+lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google search results (excerpts from Genius, Hillsong, Musixmatch, Word to Worship)",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

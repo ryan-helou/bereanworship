@@ -1,0 +1,240 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Nothing but the Blood",
+    "artist": "Robert Lowry",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1876,
+    "genre": "Gospel hymn",
+    "isPublicDomain": true,
+    "notes": "Words and music by Robert Lowry (1826-1899), a Baptist minister who wrote hymns while pastoring in New Jersey. Published in Gospel Music (1876), compiled with William H. Doane, and said to have been popularized at an Ocean Grove camp meeting. Hymnary lists a related Lowry publication in 1877 (Welcome Tidings). Also called Nothing but the Blood of Jesus; the opening question is the usual way congregations name it. Public domain; no CCLI number found. Some hymnals omit later stanzas. Reviewed as the standard five-stanza text with chorus.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Five stanzas, each a question about what cleanses or saves, answered each time by the blood of Jesus, with a shared chorus after every stanza. Stanza one concerns cleansing and wholeness. The chorus calls the flow precious, whitening and the only fountain. Stanza two is for cleansing and pardon. Stanza three says nothing can atone for sin and that no past good deed can. Stanza four makes the blood the singer's sole hope, peace and righteousness. Stanza five looks to overcoming and reaching home by it. The stanzas are first person singular; the chorus is a personal confession.",
+    "claims": [
+      {
+        "claim": "Only the blood of Jesus cleanses sin and restores the sinner.",
+        "subject": "Cleansing by Christ's blood",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The blood is the only fountain and its flow is precious and makes clean.",
+        "subject": "Sole sufficiency of the blood",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Cleansing and pardon come through Christ's blood.",
+        "subject": "Forgiveness",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Nothing the sinner has done can atone for sin; only Christ's blood can.",
+        "subject": "Atonement by Christ alone",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The blood is the believer's only hope, peace and righteousness.",
+        "subject": "Justification by grace",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Overcoming and arrival home in heaven come by the blood.",
+        "subject": "Victory and glory",
+        "location": "VERSE",
+        "locationDetail": "the fifth stanza",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "Atonement by the blood alone",
+        "explanation": "Every stanza returns to the same answer: Christ's blood, not the sinner's works, cleanses and pardons. This is the doctrine of substitution in plain terms.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Hebrews 9:22",
+        "scriptureRationale": "Without the shedding of blood there is no forgiveness."
+      },
+      {
+        "category": "Grace",
+        "title": "Works excluded",
+        "explanation": "Stanza three says no past good deed atones, which fits the New Testament's insistence that salvation is a gift of grace and not a wage.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Ephesians 2:8-9",
+        "scriptureRationale": "Saved by grace through faith, not by works."
+      },
+      {
+        "category": "Salvation",
+        "title": "Righteousness and peace in Christ",
+        "explanation": "The fourth stanza makes the blood the ground of the believer's hope, peace and righteousness.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Romans 3:24-25",
+        "scriptureRationale": "Justified as a gift through the redemption in Christ, a propitiation by his blood."
+      },
+      {
+        "category": "Scripture",
+        "title": "Built on biblical images",
+        "explanation": "The fountain, the whiteness and overcoming by the blood draw on Zechariah, Isaiah and Revelation.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 John 1:7",
+        "scriptureRationale": "The blood of Jesus cleanses us from all sin."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Atonement through Christ's blood",
+      "Justification by grace, not works",
+      "Cleansing and pardon of sin",
+      "The sufficiency of Christ's sacrifice",
+      "Victory over sin and death",
+      "Heaven as the believer's home"
+    ],
+    "assessment": "Nothing to correct. The song is a compact statement of substitution and justification by grace: sin is cleansed by Christ's blood alone and no human work can atone. The blood language is biblical, not crude. The incarnation, resurrection and the Spirit are not reached."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Widely known and simple",
+        "explanation": "The question-and-answer form and a short chorus make it easy for a room to join with no page.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Suits communion and evangelistic settings",
+        "explanation": "Its single focus on Christ's blood suits the Lord's Supper, Good Friday and gospel services.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published in many keys in hymnals; no chart was read. Choose a key that suits the congregation.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Various (hymnal-dependent)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The same answer closes each stanza and the chorus returns; the repetition is the confession itself, not filler.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "A congregational gospel hymn: a refrain-based form, a familiar tune and a plain, confessional chorus. The first-person voice is a credal confession of what Christ has done."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Gospel",
+        "title": "The gospel plainly stated",
+        "explanation": "The song names Jesus and says that cleansing comes by his blood alone.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The blood and fountain images are biblical and need only light explanation for newcomers."
+  },
+  "synthesis": {
+    "summary": "A five-stanza gospel hymn from 1876 asking what cleanses sin and answering each time that it is Jesus's blood alone. It excludes human works, grounds hope, peace and righteousness in Christ, and looks to heaven. Nothing in it is wrong. The incarnation and resurrection are not reached. Repetition is purposeful and the tune is easy to sing.",
+    "themes": [
+      "Cross",
+      "Grace",
+      "Salvation",
+      "Sin",
+      "Christ",
+      "Assurance",
+      "Heaven"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Hebrews 9:22",
+        "relevance": "Forgiveness requires the shedding of blood."
+      },
+      {
+        "reference": "1 John 1:7",
+        "relevance": "The blood of Jesus cleanses from all sin."
+      },
+      {
+        "reference": "Isaiah 1:18",
+        "relevance": "Sins made white as snow."
+      },
+      {
+        "reference": "Zechariah 13:1",
+        "relevance": "A fountain opened for sin and uncleanness."
+      },
+      {
+        "reference": "Romans 3:24-25",
+        "relevance": "Justification as a gift through his blood."
+      },
+      {
+        "reference": "Ephesians 2:8-9",
+        "relevance": "Salvation by grace, not works."
+      },
+      {
+        "reference": "Revelation 12:11",
+        "relevance": "Overcoming by the blood of the Lamb."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://wearefaith.org/blog/150-years-of-nothing-but-the-blood-of-jesus/",
+      "title": "150 years of Nothing but the Blood of Jesus",
+      "publisher": "WeAreFaith",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "Lowry wrote words and music; first presented at an Ocean Grove camp meeting in 1876; the blog says it teaches forgiveness only by Christ's death and not by works.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://hymnary.org/person/Lowry_Robert",
+      "title": "Robert Lowry",
+      "publisher": "Hymnary.org",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_1",
+      "establishes": "Lowry's dates (1826-1899) and related 1877 publication in Welcome Tidings.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://gccsatx.com/hymns/nothing-but-the-blood",
+      "title": "Lyrics page read for this review",
+      "publisher": "GCCSATX",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

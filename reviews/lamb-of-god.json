@@ -1,0 +1,237 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Lamb of God",
+    "artist": "Sovereign Grace Music",
+    "artistType": "GROUP",
+    "album": "Sooner Count the Stars: Worshiping the Triune God",
+    "releaseYear": 2015,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Music and words by Jason Hansen, Bob Kauflin and David LaChance Jr.; copyright 2015 Sovereign Grace Praise (BMI), administered by Integrity Music; CCLI 7052986. Recorded for the 2015 album Sooner Count the Stars, with vocals by Rebecca Elliott. This is the Sovereign Grace song, not the older Twila Paris song of the same title. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Three verses, each with two stanzas, and no separate chorus; the closing line is repeated. The first verse addresses Christ as the eternal Creator, one with the Father, who came to us. The second turns to the incarnation, the substitution, the death and the resurrection. The third looks to His present reign, the judgment of His foes and the gathering of His bride to see Him. It is addressed to Christ throughout and moves as a narrative from creation through redemption to the consummation. Christ is named as the Lamb, and the Father and the Son are distinguished; the Spirit is not a subject.",
+    "claims": [
+      {
+        "claim": "Christ is the eternal Creator, one with the Father, through whom all things were made.",
+        "subject": "The deity and creative work of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The eternal Son came to His people from outside creation.",
+        "subject": "The incarnation",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Son humbly took on human life and bore the sinner's penalty in his place.",
+        "subject": "Substitutionary atonement",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ died as the sacrificial Lamb and rose again.",
+        "subject": "Death and resurrection",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ now reigns and will judge His enemies.",
+        "subject": "The reign and judgment of Christ",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ will gather His bride, the church, so that she sees Him face to face.",
+        "subject": "The consummation and the church",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christ",
+        "title": "Christ as Creator and Lamb in one song",
+        "explanation": "The first verse places Christ with the Father before creation and as the agent of it, and the later verses name Him the sacrificial Lamb. The deity of the one who dies is never in doubt, which gives the cross its weight.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "John 1:1-3, 29",
+        "scriptureRationale": "The Word who made all things and the Lamb who takes away sin are one person."
+      },
+      {
+        "category": "Atonement",
+        "title": "Substitution and resurrection stated as events",
+        "explanation": "The second verse tells of the incarnation, of Christ taking the sinner's place in death, and of His rising. Sin, penalty and rescue are all named rather than hinted at.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Peter 2:24",
+        "scriptureRationale": "Christ bearing our sins in his body on the tree."
+      },
+      {
+        "category": "Hope",
+        "title": "The story is carried to its end",
+        "explanation": "The third verse reaches His present reign, the judgment of His foes and the gathering of His bride. Few songs follow the work of Christ from creation to consummation, and this one ties the cross to what it is for.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Revelation 19:11-16; 21:2",
+        "scriptureRationale": "The rider who judges, and the bride prepared for her husband."
+      },
+      {
+        "category": "Scripture",
+        "title": "Built on John and Revelation",
+        "explanation": "The song is built on the prologue of John, Colossians 1, Philippians 2, Isaiah 53 and the Lamb passages in Revelation, so its vocabulary is the text's own.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Colossians 1:16-17",
+        "scriptureRationale": "All things made through him and held together in him."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The deity and eternal pre-existence of Christ",
+      "Christ as Creator",
+      "The incarnation",
+      "Substitutionary atonement",
+      "The bodily resurrection",
+      "The present reign of Christ",
+      "Final judgment",
+      "The return of Christ and the gathering of the church"
+    ],
+    "assessment": "Nothing to correct. The note on the song records no doubtful or misleading wording, and the song says plainly who Christ is, what He has done and what He will do. The Spirit is not reached, but the song makes no claim that needs correcting. No independent published assessment of its teaching was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Use",
+        "title": "Suited to liturgy after a Scripture reading",
+        "explanation": "Its narrative order and clear pattern fit a service where Scripture has been read, and the content suits a gathering that wants a Trinitarian, Christ-centred song.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "A pattern a room can learn",
+        "explanation": "Three verses follow the same two-stanza pattern and move through one story, so after a verse or two a congregation knows what comes next.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "No chart was read, so the range is not stated. Published keys were not checked; the arrangement is wordy and should be rehearsed, and any key should be tested with the congregation.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not checked",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "NONE",
+    "repetitionAssessment": "There is no chorus; only the final line returns. The words carry the work, so a congregation must follow the text rather than lean on a refrain.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in voice and form, with the cost of its length: the verses are wordy and it needs a rehearsal. It suits a service built around a Scripture reading or a Christ-centred theme."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ addressed directly throughout",
+        "explanation": "The song is addressed to Christ from first to last, and the Lamb, the Creator and the coming King are all one person. A visitor knows who is being sung to.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in its claims. The language is churchly in places (a bride, a Lamb), but each figure is biblical and is tied to a plain statement about Christ."
+  },
+  "synthesis": {
+    "summary": "A Christ-centred narrative in three verses: Christ as eternal Creator one with the Father, His coming, substitutionary death and resurrection, and His present reign, judgment of foes and gathering of His bride. It is addressed to Christ throughout and has no chorus. No concern was found. It is wordy; no independent assessment was located.",
+    "themes": [
+      "Christ",
+      "Trinity",
+      "Creation",
+      "Cross",
+      "Resurrection",
+      "Sovereignty",
+      "Church",
+      "Hope"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "John 1:1-3",
+        "relevance": "The Word with God and the maker of all things - the first verse."
+      },
+      {
+        "reference": "John 1:29",
+        "relevance": "The Lamb of God who takes away the sin of the world - the title."
+      },
+      {
+        "reference": "Colossians 1:16-17",
+        "relevance": "All things created through and for Christ."
+      },
+      {
+        "reference": "Philippians 2:6-8",
+        "relevance": "The Son's descent and obedience to death - the incarnation."
+      },
+      {
+        "reference": "Isaiah 53:7",
+        "relevance": "The silent lamb led to slaughter."
+      },
+      {
+        "reference": "1 Peter 2:24",
+        "relevance": "Christ bearing our sins - the substitution."
+      },
+      {
+        "reference": "Revelation 5:6-13",
+        "relevance": "The slain Lamb worshiped."
+      },
+      {
+        "reference": "Revelation 19:11-16; 21:2; 22:4",
+        "relevance": "The judging King, the bride, and seeing His face."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://sovereigngracemusic.com/music/songs/lamb-of-god/",
+      "title": "Lamb of God",
+      "publisher": "Sovereign Grace Music",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher record: writers Jason Hansen, Bob Kauflin and David LaChance Jr., 2015 copyright, Integrity Music administration, CCLI 7052986, album Sooner Count the Stars.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://genius.com/Sovereign-grace-music-lamb-of-god-lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "genius.com",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

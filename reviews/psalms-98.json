@@ -1,0 +1,209 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Psalm 98 (Sing Unto the Lord)",
+    "artist": "Shane & Shane",
+    "artistType": "GROUP",
+    "album": "Psalms 2",
+    "releaseYear": 2015,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Shane Barnard and Beth (Bethany) Barnard; published by Wellhouse Entertainment (copyright also names More Songs From Wellhouse and Songs From Wellhouse, administered by Capitol CMG Publishing); CCLI 7054935; copyright year 2015. Shane & Shane recorded it on the album Psalms Vol. 2 (listed by PraiseCharts as Psalms 2, with The Worship Initiative). Original key D, also offered in C. The list's artist is right for the recording churches know. Reviewed as the song, not any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Verse, chorus, verse, chorus, then a bridge of repeated praise calls and a closing chorus. The first verse calls the sea, the world, rivers and mountains to rejoice and welcome Jesus as King. The chorus calls all the earth to sing a new song for the salvation God has made known. The second verse, in the plural 'we', recalls Moses, Aaron and Samuel, who called on God and were answered, and contrasts what they knew by faith with what the church knows by name, Jesus. The bridge is a heavily repeated call for all who have breath to praise the King. It shifts between commands to creation and the congregation and declarations about God's salvation and answered prayer.",
+    "claims": [
+      {
+        "claim": "Creation is summoned to rejoice and welcome Jesus as King.",
+        "subject": "The kingship of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "All the earth is called to sing a new song because God has made his salvation known.",
+        "subject": "God's salvation revealed",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Moses, Aaron and Samuel called on God and were answered.",
+        "subject": "Answered prayer",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "What those saints held by faith, the church knows by name: Jesus.",
+        "subject": "Christ revealed",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Everyone with breath is to praise the King.",
+        "subject": "Universal praise",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christ",
+        "title": "Psalm 98 read as the coming of Jesus the King",
+        "explanation": "The song takes the psalm's coming King and names him Jesus, and the second verse says the saints under the old covenant knew by faith what the church now knows by name. That is a sound Christ-centered reading.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "John 1:18",
+        "scriptureRationale": "The Son makes the unseen God known, which the faith-versus-name contrast reflects."
+      },
+      {
+        "category": "Salvation",
+        "title": "Salvation made known as the reason for song",
+        "explanation": "The chorus grounds the new song in what God has done, making his salvation known, not in the singer's feeling.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 98:1-3",
+        "scriptureRationale": "The psalm's new song because the Lord has made his salvation known."
+      },
+      {
+        "category": "Scripture",
+        "title": "Built on a psalm and its neighbours",
+        "explanation": "Psalm 98 is set whole, with Psalm 99's account of Moses, Aaron and Samuel woven into the second verse; the cloud reference belongs to Psalm 99 and is faithful to it.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 99:6-7",
+        "scriptureRationale": "Moses, Aaron and Samuel called and the Lord answered."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The kingship of Jesus",
+      "God's salvation made known to the nations",
+      "God answers those who call on him",
+      "Christ as fulfilment of what earlier saints knew by faith",
+      "Universal call to praise"
+    ],
+    "assessment": "Nothing to correct. Reading Jesus as the King of Psalm 98 and setting faith against the name known now are sound, and the Psalm 99 material is used faithfully. The cross and resurrection are not narrated; the salvation is stated as a fact rather than explained."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Short lines and a chorus that closes the song",
+        "explanation": "Short lines and an upbeat chorus that opens and closes the song make it easy to learn.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Participation",
+        "title": "Call and response that draws the room in",
+        "explanation": "The bridge is a call and response that a congregation can answer.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published with D as the original key and C also offered. Test the chorus with a mixed congregation.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "D (original), C also published (per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The chorus recurs and closes the song, and the bridge repeats a praise call many times. The repetition is a call to praise rather than a substitute for content, since the verses carry the doctrine.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Upbeat, short-lined and easy to sing, with a bridge that works well as a congregational response. The heavy bridge repetition is the main thing for a leader to pace."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Jesus named as King",
+        "explanation": "Jesus is named, and the contrast of faith with the name makes the meaning of the verse clear.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The one possible stumble is the cloud reference, which comes from Psalm 99, not 98; it needs a word of teaching, not a correction."
+  },
+  "synthesis": {
+    "summary": "A setting of Psalm 98 that reads the psalm's King as Jesus and calls all creation to sing a new song for salvation made known. The second verse brings in Moses, Aaron and Samuel and contrasts what they knew by faith with the name now known. No concerns were found; the cross is not narrated and the bridge repeats heavily. No independent source assessing its content was found.",
+    "themes": [
+      "Christ",
+      "Worship",
+      "Salvation",
+      "Creation",
+      "Prayer",
+      "Scripture"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 98",
+        "relevance": "The whole psalm is the basis of the song."
+      },
+      {
+        "reference": "Psalm 99:6-7",
+        "relevance": "Moses, Aaron and Samuel who called on the Lord and were answered."
+      },
+      {
+        "reference": "Psalm 96",
+        "relevance": "The parallel call to sing a new song to the Lord."
+      },
+      {
+        "reference": "Isaiah 52:10",
+        "relevance": "All the ends of the earth seeing God's salvation."
+      },
+      {
+        "reference": "Luke 2:10-14",
+        "relevance": "Good news and praise at the coming of the Saviour."
+      },
+      {
+        "reference": "Revelation 5:9",
+        "relevance": "A new song sung to the Lamb."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/70554/psalm-98-sing-unto-the-lord-sheet-music/rhythm",
+      "title": "Psalm 98 (Sing Unto The Lord) - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Beth and Shane Barnard, Wellhouse Entertainment, CCLI 7054935, 2015 copyright, original key D, album Psalms 2.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://genius.com",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

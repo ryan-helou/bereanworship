@@ -1,0 +1,226 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Redeemer",
+    "artist": "Nicole C. Mullen",
+    "artistType": "INDIVIDUAL",
+    "album": "Nicole C. Mullen",
+    "releaseYear": 2000,
+    "genre": "Gospel / Contemporary Christian",
+    "isPublicDomain": false,
+    "notes": "Written by Nicole C. Mullen (Aileen Nicole Coleman Mullen). The song is titled Redeemer; churches commonly call it My Redeemer Lives, and the list's artist is right. It appears on her 2000 album Nicole C. Mullen on Word Records and later on the 2006 compilation Redeemer: The Best of Nicole C. Mullen. It was recognised at the 2001 GMA Dove Awards (Wikipedia lists it under Song of the Year, Pop/Contemporary Record of the Year and Songwriter of the Year without saying which were wins). Publisher listings conflict across catalogues (Lil' Jas' Music administered by Word/Wordspring, and others), and no CCLI number was found, so publisher is not stated here. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Verse one, chorus, verse two, chorus, bridge, chorus, then a long outro with spoken interjections. Verse one asks rhetorically who set the order of creation. The chorus confesses that the Redeemer lives, with creation and the believer's own life as witnesses. Verse two says the God who governs the cosmos comes to the weak and conquers death. The bridge says shame is removed, Christ's death paid for sin, and the grave is empty. The outro repeats the confession with spoken testimony about the empty tomb and telling others. The voice is first-person testimony and proclamation, mostly declarative about Christ rather than addressed to him.",
+    "claims": [
+      {
+        "claim": "God set the order of creation: sun, sea, moon and stars are his work.",
+        "subject": "Creation",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Redeemer lives, and creation and the believer's life testify to it.",
+        "subject": "The living Redeemer",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The God who governs the cosmos comes to the weak and conquers death.",
+        "subject": "Christ's victory over death",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ removes shame and his death paid for sin.",
+        "subject": "Atonement",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The grave is empty.",
+        "subject": "The resurrection",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer bears witness to the empty tomb and tells others.",
+        "subject": "Witness",
+        "location": "OUTRO",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Resurrection",
+        "title": "The living Redeemer confessed",
+        "explanation": "The chorus rests on the confession that the Redeemer lives, and the bridge places that life in an empty tomb. The claim is Christ's resurrection, not the singer's feeling.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Job 19:25",
+        "scriptureRationale": "I know that my Redeemer lives - the confession the chorus takes up."
+      },
+      {
+        "category": "Atonement",
+        "title": "Death that paid for sin",
+        "explanation": "The bridge says Christ's death paid for sin and removes shame, naming the cost and the result together.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Peter 1:18-19",
+        "scriptureRationale": "Redeemed by the precious blood of Christ - the payment the bridge states."
+      },
+      {
+        "category": "Creation",
+        "title": "The Redeemer is the Lord of creation",
+        "explanation": "The opening verse reads creation's order as God's work and ties the creator to the redeemer, so the rescue is by the one who rules the cosmos.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Job 38:8-11",
+        "scriptureRationale": "The Lord setting the sea's limit - the opening question's source."
+      },
+      {
+        "category": "Victory",
+        "title": "Death conquered",
+        "explanation": "The second verse says the God of the cosmos comes to the weak and conquers death for victory.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Corinthians 15:54-57",
+        "scriptureRationale": "Death swallowed up in victory - the claim the verse makes."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God as creator",
+      "The living Redeemer",
+      "Atonement for sin",
+      "The empty tomb and resurrection",
+      "Victory over death",
+      "Witness to others"
+    ],
+    "assessment": "Nothing to correct. The song confesses a living Redeemer, grounds it in creation, the cross and the empty tomb, and ends in witness. The spoken outro lines are personal testimony in the manner of gospel songs and read as figurative experience, not a claim of new revelation; mild flag only. The Spirit, the church and the second coming are not reached."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Use",
+        "title": "A resurrection song for Easter and testimony",
+        "explanation": "The confession and the empty tomb suit Easter and any service giving a testimony, and the spoken outro invites the room into witness.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Creation to cross to tomb",
+        "explanation": "The verses and bridge move from creation to death conquered to the empty grave, so the singer follows a story.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "DIFFICULT",
+    "vocalRangeNote": "Gospel-pop style with syncopated, solo-driven verses; no chart was read. Have one voice lead the verses and let the room take the chorus, in a key tested with the room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not stated; no chart read",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The chorus and the outro repeat heavily; the repeated confession carries the thought, though the long outro extends well beyond the words' new content.",
+    "performanceOrientation": "PERFORMANCE_LEANING",
+    "assessment": "Written and recorded as a soloist's gospel song, with verses that lean on syncopation and vocal ornament. The chorus is a confession a congregation can take up; the rest is better led than sung together. The spoken outro is testimony more than corporate singing."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "The Redeemer is confessed plainly",
+        "explanation": "The chorus names the living Redeemer and the bridge names Christ's death and the empty grave, so the song says what it celebrates.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in its claims. The rhetorical questions of the first verse are easily read and the bridge is direct."
+  },
+  "synthesis": {
+    "summary": "A gospel-style confession that the Redeemer lives, rooted in the God who ordered creation, who conquers death for the weak, whose death paid for sin and whose tomb is empty. The song ends in testimony and witness. No doctrinal problem was found; the spoken outro is personal testimony, flagged lightly. No independent source assessing its content was found.",
+    "themes": [
+      "Christ",
+      "Resurrection",
+      "Cross",
+      "Creation",
+      "Salvation",
+      "Hope",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Job 19:25",
+        "relevance": "I know that my Redeemer lives - the chorus's confession."
+      },
+      {
+        "reference": "Job 38:8-11",
+        "relevance": "The Lord setting limits for the sea - the opening verse's question."
+      },
+      {
+        "reference": "1 Corinthians 15:54-57",
+        "relevance": "Death swallowed up in victory - the second verse's claim."
+      },
+      {
+        "reference": "Luke 24:5-6",
+        "relevance": "He is not here, he is risen - the empty tomb of the bridge and outro."
+      },
+      {
+        "reference": "Isaiah 53:4-5",
+        "relevance": "He bore our griefs and was pierced for our transgressions - the atonement of the bridge."
+      },
+      {
+        "reference": "1 Peter 1:18-19",
+        "relevance": "Redeemed by Christ's precious blood - the payment for sin."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Nicole_C._Mullen",
+      "title": "Nicole C. Mullen",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Mullen is credited as songwriter; the song is tied to the 2001 GMA Dove Awards and the 2006 compilation Redeemer: The Best of Nicole C. Mullen.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://genius.com/Nicole-c-mullen-redeemer-lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "genius.com",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

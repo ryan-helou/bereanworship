@@ -1,0 +1,180 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "MEDIUM",
+    "title": "Psalm 150 (Praise the Lord)",
+    "artist": "The Psalm Project",
+    "artistType": "GROUP",
+    "album": "Psalms Unplugged",
+    "releaseYear": 2010,
+    "genre": "Psalm Setting",
+    "isPublicDomain": false,
+    "notes": "A paraphrase setting of Psalm 150 recorded by The Psalm Project, a Dutch group of professional musicians led by Eelco Vos, on the album Psalms Unplugged (13 psalms, track 12 as 'Praise the Lord'), supported in part by the Calvin Institute of Christian Worship. The reading note credits the text to Lee Ann Vermeulen-Roberts and the music to Eelco Vos; the Calvin page confirms the group, leader and album but does not name the lyricist, and no publisher or CCLI number was found. The release year of 2010 comes from the reading note, not from a source loaded here. Not the Matt Papa/Getty song of nearly the same title, which has different text. Reviewed as the song, not any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ABOUT_GOD",
+    "structuralNotes": "Two paraphrase stanzas on one tune, each closing with a short call to praise the Lord, then a chorus built on a repeated praise call that names the Lord as God and Saviour, and a final section repeating the chorus. The first stanza calls for praise in God's holy place, for his wonders and power, as Lord of all creation. The second calls for instruments and dance and ends in celebration. The voice is a command to the congregation to praise, not testimony. It follows Psalm 150 closely; the psalm's last call that everything with breath should praise is not clearly stated in the stanzas.",
+    "claims": [
+      {
+        "claim": "God is to be praised in his holy place for his mighty deeds.",
+        "subject": "Praise for God's works",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is Lord of all creation and is praised for his power and might.",
+        "subject": "God's sovereignty over creation",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Praise is to be offered with trumpet, cymbals, tambourines, dance, flutes and strings.",
+        "subject": "Embodied, instrumental worship",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lord is our God and Saviour and is to be praised.",
+        "subject": "God as Saviour",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Worship",
+        "title": "A psalm sung close to its text",
+        "explanation": "The two stanzas follow Psalm 150 closely: the sanctuary, God's mighty deeds, the instruments and the dance. A congregation sings the psalm's own summons, which is a craft virtue more than a doctrinal one.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 150:1-6",
+        "scriptureRationale": "The psalm's call to praise God for his deeds with every instrument."
+      },
+      {
+        "category": "God",
+        "title": "The Lord named as God and Saviour",
+        "explanation": "The chorus gives the one praised his names, Lord, God and Saviour, so praise is aimed at a person. 'Saviour' is a faithful New Testament gloss on the psalm.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 5:13",
+        "scriptureRationale": "All creation praising the one on the throne and the Lamb."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God as Creator and Lord of all",
+      "God's mighty deeds as the ground of praise",
+      "God as Saviour",
+      "The call of all worshippers to praise"
+    ],
+    "assessment": "Nothing to correct. The song stays with Psalm 150 and adds only 'Saviour', a faithful reading in light of the New Testament. It is about praise itself and does not narrate the gospel; the psalm's closing call to everything that breathes is not clearly carried over."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A chorus learned at once",
+        "explanation": "The chorus is a short, repeated praise phrase, so a room can sing it after one hearing.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Short and fit for a call to worship",
+        "explanation": "Short overall, it suits an opening or closing of a service as a psalm of praise.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published key not established in this review; check the arrangement before choosing a key for a mixed congregation.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not established",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus is a repeated praise call that returns after each stanza and again at the close, repeating a confession rather than padding.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form: a command to praise, a short learnable chorus, moderate stanza length. The recording is a studio group arrangement, but the text is built for a room to sing."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Plainness",
+        "title": "Plain words, no puzzle",
+        "explanation": "The meaning is the psalm's own, and the chorus names who is praised.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. It is a call to praise with the object named; there is little in it to misread."
+  },
+  "synthesis": {
+    "summary": "A close paraphrase of Psalm 150 with a repeated chorus naming the Lord as God and Saviour. It calls the congregation to praise for God's mighty deeds, with instruments and dance. No concerns were found; it does not tell the gospel, and the psalm's final call to all that breathes is not clearly carried over. No independent source assessing its content was found.",
+    "themes": [
+      "Worship",
+      "God",
+      "Creation",
+      "Thanksgiving",
+      "Scripture"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 150",
+        "relevance": "The whole psalm is the song's text."
+      },
+      {
+        "reference": "Psalm 148:1-5",
+        "relevance": "The same summons to praise addressed to the heavens and creation."
+      },
+      {
+        "reference": "Revelation 5:13",
+        "relevance": "All creation praising God and the Lamb."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://worship.calvin.edu/resources/articles/psalms-unplugged",
+      "title": "The Psalm Project: Psalms Unplugged",
+      "publisher": "Calvin Institute of Christian Worship",
+      "sourceType": "THEOLOGICAL_ORGANIZATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "The album is 13 psalm settings by The Psalm Project under Eelco Vos, with Psalm 150 as track 12, 'Praise the Lord'. It does not discuss what this song teaches.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://thepsalmproject.nl/wp-content/themes/TPP/sheets/psalmsunplugged/Psalm%20150%20-%20Praise%20the%20Lord.pdf",
+      "title": "Text read for this review",
+      "publisher": "The Psalm Project",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

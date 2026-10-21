@@ -1,0 +1,217 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "O the Deep, Deep Love of Jesus",
+    "artist": "Samuel Trevor Francis (text); Thomas J. Williams (tune Ebenezer)",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1898,
+    "genre": "Traditional Hymn",
+    "isPublicDomain": true,
+    "notes": "Text by Samuel Trevor Francis (1834-1925), a London merchant. The Hymnology Archive gives first publication as Whence-Whither and Other Poems (London: Morgan & Scott, 1898), eight stanzas without music, with no earlier printing known; Wikipedia gives 1875 for composition, which other sources do not confirm, so 1898 is used as the publication year. The usual tune is Ebenezer (Ton-y-botel) by Thomas John Williams, first published in 1897 per the Archive. A 2008 tune by Bob Kauflin is a less common alternative, and modern arrangements such as Sovereign Grace's exist. The list's title and attribution are corrected to the hymn and its author. Reviewed as the text, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Several stanzas of the traditional hymn, with no repeated chorus in the traditional form; modern arrangements add a repeated return. It opens with the immeasurable love of Christ, pictured as a sea. It turns to the singer's assurance of being upheld by that love, then looks to heaven and glory. Traditional stanzas also call others to spread his praise. The voice mixes first-person testimony with exhortation to praise, addressed partly to Christ and partly about him.",
+    "claims": [
+      {
+        "claim": "The love of Jesus is immeasurable, beyond the believer's grasp, pictured as a sea.",
+        "subject": "The love of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ's love upholds the believer through trial and danger.",
+        "subject": "Assurance and perseverance",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer has a place and glory prepared in heaven.",
+        "subject": "Heaven and hope",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Others are called to join in praising Christ.",
+        "subject": "Praise and witness",
+        "location": "VERSE_3",
+        "lyricExcerpt": null,
+        "locationDetail": "the closing stanzas of the traditional text"
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christ's love",
+        "title": "The love of Christ as the subject",
+        "explanation": "The hymn is built on Christ's love and does not turn aside to the singer's feelings; its pictures of depth and breadth are bent to the single claim that the love exceeds comprehension.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Ephesians 3:18-19",
+        "scriptureRationale": "Breadth, length, height and depth of the love of Christ that surpasses knowledge - the text it is built on."
+      },
+      {
+        "category": "Assurance",
+        "title": "Held by love, not by effort",
+        "explanation": "The singer's security rests on the love that upholds, so assurance is grounded in Christ rather than in resolve.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Romans 8:38-39",
+        "scriptureRationale": "Nothing can separate us from the love of God in Christ Jesus."
+      },
+      {
+        "category": "Hope",
+        "title": "Heaven as the end of the love",
+        "explanation": "The final movement lifts the eye to heaven and glory, so present assurance is joined to future hope.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "John 14:2-3",
+        "scriptureRationale": "A place prepared by Christ for his own."
+      },
+      {
+        "category": "Providence",
+        "title": "Kept through deep waters",
+        "explanation": "The sea imagery of trial is answered by Christ's upholding, in the manner of the promise to be with God's people through the waters.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 43:2",
+        "scriptureRationale": "Through the waters God is with his people."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The immeasurable love of Christ",
+      "Assurance of being kept by Christ",
+      "Heavenly hope and glory",
+      "Praise as the response to Christ's love"
+    ],
+    "assessment": "Nothing to correct on the reading note. The hymn is built on Ephesians 3 and Romans 8 and ends in heaven. The Hymnology Archive's account links the sea imagery to Ephesians and Romans and says it connects the love to Christ's sacrificial death. The traditional text states the cross less directly than some hymns, which is a matter for the substance answers, not a concern."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A strong long-line tune",
+        "explanation": "The note describes a strong long-line hymn melody that a congregation sings readily, and verses are not repeated.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fits assurance and communion",
+        "explanation": "Its content fits times of assurance, trial and the Lord's Supper.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published keys vary by hymnal and arrangement. Test the melody with your congregation before choosing a key.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "varies by hymnal and arrangement",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "NONE",
+    "repetitionAssessment": "The traditional form has no refrain and no repeated verse; modern arrangements add a return that restates the theme.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational by design: a hymn tune with several stanzas and no performance build."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ is named",
+        "explanation": "The text is about the love of Jesus and says so, so the subject is never in doubt.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The sea and depth images are biblical and the old idiom is easily understood; nothing is open to a wrong reading."
+  },
+  "synthesis": {
+    "summary": "A hymn by Samuel Trevor Francis, first printed in 1898, on the immeasurable love of Christ, pictured as a sea. It goes on to the believer's security under that love and then to heaven and glory, and calls others to praise. The Hymnology Archive links the imagery to Ephesians and Romans. The cross is less explicit here than the love is. One independent hymnological source was found.",
+    "themes": [
+      "Christ",
+      "Grace",
+      "Assurance",
+      "Hope",
+      "Heaven",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Ephesians 3:18-19",
+        "relevance": "The breadth, length, height and depth of Christ's love - the hymn's governing image."
+      },
+      {
+        "reference": "Romans 8:38-39",
+        "relevance": "Nothing separates the believer from Christ's love - the assurance of the middle."
+      },
+      {
+        "reference": "Psalm 42:7",
+        "relevance": "Deep calling to deep, waves and billows - the sea imagery."
+      },
+      {
+        "reference": "Isaiah 43:2",
+        "relevance": "God with his people through the waters."
+      },
+      {
+        "reference": "John 14:2-3",
+        "relevance": "A place prepared in the Father's house - the hymn's heavenly ending."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.hymnologyarchive.com/o-the-deep-deep-love-of-jesus",
+      "title": "O the deep, deep love of Jesus",
+      "publisher": "Hymnology Archive",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "Authorship by Samuel Trevor Francis, first publication in 1898, the tune Ebenezer by T. J. Williams, and the hymn's themes of Christ's love, sacrifice, praise and heaven tied to Ephesians and Romans.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://hymnary.org/person/Francis_ST",
+      "title": "Samuel Trevor Francis",
+      "publisher": "Hymnary.org",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_1",
+      "establishes": "Francis as author and London merchant, with a long hymnal record (72 hymnal instances) for this text.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google search results (Hymnary, Sovereign Grace, Indelible Grace excerpts)",
+      "url": "https://www.google.com/search?q=Oh+the+Deep+Deep+Love+of+Jesus+hymn+lyrics"
+    }
+  ]
+}

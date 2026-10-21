@@ -1,0 +1,215 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Psalm 23 (Surely Goodness, Surely Mercy)",
+    "artist": "Shane & Shane",
+    "artistType": "GROUP",
+    "album": "Psalms, Vol. 2",
+    "releaseYear": 2015,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Shane Barnard; copyright 2015 Songs From Wellhouse, administered by Capitol CMG Publishing; CCLI 7054930. Released on the album Psalms, Vol. 2 (also titled Psalms II) by Shane & Shane on WellHouse Records, 23 October 2015. Some listings add Shane Everett as a composer and one site gives 2016; PraiseCharts and Lifeway agree on a sole Barnard credit and 2015. The list's artist guess is right for the recording churches know. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Verses follow Psalm 23 in its own order, with a refrain built on the psalm's closing promise of goodness and mercy. The sections cover the shepherd's provision and rest; restoration and guidance for his name's sake; walking through the valley without fear because he is near; the table prepared before enemies and the anointing; and the refrain, in which goodness and mercy follow the singer and he dwells in the Lord's house forever. The voice is first person trust, speaking partly about the Lord and partly to him, as the psalm does. The text tracks the psalm closely, with the refrain extended from the final verse. The cross and Christ are not named in the song itself.",
+    "claims": [
+      {
+        "claim": "The Lord is the singer's shepherd and provides what is needed, giving rest.",
+        "subject": "God as shepherd and provider",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lord restores and guides the singer in right paths for the sake of his own name.",
+        "subject": "Restoration and guidance",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "In the darkest valley the singer need not fear, because the Lord is near.",
+        "subject": "God's presence in danger",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lord prepares a table before enemies and anoints the singer.",
+        "subject": "Provision and honour in the face of enemies",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Goodness and mercy follow the singer all his life, and he will dwell in the Lord's house forever.",
+        "subject": "Assurance and eternal dwelling",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Providence",
+        "title": "God's care sung as the psalm gives it",
+        "explanation": "Provision, rest, restoration, guidance, presence in the valley and a prepared table are all attributed to the Lord's action and character, not to the singer's strength. The trust sung is grounded in who the shepherd is.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 23:1-6",
+        "scriptureRationale": "The whole psalm is set in its own order, so each assurance rests on the Lord's care."
+      },
+      {
+        "category": "Assurance",
+        "title": "Goodness and mercy, and a home forever",
+        "explanation": "The refrain returns to the psalm's closing promise: mercy that follows the believer through life and a place in the Lord's house for ever. It ends on settled assurance, not on a mood.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 23:6",
+        "scriptureRationale": "Goodness and mercy following the Lord's people, and dwelling in his house for ever."
+      },
+      {
+        "category": "Scripture",
+        "title": "A psalm sung whole and in order",
+        "explanation": "The song tracks Psalm 23 section by section, so a congregation sings the psalm's own progression and the passage is carried into memory. It is faithful set Scripture; the craft virtue is moderate however well done.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 23:1-6",
+        "scriptureRationale": "Entire psalm followed in order."
+      },
+      {
+        "category": "Christ",
+        "title": "Echoes of the Good Shepherd",
+        "explanation": "The reading note links the song to the shepherd Christ of John 10 and Hebrews 13. The text itself stays inside the psalm, so any Christological reading is brought by the church rather than sung.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR",
+        "scriptureReference": "John 10:11",
+        "scriptureRationale": "Jesus as the good shepherd who lays down his life for the sheep."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God's providential care of his people",
+      "The Lord's presence with believers in suffering",
+      "God's mercy and goodness toward his people",
+      "Eternal dwelling with the Lord"
+    ],
+    "assessment": "Nothing to correct. The text follows the psalm and says what the psalm says: the Lord provides, restores, guides, stays near in the valley, honours the singer before enemies, and shows him goodness and mercy for ever. The refrain extends the closing verse without changing its meaning. Christ and the cross are not named; the song is Old Testament trust in the Shepherd sung as it stands."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A familiar text in a singable setting",
+        "explanation": "The words are among the best known in Scripture, so a congregation arrives already knowing the sense. The refrain repeats and is easy to join after one hearing.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "For comfort, funerals and ordinary Sundays",
+        "explanation": "The psalm's themes of presence in the valley and a home in the Lord's house suit seasons of grief and fear as well as ordinary gathered worship.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published with C as the original key per PraiseCharts. Test the refrain in the room before committing to the key.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "C (original per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The refrain returns to the psalm's closing promise after the verses; each return is a confession of the same trust, so the repetition carries meaning rather than substituting for it.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form and in familiarity: a known text, a returning refrain and a plain structure. It needs no special leading, and its themes suit both comfort and ordinary gathered worship."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "The Lord is named as shepherd throughout",
+        "explanation": "The addressee is the Lord from start to finish, and what he does is stated in the psalm's plain images. A visitor knows who is praised and why.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The images are the psalm's own and are widely understood. The shift between speaking about the Lord and speaking to him follows the psalm and does not obscure the sense."
+  },
+  "synthesis": {
+    "summary": "Psalm 23 set in its own order with a refrain on goodness and mercy. Every assurance rests on the Lord's care: provision, restoration, guidance, presence in the valley, honour before enemies, and a home in his house for ever. Nothing in it is wrong. Christ and the cross are not named, so the gospel is implicit. No independent assessment of its content was found.",
+    "themes": [
+      "God",
+      "Providence",
+      "Assurance",
+      "Faith",
+      "Scripture",
+      "Hope",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 23:1-6",
+        "relevance": "The whole psalm, followed section by section."
+      },
+      {
+        "reference": "John 10:11",
+        "relevance": "Christ the good shepherd, the New Testament fulfilment of the psalm's image."
+      },
+      {
+        "reference": "Hebrews 13:20",
+        "relevance": "The great shepherd of the sheep raised from the dead."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/70540/psalm-23-surely-goodness-sheet-music",
+      "title": "Psalm 23 (Surely Goodness) - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writer Shane Barnard, 2015 copyright Songs From Wellhouse (Capitol CMG Publishing), CCLI 7054930, original key C.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.worshipfuel.com/at-ccli/song-story-psalm-23-shane-shane/",
+      "title": "Song Story: Psalm 23 / Shane And Shane",
+      "publisher": "WorshipFuel by CCLI",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "CCLI song-story page crediting Shane & Shane; confirms the song is built on Psalm 23. It gave no year or assessment of content.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google search results (Genius, MultiTracks and chord-sheet excerpts)",
+      "url": "https://www.google.com/search?q=Psalm+23+Shane+%26+Shane+lyrics"
+    }
+  ]
+}

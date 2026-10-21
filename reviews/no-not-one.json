@@ -1,0 +1,208 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "No, Not One",
+    "artist": "Johnson Oatman Jr. (text); George C. Hugg (tune)",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1895,
+    "genre": "Gospel hymn",
+    "isPublicDomain": true,
+    "notes": "Text by Johnson Oatman Jr. (1856-1922), a Methodist preacher who wrote hymns after retiring from the insurance business in Mount Holly, New Jersey; tune by George C. Hugg (1848-1907), a Philadelphia church musician, later named HARPER MEMORIAL. Published in Hugg's Heaven's Echo, or Songs of the Golden Land (Methodist Episcopal Book Room, 1895), and said to have appeared in about thirty-five books within a year. Also known by its first line. Public domain; no CCLI number or modern publisher was found. Reviewed as the standard five-stanza text with refrain.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ABOUT_GOD",
+    "structuralNotes": "Five stanzas, each built on a rhetorical question or contrast that is answered by the same doubled negative, followed by a refrain after each stanza. Stanza one declares Jesus a friend without equal and the only healer of the soul's diseases. Stanza two contrasts his holiness and meekness. Stanza three says he is always near and that his love cheers the darkest night. Stanza four asks whether any believer found him faithless or any sinner was turned away. Stanza five asks about the greatest gift and a home in heaven. The refrain says he knows the church's struggles and guides it each day. The voice is collective and speaks about Jesus in the third person. Cross and atonement are not reached.",
+    "claims": [
+      {
+        "claim": "Jesus is a friend without equal and the only healer of the soul's diseases.",
+        "subject": "Christ as friend and healer",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus is holy and meek, and in his holiness is unlike every other friend.",
+        "subject": "The character of Christ",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus is always near, and his love gives comfort in the darkest night.",
+        "subject": "Christ's presence",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "No believer has found Jesus faithless and no sinner who came has been turned away.",
+        "subject": "Christ's faithfulness and welcome",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus gives the greatest gift and a home in heaven.",
+        "subject": "Salvation as gift; heaven",
+        "location": "VERSE",
+        "locationDetail": "the fifth stanza",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus knows his people's struggles and guides them every day.",
+        "subject": "Providential care",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christ",
+        "title": "Jesus as the faithful friend",
+        "explanation": "The song gathers biblical claims that Christ is the friend who sticks closer than a brother, is always present and does not fail, and puts them to a congregation as a repeated answer.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Proverbs 18:24",
+        "scriptureRationale": "A friend who sticks closer than a brother, the picture of Christ the song develops."
+      },
+      {
+        "category": "Christ",
+        "title": "Open welcome to sinners",
+        "explanation": "The fourth stanza says no sinner who came to Jesus has been turned away, which rests on Christ's own promise and invites the doubtful.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MODERATE",
+        "scriptureReference": "John 6:37",
+        "scriptureRationale": "Whoever comes to Christ he will never cast out."
+      },
+      {
+        "category": "Christ",
+        "title": "Holy yet meek and sympathetic",
+        "explanation": "The song joins Christ's holiness to his gentleness and to knowing his people's struggles, as Hebrews and Matthew do.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Hebrews 4:15",
+        "scriptureRationale": "A high priest who sympathizes with our weaknesses."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The sufficiency and faithfulness of Christ",
+      "Christ's holiness and gentleness",
+      "Christ's nearness to his people",
+      "Welcome for sinners who come to him",
+      "Salvation as a gift",
+      "Heaven as the believer's home"
+    ],
+    "assessment": "Nothing to correct. The song is a sustained testimony to Christ as faithful friend, healer and giver of a heavenly home, built on familiar scriptural claims. It is light on the cross and atonement, which are not reached, and so it is best sung beside songs that state them. Closing lines on a home in heaven are for believers and do not teach universal salvation."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Simple call and response",
+        "explanation": "The repeated answer line lets a room join by the second stanza without a page.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Comfort for the weary",
+        "explanation": "Its themes of nearness and faithfulness suit seasons of trouble and pastoral settings.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published in various keys in hymnals; no chart was read. Pick a key that suits the congregation.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Various (hymnal-dependent)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The same answer closes every stanza, which is the form's point: the repetition affirms one confession rather than filling space.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "A congregational gospel hymn: a short, memorable refrain, a question and answer form, and a plain tune. It is easy to teach and suits mixed ages."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Jesus named throughout",
+        "explanation": "The addressee is never in doubt; every stanza is about Jesus.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The rhetorical questions are old idiom but their answers are plain."
+  },
+  "synthesis": {
+    "summary": "A five-stanza gospel hymn from 1895 presenting Jesus as faithful friend, healer, holy and meek, ever near, welcoming sinners and giving a home in heaven. Nothing in it is wrong. The cross and atonement are not reached, so the gospel is implicit. Repetition is purposeful and the form is easy to sing.",
+    "themes": [
+      "Christ",
+      "Grace",
+      "Assurance",
+      "Providence",
+      "Heaven",
+      "Faith"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Proverbs 18:24",
+        "relevance": "A friend who sticks closer than a brother."
+      },
+      {
+        "reference": "John 15:13-15",
+        "relevance": "Jesus calls his disciples friends."
+      },
+      {
+        "reference": "Hebrews 4:15",
+        "relevance": "A high priest who sympathizes with weakness."
+      },
+      {
+        "reference": "Hebrews 13:5",
+        "relevance": "God's promise never to leave or forsake."
+      },
+      {
+        "reference": "John 6:37",
+        "relevance": "Whoever comes will not be cast out."
+      },
+      {
+        "reference": "John 14:2-3",
+        "relevance": "A place prepared in the Father's house."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.hymnologyarchive.com/no-not-one",
+      "title": "No, Not One",
+      "publisher": "Hymnology Archive",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "Author Oatman, composer Hugg, 1895 publication in Heaven's Echo; summarizes the text as stressing Christ's sufficiency, nearness and faithfulness and notes it does not teach universal salvation.",
+      "assessesContent": true
+    }
+  ]
+}

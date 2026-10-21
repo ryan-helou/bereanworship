@@ -1,0 +1,219 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "The Old Rugged Cross",
+    "artist": "George Bennard",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1913,
+    "genre": "Gospel Hymn",
+    "isPublicDomain": true,
+    "notes": "Words and music by George Bennard (1873-1958), an American evangelist converted in the Salvation Army and later Methodist. Wikipedia dates the hymn to 1912 and notes that Bennard himself gave 1913; it was first performed complete in 1913 and published in 1915. He is said to have begun the first verse in Albion, Michigan, in 1912 and finished it at Sturgeon Bay, Wisconsin; Charles Gabriel helped with the harmony. Homer Rodeheaver bought the rights and popularised it in Billy Sunday's campaigns. Public domain in the United States. The slug is kept. Reviewed as the text, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Four stanzas, each followed by a refrain. The first stanza sets the cross as an emblem of shame that the singer nonetheless loves, because the Son died there for sinners. The second speaks of its strange attraction. The third tells of the blood-stained cross where Christ suffered, pardoning and sanctifying. The fourth turns to the singer's commitment to bear shame and look for the heavenly crown. The refrain pledges to cherish and cling to the cross and to exchange it for a crown. The voice is first-person devotion that narrates Calvary and then vows loyalty.",
+    "claims": [
+      {
+        "claim": "Christ the Son died on the cross for sinners, though the cross is a shameful emblem.",
+        "subject": "The cross and substitution",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The cross draws sinners with a strange attraction.",
+        "subject": "The attraction of the cross",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ suffered and shed his blood on the cross, bringing pardon and sanctification.",
+        "subject": "Atonement and cleansing",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer will bear reproach for Christ and look for a heavenly crown.",
+        "subject": "Discipleship and reward",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer pledges to cling to the cross and exchange it for a crown.",
+        "subject": "Faithfulness",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": false,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "The cross",
+        "title": "The cross at the centre",
+        "explanation": "Every stanza returns to Calvary, and the first and third state that Christ died there for sinners and that his blood pardons and sanctifies.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Corinthians 1:18",
+        "scriptureRationale": "The word of the cross as the power of God - the hymn's centre."
+      },
+      {
+        "category": "Atonement",
+        "title": "Pardon through his blood",
+        "explanation": "The third stanza connects Christ's suffering and blood to pardon and cleansing, so the singer's standing rests on what he did.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Romans 3:25",
+        "scriptureRationale": "Christ put forward as a propitiation by his blood."
+      },
+      {
+        "category": "Discipleship",
+        "title": "Taking up the cross",
+        "explanation": "The fourth stanza answers the cross with willingness to bear reproach, in the sense of the call to take up the cross daily.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Luke 9:23",
+        "scriptureRationale": "If anyone would come after me, let him take up his cross daily."
+      },
+      {
+        "category": "Hope",
+        "title": "The crown at the end",
+        "explanation": "The crown language looks to the reward promised to the faithful.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "2 Timothy 4:8",
+        "scriptureRationale": "The crown of righteousness laid up for those who love his appearing."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Christ's death for sinners",
+      "Pardon and sanctification through his blood",
+      "The shame and glory of the cross",
+      "Discipleship under the cross",
+      "The heavenly crown"
+    ],
+    "assessment": "Nothing to correct on the reading note. The cross is at the centre, and the crown language is biblical. The refrain is the singer's own pledge, so the voice is testimonial rather than credal. No independent assessment of its teaching was loaded for this review, so this is a clean record from the text alone."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Familiar waltz-time melody",
+        "explanation": "The note describes an extremely familiar waltz-time tune that is easy to sing, with a refrain after each stanza.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Suited to Lent and Good Friday",
+        "explanation": "Its cross-centred content fits Lent, Good Friday and the Lord's Supper.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published keys vary by hymnal. Test the melody with your congregation before choosing a key.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "varies by hymnal",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The refrain returns after each stanza and gathers each telling of Calvary into the same pledge, so the repetition carries the song's point.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form: four stanzas and a refrain in waltz time, familiar to many rooms."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "The Son and the cross are named",
+        "explanation": "The song speaks of the Son who died on the cross for sinners, so its subject is plain.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. Cross and crown are scriptural images, and nothing in the song is open to a wrong reading."
+  },
+  "synthesis": {
+    "summary": "A hymn by George Bennard, first performed complete in 1913 and published in 1915, in four stanzas with a refrain. It puts the cross at the centre: Christ died there for sinners, his blood pardons and sanctifies, and the singer pledges to bear reproach and wait for the heavenly crown. The voice is the singer's own devotion. No independent source assessing its teaching was loaded.",
+    "themes": [
+      "Cross",
+      "Christ",
+      "Salvation",
+      "Sin",
+      "Grace",
+      "Faith",
+      "Hope"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "1 Corinthians 1:18",
+        "relevance": "The word of the cross - the hymn's subject."
+      },
+      {
+        "reference": "Galatians 6:14",
+        "relevance": "Boasting only in the cross of Christ."
+      },
+      {
+        "reference": "Hebrews 12:2",
+        "relevance": "Jesus enduring the cross, despising the shame."
+      },
+      {
+        "reference": "Luke 9:23",
+        "relevance": "Taking up the cross daily - the fourth stanza."
+      },
+      {
+        "reference": "Romans 3:25",
+        "relevance": "Christ's blood as propitiation - the third stanza."
+      },
+      {
+        "reference": "2 Timothy 4:8",
+        "relevance": "The crown of righteousness - the refrain's ending."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Old_Rugged_Cross",
+      "title": "The Old Rugged Cross",
+      "publisher": "Wikipedia",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_3",
+      "establishes": "Bennard wrote words and music; dated 1912 or 1913; first complete performance 1913; published 1915; rights bought by Homer Rodeheaver.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google search results (Hymnary and Hymnal.net excerpts)",
+      "url": "https://www.google.com/search?q=Old+Rugged+Cross+hymn+lyrics"
+    }
+  ]
+}

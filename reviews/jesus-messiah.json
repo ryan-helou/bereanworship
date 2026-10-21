@@ -1,0 +1,237 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Jesus Messiah",
+    "artist": "Chris Tomlin",
+    "artistType": "INDIVIDUAL",
+    "album": "Hello Love",
+    "releaseYear": 2008,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Chris Tomlin, Daniel Carson, Ed Cash and Jesse Reeves; copyright 2008 sixsteps Music, Vamos Publishing and worshiptogether.com Songs, administered by Capitol CMG Publishing; CCLI 5183443. The list's guess of Chris Tomlin is right for the recording churches know (Hello Love, 2008). Published original key G. No account of how it was written was found. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Two verses, a repeated chorus, a short bridge and a final chorus. The verses recount the cross: Christ made sin on behalf of sinners so that they might become righteous, his humbling to the point of death, the supper in which body and blood are given, and the earth shaking and the temple veil torn at his death, all gathered under the one word love. The chorus is a run of titles for Christ: Messiah, Redeemer, Emmanuel, ransom, Lord of all. The bridge turns to the singer and expresses hope and glory to him. The voice is mostly narrative about Christ, with personal adoration in the bridge. The resurrection is not narrated and the Spirit is not reached.",
+    "claims": [
+      {
+        "claim": "Christ was made sin on behalf of sinners so that they might become the righteousness of God.",
+        "subject": "Substitutionary atonement",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ humbled himself to death on a cross and has been given the name above every name.",
+        "subject": "Humiliation and exaltation",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ gave his body and blood at the supper as the pattern of his sacrifice.",
+        "subject": "The Lord's Supper",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "At his death the earth shook and the temple veil was torn, and the whole of it is love.",
+        "subject": "The cross as the love of God",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus is Messiah, Redeemer, Emmanuel, the ransom and Lord of all.",
+        "subject": "The person and titles of Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer's hope and the glory belong to Christ.",
+        "subject": "Hope and praise",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "Imputation stated plainly",
+        "explanation": "The verse says Christ was made sin for sinners so that they become God's righteousness. The exchange is named, with the sinner's gain given as righteousness, not only forgiveness.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "2 Corinthians 5:21",
+        "scriptureRationale": "Made sin for us that we might become the righteousness of God - the exchange the verse sets out."
+      },
+      {
+        "category": "Christ",
+        "title": "Titles that teach who Jesus is",
+        "explanation": "The chorus gathers Messiah, Redeemer, Emmanuel, ransom and Lord of all. Each is a scriptural title, so repeating them teaches Christ's identity, his deity with us, and his purchase of sinners.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Mark 10:45",
+        "scriptureRationale": "The Son of Man came to give his life as a ransom for many - the ransom title in the chorus."
+      },
+      {
+        "category": "Cross",
+        "title": "The cross read through the supper and the torn veil",
+        "explanation": "Body and blood at the table, the shaken earth and the torn veil are all set beside the cross and called love. The congregation sings the event as the Gospels record it.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Matthew 27:51",
+        "scriptureRationale": "The earth shook and the veil was torn as Jesus died - the signs the verse recalls."
+      },
+      {
+        "category": "Christ",
+        "title": "Humbled, then exalted",
+        "explanation": "Christ's descent to the cross is joined to the name above every name, so the song's praise follows the shape of Philippians.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Philippians 2:8-9",
+        "scriptureRationale": "Obedient to death on a cross, therefore exalted with the name above every name."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Substitutionary atonement and imputed righteousness",
+      "The humiliation and exaltation of Christ",
+      "The deity and saving work of Jesus (Messiah, Emmanuel, Redeemer)",
+      "Christ's death as ransom",
+      "The Lord's Supper as the pattern of his sacrifice"
+    ],
+    "assessment": "Nothing to correct on the note's reading. The song is a sequence of scriptural statements about Christ's person and cross, each tied to a passage. The resurrection is not narrated, so the gospel is carried by the cross and the titles alone, and the Spirit is not reached. Only the Genius page was read as a source; no independent assessment of its teaching was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A short chorus that is quickly learned",
+        "explanation": "The chorus is a run of titles over a memorable melody, short enough that a congregation learns it in one pass.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fits Lent, Holy Week and the Lord's Supper",
+        "explanation": "Its content centres on the cross and the supper, which places it naturally at communion and Good Friday.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published original key G (WorshipTogether lists the range as A to D). Test the chorus and bridge with your congregation before keeping the key.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "G (original per WorshipTogether)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns after each verse and again at the end, and each return gathers a fuller picture of the cross, so the repetition carries content.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form and easy to lead. The chorus is the part people retain, and its content is a catalogue of Christ's scriptural titles, so the repetition teaches rather than fills."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Jesus is named in the title and chorus",
+        "explanation": "Messiah, Redeemer and Emmanuel are said outright, so the addressee is never vague.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The verse images are drawn straight from the Gospel accounts of the supper and the cross, and nothing in the song is open to a wrong reading."
+  },
+  "synthesis": {
+    "summary": "A cross-centred song built on scriptural statements: Christ made sin for sinners, humbled to death and given the name above all names, the supper, the shaken earth and torn veil, all called love. The chorus gathers titles for Christ. The resurrection is not narrated and the Spirit is not reached. Only the Genius page was read; no independent assessment was found.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Salvation",
+      "Grace",
+      "Communion",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "2 Corinthians 5:21",
+        "relevance": "Made sin for us that we might become God's righteousness - the first verse's claim."
+      },
+      {
+        "reference": "Philippians 2:8-9",
+        "relevance": "Humbled to death, then given the name above every name."
+      },
+      {
+        "reference": "Matthew 1:23",
+        "relevance": "Emmanuel, God with us - one of the chorus titles."
+      },
+      {
+        "reference": "Mark 10:45",
+        "relevance": "The ransom for many - the chorus title."
+      },
+      {
+        "reference": "Luke 22:19-20",
+        "relevance": "Body and blood at the supper - the second verse."
+      },
+      {
+        "reference": "Matthew 27:51",
+        "relevance": "The earth shaken and the veil torn at the cross."
+      },
+      {
+        "reference": "John 8:12",
+        "relevance": "Jesus as the light of the world."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.worshiptogether.com/songs/jesus-messiah-chris-tomlin/",
+      "title": "Jesus Messiah",
+      "publisher": "WorshipTogether",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Chris Tomlin, Daniel Carson, Ed Cash and Jesse Reeves, CCLI 5183443, original key G.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.praisecharts.com/songs/details/9060/jesus-messiah-sheet-music/tenor-choir-practice-track",
+      "title": "Jesus Messiah - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue listing: album Hello Love, 2008 copyright with sixsteps Music, Vamos Publishing and worshiptogether.com Songs, administered by Capitol CMG Publishing.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com/Chris-tomlin-jesus-messiah-lyrics"
+    }
+  ]
+}
