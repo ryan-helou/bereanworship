@@ -10,30 +10,36 @@
     "releaseYear": 1987,
     "genre": "Contemporary Worship",
     "isPublicDomain": false,
-    "notes": "Words and music by Noel and Tricia Richards; a hymnal database records the copyright as 1987 Thankyou Music (Kingsway). The list's guess of Noel Richards is right but incomplete: Tricia Richards is a co-author. It is one of the couple's best-known songs and is in several hymnals and the Spring Harvest Praise! collection. No source read gives the story of its writing or the recording it first appeared on, so album is left blank. The same database lists the key as Bb. Reviewed as the song, not any one recording.",
+    "notes": "Words and music by Noel and Tricia Richards; a hymnal database records the copyright as 1987 Thankyou Music (Kingsway). The list's guess of Noel Richards is right but incomplete: Tricia Richards is a co-author. It is one of the couple's best-known songs and is in several hymnals and the Spring Harvest Praise! collection. No source read gives the story of its writing or its first recording, so album is left blank. The same database lists the key as Bb. Reviewed as the song, not any one recording.",
     "notesExtra": null
   },
   "claims": {
     "lyricsAvailable": true,
-    "perspective": "CORPORATE_WE",
-    "structuralNotes": "A short song in which the worshipping creation and the church declare the glory of the risen and exalted Christ. It speaks of Christ's resurrection and ascension and the hope of his return, as a hymnal database lists as its topics. It names Jesus, speaks of the Lamb and his exaltation, and calls the church to bow and worship. The voice is plural, and the whole song is about Christ and addressed to him. The cross as atonement is implied in the Lamb language and not narrated.",
+    "perspective": "MIXED",
+    "structuralNotes": "A short song of one verse and one chorus, with the chorus carrying the weight. The verse says heaven declares the glory of the risen Lord and asks who can compare with his beauty. The chorus names him as the Lamb on the throne forever, and the singer bows and worships him alone. A later section says the singer will proclaim the risen Lord, who was once slain to reconcile man to God. Addressed partly about Christ and partly to him; the voice is a singular 'I' of response (bowing, proclaiming, worshipping), while the statements about Christ are creedal. The atonement is stated briefly as reconciliation, not unfolded.",
     "claims": [
       {
-        "claim": "Heaven and creation declare the glory of Christ.",
-        "subject": "The glory of Christ",
-        "location": "WHOLE_SONG",
+        "claim": "All heaven declares the glory of the risen Lord, whose beauty has no equal.",
+        "subject": "The glory and incomparability of the risen Christ",
+        "location": "VERSE",
         "lyricExcerpt": null
       },
       {
-        "claim": "Christ is risen and exalted.",
-        "subject": "The resurrection and ascension",
-        "location": "WHOLE_SONG",
+        "claim": "Christ is the Lamb on the throne, and will be so forever.",
+        "subject": "The enthroned Lamb",
+        "location": "CHORUS",
         "lyricExcerpt": null
       },
       {
-        "claim": "Christ will return, and every knee will bow.",
-        "subject": "The return of Christ",
-        "location": "WHOLE_SONG",
+        "claim": "The risen Lord was slain in order to reconcile man to God.",
+        "subject": "The purpose of the cross",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer bows to Christ and worships him alone.",
+        "subject": "Exclusive worship of Christ",
+        "location": "CHORUS",
         "lyricExcerpt": null
       }
     ],
@@ -45,51 +51,61 @@
     "teachesDoctrine": true,
     "godDirected": true,
     "groundsItsClaims": true,
-    "corporateVoice": true,
+    "corporateVoice": false,
     "engagesScripture": true
   },
   "theological": {
     "strengths": [
       {
-        "category": "Resurrection",
-        "title": "Christ risen, ascended and returning",
-        "explanation": "The song's topics, as a hymnal database records them, run from the resurrection through the ascension to the return, so it gives the congregation the whole arc of Christ's exaltation to sing about.",
-        "songLocation": "WHOLE_SONG",
+        "category": "Cross",
+        "title": "The slain Lamb reconciles man to God",
+        "explanation": "The song states the purpose of Christ's death: he was slain to reconcile man to God. It joins this to his resurrection and his throne, so the gospel is present in a few words.",
+        "songLocation": "BRIDGE",
         "magnitude": "MAJOR",
-        "scriptureReference": "Philippians 2:9-11",
-        "scriptureRationale": "God exalted Christ and every knee will bow - the exaltation the song celebrates."
+        "scriptureReference": "Colossians 1:20-22",
+        "scriptureRationale": "Reconciliation to God through Christ's death on the cross."
+      },
+      {
+        "category": "Christ",
+        "title": "The Lamb on the throne forever",
+        "explanation": "The chorus holds the crucified and the reigning Christ together as one Lamb, and gives him an eternal throne. It is the picture of Revelation 5.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Revelation 5:12-13",
+        "scriptureRationale": "The Lamb who was slain receives worship from all creation."
       },
       {
         "category": "Worship",
-        "title": "Creation and church join one praise",
-        "explanation": "Heaven declares and the church answers, which is the Psalm's pattern of creation's witness and the congregation's response.",
-        "songLocation": "WHOLE_SONG",
+        "title": "Creation declares, the singer bows",
+        "explanation": "The opening echoes the Psalm's witness of the heavens, and the response is to bow and worship Christ alone, which fits the Bible's call to give him the worship due to God.",
+        "songLocation": "VERSE",
         "magnitude": "MODERATE",
         "scriptureReference": "Psalm 19:1",
-        "scriptureRationale": "The heavens declare the glory of God - the opening move of the song."
+        "scriptureRationale": "The heavens declare the glory of God."
       }
     ],
     "concerns": [],
     "doctrinesAffirmed": [
       "The resurrection of Christ",
-      "The ascension and exaltation of Christ",
-      "The return of Christ",
-      "The worthiness of the Lamb"
+      "The atoning death of Christ as the Lamb",
+      "Reconciliation of man to God through Christ",
+      "Christ's enthronement forever",
+      "Christ alone as the object of worship"
     ],
-    "assessment": "Nothing to correct. A song of Christ's exaltation that runs from the resurrection to the ascension to the return, in the plural voice of the church. The atonement is carried by the Lamb imagery rather than narrated, and the song is more doxology than instruction. The sources read describe its topics but give no independent evaluation of its teaching."
+    "assessment": "Nothing to correct. A short, Christ-centred song that joins the resurrection, the slain Lamb's reconciling work and his eternal throne, and responds with worship of him alone. The atonement is stated in one line and not developed, and the first-person response is the singer's own resolve. The sources read describe the song's background but give no independent evaluation of its teaching."
   },
   "communal": {
     "strengths": [
       {
         "category": "Use",
-        "title": "A strong place in Easter, Ascension and Advent",
-        "explanation": "Its subject matter suits Easter, Ascension and the hope of Christ's return, and its plural voice suits a gathered church.",
+        "title": "A short confession of the Lamb's reign",
+        "explanation": "Its brevity and one-idea shape make it easy to learn, and its subject suits Easter, Communion and any service lifting up the reigning Lamb.",
         "songLocation": "WHOLE_SONG",
         "magnitude": "MODERATE"
       }
     ],
     "concerns": [],
-    "singability": "MODERATE",
+    "singability": "EASY",
     "vocalRangeNote": "The same database lists the key as Bb. No chart was read; check the top of the chorus with your own room.",
     "range": {
       "measured": false,
@@ -102,45 +118,45 @@
       "note": "No chart was read for this review, so the pitches are not stated."
     },
     "repetition": "PURPOSEFUL",
-    "repetitionAssessment": "The refrain returns to the declaration of Christ's glory, and the repetition dwells on one confession rather than padding thin content.",
+    "repetitionAssessment": "The chorus returns several times to the same confession of the Lamb on the throne and the response of worship; the repetition dwells on a real statement about Christ rather than filling space.",
     "performanceOrientation": "CONGREGATIONAL",
-    "assessment": "Written for a congregation by a pastor-songwriting couple and carried into hymnals, with a plural voice and a declarative shape. It fits Easter, Ascension and any service lifting up Christ's reign and return."
+    "assessment": "A short song with a single chorus and a plain shape that a congregation can learn quickly. The singular voice is a first-person response, which most congregations can sing together as one act of worship."
   },
   "clarity": {
     "strengths": [
       {
         "category": "Naming",
-        "title": "Jesus is the subject",
-        "explanation": "Christ is named as the one who is exalted, so the praise is never vague.",
+        "title": "Christ is named as Lord and Lamb",
+        "explanation": "The risen Lord and the Lamb on the throne are named plainly, and the cross is stated as reconciliation, so the praise has a clear object and a clear ground.",
         "songLocation": "WHOLE_SONG",
         "magnitude": "MODERATE"
       }
     ],
     "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Clear. Its imagery is biblical and its subject, the exalted Christ, is plain."
+    "assessment": "Clear. Its imagery is biblical, its subject is the risen, reigning Lamb, and its one statement about the cross is plain."
   },
   "synthesis": {
-    "summary": "A congregational song in which heaven and the church declare the glory of the risen, ascended Christ and look to his return. Jesus is named and the voice is plural. The atonement is carried by the Lamb imagery rather than narrated. No false claims found; the sources read give topics but no independent assessment of the content.",
+    "summary": "A short song in which heaven declares the glory of the risen Lord, who is the Lamb on the throne forever and was slain to reconcile man to God, with the singer bowing to worship him alone. The voice is a singular response; the atonement is stated once and not developed. No false claims found; the sources give background but no independent assessment of the content.",
     "themes": [
       "Christ",
+      "Cross",
       "Resurrection",
       "Worship",
-      "Hope",
       "Heaven"
     ],
     "scriptureReferences": [
       {
         "reference": "Psalm 19:1",
-        "relevance": "The heavens declare God's glory - the song's opening move."
-      },
-      {
-        "reference": "Philippians 2:9-11",
-        "relevance": "God exalted Christ and every knee will bow - the exaltation sung."
+        "relevance": "The heavens declare God's glory, as the song opens."
       },
       {
         "reference": "Revelation 5:12",
-        "relevance": "The Lamb who was slain is worthy - the Lamb imagery."
+        "relevance": "The Lamb who was slain is worthy, as in the chorus."
+      },
+      {
+        "reference": "Colossians 1:20",
+        "relevance": "Reconciliation through Christ's death."
       }
     ]
   },
@@ -161,6 +177,15 @@
       "sourceType": "OTHER",
       "credibilityTier": "TIER_3",
       "establishes": "Biography of Tricia Richards as Noel's songwriting partner, listing her as co-author of the song.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.google.com/search?q=All+Heaven+Declares+lyrics+Noel+Richards",
+      "title": "All Heaven Declares lyrics panel and results",
+      "publisher": "Google Search",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
       "assessesContent": false
     }
   ]
