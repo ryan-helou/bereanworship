@@ -17,38 +17,38 @@
     "lyricsAvailable": true,
     "perspective": "INDIVIDUAL_I",
     "gospelClarity": "EXPLICIT",
-    "structuralNotes": "A long hymn of five or six stanzas, each with a repeated closing couplet in the Sagina setting. It opens in wonder that the singer can have a share in Christ's saving blood when he himself caused the Saviour's death. It moves through the mystery of the incarnation, in which the immortal God empties himself of glory and dies for sinners, and through God's love that sends Christ to die for rebels. It then uses the image of a prisoner whose chains fall away, and the light that wakes the soul, to describe freedom from sin and condemnation. It ends in confident approach to God's throne, clothed in Christ's righteousness, with no condemnation remaining. The voice is first person singular, but the content is what Christ has done: incarnation, kenosis, substitution, justification. Christ is named.",
+    "structuralNotes": "Five stanzas, each ending in a shared closing couplet that is also the refrain. Stanza 1 opens in wonder that the singer has a share in Christ's blood when he caused the suffering. Stanza 2 calls the death of the Immortal a mystery that even angels cannot fathom. Stanza 3 says Christ left the Father's throne, emptied himself and bled for fallen humanity, and that this mercy reached the singer. Stanza 4 is the singer's own conversion told as release from a dark prison. Stanza 5 states no condemnation, union with Christ and bold approach to the throne in his righteousness. Christ is named. The voice is first person singular throughout, and stanzas 1, 4 and 5 are the singer's testimony of what happened to him.",
     "claims": [
       {
-        "claim": "It is amazing that sinners, who caused Christ's death, can share the benefit of his blood.",
+        "claim": "It is astonishing that a sinner who caused Christ's suffering has a share in his saving blood.",
         "subject": "Grace and substitution",
         "location": "VERSE_1",
         "lyricExcerpt": null
       },
       {
-        "claim": "The eternal God emptied himself of glory and died for sinners; this is a mystery beyond understanding.",
+        "claim": "That the immortal God dies is a mystery that no created mind, even an angel's, can fathom.",
         "subject": "Incarnation and cross",
         "location": "VERSE_2",
         "lyricExcerpt": null
       },
       {
-        "claim": "God's love gave Christ to die for rebels.",
-        "subject": "The love of God",
+        "claim": "Christ left the Father's throne, emptied himself and bled for fallen humanity, and this free mercy reached the singer.",
+        "subject": "Kenosis and the love of God",
         "location": "VERSE_3",
         "lyricExcerpt": null
       },
       {
-        "claim": "The sinner was bound in sin and condemned, and Christ's light and grace freed him.",
-        "subject": "Liberation from sin",
+        "claim": "The singer was bound in sin and darkness; Christ's light woke him, his chains fell and he followed Christ.",
+        "subject": "Conversion as liberation",
         "location": "VERSE_4",
         "lyricExcerpt": null
       },
       {
-        "claim": "Clothed in Christ's righteousness, the believer has no condemnation and can approach God's throne boldly.",
-        "subject": "Justification by faith",
+        "claim": "The believer has no condemnation, is alive in Christ his Head, clothed in divine righteousness, and approaches God's throne boldly.",
+        "subject": "Justification and access",
         "location": "WHOLE_SONG",
-        "locationDetail": "the final stanza",
-        "lyricExcerpt": null
+        "lyricExcerpt": null,
+        "locationDetail": "the final stanza"
       }
     ]
   },
@@ -58,7 +58,7 @@
     "teachesDoctrine": true,
     "godDirected": true,
     "groundsItsClaims": true,
-    "corporateVoice": true,
+    "corporateVoice": false,
     "engagesScripture": true
   },
   "theological": {
@@ -69,8 +69,17 @@
         "explanation": "The hymn marvels that the immortal God died for those who rebelled against him. The cross is God's act and the singer's guilt is named, so the astonishment has a cause.",
         "songLocation": "VERSE_2",
         "magnitude": "MAJOR",
-        "scriptureReference": "Philippians 2:6-8",
+        "scriptureReference": "Philippians 2:7-8",
         "scriptureRationale": "The Son emptying himself and becoming obedient to death - the mystery the stanza marvels at."
+      },
+      {
+        "category": "Christology",
+        "title": "The Son who gave up glory",
+        "explanation": "Stanza 3 says Christ left his Father's throne and emptied himself for fallen humanity, so the cross is set within the incarnation and God's initiative.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Philippians 2:6-8",
+        "scriptureRationale": "The Son emptying himself and becoming obedient to death."
       },
       {
         "category": "Justification",
@@ -106,9 +115,10 @@
       "Substitutionary atonement",
       "Justification by faith in Christ's righteousness",
       "Salvation by grace alone",
+      "Union with Christ",
       "Assurance and bold access to God"
     ],
-    "assessment": "Nothing to correct. A great Protestant statement of the gospel: the incarnation, the substitution, the unmerited grace, the freeing of the sinner and the imputed righteousness that ends condemnation. Its language of a heart set free and light shining is biblical metaphor, not a claim about a second blessing. The Spirit and the church are not much reached; the song stays on Christ and the believer."
+    "assessment": "Nothing to correct. The words state the gospel plainly: the incarnation, God dying for the guilty, unmerited mercy, release from sin, and a standing of no condemnation in Christ's righteousness. Heart-freed and light-shining language is biblical metaphor, not a second blessing. The Spirit and the church are not reached; the song stays on Christ and the believer. The singular voice is the singer's testimony, not a communal confession."
   },
   "communal": {
     "strengths": [
@@ -141,9 +151,9 @@
       "note": "No chart was read for this review, so the pitches are not stated."
     },
     "repetition": "PURPOSEFUL",
-    "repetitionAssessment": "The repeated closing couplet returns to the central amazement, so the repetition deepens rather than fills.",
+    "repetitionAssessment": "The refrain repeats the central wonder at God dying for the singer, so it deepens the stanzas rather than filling space.",
     "performanceOrientation": "CONGREGATIONAL",
-    "assessment": "Congregational and demanding. The stanzas are long and the tune requires confident singing; a room that knows it sings it with energy. A room that does not will benefit from the tune being taught or from choosing a gentler setting."
+    "assessment": "Congregational and demanding. Five stanzas with a returning refrain let a room join the wonder, but the singers each confess in the first person singular what happened to them, so the room sings testimony more than a shared creed. The tune is wide and the text long; a room that does not know it needs the tune taught."
   },
   "clarity": {
     "strengths": [
@@ -157,10 +167,10 @@
     ],
     "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Clear in its claims but dense in its eighteenth-century idiom: the prison and chains imagery and phrases like imputed righteousness may need explaining to newcomers. The meaning is not in doubt."
+    "assessment": "Clear in its claims but dense in its eighteenth-century idiom: the prison imagery, the firstborn seraph and the phrase clothed in righteousness may need explaining to newcomers. The meaning is not in doubt."
   },
   "synthesis": {
-    "summary": "Charles Wesley's 1738-39 hymn on his conversion: wonder that sinners who caused Christ's death can share its benefit, the immortal God dying for rebels, the prisoner freed, and the believer clothed in Christ's righteousness with no condemnation. No concern was found. The Spirit and the church are not reached; its tune and length are the practical limits.",
+    "summary": "Charles Wesley's 1738-39 hymn on his conversion: wonder that a sinner can share Christ's blood, the immortal God dying, Christ leaving the throne and emptying himself, the prisoner freed, and the believer without condemnation. Its first person voice is the singer's testimony, not a credal confession. No concern was found. The Spirit and the church are not reached; tune and length are the practical limits.",
     "themes": [
       "Christ",
       "Cross",
@@ -210,6 +220,15 @@
       "sourceType": "THEOLOGICAL_ORGANIZATION",
       "credibilityTier": "TIER_2",
       "establishes": "From search summary (fetch refused): 1739 text marking Wesley's conversion; many call it his greatest hymn; Sagina is hard, so an alternative tune is offered.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.google.com/search?q=And+Can+It+Be+That+I+Should+Gain+Charles+Wesley+lyrics",
+      "title": "Hymnary.org text page, opened from Google results",
+      "publisher": "Hymnary.org",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
       "assessesContent": false
     }
   ]

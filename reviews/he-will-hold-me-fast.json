@@ -17,42 +17,42 @@
     "lyricsAvailable": true,
     "perspective": "INDIVIDUAL_I",
     "gospelClarity": "EXPLICIT",
-    "structuralNotes": "Three stanzas with a refrain. The first admits that the singer's own faith and love are weak, that temptations come, and says the security of the believer rests on Christ's grip rather than his own. The second turns to Scripture and the Spirit's testimony in the face of fear and doubt, and the value God has given the believer in Christ. The third (Merker's) looks to the cross as the place where Christ's love is shown and where the debt of sin was paid, and to the believer being kept to the end and brought to glory. The voice is first person singular, but each claim is credal: Christ keeps, Christ loved and died, Christ will bring his people home. The believer's weakness is the foil, not the subject. Christ is named.",
+    "structuralNotes": "Three stanzas, a refrain and a repeated closing line in the final sung chorus. Stanza 1 admits the singer's faith may fail, the tempter presses and his love is cold, and answers that Christ must hold him. Stanza 2 says those he saves are his delight and precious to him, that he will not lose them, that his promises last, and that they were bought at great cost. Stanza 3 says Christ bled and died for the singer's life, justice was satisfied, the believer is raised with him to endless life, and he holds on until faith becomes sight at his coming. The refrain grounds all of it in the Savior's love. The voice is first person singular, but each claim is credal: what Christ does, did and will do. The singer's weakness is the foil, not the subject. Christ is named.",
     "claims": [
       {
-        "claim": "The believer's faith and love are weak and temptation is real, but Christ keeps him.",
+        "claim": "The believer's faith and love are weak and temptation is real, but Christ holds him and must hold him.",
         "subject": "Perseverance",
         "location": "VERSE_1",
         "lyricExcerpt": null
       },
       {
-        "claim": "The believer's hope rests on Christ's hold on him, not his hold on Christ.",
-        "subject": "Assurance",
-        "location": "REFRAIN",
-        "lyricExcerpt": null
-      },
-      {
-        "claim": "Scripture and the Spirit's witness answer fear and doubt.",
-        "subject": "Assurance and the Word",
+        "claim": "Those Christ saves are his delight and precious to him, and he will not let their souls be lost.",
+        "subject": "Assurance and God's delight",
         "location": "VERSE_2",
         "lyricExcerpt": null
       },
       {
-        "claim": "The believer is valued by God because of Christ.",
-        "subject": "Union with Christ",
+        "claim": "Christ's promises last, and believers were bought at a great cost.",
+        "subject": "Redemption and promise",
         "location": "VERSE_2",
         "lyricExcerpt": null
       },
       {
-        "claim": "Christ's death on the cross paid the debt of sin and shows God's love.",
+        "claim": "Christ bled and died for the singer, and justice has been satisfied.",
         "subject": "Atonement",
         "location": "VERSE_3",
         "lyricExcerpt": null
       },
       {
-        "claim": "Christ will bring his people safely to glory.",
-        "subject": "Final perseverance",
+        "claim": "The believer is raised with Christ to endless life and is kept until faith becomes sight at his coming.",
+        "subject": "Resurrection and final perseverance",
         "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ holds the believer fast because the Savior loves him.",
+        "subject": "Assurance",
+        "location": "REFRAIN",
         "lyricExcerpt": null
       }
     ]
@@ -61,17 +61,17 @@
     "namesGod": true,
     "statesAnAct": true,
     "teachesDoctrine": true,
-    "godDirected": false,
+    "godDirected": true,
     "groundsItsClaims": true,
     "corporateVoice": true,
-    "engagesScripture": true
+    "engagesScripture": false
   },
   "theological": {
     "strengths": [
       {
         "category": "Assurance",
         "title": "Security rests on Christ's keeping",
-        "explanation": "The song puts the believer's weakness plainly and answers it with Christ's hold on him. That is the biblical ground of assurance, and it is stated as a promise that does not depend on the singer's performance.",
+        "explanation": "The singer admits his weak faith and cold love and answers with Christ's hold on him. Assurance rests on Christ's keeping and love, not on the singer's performance.",
         "songLocation": "REFRAIN",
         "magnitude": "MAJOR",
         "scriptureReference": "John 10:28-29",
@@ -79,48 +79,49 @@
       },
       {
         "category": "Atonement",
-        "title": "The cross as the proof of his love",
-        "explanation": "The third stanza turns to the cross: the debt paid, God's love shown. The singer's confidence is placed there and not in his feeling.",
+        "title": "Justice satisfied and the life bought",
+        "explanation": "Stanzas 2 and 3 say believers were bought at great cost, that Christ bled and died for the singer, and that justice has been satisfied. Confidence is placed in the cross, not in feeling.",
         "songLocation": "VERSE_3",
         "magnitude": "MAJOR",
-        "scriptureReference": "Romans 5:8",
-        "scriptureRationale": "God shows his love in Christ dying for sinners - what the third stanza says of the cross."
+        "scriptureReference": "Romans 3:25-26",
+        "scriptureRationale": "God satisfying justice in Christ's blood - what the third stanza says."
       },
       {
-        "category": "Scripture",
-        "title": "Doubt answered by the Word and the Spirit",
-        "explanation": "The second stanza sends the doubting believer to the Scriptures and to the Spirit's witness, not to his feelings.",
+        "category": "Salvation",
+        "title": "Saved people are God's delight",
+        "explanation": "Stanza 2 says those he saves are precious to him, so assurance rests on his regard for them and the promises he keeps, not on their grip.",
         "songLocation": "VERSE_2",
         "magnitude": "MODERATE",
-        "scriptureReference": "Romans 8:16",
-        "scriptureRationale": "The Spirit bearing witness that we are God's children - the second stanza's assurance."
+        "scriptureReference": "John 10:28-29",
+        "scriptureRationale": "Christ's sheep held securely in his hand."
       },
       {
         "category": "Hope",
-        "title": "Kept to the end",
-        "explanation": "The song looks to glory, so assurance is not only present comfort but a promise of arrival.",
+        "title": "Raised with Christ and kept until sight",
+        "explanation": "The last stanza names being raised with Christ to endless life and looks to his coming, so assurance becomes a promise of arrival.",
         "songLocation": "VERSE_3",
         "magnitude": "MODERATE",
-        "scriptureReference": "Philippians 1:6",
-        "scriptureRationale": "God completing the work he began - the hope in the closing lines."
+        "scriptureReference": "Colossians 3:1-4",
+        "scriptureRationale": "Raised with Christ and appearing with him in glory."
       }
     ],
     "concerns": [],
     "doctrinesAffirmed": [
       "Perseverance of the saints",
       "Assurance grounded in Christ",
-      "Substitutionary atonement",
-      "The witness of the Spirit and Scripture",
-      "Final glory"
+      "Substitutionary atonement and justice satisfied",
+      "Redemption at cost",
+      "Union with Christ in resurrection",
+      "Christ's return"
     ],
-    "assessment": "No concern. A clear statement of assurance, with weakness admitted and Christ's keeping as the ground. Those who hold that salvation can be lost may read the refrain differently, but that is a position faithful Christians dispute, not an error in the song. It reaches the cross and the Spirit; the resurrection and the church are not named."
+    "assessment": "No concern. A clear statement of assurance: weakness admitted, Christ's love and hold as the ground. It reaches the cross, justice satisfied, resurrection life and Christ's coming. Those who hold that salvation can be lost may read the refrain differently, but that is a position faithful Christians dispute, not an error in the song. The Spirit and the church are not named."
   },
   "communal": {
     "strengths": [
       {
         "category": "Accessibility",
         "title": "A tune a congregation can learn",
-        "explanation": "Merker's melody was written for congregational singing; the refrain is easy to catch and the stanzas move in a stepwise, folk-leaning line.",
+        "explanation": "The refrain is easy to catch and returns the room to one line of assurance, so a congregation can join on first hearing.",
         "songLocation": "NOT_LYRICAL",
         "magnitude": "MODERATE"
       },
@@ -146,9 +147,9 @@
       "note": "No chart was read for this review, so the pitches are not stated."
     },
     "repetition": "PURPOSEFUL",
-    "repetitionAssessment": "The refrain returns to the central confession after each stanza's particular comfort.",
+    "repetitionAssessment": "The refrain returns to the central confession after each stanza's particular comfort, and the closing chorus repeats it; this deepens rather than fills.",
     "performanceOrientation": "CONGREGATIONAL",
-    "assessment": "Congregational and calm. The pacing leaves room for a room to sing it as assurance and not as a performance, and the three stanzas are short enough to sing in full."
+    "assessment": "Congregational and calm. Each singer says 'I' but the content is what Christ does and has done, so the room confesses it together. Three short stanzas can be sung in full."
   },
   "clarity": {
     "strengths": [
@@ -162,10 +163,10 @@
     ],
     "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Clear. The 'I' of weakness and the 'he' of keeping are never confused, and the doctrine is the one the Bible states in plain terms."
+    "assessment": "Clear. The 'I' of weakness and the 'he' of keeping are never confused, and the doctrine is stated in plain terms."
   },
   "synthesis": {
-    "summary": "Ada Habershon's 1907 hymn on assurance as heard today in Matt Merker's revision and tune, recorded by Keith and Kristyn Getty. The believer's weakness is admitted and Christ's hold on him is the ground, with Scripture and the Spirit answering doubt and the cross shown as love and payment. No concern was found; the resurrection and church are not named. The version in use is the copyrighted Merker/Getty setting.",
+    "summary": "Ada Habershon's 1907 hymn on assurance as heard in Matt Merker's revision and tune, recorded by Keith and Kristyn Getty. The singer's weakness is admitted and Christ's love and hold are the ground: the saved are his delight, bought at cost, justice satisfied, raised with Christ and kept until he comes. No concern was found; the Spirit and church are not named. Copyrighted Merker/Getty setting.",
     "themes": [
       "Assurance",
       "Christ",
@@ -173,7 +174,7 @@
       "Grace",
       "Faith",
       "Hope",
-      "Scripture"
+      "Resurrection"
     ],
     "scriptureReferences": [
       {
@@ -181,12 +182,12 @@
         "relevance": "Christ's sheep held in his hand - the security of the refrain."
       },
       {
-        "reference": "Romans 8:16",
-        "relevance": "The Spirit's witness to our adoption - the second stanza's comfort."
+        "reference": "Romans 3:25-26",
+        "relevance": "Justice satisfied in Christ's blood - the third stanza."
       },
       {
-        "reference": "Romans 5:8",
-        "relevance": "God's love shown in Christ's death - the third stanza."
+        "reference": "Colossians 3:1-4",
+        "relevance": "Raised with Christ and appearing with him in glory."
       },
       {
         "reference": "Philippians 1:6",
@@ -211,6 +212,15 @@
       "sourceType": "PUBLICATION",
       "credibilityTier": "TIER_2",
       "establishes": "Seen in search summary only (page refused fetch): Habershon's text, Merker's revised stanzas and new tune, and the Getty Music copyright line.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.google.com/search?q=He+Will+Hold+Me+Fast+Getty+Merker+Habershon+lyrics",
+      "title": "Genius lyrics page opened from Google results",
+      "publisher": "Genius",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
       "assessesContent": false
     }
   ]

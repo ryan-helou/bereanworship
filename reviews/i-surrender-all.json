@@ -17,35 +17,42 @@
     "lyricsAvailable": true,
     "perspective": "INDIVIDUAL_I",
     "gospelClarity": "IMPLICIT",
-    "structuralNotes": "Several short stanzas, each followed by the same refrain of full surrender. The stanzas run through the singer's commitments: to submit humbly to Jesus and trust him, to give up worldly pleasure and put him first, to be wholly his, to yield everything to his love, and to ask for the Holy Spirit's power and for being made whole in him. The voice is first person singular throughout and the subject is the singer's consecration. Christ and the Holy Spirit are named, and the song assumes that Christ is worthy of such devotion and has a claim on the singer, but it does not narrate the cross or resurrection; the gospel is the unspoken ground rather than the stated content.",
+    "structuralNotes": "Five stanzas, each followed by the same refrain of full surrender. Stanza 1 gives all to Jesus in love and trust. Stanza 2 bows humbly, forsakes worldly pleasure and asks Jesus to take the singer now. Stanza 3 asks to be made wholly his, to feel the Holy Spirit and to know that he belongs to Christ. Stanza 4 gives the self and asks to be filled with God's love and power and blessing. Stanza 5 reports a felt flame, the joy of full salvation and glory to his name. The voice is first person singular throughout and the subject is the singer's own consecration and experience. Christ and the Spirit are named; the cross and resurrection are never narrated, so the gospel is the unspoken ground.",
     "claims": [
       {
-        "claim": "The believer is to yield himself wholly and humbly to Jesus.",
+        "claim": "The singer gives everything to Jesus freely and resolves to love and trust him and live in his presence daily.",
         "subject": "Consecration",
         "location": "VERSE_1",
         "lyricExcerpt": null
       },
       {
-        "claim": "Jesus is to be put above worldly pleasure and the singer's own way.",
+        "claim": "The singer bows humbly, forsakes worldly pleasure and asks Jesus to take him now.",
         "subject": "Devotion to Christ",
         "location": "VERSE_2",
         "lyricExcerpt": null
       },
       {
-        "claim": "The singer gives everything to Christ's love, trusting his care.",
-        "subject": "Trust and dedication",
+        "claim": "The singer asks to be made wholly Christ's, to feel the Holy Spirit and to know that he belongs to Christ.",
+        "subject": "The Spirit and assurance",
         "location": "VERSE_3",
         "lyricExcerpt": null
       },
       {
-        "claim": "The Holy Spirit is asked for power and for the singer to be made whole.",
-        "subject": "The Spirit and sanctification",
+        "claim": "The singer gives himself and asks to be filled with God's love and power and to receive his blessing.",
+        "subject": "Dedication and filling",
         "location": "VERSE_4",
         "lyricExcerpt": null
       },
       {
-        "claim": "The singer asks to be made fully his, with the Spirit's power in life and witness.",
-        "subject": "Sanctification",
+        "claim": "The singer reports a felt fire, the joy of full salvation, and gives glory to Christ's name.",
+        "subject": "Joy in salvation",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null,
+        "locationDetail": "the final stanza"
+      },
+      {
+        "claim": "Each stanza ends by repeating total surrender to the Savior.",
+        "subject": "Total surrender",
         "location": "REFRAIN",
         "lyricExcerpt": null
       }
@@ -58,7 +65,7 @@
     "godDirected": true,
     "groundsItsClaims": false,
     "corporateVoice": false,
-    "engagesScripture": true
+    "engagesScripture": false
   },
   "theological": {
     "strengths": [
@@ -73,21 +80,31 @@
       },
       {
         "category": "The Spirit",
-        "title": "Dependence on the Spirit for the surrendered life",
-        "explanation": "One stanza asks the Holy Spirit for power, so the singer does not rest the life of surrender on resolve alone. That qualifies the song's own centre of gravity.",
-        "songLocation": "VERSE_4",
+        "title": "Dependence on God for the surrendered life",
+        "explanation": "The singer asks to know the Holy Spirit's presence and to be filled with God's love and power, so surrender is not left to resolve alone. That qualifies the song's own centre of gravity.",
+        "songLocation": "VERSE_3",
         "magnitude": "MINOR",
         "scriptureReference": "Galatians 5:16-25",
-        "scriptureRationale": "Walking by the Spirit rather than the flesh - the dependence the stanza voices."
+        "scriptureRationale": "Walking by the Spirit rather than the flesh - the dependence the stanzas voice."
+      },
+      {
+        "category": "Salvation",
+        "title": "Joy in being saved",
+        "explanation": "The closing stanza ends in joy and glory given to Christ's name, which turns the surrender toward praise rather than strain.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR",
+        "scriptureReference": "Psalm 51:12",
+        "scriptureRationale": "Joy of salvation restored - the gladness the last stanza voices."
       }
     ],
     "concerns": [],
     "doctrinesAffirmed": [
       "Lordship of Christ over the whole life",
-      "Consecration as the believer's response to grace",
-      "Dependence on the Holy Spirit"
+      "Consecration as the believer's response",
+      "Dependence on the Holy Spirit",
+      "Belonging to Christ"
     ],
-    "assessment": "No false statement. The hymn is a testimonial prayer of consecration and says nothing the Bible's call to total allegiance does not say. Its weakness is one of omission, recorded in the substance answers: it names no act of God, so the reason for surrender (the cross) is assumed rather than sung, and the singer's resolve is its subject. Taken alone it could be heard as a self-dedication without a gospel; sung with a song of the cross it is sound."
+    "assessment": "No false statement. The hymn is a testimonial prayer of consecration. It names no act of God, so the reason for surrender (the cross) is assumed, and the singer's resolve and felt experience are its subject. The words 'full salvation' and feeling a flame come from the holiness tradition; read plainly they voice joy in Christ, so they are noted here, not counted as error. Sung beside a song of the cross it is sound."
   },
   "communal": {
     "strengths": [
@@ -122,7 +139,7 @@
     "repetition": "PURPOSEFUL",
     "repetitionAssessment": "A fixed refrain returns after each stanza and gathers the stanza's particular surrender into one confession.",
     "performanceOrientation": "CONGREGATIONAL",
-    "assessment": "Strophic, congregational and easy to sing. It suits a response or consecration moment after the gospel has been preached or sung; its singular voice fits a prayer of commitment, though a room should not be asked to feel what the words do not give it ground to feel."
+    "assessment": "Strophic, congregational and easy to sing. The singular voice fits a prayer of commitment, but each singer confesses his own resolve and feeling, so the room speaks personal testimony, not a shared creed. It suits a response moment after the gospel has been preached or sung."
   },
   "clarity": {
     "strengths": [
@@ -136,10 +153,10 @@
     ],
     "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Clear in what it asks. It does not say why Christ is worthy of surrender; a hearer unfamiliar with the gospel would not learn it from this song."
+    "assessment": "Clear in what it asks. It does not say why Christ is worthy of surrender or what he did; a hearer unfamiliar with the gospel would not learn it here. The felt-flame language is the one place a newcomer may be unsure what is meant."
   },
   "synthesis": {
-    "summary": "A 1896 gospel hymn of personal consecration: the singer yields everything to Jesus, puts him first, and asks the Holy Spirit's power. It makes no false statement and its voice is a testimonial prayer. It names no act of God, so the cross that grounds surrender is assumed, not sung.",
+    "summary": "A 1896 gospel hymn of personal consecration over five stanzas: the singer yields all to Jesus, forsakes the world, asks to know the Spirit and be filled with love and power, and ends in the joy of full salvation. The voice is the singer's own resolve and experience, not a credal confession. No false statement was found. It names no act of God, so the cross is assumed, not sung.",
     "themes": [
       "Holiness",
       "Faith",
@@ -178,6 +195,15 @@
       "sourceType": "OTHER",
       "credibilityTier": "TIER_3",
       "establishes": "Confirms authors, 1896 publication in Gospel Songs of Grace and Glory, and its popularising by Billy Graham.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.google.com/search?q=I+Surrender+All+Van+DeVenter+Weeden+hymn+lyrics",
+      "title": "Google lyrics results for I Surrender All",
+      "publisher": "Google Search",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
       "assessesContent": false
     }
   ]
