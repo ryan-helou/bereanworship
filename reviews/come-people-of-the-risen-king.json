@@ -1,0 +1,224 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Come, People of the Risen King",
+    "artist": "Keith & Kristyn Getty",
+    "artistType": "GROUP",
+    "album": "Awaken the Dawn",
+    "releaseYear": 2007,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Written by Keith Getty, Kristyn Getty and Stuart Townend; WorshipTogether lists ThankYou Music and CCLI 5232617, original key G, and catalogue summaries give a 2007 Thankyou Music copyright (administered by Capitol Christian Music Publishing). No sources found credit any further writer. The list's artist guess is right for the recording churches know, though Townend co-wrote it. Reviewed as the song, not any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "CORPORATE_WE",
+    "structuralNotes": "Three verses, each followed by a refrain that closes the song twice. The verses speak about God in the third person and call the gathered church to come and sing; the refrain is a summons to rejoice. Christ is named as the risen King and Morning Star, mercy is said to gather God's children in, and God's love is said not to change nor his mercies to cease. The second verse takes in the whole range of believers' experience, joy and weeping, victory and struggle, and anchors it in that unchanging love. The third looks to the church's testimony in every land and age and to God being all in all. The voice is plural and confessional. The cross and the Spirit are not named.",
+    "claims": [
+      {
+        "claim": "The church is summoned to gather and sing together as the people of the risen King.",
+        "subject": "The gathered church",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is the risen King and the Morning Star of grace.",
+        "subject": "The resurrection and kingship of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's mercy gathers his children in, whatever they bring.",
+        "subject": "Grace to all who come",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's love does not change and his mercies do not end through every season of joy and sorrow.",
+        "subject": "God's faithfulness",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The hope of peace rests on God through all our days.",
+        "subject": "Hope and peace",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The church in every land and generation testifies that God will be all in all.",
+        "subject": "The church's witness and final consummation",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The people are called to rejoice in God with one heart and voice.",
+        "subject": "Unified worship",
+        "location": "REFRAIN",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "God's character",
+        "title": "Unchanging love and unfailing mercies",
+        "explanation": "The song grounds a congregation's whole experience, joy and weeping, victory and struggle, in a love that does not change. Hope rests on God's character, not the singer's circumstances.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Lamentations 3:22-23",
+        "scriptureRationale": "Steadfast love and mercies that never cease - the ground of the second verse."
+      },
+      {
+        "category": "Resurrection",
+        "title": "The risen King and Morning Star",
+        "explanation": "Christ is named as risen and as the Morning Star of grace, so the call to sing rests on his resurrection and reign.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 22:16",
+        "scriptureRationale": "Jesus as the bright Morning Star - the title the first verse gives him."
+      },
+      {
+        "category": "The church",
+        "title": "One people, every land",
+        "explanation": "The song teaches that the church is one people across nations and ages, and it looks ahead to God being all in all.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Corinthians 15:28",
+        "scriptureRationale": "God all in all - the end toward which the third verse looks."
+      },
+      {
+        "category": "Grace",
+        "title": "Mercy that gathers all who come",
+        "explanation": "Whether hands are full or empty, mercy gathers God's children in. The invitation is to grace, not to merit.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The resurrection and kingship of Christ",
+      "God's unchanging love and mercy",
+      "Grace for all who come",
+      "The unity of the church across time and place",
+      "God all in all at the end"
+    ],
+    "assessment": "Nothing to correct. The song is sound and speaks in the church's voice, resting on God's unchanging mercy and the risen Christ. It is thin on the gospel itself: the cross, sin and the Spirit are not reached, so it supports a service of gathering and praise rather than carrying the gospel's account alone."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A gathering hymn in congregational form",
+        "explanation": "Three verses with a returning refrain, in the style of a new hymn written for the whole church to sing, make it easy to learn and to lead.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Natural call to worship",
+        "explanation": "Its opening summons to come and sing, in the plural voice, suits the start of a service or a gathering of several churches.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "WorshipTogether lists G as the original key at a medium tempo (114 BPM). Check the refrain against your own congregation before settling the key.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "G (original per WorshipTogether)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The refrain returns after each verse and twice at the end, and each return follows new verse content, so it works as a gathering response rather than filler.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Written in congregational form: plural voice, a refrain everyone can hold, no solo-driven build. Easy for a room to learn and well suited to opening a service."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ named as risen King",
+        "explanation": "The title and first verse make plain whom the church is gathering around.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear and plain. The Morning Star and all-in-all phrases are biblical and easily explained; nothing is open to a wrong reading."
+  },
+  "synthesis": {
+    "summary": "A modern gathering hymn calling the church to sing around the risen King, grounding hope in God's unchanging love and mercies and looking to the day God is all in all. It is sound and congregational. The cross, sin and the Spirit are not named, so the gospel is implied rather than told.",
+    "themes": [
+      "Resurrection",
+      "Worship",
+      "Church",
+      "Hope",
+      "Grace",
+      "Christ"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Revelation 22:16",
+        "relevance": "Jesus as the bright Morning Star."
+      },
+      {
+        "reference": "Lamentations 3:22-23",
+        "relevance": "Mercies that never cease, new every morning."
+      },
+      {
+        "reference": "Psalm 30:5",
+        "relevance": "Weeping for the night, joy in the morning."
+      },
+      {
+        "reference": "1 Corinthians 15:28",
+        "relevance": "God all in all at the end."
+      },
+      {
+        "reference": "Romans 15:6",
+        "relevance": "One heart and voice glorifying God."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.worshiptogether.com/songs/come-people-of-the-risen-king-keith-and-kristyn-getty/?nav=1",
+      "title": "Come, People Of The Risen King",
+      "publisher": "WorshipTogether",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writers Keith Getty, Kristyn Getty and Stuart Townend; ThankYou Music; CCLI 5232617; original key G; tempo 114 BPM.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com/Keith-and-kristyn-getty-come-people-of-the-risen-king-live-lyrics"
+    }
+  ]
+}

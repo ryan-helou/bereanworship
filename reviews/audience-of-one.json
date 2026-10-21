@@ -1,0 +1,182 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "MEDIUM",
+    "title": "Audience of One",
+    "artist": "Big Daddy Weave",
+    "artistType": "GROUP",
+    "album": "One and Only",
+    "releaseYear": 2002,
+    "genre": "Contemporary Christian",
+    "isPublicDomain": false,
+    "notes": "Written by Mike Weaver, lead vocalist of Big Daddy Weave; track six on the band's second album One and Only, released 30 July 2002 on Fervent Records, where it was a radio single. The list's artist is right. Publisher and CCLI number were not found in the pages loaded, so they are not stated. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "An opening stanza, a short bridge-like stanza, a main chorus returning three times with the last extended, a middle stanza confessing the singer has nothing great to offer, a short tag, and one stanza restated in plural form. God is addressed throughout. One line names him as Father and Son and mentions the Spirit flowing, so the Trinity is touched in passing. The content is mostly the singer's coming, longing and wish to live for God. God is said to be worthy of devotion and to receive the worshipper as he is. A petition for his kingdom and will echoes the Lord's Prayer. No act of God is named: no incarnation, cross, resurrection or return.",
+    "claims": [
+      {
+        "claim": "God is worthy of the singer's whole devotion.",
+        "subject": "God's worthiness",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God receives the worshipper as he is, offering nothing great.",
+        "subject": "Grace to the unworthy",
+        "location": "VERSE_2",
+        "lyricExcerpt": null,
+        "locationDetail": "the middle stanza"
+      },
+      {
+        "claim": "The singer asks that God's kingdom and will come, echoing the Lord's Prayer.",
+        "subject": "The kingdom and God's will",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is addressed as Father and Son, with the Spirit flowing.",
+        "subject": "The Trinity",
+        "location": "VERSE_1",
+        "lyricExcerpt": null,
+        "locationDetail": "touched in one line"
+      },
+      {
+        "claim": "The singer resolves to live for God alone.",
+        "subject": "Devotion and consecration",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": false,
+    "godDirected": true,
+    "groundsItsClaims": false,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Worship",
+        "title": "Worship offered to God alone",
+        "explanation": "The song is a sustained address to God in which the singer's devotion is pointed at him and not at an audience of people. That aim is right, and the song holds it throughout.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 12:1",
+        "scriptureRationale": "Offering oneself to God as worship - the motif the song loosely follows."
+      },
+      {
+        "category": "Grace",
+        "title": "Acceptance without merit",
+        "explanation": "The singer confesses he has nothing great to bring and is received as he is. This is acceptable grace language, though the song does not say on what ground God receives him.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MINOR",
+        "scriptureReference": "Matthew 6:10",
+        "scriptureRationale": "The petition for God's kingdom and will, echoed in the closing stanzas."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God is worthy of exclusive devotion",
+      "God receives the unworthy",
+      "The Trinity named in passing"
+    ],
+    "assessment": "Nothing false. The song is sincere and God-addressed, but it is about the singer's devotion rather than about what God has done: no act of God is named and the gospel is absent. That is an absence recorded in the substance answers, not an error. The Father, Son and Spirit line is brief."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A conventional, learnable shape",
+        "explanation": "The repeated chorus and plain structure are easy for a room to pick up on a first hearing.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "A song of personal consecration",
+        "explanation": "It suits a moment of commitment or response after teaching, where the congregation gives itself to God.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published keys were not checked. Test the extended final chorus with the room before choosing a key.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not checked",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The chorus returns three times and the last is extended. The verses differ, so the repetition is not doing all the work, but it carries much of the song's content.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Congregational in form and easy to sing, in the common contemporary band style. The first-person devotion invites a quiet, personal response more than corporate confession, and the repeated chorus means the room dwells on the singer's commitment."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "God addressed directly",
+        "explanation": "The song speaks to God throughout and names the Father and the Son in one line, so the addressee is clear.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Plain and clear. Nothing is open to a wrong reading, though the song does not say who God is or what he has done, so a visitor learns about the singer's heart more than about the gospel."
+  },
+  "synthesis": {
+    "summary": "A sincere, God-addressed song of personal devotion written by Mike Weaver for Big Daddy Weave's 2002 album. It affirms God's worthiness and his acceptance of the unworthy, and echoes the Lord's Prayer. No act of God is named and the gospel is absent; the voice is the singer's own resolve. Nothing in it is wrong.",
+    "themes": [
+      "Worship",
+      "Grace",
+      "Faith",
+      "Prayer"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Matthew 6:10",
+        "relevance": "The petition for God's kingdom and will, echoed in the song."
+      },
+      {
+        "reference": "Romans 12:1",
+        "relevance": "The offering of oneself to God as worship, loosely followed."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/One_and_Only_(Big_Daddy_Weave_album)",
+      "title": "One and Only (Big Daddy Weave album)",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Track credited to Mike Weaver; album released 30 July 2002 on Fervent Records. No discussion of what the song teaches.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com"
+    }
+  ]
+}

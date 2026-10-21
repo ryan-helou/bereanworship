@@ -1,0 +1,200 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Everlasting God",
+    "artist": "Lincoln Brewster",
+    "artistType": "INDIVIDUAL",
+    "album": "Let the Praises Ring",
+    "releaseYear": 2005,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Brenton Brown and Ken Riley; copyright 2005 Thankyou Music, administered by Capitol Christian Music Publishing; Integrity Music listed as publisher; CCLI 4556538. Brown wrote and first recorded it; Lincoln Brewster's version is on Let the Praises Ring, and other artists have recorded it. Original key B per PraiseCharts. The lyric page read showed one verse, a pre-chorus and a chorus, each listed once; it appears whole, but a second verse or bridge was not confirmed. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "As listed: one verse, a pre-chorus and a chorus, cycled. The verse is the congregation exhorting itself to wait upon the Lord. The pre-chorus declares that God reigns forever and is our hope and strong deliverer. The chorus addresses God directly as the everlasting one who does not faint or grow tired, defends the weak, comforts those in need and raises his people up like eagles. The song is built on Isaiah 40. Acts of God are sustaining and delivering; the incarnation, cross, resurrection and return are not reached, and neither Christ nor the Spirit is named. A second verse or bridge in some arrangements was not confirmed.",
+    "claims": [
+      {
+        "claim": "The congregation is to wait upon the Lord.",
+        "subject": "Waiting on God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God reigns forever and is his people's hope and strong deliverer.",
+        "subject": "God's sovereign reign",
+        "location": "PRE_CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is everlasting and never grows faint or weary.",
+        "subject": "God's eternity and strength",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God defends the weak and comforts those in need.",
+        "subject": "God's care for the weak",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God renews those who trust him, raising them up like eagles.",
+        "subject": "Renewal of strength",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "God",
+        "title": "A faithful setting of Isaiah 40",
+        "explanation": "The chorus carries Isaiah's confession of the everlasting Creator who never tires, and what he does for the weary, so the congregation sings God's character as Scripture states it.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 40:28-31",
+        "scriptureRationale": "The everlasting God who does not faint and renews the strength of those who wait."
+      },
+      {
+        "category": "God",
+        "title": "God's reign and deliverance affirmed",
+        "explanation": "The pre-chorus grounds hope in God's own reign and power to deliver rather than in the singer's resolve.",
+        "songLocation": "PRE_CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Exodus 15:18",
+        "scriptureRationale": "The Lord reigns forever."
+      },
+      {
+        "category": "Prayer",
+        "title": "A summons to wait on the Lord",
+        "explanation": "The verse turns the congregation toward patient trust, which suits seasons of weariness.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MINOR",
+        "scriptureReference": "Psalm 27:14",
+        "scriptureRationale": "Wait for the Lord; be strong and take heart."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God's eternity",
+      "God's sovereign reign",
+      "God as deliverer and defender of the weak",
+      "Renewal of those who wait on him"
+    ],
+    "assessment": "Nothing to correct. The song is a close setting of Isaiah 40 and says true things about God's character. It does not mention Christ or the Spirit or any gospel act; that is an absence, recorded in the substance answers and the clarity section, not an error."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Short, simple and quickly learned",
+        "explanation": "With so little text and a repeating cycle, a congregation learns it in one pass.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Suited to weariness and waiting",
+        "explanation": "Its content fits seasons of fatigue and trial.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Original key B per PraiseCharts (Brewster recording). Test the chorus with the room and lower if needed.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "B (original per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns each cycle, restating God's character, so repetition serves the content, though the song is short and the cycle is heard often.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational and easy. The Brewster recording is a rock arrangement, but the song itself is short and plain. Pair with a song that tells Christ's work if used as the main gospel-bearing item."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Scripture",
+        "title": "Isaiah 40 made singable",
+        "explanation": "The text is plain and traceable to its passage.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear about who God is and what he does for the weary. It does not name Christ, so the gospel is absent and the song needs to sit among others that supply it."
+  },
+  "synthesis": {
+    "summary": "A short song built on Isaiah 40: wait on the Lord, who reigns forever, is hope and deliverer, never tires, defends the weak, and raises his people like eagles. No concern found. Christ, the Spirit and the gospel are not reached. A second verse or bridge was not confirmed.",
+    "themes": [
+      "God",
+      "Sovereignty",
+      "Faith",
+      "Hope",
+      "Prayer",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Isaiah 40:28-31",
+        "relevance": "The everlasting God, no weariness, wings like eagles - the chorus."
+      },
+      {
+        "reference": "Psalm 27:14",
+        "relevance": "Wait on the Lord - the verse."
+      },
+      {
+        "reference": "Exodus 15:18",
+        "relevance": "The Lord reigns forever - the pre-chorus."
+      },
+      {
+        "reference": "1 Timothy 1:1",
+        "relevance": "God our hope."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/2737/everlasting-god",
+      "title": "Everlasting God - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Brenton Brown and Ken Riley, 2005 Thankyou Music line, Integrity Music, CCLI 4556538, key B, Lincoln Brewster on Let the Praises Ring.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Integrity Music",
+      "url": "https://integrityworship.com/songs/everlasting-god-brenton-brown/"
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Days of Elijah",
+    "artist": "Robin Mark",
+    "artistType": "INDIVIDUAL",
+    "album": "Days of Elijah",
+    "releaseYear": 1996,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Robin Mark alone; copyright 1996 Song Solutions Daybreak, administered by Music Services, Inc., and published through Integrity Music; CCLI 1537904; original key Bb per PraiseCharts. Publisher names differ between catalogues (Daybreak Music and Integrity's Hosanna! Music appear elsewhere), so the CCLI record is the stable identifier. Wikipedia places the song's popularity from 1996 and calls it Mark's signature song. The list's artist is right. Reviewed as the song, not as any one recording; the text was read from the Revival in Belfast version.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Two verses, a chorus after each, a bridge built on one short declaration repeated many times, then the chorus several more times and a brief outro from it. The chorus dominates. The chorus confesses that Christ will come in glory on the clouds, shining like the sun, at the sounding of the trumpet, and speaks of salvation going out from Zion. The verses describe the present day through Old Testament figures and tasks: prophets and leaders as pictures of what God is doing now, trial and famine acknowledged, the church as a voice in the wilderness and as laborers in the harvest, dry bones revived, righteousness restored. The second verse turns to God in prayer as his servants. The bridge declares that there is no God like the Lord. The cross and resurrection are not named, Christ is referred to by a pronoun only, and the Spirit is not named.",
+    "claims": [
+      {
+        "claim": "The church lives in a day when God is doing again what he did through his prophets and leaders of old.",
+        "subject": "Continuity of God's work",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Trial, famine and the sword are real, and are acknowledged rather than denied.",
+        "subject": "Suffering",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The church is called to cry out as a voice in the wilderness and to work as laborers in God's harvest.",
+        "subject": "Mission of the church",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God revives the dry and lifeless and restores what was fallen, so that righteousness is set up again.",
+        "subject": "Revival and restoration",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ will come on the clouds in glory, shining like the sun, at the sound of the trumpet.",
+        "subject": "The second coming",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Salvation will go out from Zion.",
+        "subject": "Salvation and the nations",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "There is no God like the Lord.",
+        "subject": "The incomparability of God",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Eschatology",
+        "title": "The return of Christ stated plainly",
+        "explanation": "The chorus is a confession that Christ will come in glory on the clouds at the trumpet. It is the song's central claim, repeated more than any other, and it gives the congregation a hope fixed on an event rather than on a mood.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Revelation 1:7",
+        "scriptureRationale": "He is coming with the clouds and every eye will see him - the event the chorus confesses."
+      },
+      {
+        "category": "God",
+        "title": "The incomparable Lord",
+        "explanation": "The bridge declares that there is no God like the Lord and repeats it. It sets everything before it, the prophets and the revival, under the one God who alone is worth that praise.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Exodus 15:11",
+        "scriptureRationale": "Who is like you among the gods - the confession the bridge repeats."
+      },
+      {
+        "category": "Scripture",
+        "title": "Built from prophetic and apostolic texts",
+        "explanation": "The song gathers Moses, Ezekiel's dry bones, David's restored tent, the harvest and the voice in the wilderness. A congregation singing it rehearses a good deal of the Bible's storyline of restoration and mission.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Ezekiel 37:1-14",
+        "scriptureRationale": "The dry bones brought to life by the word and breath of God - one of the pictures the verses use."
+      },
+      {
+        "category": "Suffering",
+        "title": "Hardship named honestly",
+        "explanation": "Trial, famine and the sword are acknowledged as part of the present day. The hope of the chorus is therefore set against real hardship, not a mood of triumph.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MINOR",
+        "scriptureReference": "Romans 8:35-37",
+        "scriptureRationale": "Tribulation, famine and sword met by the love of Christ - the same list the verse names."
+      },
+      {
+        "category": "Mission",
+        "title": "The church sent to the harvest",
+        "explanation": "The second verse gives the church a task: to cry out and to labor in the harvest. The song ties revival to witness rather than to the singer's own experience.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MINOR",
+        "scriptureReference": "Matthew 9:37-38",
+        "scriptureRationale": "The harvest is plentiful and the laborers few - the image the verse takes up."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The visible, glorious return of Christ",
+      "The incomparability of the Lord",
+      "God's restoration and revival of his people",
+      "The church's calling to witness and harvest",
+      "Salvation going out to the nations"
+    ],
+    "assessment": "Nothing in it is false. The song applies Old Testament figures and promises to the present church in an end-time revival idiom, and never says that Christ is their fulfilment. That is a loose reading some would question, but it is a position faithful Christians hold and the song asserts nothing contrary to Scripture. The gap is one of absence: the cross, the resurrection and the Spirit are not reached, and Christ is not named."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Use",
+        "title": "A chorus the whole room can own",
+        "explanation": "The chorus is a short confession in the plural voice, and a congregation learns it on the first pass. It suits services that turn toward the return of Christ or toward mission.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Cyclic and easy to extend",
+        "explanation": "The cyclic shape lets a leader hold the room on the chorus or the bridge for as long as the moment needs, at the price of length.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published original key is Bb per PraiseCharts. No chart was read, so no pitches are stated; check the chorus against the room before choosing a key.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Bb (original per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The bridge is one declaration said many times and the chorus returns four times at the end. The repetition carries the music more than the content, though it repeats a confession of Christ's return.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form and voice. The risk is length and cycle: the closing sections repeat the same material many times, so a leader should decide in advance where it ends. The plural voice and short, strong chorus make it easy to sing."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "The coming of Christ is unmistakable",
+        "explanation": "Whatever the verses leave open, the chorus says plainly that Christ will return in glory. The congregation knows what it is confessing.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "MODERATE",
+    "assessment": "The chorus is clear. The verses are made of Old Testament figures and tasks applied to today, and a visitor may not know who Elijah, Ezekiel or the vineyard laborers are, or how they apply to the church. The song never names Christ or the cross, so the gospel is assumed rather than stated."
+  },
+  "synthesis": {
+    "summary": "A revival anthem whose chorus confesses the return of Christ in glory, over verses that apply Old Testament prophets and tasks to the present church. It admits hardship and calls the church to witness. Nothing in it is false. The cross, resurrection, Spirit and Christ by name are absent. No independent assessment was found.",
+    "themes": [
+      "God",
+      "Hope",
+      "Mission",
+      "Church",
+      "Suffering",
+      "Sovereignty"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Revelation 1:7",
+        "relevance": "He comes with the clouds - the chorus's central confession."
+      },
+      {
+        "reference": "1 Thessalonians 4:16",
+        "relevance": "The trumpet and the Lord's descent - the return the chorus describes."
+      },
+      {
+        "reference": "Ezekiel 37:1-14",
+        "relevance": "Dry bones revived - a picture the verses use of present revival."
+      },
+      {
+        "reference": "Amos 9:11",
+        "relevance": "David's fallen tent restored - cited in Acts 15 of the church."
+      },
+      {
+        "reference": "Matthew 9:37-38",
+        "relevance": "The plentiful harvest and the laborers - the second verse's mission image."
+      },
+      {
+        "reference": "Isaiah 40:3",
+        "relevance": "A voice crying in the wilderness - the church's calling in the verse."
+      },
+      {
+        "reference": "Exodus 15:11",
+        "relevance": "No one like the Lord among the gods - the bridge's declaration."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/1528/days-of-elijah-sheet-music",
+      "title": "Days of Elijah - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writer Robin Mark, CCLI 1537904, 1996 copyright line, Integrity Music as publisher, original key Bb.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Robin_Mark",
+      "title": "Robin Mark",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Calls the song Mark's signature song, popular since 1996; says nothing about what it teaches.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com/Robin-mark-days-of-elijah-lyrics"
+    }
+  ]
+}

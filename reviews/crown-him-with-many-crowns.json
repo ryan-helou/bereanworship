@@ -1,0 +1,232 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Crown Him with Many Crowns",
+    "artist": "Matthew Bridges and Godfrey Thring",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1851,
+    "genre": "Hymn",
+    "isPublicDomain": true,
+    "notes": "Matthew Bridges first published the hymn in 1851 in Hymns of the Heart; Godfrey Thring revised it in 1871 and wrote a new version in 1874, and most hymnals print a composite of both. The tune DIADEMATA is by George J. Elvey (1868). The text rests on Revelation 19:12. This review covers the four-stanza Hymnary form, a shortened version; longer hymnals carry further stanzas. Public domain. Not a modern adaptation.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Four eight-line stanzas, no refrain, each opening with a call to crown Christ under a different title: Lamb on the throne, Lord of life, Lord of love, Lord of years. The singer's soul and the church are exhorted to crown him; the last stanza turns to address Christ directly. The hymn confesses Christ's death for sinners, his victorious rising, the death of death by his death, his wounds still visible in glory, the angels' wonder, and his lordship over time as creator of the spheres. The voice is confessional, with personal 'for me' language stating what he did, not the singer's feelings. The Spirit is not mentioned in this form.",
+    "claims": [
+      {
+        "claim": "The Lamb is enthroned in heaven and worthy of the crowns of his people.",
+        "subject": "The enthroned Lamb",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ died for us, and by his death put death to death.",
+        "subject": "Atonement and the defeat of death",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "He rose victorious over the grave for those he came to save.",
+        "subject": "The resurrection",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "His wounds remain visible in glory, so the cross is permanent in his identity.",
+        "subject": "The cross in glory",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "He is Lord of love and Redeemer, and the angels marvel at him.",
+        "subject": "Redemption",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "He is Lord of time and creator of the spheres.",
+        "subject": "Christ's deity and creation",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer personally owns what he did for us and for me.",
+        "subject": "Personal confession",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "Death put to death by his death",
+        "explanation": "The cross is stated as the means of victory: Christ died for sinners, and his death destroys death. The hymn confesses what he did rather than how the singer feels.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Hebrews 2:14",
+        "scriptureRationale": "Through death he destroyed the one who has the power of death - the claim of the verse."
+      },
+      {
+        "category": "Resurrection",
+        "title": "Risen victorious for those he came to save",
+        "explanation": "The resurrection is a victory won on behalf of those he came to save, not a bare event.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Corinthians 15:54-57",
+        "scriptureRationale": "Death swallowed up in victory through Christ - the ground of the verse."
+      },
+      {
+        "category": "Christ's person",
+        "title": "Lord of years and creator",
+        "explanation": "Christ is confessed as Lord of time and maker of the spheres, a clear statement of his deity.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Colossians 1:16-17",
+        "scriptureRationale": "All things created through and for him - what the stanza confesses."
+      },
+      {
+        "category": "Christ's work",
+        "title": "Wounds still seen in glory",
+        "explanation": "The enthroned Lamb still bears his wounds, so the cross is not left behind at the ascension.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 5:6",
+        "scriptureRationale": "A Lamb standing as though slain - the image the stanza uses."
+      },
+      {
+        "category": "Worship",
+        "title": "Many crowns, one King",
+        "explanation": "The whole hymn is built on Revelation 19:12 and leads the congregation to give Christ the honour due the reigning Lamb.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 19:12",
+        "scriptureRationale": "On his head many diadems - the image the title takes."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The enthronement of the Lamb",
+      "Atonement through Christ's death",
+      "Victory over death in his resurrection",
+      "The deity of Christ and his work in creation",
+      "Christ's lordship over time",
+      "Redemption"
+    ],
+    "assessment": "Nothing to correct. Hymnology Archive reads the hymn as presenting Christ as a conquering king, affirming his divinity, linking love to sacrificial death, and closing in the fuller text with the Trinity. Of the four stanzas covered here, the cross, resurrection and creation are explicit; the Spirit appears only in longer forms. Bridges later became Catholic and Thring revised some stanzas to remove those others objected to, but the composite carries no doctrine in need of correction."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A tune built for the hymn",
+        "explanation": "DIADEMATA was composed for these words and has long carried them in congregations of many traditions, and its stately shape suits a full-voiced room.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Use",
+        "title": "Fitting for Easter, Ascension and Christ the King",
+        "explanation": "The content places the hymn naturally at Easter, Ascension and Christ the King, and as a closing hymn of praise.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Key varies by hymnal and no chart was read for this review. Sing it in a key that leaves the final lines of each stanza comfortable for the room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Varies by hymnal",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "NONE",
+    "repetitionAssessment": "Four unique stanzas with no refrain; each stanza adds a new title and a new truth.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "A congregational hymn in the plainest sense: unaccompanied-friendly, no refrain, a tune known across traditions. Older idiom and eight-line stanzas make it longer to sing than a chorus song, but nothing in it asks for performance."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Each stanza names a title of Christ",
+        "explanation": "Each stanza opens with a call to crown him as Lamb, Lord of life, Lord of love, Lord of years, so a room always knows which truth it is on.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear, though the idiom is older and the crown imagery from Revelation needs a word of teaching for newcomers. Nothing is open to a wrong reading."
+  },
+  "synthesis": {
+    "summary": "A hymn calling the church to crown Christ under four titles. In the four stanzas reviewed it confesses his death, resurrection, wounds in glory, deity and lordship over time and creation. The Spirit is not reached in this form. It is drawn from Revelation 19:12, a composite of Bridges and Thring, and in the public domain.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Resurrection",
+      "Worship",
+      "Heaven",
+      "Creation",
+      "Sovereignty"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Revelation 19:12",
+        "relevance": "Many crowns on the head of the conquering Christ - the hymn's governing image."
+      },
+      {
+        "reference": "Revelation 5:6",
+        "relevance": "The Lamb enthroned, bearing the marks of slaughter."
+      },
+      {
+        "reference": "Hebrews 2:14",
+        "relevance": "Christ destroying the power of death through death."
+      },
+      {
+        "reference": "1 Corinthians 15:54-57",
+        "relevance": "Death swallowed up in victory."
+      },
+      {
+        "reference": "John 20:27",
+        "relevance": "The risen Lord's wounds seen and touched."
+      },
+      {
+        "reference": "Colossians 1:16-17",
+        "relevance": "Christ as creator and sustainer."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://hymnologyarchive.com/crown-him-with-many-crowns",
+      "title": "Crown him with many crowns",
+      "publisher": "Hymnology Archive",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "Bridges 1851, Thring 1871 and 1874 revisions, Elvey's tune 1868; reads the hymn as presenting Christ as conquering king, divine, sacrificed, with trinitarian close.",
+      "assessesContent": true
+    }
+  ]
+}

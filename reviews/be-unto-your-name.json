@@ -1,0 +1,215 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Be Unto Your Name",
+    "artist": "Robin Mark",
+    "artistType": "INDIVIDUAL",
+    "album": "iWorship: DVD E (Robin Mark recording)",
+    "releaseYear": 1998,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Lynn DeShazo and Gary Sadler; copyright 1998 Integrity's Hosanna! Music, Integrity Music; CCLI 2177476 per the PraiseCharts catalogue record. The list's Robin Mark is the recording many churches know (a Celtic-style arrangement), but he is not a writer; other recordings include Travis Cottrell and Anchor Hymns. The 1998 year comes from the copyright line only; the original release was not established. Reviewed as the song, in its common short form, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "CORPORATE_WE",
+    "structuralNotes": "Two verses and a chorus, the chorus sung again after each verse. The first verse sets human frailty against God's eternity: he is Lord of the ages, existed before time, and reigns in everlasting love, while people are as fleeting as a vapour. The chorus lifts the song into the worship of heaven, ascribing holiness and might to God and worthiness to the slain Lamb. The second verse turns to human brokenness met by Jesus as healer and redeemer who is mighty to save, and ends with the congregation bowing and blessing his name. The voice is plural and credal; the only personal action is bowing and blessing. The Spirit is not mentioned and the cross is implied by the slain Lamb rather than narrated.",
+    "claims": [
+      {
+        "claim": "God is eternal, before time, and reigns in everlasting love, while human life is brief.",
+        "subject": "God's eternity and human frailty",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is holy and almighty, and heaven's worship of him is the pattern for the church's.",
+        "subject": "The holiness of God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The slain Lamb is worthy of honour and glory.",
+        "subject": "The worthiness of Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus meets human brokenness as healer and redeemer, mighty to save.",
+        "subject": "Christ the Redeemer",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The right response is to bow and bless God's name.",
+        "subject": "Worship",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "God",
+        "title": "God's eternity set against human frailty",
+        "explanation": "The first verse sets the Creator's timelessness and everlasting love beside the creature's brevity, so worship begins from who God is and who we are.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 90:2",
+        "scriptureRationale": "God from everlasting to everlasting, over against mortal man."
+      },
+      {
+        "category": "Christ",
+        "title": "The Lamb who was slain is worthy",
+        "explanation": "The chorus borrows heaven's praise of the slain Lamb and gives it to the congregation, placing Christ's redemptive death at the centre of why he is worshipped.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Revelation 5:12",
+        "scriptureRationale": "Worthy is the Lamb who was slain to receive honour and glory."
+      },
+      {
+        "category": "Holiness",
+        "title": "Heaven's worship as the church's pattern",
+        "explanation": "Holiness and might are ascribed to God in the register of the heavenly scenes, joining the earthly congregation to the worship already offered.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 4:8",
+        "scriptureRationale": "Holy, holy, holy, the Lord God Almighty."
+      },
+      {
+        "category": "Salvation",
+        "title": "Jesus named as healer and redeemer",
+        "explanation": "The second verse answers human brokenness with Christ himself, who is able to save, rather than with a feeling or a programme.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Zephaniah 3:17",
+        "scriptureRationale": "The Lord is mighty to save."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The eternity and sovereignty of God",
+      "The holiness of God",
+      "The worthiness of Christ the slain Lamb",
+      "Redemption through Christ",
+      "Christ as mighty to save",
+      "Worship as the fitting response"
+    ],
+    "assessment": "Nothing to correct. The song sets God's eternity against human frailty, borrows heaven's praise of the slain Lamb, and names Jesus as redeemer who is mighty to save. It is written in the plural and says only what Scripture says. The cross is implied through the Lamb rather than narrated, and the Spirit is not mentioned. No independent assessment of its content was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A short chorus a room learns at once",
+        "explanation": "One brief chorus and plain phrasing mean a congregation can join on first hearing.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Voice",
+        "title": "Plural and credal throughout",
+        "explanation": "Everyone sings the same confession of God's eternity and the Lamb's worth, and the only personal act is bowing and blessing.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published in the key of C on the PraiseCharts record for the Anchor Hymns version; other arrangements are keyed differently. Check the leader's key against the chorus.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "C (per PraiseCharts, Anchor Hymns arrangement)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The one short chorus returns after each verse and each return follows a different thought, so the repetition restates the confession rather than padding it.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in words and form: a single short chorus, plural voice and a simple structure. Suited to opening or closing a gathering and to any service that wants God's greatness and Christ's worthiness stated together."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "God and the Lamb are named",
+        "explanation": "The song names Jesus as redeemer and the Lamb as worthy, so the addressee is clear.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The imagery is drawn straight from Revelation and the Psalms and needs only ordinary biblical literacy. The song says little of how the Lamb redeems, so a visitor learns who is worthy more than what he did."
+  },
+  "synthesis": {
+    "summary": "A short, plural worship song that sets God's eternity against human frailty, joins heaven's praise of the slain Lamb, and names Jesus as redeemer who is mighty to save. Nothing in it is wrong; the cross is implied and the Spirit not mentioned. No independent source assessing its content was found.",
+    "themes": [
+      "God",
+      "Worship",
+      "Christ",
+      "Holiness",
+      "Sovereignty",
+      "Salvation"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Revelation 5:12",
+        "relevance": "The Lamb who was slain is worthy - the chorus's heavenly praise."
+      },
+      {
+        "reference": "Revelation 4:8",
+        "relevance": "Holy, holy, holy - the heavenly worship the chorus echoes."
+      },
+      {
+        "reference": "Psalm 90:2",
+        "relevance": "God from everlasting - the first verse's eternity."
+      },
+      {
+        "reference": "James 4:14",
+        "relevance": "Life as a vapour - human frailty in the first verse."
+      },
+      {
+        "reference": "Zephaniah 3:17",
+        "relevance": "The Lord mighty to save - the second verse."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/87503/be-unto-your-name-sheet-music",
+      "title": "Be Unto Your Name - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Lynn DeShazo and Gary Sadler, 1998 Integrity's Hosanna! Music copyright, CCLI 2177476, original key C.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com"
+    }
+  ]
+}

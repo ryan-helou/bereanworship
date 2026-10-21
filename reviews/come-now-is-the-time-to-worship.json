@@ -1,0 +1,205 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Come, Now Is the Time to Worship",
+    "artist": "Brian Doerksen",
+    "artistType": "INDIVIDUAL",
+    "album": "Wow Worship (Blue) (1999 release)",
+    "releaseYear": 1998,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Brian Doerksen, then worship leader at Vineyard UK in London, in 1998. Doerksen's own account (PraiseCharts story page) says he wrote it at a low point, weary and doubting, and meant it to tell worshippers they may come to God as they are. Search results place it on the WoW Worship (Blue) compilation in 1999 and on later Integrity compilations. The publisher and CCLI number were not shown on any page loaded for this review, so neither is stated. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "A chorus of invitation to come and worship, a two-part stanza about the coming day when every tongue confesses and every knee bows, with the promise that those who choose God now find the greatest treasure, the chorus again, a stanza of surrender in which the singers choose God with all heart, mind and strength, the chorus a third time, and a closing tag of repeated calls to come that includes the nations. The voice is mixed: the singers address one another and the nations in exhortation, and the middle stanza addresses God. God is named and called Maker; the only act of God stated is the future universal confession. Christ, the cross, grace and the Spirit are not mentioned.",
+    "claims": [
+      {
+        "claim": "Worship is invited now, and the invitation includes anyone who comes as they are.",
+        "subject": "Invitation to worship",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Every tongue will one day confess and every knee bow before God.",
+        "subject": "Future universal acknowledgement of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null,
+        "locationDetail": "the first stanza"
+      },
+      {
+        "claim": "Those who choose God now find in him the greatest treasure.",
+        "subject": "God as the supreme good",
+        "location": "VERSE_1",
+        "lyricExcerpt": null,
+        "locationDetail": "the first stanza"
+      },
+      {
+        "claim": "The singers freely choose to give God heart, mind and strength.",
+        "subject": "Surrender and total love of God",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The nations are called to come and worship.",
+        "subject": "Mission and the nations",
+        "location": "TAG",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": false,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Worship",
+        "title": "Universal worship anchored in Scripture",
+        "explanation": "The first stanza rests on the prophetic promise that every knee will bow and every tongue confess, giving the invitation a real horizon in God's coming rule.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Philippians 2:10-11",
+        "scriptureRationale": "Every knee bowing and every tongue confessing - the stanza's ground."
+      },
+      {
+        "category": "Obedience",
+        "title": "Whole-person love of God",
+        "explanation": "The surrender stanza reflects the great commandment to love God with heart, soul, mind and strength.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MINOR",
+        "scriptureReference": "Mark 12:30",
+        "scriptureRationale": "Love the Lord with all heart, soul, mind and strength."
+      },
+      {
+        "category": "Mission",
+        "title": "The nations are included",
+        "explanation": "The closing tag widens the invitation beyond the gathered church to the nations, in the manner of the worship psalms.",
+        "songLocation": "TAG",
+        "magnitude": "MINOR",
+        "scriptureReference": "Psalm 100:1",
+        "scriptureRationale": "All the earth is called to make a joyful noise to the Lord."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God as Maker",
+      "The coming universal acknowledgement of God",
+      "Love of God with the whole person",
+      "The nations called to worship"
+    ],
+    "assessment": "No false statement. The song is an invitation to worship rather than a statement of the gospel: it names God and his coming rule, but it reaches no act of God besides that future confession and does not mention Christ, the cross, grace or the Spirit. The line that people choose God now makes the human choice the hinge without saying what enables it. That is an omission, recorded in the substance answers, not an error. No independent assessment of its content was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Simple and quickly learned",
+        "explanation": "A short repeated chorus and plain phrasing mean a room can sing it at first hearing, and the invitation reaches visitors.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "A natural opening call",
+        "explanation": "Its invitation and welcome to come as you are suit the start of a gathering.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published keys were not established from a loaded page. Pitch to the chorus for a mixed congregation.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not established",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The chorus is sung three times and the song ends on a tag of repeated calls to come. The stanzas add little beyond the invitation, so return does much of the work.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form and easy to sing, with an invitational chorus that works well as a call to worship. The repetition is heavy, and the stanzas carry less content than the refrain, so it gains most when placed beside songs that state what Christ has done."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Directness",
+        "title": "An invitation anyone understands",
+        "explanation": "The message is a plain call to come and worship, with no figure needing explanation.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in what it asks. It is less clear on what makes the invitation possible, since it never says who opens the way to God."
+  },
+  "synthesis": {
+    "summary": "An invitation song: come and worship now, since every knee will one day bow, and those who choose God find him the greatest treasure; the singers then surrender heart, mind and strength and call the nations. No false statement, but also no Christ, cross, grace or Spirit, and the choice to come carries the weight. No independent source assessing its content was found.",
+    "themes": [
+      "Worship",
+      "God",
+      "Mission",
+      "Faith",
+      "Sovereignty"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Philippians 2:10-11",
+        "relevance": "Every knee bowing and tongue confessing - the first stanza's horizon."
+      },
+      {
+        "reference": "Isaiah 45:23",
+        "relevance": "The prophetic source of that universal confession."
+      },
+      {
+        "reference": "Mark 12:30",
+        "relevance": "Loving God with heart, soul, mind and strength - the surrender stanza."
+      },
+      {
+        "reference": "Psalm 95:6",
+        "relevance": "Come, let us worship and bow down - the invitation of the chorus."
+      },
+      {
+        "reference": "Psalm 100:1",
+        "relevance": "All the earth called to worship - the closing call to the nations."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/blog/the-story-behind-come-now-is-the-time-to-worship/",
+      "title": "The Story Behind Come, Now Is the Time to Worship",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_3",
+      "establishes": "Doerksen's own account: written at a low point after the Father's House project collapsed, meant to tell worshippers they may come to God as they are.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google (LyricFind lyrics panel)",
+      "url": "https://www.google.com/search?q=Come+Now+Is+the+Time+to+Worship+Brian+Doerksen+lyrics"
+    }
+  ]
+}

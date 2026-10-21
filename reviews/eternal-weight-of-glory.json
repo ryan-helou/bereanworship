@@ -1,0 +1,212 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Eternal Weight of Glory",
+    "artist": "Wendell Kimbrough",
+    "artistType": "INDIVIDUAL",
+    "album": "Psalms We Sing Together",
+    "releaseYear": 2016,
+    "genre": "Folk Hymn",
+    "isPublicDomain": false,
+    "notes": "Words and music by Wendell Kimbrough, from his album Psalms We Sing Together (2016), where it is one of the original, openly Christ-centred songs beside Psalm and Isaiah settings. The list's artist is right. Title and theme come from 2 Corinthians 4:17. Publisher and CCLI number were not confirmed in the sources loaded. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "CORPORATE_WE",
+    "structuralNotes": "Two verses with a refrain-like stanza between them, a short third stanza, and a final stanza that repeats the second verse's closing lines twice. The first verse admits that suffering feels long and faith is thin, and sets hope on Jesus. The refrain-like stanza speaks of glory, inheritance and the redemption of all times by the Lord. The second verse looks to the resurrection of believers at the trumpet, death swallowed up. The third stanza anticipates seeing the wounded Savior face to face and hearing our stories sung as songs of grace. The voice is plural, the congregation speaking to itself and to one another, with Christ spoken of in the third person. It is honest about pain but each section resolves into what God will do. The Spirit is not named.",
+    "claims": [
+      {
+        "claim": "Suffering feels long and faith can be weak, yet hope is set on Jesus.",
+        "subject": "Hope in suffering",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "A weight of glory and an inheritance await, and the Lord redeems all times.",
+        "subject": "Glory and redemption",
+        "location": "VERSE",
+        "locationDetail": "the stanza between the verses",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Believers will be raised at the trumpet and death will be swallowed up.",
+        "subject": "Resurrection of believers",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ keeps the scars of his wounds, and his people will see him face to face.",
+        "subject": "The crucified Savior and the beatific vision",
+        "location": "VERSE",
+        "locationDetail": "the third stanza",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Our broken years and tears will be turned into songs of grace.",
+        "subject": "Restoration of suffering",
+        "location": "VERSE",
+        "locationDetail": "the third stanza",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Hope",
+        "title": "Suffering weighed against coming glory",
+        "explanation": "The song takes pain seriously and then sets it beside the glory to come, so grief is neither denied nor made final. Each section resolves into what God will do rather than how the singer feels.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "2 Corinthians 4:17",
+        "scriptureRationale": "The momentary affliction preparing an eternal weight of glory - the title and governing idea."
+      },
+      {
+        "category": "Resurrection",
+        "title": "The believers' resurrection at the last trumpet",
+        "explanation": "The second verse sets the resurrection of the dead and the defeat of death in the language of Paul's chapter on the resurrection, and rests the congregation's hope on it.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Corinthians 15:51-54",
+        "scriptureRationale": "The trumpet, the change, and death swallowed up in victory."
+      },
+      {
+        "category": "Christ",
+        "title": "The scarred Savior seen face to face",
+        "explanation": "Looking forward to the wounded Savior keeps the cross in view in a song about glory, and promises sight of him rather than a vague heaven.",
+        "songLocation": "VERSE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 John 3:2",
+        "scriptureRationale": "We shall see him as he is - the face-to-face hope of the closing stanza."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Suffering now, glory to come",
+      "Bodily resurrection of believers",
+      "Death swallowed up in victory",
+      "Christ crucified and risen, seen face to face",
+      "Redemption of all times"
+    ],
+    "assessment": "Nothing to correct. The song speaks honestly of pain and answers it with what Scripture promises: the resurrection at the trumpet, the defeat of death, the sight of the wounded Savior. The comparison of transfigured pain to Christ's scars is a hopeful image, not a claim that suffering saves. Christ's own cross and resurrection are implied rather than narrated, and the Spirit is not named."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Voice",
+        "title": "A song sung to one another",
+        "explanation": "The plural voice has the congregation encourage itself, which suits a church carrying members in grief.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Form",
+        "title": "A folk-hymn shape that carries the text",
+        "explanation": "A minor-key hymn style with a unified progression leaves the words in front.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published keys were not confirmed. The folk-hymn melody is described as hymn-like; test the key with the room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not confirmed",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The closing lines of the second verse return twice at the end, which keeps the resurrection promise as the last thing sung.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in voice and form, suited to funerals, seasons of grief and the last days of the church year. Repetition is light and serves the content."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Scripture",
+        "title": "Pauline vocabulary a congregation can trace",
+        "explanation": "The title and the second verse follow two passages from Paul closely, so each line can be checked against the text.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. Christ is named as Savior and Lord; the Spirit is absent. The gospel is implied, since the song assumes the cross and resurrection rather than telling them."
+  },
+  "synthesis": {
+    "summary": "A folk hymn on 2 Corinthians 4:17 that admits long suffering and thin faith and sets them beside the resurrection of believers, the defeat of death and the sight of the wounded Savior. Plural voice, no concern found. Christ's work is assumed more than told, and the Spirit is not named.",
+    "themes": [
+      "Hope",
+      "Suffering",
+      "Resurrection",
+      "Heaven",
+      "Christ",
+      "Assurance"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "2 Corinthians 4:17",
+        "relevance": "The eternal weight of glory outweighing present affliction - the title."
+      },
+      {
+        "reference": "1 Corinthians 15:51-54",
+        "relevance": "The trumpet and death swallowed up - the second verse."
+      },
+      {
+        "reference": "Romans 8:18",
+        "relevance": "Present sufferings not worth comparing with coming glory."
+      },
+      {
+        "reference": "Revelation 21:4",
+        "relevance": "Tears wiped away - the restoration of broken years."
+      },
+      {
+        "reference": "John 20:27",
+        "relevance": "The risen Christ's scars."
+      },
+      {
+        "reference": "1 John 3:2",
+        "relevance": "Seeing him as he is."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://wng.org/articles/folk-psalms-1620600552",
+      "title": "Folk Psalms",
+      "publisher": "WORLD",
+      "sourceType": "JOURNALISM",
+      "credibilityTier": "TIER_3",
+      "establishes": "Reviews the album Psalms We Sing Together (October 2016) and calls this track openly Christ-centred; no release year or writer details beyond the album.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel (Musixmatch)",
+      "url": "https://www.google.com/search?q=Eternal+Weight+of+Glory+Wendell+Kimbrough+lyrics"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Battle Belongs",
+    "artist": "Phil Wickham",
+    "artistType": "INDIVIDUAL",
+    "album": "Hymn of Heaven",
+    "releaseYear": 2021,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Phil Wickham and Brian Johnson; copyright 2020 Phil Wickham Music, Simply Global Songs (admin. Essential Music Publishing) and Bethel Music Publishing; CCLI 7148126; original key Db per PraiseCharts. One secondhand account says it began in late 2019 on a call between the two writers. The song appears on Wickham's album Hymn of Heaven; the copyright year is 2020 and the album year given here is the album's release. The list's artist is right. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Verse one, chorus, verse two, chorus, a bridge sung four times, and a final chorus. God is addressed directly. The song confesses that God sees what the singer cannot, that he gives victory, power and protection, goes ahead of his people and wins every fight, and that he loves and surrounds them. One line in the second verse moves from the cross to the empty tomb, naming both acts, with the resurrection implied as the reversal. Jesus is addressed in an aside as the one for whom nothing is impossible. The Spirit is not mentioned. The singer's posture is to fight on his knees, lay fears down and sing through the night. The bridge is a plural confession of God's power. Chorus and bridge repeat heavily.",
+    "claims": [
+      {
+        "claim": "God sees what the singer cannot and is his fortress and protector.",
+        "subject": "God's care and protection",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God loves his people and surrounds them.",
+        "subject": "God's love",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The cross gives way to the empty tomb: Christ died and was raised.",
+        "subject": "The cross and resurrection",
+        "location": "VERSE_2",
+        "lyricExcerpt": null,
+        "locationDetail": "one contrast line"
+      },
+      {
+        "claim": "The battle belongs to God, who goes ahead of his people and wins every fight.",
+        "subject": "God's sovereign victory",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Nothing is impossible for Jesus.",
+        "subject": "The power of Christ",
+        "location": "VERSE_2",
+        "lyricExcerpt": null,
+        "locationDetail": "an aside"
+      },
+      {
+        "claim": "The congregation confesses God's power over what looks immovable.",
+        "subject": "God's power",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Sovereignty",
+        "title": "The battle is the Lord's",
+        "explanation": "The chorus rests the singer's courage on God's victory rather than on the singer's strength. Fighting on one's knees is prayer, and the outcome is placed with God.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "2 Chronicles 20:15",
+        "scriptureRationale": "The battle is not yours but God's - the claim the chorus builds on."
+      },
+      {
+        "category": "Christ",
+        "title": "Cross and empty tomb named",
+        "explanation": "One line turns from the cross to the empty tomb, naming Christ's death and resurrection as the ground of confidence in trouble. The line is brief, but it is orthodox and in the song's turning point.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Corinthians 15:3-4",
+        "scriptureRationale": "Christ died and was raised - the two acts the line names."
+      },
+      {
+        "category": "Assurance",
+        "title": "God is for us",
+        "explanation": "The song gathers the singer's fears under the promise that God goes ahead of his people. The confidence rests on God's character.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 8:31",
+        "scriptureRationale": "If God is for us, who can be against us."
+      },
+      {
+        "category": "Faith",
+        "title": "Presence in the valley",
+        "explanation": "The verses draw on the shadow-of-death valley to teach that God's presence meets his people in trouble.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MINOR",
+        "scriptureReference": "Psalm 23:4",
+        "scriptureRationale": "God with the sufferer in the valley."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God's sovereignty and power",
+      "God's love and protection",
+      "The cross and resurrection of Christ",
+      "Nothing is impossible with God",
+      "Prayer as the posture of the believer"
+    ],
+    "assessment": "Nothing to correct. The battle language is general trouble and fear, not a doctrine of spiritual warfare, and the song places the victory with God. The cross and tomb line is orthodox. The gospel is implicit and brief, and the Spirit is not mentioned. The mix of singer's resolve and confession of God's power is balanced toward the latter."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A chorus a room can own",
+        "explanation": "The chorus and bridge are short and memorable, and the bridge is written as a plural confession that a congregation can sing together.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Songs for trouble and fear",
+        "explanation": "It suits a time of anxiety, illness or fighting for faith, pointing the room to God's victory.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Original key Db per PraiseCharts. The bridge repeats four times and builds, so a leader should decide in advance how far to push the climb.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Db (original per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The chorus returns twice and the bridge is sung four times. The repetition mostly returns to the confession that the battle is God's, but it does lean on the loop.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Congregational and easy to sing. The bridge in plural voice helps the room confess together. The heavy bridge repeat and the build can be performance-led, so it needs restraint. Its content fits seasons of fear and struggle."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Jesus named at the turning point",
+        "explanation": "The cross-to-tomb line and the aside about Jesus tell the room who the song is about.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The battle imagery is easily heard as trouble and fear, and the song supplies its own answer that the fight is God's. Nothing is open to a harmful reading."
+  },
+  "synthesis": {
+    "summary": "A confession that the battle belongs to God, written by Phil Wickham and Brian Johnson for Hymn of Heaven. It rests courage on God's power, love and protection, names the cross and the empty tomb in one line, and moves into a plural bridge of confession. The gospel is brief and implicit; the Spirit is not mentioned. Nothing in it is wrong. Chorus and bridge repeat heavily.",
+    "themes": [
+      "Sovereignty",
+      "Faith",
+      "Assurance",
+      "Cross",
+      "Resurrection",
+      "Prayer",
+      "Hope"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "2 Chronicles 20:15",
+        "relevance": "The battle is God's, not yours - the chorus's claim."
+      },
+      {
+        "reference": "Romans 8:31",
+        "relevance": "God is for us - the ground of confidence."
+      },
+      {
+        "reference": "Psalm 23:4",
+        "relevance": "Walking through the valley with God present."
+      },
+      {
+        "reference": "1 Samuel 17:47",
+        "relevance": "The battle is the Lord's."
+      },
+      {
+        "reference": "Luke 1:37",
+        "relevance": "Nothing is impossible with God."
+      },
+      {
+        "reference": "Matthew 17:20",
+        "relevance": "Faith that moves a mountain."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/75470/battle-belongs",
+      "title": "Battle Belongs - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Phil Wickham and Brian Johnson, 2020 copyright line, CCLI 7148126, original key Db, album Hymn of Heaven.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel (Musixmatch)",
+      "url": "https://www.google.com/search?q=Battle+Belongs+Phil+Wickham+lyrics"
+    }
+  ]
+}
