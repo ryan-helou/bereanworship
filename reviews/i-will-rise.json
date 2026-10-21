@@ -1,0 +1,220 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "I Will Rise",
+    "artist": "Chris Tomlin",
+    "artistType": "INDIVIDUAL",
+    "album": "Hello Love",
+    "releaseYear": 2008,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Chris Tomlin, Jesse Reeves, Louie Giglio and Matt Maher; copyright 2008 held by several publishers including Vamos Publishing, worshiptogether.com songs, sixsteps Music, Thankyou Music and spiritandsong.com, administered by Capitol Christian Music Publishing; CCLI 5183450. The list's guess of Chris Tomlin is right for the recording churches know, from the album Hello Love (2008), but it is a four-way co-write. Published original key B per PraiseCharts. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Two verses, each followed by a pre-chorus and a chorus, then a bridge and a final chorus. The first verse speaks of peace and an anchor for the soul when heart and flesh fail, in the manner of the well-known 'it is well' hymn. The pre-chorus is credal: Christ has overcome, the grave is overwhelmed, victory is won, and he is risen from the dead. The chorus turns to the believer's own future: rising when the Lord calls, with no more sorrow or pain, and kneeling before God. The second verse looks to the day when darkness gives way to light and faith becomes sight. The bridge has angels and every longing heart declaring that the Lamb is worthy. The voice moves between credal statement and personal hope grounded in it. The Spirit and the cross itself are not reached.",
+    "claims": [
+      {
+        "claim": "The singer has peace and an anchor for the soul even when heart and flesh fail.",
+        "subject": "Assurance in suffering",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ has overcome, the grave is overwhelmed, victory is won, and he is risen from the dead.",
+        "subject": "The resurrection and victory over death",
+        "location": "PRE_CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Because Christ is risen, the believer will rise at the Lord's calling to a life with no more sorrow or pain.",
+        "subject": "The believer's future resurrection",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "A day is coming when darkness gives way to light and faith becomes sight.",
+        "subject": "Consummation",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lamb is worthy, as angels and every longing heart declare.",
+        "subject": "The worthiness of Christ",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Resurrection",
+        "title": "Christ's rising stated, then ours",
+        "explanation": "The pre-chorus declares plainly that Christ is risen and has beaten death, and the chorus draws the consequence for the believer: a future rising. The order matters, since our hope is placed on his act rather than on a mood.",
+        "songLocation": "PRE_CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Corinthians 15:20-23",
+        "scriptureRationale": "Christ the firstfruits of those who have died, with believers raised at his coming - the logic of the pre-chorus into the chorus."
+      },
+      {
+        "category": "Hope",
+        "title": "Hope that outlasts failing strength",
+        "explanation": "The first verse sets peace and an anchor against the failing of heart and flesh, which is the psalmist's own confession that God is the strength of the heart. Suffering is met with assurance rather than denied.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 73:26",
+        "scriptureRationale": "Flesh and heart may fail, but God is the strength of my heart - the confession the verse echoes."
+      },
+      {
+        "category": "Worship",
+        "title": "The Lamb worshipped in Revelation's terms",
+        "explanation": "The bridge sets the congregation among the angels ascribing worth to the Lamb, which places Christ at the centre of heaven's worship and ties the song's hope to him.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 5:12",
+        "scriptureRationale": "The Lamb who was slain is worthy - the bridge's ascription."
+      },
+      {
+        "category": "Eschatology",
+        "title": "Faith becoming sight",
+        "explanation": "The second verse looks to the day when faith gives way to sight and sorrow ends. It keeps the Christian's present as a walk of faith and the future as a promise yet to be received.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "2 Corinthians 5:7",
+        "scriptureRationale": "We walk by faith, not by sight - the contrast the verse resolves in the end."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The resurrection of Christ",
+      "Christ's victory over death",
+      "The believer's future bodily resurrection",
+      "Assurance in suffering",
+      "The worthiness of the Lamb",
+      "The end of sorrow and the sight of God"
+    ],
+    "assessment": "Nothing to correct. The pre-chorus is a plain credal statement of Christ's resurrection and victory, and the chorus builds the believer's future rising on it. The eagles' wings image is Isaiah's figure of renewed strength, here applied to resurrection hope, and is not misleading. The cross and the Spirit are not named, so the gospel is implicit rather than set out; the song's work is resurrection hope."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A clear verse, pre-chorus, chorus shape",
+        "explanation": "The structure is easy to follow and the chorus builds from a credal pre-chorus, so a congregation meets the ground of the hope before it sings the hope.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fits funerals, Easter and seasons of suffering",
+        "explanation": "Its subject is resurrection hope in the face of death and sorrow, so it serves at memorial services, at Easter, and wherever a congregation needs reminding of what lies ahead.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published original key B per PraiseCharts. The chorus climbs, so test it and consider a lower key for a mixed congregation.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "B (original per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The pre-chorus and chorus return after each verse, and the final chorus closes the song. Each return restates the resurrection hope after a new verse, so repetition carries content.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form and in voice, with a chorus a room can sing without a leader carrying it. The arrangement builds toward the end, so a leader should keep the build in service of the words. Suited to Easter, funerals and times of grief."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ and the Lamb named",
+        "explanation": "The pre-chorus names Jesus as the one who is risen and the bridge calls him the Lamb, so the song is plainly about Christ and not an unnamed presence.",
+        "songLocation": "PRE_CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The eagles' wings figure and the sight-for-faith language are biblical and familiar. A listener could take the chorus as general uplift, but the credal pre-chorus fixes its meaning in Christ's resurrection."
+  },
+  "synthesis": {
+    "summary": "A resurrection hymn in modern form: a credal pre-chorus declares Christ risen and death beaten, and the chorus applies it to the believer's own rising and the end of sorrow. The bridge ascribes worth to the Lamb. Nothing in it is wrong. The cross and the Spirit are not reached, so the gospel is implicit; the song's strength is its resurrection hope.",
+    "themes": [
+      "Resurrection",
+      "Hope",
+      "Christ",
+      "Heaven",
+      "Assurance",
+      "Suffering",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "1 Corinthians 15:20-57",
+        "relevance": "Christ's resurrection and victory over the grave, with the believer's rising to follow."
+      },
+      {
+        "reference": "Isaiah 40:31",
+        "relevance": "Renewed strength on eagles' wings, the figure applied to resurrection hope."
+      },
+      {
+        "reference": "Revelation 5:12",
+        "relevance": "The Lamb who was slain is worthy - the bridge's ascription."
+      },
+      {
+        "reference": "Revelation 21:4",
+        "relevance": "No more sorrow or pain - the chorus's promise."
+      },
+      {
+        "reference": "2 Corinthians 5:7",
+        "relevance": "Faith giving way to sight in the second verse."
+      },
+      {
+        "reference": "Psalm 73:26",
+        "relevance": "Heart and flesh may fail - the first verse's confession."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/5076",
+      "title": "I Will Rise - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Tomlin, Reeves, Giglio and Maher, 2008 copyright and publishers, CCLI 5183450, original key B, album Hello Love.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com/Chris-tomlin-i-will-rise-lyrics"
+    }
+  ]
+}

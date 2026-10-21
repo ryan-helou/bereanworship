@@ -1,0 +1,191 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "I Will Call Upon the Lord",
+    "artist": "Petra",
+    "artistType": "GROUP",
+    "album": "Petra Praise: The Rock Cries Out",
+    "releaseYear": 1989,
+    "genre": "Praise Chorus",
+    "isPublicDomain": false,
+    "notes": "Written by Michael O'Shields (words and music); copyright 1981 Sound III, Inc.; CCLI 11263. The recording many churches know is Petra's on Petra Praise: The Rock Cries Out (DaySpring Records, 3 October 1989), the band's first praise album, which Wikipedia describes as mostly traditional praise songs in a rock style. The copyright year is 1981 and the release year 1989. The Petra live version adds stage patter and repeated sections that are concert material, not part of the song; the plain congregational form is the two short parts. Reviewed as the song, not as the concert track.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Two short interlocking parts. The first, three lines, is the singer's resolve to call on the Lord who is worthy to be praised, with deliverance from enemies as the result. The second, four lines in repeated pairs, is a declaration and a summons: the Lord lives, the Rock is to be blessed, and the God of my salvation is to be exalted. God is named as Lord, Rock and God of salvation. Christ and the Spirit are not named and the only act of God is rescue from enemies. The Petra live version arranges the parts with call and response between sections of the audience, which is concert patter and not part of the song's text.",
+    "claims": [
+      {
+        "claim": "The Lord is worthy of praise, and the singer resolves to call upon him.",
+        "subject": "God's worthiness and prayer",
+        "location": "VERSE_1",
+        "locationDetail": "the first part",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Calling upon the Lord results in rescue from enemies.",
+        "subject": "God as deliverer",
+        "location": "VERSE_1",
+        "locationDetail": "the first part",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lord lives.",
+        "subject": "The living God",
+        "location": "CHORUS",
+        "locationDetail": "the second part",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lord is the Rock, to be blessed.",
+        "subject": "God as refuge",
+        "location": "CHORUS",
+        "locationDetail": "the second part",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The God of my salvation is to be exalted.",
+        "subject": "God as Savior",
+        "location": "CHORUS",
+        "locationDetail": "the second part",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Scripture",
+        "title": "A close setting of David's song",
+        "explanation": "The song sets lines from 2 Samuel 22, David's song of deliverance, which also appears as Psalm 18. Its words come from Scripture rather than approximating it.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "2 Samuel 22:4",
+        "scriptureRationale": "David calls on the Lord who is worthy of praise and is saved from his enemies - the first part's source."
+      },
+      {
+        "category": "God",
+        "title": "The living God, the Rock, the God of salvation",
+        "explanation": "The second part makes three statements about God himself: he lives, he is the Rock, he is the God of the singer's salvation. The congregation sings who God is, not how it feels.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "2 Samuel 22:47",
+        "scriptureRationale": "The Lord lives, blessed be the Rock, exalted be the God of my salvation - the verse the part sets."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God is living",
+      "God as Rock and refuge",
+      "God as the God of salvation",
+      "God hears and delivers those who call on him"
+    ],
+    "assessment": "Nothing to correct. The song is two pieces of Scripture set to short phrases: the singer's resolve to call on the Lord, and a declaration that the Lord lives and is to be blessed and exalted. The deliverance from enemies is David's language, which a congregation can hear as the rescue of those who trust God. It is thin on content: Christ and the Spirit are not named, and the only act of God it states is deliverance."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Short phrases learned in a minute",
+        "explanation": "Each part is a few short lines that repeat. Newcomers, children and mixed rooms can sing it from memory after one hearing.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "A call to worship or opening song",
+        "explanation": "Because it is a resolve to call on God and a summons to bless him, it works at the start of a service, or as a bridge between songs.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "No published key was confirmed for this review. The melody is short and repeated, so pitch it where the room sings comfortably.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not confirmed",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "Repetition is the design: two short parts repeat in pairs. The words are Scripture, so it is not empty; the Petra live version adds an audience game on top.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Easy to teach and easy to sing. The plain two-part form is congregational; the Petra live arrangement, with its call and response between sides of the room, is closer to a concert routine. Churches using the song would do well to use the plain form and keep the Scripture in focus."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "God is named in three ways",
+        "explanation": "The song names the Lord, the Rock and the God of salvation, so the object of praise is plain.",
+        "songLocation": "CHORUS",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The language is David's and is not hard. It names no Christ, so it relies on the rest of the service to say how God saves."
+  },
+  "synthesis": {
+    "summary": "Michael O'Shields's 1981 setting of David's song of deliverance from 2 Samuel 22, widely known through Petra's 1989 recording. The singer resolves to call on the Lord, who is worthy of praise, and the Lord is declared living, the Rock and the God of salvation. Nothing in it is wrong. It is brief and heavily repeated, and names neither Christ nor the Spirit.",
+    "themes": [
+      "God",
+      "Prayer",
+      "Worship",
+      "Salvation",
+      "Sovereignty"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "2 Samuel 22:4",
+        "relevance": "David calls on the Lord who is worthy of praise and is saved from his enemies."
+      },
+      {
+        "reference": "2 Samuel 22:47",
+        "relevance": "The Lord lives, the Rock is blessed, the God of salvation exalted."
+      },
+      {
+        "reference": "Psalm 18:3",
+        "relevance": "The parallel text of David's song in the Psalter."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Petra_Praise:_The_Rock_Cries_Out",
+      "title": "Petra Praise: The Rock Cries Out",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Album article: DaySpring Records, 3 October 1989, Petra's first praise album, and the writer credit to Michael O'Shields for the song.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com/Petra-i-will-call-upon-the-lord-lyrics"
+    }
+  ]
+}

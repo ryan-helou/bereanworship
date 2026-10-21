@@ -1,0 +1,182 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "I Will Enter His Gates (He Has Made Me Glad)",
+    "artist": "Leona von Brethorst",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1976,
+    "genre": "Traditional Praise Chorus",
+    "isPublicDomain": false,
+    "notes": "Written by Leona von Brethorst in 1976; copyright line 1976 Universal Music - Brentwood Benson Publishing, administered by Brentwood-Benson Music Publishing; CCLI 1493; Hymnary also records a Maranatha! Music copyright line. The list's attribution to Bob Fitts is wrong: Fitts recorded or led it but did not write it, and the song is usually titled He Has Made Me Glad. Published keys vary by source (C on PraiseCharts, D or Eb elsewhere). The text read here is the Maranatha! Praise Band arrangement, which adds a bridge and tags to the original single stanza and refrain. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "One four-line stanza and a refrain of repeated lines, with the stanza sung again and the refrain again, then a one-line tag, a bridge of repeated hallelujah lines, the refrain twice and a closing tag. The singer resolves to enter God's gates with thanksgiving and his courts with praise, declares that this is the day the Lord has made, and says he rejoices because the Lord has made him glad. The singer speaks to the congregation or himself and to God together. God is named only as Lord; Christ and the Spirit are not named, and no act of God is stated beyond making the singer glad. The voice is the singer's own resolve and gladness, not a confession of who God is.",
+    "claims": [
+      {
+        "claim": "The singer resolves to enter God's gates with thanksgiving and his courts with praise.",
+        "subject": "Approaching God in worship",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "This is the day the Lord has made, and the singer will rejoice in it.",
+        "subject": "The day the Lord has made",
+        "location": "REFRAIN",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lord has made the singer glad, and that is the reason for his rejoicing.",
+        "subject": "Gladness given by God",
+        "location": "REFRAIN",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The bridge repeats a cry of praise to the Lord.",
+        "subject": "Praise",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": false,
+    "godDirected": true,
+    "groundsItsClaims": false,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Scripture",
+        "title": "Psalms 100 and 118 set plainly",
+        "explanation": "The stanza and refrain are built directly on Psalm 100:4 and Psalm 118:24, with the language of gladness echoing Psalms 92 and 126. A congregation sings Scripture's own call to thanksgiving rather than a paraphrase of a mood.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 100:4",
+        "scriptureRationale": "Enter his gates with thanksgiving and his courts with praise - the stanza's call."
+      },
+      {
+        "category": "Worship",
+        "title": "Gladness traced to the Lord",
+        "explanation": "The refrain places the source of the singer's joy in what the Lord has done to him, not in circumstances. That is a small but true confession that gladness is God's gift.",
+        "songLocation": "REFRAIN",
+        "magnitude": "MINOR",
+        "scriptureReference": "Psalm 126:3",
+        "scriptureRationale": "The Lord has done great things for us, and we are glad - the echo in the refrain."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Thanksgiving and praise as the way to approach God",
+      "God as the giver of joy",
+      "The Lord as maker and giver of the day"
+    ],
+    "assessment": "Nothing to correct. The song sets two psalm verses faithfully, and reading Psalm 118:24 as a daily refrain is a familiar use of a figure from the psalm, not a false claim. Its limits are of content: God is named only as Lord, no act of his is stated beyond the singer's gladness, and there is no gospel. It is a call to thanksgiving, not a confession."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Very easy to sing",
+        "explanation": "A short stanza and a repeated refrain that a congregation holds after one hearing, with no hard intervals or phrasing to learn. It suits children, visitors and groups without a leader or band.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Use",
+        "title": "A natural call to worship",
+        "explanation": "The words invite a gathering to enter praise together, so it fits the opening of a service or a gathering of any size.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published keys vary by source: C on PraiseCharts, D or Eb in other editions. The tune is narrow and low-demand; choose the key that suits the room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "C (original per PraiseCharts); D or Eb in other editions",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The refrain line returns many times and the bridge is one line repeated. It suits a short call to praise, but carries much of the song's length for little added content.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Built for a room to sing together: short, repeated and easy to learn. The simplicity is its strength as a gathering song and the reason it is thin as a vehicle for teaching."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Directness",
+        "title": "Plain words, no hidden meaning",
+        "explanation": "Every line says what it means: enter, praise, rejoice, the Lord has made me glad. Nothing needs explaining to a visitor.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The only thing a newcomer must be told is whose gates and courts are meant, which the psalms behind it supply."
+  },
+  "synthesis": {
+    "summary": "A 1976 praise chorus by Leona von Brethorst, set on Psalms 100:4 and 118:24: the singer resolves to enter God's gates with thanksgiving and says the Lord has made him glad. Nothing in it is false. God is named only as Lord, no act of his is stated beyond the singer's gladness, and Christ and the gospel are not reached. Repetition is heavy and the tune is very easy.",
+    "themes": [
+      "Worship",
+      "Thanksgiving",
+      "Scripture",
+      "God"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 100:4",
+        "relevance": "Entering his gates with thanksgiving and his courts with praise - the stanza."
+      },
+      {
+        "reference": "Psalm 118:24",
+        "relevance": "The day the Lord has made, to rejoice in - the refrain."
+      },
+      {
+        "reference": "Psalm 92:4",
+        "relevance": "The Lord has made me glad by his work - echoed in the gladness language."
+      },
+      {
+        "reference": "Psalm 126:3",
+        "relevance": "The Lord has done great things for us and we are glad."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/2610/he-has-made-me-glad-sheet-music/orchestration",
+      "title": "He Has Made Me Glad - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writer Leona von Brethorst, 1976 copyright line (Brentwood Benson), CCLI 1493, original key C.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://genius.com/Maranatha-praise-band-he-has-made-me-glad-i-will-enter-his-gates-lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

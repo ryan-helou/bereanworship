@@ -1,0 +1,209 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "I Will Follow",
+    "artist": "Chris Tomlin",
+    "artistType": "INDIVIDUAL",
+    "album": "And If Our God Is for Us",
+    "releaseYear": 2010,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Chris Tomlin, Jason Ingram and Reuben Morgan; copyright 2010 with publishers including SHOUT! Music Publishing and sixsteps Music; CCLI 5806878 (PraiseCharts credits Capitol CMG as publisher). The list's guess of Chris Tomlin is right for the recording churches know. Some catalogue pages name only Tomlin and Ingram in the headline credit but list Morgan among the writers. Shane & Shane also recorded it on The Worship Initiative Volume 3. Original key not confirmed (a PraiseCharts chart is in G). Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "A short intro echoing the chorus, two verses of six lines, a chorus of eight lines sung several times, a three-line bridge with a tag, and a long final chorus ending on a repeated closing line. The first verse addresses God: his ways are good and sure, higher than the singer can see, and the singer resolves to trust him alone. The second verse calls him light of the world and of the singer's life, resolves to live for him alone, and is confident that all needed is found in him. The chorus is a vow to follow wherever God leads, to love whom he loves and serve as he serves, even at the cost of life. The bridge says that everlasting life, freedom and joy are in him. Jesus is not named; incarnation, cross, resurrection and return are not reached, and the Spirit is not named. The voice is the singer's own resolve.",
+    "claims": [
+      {
+        "claim": "God's ways are good and sure, and higher than the singer can see.",
+        "subject": "God's ways",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer resolves to trust God alone.",
+        "subject": "Trust",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is the light of the world and of the singer's life.",
+        "subject": "God as light",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "All the singer needs is found in God.",
+        "subject": "Sufficiency of God",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer vows to follow wherever God leads, loving whom he loves and serving as he serves, even at the cost of life.",
+        "subject": "Discipleship",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Everlasting life, freedom and joy are found in God.",
+        "subject": "Life in God",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": false,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Discipleship",
+        "title": "Following costs something, and the song says so",
+        "explanation": "The chorus's vow to follow even at the cost of life matches the cost of discipleship Jesus names, and it keeps the song from being only about comfort.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Mark 8:34-35",
+        "scriptureRationale": "Take up the cross and follow; whoever loses his life for the gospel will save it."
+      },
+      {
+        "category": "God's character",
+        "title": "God's ways are higher than ours",
+        "explanation": "The first verse confesses that God's ways are good and beyond the singer's sight, and bases trust on that rather than on understanding.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 55:8-9",
+        "scriptureRationale": "His ways are higher than ours - the thought the verse sets."
+      },
+      {
+        "category": "Christ",
+        "title": "God as light and as the source of life",
+        "explanation": "The second verse and the bridge say that light and everlasting life are found in God, which echoes what Scripture says of Christ.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MINOR",
+        "scriptureReference": "John 8:12",
+        "scriptureRationale": "I am the light of the world - the language the verse borrows."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God's ways are good and higher than ours",
+      "God as light and source of life",
+      "The call to follow at cost",
+      "Trust in God alone"
+    ],
+    "assessment": "Nothing to correct. The vow is a resolve, not a claim of ability, and the line about losing life matches Mark 8:35. The song's limits are of content: Jesus is not named, and it states no act of God, so its vow rests on the singer's resolve rather than on the cross or resurrection. That is an absence, not an error."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Short lines, a repeated chorus",
+        "explanation": "The chorus is built on short, plain phrases that a congregation learns quickly and sings together.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "A song for response and sending",
+        "explanation": "The vow shape suits the close of a service, a commissioning or a response after preaching.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "A PraiseCharts chart is in G; the original key was not confirmed. Check the chorus against the room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "G (a PraiseCharts chart); original key not confirmed",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The chorus is sung several times and the long final chorus and tag repeat again. The repetition suits a vow, but it does much of the work the lyric's content does not.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Congregational in its words and in its short lines, with a build that a band can lean on. It works best when the room is allowed to carry the chorus."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Directness",
+        "title": "Plain language",
+        "explanation": "The song says what it means in short phrases, and a visitor will understand the vow without help.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in what it says. The only ambiguity is who is being followed: the addressee is never named, and light of the world and serving borrow language that belongs to Christ."
+  },
+  "synthesis": {
+    "summary": "A 2010 song by Chris Tomlin, Jason Ingram and Reuben Morgan: a vow to follow God wherever he leads, resting on the confession that his ways are good and higher than the singer's. Light, life and freedom are placed in him. Nothing in it is false. Jesus is not named, no act of God is stated, and the vow rests on the singer's resolve. Repetition is high and the lines are easy to sing.",
+    "themes": [
+      "Faith",
+      "Worship",
+      "Hope",
+      "Holiness",
+      "God"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Mark 8:34-35",
+        "relevance": "Following at the cost of life - the chorus's vow."
+      },
+      {
+        "reference": "John 8:12",
+        "relevance": "Light of the world - the second verse's language."
+      },
+      {
+        "reference": "Isaiah 55:8-9",
+        "relevance": "God's ways higher than ours - the first verse."
+      },
+      {
+        "reference": "Proverbs 3:5",
+        "relevance": "Trust in the Lord - the first verse's resolve."
+      },
+      {
+        "reference": "Ruth 1:16",
+        "relevance": "A vow to go where another goes - the chorus's shape."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/28265",
+      "title": "I Will Follow - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Chris Tomlin, Jason Ingram and Reuben Morgan, CCLI 5806878, publisher Capitol CMG, a chart in G.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://genius.com/Chris-tomlin-i-will-follow-lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

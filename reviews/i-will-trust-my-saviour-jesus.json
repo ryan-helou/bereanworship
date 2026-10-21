@@ -1,0 +1,221 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "I Will Trust My Saviour Jesus",
+    "artist": "CityAlight",
+    "artistType": "GROUP",
+    "album": "Yet Not I",
+    "releaseYear": 2018,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Jonny Robinson, Rich Thompson, Tiarne Tranter, Jaywan Maxwell and Lucy Ann Bennett; copyright 2018 CityAlight Music, administered by Integrity Music; CCLI 7121855; original key C, 3/4 time, per PraiseCharts. The list's guess of CityAlight is right: CityAlight is the music ministry of St Paul's Castle Hill Anglican Church, Sydney. Bennett's older nineteenth-century hymn text supplies the four verses; the CityAlight writers added a new chorus and bridge. Some listings omit Bennett; PraiseCharts and a church hymnbook page credit her. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Four verses, a chorus and a bridge, ordered verse one, verse two, chorus, verse three, chorus, bridge, chorus, verse four. The verses state the singer's resolve to trust Jesus the Saviour in doubt and weakness, because his way is best and leads to everlasting rest, through every hour of life on the road home, and because he never leaves. His shield is named as the safest place. The chorus is a prayer to Jesus for help to trust more and that the singer's heart be his. The bridge is addressed to Christ: he died for the singer, the gift is complete, there is nothing to bring, and so the singer trusts him with all of himself. The voice is the singer's resolve and prayer, but each resolve rests on a credal base. The Spirit is not named.",
+    "claims": [
+      {
+        "claim": "The singer resolves to trust Jesus the Saviour in doubt and weakness.",
+        "subject": "Trust in Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ's way is best and leads to everlasting rest.",
+        "subject": "Providence and rest",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ never leaves his people on the road home, and his shield is the safest place.",
+        "subject": "Christ's presence and protection",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer prays for help to trust more and that the heart be Christ's.",
+        "subject": "Prayer for faith",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ died for the singer, his gift is complete, and the singer has nothing to bring.",
+        "subject": "Justification by grace through the cross",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Grace",
+        "title": "A finished gift with nothing to bring",
+        "explanation": "The bridge says Christ died for the singer, that his gift is complete, and that the singer brings nothing. That is justification by grace stated plainly, and it is why the trust the song sings is a response to a finished work and not a bid to earn.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Ephesians 2:8-9",
+        "scriptureRationale": "Saved by grace through faith, not from works - the bridge's claim."
+      },
+      {
+        "category": "Faith",
+        "title": "Trust asked for, not boasted of",
+        "explanation": "The chorus turns the verses' resolve into a prayer for help to trust more. Faith is treated as something God grows, and the singer's resolve is never the ground of hope.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Mark 9:24",
+        "scriptureRationale": "I believe; help my unbelief - the posture of the chorus."
+      },
+      {
+        "category": "Assurance",
+        "title": "He never leaves",
+        "explanation": "The final verse rests the singer's journey on Christ's constancy, so trust is grounded in who he is and not in the singer's steadiness.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Hebrews 13:5",
+        "scriptureRationale": "I will never leave you nor forsake you - the promise the verse leans on."
+      },
+      {
+        "category": "Rest",
+        "title": "Everlasting rest ahead",
+        "explanation": "The third verse sets Christ's way against doubt and points to the rest at the end of the road, giving suffering a destination.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MINOR",
+        "scriptureReference": "Matthew 11:28",
+        "scriptureRationale": "Come to me and I will give you rest - the rest the verse looks toward."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Justification by grace through faith",
+      "The atoning death of Christ for sinners",
+      "The completeness of Christ's gift",
+      "Christ's constant presence with his people",
+      "Faith as a gift sought in prayer",
+      "Rest in glory"
+    ],
+    "assessment": "Nothing to correct. The resolutions to trust are petitionary and each rests on Christ's death, his finished gift or his promise never to leave. The bridge states grace cleanly. The Spirit is not named, and the cross appears only in the bridge, but nothing is said that is false or misleading."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A hymn text with a new, singable setting",
+        "explanation": "The verses are Bennett's older words set to a new tune, so the song joins familiar hymn language to a melody a congregation can learn in a Sunday.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Suited to doubt, weakness and trial",
+        "explanation": "Its subject is trusting Christ when sight fails, which makes it suitable for the congregation facing hardship and for the assurance portion of a service.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published original key C, in 3/4 time, per PraiseCharts. A lower key may suit mixed congregations; test the chorus.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "C (original per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The chorus returns several times and the bridge is repeated, on a chart that runs long. The repeated words are the prayer for faith and the statement of grace.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in words and shape, with a chorus easily sung by a room. The repeats lengthen it, so a leader may trim them. A good fit for services on trust, doubt and the finished work of Christ."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Jesus named as Saviour",
+        "explanation": "The title and verses name Jesus the Saviour, and the bridge names his death, so the song has an unmistakable addressee and ground.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The shield and journey figures are biblical and familiar. The repeated 'I will' resolves could be heard as the singer's effort, but the chorus prayer and the bridge's finished gift settle that."
+  },
+  "synthesis": {
+    "summary": "A hymn text from Lucy Bennett with a new chorus and bridge by CityAlight's writers. The verses resolve to trust Jesus in doubt and weakness, resting on his constancy and the rest ahead; the chorus prays for help to trust more; the bridge states that Christ died, his gift is complete, and the singer brings nothing. Nothing in it is wrong. The Spirit is not reached, and the cross is stated only in the bridge.",
+    "themes": [
+      "Faith",
+      "Grace",
+      "Assurance",
+      "Christ",
+      "Cross",
+      "Salvation",
+      "Heaven",
+      "Prayer"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Proverbs 3:5",
+        "relevance": "Trusting the Lord rather than one's own understanding - the verses' resolve."
+      },
+      {
+        "reference": "Psalm 56:3",
+        "relevance": "Trust in the Lord when afraid."
+      },
+      {
+        "reference": "Hebrews 13:5",
+        "relevance": "God will never leave or forsake - the final verse."
+      },
+      {
+        "reference": "Matthew 11:28",
+        "relevance": "Rest given by Christ - the third verse's hope."
+      },
+      {
+        "reference": "Ephesians 6:16",
+        "relevance": "The shield of faith - the shield image."
+      },
+      {
+        "reference": "Ephesians 2:8-9",
+        "relevance": "Salvation by grace through faith - the bridge's claim."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://praisecharts.com/songs/details/73794/i-will-trust-my-savior-jesus-chords",
+      "title": "I Will Trust My Savior Jesus - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Robinson, Thompson, Tranter, Maxwell and Lucy Ann Bennett, 2018 copyright, CCLI 7121855, album Yet Not I, key C.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "CityAlight",
+      "url": "https://cityalight.com/song/i-will-trust-my-saviour-jesus/"
+    }
+  ]
+}

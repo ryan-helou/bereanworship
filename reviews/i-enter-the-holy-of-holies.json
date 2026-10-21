@@ -1,0 +1,203 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "MEDIUM",
+    "title": "I Enter the Holy of Holies",
+    "artist": "Paul Wilbur",
+    "artistType": "INDIVIDUAL",
+    "album": "Jerusalem Arise!",
+    "releaseYear": 1999,
+    "genre": "Contemporary Worship",
+    "isPublicDomain": false,
+    "notes": "The list credits this title to Kent Henry, which is a mismatch. Every site read shows the song titled I Enter the Holy of Holies as Paul Wilbur's, sung with For Your Name Is Holy on his 1999 album Jerusalem Arise!, and a published review names Wilbur as writer. Kent Henry's song is a different one, Take Me In, with different words and a similar theme. This review covers the Wilbur song only. No catalogue page loaded giving the publisher or a CCLI number, so those are not stated and the identification is held at medium confidence. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "One short four-line stanza sung twice, each time followed by a two-line refrain that is itself doubled, then a closing reprise of five short petition lines and an outro that repeats the refrain's holiness line. The stanza addresses God and says the singer enters the Holy of Holies by the blood of the Lamb, meaning Christ's atoning death, to worship God alone, honouring the divine name I Am. The refrain gives worship with the reason that his name is holy. The reprise prays that God's glory, the life of his river and the truth of his kingdom would come upon us. Christ is referred to as the Lamb rather than named; the Spirit is not named. The voice is first person, framed as the singer's act of approach, though what it says is credal: entry is by Christ's blood and God is holy. It is thin beyond those two truths.",
+    "claims": [
+      {
+        "claim": "The worshipper enters the Holy of Holies by the blood of the Lamb, that is by Christ's atoning death.",
+        "subject": "Access to God through Christ's blood",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Worship is owed to God alone, and the divine name I Am is honoured.",
+        "subject": "Exclusive worship and the divine name",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is worshipped because his name is holy.",
+        "subject": "The holiness of God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Prayer that God's glory, the life of his river and the truth of his kingdom would come upon the congregation.",
+        "subject": "Petition for God's presence and kingdom",
+        "location": "TAG",
+        "lyricExcerpt": null,
+        "locationDetail": "the closing reprise"
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "Entry is by the blood of the Lamb",
+        "explanation": "The stanza grounds the singer's approach in Christ's atoning death, not in the singer's worthiness. That is the pattern of Hebrews, and it is the song's one act of God.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Hebrews 10:19",
+        "scriptureRationale": "Confidence to enter the holy place by the blood of Jesus - the stanza's claim."
+      },
+      {
+        "category": "God",
+        "title": "Worship because God is holy",
+        "explanation": "The refrain gives the reason for worship, that his name is holy, so the song rests on who God is rather than on the singer's feeling.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 6:3",
+        "scriptureRationale": "The holiness of God as the ground of worship."
+      },
+      {
+        "category": "Prayer",
+        "title": "A prayer for glory and kingdom truth",
+        "explanation": "The closing petition is for the congregation, in plural voice, asking that God's glory and kingdom truth come upon it.",
+        "songLocation": "TAG",
+        "magnitude": "MINOR",
+        "scriptureReference": "1 Kings 8:10-11",
+        "scriptureRationale": "God's glory filling the house - the background of the petition."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Access to God by the blood of Christ",
+      "The holiness of God",
+      "Worship of God alone",
+      "The divine name I Am"
+    ],
+    "assessment": "No concern. Entering the holy place by the blood of the Lamb follows Hebrews 10:19, and the holiness refrain is Scripture's own ground for worship. The Berean Test review finds it sound. Its limit is thinness: beyond entry by blood and God's holiness it says little, and Christ is called the Lamb rather than named. The river and kingdom imagery of the closing petition is ordinary biblical figure."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Short and simple",
+        "explanation": "A four-line stanza and a two-line refrain are learned in one pass, and a published review recommends it for corporate worship because of that simplicity.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fits a service of approach",
+        "explanation": "Its subject of entering God's presence by Christ's blood suits a call to worship or a movement into adoration.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "No published key was found for this song, so none is stated. Test it in the room and set the key for the congregation.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not established",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The stanza is sung twice, the refrain is doubled each time, and the holiness line returns up to four times in the outro. The words are few, so repetition is carrying much of the song.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form and very easy to sing. The repetition is heavy against a small amount of content, so the song works best as a short movement of adoration rather than as teaching."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Plain, short claims",
+        "explanation": "Each line makes one claim, entry by blood and a holy name, and nothing is obscure.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. Holy of Holies and the Lamb are biblical terms a church can explain in a sentence. The Berean Test reviewer notes an unbeliever may find some imagery unclear but would still grasp it as worship."
+  },
+  "synthesis": {
+    "summary": "A short song of approach: the worshipper enters the Holy of Holies by the blood of the Lamb, worships God alone and honours the name I Am, and gives God's holiness as the reason. A closing prayer asks for his glory and kingdom truth. Nothing in it is wrong; it is thin, heavily repeated, and names Christ only as the Lamb. The list's Kent Henry credit is a mismatch.",
+    "themes": [
+      "Holiness",
+      "Worship",
+      "Cross",
+      "Prayer",
+      "God"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Hebrews 10:19",
+        "relevance": "Entering the holy place by the blood of Jesus."
+      },
+      {
+        "reference": "Exodus 3:14",
+        "relevance": "The divine name I Am."
+      },
+      {
+        "reference": "Isaiah 6:3",
+        "relevance": "Holiness as the ground of worship."
+      },
+      {
+        "reference": "Leviticus 16",
+        "relevance": "The Day of Atonement background to the Holy of Holies."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.thebereantest.com/paul-wilbur-for-your-name-is-holy",
+      "title": "Paul Wilbur - For Your Name Is Holy",
+      "publisher": "The Berean Test",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "Names Paul Wilbur as writer, Jerusalem Arise! 1999; a review finding the teaching sound and well supported by Scripture.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Paul_Wilbur",
+      "title": "Paul Wilbur",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Background on the artist; the search result showed no track-level credits for this song.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "sifalyrics.com",
+      "url": "https://sifalyrics.com/paul-wilbur-i-enter-the-holy-of-holies-for-your-name-is-holy-lyrics"
+    }
+  ]
+}

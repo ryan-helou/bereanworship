@@ -1,0 +1,161 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "I Love You, Lord",
+    "artist": "Laurie Klein",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1978,
+    "genre": "Contemporary Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Laurie Klein (born 1950) in 1978; hymnary records list her as author and composer, with the copyright held by House of Mercy Music and administered by Maranatha! Music. The list's guess of Laurie Klein is right. It is a single eight-line chorus with no verses, widely printed in church songbooks and often sung as a round. Reviewed as the song, not as any one recording; no CCLI number loaded in the sources read.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "One eight-line unit only, with no verses and no bridge; the whole song is this unit, usually repeated by the congregation. The singer addresses the Lord directly and states love for him, an act of lifting the voice in worship, and a call to the soul to rejoice. The singer then asks the King to take joy in what he hears, that it be a pleasing sound to him. God is addressed only as Lord and King. No act of God is named, and Christ and the Spirit are not named. The voice is the singer's own experience and offering, a prayer rather than a credal confession. It loosely echoes the praise psalms without setting one.",
+    "claims": [
+      {
+        "claim": "The singer loves the Lord and lifts the voice in worship to him.",
+        "subject": "Love for God expressed in praise",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer calls the soul to rejoice.",
+        "subject": "Rejoicing in God",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer asks the King to take joy in the sound of this praise and find it pleasing.",
+        "subject": "Worship offered for God's pleasure",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "substance": {
+    "namesGod": false,
+    "statesAnAct": false,
+    "teachesDoctrine": false,
+    "godDirected": true,
+    "groundsItsClaims": false,
+    "corporateVoice": false,
+    "engagesScripture": false
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Worship",
+        "title": "Praise offered to God for his pleasure",
+        "explanation": "The song is addressed to the Lord and King and asks that the offering please him, which puts God, not the singer's experience, as the audience of worship.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 19:14",
+        "scriptureRationale": "Words and meditation acceptable in God's sight - the aim of the closing request."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God is Lord and King",
+      "God is worthy of the believer's love and praise"
+    ],
+    "assessment": "Nothing to correct. It is a plain, safe offering of praise that loosely echoes the praise psalms. Its limit is an absence, not an error: it names no act of God, does not name Christ or the Spirit, and has no gospel content. It therefore cannot carry teaching on its own and sits best beside songs that do."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "One small unit anyone can learn",
+        "explanation": "Eight short lines, learned at once and easy to hold in the memory, with no verses to follow.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Use",
+        "title": "Works as a round or a quiet response",
+        "explanation": "Its brevity suits a quiet moment of response, and it is often sung as a round.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Hymnary records show the tune in F major. Chosen keys vary by songbook; set it for the room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "F major (per hymnary records)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The single unit is sung over and over, but it is the whole song and brief enough that repetition is the form rather than padding for missing words.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Fully congregational: tiny, singable, and needing no leader or band. Its worth is as a quiet response of love, not as instruction."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Language",
+        "title": "Plain and personal",
+        "explanation": "Every line says one simple thing and none is open to misreading.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Entirely clear. The one thing a visitor would not learn from it is who the Lord is, since neither Christ nor any act of God is named."
+  },
+  "synthesis": {
+    "summary": "A single eight-line chorus addressed to the Lord and King: the singer says they love him, lift their voice, call the soul to rejoice, and ask that the praise please him. Nothing in it is wrong. It names no act of God and neither Christ nor the Spirit, and its voice is the singer's own offering. Very short, very singable, often sung as a round.",
+    "themes": [
+      "Worship",
+      "Thanksgiving",
+      "Prayer"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 103:1-2",
+        "relevance": "The soul called to bless the Lord - loosely echoed in the call to rejoice."
+      },
+      {
+        "reference": "Psalm 104:34",
+        "relevance": "A prayer that one's meditation be pleasing to God."
+      },
+      {
+        "reference": "Psalm 19:14",
+        "relevance": "Words acceptable in God's sight."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://hymnary.org/person/Klein_Laurie",
+      "title": "Laurie Klein",
+      "publisher": "Hymnary.org",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_1",
+      "establishes": "Klein (b. 1950) listed as author of the English text, with wide songbook use; no biography.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com/Laurie-klein-i-love-you-lord-lyrics"
+    }
+  ]
+}

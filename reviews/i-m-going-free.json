@@ -1,0 +1,234 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "I'm Going Free (Jailbreak)",
+    "artist": "Vertical Worship",
+    "artistType": "GROUP",
+    "album": "The Rock Won't Move",
+    "releaseYear": 2013,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Tyler Miller, Jacob Sooter and Benji Cowart; copyright 2012, Essential Music Publishing and Curb Music Publishing; CCLI 6561868. Recorded live by Vertical Worship (Vertical Church Band) on The Rock Won't Move, 2013; the studio EP version was a bluegrass arrangement. The list's artist guess of Vertical Worship is right for the recording churches know, but the writers are three individuals. PraiseCharts lists original key E, with D and Eb available. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Two verses, a chorus after each, a bridge, a short interlude and a final chorus; the chorus returns four times. Verse one is a courtroom picture: the singer stands accused but is acquitted on borrowed innocence, with the judge himself as defender, and the verdict sets hell ringing with news of freedom. The chorus addresses God, saying he removed the singer's shackles and that Jesus is the singer's liberty. Verse two speaks of a new identity, a refusal to go back to the old life, and a narrow road of grace and hope leading home. The bridge declares freedom, first singular and then plural. The interlude looks to a future departure to be with God by grace. The Spirit is not named, and the cross and resurrection are not named explicitly; Jesus is named only in the chorus.",
+    "claims": [
+      {
+        "claim": "The singer stands accused but is justified on an innocence that is not his own, with God as both judge and defender.",
+        "subject": "Justification by imputed righteousness",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God has removed sin's bondage from the singer and cast it away.",
+        "subject": "Forgiveness and release",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus is the one who sets the singer free.",
+        "subject": "Christ the liberator",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer has a new identity and will not return to the old life.",
+        "subject": "New creation",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The path ahead is narrow, paved with grace and hope, and leads home.",
+        "subject": "Sanctification by grace; heaven",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer, and then the whole congregation, is free indeed.",
+        "subject": "Freedom in Christ",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "A future departure to be with God is by grace.",
+        "subject": "Heaven as destination",
+        "location": "OUTRO",
+        "lyricExcerpt": null,
+        "locationDetail": "the interlude"
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Justification",
+        "title": "Acquittal on borrowed righteousness",
+        "explanation": "The first verse pictures a courtroom in which the accused is declared free because the judge himself supplies the defence and the innocence. That is imputation, stated in a picture an ordinary singer can follow.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Romans 8:33-34",
+        "scriptureRationale": "God justifies; Christ intercedes - the verdict and the advocate the verse describes."
+      },
+      {
+        "category": "Forgiveness",
+        "title": "Sin's bondage removed by God",
+        "explanation": "The chorus names God as the one who disposed of the shackles and Jesus as the singer's liberty, so freedom is God's act, not the singer's achievement.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Micah 7:19",
+        "scriptureRationale": "God casts our sins into the depths of the sea."
+      },
+      {
+        "category": "Grace",
+        "title": "The road home is paved with grace",
+        "explanation": "The second verse locates the believer's new life and its end in grace, not in resolve alone.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "2 Corinthians 5:17",
+        "scriptureRationale": "New creation in Christ."
+      },
+      {
+        "category": "Freedom",
+        "title": "Free indeed, together",
+        "explanation": "The bridge moves from the singer's freedom to the congregation's, keeping the song from becoming private testimony.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MINOR",
+        "scriptureReference": "John 8:36",
+        "scriptureRationale": "If the Son sets you free, you are free indeed."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Justification by imputed righteousness",
+      "God as judge and advocate",
+      "Forgiveness: sin removed",
+      "Freedom in Jesus",
+      "New creation and a new identity",
+      "Sanctification by grace",
+      "Heaven as the believer's home"
+    ],
+    "assessment": "Nothing to correct. The courtroom picture of borrowed innocence is imputation, in line with Reformation teaching, and the new-identity language in verse two voices a changed life, not sinlessness. The cross and resurrection are assumed rather than named, Jesus is named only in the chorus, and the Spirit is absent."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A simple, rousing form",
+        "explanation": "Short verses, a chorus returning four times and a bridge in which everyone sings the same declaration make it easy to join on first hearing.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Arrangement",
+        "title": "Works in more than one style",
+        "explanation": "The live album text and the bluegrass studio version carry the same song, so it adapts to different bands.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "PraiseCharts lists original key E, with D and Eb available. Test the chorus in the room's range.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "E (original per PraiseCharts); D and Eb available",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The chorus returns four times and the bridge repeats, but the repeated lines carry the song's central confession and are not filler.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "A rousing, singable song whose structure invites congregational participation; the heavy repetition and the live-album energy mean a leader must keep the focus on what is being declared."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Imagery",
+        "title": "A courtroom picture that explains itself",
+        "explanation": "Accused, judge, defender and verdict make justification easy to follow without technical vocabulary.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The courtroom and jailbreak figures are plain, and the one place a hearer might read it as sinlessness, the new-identity line, is a statement of changed direction."
+  },
+  "synthesis": {
+    "summary": "A rousing declaration of freedom built on a courtroom picture of justification: the accused acquitted on borrowed innocence with God as judge and defender, shackles thrown away, Jesus as liberty, a new life and a narrow road of grace leading home. Nothing in it is wrong. The cross and resurrection are assumed, not named, the Spirit is absent, and the chorus repeats heavily.",
+    "themes": [
+      "Grace",
+      "Salvation",
+      "Sin",
+      "Christ",
+      "Faith",
+      "Heaven",
+      "Assurance"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Romans 8:33-34",
+        "relevance": "God justifies, Christ intercedes - the courtroom of verse one."
+      },
+      {
+        "reference": "Micah 7:19",
+        "relevance": "Sins cast into the sea - the chorus's picture."
+      },
+      {
+        "reference": "John 8:36",
+        "relevance": "Free indeed through the Son - the bridge."
+      },
+      {
+        "reference": "2 Corinthians 5:17",
+        "relevance": "A new creation in Christ - verse two."
+      },
+      {
+        "reference": "Matthew 7:14",
+        "relevance": "The narrow road - verse two."
+      },
+      {
+        "reference": "Galatians 5:1",
+        "relevance": "Christ set us free for freedom."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://praisecharts.com/songs/details/24432/im-going-free-jailbreak-sheet-music",
+      "title": "I'm Going Free (Jailbreak) - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Jacob Sooter, Tyler Miller, Benji Cowart; CCLI 6561868; Essential and Curb publishing; album The Rock Won't Move; original key E; copyright 2012.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com/Vertical-worship-im-going-free-jailbreak-live-lyrics"
+    }
+  ]
+}

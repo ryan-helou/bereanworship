@@ -1,0 +1,211 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "I Stand Amazed (How Marvelous)",
+    "artist": "Chris Tomlin",
+    "artistType": "INDIVIDUAL",
+    "album": "Passion: Everything Glorious",
+    "releaseYear": 2006,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "The hymn is Charles H. Gabriel's words and music, published in 1905 in three collections (Praises, Songs of Praise Number Two, Revival Hymns) under the title My Savior's Love, also known as I Stand Amazed in the Presence. Gabriel's memoirs credit editor Elijah P. Brown with the seed of it; a further stanza was added in 1910. The text is public domain. The recording churches know is Chris Tomlin's on Passion: Everything Glorious (2006, Six Steps), and the sheet-music credits conflict: Lifeway lists Tomlin as arranger and PraiseCharts credits another arranger, so Tomlin's role as arranger is not settled here. The 2006 version is a different arrangement from the standard hymnal setting: it keeps the opening stanza, the refrain, the Calvary stanza and the glory stanza, and does not include the hymn's Gethsemane stanza. Reviewed as the song in this form, with the text read from the standard wording. Published key Ab (PraiseCharts).",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Three stanzas and a refrain that returns after the first stanza and is repeated in performance. The first stanza stands in wonder before Jesus the Nazarene and marvels that he loves a sinner who is condemned and unclean. The refrain turns the wonder into a continuing song: the singer marvels at the Savior's love and means to keep singing it. The second stanza says Christ took the singer's sins and sorrows as his own and carried that burden to Calvary, suffering and dying alone. The third looks ahead to seeing his face among the ransomed in glory and singing his love through the ages. The voice is personal wonder, but each statement rests on a claim about Christ: his person, his sin-bearing, his cross. The resurrection and return are only implied.",
+    "claims": [
+      {
+        "claim": "Jesus of Nazareth loves a sinner who is condemned and unclean.",
+        "subject": "The love of Christ for sinners",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The proper response to Christ's love is continuing wonder and praise.",
+        "subject": "Worship as response",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ took the singer's sins and sorrows as his own.",
+        "subject": "Substitutionary atonement",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ carried that burden to Calvary and died there, alone.",
+        "subject": "The cross",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The redeemed will see his face in glory and sing his love through the ages.",
+        "subject": "Eschatological hope",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "Sin-bearing stated plainly",
+        "explanation": "The second stanza says Christ took the singer's sins as his own and carried the burden to Calvary. Sin is the singer's, the death is Christ's, and the exchange is named rather than hinted at.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Isaiah 53:4-6",
+        "scriptureRationale": "The servant bearing our griefs and iniquities - the claim the stanza makes."
+      },
+      {
+        "category": "The gospel",
+        "title": "Wonder grounded in what Christ did",
+        "explanation": "The amazement is not a mood floating free. It is anchored in a person, Jesus the Nazarene, and in his love for the condemned, shown at the cross. The song teaches by narrating.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Peter 2:24",
+        "scriptureRationale": "Christ bearing our sins in his body on the tree - the event the wonder answers."
+      },
+      {
+        "category": "Hope",
+        "title": "Seeing his face",
+        "explanation": "The last stanza places the singer's end in glory among the ransomed, seeing Christ and singing his love. Hope is a person's face, not a place or a feeling.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 22:3-4",
+        "scriptureRationale": "They will see his face - the promise the stanza reaches for."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Christ's love for sinners",
+      "Substitutionary atonement",
+      "The cross at Calvary",
+      "Sin and condemnation",
+      "The hope of seeing Christ in glory"
+    ],
+    "assessment": "Nothing to correct. The song marvels, but at specific things: Christ's love for the condemned and unclean, his taking the singer's sins, his death at Calvary, and the promise of seeing him in glory. The word describing his dying alone is the old hymn's way of naming the cross's loneliness and does not touch the Trinity. The resurrection and the return are implied rather than sung."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A hymn tune and refrain that carry easily",
+        "explanation": "The refrain is short and returns, and the stanzas are plain narrative. A room learns it on one pass.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Heritage",
+        "title": "An old hymn made available to a new generation",
+        "explanation": "The 2006 arrangement keeps the core of Gabriel's hymn, so congregations that know it from hymnals and those that know the recording sing the same song.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published in Ab (PraiseCharts) for the Tomlin arrangement. Test the refrain in the room before settling on a key.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Ab (per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The refrain returns to the same confession of wonder after the stanzas, and each return follows a new piece of the story.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form and in voice. The refrain is easy to take up, the stanzas move in order, and the arrangement keeps the hymn's shape. It suits services that gather around the cross, Communion, and Good Friday, and is equally at home as a response after preaching."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Jesus the Nazarene is named",
+        "explanation": "The addressee is not an unspecified You. The song names Jesus, and says what he did, which makes the wonder intelligible to a visitor.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The vocabulary is plain and a little old: ransomed, Calvary. The line about dying alone is a familiar hymn phrase and is not likely to be taken as a doctrinal claim about the Godhead."
+  },
+  "synthesis": {
+    "summary": "Gabriel's 1905 hymn in Chris Tomlin's 2006 arrangement. It marvels at Jesus of Nazareth's love for a condemned sinner, says he took the singer's sins to Calvary and died there, and looks to seeing his face in glory. The Gethsemane stanza of the full hymn is not in this version. Nothing in the text is wrong; the resurrection and the return are implied rather than stated.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Grace",
+      "Salvation",
+      "Worship",
+      "Hope",
+      "Heaven"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Isaiah 53:4-6",
+        "relevance": "The servant bearing our griefs and sins - the substitution the second stanza states."
+      },
+      {
+        "reference": "1 Peter 2:24",
+        "relevance": "Christ bearing our sins in his body on the tree."
+      },
+      {
+        "reference": "Luke 23:33",
+        "relevance": "The crucifixion at the place called Calvary."
+      },
+      {
+        "reference": "Revelation 22:3-4",
+        "relevance": "The redeemed seeing his face - the hope of the final stanza."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.hymnologyarchive.com/i-stand-amazed",
+      "title": "I stand amazed in the presence",
+      "publisher": "Hymnology Archive",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "Hymnological essay: Gabriel's authorship, 1905 publication in three collections, the 1910 extra stanza, and a reading of the text as devotion centred on Christ's suffering love and heavenly hope.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://worship.lifeway.com/findAndBuy/songPage/IStandAmazed(HowMarvelous)?versionId=93746",
+      "title": "I Stand Amazed (How Marvelous)",
+      "publisher": "Lifeway Worship",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_3",
+      "establishes": "Catalogue record for the Tomlin version: 2006 copyright, Gabriel as writer, listed arranger, album Passion: Everything Glorious.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com/Chris-tomlin-i-stand-amazed-how-marvelous-lyrics"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "I'll Not Be Shaken (Psalm 62)",
+    "artist": "Wendell Kimbrough",
+    "artistType": "INDIVIDUAL",
+    "album": "Psalms We Sing Together",
+    "releaseYear": 2016,
+    "genre": "Psalm setting / Congregational",
+    "isPublicDomain": false,
+    "notes": "Written by Wendell Kimbrough as a setting of Psalm 62. Kimbrough began writing a refrain for each Sunday's lectionary psalm at his Anglican church in Fairhope, Alabama, in 2014, and reworked the best into full songs; ten appeared on Psalms We Sing Together in 2016 (the reading note dates the words and music to 2015). The list's guess of Kimbrough is right. No publisher page or CCLI number was found, and a CCLI licence is required to project or copy it. Reviewed as the writer's published text.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Three four-line stanzas and a four-line chorus, printed as stanza one, chorus, stanza two, stanza three; in practice the chorus likely returns after each. Stanza one is the singer's word to himself and others: waiting in silence for God alone, God as rock, salvation and fortress. The chorus declares that the singer will not be shaken, that all hope rests in God's love, and that salvation comes from God alone. Stanza two turns to hearers and warns against trusting in riches, saying the rich are weak and the poor strong when they turn to God alone for help. Stanza three urges pouring out the heart to God as refuge, and says no other hope or love compares with his. Christ and the Spirit are not named, and no incarnation, cross or resurrection is reached.",
+    "claims": [
+      {
+        "claim": "The soul waits in silence for God alone, because he is the singer's rock, salvation and fortress.",
+        "subject": "Trust in God alone",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer will not be shaken, since all hope rests in God's love.",
+        "subject": "Assurance in God's steadfast love",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Salvation comes from God alone.",
+        "subject": "Salvation is God's",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Hope should not be placed in riches, and rest is not found in wealth.",
+        "subject": "Wealth as a false refuge",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Those who turn to God alone for help are strong, however weak they seem.",
+        "subject": "God as the strength of the weak",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is a refuge who hears the heart poured out before him.",
+        "subject": "Prayer and refuge",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "No other hope or love compares with God's.",
+        "subject": "Incomparability of God",
+        "location": "VERSE_3",
+        "lyricExcerpt": null,
+        "locationDetail": "the closing lines"
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Scripture",
+        "title": "Psalm 62 set faithfully",
+        "explanation": "The song follows the psalm's movement: silent waiting, God as rock and salvation, the warning about wealth, and the call to pour out the heart. A congregation sings a whole psalm's argument rather than a mood.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 62:1-2, 5-8",
+        "scriptureRationale": "Waiting for God alone, he is rock and salvation, trust him and pour out your heart."
+      },
+      {
+        "category": "God",
+        "title": "Salvation attributed to God alone",
+        "explanation": "The chorus places hope and salvation entirely in God's love, not in the singer's resolve or in any earthly security.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 62:7",
+        "scriptureRationale": "My salvation and my glory rest on God."
+      },
+      {
+        "category": "Wealth",
+        "title": "A warning against trusting riches",
+        "explanation": "The second stanza sets the false refuge of wealth against God, and does it in the psalm's own terms.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 62:10; 1 Timothy 6:17",
+        "scriptureRationale": "Do not set your heart on riches; hope in God."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God as rock, refuge and salvation",
+      "Salvation from God alone",
+      "God's steadfast love",
+      "The vanity of trusting wealth",
+      "Prayer as pouring out the heart to God"
+    ],
+    "assessment": "Nothing to correct. The song sets Psalm 62 closely and places salvation and hope in God alone. Christ and the Spirit are not named, and it states no act of God: it confesses who God is, as the psalm does, and does not reach the gospel events. Its closing lines contain a double-negative wording slip, treated under clarity."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Compact and easy to learn",
+        "explanation": "Four-line stanzas and a single chorus make the form quick to learn; the album's reviewer praises the simple melodies congregations can pick up fast.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Suited to the psalm of the day",
+        "explanation": "Written to serve a congregation singing a lectionary psalm, it fits a service where Psalm 62 is read.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published key not established for this review; check the leader's chart and set the key for a mixed congregation.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not established",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "Only the chorus repeats, and it returns to the central confession after each stanza.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Written for a congregation: short stanzas, one refrain, and words a room can sing without a leader's help."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Language",
+        "title": "Plain psalm vocabulary",
+        "explanation": "Rock, fortress, refuge and steadfast love are the psalm's own plain figures, understood without explanation.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [
+      {
+        "category": "Grammar",
+        "title": "Double negatives near the end",
+        "explanation": "The last two lines of stanza three, read literally, say the opposite of the intended point, that no other hope fails and no love runs dry as God's does. It reads as a grammatical slip, not a doctrinal claim; a leader may wish to check the wording.",
+        "songLocation": "VERSE_3",
+        "severity": "MINOR",
+        "centrality": "PERIPHERAL",
+        "likelihood": "POSSIBLE",
+        "recurring": false
+      }
+    ],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear throughout except for a double-negative in the closing lines of the last stanza, which a congregation will probably hear as the intended praise."
+  },
+  "synthesis": {
+    "summary": "A close setting of Psalm 62: waiting in silence for God alone, God as rock, salvation and refuge, hope in his steadfast love, and a warning against trusting wealth. Salvation is credited to God alone. It states no act of God and does not name Christ or the Spirit. No doctrinal concern; one small clarity note on double-negative wording near the end.",
+    "themes": [
+      "God",
+      "Faith",
+      "Assurance",
+      "Prayer",
+      "Sovereignty",
+      "Salvation"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 62:1-2",
+        "relevance": "Waiting for God alone, who is rock and salvation."
+      },
+      {
+        "reference": "Psalm 62:5-8",
+        "relevance": "Hope in God, trust at all times, pour out the heart."
+      },
+      {
+        "reference": "Psalm 62:10",
+        "relevance": "Do not set the heart on riches."
+      },
+      {
+        "reference": "1 Timothy 6:17",
+        "relevance": "Hope in God, not in uncertain riches."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://thebanner.org/ko/node/17418",
+      "title": "Review of Wendell Kimbrough's Come to Me (mentions Psalms We Sing Together)",
+      "publisher": "The Banner",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Dates Psalms We Sing Together to 2016, ten songs written for the weekly psalms at Kimbrough's Fairhope congregation, with simple melodies. Does not discuss this song.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://expositorysongs.com/songs/i-ll-not-be-shaken-psalm-62/",
+      "title": "I'll Not Be Shaken (Psalm 62)",
+      "publisher": "Expository Songs",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "Listing credits Wendell Kimbrough as writer, album Psalms We Sing Together, 2016, Psalm 62 as the scripture basis.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Wendell Kimbrough (Bandcamp)",
+      "url": "https://wendellk.bandcamp.com/track/ill-not-be-shaken-psalm-62"
+    }
+  ]
+}
