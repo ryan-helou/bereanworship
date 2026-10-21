@@ -48,6 +48,8 @@ export interface SongQuery {
   minClarity?: number;
   /** Only songs whose measured range is at least this accessible. */
   minRange?: number;
+  /** Restrict to exactly these songs; an empty list matches nothing. */
+  onlyIds?: string[];
 }
 
 export interface SongListItem {
@@ -129,6 +131,9 @@ export async function searchSongs(query: SongQuery): Promise<Paged<SongListItem>
   if (query.minRange !== undefined) conditions.push(Prisma.sql`s."rangeScore" >= ${query.minRange}`);
   if (query.recommendation) {
     conditions.push(Prisma.sql`s."recommendation" = ${query.recommendation}::"Recommendation"`);
+  }
+  if (query.onlyIds) {
+    conditions.push(query.onlyIds.length > 0 ? Prisma.sql`s."id" IN (${Prisma.join(query.onlyIds)})` : Prisma.sql`FALSE`);
   }
   if (query.artistSlug) conditions.push(Prisma.sql`a."slug" = ${query.artistSlug}`);
   if (query.genre) conditions.push(Prisma.sql`s."genre" = ${query.genre}`);

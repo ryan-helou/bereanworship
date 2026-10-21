@@ -3,7 +3,7 @@ import { Suspense } from 'react';
 import { SearchBar } from '@/components/search-bar';
 import { env } from '@/lib/env';
 import { hasSiteAccess } from '@/lib/site-access';
-import { songVerdicts } from '@/lib/notes';
+import { songIdsByVerdict, songVerdicts, VERDICT_FILTERS, type VerdictFilter } from '@/lib/notes';
 import { SongCard, SongCardSkeleton } from '@/components/cards';
 import { FilterBar } from '@/components/filters';
 import { Pagination } from '@/components/pagination';
@@ -73,6 +73,7 @@ export default async function SongsPage({ searchParams }: { searchParams: Search
 
 async function Filters() {
   const [themes, genres] = await Promise.all([listThemesWithCounts(), listGenres()]);
+  const showVerdict = env.siteGateEnabled && (await hasSiteAccess());
 
   return (
     <div>
@@ -80,13 +81,19 @@ async function Filters() {
         sortOptions={SORT_OPTIONS}
         themes={themes.map((t) => ({ value: t.slug, label: t.name, count: t.count }))}
         genres={genres.map((g) => ({ value: g, label: g }))}
+        showVerdict={showVerdict}
       />
     </div>
   );
 }
 
 async function Results({ params }: { params: NormalizedParams }) {
+  // Verdicts are private: the filter only applies behind the site password.
+  const canSeeVerdicts = env.siteGateEnabled && (await hasSiteAccess());
+  const onlyIds = canSeeVerdicts && params.verdict ? await songIdsByVerdict(params.verdict) : undefined;
+
   const result = await searchSongs({
+    onlyIds,
     q: params.q,
     page: params.page,
     perPage: DEFAULT_PER_PAGE,
@@ -188,6 +195,7 @@ interface NormalizedParams {
   minScore?: number;
   maxScore?: number;
   minRange?: number;
+  verdict?: VerdictFilter;
   raw: Record<string, string | undefined>;
 }
 
@@ -211,7 +219,7 @@ function normalize(input: Record<string, string | string[] | undefined>): Normal
   const pageRaw = Number.parseInt(single('page') ?? '1', 10);
 
   const raw: Record<string, string | undefined> = {};
-  for (const key of ['q', 'sort', 'recommendation', 'theme', 'genre', 'minScore', 'maxScore', 'minRange']) {
+  for (const key of ['q', 'sort', 'recommendation', 'theme', 'genre', 'minScore', 'maxScore', 'minRange', 'verdict']) {
     raw[key] = single(key);
   }
 
@@ -223,6 +231,9 @@ function normalize(input: Record<string, string | string[] | undefined>): Normal
       recommendationRaw && VALID_RECOMMENDATIONS.has(recommendationRaw)
         ? (recommendationRaw as Recommendation)
         : undefined,
+    verdict: (VERDICT_FILTERS as readonly string[]).includes(single('verdict') ?? '')
+      ? (single('verdict') as VerdictFilter)
+      : undefined,
     theme: single('theme')?.slice(0, 60),
     genre: single('genre')?.slice(0, 60),
     minScore: int('minScore'),

@@ -235,3 +235,25 @@ export async function songVerdicts(
   }
   return verdicts;
 }
+
+export const VERDICT_FILTERS = ['TO_REVIEW', 'APPROVED', 'MAYBE', 'REJECTED'] as const;
+export type VerdictFilter = (typeof VERDICT_FILTERS)[number];
+
+/**
+ * Ids of the reviewed songs with the given verdict. TO_REVIEW is the songs
+ * with no verdict at all: no note and no artist rule, so still waiting on a
+ * decision.
+ */
+export async function songIdsByVerdict(filter: VerdictFilter): Promise<string[]> {
+  const songs = await prisma.song.findMany({
+    where: { reviewStatus: 'COMPLETED' },
+    select: { id: true, artist: { select: { displayName: true } } },
+  });
+  const verdicts = await songVerdicts(songs);
+  return songs
+    .filter((song) => {
+      const verdict = verdicts.get(song.id);
+      return filter === 'TO_REVIEW' ? verdict === undefined : verdict === filter;
+    })
+    .map((song) => song.id);
+}

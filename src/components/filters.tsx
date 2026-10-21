@@ -25,11 +25,13 @@ export function FilterBar({
   genres,
   sortOptions,
   showScoreFilters = true,
+  showVerdict = false,
 }: {
   themes: FilterOption[];
   genres: FilterOption[];
   sortOptions: FilterOption[];
   showScoreFilters?: boolean;
+  showVerdict?: boolean;
 }) {
   const router = useRouter();
   const pathname = usePathname();
@@ -52,7 +54,7 @@ export function FilterBar({
     [pathname, router, searchParams],
   );
 
-  const activeCount = ['recommendation', 'theme', 'genre', 'minScore', 'maxScore', 'minRange'].filter((k) =>
+  const activeCount = ['recommendation', 'theme', 'genre', 'minScore', 'maxScore', 'minRange', 'verdict'].filter((k) =>
     searchParams.get(k),
   ).length;
 
@@ -70,6 +72,21 @@ export function FilterBar({
         placeholder="Relevance"
         onChange={(value) => update('sort', value)}
       />
+
+      {showVerdict && (
+        <Select
+          label="My verdict"
+          value={searchParams.get('verdict') ?? ''}
+          placeholder="Any verdict"
+          options={[
+            { value: 'TO_REVIEW', label: 'To review' },
+            { value: 'APPROVED', label: 'Approved' },
+            { value: 'MAYBE', label: 'Maybe' },
+            { value: 'REJECTED', label: 'Rejected' },
+          ]}
+          onChange={(value) => update('verdict', value)}
+        />
+      )}
 
       <Select
         label="Recommendation"
