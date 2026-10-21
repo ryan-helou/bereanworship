@@ -257,3 +257,22 @@ export async function songIdsByVerdict(filter: VerdictFilter): Promise<string[]>
     })
     .map((song) => song.id);
 }
+
+/**
+ * Songs the owner has rejected that have no review yet, A to Z.
+ *
+ * A rejected note whose subject names no reviewed song is the owner's decision
+ * about a song still waiting for its review. The song list shows these as
+ * "TBD" so a rejection made before review is still visible there. Once the
+ * song is reviewed the note links to it and it drops out of this list.
+ */
+export async function listPendingRejected(): Promise<string[]> {
+  const notes = await listNotes();
+  const titles = new Map<string, string>();
+  for (const note of notes) {
+    if (note.bucket !== 'REJECTED' || note.song || !note.subject) continue;
+    const key = normalizeTitle(note.subject);
+    if (key && !titles.has(key)) titles.set(key, note.subject);
+  }
+  return [...titles.values()].sort((a, b) => a.localeCompare(b));
+}

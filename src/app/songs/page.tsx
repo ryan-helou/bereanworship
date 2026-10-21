@@ -3,7 +3,7 @@ import { Suspense } from 'react';
 import { SearchBar } from '@/components/search-bar';
 import { env } from '@/lib/env';
 import { hasSiteAccess } from '@/lib/site-access';
-import { songIdsByVerdict, songVerdicts, VERDICT_FILTERS, type VerdictFilter } from '@/lib/notes';
+import { listPendingRejected, songIdsByVerdict, songVerdicts, VERDICT_FILTERS, type VerdictFilter } from '@/lib/notes';
 import { SongCard, SongCardSkeleton } from '@/components/cards';
 import { FilterBar } from '@/components/filters';
 import { Pagination } from '@/components/pagination';
@@ -106,7 +106,14 @@ async function Results({ params }: { params: NormalizedParams }) {
     minRange: params.minRange,
   });
 
-  if (result.items.length === 0) {
+  // Rejected songs still waiting for a review: owner-only, and only on a plain list or the Rejected filter.
+  const plain = !params.q && !params.theme && !params.genre && !params.recommendation && params.minScore === undefined && params.maxScore === undefined && params.minRange === undefined;
+  const pending =
+    canSeeVerdicts && plain && (!params.verdict || params.verdict === 'REJECTED') && params.page === 1
+      ? await listPendingRejected()
+      : [];
+
+  if (result.items.length === 0 && pending.length === 0) {
     return (
       <div className="mt-10">
         <EmptyState
@@ -156,6 +163,25 @@ async function Results({ params }: { params: NormalizedParams }) {
           <SongCard key={song.id} song={song} verdict={verdicts.get(song.id) ?? null} />
         ))}
       </div>
+
+      {pending.length > 0 && (
+        <section className="mt-12" aria-labelledby="pending-rejected">
+          <h2 id="pending-rejected" className="border-b-4 border-ink-900 pb-3 text-lg font-bold text-ink-900">
+            Rejected, review pending <span className="tnum text-ink-500">({pending.length})</span>
+          </h2>
+          <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {pending.map((title) => (
+              <div key={title} className="border-2 border-ink-900 bg-bone-50 p-4">
+                <div className="flex items-center justify-between gap-3">
+                  <h3 className="font-semibold text-ink-900">{title}</h3>
+                  <span className="inline-flex shrink-0 items-center bg-red-700 px-2.5 py-1 text-xs font-bold uppercase tracking-wider text-white">Rejected</span>
+                </div>
+                <p className="mt-2 text-sm text-ink-500">Score: TBD, not reviewed yet</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
 
       <div className="mt-12">
         <Pagination
