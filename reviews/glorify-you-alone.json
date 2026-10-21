@@ -1,0 +1,192 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Glorify You Alone",
+    "artist": "Gateway Worship",
+    "artistType": "GROUP",
+    "album": "God Be Praised",
+    "releaseYear": 2008,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Shannon Alford and Sion Alford; copyright 2008 Gateway Create Music, administered by Integrity Music; CCLI 5545476 per PraiseCharts (one Sovereign Grace chart shows a different number, so the CCLI database is the authority). The recording churches know is Gateway Worship's, on the album God Be Praised. Casting Crowns only recorded it later and did not write it; the earlier suggestion of a Thomas Miller credit was not supported by any catalogue read. Published in Bb and C arrangements. Reviewed as the song, not any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Three short verses, one pre-chorus after the first verse only, and a chorus; verses two and three lead back into the chorus. The first two verses ask who the King is and answer by description: glorious, holy, merciful, full of grace and worthy, before whom knees bow and nations stand in awe. The pre-chorus names Jesus as Lamb of God, Saviour and King. The chorus addresses him directly: he alone deserves praise and is enthroned in heaven, and the congregation gives him glory. The third verse addresses Christ as the saving King who gives life through his shed blood. The incarnation, resurrection and return are not named; the Father and the Spirit are not mentioned. The voice is largely a confession of who Christ is and what he did, with the chorus a corporate act of praise.",
+    "claims": [
+      {
+        "claim": "The King is glorious, holy, merciful and full of grace, and worthy of praise.",
+        "subject": "The character of Christ the King",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Every knee will bow before him and nations stand in awe of him.",
+        "subject": "The universal lordship of Christ",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus is the Lamb of God, the Saviour and the King.",
+        "subject": "The names and offices of Christ",
+        "location": "PRE_CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ alone deserves praise and is enthroned in heaven.",
+        "subject": "Christ's enthronement and unique worthiness",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The saving King gives life through his shed blood.",
+        "subject": "The atonement",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christology",
+        "title": "Christ named as Lamb, Saviour and King",
+        "explanation": "The pre-chorus names Jesus outright with titles Scripture gives him, so the praise has a definite object and content.",
+        "songLocation": "PRE_CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "John 1:29",
+        "scriptureRationale": "Behold the Lamb of God who takes away the sin of the world - the title the pre-chorus uses."
+      },
+      {
+        "category": "Atonement",
+        "title": "Life through his shed blood",
+        "explanation": "The third verse says the King saves and gives life through his blood. The cross is stated as the means of salvation.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Revelation 5:9",
+        "scriptureRationale": "The Lamb who ransomed people by his blood - what the verse affirms."
+      },
+      {
+        "category": "Lordship",
+        "title": "The King before whom every knee bows",
+        "explanation": "The verses set Christ's glory and the nations' homage before the congregation, grounding praise in who he is.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Philippians 2:10-11",
+        "scriptureRationale": "Every knee will bow and every tongue confess that Jesus Christ is Lord."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The glory, holiness and mercy of Christ",
+      "Christ as the Lamb of God and Saviour",
+      "Atonement through his shed blood",
+      "Christ enthroned and worthy of worship",
+      "The coming homage of every knee"
+    ],
+    "assessment": "Nothing to correct. The word alone attaches to the praise owed to Christ as God and is not a denial of the Trinity. The song states the cross through the shed blood and names Christ plainly. It does not name the incarnation or resurrection, the Father or the Spirit; those are absences, not errors."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Short verses and one repeated chorus",
+        "explanation": "The verses are brief and answer their own questions, and the chorus is easy to learn, so a room joins quickly.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Questions that lead into praise",
+        "explanation": "The opening questions about who the King is draw the room into the answer before it sings the chorus.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published in Bb and C arrangements. No chart was read, so test the chorus in the room before choosing between them.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Bb, C (arrangements listed by PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns after each verse and carries the confession that Christ alone is worthy; the verses change what is said before it.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in words and form, with a moderate length and a simple chorus. Its focus on Christ as King and Lamb suits gathered praise and the opening of a service."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Jesus named and described",
+        "explanation": "Titles and descriptions make plain who is being praised and why.",
+        "songLocation": "PRE_CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The questions in the verses are rhetorical and answered at once; nothing is open to a wrong reading."
+  },
+  "synthesis": {
+    "summary": "A song of praise to Christ as the glorious King and Lamb of God, asking who he is and answering with his holiness, mercy and worth. The chorus says he alone deserves praise and reigns in heaven; the last verse says he gives life through his shed blood. Nothing in it is wrong. The incarnation, resurrection, Father and Spirit are not named.",
+    "themes": [
+      "Christ",
+      "Worship",
+      "Cross",
+      "Holiness",
+      "Sovereignty",
+      "Salvation"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 24:7-10",
+        "relevance": "The King of glory - the question and answer of the opening verses."
+      },
+      {
+        "reference": "Philippians 2:10-11",
+        "relevance": "Every knee bowing to Christ - the homage described in the second verse."
+      },
+      {
+        "reference": "John 1:29",
+        "relevance": "Jesus as the Lamb of God - the pre-chorus title."
+      },
+      {
+        "reference": "Revelation 5:9",
+        "relevance": "The worthy Lamb whose blood ransoms - behind the third verse."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/8861/glorify-you-alone-sheet-music/cover-sheet",
+      "title": "Glorify You Alone (Gateway Worship) - PraiseCharts",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: authors Shannon Alford and Sion Alford, 2008 Gateway Create Music (Integrity Music), CCLI 5545476, album God Be Praised, keys Bb and C.",
+      "assessesContent": false
+    }
+  ]
+}

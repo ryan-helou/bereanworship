@@ -1,0 +1,235 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Grace Greater Than Our Sin",
+    "artist": "Julia H. Johnston / Daniel B. Towner",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1911,
+    "genre": "Hymn",
+    "isPublicDomain": true,
+    "notes": "Text by Julia H. Johnston (1849-1919), a Presbyterian teacher and Sunday-school writer from Illinois; tune MOODY by Daniel B. Towner (1850-1919), director of music at Moody Bible Institute. Sources give 1910 for the writing and 1911 for first publication, in Hymns Tried and True (Bible Institute Colportage Association, Chicago). Public domain. Often indexed under the longer title with 'All' as well as the shorter form. No CCLI number was found. The standard four-stanza text with refrain was reviewed; the song is a commentary on Romans 5:20. Reviewed as the hymn, not any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ABOUT_GOD",
+    "structuralNotes": "Four stanzas, each followed by the same refrain. The first stanza places grace at Calvary, where the Lamb's blood was shed, and says grace exceeds sin and guilt. The second sets sin and despair, which threaten the soul with loss, against grace, which points to the cross as refuge. The third says the stain of sin cannot be hidden or washed away by the sinner, and that a flow of blood cleanses fully. The fourth calls grace infinite and freely given to all who believe, and invites those longing to see Christ to receive it now. The refrain declares that grace pardons and cleanses and is greater than all sin. The voice is proclamatory and credal, ending in an evangelistic appeal; the Spirit is not named, and the incarnation, resurrection and return are not stated.",
+    "claims": [
+      {
+        "claim": "Grace was poured out at Calvary through the shed blood of the Lamb, and it exceeds all sin and guilt.",
+        "subject": "The cross and the sufficiency of grace",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Sin and despair threaten the soul with ruin, but grace points to the cross as the place of refuge.",
+        "subject": "Sin and the refuge of the cross",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The sinner can neither hide nor wash away the stain of sin; Christ's blood cleanses completely.",
+        "subject": "Cleansing by the blood of Christ",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Grace is boundless and given freely to all who believe.",
+        "subject": "Justification by grace through faith",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Those who long to see Christ are invited to receive grace now.",
+        "subject": "The gospel invitation",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Grace pardons and cleanses, and it is greater than all sin.",
+        "subject": "Grace that pardons",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "The gospel",
+        "title": "Grace measured against sin, and answered by the cross",
+        "explanation": "Each stanza returns to the same two facts: sin is real and costly, and grace in Christ's shed blood is larger. The refrain puts the whole matter in one confession a room can hold, and it never rests the sinner's hope on the singer.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Romans 5:20",
+        "scriptureRationale": "Where sin increased, grace increased all the more - the verse the hymn is a commentary on."
+      },
+      {
+        "category": "Justification",
+        "title": "Cleansing is God's work, not ours",
+        "explanation": "The third stanza says the stain cannot be hidden or washed out by the sinner, and the fourth gives grace freely to all who believe. Pardon is received, not earned.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Ephesians 2:8-9",
+        "scriptureRationale": "Saved by grace through faith, not by works - the doctrine the third and fourth stanzas state."
+      },
+      {
+        "category": "Atonement",
+        "title": "The Lamb's blood named as the means",
+        "explanation": "Grace is not left abstract: it is located at Calvary and in the blood of the Lamb, so the pardon in the refrain has a stated ground.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 John 1:7",
+        "scriptureRationale": "The blood of Jesus cleanses from all sin."
+      },
+      {
+        "category": "Invitation",
+        "title": "An open call to believe",
+        "explanation": "The last stanza turns from statement to appeal, welcoming all who believe and those who long to see Christ. It teaches the church to speak the gospel to one another and to visitors.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Titus 2:11",
+        "scriptureRationale": "The grace of God has appeared bringing salvation to all."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The sufficiency of grace over sin",
+      "Atonement by the blood of the Lamb",
+      "Cleansing from sin by Christ alone",
+      "Justification by grace through faith",
+      "The free offer of the gospel to all who believe"
+    ],
+    "assessment": "Nothing to correct. The hymn is a faithful commentary on Romans 5:20: sin is real, the sinner cannot cleanse himself, and grace through Christ's blood pardons freely all who believe. The whiter-than-snow image is Scripture's own. It states the cross and justification by faith clearly; the incarnation, the resurrection and the Spirit are not stated, so it should sit within a service that tells the wider story."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A refrain that carries the song",
+        "explanation": "Four short stanzas share one refrain, so a room that has sung the refrain once can sing it every time. The structure is the standard congregational hymn form.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fitted to the call to believe",
+        "explanation": "Its closing appeal makes it natural at communion, at times of confession and assurance, and in services where unbelievers are present.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Set in many hymnals and keys. No chart was read for this review, so check the key in your own hymnal against your congregation's range.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Varies by hymnal (not read)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The refrain returns after every stanza, and each return follows a different part of the argument, so the same confession lands on new ground.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "A congregational hymn in both words and form: short stanzas, a unifying refrain, and a plain, memorable tune. It is easy to teach and easy to carry in unison or in parts, and its appeal makes it a gospel hymn for the whole room rather than a performance."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ's cross is named as the ground of grace",
+        "explanation": "The hymn places grace at Calvary and in the blood of the Lamb, so 'grace' is never an unspecified feeling. A visitor learns where pardon comes from.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "One idea, developed",
+        "explanation": "Every stanza serves one argument and the refrain restates it, so no stanza can be taken in a different direction.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear throughout. The vocabulary of stain, blood and cleansing is the Bible's own and was common to its first singers; a new listener may need one sentence of explanation, but nothing in it is open to a wrong reading."
+  },
+  "synthesis": {
+    "summary": "A four-stanza gospel hymn on Romans 5:20: sin and despair are real, the sinner cannot cleanse himself, and grace through the shed blood of the Lamb pardons freely all who believe. The refrain confesses grace greater than all sin, and the last stanza invites hearers to receive it. Nothing in it is wrong. The incarnation, resurrection and Spirit are not reached.",
+    "themes": [
+      "Grace",
+      "Cross",
+      "Salvation",
+      "Sin",
+      "Faith",
+      "Assurance"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Romans 5:20",
+        "relevance": "Where sin increased, grace abounded all the more - the verse the hymn comments on."
+      },
+      {
+        "reference": "Ephesians 2:8-9",
+        "relevance": "Salvation by grace through faith, not works - the fourth stanza's free offer."
+      },
+      {
+        "reference": "Isaiah 1:18",
+        "relevance": "Scarlet sins made white as snow - the cleansing image of the third stanza."
+      },
+      {
+        "reference": "Psalm 51:7",
+        "relevance": "Cleansing so as to be whiter than snow - a prayer the hymn answers."
+      },
+      {
+        "reference": "John 1:29",
+        "relevance": "The Lamb of God who takes away the sin of the world."
+      },
+      {
+        "reference": "1 John 1:7",
+        "relevance": "The blood of Jesus cleanses from all sin."
+      },
+      {
+        "reference": "Titus 2:11",
+        "relevance": "The grace of God has appeared for the salvation of all."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Grace_Greater_Than_All_Our_Sin",
+      "title": "Grace Greater Than All Our Sin",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Johnston and Towner as writers, tune MOODY, first published 1911 in Hymns Tried and True; describes the hymn as teaching grace and justification by faith from Romans.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://hymnary.org",
+      "title": "Lyrics page read for this review",
+      "publisher": "Hymnary.org",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Father God I Wonder",
+    "artist": "Ian Smale",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1984,
+    "genre": "Contemporary Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Ian Smale (born 1949, also known as Ishmael), words and music. Catalogue listings give the copyright as 1984 Kingsway's Thankyou Music, with CCLI 58202, later administered through Capitol CMG Publishing and Integrity Music. Also indexed as I Will Sing Your Praises, the name many hymnals and songsheets use. Hymnal dates (1999 to 2011) are publication years of those books, not the writing date; one commentary places it in the Mission Praise and Songs and Hymns of Fellowship books by 1987 and as a Spring Harvest favourite. The list's artist guess is right. The standard short form was read; other versions vary a word and a Trinity version exists, which was not read. Reviewed as the song, not any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "One short verse in two halves, then a chorus sung twice; no bridge. The verse addresses the Father directly. Its first half marvels at life before knowing his fatherhood and care; its second half states that the singer has been adopted into his family and that he is always present, so the singer is never alone. The chorus is a vow of praise addressed to God, repeated. No act of Christ is named (no incarnation, cross, resurrection or return) and the Spirit is not mentioned. The voice is mostly the singer's own wonder, belonging and resolve, though the adoption statement is a doctrinal claim about the believer's standing.",
+    "claims": [
+      {
+        "claim": "Before knowing God as Father the singer lived without his care, and the singer marvels at it.",
+        "subject": "Life apart from the Father",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer has been adopted into God's family as his child.",
+        "subject": "Adoption",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God the Father is always present with his children, who are never alone.",
+        "subject": "The Father's abiding presence",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer vows to praise the Father without end.",
+        "subject": "Praise as the response",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": false,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Adoption",
+        "title": "Adoption into the Father's family",
+        "explanation": "The song says the believer has been brought into God's family and is his child. That is a doctrinal claim about standing, not a mood, and it is the song's centre.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 8:15",
+        "scriptureRationale": "Receiving the Spirit of adoption, by whom we cry Abba, Father - the standing the verse states."
+      },
+      {
+        "category": "Presence",
+        "title": "The Father is always with his children",
+        "explanation": "The verse says God is present and that his child is never alone, which gives a congregation a plain reason for comfort.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MINOR",
+        "scriptureReference": "Matthew 28:20",
+        "scriptureRationale": "I am with you always - the promise of abiding presence behind the verse."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God as Father",
+      "Adoption of believers into God's family",
+      "The abiding presence of God with his people"
+    ],
+    "assessment": "Nothing to correct. The adoption language is biblical and the song says nothing false. It is narrow: it speaks of the Father's care and the believer's adoption without naming what Christ did to make adoption possible, and the Spirit is not reached. That is an absence, recorded in the substance answers, not a fault."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Short enough for any age to learn at once",
+        "explanation": "One brief verse and a chorus in a children's-song style; a room can learn it in a single pass, and it has long been used with children and in all-age settings.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published keys were not checked. The melody is short and plain; choose a key that sits comfortably for mixed ages.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not stated; no chart was read",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The chorus phrase is repeated many times over a very short song, so repetition carries much of the length. It is a vow of praise rather than a changing statement.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Simple and congregational, suited to all-age worship and to a short moment of thanksgiving for adoption. Because the chorus repeats so much, it works best as a brief response rather than a centrepiece."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "God addressed plainly as Father",
+        "explanation": "The song speaks straight to the Father, so there is no doubt who is addressed.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Plain words and a clear subject. One version says son and others say child; either reads naturally as a believer's adoption."
+  },
+  "synthesis": {
+    "summary": "A short song of wonder at being adopted into the Father's family and kept in his presence, closing with a repeated vow of praise. The adoption claim is biblical and nothing in it is wrong. It names no act of Christ and does not mention the Spirit. The voice is largely the singer's own experience. Very simple and heavily repeated.",
+    "themes": [
+      "God",
+      "Grace",
+      "Worship",
+      "Assurance",
+      "Thanksgiving"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Romans 8:15",
+        "relevance": "The Spirit of adoption by whom believers call God Father - the standing the verse states."
+      },
+      {
+        "reference": "Galatians 4:4-7",
+        "relevance": "Adopted as sons and heirs through Christ - the same adoption."
+      },
+      {
+        "reference": "1 John 3:1",
+        "relevance": "The Father's love that makes us his children."
+      },
+      {
+        "reference": "Matthew 28:20",
+        "relevance": "Christ's promise to be with his people always - behind the presence claim."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://hymnary.org/person/Smale_Ian",
+      "title": "Ian Smale - Hymnary.org person record",
+      "publisher": "Hymnary.org",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_1",
+      "establishes": "Credits Ian Smale (born 1949) as author of the text. It lists no year or publisher; the 1984 Thankyou Music line and CCLI 58202 come from catalogue search listings.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://christianlyricz.com/song/father-god-i-wonder/",
+      "title": "Lyrics page read for this review",
+      "publisher": "christianlyricz.com",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "God Will Make a Way",
+    "artist": "Don Moen",
+    "artistType": "INDIVIDUAL",
+    "album": "Eternal God",
+    "releaseYear": 1990,
+    "genre": "Praise and Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Don Moen, then president of Integrity Music, after the death of a child of his sister-in-law Susan and her husband Craig Phelps in a van accident. Crosswalk's song story says he sketched it on a legal pad on the flight to the funeral after reading Isaiah 43, sang it to the family, then at a church in Alabama and an Integrity staff devotional, and F. G. Baldwin suggested recording it on the Integrity project Eternal God. Dates conflict among sources I saw: one search result dated the flight to 1987, others give later releases; the 1990 year of the live Eternal God recording is taken from the reading note and was not confirmed by a fetched page. Publisher and CCLI number were not found on any page loaded; Integrity Music is the label. The list's guess of Don Moen is right for the writer and recording. Reviewed as the song, not any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ABOUT_GOD",
+    "structuralNotes": "One long chorus of eight lines sung about four times, with a short bridge-like section between repeats and a tag at the end. The whole is in the third person about God, speaking to the congregation and the singer rather than addressing him. The chorus says God provides a path where none can be seen, works unseen, will guide, hold the singer close and give strength for each day. The bridge says he leads through wilderness and desert with rivers, that heaven and earth pass but his word stands, and that he does something new. The acts of God named are providential guidance and provision. Christ, the cross, the resurrection and the return are not reached, and the Spirit is not named. The voice is personal trust and expectation.",
+    "claims": [
+      {
+        "claim": "God provides a way where none is visible, working unseen.",
+        "subject": "Providence",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God will guide the singer, hold him close and give strength for each day.",
+        "subject": "Guidance and care",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God leads through wilderness and desert and provides rivers there.",
+        "subject": "God's provision in hardship",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Heaven and earth will pass away but God's word stands.",
+        "subject": "The permanence of God's word",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God does something new.",
+        "subject": "God's renewing work",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Providence",
+        "title": "Trust grounded in God's word",
+        "explanation": "The song's confidence rests on a promise taken from Scripture, that God opens a way in the wilderness, and not on the singer's resolve. The comfort is anchored in who God is and what he has said.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 43:19",
+        "scriptureRationale": "A way in the wilderness and rivers in the desert - the promise the song is built on."
+      },
+      {
+        "category": "Scripture",
+        "title": "The word that outlasts heaven and earth",
+        "explanation": "The bridge sets God's word above all that passes, which gives the promise of guidance a firm base.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 40:8",
+        "scriptureRationale": "The grass withers but the word of our God stands forever."
+      },
+      {
+        "category": "Providence",
+        "title": "Guidance and daily strength",
+        "explanation": "The chorus asks the singer to expect God's guiding and sustaining care, one day at a time, a theme Scripture holds out to believers.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 73:23-24",
+        "scriptureRationale": "God holding the believer's hand and guiding him with counsel."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The providence of God",
+      "God's guidance of his people",
+      "The permanence of God's word",
+      "God's provision in hardship"
+    ],
+    "assessment": "Nothing to correct. The promise is general guidance and provision, not a guarantee of specific outcomes, and Old Testament promise language applied personally is a common and acceptable use. Crosswalk's song story presents it as trust in God's unseen work in suffering. What the song does not reach is the gospel: Christ, the cross and the resurrection are absent, so it comforts without saying why God can be trusted. No independent assessment of its teaching was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Very easy to learn",
+        "explanation": "A single chorus repeated and one short bridge make the song learnable in one hearing.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Born in grief, suited to hard seasons",
+        "explanation": "It was written for a family after a child's death, and the origin shows in a song fit for funerals, hospital visits and times of loss.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "No published key was confirmed for this review. Test the chorus with the room before choosing a key.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not confirmed",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The long chorus returns about four times with only a short bridge between, so repetition carries much of the song, though the chorus itself holds substantial content.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational and easy to sing, with a chorus long enough to say something. The heavy return of one chorus is the main practical point. It comforts the singer in the first person but without the gospel."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "The promise is plain",
+        "explanation": "The song says plainly what it trusts God to do: guide, provide and strengthen.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in its claims. Its wilderness and desert imagery is Isaiah's, and the promise is general rather than specific."
+  },
+  "synthesis": {
+    "summary": "A song of trust built on Isaiah 43:19: God makes a way where none is seen, guides, holds the singer close and gives strength daily, and his word outlasts heaven and earth. Written by Moen after a child's death in his wife's family. Christ and the cross are not reached, and the voice is personal confidence more than creed. Nothing in it is false. No independent assessment of its teaching was found.",
+    "themes": [
+      "God",
+      "Providence",
+      "Hope",
+      "Faith",
+      "Suffering",
+      "Scripture"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Isaiah 43:19",
+        "relevance": "A way in the wilderness, rivers in the desert - the song's base text."
+      },
+      {
+        "reference": "Isaiah 40:8",
+        "relevance": "God's word stands forever - the bridge's claim."
+      },
+      {
+        "reference": "Matthew 24:35",
+        "relevance": "Heaven and earth pass, Christ's words do not."
+      },
+      {
+        "reference": "Psalm 73:23-24",
+        "relevance": "God holding and guiding the believer."
+      },
+      {
+        "reference": "Psalm 32:8",
+        "relevance": "God instructing and guiding in the way to go."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.crosswalk.com/church/worship/song-story-god-will-make-a-way.html",
+      "title": "Song Story: God Will Make a Way",
+      "publisher": "Crosswalk",
+      "sourceType": "JOURNALISM",
+      "credibilityTier": "TIER_3",
+      "establishes": "Moen's account of writing it after a family loss and reading Isaiah 43, its first performances, and the Eternal God recording. Presents it as trust in God's unseen provision.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.praisecharts.com/blog/the-story-behind-the-song-god-will-make-a-way/",
+      "title": "The Story Behind the Song God Will Make A Way",
+      "publisher": "PraiseCharts",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "Corroborates the origin in grief and the reading of Isaiah 43. No year, publisher or CCLI number given.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "AZLyrics",
+      "url": "https://www.azlyrics.com"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Your Grace Is Enough (Great Is Your Faithfulness)",
+    "artist": "Matt Maher",
+    "artistType": "INDIVIDUAL",
+    "album": "Empty & Beautiful",
+    "releaseYear": 2003,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Matt Maher; the Lift Up Your Hearts hymnal credits him with both words and tune, copyright 2003, published by spiritandsong.com (a division of OCP) and Capitol CMG Publishing d/b/a Thank You Music, with Integrity Music administering Europe. PraiseCharts credits Maher and Chris Tomlin, which fits Tomlin's later recording; CCLI 4477026. The hymnal gives the alternate title Great Is Your Faithfulness, O God. The album Empty & Beautiful is taken from the reading note and was not confirmed by a source. This is a different song from the 1923 hymn Great Is Thy Faithfulness. Reviewed as the song, not any one recording. No independent source discussing what the song teaches was found within the research budget.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Two verses, each followed by a plea and a refrain on grace, the refrain repeated several times, then a short closing tag with a few new lines. The first verse addresses God as faithful, pursuing the restless sinner's heart, leading to mercy, with nothing able to separate the singer from him. The second calls God great in love and justice, the God of Jacob, who uses the weak to lead the strong and leads his people in the song of salvation. The plea asks God to remember his people, his children and his promise in covenant language. The refrain says his grace is sufficient for the singer. The tag speaks of heaven reaching out and of being covered in his love. The verses confess God's character and ways, the plea is corporate prayer, and the refrain and tag are personal. The cross, resurrection, Christ and the Spirit are not named; the gospel is implied by grace.",
+    "claims": [
+      {
+        "claim": "God is faithful and pursues the restless sinner, leading him to mercy.",
+        "subject": "God's pursuing mercy",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Nothing can separate the believer from God's love.",
+        "subject": "Assurance",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is great in both love and justice, and uses the weak to lead the strong.",
+        "subject": "God's character; the weak and the strong",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is the God of Jacob who leads his people in the song of salvation.",
+        "subject": "Covenant faithfulness and salvation",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is asked to remember his people, his children and his promise.",
+        "subject": "Covenant prayer",
+        "location": "REFRAIN",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's grace is sufficient for the singer.",
+        "subject": "Sufficiency of grace",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer is covered in God's love, with heaven reaching out.",
+        "subject": "Being covered in love",
+        "location": "TAG",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Grace",
+        "title": "The sufficiency of grace",
+        "explanation": "The refrain takes Paul's answer to his thorn, that grace is enough, and makes it the congregation's confidence. The grace is God's, not the singer's strength, and it is what the song keeps returning to.",
+        "songLocation": "REFRAIN",
+        "magnitude": "MODERATE",
+        "scriptureReference": "2 Corinthians 12:9",
+        "scriptureRationale": "My grace is sufficient for you - the source and the sense of the refrain."
+      },
+      {
+        "category": "God's character",
+        "title": "Love and justice held together",
+        "explanation": "The second verse calls God great in love and in justice. Naming justice beside love keeps his mercy from being sentimental.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Salvation",
+        "title": "A God who pursues sinners",
+        "explanation": "The first verse has God going after the restless heart and leading it to mercy, so salvation begins with his initiative. The song does not say how that mercy was won.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Luke 15:4",
+        "scriptureRationale": "The shepherd who goes after the lost - the movement of the first verse."
+      },
+      {
+        "category": "Scripture",
+        "title": "Covenant memory and Lamentations",
+        "explanation": "The title phrase is from Lamentations 3:23, the plea to remember draws on the covenant prayers of Exodus and the Psalms, and the weak shaming the strong is from 1 Corinthians 1. A prayer to remember is covenant language, not a claim that God forgets.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Lamentations 3:23",
+        "scriptureRationale": "Great is your faithfulness - the title and the verse's opening confession."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The faithfulness of God",
+      "The sufficiency of grace",
+      "God's pursuit of sinners",
+      "God's love and justice",
+      "Covenant promise",
+      "Assurance that nothing separates believers from him"
+    ],
+    "assessment": "Nothing to correct. The song confesses God's faithfulness, love and justice, rests on his grace and prays in covenant language. It is thin on the gospel itself: the cross, resurrection, Christ and the Spirit are not named, and grace is general. That is an absence, not an error. No independent assessment of its teaching was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A refrain a room can hold",
+        "explanation": "The refrain is short and returns often, so a congregation can sing it after one pass.",
+        "songLocation": "REFRAIN",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Prayer set between confession and testimony",
+        "explanation": "The plea gives the room a corporate prayer between the verses, so the song is not only first person.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "No chart was read for this review. PraiseCharts lists an arrangement in G, but the original key was not stated; check the key before choosing it for a mixed congregation.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "G (one PraiseCharts arrangement; original key not stated)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The refrain, the plea and a closing tag repeat several times. The refrain is one central claim, so most of it is confession, but it is heavier than the words alone need.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Workable for a congregation: a short refrain and a plea that the room prays together. Its heavy repetition and closing tag lean toward a band build, so a leader can keep the tag brief. It suits services on forgiveness and grace."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "God is named in biblical terms",
+        "explanation": "The song calls him the God of Jacob and names his faithfulness, love and justice, so the addressee is clear. Christ and the Spirit are not named.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear on grace and faithfulness. The gospel is implied rather than stated, so a visitor would learn that God's grace is enough but not what grace cost. The covenant language of the plea needs a word of explanation."
+  },
+  "synthesis": {
+    "summary": "A 2003 song by Matt Maher on God's faithfulness and the sufficiency of his grace. It confesses his pursuing mercy, love and justice, prays in covenant language for him to remember his people, and repeats a refrain that grace is enough. Built on Lamentations 3 and 2 Corinthians 12. The cross, Christ and the Spirit are not named. No concern found; no independent assessment found.",
+    "themes": [
+      "God",
+      "Grace",
+      "Salvation",
+      "Assurance",
+      "Faith",
+      "Prayer",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Lamentations 3:23",
+        "relevance": "Great is your faithfulness - the title phrase."
+      },
+      {
+        "reference": "2 Corinthians 12:9",
+        "relevance": "Grace sufficient for the weak - the refrain."
+      },
+      {
+        "reference": "Psalm 23:2",
+        "relevance": "Still waters and gentle leading - the shepherd imagery of the first verse."
+      },
+      {
+        "reference": "Psalm 105:8",
+        "relevance": "God remembering his covenant - the plea."
+      },
+      {
+        "reference": "1 Corinthians 1:27",
+        "relevance": "God choosing the weak to shame the strong - the second verse."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://liftupyourheartshymnal.org/node/1085",
+      "title": "Your Grace Is Enough",
+      "publisher": "Lift Up Your Hearts hymnal",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "Hymnal record: words and tune by Matt Maher, copyright 2003, publishers spiritandsong.com and Capitol CMG, alternate title, placed under Forgiveness and Grace.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.praisecharts.com/songs/details/7803",
+      "title": "Your Grace Is Enough",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Matt Maher and Chris Tomlin, publishers Capitol CMG and Oregon Catholic Press, CCLI 4477026.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "jesusfreakhideout.com",
+      "url": "https://www.jesusfreakhideout.com"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Great Is Thy Faithfulness",
+    "artist": "Thomas O. Chisholm / William M. Runyan",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1923,
+    "genre": "Hymn",
+    "isPublicDomain": true,
+    "notes": "Text by Thomas O. Chisholm (1866-1960), tune FAITHFULNESS by William M. Runyan (1870-1957), published by Hope Publishing Company in 1923. Chisholm drew on Lamentations 3 and described the poem as coming from his own sense of God's faithfulness over a lifetime, with no single event behind it. It spread through the Moody Bible Institute (William Henry Houghton) and Billy Graham's crusades, where George Beverly Shea sang it often. Hope's 1923 and 1951 copyright lines appear in some records; the work entered the US public domain in 2019. Reviewed as the song in its standard three-stanza form with refrain, not any one recording. No independent source discussing what the hymn teaches was found within the research budget.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Three stanzas, each followed by the same refrain. The first stanza addresses God as Father and rests on his unchanging nature: no variableness, compassions that never fail, the same forever. The second points to the seasons and the sun, moon and stars as witnesses to his faithfulness, mercy and love. The third turns to gifts received: pardon for sin, abiding peace, his presence to guide, strength for today and hope for tomorrow. The refrain confesses his faithfulness, mercies new each morning, and every need supplied. The first two stanzas confess God's character; the third and the refrain are personal testimony that rests on that character. The cross, Christ and the Spirit are not named; pardon is the only gospel element.",
+    "claims": [
+      {
+        "claim": "God is unchanging; his compassions do not fail and he is the same forever.",
+        "subject": "The immutability and faithfulness of God",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Creation, in its seasons and its sun, moon and stars, bears witness to God's faithfulness, mercy and love.",
+        "subject": "Creation as witness",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God gives pardon for sin, lasting peace and his guiding presence.",
+        "subject": "Pardon and peace",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God supplies strength for today and hope for tomorrow, with blessings beyond counting.",
+        "subject": "Providence",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's mercies are new each morning and he has provided what the singer needed.",
+        "subject": "Daily mercy and provision",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "God's attributes",
+        "title": "An unchanging God, stated plainly",
+        "explanation": "The first stanza rests the whole song on God's constancy and his compassions that do not fail. The singer's confidence is anchored in who God is rather than in circumstance, and the refrain returns to it each time.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Malachi 3:6",
+        "scriptureRationale": "The Lord does not change - the ground on which the first stanza stands."
+      },
+      {
+        "category": "Scripture",
+        "title": "Built on Lamentations 3 and James 1",
+        "explanation": "The title and the refrain's new mercies each morning come from Lamentations 3:22-23, and the first stanza's unchanging Father echoes James 1:17. Faithfulness is sung as a biblical claim, not a mood.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Lamentations 3:22-23",
+        "scriptureRationale": "His mercies are new every morning; great is his faithfulness - the source of the title and refrain."
+      },
+      {
+        "category": "Creation",
+        "title": "Creation as a witness to its maker",
+        "explanation": "The second stanza reads the seasons and the heavens as testimony to God's faithfulness, mercy and love, which is the ordinary biblical way of tying providence to creation.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 36:5",
+        "scriptureRationale": "His steadfast love reaches to the heavens and his faithfulness to the clouds."
+      },
+      {
+        "category": "Gospel",
+        "title": "Pardon named among the gifts",
+        "explanation": "The third stanza lists pardon for sin first among what God gives, so forgiveness is part of the faithfulness being sung. It is the song's only gospel element, and it does not say how pardon was won.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The immutability of God",
+      "The faithfulness of God",
+      "God as Father and Creator",
+      "Providence and daily provision",
+      "Pardon for sin"
+    ],
+    "assessment": "Nothing to correct. The hymn confesses God's constancy, reads creation as his witness and thanks him for pardon, peace, guidance and provision, all in terms Scripture uses. It is wider on providence than on redemption: the cross, Christ and the Spirit are not named, and pardon is the only gospel element. That is an absence, not an error. No independent assessment of its teaching was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Short, plain and easily learned",
+        "explanation": "Three stanzas and a refrain that returns after each, with the title line repeated inside it. A room learns it in one pass and can sing it unaccompanied.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Long congregational use",
+        "explanation": "It has been sung widely in churches, at evangelistic crusades and in a university tradition since the mid twentieth century, which gives it a deep stock of shared memory.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Hymnals set it in a range comfortable for a mixed congregation; no chart was read for this review, so check the key in your own book.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not stated; no chart read",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The refrain returns after every stanza, and each time it answers a different testimony of God's care, so the return confirms rather than pads.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form and in voice. The refrain is short and easy to hold and the stanzas move from confession to testimony so that a room sings the same words as one body. It suits ordinary services, thanksgiving, the turn of a year and any occasion for remembering God's provision."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "God is addressed as Father",
+        "explanation": "The first stanza names the Father outright, so the addressee is plain. Christ and the Spirit are not named.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MINOR"
+      },
+      {
+        "category": "Language",
+        "title": "Plain claims in older idiom",
+        "explanation": "The thee and thou form is dated, but each stanza makes one clear claim about God and the refrain restates it.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The vocabulary is old, but the claims are simple and nothing is open to a wrong reading. The only thing a visitor would not learn is the gospel's basis for pardon."
+  },
+  "synthesis": {
+    "summary": "A 1923 hymn on God's faithfulness. It confesses his unchanging character, reads creation as his witness and thanks him for pardon, peace, guidance and daily provision. Built on Lamentations 3 and James 1. The cross, Christ and the Spirit are not named. No concern found; no independent assessment of its teaching was found.",
+    "themes": [
+      "God",
+      "Providence",
+      "Creation",
+      "Grace",
+      "Thanksgiving",
+      "Hope",
+      "Assurance"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Lamentations 3:22-23",
+        "relevance": "New mercies each morning and great faithfulness - the title and the refrain."
+      },
+      {
+        "reference": "James 1:17",
+        "relevance": "No variation or shadow of turning in the Father - the first stanza's constancy."
+      },
+      {
+        "reference": "Malachi 3:6",
+        "relevance": "The Lord does not change - the ground of the first stanza."
+      },
+      {
+        "reference": "Psalm 36:5",
+        "relevance": "Faithfulness reaching to the clouds - creation as witness in the second stanza."
+      },
+      {
+        "reference": "Genesis 8:22",
+        "relevance": "Seasons that keep their order - the second stanza's appeal to the seasons."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Great_Is_Thy_Faithfulness",
+      "title": "Great Is Thy Faithfulness",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Text by Thomas Chisholm, tune by William Runyan, published by Hope Publishing in 1923; spread through Moody Bible Institute and Billy Graham; public domain since 2019.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://hymnary.org",
+      "title": "Lyrics page read for this review",
+      "publisher": "hymnary.org",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

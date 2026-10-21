@@ -1,0 +1,217 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "MEDIUM",
+    "title": "He's Gone (Holy Saturday)",
+    "artist": "Paul Zach",
+    "artistType": "INDIVIDUAL",
+    "album": "Lent Hymns",
+    "releaseYear": 2023,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Credited to Kate Bluett, Nick Chambers and Paul Zach; released 3 March 2023 on Paul Zach's album Lent Hymns (label shown as Integrated Music Rights). Writer credits come from a Shazam listing surfaced by search and Bluett's own newsletter, which says she helped write lyrics for Lent Hymns; no publisher or CCLI number was found. Spotify lists the track under Paul Zach. The text for this review came from a user-submitted transcription (a chord sheet of the studio version) that may omit repeats, so it is not an authoritative text. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ABOUT_GOD",
+    "structuralNotes": "Four verses, a short chorus after verses two and three (the same brief phrase repeated), an instrumental interlude and a quiet outro; no bridge. It is a narrative of Holy Saturday told from the disciples' standpoint in the first person plural. The first two verses recall the crucifixion, the burial, the darkness and the silence after the violence. The chorus is the bare statement that he is gone. The third verse lays him in the grave and asks whether hope was betrayed. The fourth has the women coming to the tomb with spices, love undiminished, watching for sunrise and asking what the dawn will show. It ends unresolved. The crucifixion, death and burial are named; the resurrection is anticipated but not stated, and the Father and Spirit are not named. It is not addressed to God.",
+    "claims": [
+      {
+        "claim": "Christ was crucified, died and was put to death by violence.",
+        "subject": "The crucifixion",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The silence and darkness that followed his death are recounted as the disciples experienced them.",
+        "subject": "Holy Saturday",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is gone: he lies dead, and the disciples' grief is real.",
+        "subject": "The death of Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ's body was laid in the grave, and the disciples wondered whether their hope had been betrayed.",
+        "subject": "The burial",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Love for Christ endures after his death; the mourners come to the tomb and wait for the dawn.",
+        "subject": "Faithful waiting",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The dawn is left as a question, pointing toward Easter without stating it.",
+        "subject": "Anticipation of the resurrection",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": false,
+    "godDirected": false,
+    "groundsItsClaims": false,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Cross",
+        "title": "Holy Saturday given its own voice",
+        "explanation": "The song stays in the day between death and resurrection, which congregations seldom sing. It treats the burial as a real event and Christ's death as real death, not a step quickly passed over.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Mark 15:42-47",
+        "scriptureRationale": "Joseph lays Jesus in the tomb and the women watch where he is laid - the burial the song dwells on."
+      },
+      {
+        "category": "Lament",
+        "title": "Honest grief that waits",
+        "explanation": "Disciples' doubt and sorrow are voiced as theirs at that time, and love for Christ persists. It models lament that does not abandon hope.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 88",
+        "scriptureRationale": "A lament that ends in darkness while still addressed to the God of salvation - the background to the song's waiting."
+      },
+      {
+        "category": "Scripture",
+        "title": "Built on the Gospel burial accounts",
+        "explanation": "The narrative follows the Gospel accounts of the burial and the women coming to the tomb with spices, so a congregation rehearses the biblical sequence.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Luke 23:50-24:1",
+        "scriptureRationale": "Burial, rest on the Sabbath, and the women coming at dawn with spices - the sequence of the last verses."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The real death of Christ on the cross",
+      "The burial of Christ",
+      "Faithful lament while awaiting the resurrection"
+    ],
+    "assessment": "Nothing to correct. The song is a narrative of Holy Saturday and is plainly framed as such. Its question about hope reports what the disciples felt then, not what the church believes now. It does not state the resurrection, so it teaches little on its own; sung on Holy Saturday or just before Easter it needs the resurrection to follow in the service."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Slow, stark and easy to learn",
+        "explanation": "Regular verse form, a very short repeated chorus and a slow pace make it learnable on one hearing.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "A fit for Holy Saturday and Tenebrae",
+        "explanation": "Its narrative stance suits a Holy Saturday vigil or the quiet close of a Good Friday service, where silence and waiting are the point.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "The published key was not established for this review. It is slow and sparse; test it in the room and choose a key that sits comfortably for an unaccompanied or lightly accompanied congregation.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not established",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "Low in words. The short chorus returns twice and the verses are regular; the repetition reinforces the bare fact of Christ's absence rather than padding.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "A quiet song a congregation can learn quickly and sing in a vigil setting. Its slow, stark form suits waiting. Its limit is occasion: it belongs to one day and does not stand alone as a statement of the gospel."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "A story in plain order",
+        "explanation": "Crucifixion, burial, grief, the visit to the tomb: events follow in sequence and the day is made clear by its subtitle.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear about what has happened and what is felt. The open ending is deliberate and signalled by the subtitle, but outside Holy Week a visitor may not know the resurrection is coming, which is why placement in the service matters."
+  },
+  "synthesis": {
+    "summary": "A narrative of Holy Saturday sung by the disciples: the crucifixion, the burial, the silence, grief and a question of betrayed hope, and love waiting at the tomb for dawn. It names Christ's death and burial and anticipates the resurrection without stating it. It is not addressed to God and teaches little on its own. Nothing in it is false. Source text was a user-submitted transcription.",
+    "themes": [
+      "Cross",
+      "Lament",
+      "Hope",
+      "Suffering",
+      "Christ"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Mark 15:42-47",
+        "relevance": "Joseph of Arimathea buries Jesus - the burial scene the song retells."
+      },
+      {
+        "reference": "Luke 23:50-24:1",
+        "relevance": "Burial and the women coming at dawn with spices - the last verses."
+      },
+      {
+        "reference": "John 19:38-42",
+        "relevance": "Jesus' body prepared with spices and laid in a new tomb."
+      },
+      {
+        "reference": "John 20:1",
+        "relevance": "The first day, the tomb in early morning - the dawn the final verse waits for."
+      },
+      {
+        "reference": "Psalm 88",
+        "relevance": "A lament that ends in darkness - background to the song's unresolved waiting."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://open.spotify.com/track/777GHv5oB0IJL39pzxHUeG",
+      "title": "He's Gone (Holy Saturday) - Paul Zach",
+      "publisher": "Spotify",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_3",
+      "establishes": "Track listing: title He's Gone (Holy Saturday), artist Paul Zach.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://katebluett.substack.com/p/lent-music",
+      "title": "Lent Music",
+      "publisher": "Kate Bluett, Turn Me Back Again (Substack)",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "Co-writer Kate Bluett says she helped write lyrics for Paul Zach's Lent Hymns; the post does not discuss this song.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Ultimate Guitar",
+      "url": "https://tabs.ultimate-guitar.com/tab/paul-zach/hes-gone-holy-saturday-chords-4720754"
+    }
+  ]
+}

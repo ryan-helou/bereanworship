@@ -1,0 +1,215 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Great Are You Lord",
+    "artist": "All Sons & Daughters",
+    "artistType": "GROUP",
+    "album": "All Sons & Daughters",
+    "releaseYear": 2014,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Leslie Jordan, David Leonard and Jason Ingram; CCLI 6460220. Recorded by All Sons & Daughters on their self-titled 2014 album (Integrity Music / Columbia) and earlier on their live album. Published by Essential Music Publishing as administrator, with Integrity's Alleluia, Integrity's Praise Music and Open Hands Music per PraiseCharts search listing; original key A, 6/8, per the same listing. The list's guess of All Sons & Daughters is right for the recording churches know. The page I loaded gave no copyright line or story. Reviewed as the song, not any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "A four-line verse, a short refrain line, and a chorus, with the whole cycle repeating; a bridge of corporate praise is sung several times, and the final chorus repeats. The verse addresses God directly: he gives life, is love, brings light into darkness, gives hope and restores broken hearts. The refrain declares his greatness. The chorus says the singer's breath is his gift, so praise is offered to him alone. The bridge calls the whole earth, hearts and bones to join in praise. The verse is confession of God's character; the chorus and bridge are the congregation's response. Christ and the Spirit are not named, and the cross, the resurrection and the return are not reached.",
+    "claims": [
+      {
+        "claim": "God gives life and is love.",
+        "subject": "The character of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God brings light into darkness and gives hope.",
+        "subject": "God's light and hope",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God restores broken hearts.",
+        "subject": "Restoration",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lord is great.",
+        "subject": "The greatness of God",
+        "location": "REFRAIN",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer's breath is a gift from God, and praise is therefore offered to him alone.",
+        "subject": "Creation and exclusive worship",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The whole earth, the singer's heart and the singer's bones are called to join in praise.",
+        "subject": "Praise by all creation",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "God's character",
+        "title": "A God who gives life, light and hope",
+        "explanation": "The verse is plain confession of who God is and what he gives: life, love, light in darkness, hope and restoration. The song's praise rests on that, not on the singer's feeling.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 147:3",
+        "scriptureRationale": "He heals the brokenhearted - the restoration the verse affirms."
+      },
+      {
+        "category": "Creation",
+        "title": "Breath received as a gift",
+        "explanation": "The chorus makes the singer's breath God's gift and the reason to praise him, which is the truth of Genesis 2:7 and Psalm 150:6 sung simply.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 150:6",
+        "scriptureRationale": "Let everything that has breath praise the Lord."
+      },
+      {
+        "category": "Worship",
+        "title": "Praise to God alone",
+        "explanation": "The exclusive claim in the chorus is biblically sound and guards worship from rivals.",
+        "songLocation": "CHORUS",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The greatness of God",
+      "God as giver of life",
+      "God's love and restoration of the broken",
+      "Praise belongs to God alone"
+    ],
+    "assessment": "Nothing to correct. What the song says is true and scriptural: God gives life, brings light into darkness, restores the broken, and alone deserves praise. Its limit is what it leaves out: Christ is not named, and the cross, resurrection and gospel are absent, so it praises God's greatness without telling the story that shows it. Used alongside gospel songs, it is a sound call to worship."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Short phrases a room learns at once",
+        "explanation": "The melody is simple and the phrases are short, so a congregation can join by the second pass without a lead sheet.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "A natural opening or response song",
+        "explanation": "Its praise and call for all creation to join fit a call to worship or a closing response.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Original key A per a PraiseCharts listing, in 6/8. No chart was read for this review; check the key against your congregation's range.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "A (original per PraiseCharts listing)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The chorus and bridge repeat many times. The words are few, so repetition carries much of the song's length rather than developing the thought; a leader should decide how many passes serve the room.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Very singable and easy to learn, which is its strength and its risk: with a simple tune and a chorus and bridge that repeat many times, the song can carry a room on mood rather than words. Keep the number of repeats modest and pair it with songs that tell the gospel."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "God addressed directly",
+        "explanation": "The verse speaks to God and says what he does, so the 'you' is never vague within the song's confession.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear and uncomplicated. The imagery of breath, light and bones is scriptural and plain. A visitor knows the song praises God for life and hope, but would not learn from it who Jesus is or what he has done."
+  },
+  "synthesis": {
+    "summary": "A song of praise to God as the giver of life, love, light and hope, who restores the broken; the chorus makes the singer's breath his gift and offers praise to him alone, and the bridge calls the whole earth to join. What it says is true. Christ, the cross and the gospel are not reached, and the chorus and bridge repeat many times.",
+    "themes": [
+      "God",
+      "Worship",
+      "Creation",
+      "Hope",
+      "Thanksgiving"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Genesis 2:7",
+        "relevance": "God breathed life into man - the breath that the chorus calls his gift."
+      },
+      {
+        "reference": "Job 33:4",
+        "relevance": "The breath of the Almighty gives life."
+      },
+      {
+        "reference": "Psalm 150:6",
+        "relevance": "Let everything that has breath praise the Lord - the bridge's call."
+      },
+      {
+        "reference": "Psalm 35:10",
+        "relevance": "All my bones shall say the Lord is incomparable."
+      },
+      {
+        "reference": "Psalm 145:3",
+        "relevance": "Great is the Lord and greatly to be praised."
+      },
+      {
+        "reference": "John 1:4-5",
+        "relevance": "Light shining in the darkness."
+      },
+      {
+        "reference": "Psalm 147:3",
+        "relevance": "He heals the brokenhearted."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://integrityworship.com/songs/great-are-you-lord-all-sons-and-daughters/",
+      "title": "Great Are You Lord - All Sons & Daughters",
+      "publisher": "Integrity Music",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Writers Leslie Jordan, David Leonard and Jason Ingram; CCLI 6460220; performed by All Sons & Daughters. No copyright line or story on the page.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.azlyrics.com",
+      "title": "Lyrics page read for this review",
+      "publisher": "AZLyrics",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

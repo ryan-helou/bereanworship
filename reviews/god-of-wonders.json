@@ -1,0 +1,194 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "God of Wonders",
+    "artist": "Third Day",
+    "artistType": "GROUP",
+    "album": "Offerings II: All I Have to Give",
+    "releaseYear": 2000,
+    "genre": "Contemporary Christian",
+    "isPublicDomain": false,
+    "notes": "Written by Marc Byrd (Common Children) and Steve Hindalong (The Choir). Wikipedia says Byrd wrote the initial material in 1999 on a solo retreat in Arkansas and that Hindalong, wanting cosmic-scale imagery, shaped the rest from Book of Common Prayer language. First recorded on the 2000 compilation City on a Hill: Songs of Worship and Praise by members of Caedmon's Call, Third Day and Sixpence None the Richer. Third Day's live version, with extended tags, is on Offerings II (2002); it has also been recorded by Caedmon's Call, Rebecca St. James, Passion, Steve Green, Kutless and Shane & Shane, nearly 100 recordings by Hindalong's estimate. Publishers named by search listings: New Spring / Never Say Never Songs (Brentwood-Benson), Storm Boy Music, and Meaux Mercy (Capitol CMG); CCLI 3118757 per Lifeway and Hymnary listings seen in search results, not fetched. The list's guess of Third Day is right for the recording many churches know, but the song is the Byrd and Hindalong co-write and the release year is 2000 for the song, 2002 for this recording. Reviewed as the song, with note taken of the extended tags.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Two verses, a chorus that returns three times, and in the Third Day version an extended tag repeating praise of the Lord of heaven and earth with hallelujahs, then a closing tag. The first verse addresses God as Lord and creator of earth, sea and sky, with the heavens as his dwelling place, and gives him glory. The chorus declares him holy and beyond the cosmos, with creation declaring his majesty. The second verse is the singer's resolve to celebrate him in the morning and call on his name in the dark. The tag adds a request that the Lord reveal his heart to the singer and addresses Father and Lord God Almighty. The only act of God named is creation. Christ, the cross, the resurrection and the return are not reached, and the Spirit is not named.",
+    "claims": [
+      {
+        "claim": "God is Lord and creator of earth, sea and sky, and the heavens are his dwelling place.",
+        "subject": "Creation and God's majesty",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is holy and beyond the cosmos, and creation declares his majesty.",
+        "subject": "The holiness and transcendence of God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer resolves to celebrate God in the morning and call on his name in the dark.",
+        "subject": "Praise in every season",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is addressed as Father and Lord God Almighty, and asked to reveal his heart to the singer.",
+        "subject": "Prayer for knowing God",
+        "location": "TAG",
+        "lyricExcerpt": null,
+        "locationDetail": "the extended tag in the Third Day version"
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Creation",
+        "title": "Creation told as the ground of worship",
+        "explanation": "The song grounds its praise in what God has made and in who he is, and does not treat wonder as a feeling. Creation is named as God's act, and it points beyond itself to the Maker.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 19:1",
+        "scriptureRationale": "The heavens declaring God's glory - the claim the verse and chorus build on."
+      },
+      {
+        "category": "God",
+        "title": "The holiness and otherness of God",
+        "explanation": "The chorus sets God as holy and above the cosmos he made, in the language of heaven's own worship. That keeps the Creator distinct from the creation.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 6:3",
+        "scriptureRationale": "Holy, holy, holy, with the earth full of his glory - the cry the chorus echoes."
+      },
+      {
+        "category": "Worship",
+        "title": "Praise by day and by night",
+        "explanation": "The second verse resolves to praise in the morning and to call on God's name in the dark, which gives the song room for the whole of a believer's life, hard hours included.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MINOR",
+        "scriptureReference": "Psalm 92:2",
+        "scriptureRationale": "Declaring God's love in the morning and his faithfulness by night."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God as creator of all things",
+      "The holiness and transcendence of God",
+      "The sovereignty of God over heaven and earth",
+      "Praise to the Father as Lord God Almighty"
+    ],
+    "assessment": "Nothing to correct. The song is a creation hymn in contemporary dress, drawing on Psalm 19, Isaiah 6 and Revelation 4, with heaven as God's tabernacle a poetic image consistent with Scripture. What it does not reach is the gospel: Christ, the cross and the resurrection are absent, so it teaches who God is without saying how sinners come to him. No independent assessment of its content was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A simple structure a room learns quickly",
+        "explanation": "Two verses and a returning chorus on a plain melodic line make the song easy to pick up, which helps explain its spread across nearly a hundred recordings.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "A natural call to worship",
+        "explanation": "Its subject is God's majesty in creation, so it suits an opening of a service or an occasion of wonder.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published in several keys; Musicnotes lists leadsheets in G and F. Pick the key from the chorus for the room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "G and F (per Musicnotes listings in search results)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The chorus returns three times and the extended tags repeat holy, hallelujah and the Lord of heaven and earth many times, so in the Third Day version repetition carries much of the closing.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in words and form, and easy to learn. The tags can run long, and heavy repetition then does the work the words do not. A leader can shorten the tag to keep the song focused."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "God is named as Lord, Father and Almighty",
+        "explanation": "The addressee is never vague: the song names God as Lord, Father and Lord God Almighty.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in its claims; its imagery is biblical and cosmic, and its meaning is not open to a wrong reading."
+  },
+  "synthesis": {
+    "summary": "A creation hymn praising God as Lord and maker of earth, sea and sky, holy and above the cosmos, with a verse resolving to praise him morning and night and a tag asking him to reveal his heart. Its only named act is creation; Christ, the cross and the resurrection are not reached. Nothing in it is false. Heavy repetition in the extended tags is the delivery issue. No independent assessment was found.",
+    "themes": [
+      "God",
+      "Creation",
+      "Worship",
+      "Holiness",
+      "Sovereignty"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 19:1",
+        "relevance": "The heavens declaring God's glory - the song's central image."
+      },
+      {
+        "reference": "Isaiah 6:3",
+        "relevance": "Holy, holy, holy, the earth full of his glory - the chorus's theme."
+      },
+      {
+        "reference": "Revelation 4:8",
+        "relevance": "Holy, Lord God Almighty - the title the tag uses."
+      },
+      {
+        "reference": "Psalm 92:2",
+        "relevance": "Praise in the morning and by night - the second verse's resolve."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/God_of_Wonders",
+      "title": "God of Wonders",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writers Byrd and Hindalong, 1999 origin, first recording on the 2000 City on a Hill album, covers, chart and award history. Little theological analysis.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "AZLyrics",
+      "url": "https://www.azlyrics.com"
+    }
+  ]
+}
