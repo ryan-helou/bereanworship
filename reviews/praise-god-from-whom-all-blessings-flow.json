@@ -1,0 +1,202 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Praise God, from Whom All Blessings Flow (Doxology)",
+    "artist": "Thomas Ken",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1674,
+    "genre": "Hymn",
+    "isPublicDomain": true,
+    "notes": "Text by Thomas Ken (1637-1711), Church of England clergyman and later Bishop of Bath and Wells, written in 1674 as the closing stanza of his morning and evening hymns for Winchester College scholars; the three hymns were printed together in his Manual of Prayers (1695). Usually sung to the tune Old 100th. Public domain. Reviewed as the standard single-stanza form, not any one recording; the older wording 'Holy Ghost' means the Holy Spirit.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ABOUT_GOD",
+    "structuralNotes": "A single four-line stanza closed with Amen. It is a call to praise addressed to all creatures on earth and the heavenly host, and it ends in a doxology to the Father, Son and Holy Spirit. The voice is corporate and imperative; there is no personal testimony. God is named as the source of every blessing.",
+    "claims": [
+      {
+        "claim": "God is the source of every blessing and good gift.",
+        "subject": "Providence and God's goodness",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "All creatures on earth are summoned to praise God.",
+        "subject": "Creation's praise",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The heavenly host joins in praising God.",
+        "subject": "Heavenly worship",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Praise is due to the Father, the Son and the Holy Spirit together.",
+        "subject": "The Trinity",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "The Trinity",
+        "title": "Praise to Father, Son and Holy Spirit",
+        "explanation": "The stanza closes by giving praise to all three persons. A congregation confesses the Trinity in a few seconds of singing, in the church's oldest worship form.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "2 Corinthians 13:14",
+        "scriptureRationale": "Grace, love and fellowship from Father, Son and Spirit - the threefold naming the stanza ends on."
+      },
+      {
+        "category": "Providence",
+        "title": "All blessing traced to God",
+        "explanation": "Every good thing is said to flow from God, which teaches thanksgiving as the right response to ordinary gifts.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "James 1:17",
+        "scriptureRationale": "Every good gift comes from above, from the Father of lights."
+      },
+      {
+        "category": "Worship",
+        "title": "Creation and heaven summoned to praise",
+        "explanation": "The call reaches every creature and the heavenly host, placing the congregation's praise inside the praise of all creation.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 148:1-5",
+        "scriptureRationale": "The heavens and all that is in them are called to praise the Lord."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The Trinity",
+      "God as the giver of every good gift",
+      "Creation's duty to praise its Creator",
+      "The worship of heaven and earth together"
+    ],
+    "assessment": "Nothing to correct. The stanza is plainly orthodox and Trinitarian, and it teaches thanksgiving by tracing blessing to God. It is brief, so the gospel is not stated; it is a doxology, not a creed. The archaic 'Holy Ghost' carries the same meaning as Holy Spirit."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "One of the most familiar tunes in the church",
+        "explanation": "Old 100th is widely known and easy to sing, so a room can join without a page or a leader.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Use",
+        "title": "A ready closing or offering act",
+        "explanation": "Its single stanza and settled place in worship make it a natural response at the offering or the close of a service.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Usually sung in a comfortable middle key to Old 100th; no published key was checked for this review. Choose a key that fits the room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not checked (commonly sung in a middle key)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "NONE",
+    "repetitionAssessment": "A single stanza with no refrain; it is sometimes sung twice but nothing in the text repeats.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Entirely congregational: corporate in voice, very short and set to a tune most churches already know. It serves well wherever a brief, Trinitarian act of thanks is wanted."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "The three persons are named",
+        "explanation": "Father, Son and Holy Spirit are named, so the addressee is never vague.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The only friction is the older wording for the Spirit, which a short word of explanation removes."
+  },
+  "synthesis": {
+    "summary": "A single stanza by Thomas Ken (1674) that summons all creatures and the heavenly host to praise God as the source of every blessing and closes with praise to Father, Son and Holy Spirit. Orthodox and Trinitarian, corporate in voice, and brief enough that it states no gospel narrative.",
+    "themes": [
+      "God",
+      "Trinity",
+      "Worship",
+      "Thanksgiving",
+      "Creation",
+      "Providence"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "James 1:17",
+        "relevance": "Every good gift comes from above - the stanza's opening claim."
+      },
+      {
+        "reference": "Psalm 148:1-5",
+        "relevance": "Creation and the heavenly host summoned to praise."
+      },
+      {
+        "reference": "Psalm 150:6",
+        "relevance": "Everything that has breath praises the Lord."
+      },
+      {
+        "reference": "Matthew 28:19",
+        "relevance": "The threefold name of Father, Son and Holy Spirit."
+      },
+      {
+        "reference": "2 Corinthians 13:14",
+        "relevance": "The Trinitarian benediction the final line echoes."
+      },
+      {
+        "reference": "Revelation 5:13",
+        "relevance": "Every creature giving glory to God and the Lamb."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Doxology",
+      "title": "Doxology",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Ken wrote the doxology in 1674 as the last stanza of his morning and evening hymns for Winchester College; usually sung to Old 100th.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://hymnary.org/person/Ken_Thomas",
+      "title": "Thomas Ken",
+      "publisher": "Hymnary.org",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_1",
+      "establishes": "Ken (1637-1711), Bishop of Bath and Wells; his three hymns were printed together in the 1695 Manual of Prayers.",
+      "assessesContent": false
+    }
+  ]
+}

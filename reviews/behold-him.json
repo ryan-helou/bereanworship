@@ -1,0 +1,237 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Behold Him",
+    "artist": "Paul Baloche feat. Kim Walker-Smith",
+    "artistType": "INDIVIDUAL",
+    "album": "Behold Him",
+    "releaseYear": 2020,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Paul Baloche and Mitch Wong. Kim Walker-Smith is the featured vocalist on the recording, not a credited writer. The list's artist guess is right for the recording churches know. The single was in circulation before the album Behold Him (Integrity Music) was announced in February 2020 and released on 28 February 2020; Apple Music dates the single 2019, and other listings differ. A CCM Magazine item says the song grew out of a wish to slow down and take in God's sovereignty. The publisher and CCLI number were not established. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ABOUT_GOD",
+    "structuralNotes": "Four verses, each closing with a call to behold Him, a recurring chorus that piles up Christ's titles, a second group of chorus lines, a bridge ascribing holiness and worthiness to the Lord God Almighty (repeated several times), and closing choruses. The voice is almost entirely third person about Christ, with the call to be still and look addressed to the congregation. The verses run through his pre-existence and creation of all things, the incarnation, his ministry among sinners and the suffering, his presence with his people now, his death paying a debt in blood, and his rising to defeat death. The chorus names him Son of God, Messiah, Lamb and Lion, Alpha and Omega, God and risen Savior.",
+    "claims": [
+      {
+        "claim": "Christ existed before creation and made all things.",
+        "subject": "Christ's pre-existence and creation",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Son left his throne and was born as a child, taking the lowest place.",
+        "subject": "The incarnation",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ ate with sinners and healed the blind, lost and lame, and is present with his people now.",
+        "subject": "Christ's ministry and presence",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ died by a criminal's execution, paying a debt in his blood, and rose to put death to death.",
+        "subject": "Atonement and resurrection",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus is Son of God, Messiah, Lamb and Lion, Alpha and Omega, God and risen Savior.",
+        "subject": "The deity and titles of Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lord God Almighty is holy and worthy.",
+        "subject": "The holiness and worthiness of God",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The congregation is called to be still and look on Christ.",
+        "subject": "Beholding the Lamb",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christology",
+        "title": "A full portrait of Christ",
+        "explanation": "The song moves from pre-existence and creation through incarnation, ministry, death and resurrection, and the chorus names him God and Savior in the same breath. A congregation is told who he is and what he did, not only invited to feel something.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "John 1:1-3",
+        "scriptureRationale": "The Word with God before creation and the maker of all things - the claim of the first verse."
+      },
+      {
+        "category": "Atonement",
+        "title": "The cross as a debt paid",
+        "explanation": "Christ's death is described as a paid debt and a voluntary sacrifice, and the next line has him rising to end death's hold. The exchange is stated as something done for others.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Colossians 2:14",
+        "scriptureRationale": "The record of debt cancelled at the cross - the picture the verse uses."
+      },
+      {
+        "category": "Incarnation",
+        "title": "Descent from the throne",
+        "explanation": "The Son leaves his throne and takes the lowest place, which is the humility of Philippians 2 put in ordinary words.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Philippians 2:6-8",
+        "scriptureRationale": "The Son emptying himself and taking the form of a servant."
+      },
+      {
+        "category": "Worship",
+        "title": "Christ's titles drawn from Revelation",
+        "explanation": "Lamb, Lion, Alpha and Omega, and the holy, worthy refrain are all taken from Revelation, so the praise rests on how Scripture names him.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 5:5-6",
+        "scriptureRationale": "The Lion who is also the slain Lamb."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The pre-existence of Christ and his work in creation",
+      "The incarnation",
+      "Christ's friendship with sinners and healing ministry",
+      "Atonement as a debt paid in his blood",
+      "The resurrection and defeat of death",
+      "The deity of Christ",
+      "The holiness and worthiness of God"
+    ],
+    "assessment": "Nothing to correct. The song is third person about Christ and the whole of it is a statement of who he is and what he did. The line about a criminal's death is accurate as the voluntary sacrifice of John 10:18. The Spirit, the church and the second coming are not reached, which is an absence rather than an error."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "An easy melody with a clear refrain",
+        "explanation": "The recurring call to behold him and the short, repeated bridge are quick to learn, so a room joins by the second pass.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fits Advent, Lent and ordinary Sundays",
+        "explanation": "The sweep from creation to resurrection means it serves at Christmas, on Good Friday and at Easter, and as a call to adoration.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Key not established for this review. The melody is easy with a moderate range; check the chorus and bridge in the key you choose.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not established",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The bridge repeats four times and the choruses recur, but the repeats are a confession of Christ's holiness and worth, so the words do the work.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Written to be sung by a room: the verses are narrative, the chorus is a list of titles everyone can say, and the bridge is a short refrain. The Kim Walker-Smith recording is more vocally demanding than the song itself."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ is named and described",
+        "explanation": "The chorus puts his titles in plain view and the verses say what he did, so the addressee is never vague.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The titles are biblical and the verses tell the story in order. Nothing in the song is open to a wrong reading."
+  },
+  "synthesis": {
+    "summary": "A Christ-centered song that tells of his pre-existence and creation of all things, the incarnation, his ministry among sinners, his death paying a debt, and his resurrection over death, with a chorus of biblical titles and a holy, worthy bridge. Third person about Christ with a call to the congregation. No concerns found. No independent source assessing its content was found.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Resurrection",
+      "Worship",
+      "Grace",
+      "Creation",
+      "Holiness"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "John 1:1-3",
+        "relevance": "The Word with God and maker of all things - the first verse's claim."
+      },
+      {
+        "reference": "Philippians 2:6-8",
+        "relevance": "The Son leaving glory and taking the lowest place."
+      },
+      {
+        "reference": "Colossians 2:14",
+        "relevance": "The debt cancelled at the cross."
+      },
+      {
+        "reference": "1 Corinthians 15:54-57",
+        "relevance": "Death swallowed up in victory."
+      },
+      {
+        "reference": "Revelation 5:5-6",
+        "relevance": "The Lion who is the Lamb."
+      },
+      {
+        "reference": "Revelation 1:8",
+        "relevance": "Alpha and Omega, the Lord God Almighty."
+      },
+      {
+        "reference": "Psalm 46:10",
+        "relevance": "Be still - the call the verses end on."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.ccmmagazine.com/news/paul-baloche-to-release-new-album-behold-him/",
+      "title": "Paul Baloche to Release New Album 'Behold Him'",
+      "publisher": "CCM Magazine",
+      "sourceType": "JOURNALISM",
+      "credibilityTier": "TIER_3",
+      "establishes": "Baloche co-wrote the song with Mitch Wong; it was already being led in churches before the album Behold Him was announced in February 2020; the album was set for 28 February 2020.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.google.com/search?q=Behold+Him+Paul+Baloche+Kim+Walker-Smith+lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel (LyricFind)",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Forever (Give Thanks to the Lord)",
+    "artist": "Chris Tomlin",
+    "artistType": "INDIVIDUAL",
+    "album": "The Noise We Make",
+    "releaseYear": 2001,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Chris Tomlin alone; catalogued with a copyright line naming sixsteps Music and worshiptogether.com Songs, administered by Capitol CMG Publishing; CCLI 3148428. The reading note dated the song 2008 and the list's artist guess is right, but the song is older: sources give the recording on The Noise We Make (2001), with the 2008 date appearing only as a hymnal-database publication year and a 2000 composition date also reported. It is not the Kari Jobe/Bethel song of the same name. The Worship Together page lists it among Tomlin's later collections and gives an original key of G. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "CORPORATE_WE",
+    "structuralNotes": "Two verses, each pairing a call to give thanks with a steadfast-love refrain after every line, a call-to-praise pre-chorus, and a chorus; the ending repeats the chorus and a closing call to sing praise. The verses speak in the plural and about God in the third person: give thanks to the Lord as God and King, who is good and above all things, whose power freed his people with a mighty hand, and whose people are born again and carried by grace. The chorus affirms his faithfulness, strength and presence forever, and turns at the close to direct address. It is a psalm-shaped song built on Psalm 136; the voice is the gathered congregation exhorting itself. Christ's cross and resurrection are not stated, though new birth is mentioned.",
+    "claims": [
+      {
+        "claim": "God is to be thanked as Lord, God and King; he is good and above all things.",
+        "subject": "The goodness and lordship of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God delivered his people by his power with a mighty hand and outstretched arm.",
+        "subject": "The exodus deliverance",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's people are born again and carried on by his grace.",
+        "subject": "New birth and grace",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "His steadfast love endures forever, the answer to every line of the verses.",
+        "subject": "God's steadfast love",
+        "location": "VERSE_1",
+        "lyricExcerpt": null,
+        "locationDetail": "the refrain after each line"
+      },
+      {
+        "claim": "The congregation is called to praise, from the rising of the sun onward.",
+        "subject": "Universal call to praise",
+        "location": "PRE_CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is faithful, strong and present with his people forever.",
+        "subject": "God's faithfulness and presence",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "God's character",
+        "title": "Steadfast love as the refrain of everything",
+        "explanation": "The song hangs every statement on the endurance of God's covenant love. Thanks is grounded in who he is and what he has done, not in how the singer feels, and the refrain keeps that ground in front of the room.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Psalm 136:1",
+        "scriptureRationale": "Give thanks to the Lord, for his steadfast love endures forever - the psalm's own refrain, carried through the song."
+      },
+      {
+        "category": "Redemption",
+        "title": "The exodus deliverance remembered",
+        "explanation": "Verse two recalls the mighty hand and outstretched arm that freed God's people, so thanks rests on a saving act in history rather than on mood.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Deuteronomy 4:34",
+        "scriptureRationale": "God taking a people for himself with a mighty hand and an outstretched arm."
+      },
+      {
+        "category": "Grace",
+        "title": "New birth and grace named",
+        "explanation": "The verse says God's people are born again and carried on by his grace, a salvation claim sung in the plural. It stops short of the cross, but what it says is true.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Peter 1:3",
+        "scriptureRationale": "Born again to a living hope according to God's great mercy."
+      },
+      {
+        "category": "God's character",
+        "title": "God's constancy and presence",
+        "explanation": "The chorus sets faithfulness, strength and presence over all time, so a congregation confesses that God does not change and does not leave.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Hebrews 13:8",
+        "scriptureRationale": "Jesus Christ the same yesterday, today and forever - the constancy the chorus confesses."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The goodness and lordship of God",
+      "God's steadfast covenant love",
+      "God's deliverance of his people",
+      "New birth by grace",
+      "God's faithfulness and abiding presence"
+    ],
+    "assessment": "Nothing to correct. The song takes a psalm's structure and its refrain and puts both in a congregation's mouth, grounding thanks in God's goodness, his deliverance and his faithfulness. It makes no false claim. It is thin on the gospel itself: new birth and grace are named, but the cross, the resurrection and the Spirit are not reached, so it is a song of thanks to be set beside others for them."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A refrain a room can carry",
+        "explanation": "The steadfast-love refrain after each line is the psalm's own device: a congregation can join it on first hearing, and it is among the most widely known songs of its kind.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Use",
+        "title": "Fitted to a call to worship or thanksgiving",
+        "explanation": "The plural voice and the exhortation to praise make it a natural opening or response song. It speaks to one another as well as to God.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published with G as the original key and a fast tempo (about 118 BPM) on the Worship Together page, which also recommends A, Bb, D and E. Choose a key by the chorus.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "G (original per Worship Together)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The refrain repeats after every line, as in Psalm 136, and the repetition is the content: each pass gives a different reason for the same confession of steadfast love.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in words and form. The plural voice, the fast steady pulse and the repeated refrain make it easy to sing in a large room. It works as a call to worship, a thanksgiving song, or a response after a reading from the Psalms."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "God is the subject throughout",
+        "explanation": "The song names the Lord, God and King as the one to be thanked, and every line says something about him.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The vocabulary is the Bible's own and nothing in it can be taken the wrong way. It does not say how God's people came to be reborn, so a visitor learns that God is good and faithful but not how he saved."
+  },
+  "synthesis": {
+    "summary": "A psalm-shaped song of thanks built on Psalm 136, in the congregation's plural voice. It rests thanks on God's goodness, his deliverance of his people, new birth by grace and his faithful presence forever. Nothing in it is wrong. The cross, the resurrection and the Spirit are not reached. It is easy to sing, and its refrain does the work of Psalm 136.",
+    "themes": [
+      "God",
+      "Thanksgiving",
+      "Worship",
+      "Grace",
+      "Providence"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 136:1",
+        "relevance": "Give thanks to the Lord, for his love endures forever - the song's refrain and shape."
+      },
+      {
+        "reference": "Psalm 107:1",
+        "relevance": "The call to give thanks because the Lord is good, echoed in the opening verses."
+      },
+      {
+        "reference": "Deuteronomy 4:34",
+        "relevance": "A people taken by a mighty hand and outstretched arm - the deliverance in verse two."
+      },
+      {
+        "reference": "1 Peter 1:3",
+        "relevance": "New birth through God's mercy - the claim about God's people in verse two."
+      },
+      {
+        "reference": "Hebrews 13:8",
+        "relevance": "The unchanging Christ - the constancy the chorus confesses."
+      },
+      {
+        "reference": "Lamentations 3:23",
+        "relevance": "New mercies and great faithfulness - the faithfulness of the chorus."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.worshiptogether.com/songs/forever-chris-tomlin/",
+      "title": "Forever - Chris Tomlin",
+      "publisher": "Worship Together",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writer Chris Tomlin, CCLI 3148428, original key G, tempo and the Psalm 89 reference. Not an assessment of soundness.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel",
+      "url": "https://www.google.com/search?q=Forever+Give+Thanks+Chris+Tomlin+lyrics"
+    }
+  ]
+}

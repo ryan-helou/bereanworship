@@ -1,0 +1,233 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Psalm 42 (Loudest Praise)",
+    "artist": "Shane & Shane",
+    "artistType": "GROUP",
+    "album": "Psalms, Hymns, and Spiritual Songs, Vol. 1",
+    "releaseYear": 2021,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Shane Barnard and Bryan Fowler; copyright 2021 Songs From Wellhouse (Capitol CMG Publishing), So Essential Tunes and RELWOF (Essential Music Publishing), copyright date 11 June 2021; CCLI 7177985. Released 23 July 2021 by Wellhouse Records on Psalms, Hymns, and Spiritual Songs, Vol. 1 (the album title the list gives as Psalms Vol. 1 is slightly off; Shane & Shane's earlier 2002 album Psalms is a different release). Barnard has said the song came out of a hard season when a familiar hymn no longer matched how he felt and he turned to Psalm 42, finding that praise can rise out of trouble and that mercy is not removed from it. Reviewed as the song, not any one recording."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Two verses each with a pre-chorus, a chorus built on the framework of the hymn Come Thou Fount, a bridge, and a return of the chorus with a short closing tag. The first verse voices longing for God and sorrow; its pre-chorus turns to self-address, telling the forgotten soul to hope in Christ alone and to long for home. The chorus asks God to tune the heart to bless him and treats unending trouble as a summons to loud praise. The second verse cries out for answers, overwhelmed, then asks God's goodness to bind the broken heart to him, affirms his presence at night and his daily upholding, and tells the soul to hope in Jesus because praise will come in the end. The bridge voices doubt and the question of where God is, then lands on salvation in him alone. Voice is first person singular, mostly prayer, with the pre-chorus as address to one's own soul. The cross, the resurrection and the Spirit are not reached.",
+    "claims": [
+      {
+        "claim": "The singer longs for God as a thirsting creature longs for water, even in sorrow.",
+        "subject": "Longing for God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The downcast soul is to hope in Christ alone and to long for home.",
+        "subject": "Hope in Christ",
+        "location": "PRE_CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is asked to tune the heart to bless him, so that continued trouble becomes an occasion for praise.",
+        "subject": "Praise in suffering",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Overwhelmed in deep distress, the singer asks God's goodness to bind a broken heart to himself.",
+        "subject": "Dependence on God's goodness",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is present at night and upholds the singer daily, and the soul is told to hope in Jesus because praise will come in the end.",
+        "subject": "God's steadfast care",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Doubt and the question of where God is are voiced honestly, and the answer given is that salvation is in him alone.",
+        "subject": "Lament resolving to trust",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Lament",
+        "title": "Honest lament that ends in hope",
+        "explanation": "The song voices sorrow, doubt and the question of God's whereabouts, then closes on God as sole salvation. It models the psalm's own movement, giving a congregation words for suffering without leaving it there.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Psalm 42:5",
+        "scriptureRationale": "Why are you cast down, my soul? Hope in God - the self-address the song takes up."
+      },
+      {
+        "category": "Scripture",
+        "title": "Built on Psalm 42",
+        "explanation": "The thirst for God, the downcast soul told to hope, deep calling to deep, the waves, and God's steadfast love by day and song by night all come from the psalm. The hymn Come Thou Fount shapes the chorus.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 42:1-2, 7-8",
+        "scriptureRationale": "The panting soul and the steadfast love commanded by day - the passages set."
+      },
+      {
+        "category": "Christ",
+        "title": "Hope is placed in Jesus by name",
+        "explanation": "The pre-chorus and second verse name Christ and Jesus as the soul's hope, a faithful Christian reading of the psalm that gives the lament its object.",
+        "songLocation": "PRE_CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Peter 1:3",
+        "scriptureRationale": "A living hope through the resurrection of Jesus Christ - hope located in a person."
+      },
+      {
+        "category": "Providence",
+        "title": "God sustains by day and by night",
+        "explanation": "The second verse affirms God's presence in the night and his daily upholding, grounding endurance in his care rather than the singer's strength.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 42:8",
+        "scriptureRationale": "The Lord commands his steadfast love by day and his song is with me in the night."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God's steadfast care in suffering",
+      "Hope in Christ alone",
+      "Salvation in God alone",
+      "The legitimacy of lament"
+    ],
+    "assessment": "Nothing to correct. The bridge states unbelief and the question of where God is as the singer's experience, which mirrors the psalm's own lament and ends on God as sole salvation. Placing hope in Jesus is a faithful Christian reading of the psalm. The gospel is implicit: the cross and resurrection are not reached, and the song is more about the singer's response to trouble than a statement of what Christ has done. No independent theological assessment was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A familiar hymn-shaped chorus",
+        "explanation": "The chorus borrows the framework of a well-known hymn, so a congregation can pick it up quickly even though the verses are wordy and conversational.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Gives suffering a corporate voice",
+        "explanation": "The lament-to-hope arc suits services of care, seasons of grief and pastoral moments, and the album was written around Colossians 3:16 for congregational use.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Published in several keys on PraiseCharts; check the key against the room. The bridge sits higher and more intense than the verses and chorus, so test it before choosing a key.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Several published keys",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus recurs several times and the bridge is a driving loop that repeats once, but each return is to the confession of hope in God, and the bridge repeats its movement from doubt to trust.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Congregational in its words and its hymn-like chorus. The wordy, conversational verses and the higher, intense bridge need a confident leader. The heavy bridge loop can pull toward performance if the build is chased."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "God and Jesus are named",
+        "explanation": "The song names God, Christ and Jesus as the object of hope, so the addressee is never vague.",
+        "songLocation": "PRE_CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The psalm imagery is biblical and easy to follow, and the sorrow-to-hope movement is plain. The bridge's voiced doubt is clearly the singer's experience and not a claim about God."
+  },
+  "synthesis": {
+    "summary": "A lament built on Psalm 42 with a chorus shaped on Come Thou Fount. The singer longs for God, cries out in distress, voices doubt, and each time returns to hope in Christ and to God as sole salvation, with praise offered in trouble. Nothing in it is false. The cross and resurrection are not reached, and the voice is a personal one. No independent assessment of its teaching was found.",
+    "themes": [
+      "Lament",
+      "Suffering",
+      "Hope",
+      "Worship",
+      "Faith",
+      "Christ",
+      "Providence",
+      "Scripture"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 42:1-2",
+        "relevance": "The soul thirsting for the living God - the song's opening longing."
+      },
+      {
+        "reference": "Psalm 42:5",
+        "relevance": "The downcast soul told to hope in God - the pre-chorus and second verse."
+      },
+      {
+        "reference": "Psalm 42:7-8",
+        "relevance": "Deep calling to deep, the waves, and God's steadfast love by day and song by night."
+      },
+      {
+        "reference": "Psalm 42:11",
+        "relevance": "The refrain of hope in God that closes the psalm."
+      },
+      {
+        "reference": "1 Samuel 7:12",
+        "relevance": "The Ebenezer of Come Thou Fount, on whose framework the chorus is built."
+      },
+      {
+        "reference": "Psalm 36:9",
+        "relevance": "The fountain of life, behind the hymn the chorus echoes."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://essentialmusicpublishing.com/songs/psalm-42-loudest-praise/",
+      "title": "Psalm 42 (Loudest Praise) - Essential Music Publishing",
+      "publisher": "Essential Music Publishing",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher record: writers Bryan Fowler and Shane Barnard, CCLI 7177985, copyright date 11 June 2021, and the publishing entities.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://freeccm.com/2021/09/01/behind-the-song-shane-shane-shares-the-heart-behind-their-song-psalm-42-loudest-praise/",
+      "title": "Behind The Song: Shane & Shane Shares The Heart Behind Their Song",
+      "publisher": "FreeCCM",
+      "sourceType": "JOURNALISM",
+      "credibilityTier": "TIER_3",
+      "establishes": "Barnard's own account: written in a hard season from Psalm 42, with praise rising out of trouble and mercy not removed from it.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel (Musixmatch)",
+      "url": "https://www.google.com/search?q=Shane+%26+Shane+Psalm+42+lyrics"
+    }
+  ]
+}

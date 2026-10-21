@@ -1,0 +1,225 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Hallelujah for the Cross",
+    "artist": "Chris McClarney",
+    "artistType": "INDIVIDUAL",
+    "album": "Breakthrough",
+    "releaseYear": 2018,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Ben Glover, Chris McClarney and Jeff Pardo; CCLI 7107551 (catalogue listings give Capitol CMG as publisher). Released by Chris McClarney as a single in March 2018 and on the live album Breakthrough, recorded at Jesus Culture Church in Sacramento. The list's attribution to Rend Collective is wrong, and no Rend Collective song of this title was found; it is also not Bonar's hymn and not the Newsboys' 2014 album of the same name. The Worship Initiative has also recorded it. McClarney has said he wanted to write a song that simply said thank you to God, and the writers kept returning to the cross. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "INDIVIDUAL_I",
+    "structuralNotes": "Three verses, a chorus, a long repeated bridge and a closing chorus. The voice is first person singular throughout. The verses confess helplessness and darkness apart from the cross and speak of Christ's kindness in pursuing the lost. The chorus gives thanks for redemption from bondage by Christ's blood. The bridge declares healing, life through Christ's death, sin's power broken and the work finished. The sequence is need, rescue, redemption and finished work; the Spirit, the church and the return of Christ are not reached.",
+    "claims": [
+      {
+        "claim": "Apart from the cross the singer is helpless and in darkness.",
+        "subject": "Human helplessness and sin",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ in his kindness seeks out and pursues the lost.",
+        "subject": "The grace of Christ in seeking the lost",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer has been redeemed from bondage by the blood of Christ.",
+        "subject": "Redemption by Christ's blood",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Healing is found through Christ's wounds, which in context is deliverance from sin and death to life.",
+        "subject": "Atonement and spiritual healing",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Sin's power over the believer is broken and life comes through Christ's death.",
+        "subject": "Freedom from sin's mastery",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The work of salvation is finished.",
+        "subject": "The finished work of Christ",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "Redemption by the blood of Christ",
+        "explanation": "The chorus gives thanks for being bought out of bondage by Christ's blood. The ground of the singer's freedom is what Christ did at the cross, not the singer's effort, and the thanks goes to him for it.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Ephesians 1:7",
+        "scriptureRationale": "Redemption through his blood, the forgiveness of trespasses - the work the chorus thanks him for."
+      },
+      {
+        "category": "The gospel",
+        "title": "The finished work, declared",
+        "explanation": "The bridge says the work is finished, sin's power is broken and life comes through his death. It rests the believer's standing on a completed act of Christ.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MAJOR",
+        "scriptureReference": "John 19:30",
+        "scriptureRationale": "It is finished - the cry from the cross that the bridge takes up as its confidence."
+      },
+      {
+        "category": "Grace",
+        "title": "Christ seeks the lost",
+        "explanation": "The verses present Christ as the one who pursues the lost in kindness, so the singer's rescue begins with him and not with the singer.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Luke 19:10",
+        "scriptureRationale": "The Son of Man came to seek and to save the lost - the pursuit the verses describe."
+      },
+      {
+        "category": "Sin",
+        "title": "Honest about need",
+        "explanation": "The verses confess helplessness and darkness apart from the cross, which gives the thanks of the chorus something to be thanks for.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Corinthians 1:18",
+        "scriptureRationale": "The word of the cross as the power of God for those being saved - the verses' ground for hope."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Human helplessness apart from Christ",
+      "Redemption by the blood of Christ",
+      "The finished work of the cross",
+      "Freedom from the mastery of sin",
+      "Christ's kindness in seeking the lost",
+      "Healing of sin and death through Christ's wounds"
+    ],
+    "assessment": "Nothing to correct. The bridge's line about healing by his stripes is stated without qualification and could be heard as a promise of bodily healing, but set between sin, freedom and death to life it reads as the spiritual healing of 1 Peter 2:24, and it is not charged as a concern."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A chorus that is easy to hold",
+        "explanation": "The chorus is simple and memorable, and the range is modest, so a congregation can learn it in one pass.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Fits Good Friday and Easter",
+        "explanation": "The words are thanks for the cross, which suits Lent, Good Friday and Easter and any service where redemption is the subject.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Range is modest. No chart was read, so the published keys are not stated here; check the leader's key against the room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not stated; no chart read",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The bridge repeats the same four lines many times and the chorus returns after each verse. The lines carry real content, but the repeat does much of the closing work.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Built for a room to sing: a plain chorus, a modest range and a bridge that a congregation can take up without a leader. The long bridge repeat can run on, and a leader may choose how many times to take it."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "The cross and Christ's blood are named",
+        "explanation": "The chorus and bridge name the cross, Christ's blood and the finished work outright, so a visitor knows what is being thanked and why.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The one phrase open to a second hearing is the healing by his stripes, and the surrounding lines about sin, freedom and life settle it as spiritual healing."
+  },
+  "synthesis": {
+    "summary": "A first-person thanksgiving for the cross. The verses confess helplessness and Christ's kindness in seeking the lost, the chorus gives thanks for redemption by his blood, and the bridge declares healing, life through his death, sin's power broken and the work finished. The gospel is explicit and no claim is false; the voice is the singer's own and the bridge repeats at length.",
+    "themes": [
+      "Cross",
+      "Salvation",
+      "Grace",
+      "Thanksgiving",
+      "Christ",
+      "Sin"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Isaiah 53:5",
+        "relevance": "Healed by his wounds - the bridge's language of healing, read as the healing of sin."
+      },
+      {
+        "reference": "1 Peter 2:24",
+        "relevance": "Bearing our sins on the tree so that we might die to sin and live to righteousness - the sense of the healing."
+      },
+      {
+        "reference": "John 19:30",
+        "relevance": "It is finished - the bridge's declaration of the completed work."
+      },
+      {
+        "reference": "Romans 6:14-18",
+        "relevance": "Sin no longer master over those under grace - the bridge's broken power of sin."
+      },
+      {
+        "reference": "Ephesians 1:7",
+        "relevance": "Redemption through his blood - the chorus's ground for thanks."
+      },
+      {
+        "reference": "Luke 19:10",
+        "relevance": "The Son of Man sought the lost - the verses' picture of Christ's pursuit."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.worshiptogether.com/songs/hallelujah-for-the-cross-chris-mcclarney/",
+      "title": "Hallelujah For The Cross - Chris McClarney",
+      "publisher": "Worship Together",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_3",
+      "establishes": "Catalogue page: writers Jeff Pardo, Ben Glover and Chris McClarney, with Easter, grace and adoration themes. It gives no commentary on the song's teaching.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com/Chris-mcclarney-hallelujah-for-the-cross-lyrics"
+    }
+  ]
+}

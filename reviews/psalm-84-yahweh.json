@@ -1,0 +1,210 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "MEDIUM",
+    "title": "Yahweh (Psalm 84)",
+    "artist": "The Worship Initiative & Writers Well, featuring Shane & Shane and Max Dasher",
+    "artistType": "GROUP",
+    "album": "Psalms from the Well",
+    "releaseYear": 2023,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Identified as the Worship Initiative and Writers Well recording featuring Shane & Shane and Max Dasher, from the album Psalms from the Well, released 3 November 2023 (Apple Music record loaded; some listings date a deluxe edition 2024). A search listing credits Max Dasher, Laela Dasher, Mac Hays, Britton Hardcastle, Carrie Hardcastle, George Koehl and Adam Westlake as writers; the Apple page does not list writers or publisher, so the writer credit is single-sourced. No CCLI number was confirmed (a number seen belonged to a different title, Psalm 84 (I'm Home), and is not used). Shane & Shane also recorded a medley titled Yahweh (Psalm 84) / Better Is One Day with the same core words. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "A chorus, two short verses that each close on a single divine name, a bridge that is sung twice, a final chorus and verses cycle, and a tag. The voice is first person and devotional, built on Psalm 84: desire to be in God's presence above all else, the soul longing and fainting, God as the source of strength, the house of the Lord as a forever home, and standing on holy ground. The bridge says that even the sparrow and the weary find rest, and that one day in God's courts exceeds a thousand elsewhere. The chorus says God's presence is the singer's only need, devotional hyperbole in the manner of Psalm 73:25. Access to God's courts through Christ (Hebrews 10:19-22) is not stated, though nothing contradicts it.",
+    "claims": [
+      {
+        "claim": "The singer longs for God's presence above everything and the soul faints for it.",
+        "subject": "Longing for God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lord's presence is the singer's one need; nothing else is wanted.",
+        "subject": "God's presence as the supreme good",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is the source of the singer's strength.",
+        "subject": "God as strength",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's house is the singer's home for ever, and the singer stands on holy ground.",
+        "subject": "Dwelling with God; holiness",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Even the sparrow and the weary find rest in God.",
+        "subject": "Rest in God",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "One day in God's courts is better than a thousand elsewhere.",
+        "subject": "The worth of God's presence",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Scripture",
+        "title": "Psalm 84 carried into song",
+        "explanation": "The song is built on Psalm 84 and draws on Psalm 27:4, Matthew 11:28 and Exodus 3:5, so its language of longing, strength, rest and holy ground is scriptural rather than invented.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 84:1-4, 10",
+        "scriptureRationale": "Longing for the courts of the Lord and the worth of a day there."
+      },
+      {
+        "category": "Worship",
+        "title": "God's presence as the supreme good",
+        "explanation": "The song puts God's presence above every other want, which is the psalm's own priority and a fitting thing for a congregation to confess.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 84:10",
+        "scriptureRationale": "A day in the courts better than a thousand elsewhere."
+      },
+      {
+        "category": "God",
+        "title": "God as the believer's strength and rest",
+        "explanation": "The song looks to God for strength and rest, and extends rest to the weary, echoing Christ's invitation.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MINOR",
+        "scriptureReference": "Matthew 11:28",
+        "scriptureRationale": "The weary come to Christ for rest."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God's presence as the believer's chief good",
+      "God as the source of strength",
+      "Rest for the weary in God",
+      "The holiness of God's presence"
+    ],
+    "assessment": "Nothing to correct. The claim that God's presence is the singer's only need is devotional hyperbole of the kind found in Psalm 73:25, not a denial of other goods. The song does not say that access to God's courts is through Christ (Hebrews 10:19-22), but nothing in it contradicts that. Its content is the psalm's longing, with little stated about what God has done."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A simple chorus melody",
+        "explanation": "The chorus is simple and singable and sung with ease by a room, as the setting is built for congregational use.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "A psalm of longing for gathered worship",
+        "explanation": "The psalm's subject is gathering in God's house, which suits the start of a service or a call to worship.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published key not confirmed for this review. The simple chorus melody sits comfortably for a room; test the keys of the album and medley versions before choosing one.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not confirmed",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The bridge is sung twice and the tag repeats one line three times. The repetition carries the longing the psalm expresses, but it does more of the work than the words add.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Congregational in melody and shape, with repetition heavy enough that a leader should plan its length. It suits an opening or gathering moment."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "The Lord is addressed by name",
+        "explanation": "Each verse closes on a divine name, so the one being sung to is clear throughout.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in what it says, because it follows the psalm. Christ is not named, and a congregation will not hear that access to the Lord's house comes through him."
+  },
+  "synthesis": {
+    "summary": "A psalm-based song of longing: the singer desires God's presence above all, looks to him for strength, calls his house a forever home, and finds rest for the weary there. Nothing in it is wrong; the chorus hyperbole is psalm-like. Christ is not named and what God has done is little stated. The chorus is easy to sing; the bridge and tag repeat heavily.",
+    "themes": [
+      "God",
+      "Worship",
+      "Scripture",
+      "Holiness",
+      "Faith",
+      "Hope"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 84:1-10",
+        "relevance": "The psalm the song is built on."
+      },
+      {
+        "reference": "Psalm 27:4",
+        "relevance": "Desire to dwell in the Lord's house."
+      },
+      {
+        "reference": "Matthew 11:28",
+        "relevance": "Rest for the weary in Christ."
+      },
+      {
+        "reference": "Exodus 3:5",
+        "relevance": "Standing on holy ground."
+      },
+      {
+        "reference": "Hebrews 10:19-22",
+        "relevance": "Access to God's presence through Christ, not stated in the song."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://music.apple.com/us/song/yahweh-psalm-84-feat-shane-shane-max-dasher/1709369273",
+      "title": "Yahweh (Psalm 84) [feat. Shane & Shane & Max Dasher]",
+      "publisher": "Apple Music",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_3",
+      "establishes": "Catalogue record: Worship Initiative and Writers Well with Shane & Shane and Max Dasher, album Psalms from the Well, released 3 November 2023. Lists no writers.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://genius.com/The-worship-initiative-and-writers-well-yahweh-psalm-84-lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

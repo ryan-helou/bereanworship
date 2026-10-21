@@ -1,0 +1,234 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Great I Am",
+    "artist": "Jared Anderson / New Life Worship",
+    "artistType": "INDIVIDUAL",
+    "album": "Great I Am",
+    "releaseYear": 2011,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Jared Anderson alone; copyright 2011 Integrity Worship Music, administered by Integrity Music; CCLI 5881491; original key D per PraiseCharts. Anderson led worship at New Life Church, Colorado Springs, and the song appears on the Great I Am EP credited to New Life Worship and Jared Anderson. The list's artist is right. Other-language versions credit extra adapters (Olmes Corrales, Sebastian Bartram), but the English original is Anderson's. Reviewed as the song, not as any one recording; live versions add spontaneous extension.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Two verses, a chorus repeated after each, and a bridge about the power of the Lord's name. The verses are in the first person singular and voice desires: to be close to God, to hear angels sing, to see dry bones live, to love the world and hate the dark; one line sets heaven's reality against death. The chorus addresses God directly as holy and almighty, the great I Am, and asks who is worthy, answering that none is beside him. The bridge is a third-person proclamation that mountains shake and demons flee at his name and that no power in hell can stand before his presence.",
+    "claims": [
+      {
+        "claim": "The singer wants to be close to God.",
+        "subject": "Longing for God's presence",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Heaven is real, and death does not have the last word.",
+        "subject": "Hope beyond death",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer longs to see dead bones live and to love the world while hating what is dark.",
+        "subject": "Desire for revival",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is holy, almighty, the great I Am.",
+        "subject": "The name and holiness of God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "No one else is worthy; none is beside him.",
+        "subject": "God's uniqueness",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "At his name the mountains shake and demons flee.",
+        "subject": "The power of God's name",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "No power in hell can stand before the presence of the great I Am.",
+        "subject": "God's supremacy over evil",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "God's character",
+        "title": "The I AM name in the chorus",
+        "explanation": "The chorus rests on the divine name given to Moses and claimed by Christ, and joins it to God's holiness and almightiness, so the praise is grounded in who God is.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Exodus 3:14",
+        "scriptureRationale": "God's self-disclosure as I AM, the name the chorus takes up."
+      },
+      {
+        "category": "God's uniqueness",
+        "title": "None beside him",
+        "explanation": "The chorus asks who is worthy and answers that no one else is, which keeps the song from praising a mood and puts it on God alone.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 5:9-12",
+        "scriptureRationale": "The Lamb alone worthy, with angels and the church answering."
+      },
+      {
+        "category": "Sovereignty",
+        "title": "Evil cannot stand before him",
+        "explanation": "The bridge proclaims that nature and demons give way before God's name and that hell has no standing in his presence.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Philippians 2:9-10",
+        "scriptureRationale": "Every knee bowing at the name above every name."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The holiness and almightiness of God",
+      "God as the great I Am",
+      "God's uniqueness and worthiness",
+      "The authority of God's name over evil",
+      "The reality of heaven"
+    ],
+    "assessment": "No concern kept. The verse line setting heaven's reality against death is a figure: death is a real enemy in Scripture, but an ordinary congregation hears the line as saying death does not have the last word, which 1 Corinthians 15 affirms, so it does not affirmatively teach that death is unreal. The wish to love the world while hating the dark echoes John 3:16 and Romans 12:9. The verses are the singer's own longing and the gospel is only implicit."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A chorus a room can sing at once",
+        "explanation": "The chorus is short, simple in its progression, and builds, so a congregation picks it up on the first pass.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Suits gathering and adoration",
+        "explanation": "Its focus on God's name and holiness fits a call to worship or a response after a reading.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Published with D as the original key per PraiseCharts. The chorus is easy; the bridge range is moderately wide and builds, so check it for a mixed congregation.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "D (original per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The chorus returns after each verse and the bridge repeats in a long build, and live versions extend it spontaneously, so the repetition does more of the work than the few lines of words.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "The chorus is congregational and easy. The bridge is a high-energy build that leans on repetition and can move toward the leader's performance if extended. Kept to the written form it serves a room well."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "The addressee is named by the divine name",
+        "explanation": "The chorus calls God the great I Am, holy and almighty, so the song is plainly about the LORD and not an unnamed you.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "MODERATE",
+    "assessment": "The chorus and bridge are clear. The verses are the singer's longings and one line about death is figurative and can be heard more than one way, though the usual hearing is orthodox. The song never states the gospel, so its work is adoration."
+  },
+  "synthesis": {
+    "summary": "A song of adoration built on the divine name: verses voice the singer's longing for God's presence, heaven and revival, the chorus addresses God as holy, almighty and the great I Am with none beside him, and the bridge proclaims evil's powerlessness before his presence. One verse line on death is figurative. No concerns kept; the gospel is not stated. No independent source assessing its content was found.",
+    "themes": [
+      "God",
+      "Worship",
+      "Holiness",
+      "Sovereignty",
+      "Heaven",
+      "Hope"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Exodus 3:14",
+        "relevance": "The divine name I AM, taken up in the chorus."
+      },
+      {
+        "reference": "John 8:58",
+        "relevance": "Christ claiming the name before Abraham was."
+      },
+      {
+        "reference": "Isaiah 6:3",
+        "relevance": "The thrice-holy God of the chorus."
+      },
+      {
+        "reference": "Revelation 5:9-12",
+        "relevance": "The question of who is worthy, answered in the Lamb."
+      },
+      {
+        "reference": "Ezekiel 37:1-14",
+        "relevance": "Dry bones living - the second verse's longing."
+      },
+      {
+        "reference": "Philippians 2:9-10",
+        "relevance": "The name above every name."
+      },
+      {
+        "reference": "1 Corinthians 15:26",
+        "relevance": "Death as the last enemy, defeated by Christ."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/20649/great-i-am-sheet-music",
+      "title": "Great I Am (New Life Worship) - sheet music details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: author Jared Anderson, copyright 2011 Integrity Worship Music, publisher Integrity Music, CCLI 5881491, original key D.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://integrityworship.com/songs/great-i-am-jared-anderson/",
+      "title": "Great I Am - Jared Anderson",
+      "publisher": "Integrity Music",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_2",
+      "establishes": "Publisher page crediting Jared Anderson as writer and tagging the song with His Presence and Exodus 3:14.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.google.com/search?q=Great+I+Am+New+Life+Worship+Jared+Anderson+lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel (LyricFind)",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

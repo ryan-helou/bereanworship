@@ -1,0 +1,241 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "A Thousand Hallelujahs",
+    "artist": "Brooke Ligertwood",
+    "artistType": "INDIVIDUAL",
+    "album": "Seven",
+    "releaseYear": 2022,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Brooke Ligertwood, Scott Ligertwood and Phil Wickham; copyright 2022 City and Vine Music Publishing International, Phil Wickham Music and Simply Global Songs; CCLI 7190270. The list's guess of Brooke Ligertwood is right for the recording churches know, but the song is a three-way co-write: Wikipedia reports that the three wrote it in an old church hall in Southern California, reflecting on the generations of worshippers who had gathered there. Released 14 January 2022 as the lead single from her live album Seven (25 February 2022, Sparrow/Capitol Christian Music Group), produced by Ligertwood and Jason Ingram. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Two verses, a chorus, a post-chorus that repeats, and a closing chorus cycle. The first verse asks who else is worthy of the worship that even creation longs to give and voices the singer's joy. The second asks who else died for redemption and whose rising guarantees the believer's own, and admits a lifetime is too short so eternity will be spent in praise. The chorus, in the plural, magnifies the name of Jesus and gives him alone glory, honour and praise. The post-chorus proclaims praise to the Lord, the Lamb and King of heaven, because he rose and now reigns. The song is addressed to Jesus by name; the verses use rhetorical questions and the singular voice, while the chorus is corporate.",
+    "claims": [
+      {
+        "claim": "Jesus alone is worthy of the worship that all creation longs to give.",
+        "subject": "The worthiness of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Creation itself waits for and longs to praise its Maker.",
+        "subject": "Creation's praise",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ died to redeem, and no one else did.",
+        "subject": "Redemption by Christ alone",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ's resurrection guarantees the believer's own rising.",
+        "subject": "Resurrection and union with Christ",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "A lifetime is too short for praise, so eternity will be spent in it.",
+        "subject": "Eternal worship",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The name of Jesus is to be magnified and to receive all glory, honour and praise.",
+        "subject": "The glory of Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lamb rose from the dead and now reigns as King of heaven.",
+        "subject": "Resurrection and reign of Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null,
+        "locationDetail": "the post-chorus"
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christ",
+        "title": "Jesus alone is worthy",
+        "explanation": "The song's argument is that no one else has died for redemption or been raised, so no one else is owed this worship. The singer is sent to the person and work of Christ as the ground of praise.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Revelation 5:12",
+        "scriptureRationale": "Worthy is the Lamb who was slain - the reason given for praise."
+      },
+      {
+        "category": "Resurrection",
+        "title": "His rising secures ours",
+        "explanation": "Verse two says Christ's resurrection guarantees the believer's. That is the doctrine of union with Christ in his rising, stated plainly and in a singable line.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Corinthians 15:20-23",
+        "scriptureRationale": "Christ the firstfruits, and those who are his raised at his coming."
+      },
+      {
+        "category": "Christ",
+        "title": "The Lamb who rose and reigns",
+        "explanation": "The post-chorus joins the sacrificial Lamb with the risen King of heaven, so praise is for both his death and his reign.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 7:9-12",
+        "scriptureRationale": "The multitude praising the Lamb in glory."
+      },
+      {
+        "category": "Creation",
+        "title": "Creation's longing to praise",
+        "explanation": "The first verse draws on stones that would cry out, the stars and a creation waiting to be set free. It is poetic and consistent with Scripture.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 8:19-22",
+        "scriptureRationale": "Creation waiting in eager longing for the revealing of the sons of God."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The unique worthiness of Christ",
+      "Redemption by Christ's death",
+      "The bodily resurrection of Christ and the believer's resurrection with him",
+      "Christ's present reign",
+      "Eternal worship of the Lamb"
+    ],
+    "assessment": "Nothing to correct. The song grounds all its praise in Christ's death for redemption, his resurrection and his reign, and builds on Revelation, Romans 8 and 1 Corinthians 15. Creation's longing to praise is figurative and in line with Scripture. One independent blog review finds no theological error. The cross is stated briefly rather than developed, and the Spirit and the church are not reached."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "An anthemic, plural chorus",
+        "explanation": "The chorus is in the plural and easy to sing, and the post-chorus gives a congregation a single sentence of praise to repeat.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "A build that follows the argument",
+        "explanation": "The questions of the verses lead to the chorus and the post-chorus, so the arrangement builds with the claim. The room reaches the climax because it has heard the reasons.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "No chart read. One review finds the melody manageable but the key high for many bands, with leaps and off-beat rhythms late in the song; it suggests a half step down. Test the chorus.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not read; one review suggests lowering by a half step",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The post-chorus and chorus repeat, but each return follows the claim that Christ rose and reigns, so the repetition carries content and not only volume.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Congregational in its words and its chorus, with a recorded arrangement that builds and a verse that wants a trained lead. The chorus is the part a room owns. A leader should watch the recording's dynamics and the verse range, not model the performance."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Jesus, the Lamb and King, by name",
+        "explanation": "The chorus names Jesus and the post-chorus the Lamb and King of heaven, so the addressee is never vague.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The verses ask rhetorical questions that the rest of the song answers, and the figure of a thousand hallelujahs is read as a symbol of endless praise, as the independent review notes. Nothing is open to a wrong reading."
+  },
+  "synthesis": {
+    "summary": "A modern hymn of praise addressed to Jesus, built on the question of who else is worthy. It grounds praise in his death for redemption, his rising that guarantees the believer's, and his present reign as the Lamb and King. Creation's longing to worship is poetic and scriptural. Nothing in it is wrong. The cross is brief, and the Spirit and the church are not reached.",
+    "themes": [
+      "Christ",
+      "Worship",
+      "Resurrection",
+      "Cross",
+      "Creation",
+      "Heaven",
+      "Hope"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Revelation 5:12-13",
+        "relevance": "The Lamb worthy of glory, honour and praise - the chorus and post-chorus."
+      },
+      {
+        "reference": "Luke 19:40",
+        "relevance": "The stones that would cry out - the first verse's picture of creation praising."
+      },
+      {
+        "reference": "Romans 8:19-22",
+        "relevance": "Creation waiting in longing - the first verse."
+      },
+      {
+        "reference": "1 Corinthians 15:20-23",
+        "relevance": "Christ's rising secures the believer's - the second verse."
+      },
+      {
+        "reference": "Psalm 34:3",
+        "relevance": "Magnify the Lord with me - the chorus."
+      },
+      {
+        "reference": "Revelation 7:9-12",
+        "relevance": "A great multitude praising the Lamb forever - the eternity of praise."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/A_Thousand_Hallelujahs",
+      "title": "A Thousand Hallelujahs",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writers Brooke Ligertwood, Scott Ligertwood and Phil Wickham; released 14 January 2022 as lead single from Seven; origin in a church-hall writing session.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://willitworship.com/2022/12/01/a-thousand-hallelujahs-brooke-ligertwood/",
+      "title": "A Thousand Hallelujahs",
+      "publisher": "Will It Worship",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_4",
+      "establishes": "Independent review finding no theological error, tying the song to Scripture and noting singability and key.",
+      "assessesContent": true
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel",
+      "url": "https://www.google.com/search?q=A+Thousand+Hallelujahs+Brooke+Ligertwood+lyrics"
+    }
+  ]
+}

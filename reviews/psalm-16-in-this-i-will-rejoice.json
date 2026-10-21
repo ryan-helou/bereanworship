@@ -1,0 +1,224 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "MEDIUM",
+    "title": "Psalm 16",
+    "artist": "The Corner Room",
+    "artistType": "GROUP",
+    "album": "Psalm Songs, Vol. 2",
+    "releaseYear": 2018,
+    "genre": "Scripture Song",
+    "isPublicDomain": false,
+    "notes": "The slug and list title (In This I Will Rejoice) point to the Worship Initiative setting of the same psalm; this review is of The Corner Room's separate setting, titled simply Psalm 16, the closing track of Psalm Songs, Vol. 2 (2018). The group is the worship ministry of Cahaba Park Church, Birmingham, Alabama, and its albums set Scripture taken directly from the ESV to original music. A catalogue search listing credits the music to Adam Wright, with Integrity Music as publisher and CCLI 7239417; the artist's page and a review name no writer, so the writer credit is single-sourced and confidence is MEDIUM. The words are the psalm itself, so there is no separate lyricist. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "A near-complete verse-by-verse setting of Psalm 16 across four verses, with pre-choruses, two short choruses and a closing verse that repeats its lines. The voice is David's first person, taken up by the singer. It moves through God as refuge and the singer's only good, delight in the saints, renunciation of idolatry and pagan offerings, the Lord as portion and inheritance, counsel from God, confidence and security, the promise that the soul will not be abandoned to the grave, and the path of life with fullness of joy at God's right hand. The song gives the psalm without commentary, so the reading of the last verses as fulfilled in Christ's resurrection (Acts 2, Acts 13) is left to the singer or leader.",
+    "claims": [
+      {
+        "claim": "God is the singer's refuge and the only good the singer has.",
+        "subject": "God as refuge and highest good",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer takes delight in the saints and turns away from idols and their offerings.",
+        "subject": "Fellowship of the saints; rejection of idolatry",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lord is the singer's portion and inheritance and holds his lot secure.",
+        "subject": "God as inheritance",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God gives counsel, so the singer keeps him always before him, is glad and is not shaken.",
+        "subject": "Guidance, gladness and security in God",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God will not abandon the soul to the grave nor let his holy one see decay.",
+        "subject": "Hope beyond death; resurrection",
+        "location": "VERSE_4",
+        "locationDetail": "the closing verses",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God shows the path of life; fullness of joy and eternal pleasures are at his right hand.",
+        "subject": "Joy in God's presence",
+        "location": "VERSE_4",
+        "locationDetail": "the closing verses",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Scripture",
+        "title": "The whole psalm, set closely",
+        "explanation": "Verse by verse the song carries nearly all of Psalm 16, so a congregation sings the psalm's own order of refuge, inheritance, counsel, security and joy rather than a summary of it. This is craft and fidelity to the text, not new teaching.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 16:1-11",
+        "scriptureRationale": "The psalm in full is what the song sets."
+      },
+      {
+        "category": "God",
+        "title": "God as the singer's refuge, portion and only good",
+        "explanation": "The song rests the singer's confidence on who the Lord is: refuge, inheritance, counsellor and the one at whose right hand there is fullness of joy. The grounds are God's character, not the singer's resolve.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 16:2, 5",
+        "scriptureRationale": "The Lord as portion and only good."
+      },
+      {
+        "category": "Resurrection",
+        "title": "The promise of life beyond the grave",
+        "explanation": "The closing verses sing that the soul is not abandoned to the grave. Acts 2 and 13 read these lines as fulfilled in Christ's resurrection, which gives a leader a clear way to open them to a congregation.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Acts 2:25-31",
+        "scriptureRationale": "Peter reads the psalm's grave and decay lines as spoken of the risen Christ."
+      },
+      {
+        "category": "Idolatry",
+        "title": "Renouncing other gods",
+        "explanation": "Because the psalm's turn from idols and false offerings is kept, the song sets devotion to the Lord against rivals rather than leaving it as sentiment.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MINOR",
+        "scriptureReference": "Psalm 16:3-4",
+        "scriptureRationale": "The psalm's rejection of other gods is retained."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God as refuge and the believer's inheritance",
+      "God's guidance and keeping",
+      "Rejection of idolatry",
+      "Hope beyond death, fulfilled in Christ's resurrection",
+      "Fullness of joy in God's presence"
+    ],
+    "assessment": "Nothing to correct. The song gives Psalm 16 almost whole and adds nothing of its own, so its soundness is the psalm's. It does not state the New Testament reading of the grave and decay lines as Christ's resurrection; that is left to the leader, though the apostles' reading is plain. It names the Lord but not Christ, and states God's promises more than a finished act."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Scripture",
+        "title": "Memorizable Scripture",
+        "explanation": "Setting the psalm in order gives a congregation the text to carry away and recall, as the artist intends for its Scripture songs.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "A psalm's shape a room can follow",
+        "explanation": "Verses follow the psalm's progression and the short choruses give a place to return, so singers can tell where they are in the psalm.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Published key not confirmed for this review. The wordy delivery is the practical difficulty, not the range; supply the words on screen and consider singing only part of the psalm.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not confirmed",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "NONE",
+    "repetitionAssessment": "Little repetition beyond the closing verse, which repeats its lines; the choruses are short and the text otherwise moves forward.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in intent and form, with Scripture memorization as its purpose. The practical cost is length and density of words, which makes it better for a room that has the text in front of it or a leader willing to select verses. Suits services built around the Psalms and Easter-season reading of Acts 2."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "The Lord is named as the one sung to",
+        "explanation": "The song is addressed to the Lord throughout, so the object of trust is not in doubt.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in what it says, since it follows the psalm. Some of its older images (portion, lot, the pit, the holy one) need a word of explanation, and the identification of the holy one with Christ is left unstated; nothing invites a wrong reading."
+  },
+  "synthesis": {
+    "summary": "A close setting of Psalm 16 in four verses: the Lord as refuge, portion and counsellor, the rejection of idols, security and gladness, the promise that the soul is not left to the grave, and joy at God's right hand. Nothing in it is wrong. The Christ-centred reading the apostles give is not stated, and the delivery is wordy and long for a congregation.",
+    "themes": [
+      "God",
+      "Scripture",
+      "Faith",
+      "Assurance",
+      "Hope",
+      "Resurrection",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 16:1-11",
+        "relevance": "The psalm the whole song sets."
+      },
+      {
+        "reference": "Acts 2:25-31",
+        "relevance": "Peter reads the grave and decay lines as fulfilled in Christ's resurrection."
+      },
+      {
+        "reference": "Acts 13:35-37",
+        "relevance": "Paul applies the same lines to the risen Christ."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.cornerroommusic.com/psalm-songs-volume-ii",
+      "title": "Psalm Songs, Volume II",
+      "publisher": "The Corner Room",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Artist page: the album lists Psalm 16 and sets Scripture from the ESV to original music. Names no writers.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.jesusfreakhideout.com/indiemusic/PsalmSongsVol2.asp",
+      "title": "The Corner Room, Psalm Songs, Vol. 2 review",
+      "publisher": "Jesus Freak Hideout",
+      "sourceType": "JOURNALISM",
+      "credibilityTier": "TIER_3",
+      "establishes": "Review of the album: songs taken directly from the ESV for learning and memorizing Scripture; credits Adam Wright and company of Cahaba Park Church. Psalm 16 listed as final track; not discussed.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://genius.com/The-corner-room-psalm-16-lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

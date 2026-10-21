@@ -1,0 +1,209 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Praise, My Soul, the King of Heaven",
+    "artist": "Henry Francis Lyte",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1834,
+    "genre": "Hymn",
+    "isPublicDomain": true,
+    "notes": "Text by Henry Francis Lyte, an Anglican clergyman, a free paraphrase of Psalm 103 first published in The Spirit of the Psalms (1834) for his congregation in southern England; later in Hymns Ancient and Modern (1861) and The English Hymnal (1906). The usual tune, Lauda Anima, was composed by John Goss in 1868 for these words and first published in 1869; Regent Square is a common alternative. Public domain. Reviewed as the standard four-stanza text with modernized pronouns, not any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Four stanzas, each closing on a refrain of alleluias with a line of praise. Stanza one exhorts the soul to praise, remembering ransom, healing, restoration and forgiveness. Stanza two praises God's grace, constancy, patience and readiness to bless. Stanza three describes his fatherly care, his knowledge of human frailty, protection from enemies and wide mercy. Stanza four calls angels and all creation to join in worship. The voice moves between the singer addressing his own soul and the congregation (we, us), and speaks of God in the third person.",
+    "claims": [
+      {
+        "claim": "God has ransomed, healed, restored and forgiven his people.",
+        "subject": "Redemption and forgiveness",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God is gracious, constant, slow to anger and ready to bless.",
+        "subject": "God's character",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God cares for his people as a father, knows their frailty and protects them from enemies.",
+        "subject": "Fatherly providence",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's mercy extends widely to all who are his.",
+        "subject": "God's mercy",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Angels and all creation are called to join in worshiping the King.",
+        "subject": "Universal worship",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Grace",
+        "title": "Forgiveness and ransom remembered",
+        "explanation": "The first stanza has the soul recall that God has forgiven and ransomed, so praise rests on what he has done and not on the singer's mood.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Psalm 103:2-4",
+        "scriptureRationale": "Forget not all his benefits: forgiveness, redemption, healing - the psalm's own list."
+      },
+      {
+        "category": "God's character",
+        "title": "Slow to anger, abounding in mercy",
+        "explanation": "The second stanza sets out the character God declared of himself, constant and patient, which gives the congregation a true picture of the one they praise.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Exodus 34:6",
+        "scriptureRationale": "The Lord merciful and gracious, slow to anger, abounding in steadfast love."
+      },
+      {
+        "category": "Providence",
+        "title": "A Father who knows our frailty",
+        "explanation": "The third stanza teaches fatherly care that knows human weakness and protects, which comforts without promising ease.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 103:13-14",
+        "scriptureRationale": "As a father has compassion, he knows our frame and remembers we are dust."
+      },
+      {
+        "category": "Scripture",
+        "title": "A faithful paraphrase of Psalm 103",
+        "explanation": "The hymn is a free paraphrase that keeps the psalm's movement from personal praise to the praise of all creation.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 103:20-22",
+        "scriptureRationale": "Angels and all his works are called to bless the Lord."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God's forgiveness and redemption of his people",
+      "God's steadfast mercy and patience",
+      "God's fatherly care and constancy",
+      "The praise of heaven and creation"
+    ],
+    "assessment": "Nothing to correct. The hymn follows Psalm 103 closely in substance. Its healing language follows the psalm and is not an unqualified promise of bodily healing. The gospel is present through ransom and forgiveness but Christ is not named; the hymn reads as a psalm, not a statement of the cross."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A well-loved tune and a returning refrain",
+        "explanation": "Lauda Anima and the alleluia refrain make the hymn easy to learn, and the refrain lets the room join even on first hearing.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Structure",
+        "title": "Each stanza has its own theme",
+        "explanation": "Soul, grace, care and creation follow in order, so a congregation moves through the psalm's argument rather than repeating one idea.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "The original tune is in D major (Lauda Anima); hymnals often print it in a comparable key. Fits most congregations without transposing.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "D major (original tune per Wikipedia)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The alleluia refrain returns each stanza after a new aspect of God's goodness, so it answers what has just been sung.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in voice and form, with a familiar tune and a refrain that invites every voice. It is a strong opening or general praise hymn."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "The King of heaven is the one praised",
+        "explanation": "The subject is God as King throughout, and each stanza says what he has done or is like.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The older hymn idiom (the soul addressed as a hearer, the King of heaven) is biblical and needs no correction."
+  },
+  "synthesis": {
+    "summary": "Henry Francis Lyte's 1834 paraphrase of Psalm 103: the soul is urged to praise the King who has forgiven, healed and ransomed, whose grace is constant and patient, who cares as a father and who knows human frailty, until angels and creation join. Faithful to the psalm; Christ is not named.",
+    "themes": [
+      "God",
+      "Worship",
+      "Grace",
+      "Thanksgiving",
+      "Providence",
+      "Creation",
+      "Scripture"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 103:1-5",
+        "relevance": "Bless the Lord, O my soul, and forget not his benefits - the hymn's first stanza."
+      },
+      {
+        "reference": "Psalm 103:8",
+        "relevance": "The Lord merciful, gracious and slow to anger."
+      },
+      {
+        "reference": "Psalm 103:13-14",
+        "relevance": "A father's compassion and knowledge of our frailty."
+      },
+      {
+        "reference": "Psalm 103:20-22",
+        "relevance": "Angels and all his works summoned to bless the Lord."
+      },
+      {
+        "reference": "Exodus 34:6",
+        "relevance": "The self-declared character of God behind the second stanza."
+      },
+      {
+        "reference": "Isaiah 40:11",
+        "relevance": "The shepherd's tender care for his flock."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Praise,_My_Soul,_the_King_of_Heaven",
+      "title": "Praise, My Soul, the King of Heaven",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Lyte's paraphrase of Psalm 103, first in The Spirit of the Psalms (1834); tune Lauda Anima by John Goss (1868); summary of its themes.",
+      "assessesContent": false
+    }
+  ]
+}

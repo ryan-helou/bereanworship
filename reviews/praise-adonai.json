@@ -1,0 +1,201 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Praise Adonai",
+    "artist": "Paul Baloche",
+    "artistType": "INDIVIDUAL",
+    "album": "Open the Eyes of My Heart",
+    "releaseYear": 2000,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Paul Baloche; CCLI 2612742. Published by Integrity's Hosanna! Music, with a 1999 copyright notice on a lead sheet seen in search results and a first release in 2000 per SecondHandSongs. The list's attribution to Baloche is right. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ABOUT_GOD",
+    "structuralNotes": "One verse and one chorus, each repeated, ending on the chorus; no bridge. The verse is a rhetorical question about God's incomparability and speaks of Christ as the Lion and the Lamb on the throne, with creation bowing and roaring before the Lord of hosts, in the third person. The chorus is a call to all peoples, angels and saints to praise Adonai from morning to evening. It is exhortation to the whole creation, not personal testimony. Adonai is the Hebrew title Lord, used here of the God who is also Christ the Lamb.",
+    "claims": [
+      {
+        "claim": "No one is like the Lord; God is incomparable.",
+        "subject": "God's incomparability",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is the Lion and the Lamb, enthroned.",
+        "subject": "The deity and reign of Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Creation bows and roars before the Lord of hosts.",
+        "subject": "Creation's response to God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "All peoples, angels and saints are summoned to praise Adonai through the day.",
+        "subject": "Universal call to worship",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "God",
+        "title": "The Lord is incomparable",
+        "explanation": "The verse asks who is like the Lord and answers by setting him above all things, so the song's praise rests on who God is.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Exodus 15:11",
+        "scriptureRationale": "Who is like you among the gods - the question the verse puts to the congregation."
+      },
+      {
+        "category": "Christ",
+        "title": "Christ as Lion and Lamb on the throne",
+        "explanation": "The verse names Christ as the Lion and the Lamb on the throne, joining the Lord of hosts and the Lamb in one worship.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 5:5-6",
+        "scriptureRationale": "The Lion of Judah who is also the slain Lamb, at the center of the throne."
+      },
+      {
+        "category": "Worship",
+        "title": "A call to every people and the angels",
+        "explanation": "The chorus summons all peoples, angels and saints to praise, which is a corporate and wide-reaching picture of worship.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Revelation 7:9-12",
+        "scriptureRationale": "A multitude from every nation and the angels giving praise to God and the Lamb."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God's incomparability",
+      "The deity and reign of Christ as Lion and Lamb",
+      "Creation's praise of the Lord",
+      "The worship of all peoples, angels and saints"
+    ],
+    "assessment": "Nothing to correct. Adonai is the Hebrew title Lord, used for the God who is also Christ the Lamb. The song states no redemptive act, so the gospel is implicit rather than told, but nothing in it is false."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Simple and easy to learn",
+        "explanation": "The melody is simple and the words are few, so a congregation can learn it at once.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Voice",
+        "title": "The congregation addressed as a whole",
+        "explanation": "The chorus is a summons to all peoples, angels and saints, and it puts the room into a larger company at worship.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "No chart was read, so the published key is not stated here; the melody is simple.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not stated; no chart read",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The verse and the chorus are each repeated and the song ends on the chorus. With so little text the repeat does much of the work, though it keeps returning to a call to praise.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Easy for a room to sing and shaped as a call to worship. Its short text and heavy repeat suit an opening or a gathering song."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Adonai and the Lion and the Lamb",
+        "explanation": "The verse and chorus name Adonai, the Lord of hosts and the Lion and the Lamb, so it is clear who is praised.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. Adonai may be unfamiliar to some, but it is explained by its place beside Lord of hosts and the Lion and the Lamb."
+  },
+  "synthesis": {
+    "summary": "A short song of praise built on one verse and one chorus. The verse asks who is like the Lord, names Christ as the Lion and the Lamb on the throne and has creation bowing before him; the chorus calls all peoples, angels and saints to praise Adonai from morning to evening. It is third person and corporate, with no personal testimony. It states no redemptive act, so the gospel is implicit, and nothing in it is false.",
+    "themes": [
+      "God",
+      "Christ",
+      "Worship",
+      "Sovereignty",
+      "Creation"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Exodus 15:11",
+        "relevance": "Who is like the Lord - the verse's question of God's incomparability."
+      },
+      {
+        "reference": "Revelation 5:5-6",
+        "relevance": "The Lion and the Lamb - the verse's picture of Christ enthroned."
+      },
+      {
+        "reference": "Psalm 113:3",
+        "relevance": "From the rising of the sun the Lord's name is to be praised - the chorus's morning to evening."
+      },
+      {
+        "reference": "Revelation 7:9-12",
+        "relevance": "Nations, angels and saints worshiping together - the chorus's summons."
+      },
+      {
+        "reference": "Psalm 24:10",
+        "relevance": "The Lord of hosts as King of glory - the verse's title for God."
+      },
+      {
+        "reference": "Malachi 1:11",
+        "relevance": "The Lord's name great among the nations - the chorus's call to all peoples."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://integrityworship.com/songs/praise-adonai-paul-baloche/",
+      "title": "Praise Adonai - Paul Baloche",
+      "publisher": "Integrity Worship",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_3",
+      "establishes": "Publisher's catalogue page: writer Paul Baloche, CCLI 2612742. It gives no commentary on what the song teaches.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com/Paul-baloche-praise-adonai-lyrics"
+    }
+  ]
+}
