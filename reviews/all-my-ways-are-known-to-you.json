@@ -16,24 +16,36 @@
   "claims": {
     "lyricsAvailable": true,
     "perspective": "ADDRESSED_TO_GOD",
-    "structuralNotes": "No lyric page was read; this is built from a published review and catalogue record. Challies describes the song as a celebration of God's complete knowledge, his power and his presence, and as a source of comfort for Christians because God knows the believer's whole life, failings included, without that diminishing his love. The detail of individual verses was not examined, so the claims below stay at the level the sources support.",
+    "structuralNotes": "Three verses, a short chorus ending in a hallelujah, and a closing tag praying for opened eyes. Verses 1 and 2 are addressed to God and set out his knowledge of the believer's path and his providence; verse 3 faces death. The song speaks of God's providence only: the incarnation, cross, resurrection and return are not mentioned, and neither Christ nor the Spirit is named.",
     "claims": [
       {
-        "claim": "God knows the believer completely, including every path of his life.",
+        "claim": "God knows the believer's whole path, in every circumstance, whether peace or loss, wealth or poverty.",
         "subject": "God's omniscience",
-        "location": "WHOLE_SONG",
+        "location": "VERSE_1",
         "lyricExcerpt": null
       },
       {
-        "claim": "God's power and presence are with the believer wherever he goes.",
-        "subject": "God's omnipotence and omnipresence",
-        "location": "WHOLE_SONG",
+        "claim": "No trial lies beyond God's hand and no step is outside his plan; he knows the way even in darkness.",
+        "subject": "Providence and sovereignty",
+        "location": "VERSE_2",
         "lyricExcerpt": null
       },
       {
-        "claim": "This knowledge is a comfort to the believer rather than a threat, in life and in death.",
-        "subject": "Assurance",
-        "location": "WHOLE_SONG",
+        "claim": "The believer can have peace wherever he is, because God knows his ways.",
+        "subject": "Peace and assurance",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Death need not be feared, since it is the door to life and God takes the believer's hand and leads him through.",
+        "subject": "Hope beyond death",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer prays for eyes to see that God made the path and walks it with him.",
+        "subject": "God's presence and guidance",
+        "location": "BRIDGE",
         "lyricExcerpt": null
       }
     ],
@@ -52,29 +64,48 @@
     "strengths": [
       {
         "category": "God's attributes",
-        "title": "God's knowledge, power and presence",
-        "explanation": "The song sets the believer's comfort on who God is: he knows all, he is able, and he is near. That is a doctrine taught about God, not a mood described, and it is the ground on which the song asks the singer to rest.",
-        "songLocation": "WHOLE_SONG",
+        "title": "God's knowledge and care over every circumstance",
+        "explanation": "The song rests the believer's peace on who God is: he knows every step, no trial exceeds his hand, and nothing falls outside his plan. That is doctrine taught about God, and the comfort is grounded in it rather than in the singer's feelings.",
+        "songLocation": "VERSE_2",
         "magnitude": "MODERATE",
         "scriptureReference": "Psalm 139:1-4",
-        "scriptureRationale": "God searching and knowing the psalmist, including every word and way - the idea the title and theme carry."
+        "scriptureRationale": "God searching and knowing every way of the psalmist."
+      },
+      {
+        "category": "Providence",
+        "title": "Trials kept within God's limits",
+        "explanation": "No trial is beyond God's hand, which matches the teaching that God does not let his people be tested beyond what they can bear.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Corinthians 10:13",
+        "scriptureRationale": "God is faithful and does not allow testing beyond what the believer can bear."
+      },
+      {
+        "category": "Hope",
+        "title": "Death met with God's guiding hand",
+        "explanation": "The third verse treats death as the door to life with God leading through it, echoing the valley of the shadow of death, though it does not name Christ's resurrection as the ground.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 23:4",
+        "scriptureRationale": "Walking through the valley without fear because God is present."
       }
     ],
     "concerns": [],
     "doctrinesAffirmed": [
       "God's omniscience",
-      "God's omnipotence",
-      "God's omnipresence",
-      "Comfort and assurance for the believer in God's knowledge"
+      "God's providence and sovereignty",
+      "God's presence with the believer",
+      "Peace and assurance in God's care",
+      "Hope of life beyond death"
     ],
-    "assessment": "Nothing to correct was found in the sources read. The song teaches God's knowledge, power and presence and rests the believer's comfort on them. The one independent assessment reviewed found it sound and encouraging. No lyric page was read, so verse-level claims were not tested; the gospel is not stated in what the sources describe."
+    "assessment": "Nothing false or misleading was found in the words. The song teaches God's knowledge, providence and presence and rests the believer's peace on them, drawing on Psalm 139, Psalm 23 and Proverbs 3. It is a song of providence rather than the gospel: it names no act of Christ and does not ground its hope of life after death in his cross or resurrection. That is an absence, not an error."
   },
   "communal": {
     "strengths": [
       {
         "category": "Use",
         "title": "A song for the anxious and the aging",
-        "explanation": "Because the comfort rests on God's knowledge of the believer's whole life, it suits seasons of suffering, doubt and approaching death, and it can be sung by a whole room without needing to be translated.",
+        "explanation": "The comfort rests on God's knowledge of every circumstance and on his leading through death, so it suits seasons of suffering, doubt and approaching death, and a room can sing it without explanation.",
         "songLocation": "WHOLE_SONG",
         "magnitude": "MODERATE"
       }
@@ -93,26 +124,26 @@
       "note": "No chart was read for this review, so the pitches are not stated."
     },
     "repetition": "PURPOSEFUL",
-    "repetitionAssessment": "Not examined line by line; judged from the song's structure as a verse-and-refrain congregational song.",
+    "repetitionAssessment": "One short chorus carries the key phrase and returns after the verses, with a brief closing tag. The repetition reinforces the single idea.",
     "performanceOrientation": "CONGREGATIONAL",
-    "assessment": "Written by a church-based team for congregational use and sung widely in churches. Judged from structure and published description rather than a chart."
+    "assessment": "Short chorus, medium-length lines and a calm shape make it easy for a congregation to learn. Judged from the words and structure rather than a chart."
   },
   "clarity": {
     "strengths": [
       {
         "category": "Naming",
-        "title": "The subject is plain",
-        "explanation": "The song's theme, that God knows and keeps his people, is easy to follow and states a single idea a visitor can grasp at once.",
+        "title": "One plain idea",
+        "explanation": "Each verse restates that God knows the believer's way, in circumstance, trial and death, so a visitor can follow it at once.",
         "songLocation": "WHOLE_SONG",
         "magnitude": "MINOR"
       }
     ],
     "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Clear in its theme. Sources describe no ambiguity."
+    "assessment": "Clear in its theme and wording. The one thing a visitor may not hear is the gospel, since Christ is not named."
   },
   "synthesis": {
-    "summary": "A CityAlight song on God's complete knowledge of his people, with his power and presence, offered as comfort in life and death. No theological concern was found in the sources read. The gospel is not stated in what they describe, and verse-level wording was not examined.",
+    "summary": "A CityAlight song on God's complete knowledge of the believer's path, his providence over every trial and his leading through death, offered as the ground of peace. Nothing false or misleading was found. It speaks of providence only: Christ and his work are not named, so the gospel is implicit at most.",
     "themes": [
       "God",
       "Providence",
@@ -152,6 +183,15 @@
       "credibilityTier": "TIER_1",
       "establishes": "Catalogue record: writers Farren, Smith, Robinson, Thompson; 2016 copyright and publishers; CCLI 7073327; original key Bb.",
       "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google (lyrics panel)",
+      "url": "https://www.google.com/search?q=All+My+Ways+Are+Known+to+You+CityAlight+lyrics"
     }
   ]
 }

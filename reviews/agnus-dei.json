@@ -16,25 +16,24 @@
   "claims": {
     "lyricsAvailable": true,
     "perspective": "ADDRESSED_TO_GOD",
-    "structuralNotes": "A short, refrain-shaped song with a single repeated movement rather than separate verses. It is addressed directly to God and to the Lamb. It ascribes holiness and worth to God the Almighty and to the Lamb, echoing the heavenly worship of Revelation 4 and 5. It names the Lord God Almighty and the Lamb, calls for an alleluia, and declares the Lamb worthy. It does not narrate the cross, sin or the resurrection; it assumes them in the title and the Lamb imagery. No singular first person.",
+    "structuralNotes": "One short verse of praise, sung twice, each time followed by the same two-part chorus, with a closing amen; no bridge. The verse calls for alleluia because the Lord God Almighty reigns. The chorus is addressed to God, declaring him holy and the Lamb worthy. The Lamb is named by title only. It narrates no act of God: no cross, resurrection or return is stated, and the sacrifice is carried by the title and the Scripture behind it. The voice is credal, with no singular first person.",
     "claims": [
+      {
+        "claim": "The Lord God Almighty reigns, and that is a cause for praise.",
+        "subject": "The sovereign reign of God",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
       {
         "claim": "The Lord God Almighty is holy.",
         "subject": "The holiness of God",
-        "location": "WHOLE_SONG",
+        "location": "CHORUS",
         "lyricExcerpt": null
       },
       {
-        "claim": "The Lamb is worthy of praise.",
+        "claim": "The Lamb is worthy.",
         "subject": "The worthiness of Christ",
-        "location": "WHOLE_SONG",
-        "lyricExcerpt": null
-      },
-      {
-        "claim": "Christ is the Lamb, the sacrifice, given for sinners.",
-        "subject": "Christ as the sacrificial Lamb",
-        "location": "WHOLE_SONG",
-        "locationDetail": "carried by the title and the Lamb language",
+        "location": "CHORUS",
         "lyricExcerpt": null
       }
     ],
@@ -42,10 +41,10 @@
   },
   "substance": {
     "namesGod": true,
-    "statesAnAct": true,
+    "statesAnAct": false,
     "teachesDoctrine": true,
     "godDirected": true,
-    "groundsItsClaims": true,
+    "groundsItsClaims": false,
     "corporateVoice": true,
     "engagesScripture": true
   },
@@ -54,7 +53,7 @@
       {
         "category": "Christ",
         "title": "The Lamb is named and worshipped",
-        "explanation": "Christ is addressed under his sacrificial title and declared worthy, with no hedging about whom the praise is for. The Lamb imagery carries the atonement into the room even though the song does not narrate it.",
+        "explanation": "Christ is addressed under his sacrificial title and declared worthy, with no hedging about whom the praise is for. The song does not narrate the atonement; the title points to it for those who know John 1:29.",
         "songLocation": "WHOLE_SONG",
         "magnitude": "MODERATE",
         "scriptureReference": "John 1:29",
@@ -73,17 +72,17 @@
     "concerns": [],
     "doctrinesAffirmed": [
       "The holiness of God",
-      "The deity of Christ as the worshipped Lamb",
-      "Christ's sacrificial work, by implication"
+      "The sovereign reign of God",
+      "The worthiness of Christ the Lamb"
     ],
-    "assessment": "Nothing to correct. A brief, scriptural song of adoration that takes the Revelation acclamation to the Lamb and sings it. It states little of its own: the atonement is carried by the title rather than spelled out, and the cross, sin and resurrection are not narrated. That is a limit of scope, not an error. One lay review finds it consistent with Scripture."
+    "assessment": "Nothing to correct. A brief, scriptural song of adoration built on the acclamations of Revelation 19, 4 and 5. It declares God's reign, his holiness and the Lamb's worth, and names no act: the cross, resurrection and return are not stated, and the Lamb title carries the sacrifice only through Scripture's background. That is a limit of scope, not an error."
   },
   "communal": {
     "strengths": [
       {
         "category": "Use",
         "title": "Short and easy to hold",
-        "explanation": "The text is brief and the movement repeats, so a room that has never heard it can join within a pass. It suits a time of quiet adoration or a response to the Word.",
+        "explanation": "The text is tiny and the movement repeats, so a room that has never heard it can join within a pass. It suits a time of quiet adoration or a response to the Word.",
         "songLocation": "WHOLE_SONG",
         "magnitude": "MODERATE"
       }
@@ -101,8 +100,8 @@
       "source": null,
       "note": "No chart was read for this review, so the pitches are not stated."
     },
-    "repetition": "PURPOSEFUL",
-    "repetitionAssessment": "The same short confession of the Lamb's worth returns, which suits a text made of acclamation. The repetition does not substitute for content so much as dwell on a single scriptural claim.",
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The text is only a few short lines, repeated several times over. The repetition dwells on scriptural acclamations, but it also does the work of length: little further is said after the first pass.",
     "performanceOrientation": "CONGREGATIONAL",
     "assessment": "Congregational in words and form: brief, easy to learn, and addressed to God. It works as a response of adoration after the Word or at communion and does not depend on a lead vocal."
   },
@@ -118,10 +117,10 @@
     ],
     "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Clear to a churchgoer. One reviewer notes that an outsider might not recognise the Lamb as Jesus, which is fair: the song leans on the congregation's knowledge of John 1 and Revelation and does not explain itself."
+    "assessment": "Clear to a churchgoer. An outsider might not recognise the Lamb as Jesus: the song leans on the congregation's knowledge of John 1 and Revelation and does not explain itself."
   },
   "synthesis": {
-    "summary": "A short song of adoration addressed to the holy Lord God Almighty and the worthy Lamb, taking the acclamation of Revelation 4 and 5 into the congregation's mouth. Christ is named by his sacrificial title. It states little beyond holiness and worth, and carries the atonement by implication rather than narration. No false claims.",
+    "summary": "A very short song of adoration: the Lord God Almighty reigns, he is holy, and the Lamb is worthy, taking the acclamations of Revelation 19, 4 and 5 into the congregation's mouth. Christ is named by title only. No act of God is narrated, so the atonement is carried by the title alone, and the thin text is stretched by repetition. No false claims.",
     "themes": [
       "God",
       "Christ",
@@ -162,6 +161,15 @@
       "credibilityTier": "TIER_1",
       "establishes": "Catalogue record: 1990 Milene Music copyright, administered by Sony/ATV.",
       "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com/Michael-w-smith-agnus-dei-lyrics"
     }
   ]
 }

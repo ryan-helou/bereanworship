@@ -15,31 +15,31 @@
   },
   "claims": {
     "lyricsAvailable": true,
-    "perspective": "CORPORATE_WE",
-    "structuralNotes": "Three verses and a chorus. The first verse sets human achievement and lasting legacy against God's rule and the brevity of life. The chorus calls the congregation to give glory to Christ and acclaim his kingship. The second verse prays for God's will and kingdom and looks to Christ for daily provision and refreshment. The third looks forward to God's faithfulness, the redemptive work of Christ and the renewed creation with God dwelling among his people. The voice is plural, and Christ is named directly. The cross is present as redemption but is not narrated at length.",
+    "perspective": "ABOUT_GOD",
+    "structuralNotes": "Three eight-line stanzas, each ending on the glory-to-Christ line, each followed by the same four-line chorus, sung once more at the close. Stanza one tells the proud planner that works fail unless the Lord builds and that life is a mist. Stanza two applies the Lord's Prayer petitions to Christ as bread of life and living water freely given, and invites hearers to come. Stanza three names Christ as the I Am, Faithful and True, the Lamb slain for sinners, who returns and makes all things new with God dwelling among his people. The chorus acclaims Christ as King forever. The voice is credal and exhortatory, declaring who Christ is and calling hearers to him; the resurrection is implied only.",
     "claims": [
       {
-        "claim": "Human accomplishment and legacy are fleeting, and life is brief; only God endures.",
-        "subject": "The brevity of life",
+        "claim": "Human works and legacy fail unless the Lord builds, and life is a vanishing mist; glory belongs to Christ.",
+        "subject": "God's sovereignty and the brevity of life",
         "location": "VERSE_1",
         "lyricExcerpt": null
       },
       {
-        "claim": "Glory belongs to Christ, who reigns as king.",
-        "subject": "The kingship of Christ",
-        "location": "CHORUS",
-        "lyricExcerpt": null
-      },
-      {
-        "claim": "The church prays for God's will and kingdom and depends on Christ for daily provision.",
-        "subject": "Dependence and the kingdom",
+        "claim": "Christ is the bread of life and the living water freely given, and hearers are invited to come and feed on him.",
+        "subject": "Christ as provision and the invitation",
         "location": "VERSE_2",
         "lyricExcerpt": null
       },
       {
-        "claim": "God is faithful, Christ has accomplished redemption, and creation will be made new with God dwelling among his people.",
-        "subject": "New creation and redemption",
+        "claim": "Christ is the I Am, Faithful and True, the Lamb slain for sinners, who will return and make all things new, with God dwelling among his people.",
+        "subject": "Atonement, return and new creation",
         "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is King, his reign is sung forever, and glory is his.",
+        "subject": "The kingship of Christ",
+        "location": "CHORUS",
         "lyricExcerpt": null
       }
     ],
@@ -67,32 +67,33 @@
       },
       {
         "category": "Hope",
-        "title": "Mortality set beside the new creation",
-        "explanation": "The song is honest about brevity and vanity, then moves to redemption and a renewed creation with God present among his people. Hope is placed in what God does, not in the singer.",
+        "title": "Mortality set beside the Lamb and the new creation",
+        "explanation": "The song is honest about brevity and vanity, then names Christ as the Lamb slain for sinners who returns and makes all things new, with God dwelling among his people. Hope rests in what Christ does, not in the singer.",
         "songLocation": "VERSE_3",
         "magnitude": "MODERATE",
         "scriptureReference": "Revelation 21:5",
         "scriptureRationale": "He makes all things new - the horizon of the last verse."
       },
       {
-        "category": "Prayer",
-        "title": "A prayer for the kingdom and daily bread",
-        "explanation": "The second verse is shaped by the Lord's Prayer, so the congregation prays in Christ's own words while it sings, tying provision to God's will rather than to the singer's effort.",
+        "category": "Christ",
+        "title": "Christ as bread of life and living water",
+        "explanation": "The second stanza applies the Lord's Prayer petitions to Christ himself, as the bread of life and the water freely given, and invites hearers to come to him. Provision and invitation are tied to Christ, not to the singer's effort.",
         "songLocation": "VERSE_2",
         "magnitude": "MODERATE",
-        "scriptureReference": "Matthew 6:9-11",
-        "scriptureRationale": "The Lord's Prayer's petitions for the kingdom and for daily bread."
+        "scriptureReference": "John 6:35",
+        "scriptureRationale": "Christ is the bread of life; whoever comes to him will not hunger."
       }
     ],
     "concerns": [],
     "doctrinesAffirmed": [
       "The kingship and worthiness of Christ",
-      "The brevity of human life and the vanity of achievement",
-      "Christ's redemptive work",
-      "The renewal of creation",
-      "Dependence on God for daily provision"
+      "The deity of Christ as the I Am",
+      "The atoning death of Christ the Lamb",
+      "Christ's return and the renewal of creation",
+      "The brevity of life and the vanity of achievement apart from the Lord",
+      "Christ as the bread of life and living water"
     ],
-    "assessment": "Nothing to correct. A song that sets human legacy against Christ's reign, prays the Lord's Prayer's petitions, and ends on redemption and new creation. Its weight falls on praise and perspective; the cross is present as redemption without being narrated, so it works best sung beside a text that tells the gospel in full."
+    "assessment": "Nothing to correct. A hymn that sets human legacy against Christ's reign, applies the Lord's Prayer petitions to Christ as bread and water, and ends on the Lamb slain for sinners, his return and new creation. The atonement is stated, though briefly; the resurrection is implied rather than stated."
   },
   "communal": {
     "strengths": [
@@ -125,7 +126,7 @@
       "note": "No chart was read for this review, so the pitches are not stated."
     },
     "repetition": "PURPOSEFUL",
-    "repetitionAssessment": "The chorus returns after each verse and means more each time, since each verse deepens why Christ is worthy of glory.",
+    "repetitionAssessment": "One chorus returns after each stanza, and each stanza ends on the same glory-to-Christ line; the repetition means more each time since each stanza gives a further reason Christ is worthy.",
     "performanceOrientation": "CONGREGATIONAL",
     "assessment": "Congregational in voice and in tune. The folk-tune setting makes it easy to join and the plural voice keeps the room together. It fits a year's end, a thanksgiving service, or any set that wants a hymn-like sung confession of Christ's kingship."
   },
@@ -141,10 +142,10 @@
     ],
     "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Clear. The Lord's Prayer allusions and the Revelation imagery are familiar to a churchgoer, and the contrast between human legacy and Christ's reign is plain."
+    "assessment": "Clear. The Lord's Prayer allusions and the Revelation imagery are familiar to a churchgoer, and the contrast between human legacy and Christ's reign is plain. Stanzas are dense but easy to learn."
   },
   "synthesis": {
-    "summary": "A congregational song with new words to a familiar tune. It sets the brevity of human achievement against the reign of Christ, gives glory to Christ in the chorus, prays for the kingdom and daily provision, and ends on redemption and the renewed creation. Christ is named. The cross is present as redemption without being narrated. No false claims.",
+    "summary": "A congregational hymn with new words to a familiar tune. It sets the brevity of human achievement against Christ's reign, offers Christ as bread of life and living water, names him the I Am and the Lamb slain for sinners who returns to make all things new, and closes each stanza on glory to Christ. Christ is named throughout. The resurrection is implied only. No false claims.",
     "themes": [
       "Christ",
       "Worship",
@@ -169,6 +170,14 @@
       {
         "reference": "James 4:14",
         "relevance": "Life as a mist that vanishes - the first verse's observation on brevity."
+      },
+      {
+        "reference": "John 6:35",
+        "relevance": "Christ the bread of life - the second stanza."
+      },
+      {
+        "reference": "Psalm 127:1",
+        "relevance": "Unless the Lord builds, labour is vain - the first stanza."
       }
     ]
   },
@@ -190,6 +199,15 @@
       "credibilityTier": "TIER_2",
       "establishes": "Credits words to Dustin Kensrue, the Kings Kaleidoscope arrangement, album Joy Has Dawned, and the Dead Bird Theology / It's All About Jesus Music copyright; notes the Auld Lang Syne tune.",
       "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Grace Community Church (San Antonio)",
+      "url": "https://gccsatx.com/hymns/all-glory-be-to-christ"
     }
   ]
 }

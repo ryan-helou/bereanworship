@@ -16,24 +16,36 @@
   "claims": {
     "lyricsAvailable": true,
     "perspective": "ADDRESSED_TO_GOD",
-    "structuralNotes": "No lyric page was read; this is built from the publisher record and a CCM Magazine press piece. They describe a song centred on Christ's sacrifice on the cross as the ground of the believer's standing before God, contrasting human effort as insufficient with Christ's finished work as fully sufficient, and looking ahead to acceptance before God, resurrection and the joy of salvation. Verse-level wording was not examined.",
+    "structuralNotes": "Three stanzas, a two-line chorus repeated after stanzas 2 and 3 and again at the end, and a short closing tag repeating the last idea. Stanza 1 sets the believer's own righteousness aside for Christ's; stanza 2 names the incarnation, sinless life and atoning death; stanza 3 has the believer clothed in Christ's righteousness and standing accepted before God. The resurrection and Christ's return are not named.",
     "claims": [
       {
-        "claim": "Christ's sacrifice on the cross is the ground of the believer's standing before God.",
-        "subject": "Atonement and justification",
-        "location": "WHOLE_SONG",
+        "claim": "Righteousness is an inheritance, not earned; the believer forfeits his own at the cross, where Christ's merit did what he could not.",
+        "subject": "Justification by grace alone",
+        "location": "VERSE_1",
         "lyricExcerpt": null
       },
       {
-        "claim": "Human effort cannot secure that standing; Christ's finished work is fully sufficient.",
-        "subject": "Grace and the sufficiency of Christ",
-        "location": "WHOLE_SONG",
+        "claim": "The Maker entered time, lived without sin and died as the spotless Lamb, since the law could not save.",
+        "subject": "Incarnation, sinless life and atoning death",
+        "location": "VERSE_2",
         "lyricExcerpt": null
       },
       {
-        "claim": "The believer will be accepted before God and will rejoice in salvation.",
-        "subject": "Assurance and hope",
-        "location": "WHOLE_SONG",
+        "claim": "Christ's work is finished, the debt is paid and his merit is counted as the believer's.",
+        "subject": "Finished work and imputed righteousness",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer lays aside his own works and boasting, is clothed in Christ's righteousness and has no fear of judgment.",
+        "subject": "Imputation and assurance",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "In life and death the believer is confident, and will stand accepted before God's throne, thanking Jesus for the cross.",
+        "subject": "Final acceptance and gratitude",
+        "location": "VERSE_3",
         "lyricExcerpt": null
       }
     ],
@@ -52,22 +64,43 @@
     "strengths": [
       {
         "category": "The gospel",
-        "title": "Standing rests on Christ's work, not ours",
-        "explanation": "As described, the song puts the believer's acceptance wholly on the finished work of Christ and sets human effort aside. That is the centre of justification by grace, taught as a ground rather than a feeling.",
+        "title": "Standing rests wholly on Christ's merit",
+        "explanation": "The song sets the believer's own righteousness and works aside and puts his acceptance on Christ's merit alone, counted as his. That is justification by grace through faith, stated as a ground rather than a feeling.",
         "songLocation": "WHOLE_SONG",
         "magnitude": "MAJOR",
-        "scriptureReference": "Ephesians 2:8-9",
-        "scriptureRationale": "Salvation by grace through faith, not works - the contrast the song draws."
+        "scriptureReference": "Romans 3:21-28",
+        "scriptureRationale": "Righteousness apart from the law, received through faith in Christ."
+      },
+      {
+        "category": "Christ's person and work",
+        "title": "Incarnation, sinless life and atoning death",
+        "explanation": "Stanza 2 names the Maker entering time, living without sin and dying as the spotless Lamb. Calling the Creator the one who died is orthodox incarnation language.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "2 Corinthians 5:21",
+        "scriptureRationale": "The sinless one made sin for us so that we become the righteousness of God."
+      },
+      {
+        "category": "Assurance",
+        "title": "Imputed righteousness removes fear of judgment",
+        "explanation": "The believer is clothed in Christ's righteousness and expects to stand accepted before God, with the cross as the cause of his thanks.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 61:10",
+        "scriptureRationale": "Clothed with garments of salvation and the robe of righteousness."
       }
     ],
     "concerns": [],
     "doctrinesAffirmed": [
-      "The sufficiency of Christ's sacrifice",
-      "Salvation by grace, not human effort",
-      "Acceptance before God through Christ",
-      "The believer's hope and joy in salvation"
+      "Justification by grace alone through faith",
+      "The incarnation of the Creator",
+      "Christ's sinless obedience",
+      "Atoning death of the spotless Lamb",
+      "The finished work of Christ",
+      "Imputed righteousness",
+      "Assurance and final acceptance before God"
     ],
-    "assessment": "Nothing to correct was found in the sources read. The song, as described, locates the believer's standing in Christ's finished work and denies any contribution from human effort. The sources are a publisher record and a press piece, neither a theological assessment, so verse-level wording was not tested and the soundness is unverified by an independent review."
+    "assessment": "Nothing false or misleading was found in the words. The song locates the believer's standing in Christ's merit and finished work, sets aside his own works, and names the incarnation, sinless life and atoning death. The resurrection and return are not named, which is an absence rather than an error."
   },
   "communal": {
     "strengths": [
@@ -93,26 +126,26 @@
       "note": "No chart was read for this review, so the pitches are not stated."
     },
     "repetition": "PURPOSEFUL",
-    "repetitionAssessment": "Not examined line by line; judged from its form as a hymn-style song with a refrain.",
+    "repetitionAssessment": "A two-line chorus returns after stanzas 2 and 3 and at the end, with a short tag, so the central claim of the finished work is repeated deliberately.",
     "performanceOrientation": "BALANCED",
-    "assessment": "Recorded live at a university and arranged for choir as well as band, so it is built for group singing. Judged from the published arrangements rather than a chart."
+    "assessment": "Moderate-length lines and a repeated chorus make it strong for group singing, though it is long overall and sits slightly high for some voices. Judged from the words and structure; no chart was read."
   },
   "clarity": {
     "strengths": [
       {
         "category": "Naming",
-        "title": "Christ's work is the stated subject",
-        "explanation": "Sources describe the song as plainly about Christ's sacrifice and the completeness of his work, so the grounds of salvation are not left to inference.",
+        "title": "Christ's work is plainly stated",
+        "explanation": "The stanzas name Christ's incarnation, sinless life and death and say what his merit does for the believer, so the grounds of salvation are not left to inference.",
         "songLocation": "WHOLE_SONG",
         "magnitude": "MODERATE"
       }
     ],
     "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Clear in its claim. The title uses older churchly vocabulary that may need a word of explanation."
+    "assessment": "Clear in its claim. The title and some vocabulary, such as merit and imputed righteousness, are older churchly terms that may need a word of explanation."
   },
   "synthesis": {
-    "summary": "A 2023 song by Shane and Bethany Barnard and Bryan Fowler on the sufficiency of Christ's sacrifice, setting his finished work against human effort as the basis of acceptance before God. No concern was found, but the sources are a publisher record and press coverage; no independent assessment of its content was located and verse wording was not examined.",
+    "summary": "A 2023 song by Shane and Bethany Barnard and Bryan Fowler setting Christ's merit against the believer's own works as the ground of acceptance. It names the incarnation, sinless life and atoning death and speaks of imputed righteousness and final acceptance before God. Nothing false or misleading was found; the resurrection and return go unnamed.",
     "themes": [
       "Cross",
       "Grace",
@@ -153,6 +186,15 @@
       "credibilityTier": "TIER_1",
       "establishes": "Catalogue record: writers, 2023 copyright and publishers, CCLI 7212933, original key E, 6/8, themes of the cross and grace.",
       "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google (lyrics panel)",
+      "url": "https://www.google.com/search?q=All+Sufficient+Merit+Shane+%26+Shane+lyrics"
     }
   ]
 }

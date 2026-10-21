@@ -16,35 +16,41 @@
   "claims": {
     "lyricsAvailable": true,
     "perspective": "CORPORATE_WE",
-    "structuralNotes": "Three verses and a chorus. Per a Getty-affiliated write-up, the first verse makes Christ the believer's sole hope and confidence, with God governing each day and Christ's love keeping believers to the end. The second says God's goodness and grace, known through the Redeemer's sacrifice, quiet an anxious soul and sustain faith through trials. The third looks past death to being raised to meet the Lord, the destruction of sin and death, and eternal life with Christ. The chorus is a shared confession and praise that Christ is the believer's hope in life and death, resting on his conquest of death. Verse content here rests on summaries from two articles, not on the text itself.",
+    "structuralNotes": "Three verses, each followed by a refrain that is repeated at the end. The verses are built as a catechism-style question and answer modeled on the first question of the Heidelberg Catechism, and the refrain is a hallelujah and confession. The first verse says we belong body and soul to Christ, who holds our days and governs events, and whose love keeps us to the end. The second says God is good, his grace is known through the redeeming blood of Christ, and Christ is the rock who steadies faith in trials. The third meets death with the resurrection of Christ, promises everlasting life with him, and looks to his return, the rising of the dead, the destruction of sin and death and the feast of endless joy.",
     "claims": [
       {
-        "claim": "Christ alone is the believer's hope and confidence, and God governs every day.",
-        "subject": "Christ's sufficiency and providence",
+        "claim": "We belong body and soul to Christ, who holds our days and governs events, and his love keeps us to the end.",
+        "subject": "Christ's sufficiency, providence and perseverance",
         "location": "VERSE_1",
         "lyricExcerpt": null
       },
       {
-        "claim": "Christ's redeeming sacrifice reveals God's grace and quiets an anxious soul.",
-        "subject": "The atonement and assurance",
+        "claim": "God is good, and his grace is known through the redeeming blood of Christ.",
+        "subject": "The atonement",
         "location": "VERSE_2",
         "lyricExcerpt": null
       },
       {
-        "claim": "God sustains the believer's faith through trials.",
+        "claim": "Christ is the rock who steadies faith through trials.",
         "subject": "Perseverance",
         "location": "VERSE_2",
         "lyricExcerpt": null
       },
       {
-        "claim": "Believers will be raised to meet the Lord, and sin and death will be destroyed.",
-        "subject": "Resurrection of the body",
+        "claim": "Because Christ lives, death is met with resurrection and everlasting life with him.",
+        "subject": "Christ's resurrection and eternal life",
         "location": "VERSE_3",
         "lyricExcerpt": null
       },
       {
-        "claim": "Christ has conquered death and is the believer's hope in life and in death.",
-        "subject": "Christ's victory",
+        "claim": "The Lord will return, the dead will rise, sin and death will be destroyed, and the redeemed will share the feast of endless joy.",
+        "subject": "Return and final victory",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The church confesses together with a hallelujah that Christ is its hope in life and in death.",
+        "subject": "Christ our hope",
         "location": "CHORUS",
         "lyricExcerpt": null
       }
@@ -65,7 +71,7 @@
       {
         "category": "Hope",
         "title": "Honest about death, grounded in the resurrection",
-        "explanation": "The song takes the catechism's question about dying seriously and answers it with Christ's conquest of death and the believer's rising. Comfort rests on what Christ has done, not on the singer's courage.",
+        "explanation": "The song takes the catechism's question about dying seriously and answers it with Christ's resurrection, his return and the rising of the dead. Comfort rests on what Christ has done, not on the singer's courage.",
         "songLocation": "WHOLE_SONG",
         "magnitude": "MAJOR",
         "scriptureReference": "1 Corinthians 15:54-57",
@@ -74,7 +80,7 @@
       {
         "category": "Atonement",
         "title": "Grace known through the Redeemer's sacrifice",
-        "explanation": "The second verse locates peace in God's goodness and grace as revealed in Christ's redeeming sacrifice. The troubled soul is quieted by a finished work.",
+        "explanation": "The second verse says God's grace is known through the redeeming blood of Christ, and that Christ steadies faith through trials. The cross is named and grace rests on it.",
         "songLocation": "VERSE_2",
         "magnitude": "MODERATE",
         "scriptureReference": "Romans 5:1",
@@ -83,7 +89,7 @@
       {
         "category": "Providence",
         "title": "Everyday life under God's governance",
-        "explanation": "The first verse places each day under God and says Christ's love keeps believers to the end, which is the catechism's own theme.",
+        "explanation": "The first verse says we belong to Christ, who holds our days and governs events, and whose love keeps us to the end, which is the catechism's own theme.",
         "songLocation": "VERSE_1",
         "magnitude": "MODERATE",
         "scriptureReference": "Romans 8:38-39",
@@ -93,20 +99,23 @@
     "concerns": [],
     "doctrinesAffirmed": [
       "Christ the believer's only comfort in life and death",
+      "Belonging to Christ body and soul",
       "God's providence over each day",
-      "Atonement through Christ's redeeming sacrifice",
+      "Atonement through Christ's blood",
       "Perseverance of the saints",
-      "Bodily resurrection of believers",
-      "The final destruction of sin and death"
+      "Christ's resurrection",
+      "Christ's return and the rising of the dead",
+      "The final destruction of sin and death",
+      "Eternal life with Christ"
     ],
-    "assessment": "Nothing to correct was found on the sources read. It answers the Heidelberg Catechism's first question in sung form: Christ is the only comfort, grace comes through his sacrifice, and death is conquered and the dead will rise. The cross is stated in terms of redemption and grace rather than at length, and the Spirit is not reached in the summaries. The verse text itself was not read, so this rests on two articles' descriptions."
+    "assessment": "Nothing to correct was found. It answers the Heidelberg Catechism's first question in sung form: we belong to Christ, grace comes through his blood, and his resurrection, return and final victory give hope in death. The cross, resurrection and return are all named. The Spirit is not mentioned, which is an absence rather than an error."
   },
   "communal": {
     "strengths": [
       {
         "category": "Use",
         "title": "Written as a shared confession",
-        "explanation": "The chorus is described as the congregation's joint confession and praise, and the song was written for churches, with choral and congregational arrangements published.",
+        "explanation": "The song is a confession in the church's voice, answering catechism questions, and it was written for churches with choral and congregational arrangements published.",
         "songLocation": "CHORUS",
         "magnitude": "MODERATE"
       },
@@ -132,26 +141,26 @@
       "note": "No chart was read for this review, so the pitches are not stated."
     },
     "repetition": "PURPOSEFUL",
-    "repetitionAssessment": "The chorus returns as a confession after each verse, and each return follows a different stage from daily keeping to grace to resurrection.",
+    "repetitionAssessment": "One refrain returns after each verse and at the end, so the repetition anchors each stage (daily keeping, grace, resurrection) in the same confession.",
     "performanceOrientation": "CONGREGATIONAL",
-    "assessment": "Congregational in design: a sung confession for the whole church with a hymn-like verse structure. It suits funerals, Communion, All Saints and Easter."
+    "assessment": "Congregational in design: short question-and-answer lines, three verses of moderate length and one repeated refrain, which makes it easy to follow. It suits funerals, Communion, All Saints and Easter."
   },
   "clarity": {
     "strengths": [
       {
         "category": "Structure",
         "title": "Three verses with a clear arc",
-        "explanation": "Daily trust, then grace in trouble, then the resurrection, with a chorus tying each to Christ. A listener can follow where the song is going.",
+        "explanation": "Daily trust, then grace in trials, then resurrection and the return, with a refrain tying each to Christ. A listener can follow where the song is going.",
         "songLocation": "WHOLE_SONG",
         "magnitude": "MODERATE"
       }
     ],
     "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Clear in its claims. The subject, Christ, is named and the hope is stated plainly, with nothing that invites a wrong reading on the evidence available."
+    "assessment": "Clear. The question-and-answer form states each point plainly, Christ is named as the hope, and nothing invites a wrong reading."
   },
   "synthesis": {
-    "summary": "A 2020 modern hymn by Getty, Boswell, Kauflin, Merker and Papa on the Heidelberg Catechism's first question. It moves from Christ as sole hope and God's daily governance, through grace in his redeeming sacrifice, to the resurrection and the end of sin and death. No concern was found. Sourcing is limited to a sponsored article and the writer's page.",
+    "summary": "A 2020 modern hymn by Getty, Boswell, Kauflin, Merker and Papa on the Heidelberg Catechism's first question. It moves from belonging to Christ and his governance of our days, through grace in his blood, to his resurrection, return and the end of sin and death. No concern was found.",
     "themes": [
       "Christ",
       "Hope",
@@ -178,6 +187,14 @@
       {
         "reference": "Romans 5:1",
         "relevance": "Peace with God through Christ - the second verse."
+      },
+      {
+        "reference": "John 10:28-29",
+        "relevance": "No one snatches believers from Christ's hand - the first verse."
+      },
+      {
+        "reference": "Isaiah 25:6-8",
+        "relevance": "The feast and the end of death - the third verse."
       }
     ]
   },
@@ -199,6 +216,15 @@
       "credibilityTier": "TIER_3",
       "establishes": "Writer's page: credits, 2020 copyright and a verse-by-verse description. Primary for the copyright line, not evidence of soundness.",
       "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google (lyrics panel)",
+      "url": "https://www.google.com/search?q=Christ+Our+Hope+in+Life+and+Death+Keith+Kristyn+Getty+Matt+Papa+lyrics"
     }
   ]
 }

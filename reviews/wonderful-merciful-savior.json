@@ -16,30 +16,36 @@
   "claims": {
     "lyricsAvailable": true,
     "perspective": "ADDRESSED_TO_GOD",
-    "structuralNotes": "Three verses with a returning refrain. Per one church's note, the first verse praises Jesus as the merciful Savior, the second the Spirit as comforter and keeper of believers, and the hymn as a whole praises the Trinity as the one who satisfies the heart's hunger. The page consulted did not say which verse addresses the Father, and the third verse was not independently checked. The refrain gathers titles and works of Christ: Savior, Redeemer, friend, and the Lamb who rescues sinners. The voice is addressed to God and mostly describes who he is and what he has done; the singer's hunger and need frame it.",
+    "structuralNotes": "Three short verses, one for each Person of the Trinity (Son, Spirit, Father), each followed by the same refrain, which is sung once more at the end. The first verse addresses Christ as Savior, Redeemer and friend and marvels that a sacrificial lamb rescues souls. The second addresses the Spirit as counselor, comforter and keeper who gives hope to the lost. The third addresses the Father as faithful, almighty and loving, who meets us in weakness as we come before his throne. The refrain praises and adores the one who gives the healing and grace hearts hunger for. The cross and resurrection are not named.",
     "claims": [
       {
-        "claim": "Jesus is a merciful Savior who rescues sinners.",
+        "claim": "Christ is Savior, Redeemer and friend, the Lamb whose sacrifice rescues human souls.",
         "subject": "Christ the Savior",
         "location": "VERSE_1",
         "lyricExcerpt": null
       },
       {
-        "claim": "The Spirit is comforter and keeper of believers.",
+        "claim": "The Holy Spirit is counselor, comforter and keeper, giving hope to the lost.",
         "subject": "The Holy Spirit",
         "location": "VERSE_2",
         "lyricExcerpt": null
       },
       {
-        "claim": "The hymn is framed as praise of the Trinity: Son, Spirit and Father.",
-        "subject": "The Trinity",
-        "location": "WHOLE_SONG",
+        "claim": "The Father is faithful, almighty and loving toward his own, and meets us in weakness as we come before his throne.",
+        "subject": "God the Father",
+        "location": "VERSE_3",
         "lyricExcerpt": null
       },
       {
-        "claim": "Christ is the Lamb who redeems and rescues, and is the believer's friend.",
-        "subject": "Redemption and Christ's person",
+        "claim": "The church praises and adores the one who gives the healing and grace hearts hunger for.",
+        "subject": "Grace and worship",
         "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Each Person of the Trinity is addressed in turn, so the whole is praise of the triune God.",
+        "subject": "The Trinity",
+        "location": "WHOLE_SONG",
         "lyricExcerpt": null
       }
     ],
@@ -59,7 +65,7 @@
       {
         "category": "The Trinity",
         "title": "Praise offered to all three Persons",
-        "explanation": "The hymn was planned so its sections turn to Son, Spirit and Father rather than to an unnamed 'you'. A congregation sings to the triune God and learns the Spirit's work of comfort and keeping alongside the Son's rescue.",
+        "explanation": "Each verse turns to one Person: Son, Spirit and Father. A congregation sings to the triune God and learns the Spirit's comfort and keeping and the Father's faithfulness alongside the Son's rescue.",
         "songLocation": "WHOLE_SONG",
         "magnitude": "MODERATE",
         "scriptureReference": "2 Corinthians 13:14",
@@ -68,11 +74,20 @@
       {
         "category": "Christology",
         "title": "Christ's titles gathered as worship",
-        "explanation": "The refrain names Christ as Savior, Redeemer and Lamb who rescues. It says what he has done for sinners, not only how the singer feels.",
-        "songLocation": "CHORUS",
+        "explanation": "The first verse names Christ as Savior, Redeemer and friend and the Lamb whose sacrifice rescues souls. It says what he has done for sinners, not only how the singer feels.",
+        "songLocation": "VERSE_1",
         "magnitude": "MODERATE",
         "scriptureReference": "John 1:29",
         "scriptureRationale": "The Lamb of God who takes away the sin of the world - the figure the refrain uses."
+      },
+      {
+        "category": "Access to God",
+        "title": "Weakness brought to the Father's throne",
+        "explanation": "The third verse says the Father meets us in our weakness as we come before his throne, which gives the singer confidence to draw near.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MINOR",
+        "scriptureReference": "Hebrews 4:16",
+        "scriptureRationale": "Approaching the throne of grace to find help in time of need."
       }
     ],
     "concerns": [],
@@ -80,10 +95,11 @@
       "The Trinity",
       "Christ as Savior and Redeemer",
       "Christ as the Lamb who rescues sinners",
-      "The Spirit as comforter",
-      "God's mercy"
+      "The Spirit as counselor and comforter",
+      "The Father's faithfulness and power",
+      "Access to God's throne in weakness"
     ],
-    "assessment": "Nothing to correct was found. The song names the Son and the Spirit, speaks of redemption through the Lamb, and presents mercy as God's. The cross is gestured at through titles more than stated as a transaction, and the third verse was not independently checked. The one lay review located reads it as a collection of Christ's acts and attributes tied to Scripture."
+    "assessment": "Nothing to correct was found. The song addresses the Son, the Spirit and the Father in turn and presents mercy and grace as God's gift. The gospel is carried by the Lamb imagery; the cross and resurrection are not named, which is a thin spot rather than an error."
   },
   "communal": {
     "strengths": [
@@ -109,26 +125,26 @@
       "note": "No chart was read for this review, so the pitches are not stated."
     },
     "repetition": "PURPOSEFUL",
-    "repetitionAssessment": "The refrain returns after each verse and restates the confession of Christ's mercy, so the repetition keeps the song on its subject.",
+    "repetitionAssessment": "The same refrain follows each verse and is sung again at the end, with a short echo line closing each section. The repetition is heavy but keeps the song on praise of God's grace.",
     "performanceOrientation": "CONGREGATIONAL",
-    "assessment": "Congregational in form and unhurried in pace. Its Trinitarian shape suits Communion, times of confession and gatherings where a quieter response to the gospel is wanted."
+    "assessment": "Congregational in form: short lines, simple structure and a refrain sung three times and once more, so it is easy to learn. Its Trinitarian shape suits Communion, times of confession and gatherings wanting a quieter response to the gospel."
   },
   "clarity": {
     "strengths": [
       {
         "category": "Naming",
         "title": "The Persons are named",
-        "explanation": "Savior, Redeemer and the Lamb identify Christ, and the Spirit is named as comforter, so the addressee is clear.",
+        "explanation": "Each verse opens by naming the Person addressed (Son, Spirit, Father), so the addressee is always clear.",
         "songLocation": "WHOLE_SONG",
         "magnitude": "MODERATE"
       }
     ],
     "concerns": [],
     "ambiguityLevel": "LOW",
-    "assessment": "Clear. The titles are biblical, and the song states less of the gospel's sequence than a narrative hymn would, which is a limit on how much a visitor learns rather than a source of confusion."
+    "assessment": "Clear. The titles are biblical and each verse is plainly addressed. It states less of the gospel's sequence than a narrative hymn would, which limits how much a visitor learns but does not confuse."
   },
   "synthesis": {
-    "summary": "A 1989 hymn by Dawn Rodgers and Eric Wyse conceived as praise of the Trinity, with sections for Son and Spirit and a refrain on Christ as Redeemer and Lamb. No theological concern was found. Sourcing is thin: no scholarly or denominational assessment of its content turned up, only a church program note and a lay review.",
+    "summary": "A 1989 hymn by Dawn Rodgers and Eric Wyse praising the Trinity, with a verse each for Son, Spirit and Father and a shared refrain asking for healing and grace. No theological concern was found; the gospel content is thin, with the Lamb imagery but no named cross or resurrection.",
     "themes": [
       "Trinity",
       "Christ",
@@ -148,6 +164,10 @@
       {
         "reference": "2 Corinthians 13:14",
         "relevance": "The three Persons named together - the hymn's Trinitarian frame."
+      },
+      {
+        "reference": "Hebrews 4:16",
+        "relevance": "Coming to the throne to find grace - the third verse."
       }
     ]
   },
@@ -160,6 +180,15 @@
       "credibilityTier": "TIER_3",
       "establishes": "Church music note: Rodgers began the hymn in 1989 in her devotions; Wyse helped finish it; verses praise the Son and the Spirit and the whole the Trinity.",
       "assessesContent": true
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google (lyrics panel)",
+      "url": "https://www.google.com/search?q=Wonderful+Merciful+Savior+Selah+lyrics"
     }
   ]
 }
