@@ -20,6 +20,7 @@ export const AUTO_REJECTED_ARTISTS = [
   'Jesus Culture',
   'Lauren Daigle',
   'Lauren Dale',
+  'Glorious',
 ] as const;
 
 const PATTERN = new RegExp(`\\b(${AUTO_REJECTED_ARTISTS.join('|')})\\b`, 'i');
