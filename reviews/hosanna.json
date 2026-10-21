@@ -1,0 +1,199 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Hosanna (Praise Is Rising)",
+    "artist": "Paul Baloche",
+    "artistType": "INDIVIDUAL",
+    "album": "Everlasting God (Brenton Brown); Paul Baloche live recording",
+    "releaseYear": 2006,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Brenton Brown and Paul Baloche; WorshipTogether lists CCLI 4662491 and ThankYou Music as the ministry, and a search summary of the hymnary record reported a 2005 copyright line held by Thankyou Music. Brown has said the two wrote it after a dinner at Baloche's home in Texas, inspired by Matthew 21 and the crowd's spontaneous worship as Jesus approached Jerusalem (from a search summary; that page was not loaded). Brown's recording is dated 2006 by Wikipedia's album article, also from a search summary, and Baloche's live recording is the version churches know best; the exact first-release date is not firmly verified here. The list's guess of Baloche is right for the congregational version, but the song is a co-write with Brown. WorshipTogether gives the original key as G. Reviewed as the song, not any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Two verses, a short pre-chorus that is sung after each verse and repeated, and a chorus that returns three times at the end with a closing hosanna tag. The first verse describes a congregation turning to God in hope and longing; the pre-chorus says that seeing him gives strength and that his presence removes fear. The second verse says hearts return and broken lives are made new in his kingdom. The chorus addresses the Lord Jesus, ascribes salvation to him, calls him worthy of praise, asks that he have his way among his people and welcomes him. The voice mixes a congregational account of turning and longing, which reports the singer's experience and resolve, with a short credal ascription of saving and worthiness to Christ. The cross, the resurrection and the return are not named, and neither is the Spirit.",
+    "claims": [
+      {
+        "claim": "The gathered people turn to God in hope and longing.",
+        "subject": "The congregation's response",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Seeing God gives strength, and his presence drives out fear.",
+        "subject": "God's presence",
+        "location": "PRE_CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Hearts return to God and broken lives are made new in his kingdom.",
+        "subject": "Renewal in the kingdom",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lord Jesus is the God who saves and is worthy of praise.",
+        "subject": "The deity and saving work of Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is asked to have his way among his people and is welcomed as King.",
+        "subject": "The lordship of Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": false,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christ",
+        "title": "The crowd's cry is given back to Christ",
+        "explanation": "The song takes the cry of the crowd at the triumphal entry and addresses it to the Lord Jesus as the God who saves. Hosanna means save now, so the praise and the plea are one word, and the chorus names who is being asked and praised.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Matthew 21:9",
+        "scriptureRationale": "The crowd greets the coming Son of David with hosanna, the scene the song is built on."
+      },
+      {
+        "category": "Scripture",
+        "title": "Built on Psalm 118 and the entry into Jerusalem",
+        "explanation": "The shape of the song follows the scriptural hosanna: a people welcoming a saving king. That gives a congregation a biblical act of worship to join rather than a feeling to produce.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 118:25-26",
+        "scriptureRationale": "The cry for rescue and the blessing on the one who comes in the Lord's name."
+      },
+      {
+        "category": "Renewal",
+        "title": "Broken lives made new in the kingdom",
+        "explanation": "The second verse says broken lives are made new in God's kingdom, which sets renewal as his work and not the singer's achievement.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MINOR",
+        "scriptureReference": "2 Corinthians 5:17",
+        "scriptureRationale": "The new creation in Christ - the renewal the verse describes."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The deity of Christ as the God who saves",
+      "Christ's kingship",
+      "Renewal of broken lives in his kingdom",
+      "God's presence driving out fear"
+    ],
+    "assessment": "Nothing to correct. Hosanna is used as praise to Christ the saving king, which Scripture itself does. The song is thin on the gospel: it names Jesus as the one who saves but does not say how, and the cross, the resurrection and the return are not reached. Much of the first half reports the singer's turning and longing rather than teaching, and that is recorded in the substance answers, not charged as a concern."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A chorus a room learns at once",
+        "explanation": "The chorus is short and simple to follow, and the pre-chorus is repeated so that a congregation has it by the second verse.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Suited to Palm Sunday and Easter",
+        "explanation": "The scriptural scene it rests on makes it natural for Palm Sunday and for services that welcome Christ as King.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Original key G per WorshipTogether, which also offers A, D and E. The arrangement is long and builds; a lower key keeps the final choruses reachable.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "G (original per WorshipTogether)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The pre-chorus is sung twice after each verse and the chorus three times at the end. Welcome is the point, but the repeats carry more of the arrangement than new content.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Congregational in its words and its melody, with a long, building arrangement that leans on repetition. The repeated welcome suits a room that is already worshiping; a leader has to watch that the build does not outrun the words."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "The Lord Jesus is named in the chorus",
+        "explanation": "The chorus addresses the Lord Jesus by name, so the song's you is not left unspecified.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The word hosanna is explained by the biblical scene behind it, and the language of turning, longing and renewal is plain. A visitor would know who is addressed, though not how he saves."
+  },
+  "synthesis": {
+    "summary": "A welcome song built on the hosanna cry at the entry into Jerusalem. It addresses the Lord Jesus as the God who saves, speaks of strength and freedom from fear in his presence, and of broken lives made new in his kingdom. Nothing in it is wrong. The cross, the resurrection and the return are not named, and the first verse mostly reports the congregation's longing. The chorus repeats heavily.",
+    "themes": [
+      "Christ",
+      "Worship",
+      "Salvation",
+      "Hope",
+      "Sovereignty"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Matthew 21:9",
+        "relevance": "The crowd's hosanna to the Son of David - the scene the song rests on."
+      },
+      {
+        "reference": "Psalm 118:25-26",
+        "relevance": "The cry to save and the blessing on the one who comes in the Lord's name."
+      },
+      {
+        "reference": "2 Corinthians 5:17",
+        "relevance": "New creation in Christ - the second verse's renewal."
+      },
+      {
+        "reference": "Psalm 146:7-10",
+        "relevance": "The Lord who sets prisoners free and reigns forever; listed on the WorshipTogether page."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.worshiptogether.com/songs/hosanna-praise-is-rising/",
+      "title": "Hosanna (Praise Is Rising)",
+      "publisher": "WorshipTogether",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Brenton Brown and Paul Baloche, CCLI 4662491, ThankYou Music, original key G, Psalm 146 and Matthew 21:9 listed.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Brenton_Brown",
+      "title": "Brenton Brown",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Lists the song among Brenton Brown's work as a Kingsway artist and on a later live album; gives no account of what the song teaches.",
+      "assessesContent": false
+    }
+  ]
+}

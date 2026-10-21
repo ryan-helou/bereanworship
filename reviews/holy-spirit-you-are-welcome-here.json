@@ -1,0 +1,205 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Holy Spirit",
+    "artist": "Francesca Battistelli",
+    "artistType": "INDIVIDUAL",
+    "album": "If We're Honest",
+    "releaseYear": 2014,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Bryan Torwalt and Katie Torwalt; the husband-and-wife duo released it in 2011 (album Here On Earth) after writing it as young worship pastors for their congregation in central California. Copyright line 2011 Capitol CMG Genesis and Jesus Culture Music, administered by Capitol CMG Publishing; CCLI 6087919 (PraiseCharts). The list credits Francesca Battistelli, whose cover on her album If We're Honest is the recording this list means (the year given here is the album's; I did not verify it from a page). Jesus Culture and Kari Jobe also recorded it, and the Jesus Culture version adds a long spontaneous ending. Writers are the Torwalts, not Battistelli. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Two verses, each sung twice, a chorus sung three times, and a short two-line tag before the last chorus. The verses address God about the worth of his presence, name a living hope, and describe the singer's experience of his love freeing the heart and removing shame. The chorus addresses the Holy Spirit directly: it welcomes him, asks him to fill the gathering, and voices a longing for God's glory and to be overcome by his presence. The tag asks to be made more aware of his presence and goodness. The voice is the singer's own experience and desire, with a prayer to the Spirit; it is not credal and says nothing of who the Spirit is beyond his title. Christ's cross, resurrection and return are not named. No passage is set directly, though the verses echo Psalm 34:8, Psalm 16:11 and the removal of shame in Romans 8:1.",
+    "claims": [
+      {
+        "claim": "God's presence is of surpassing worth to the singer.",
+        "subject": "The worth of God's presence",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer has hope that is alive.",
+        "subject": "Living hope",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer has tasted God's love, and it has freed the heart and undone shame.",
+        "subject": "The freeing love of God",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Holy Spirit is welcomed and asked to fill the gathering.",
+        "subject": "Prayer for the Spirit's filling",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer longs for God's glory and to be overcome by his presence.",
+        "subject": "Longing for God's glory",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer asks to be made more aware of God's presence and goodness.",
+        "subject": "Awareness of God's goodness",
+        "location": "TAG",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": false,
+    "godDirected": true,
+    "groundsItsClaims": false,
+    "corporateVoice": false,
+    "engagesScripture": false
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "The Holy Spirit",
+        "title": "The Spirit addressed as a person",
+        "explanation": "The chorus speaks directly to the Holy Spirit as one who can be welcomed and asked to act, which keeps the Spirit personal and gives a congregation a way to pray to him.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Ephesians 5:18",
+        "scriptureRationale": "Be filled with the Spirit - the prayer the chorus voices."
+      },
+      {
+        "category": "Grace",
+        "title": "Shame answered by God's love",
+        "explanation": "The second verse says God's love has freed the heart and undone shame, which keeps the weight of the song on what God has done rather than on the singer's effort.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MINOR",
+        "scriptureReference": "Romans 8:1",
+        "scriptureRationale": "No condemnation for those in Christ - the freedom the verse describes in the singer's words."
+      },
+      {
+        "category": "Prayer",
+        "title": "A prayer for God's nearness",
+        "explanation": "The tag asks to be made more aware of God's presence and goodness, a petition Scripture invites.",
+        "songLocation": "TAG",
+        "magnitude": "MINOR",
+        "scriptureReference": "Psalm 16:11",
+        "scriptureRationale": "Fullness of joy in God's presence - what the petition longs for."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The personal Holy Spirit",
+      "God's love freeing from shame",
+      "The worth of God's presence",
+      "Living hope"
+    ],
+    "assessment": "Nothing false is stated. Welcoming the Spirit and asking him to come is prayer for fresh manifestation of presence, read as a figure, not a denial that he already indwells believers. The song's weakness is thinness, not error: it says nothing of who the Spirit is, and Christ's cross and resurrection are not named. Its claims rest on the singer's felt experience. Logos's analysis commends it but notes it leaves untouched why we invite a God already present and how reliable feelings are."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Simple melody, easy to learn",
+        "explanation": "Logos praises the melody as simple and easy to sing, and the structure here is two verses and one chorus, which a room picks up quickly.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Suits a prayer of invitation",
+        "explanation": "The chorus is a prayer to the Spirit, so the song fits a gathering that wants to pray for his presence before the word or the table.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published keys not verified from a chart. Recordings differ in key and the Jesus Culture version extends the ending; a leader should choose a key the room can carry.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not verified (no chart read)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "Verses are sung twice and the chorus three times, and recordings extend the ending. The chorus repeats one petition without adding to it, so repetition does some of the words' work.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Easy to sing and written for a congregation, though its first-person voice and the long free ending on some recordings lean toward a leader-led, felt moment. Keep the ending short and let the room finish."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "The Spirit is named and addressed",
+        "explanation": "The chorus names the Holy Spirit outright, so the addressee is clear.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "MODERATE",
+    "assessment": "The petitions are plain, but \"presence\" is left undefined, so a singer can take it to mean a felt sensation. Logos raises why we invite a God already present and answers only briefly. A leader may need to say what is meant."
+  },
+  "synthesis": {
+    "summary": "A prayer to the Holy Spirit to be welcomed, to fill the gathering and to make God's presence known, set against the singer's own experience of a love that frees from shame. It is easy to sing and states nothing false. It does not say who the Spirit is, names no act of Christ, and rests on felt experience rather than on stated doctrine. One Logos analysis commends it.",
+    "themes": [
+      "Holiness",
+      "Worship",
+      "Prayer",
+      "Grace",
+      "Hope"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 34:8",
+        "relevance": "Taste and see that the Lord is good - the verse's tasting of God's love."
+      },
+      {
+        "reference": "Psalm 16:11",
+        "relevance": "Fullness of joy in his presence - the song's longing."
+      },
+      {
+        "reference": "Romans 8:1",
+        "relevance": "No condemnation in Christ - the removal of shame the verse describes."
+      },
+      {
+        "reference": "Ephesians 5:18",
+        "relevance": "Being filled with the Spirit - what the chorus asks."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.logos.com/grow/holy-spirit-a-fresh-song-for-the-church-song-analysis/",
+      "title": "\"Holy Spirit\": a Fresh Song for the Church (Song Analysis)",
+      "publisher": "Logos",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writers Bryan and Katie Torwalt, 2011, recorded by Battistelli, Jesus Culture, Kari Jobe; commends its melody and Scripture echoes, and raises why we invite a God already present.",
+      "assessesContent": true
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Life 102.5",
+      "url": "https://www.life1025.com/songs/holy-spirit/"
+    }
+  ]
+}

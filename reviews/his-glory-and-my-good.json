@@ -1,0 +1,212 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "MEDIUM",
+    "title": "His Glory and My Good",
+    "artist": "CityAlight",
+    "artistType": "GROUP",
+    "album": "His Glory and My Good",
+    "releaseYear": 2024,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "PraiseCharts lists the writers as Ben Fielding, Ben Thompson and Jonathan Robinson, publishers Hillsong Music and Integrity Music, copyright 2024, CCLI 7235691, original key E, credited to CityAlight on an album of the same name. The brief and reading note say Rich Thompson, Ben Fielding and Jonny Robinson; the first Thompson name could not be reconciled and is flagged for checking. The brief's recording by The Worship Initiative featuring Robbie Seay was not verified by search; the verified artist is CityAlight. The text was read from a Worship Initiative version per the reading note, and all four verses were present. Reviewed as the song, not any one recording."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Four verses, a chorus after each of the first three and a repeated final chorus; the last line of the last verse is repeated. Verses are mostly personal testimony about God and Christ, and the chorus is a congregational ascription of praise and boast in the Lord. The first verse sees the Father's glory in Jesus and says beholding Christ satisfies. The second speaks of trust in trial, a thorn, following Christ by faith when he is not understood, and God working all for his glory and the believer's good. The third states that the charge against the sinner was dealt with at the cross, and that salvation is for God's glory. The fourth speaks of self-denial so that Christ increases, the coming kingdom and standing before the Father with the faithful. The Father and Christ are named, the Spirit is not.",
+    "claims": [
+      {
+        "claim": "The Father's glory is seen in Jesus, and beholding Christ satisfies.",
+        "subject": "Glory revealed in Christ",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God works all things, including trials, for his own glory and the believer's good; faith follows Christ when he is not understood.",
+        "subject": "Providence in suffering",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "At the cross the charge standing against the sinner was dealt with, and salvation serves God's glory.",
+        "subject": "Forgiveness at the cross",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer denies self so that Christ increases, and looks to the coming kingdom and standing before the Father.",
+        "subject": "Self-denial and final glory",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The church boasts in the Lord alone.",
+        "subject": "Boasting in the Lord",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Providence",
+        "title": "God's glory and the believer's good joined",
+        "explanation": "Trials are placed under God's purpose and the believer's good is grounded in his glory and sanctifying work, not comfort or prosperity.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Romans 8:28",
+        "scriptureRationale": "All things working together for good for those who love God."
+      },
+      {
+        "category": "Atonement",
+        "title": "The charge dealt with at the cross",
+        "explanation": "The third verse rests salvation on what the cross did with the sinner's charge, so forgiveness is God's act.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Colossians 2:14",
+        "scriptureRationale": "The record of debt cancelled and nailed to the cross."
+      },
+      {
+        "category": "Christ",
+        "title": "The Father's glory seen in Christ",
+        "explanation": "The first verse puts the knowledge of God's glory in the person of Jesus.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MODERATE",
+        "scriptureReference": "2 Corinthians 4:6",
+        "scriptureRationale": "The light of the knowledge of God's glory in the face of Jesus Christ."
+      },
+      {
+        "category": "Worship",
+        "title": "Boasting only in the Lord",
+        "explanation": "The chorus is a congregational boast in the Lord, with Scripture behind it.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Corinthians 1:31",
+        "scriptureRationale": "Let the one who boasts boast in the Lord."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The glory of God revealed in Christ",
+      "God's providence in trials",
+      "Forgiveness through the cross",
+      "Salvation for God's glory",
+      "Self-denial and Christ's increase",
+      "Final glory with the saints"
+    ],
+    "assessment": "No concern found. The reading note judges that the phrase about glory and good is not prosperity teaching: good is grounded in God's glory and in sanctifying trials, and the song keeps the cross and Christ at the centre. The Spirit is not named."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "Real verses carrying a congregational chorus",
+        "explanation": "Four developed verses plus an ascription of praise sung by all, per the reading note.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "PraiseCharts gives E as the original key. Range was judged moderate and singable per the reading note; no chart was read.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "E (original per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns after the first three verses and again at the end, so the boast in the Lord answers each stage; the last line is repeated at the close.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Judged from structure: a chorus-led congregational song with real verses and a moderate range. Delivery on particular recordings was not assessed."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "The Father and Christ named",
+        "explanation": "The Father and Christ are named, so the object of praise is clear.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear overall. The word 'good' could be misheard as comfort, but the verses define it through trial and sanctification."
+  },
+  "synthesis": {
+    "summary": "Four verses and a chorus about God's glory seen in Christ, trust in trials, the cross dealing with the sinner's charge, and self-denial with the hope of final glory. The reading note finds no doubtful teaching. Verified as written by Fielding, Thompson and Robinson and credited to CityAlight (2024); the Worship Initiative and Robbie Seay credit was not verified.",
+    "themes": [
+      "Christ",
+      "Cross",
+      "Providence",
+      "Suffering",
+      "Worship",
+      "Hope",
+      "Sovereignty"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Romans 8:28",
+        "relevance": "God working all things for good - verse two."
+      },
+      {
+        "reference": "2 Corinthians 12:7-10",
+        "relevance": "The thorn and sufficient grace - verse two."
+      },
+      {
+        "reference": "Colossians 2:14",
+        "relevance": "The charge nailed to the cross - verse three."
+      },
+      {
+        "reference": "John 1:14",
+        "relevance": "Glory seen in the Son - verse one."
+      },
+      {
+        "reference": "1 Corinthians 1:31",
+        "relevance": "Boasting in the Lord - the chorus."
+      },
+      {
+        "reference": "John 3:30",
+        "relevance": "He must increase - verse four."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/84081/his-glory-and-my-good-sheet-music/piano-vocal-pack",
+      "title": "His Glory And My Good - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Ben Fielding, Ben Thompson, Jonathan Robinson; Hillsong Music and Integrity Music; CCLI 7235691; 2024; CityAlight; original key E.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.google.com/search?q=His+Glory+and+My+Good+Worship+Initiative+Robbie+Seay+lyrics",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel (Musixmatch)",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

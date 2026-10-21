@@ -1,0 +1,189 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "The Heart of Worship",
+    "artist": "Matt Redman",
+    "artistType": "INDIVIDUAL",
+    "album": "Heart of Worship",
+    "releaseYear": 1999,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Matt Redman in the late 1990s at Soul Survivor Church, Watford, England, and released as the title track of his 1999 album Heart of Worship. Accounts of its origin say the church's pastor, Mike Pilavachi, had stripped away the band and sound system for a season to refocus the congregation on why it worshipped, and Redman wrote the song quickly afterwards. The list's artist guess is right. Publisher and CCLI number were not confirmed from a page that loaded for this review. Reviewed as the song, not as any one recording; the well-known version has an extended repeated tag.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Two verses, each followed by a chorus, a repeated final chorus and a long tag that keeps returning to the idea that worship is more than music. The whole song is addressed to Jesus. The first verse has the singer coming with nothing but a desire to offer something worthy, and says worship is not merely music because God looks at the heart. The chorus is a confession and return: the singer repents of having made worship about something other than Jesus and turns back to him. The second verse says Jesus is of endless worth and the singer, though weak, offers everything. The voice is the singer's own experience, repentance and resolve. No act of God is narrated: the incarnation, cross and resurrection are not reached.",
+    "claims": [
+      {
+        "claim": "Worship is more than music; God looks at the heart of the worshipper.",
+        "subject": "The worshipper's heart",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer comes with no offering except a desire to give something worthy of God.",
+        "subject": "Offering and worthiness",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer repents of having made worship about something other than Jesus and returns to him as its centre.",
+        "subject": "Repentance and the object of worship",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Jesus is of endless worth, and the singer, though weak, offers everything.",
+        "subject": "The worth of Christ",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Worship is not reducible to song; the refrain keeps returning to what the heart is giving.",
+        "subject": "Worship beyond song",
+        "location": "TAG",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": false,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Worship",
+        "title": "Worship is about the heart, not the noise",
+        "explanation": "The song says what the prophets said: God is not satisfied by music or performance without a heart turned to him. It gives a congregation words to examine why it sings, and it puts God, not the sound, at the centre.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 Samuel 16:7",
+        "scriptureRationale": "The Lord looks on the heart - the verse's claim about what God sees in worship."
+      },
+      {
+        "category": "Repentance",
+        "title": "Confession that worship had become about something else",
+        "explanation": "The chorus is a real act of repentance: the singer admits that worship drifted from Jesus and returns. Corporate songs rarely confess idolatry of worship itself.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "John 4:23-24",
+        "scriptureRationale": "True worshippers worship in spirit and truth - the standard the confession measures itself by."
+      },
+      {
+        "category": "Christ",
+        "title": "Jesus as the object and measure of worship",
+        "explanation": "Jesus is addressed directly as worthy beyond measure, and the singer's weakness is offered to him without pretence.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 12:1",
+        "scriptureRationale": "Offering the whole self as a living sacrifice - the spirit of the second verse's surrender."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Worship is a matter of the heart before it is music",
+      "God searches the heart",
+      "Repentance when worship is misdirected",
+      "The worth of Jesus"
+    ],
+    "assessment": "Nothing to correct. The song's claims are sound and drawn from the prophets and the New Testament on true worship. It is thin where the fuller gospel would stand: no act of God is named, so Christ's person and work are assumed rather than sung, and the voice is the singer's repentance and resolve rather than a confession of who God is. Those absences are recorded in the substance answers, not charged here."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "An easy, memorable melody",
+        "explanation": "The tune is simple and sits comfortably for most voices, so a room can pick it up quickly and keep singing without a leader.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "A song for examining worship itself",
+        "explanation": "It suits a gathering that wants to ask why it sings, and works as a quiet corrective in a service that has leaned on production.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published keys were not read. The tune is simple; choose a key that suits the room and test the chorus.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not read",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The chorus comes three or more times and the long tag repeats one idea. The repetition suits a confession that is being made again, but the long tag carries little new content.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form and easy to sing. The extended tag can run on; a leader who ends after the chorus keeps its strength."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Directness",
+        "title": "Plain words about worship",
+        "explanation": "The song says what it means without figure or idiom, and its central point can be restated by any singer after one hearing.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The sections follow one line of thought, from the heart to repentance to surrender. Its one limit is that Jesus is addressed but not described beyond his worth."
+  },
+  "synthesis": {
+    "summary": "A confessional song about worship itself: God looks at the heart, the singer repents of making worship about something else, and returns to Jesus as its centre. The voice is the singer's repentance and resolve, and no act of God is named; the cross and resurrection are not reached. Nothing in it is false. It is very singable, with a chorus repeated several times and a long tag.",
+    "themes": [
+      "Worship",
+      "Repentance",
+      "Christ",
+      "Faith"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "1 Samuel 16:7",
+        "relevance": "The Lord looks on the heart - the claim of the first verse."
+      },
+      {
+        "reference": "Isaiah 29:13",
+        "relevance": "Lips near to God with hearts far off - the failure the chorus repents of."
+      },
+      {
+        "reference": "John 4:23-24",
+        "relevance": "Worship in spirit and truth - what true worship is."
+      },
+      {
+        "reference": "Romans 12:1",
+        "relevance": "The self offered as a living sacrifice - the second verse's surrender."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel (LyricFind)",
+      "url": "https://www.google.com/search?q=The+Heart+of+Worship+Matt+Redman+lyrics"
+    }
+  ]
+}

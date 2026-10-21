@@ -1,0 +1,207 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Here I Am to Worship (Light of the World)",
+    "artist": "Tim Hughes",
+    "artistType": "INDIVIDUAL",
+    "album": "Here I Am to Worship",
+    "releaseYear": 2001,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Tim Hughes in 1999 while a student, prompted by reading Philippians 2; published in 2000 (Thankyou Music per the UMC hymn history, not loaded here) and released on 24 December 2001 as the title track of his debut album. The list's artist is right. Hughes's home church was Soul Survivor Watford, under Mike Pilavachi. The song was later recorded by Michael W. Smith, Chris Tomlin, Hillsong, Phillips Craig and Dean and many others, and reached number one on the CCLI list. Publisher and CCLI number were not confirmed from a page that loaded for this review. Reviewed as the song, not any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Two verses, each with the chorus, a short bridge repeated twice, and a final chorus. The first verse addresses Jesus as the light of the world who entered the darkness and opened the singer's eyes. The second addresses Christ as exalted king who humbly came to the world he made and became poor. The chorus is the singer's response of worship, naming Christ as God and altogether worthy. The bridge turns to the cross, where sin was borne at a cost beyond measure. The verses and bridge are credal confession of who Christ is and what he did; the chorus is the singer's declared response. Incarnation, humiliation and the cross are named; the resurrection and return are not.",
+    "claims": [
+      {
+        "claim": "Jesus is the light of the world who entered the darkness and opened the singer's eyes.",
+        "subject": "The incarnation and Christ as light",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The exalted king humbly came to the world he made and became poor.",
+        "subject": "The humiliation of Christ",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The singer responds in worship, confessing Christ as God, altogether worthy.",
+        "subject": "Worship of Christ as God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Sin was borne at the cross at a cost beyond measure.",
+        "subject": "The cross",
+        "location": "BRIDGE",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christ",
+        "title": "Christ's humiliation, set out from Philippians 2",
+        "explanation": "The second verse moves from the king's exaltation to his humble coming and poverty. That is the pattern of Philippians 2 and 2 Corinthians 8, and it grounds worship in what Christ did rather than in the singer's mood.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Philippians 2:5-11",
+        "scriptureRationale": "The mind of Christ who humbled himself and was exalted - the shape of the verse."
+      },
+      {
+        "category": "Incarnation",
+        "title": "The light entering the darkness",
+        "explanation": "The first verse presents Jesus as the light of the world who came into the dark and gave sight. It is the incarnation as rescue and the song's reason for worship.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "John 8:12",
+        "scriptureRationale": "I am the light of the world - the title the verse sings."
+      },
+      {
+        "category": "Cross",
+        "title": "Sin borne at a great cost",
+        "explanation": "The bridge brings the congregation to the cross and says sin was carried there at a cost no one can measure. Short, but it ties the worship to Christ's atoning death.",
+        "songLocation": "BRIDGE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Peter 2:24",
+        "scriptureRationale": "He bore our sins in his body on the tree."
+      },
+      {
+        "category": "Christ",
+        "title": "Christ confessed as God",
+        "explanation": "The chorus names Christ as God and worthy. A congregation sings his deity as the ground of its response.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "John 1:1",
+        "scriptureRationale": "The Word was God - what the chorus confesses."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The incarnation of Christ",
+      "Christ as the light of the world",
+      "The humiliation and exaltation of Christ",
+      "The deity of Christ",
+      "The cross and bearing of sin"
+    ],
+    "assessment": "Nothing to correct. The verses and bridge state who Christ is and what he did, and the chorus is a fitting response to them. The 'never know how much it cost' idea is humility before the cross, not a doctrinal claim. The resurrection and return are not reached, and the atonement is stated briefly rather than explained."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A melody that carries a room",
+        "explanation": "Simple and singable, with a chorus the whole room can take up after one hearing. It has been sung across many denominations.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "Confession first, then response",
+        "explanation": "Verses and bridge say who Christ is and what he did; the chorus is the congregation's response. The order keeps worship tied to its reasons.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published keys were not read. Test the chorus with the room and set the key by their voices rather than by the recording.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not read",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns three times and the bridge twice, and each return follows new content about Christ, so the response is repeated over a changing ground.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form and very singable. It can open a gathering, mark the incarnation season, or follow a reading from Philippians."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ named and described",
+        "explanation": "The light of the world, the king who became poor and the God of the chorus are all plainly Christ. A visitor knows who is being worshipped and why.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The sections each carry one idea and the vocabulary is plain and biblical."
+  },
+  "synthesis": {
+    "summary": "A response song built on Philippians 2: Jesus is the light who entered the darkness, the exalted king who humbly became poor, confessed as God in the chorus, and the bridge brings the congregation to the cross where sin was borne. The verses and bridge are credal and the chorus is the singer's response. Nothing in it is false; the resurrection and return are not reached. Very singable.",
+    "themes": [
+      "Worship",
+      "Christ",
+      "Cross",
+      "Grace",
+      "Salvation"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Philippians 2:5-11",
+        "relevance": "The humiliation and exaltation of Christ - the passage the song was written from."
+      },
+      {
+        "reference": "John 8:12",
+        "relevance": "Christ as the light of the world - the first verse."
+      },
+      {
+        "reference": "2 Corinthians 8:9",
+        "relevance": "The rich one who became poor - the second verse."
+      },
+      {
+        "reference": "John 1:1-14",
+        "relevance": "The Word who was God became flesh - the incarnation behind both verses."
+      },
+      {
+        "reference": "1 Peter 2:24",
+        "relevance": "Christ bearing sin on the tree - the bridge."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Here_I_Am_to_Worship_(song)",
+      "title": "Here I Am to Worship (song)",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Tim Hughes as writer, written 1999, released 24 December 2001, inspired by Philippians 2; list of cover recordings.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "gccsatx.com",
+      "url": "https://gccsatx.com/hymns/here-i-am-to-worship"
+    }
+  ]
+}

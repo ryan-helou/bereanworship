@@ -1,0 +1,227 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "How Great Thou Art",
+    "artist": "Stuart K. Hine (from the Swedish of Carl Boberg)",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1949,
+    "genre": "Hymn",
+    "isPublicDomain": false,
+    "notes": "The Swedish poem O Store Gud was written by Carl Boberg in 1885 and first published in 1886. It passed into German (Manfred von Glehn, 1907) and Russian (Ivan Prokhanov, 1912); E. Gustav Johnson published a literal English version in 1925. The English text churches sing is Stuart K. Hine's, finalized in 1949, with a fourth stanza added in 1948; Wikipedia says Hine heard the Russian version in the Carpathian region in 1931, and search summaries put it in the early 1920s, so the date is not settled here. Hine copyrighted two optional stanzas in 1953. Boberg's Swedish poem and Johnson's translation are old, but Hine's English text and tune arrangement remain in copyright: Wikipedia records that Gospel Light published it in 1954 and Manna Music bought it in 1955, and search summaries name the Stuart Hine Trust as holder, with Hope Publishing, Capitol CMG and Manna Music administering in different territories. Public-domain status here is therefore false for the version sung, though the 1885 Swedish original is not covered. Billy Graham's crusades made Hine's text known in the United States. Reviewed as the hymn, in the common four-stanza set.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Four stanzas, each followed by a chorus in the full hymn. The first stanza stands in awe before God's power displayed in the heavens and the storm. The second turns to the quiet things of creation - woods, birds, mountains, stream and breeze - as evidence of him. The third moves to the gospel: the Father did not spare his Son, who bore the burden of sin, shed his blood and died on the cross to take sin away. The fourth looks ahead to Christ's return, taking the believer home, and answers with humble adoration and proclamation of God's greatness. The chorus addresses the Savior God in praise. The voice is a credal confession of creation and gospel, with the first two stanzas carrying the singer's awe; the third is plainly doctrinal. The resurrection and the Spirit are not named in this set.",
+    "claims": [
+      {
+        "claim": "God's power is displayed in the heavens and the storm, and the singer is struck with awe.",
+        "subject": "Creation and divine power",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The beauty and order of the natural world bear witness to God.",
+        "subject": "General revelation in creation",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Father did not spare his own Son but sent him to bear the burden of sin.",
+        "subject": "The Father's gift of the Son",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ died on the cross, shedding his blood, to take sin away.",
+        "subject": "Atonement for sin",
+        "location": "VERSE_3",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ will return and take the believer home to be with him.",
+        "subject": "The second coming and heaven",
+        "location": "VERSE_4",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Savior God is to be praised and proclaimed as great.",
+        "subject": "Worship of the Savior God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Creation",
+        "title": "Creation as a witness to its maker",
+        "explanation": "The first two stanzas read the heavens and the small things of the natural world as evidence of God's power and care, and answer them with awe directed at him.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 19:1",
+        "scriptureRationale": "The heavens declare the glory of God - the witness of creation the opening stanzas sing."
+      },
+      {
+        "category": "The gospel",
+        "title": "The cross in the middle of a creation hymn",
+        "explanation": "The third stanza turns from nature to the Father giving up the Son, who bears sin and dies on the cross. The hymn does not stop at creation but gives the gospel its own stanza, and the awe is then larger for it.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Romans 8:32",
+        "scriptureRationale": "The Father who did not spare his own Son but gave him up for us all - the stanza's claim."
+      },
+      {
+        "category": "Hope",
+        "title": "The return of Christ and the believer's home",
+        "explanation": "The final stanza looks to Christ's return and the welcome home, ending the hymn with a hope the congregation can name.",
+        "songLocation": "VERSE_4",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Thessalonians 4:16-17",
+        "scriptureRationale": "The Lord's descent and the gathering of his people to be with him."
+      },
+      {
+        "category": "Worship",
+        "title": "The hymn ends in humble adoration",
+        "explanation": "Every stanza returns to the chorus of praise to the Savior God, so the response to creation and cross alike is worship of God, not feeling about the world.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 8:1",
+        "scriptureRationale": "The Lord's majesty in all the earth - the praise the chorus gives."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God as creator and sustainer",
+      "Creation as witness to its maker",
+      "The Father's gift of the Son",
+      "Atonement through Christ's death on the cross",
+      "The second coming",
+      "The believer's heavenly home"
+    ],
+    "assessment": "Nothing to correct. The creation language is poetic and biblical, and the third stanza states the cross plainly: the Son given by the Father, bearing sin. The words my Savior God ascribe saving to God without confusing the persons. In this four-stanza set the resurrection and the Spirit are not named, and nature is praised as evidence of God, not set in his place."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A hymn the room already knows",
+        "explanation": "It is among the most familiar hymns in English, and the chorus returns after each stanza so that a congregation can carry it even when the stanzas are unfamiliar.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Structure",
+        "title": "Awe, cross, return in one hymn",
+        "explanation": "A congregation moves from creation to the cross to the second coming and cannot leave it as a nature song.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Keys vary by hymnal and the range is wide; the last chorus rises. Choose a key that keeps its top within reach of a mixed room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Varies by hymnal; no chart read",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The chorus returns after every stanza, and each return follows a different piece of the story, so the same praise answers creation, the cross and the return.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "A congregational hymn in its words and its shape. Its use is wide: it fits a service on creation, the cross, or the Lord's return, and holds a place at funerals and in the Billy Graham tradition. The rights position matters in practice, since Hine's text needs a license and Boberg's older Swedish does not."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "The Son and the Father are named at the cross",
+        "explanation": "The third stanza names the Father and the Son and says what the Son did, so the hymn is never a vague address to a higher power.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The vocabulary is old but plain, and the creation stanzas are straightforward images. Version differences matter: congregations sing different sets of stanzas, so some do not reach the fourth."
+  },
+  "synthesis": {
+    "summary": "A creation hymn that turns to the cross and the return. The first two stanzas read the heavens and the natural world as evidence of God; the third has the Father giving up the Son to bear sin and die on the cross; the fourth looks to Christ's return and the believer's home. The chorus answers each with praise. Nothing in it is wrong; the resurrection and Spirit are not named. Hine's text is still in copyright.",
+    "themes": [
+      "Creation",
+      "God",
+      "Cross",
+      "Salvation",
+      "Worship",
+      "Hope",
+      "Heaven",
+      "Sovereignty"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 8:1",
+        "relevance": "The Lord's majesty in all the earth - the praise the chorus gives."
+      },
+      {
+        "reference": "Psalm 19:1",
+        "relevance": "The heavens declaring God's glory - the opening stanzas."
+      },
+      {
+        "reference": "Romans 8:32",
+        "relevance": "The Father not sparing his own Son - the third stanza's claim."
+      },
+      {
+        "reference": "1 Peter 2:24",
+        "relevance": "Christ bearing sins on the tree - the burden-bearing of the third stanza."
+      },
+      {
+        "reference": "1 Thessalonians 4:16-17",
+        "relevance": "The Lord's return and the gathering of his people - the fourth stanza."
+      },
+      {
+        "reference": "John 14:3",
+        "relevance": "Christ coming again to take his own to himself - the welcome home."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/How_Great_Thou_Art",
+      "title": "How Great Thou Art",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Boberg's 1885 Swedish poem, the German and Russian steps, Hine's English version finalized 1949, the 1953 optional stanzas and the 1954-55 publishing and copyright history.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Chapel Ridge",
+      "url": "https://chapelridge.ca/worship-song-lyrics/how-great-thou-art/"
+    }
+  ]
+}

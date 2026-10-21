@@ -1,0 +1,180 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "MEDIUM",
+    "title": "Here Is Love",
+    "artist": "William Rees (Welsh hymn), text with William Williams; Stuart Townend version not verified",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1855,
+    "genre": "Hymn",
+    "isPublicDomain": true,
+    "notes": "Welsh hymn \"Cariad Crist\", written by William Rees (Gwilym Hiraethog, 1802-1883), first appearing in an addendum to a William Williams collection around 1847 and printed in Rees's Caniadau Hiraethog in 1855; English translation by William Edwards, 1899. Other sources credit a third stanza to Williams, but that was not verified here. It became the signature song of the 1904-05 Welsh revival. Common tunes include Lowry's Jesus Only and Ebenezer. The brief's mention of Stuart Townend's version could not be confirmed by search, and no Townend credit is claimed. IMPORTANT LIMIT: the reading note says the song was read only in part, namely two Rees stanzas and the chorus of a different modern arrangement (Kate Simmonds). The third and later stanzas and any Townend-specific text were not seen, so this is a partial review of the text as read, not of the whole song or any one recording."
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Read in part only. Two eight-line stanzas by Rees were seen, plus the chorus of a different modern arrangement. Later stanzas and any Townend version were not seen. The first stanza describes God's love as vast and names Christ as Prince of Life and Ransom whose blood was shed, and calls for unending praise. The second places mercy and justice together at the cross for a guilty world. The added chorus is first person but states what Christ secured: sin taken, a debt paid, the singer called friend, rescued and seated with the King. Nothing false was seen in what was read. Nothing can be said about stanzas not read.",
+    "claims": [
+      {
+        "claim": "God's love is vast, and Christ, the Prince of Life, shed his blood as a ransom.",
+        "subject": "Atonement as ransom",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The cross is where mercy flowed and where mercy and justice are reconciled for a guilty world.",
+        "subject": "Justice and mercy at the cross",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "In the added chorus, Christ has taken the singer's sin, paid the debt, called the singer friend and seated him with the King.",
+        "subject": "Forgiveness and union with Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null,
+        "locationDetail": "the chorus of another arrangement, not the original"
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Atonement",
+        "title": "Ransom by Christ's blood",
+        "explanation": "The portion read says Christ is the Ransom and that his blood was shed, so the song rests on his act rather than the singer's response.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Mark 10:45",
+        "scriptureRationale": "The Son of Man giving his life as a ransom for many."
+      },
+      {
+        "category": "Atonement",
+        "title": "Mercy and justice meet at the cross",
+        "explanation": "The second stanza holds God's mercy and justice together at the cross, which keeps forgiveness from reading as leniency.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Psalm 85:10",
+        "scriptureRationale": "Mercy and truth meeting, righteousness and peace kissing."
+      },
+      {
+        "category": "Grace",
+        "title": "Grace that pays the debt (added chorus)",
+        "explanation": "The chorus of the other arrangement says Christ paid the debt, made the singer a friend and seated him with the King. It is what Christ secured, not the singer's feeling.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Ephesians 2:4-8",
+        "scriptureRationale": "Made alive and seated with Christ by grace."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Christ's blood shed as a ransom",
+      "Mercy and justice reconciled at the cross",
+      "Forgiveness of sin by Christ's work",
+      "Believers seated with Christ"
+    ],
+    "assessment": "Nothing to correct in the portion read, which is partial: two Rees stanzas and another arrangement's chorus. What was read is Christ-centred and grounded in his act at the cross. Stanzas and versions not seen are not assessed here."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A familiar tune and plain hymn form",
+        "explanation": "Per the reading note, the stanzas are plain hymn form with no repetition apart from the optional chorus, set to a familiar, singable tune.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Several tunes are in use (Lowry's Jesus Only, Ebenezer, Cariad), so range depends on the setting chosen. Check the key in your own hymnal or arrangement.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Varies by setting",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "NONE",
+    "repetitionAssessment": "Hymn stanzas do not repeat; only the optional added chorus returns.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Judged from the note's structural description and the hymn's history: congregational hymn form that carried the 1904-05 Welsh revival. Differences between settings are not assessed."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ named and his act stated",
+        "explanation": "In the portion read, Christ is named and the ransom, the shed blood and the cross are plain.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in what was read. The ocean imagery of the opening is figurative and the cross-centred stanzas explain it."
+  },
+  "synthesis": {
+    "summary": "Read in part only: two Rees stanzas and the chorus of a modern arrangement. The text speaks of Christ as ransom, his blood shed, mercy and justice joined at the cross, and in the added chorus a debt paid and the singer seated with the King. No concern in the part read. Later stanzas, Williams's contribution and any Townend version were not seen.",
+    "themes": [
+      "Cross",
+      "Grace",
+      "Salvation",
+      "Worship",
+      "Christ"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Mark 10:45",
+        "relevance": "The Son of Man's life given as a ransom - the ransom language of stanza one."
+      },
+      {
+        "reference": "Psalm 85:10",
+        "relevance": "Mercy and truth meeting - the second stanza's joining of mercy and justice."
+      },
+      {
+        "reference": "Ephesians 2:4-8",
+        "relevance": "Saved by grace and seated with Christ - the added chorus."
+      },
+      {
+        "reference": "John 15:15",
+        "relevance": "Called friends by Christ - the added chorus."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.hymnologyarchive.com/here-is-love-vast-as-the-ocean",
+      "title": "Cariad Crist (Here is love, vast as the ocean)",
+      "publisher": "Hymnology Archive",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_2",
+      "establishes": "Authorship (William Rees, c.1847/1855), Edwards's 1899 translation, tunes and use in the 1904-05 revival; describes the hymn as celebrating divine love and Christ's death redeeming forfeited lives.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://worthilymagnify.com/2012/08/08/another-free-song-here-is-love-grace-takes-my-sin/",
+      "title": "Lyrics page read for this review",
+      "publisher": "worthilymagnify.com",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "establishes": "Text read for this review",
+      "assessesContent": false
+    }
+  ]
+}

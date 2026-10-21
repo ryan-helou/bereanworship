@@ -1,0 +1,204 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Heart of the Father",
+    "artist": "Ryan Ellis",
+    "artistType": "INDIVIDUAL",
+    "album": "Heart of the Father",
+    "releaseYear": 2021,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Ryan Ellis, Mac Montgomery and Mitch Wong; copyright 2021 (dated 25 June 2021) with publishers including Essential Music Publishing (Ryan Ellis's designees), Integrity's Praise Music (Mitch Wong's share) and FMLYBND Music (Mac Montgomery's share); CCLI 7179128. The list's guess of Ryan Ellis is right for the recording churches know; there is also a single version featuring DOE and a live version. PraiseCharts lists the original key as Bb with A also available. Reviewed as the song, not as any one recording; only the studio text was read.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Two verses, a chorus repeated several times, a short rhythmic vamp, and closing choruses. Verse one speaks to Jesus and testifies that the singer has known no love like his. Verse two addresses Jesus about feeling safe and at home in his care, using the picture of a child being held. The chorus addresses Jesus: his name carries power and gives life (with breath and living-water imagery), the Spirit leads the singer to the Father, and the singer calls for praise to grow. The voice is mostly the singer's own experience and desire, with one doctrinal strand in the chorus. The Spirit's work of leading to the Father is the only act named. The incarnation, cross, resurrection and return are not reached.",
+    "claims": [
+      {
+        "claim": "The singer has known no love like the love of Jesus.",
+        "subject": "Christ's love",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer is safe and at home in Christ's care, as a child is held.",
+        "subject": "Security in Christ",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The name of Jesus carries power and gives life.",
+        "subject": "The name and power of Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Holy Spirit leads believers to the Father.",
+        "subject": "The Spirit's work",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Praise to God should grow.",
+        "subject": "Worship",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": false,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Trinity",
+        "title": "Son, Spirit and Father in one chorus",
+        "explanation": "The chorus has a trinitarian shape: it addresses Jesus, says the Spirit leads to the Father, and so sets out the pattern by which believers come to God.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 8:14-16",
+        "scriptureRationale": "Those led by the Spirit are God's children who cry to the Father - the movement the chorus describes."
+      },
+      {
+        "category": "Adoption",
+        "title": "The security of a child held",
+        "explanation": "The second verse pictures the believer as a child at home in the care of Christ, which is a gentle and biblical image of belonging.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MINOR",
+        "scriptureReference": "Psalm 34:8",
+        "scriptureRationale": "Taste and see that the Lord is good - the experience of his care the verse reaches for."
+      },
+      {
+        "category": "Christology",
+        "title": "The life-giving name of Jesus",
+        "explanation": "The chorus ascribes power and life to the name of Jesus, using the language of breath and living water, so that Christ is the source of life.",
+        "songLocation": "CHORUS",
+        "magnitude": "MINOR",
+        "scriptureReference": "John 7:37-38",
+        "scriptureRationale": "Living water given by Christ to those who come to him - the imagery of the chorus."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The love of Christ",
+      "The Spirit leads believers to the Father",
+      "The power and life of the name of Jesus",
+      "The believer's security in Christ"
+    ],
+    "assessment": "Nothing in the text is false. The trinitarian movement of the chorus is sound and the imagery is biblical. The song is thin rather than wrong: it does not reach the incarnation, cross or resurrection, so the love and power it celebrates are not tied to what Christ has done, and much of the song is the singer's experience rather than teaching."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "A simple chorus a room learns fast",
+        "explanation": "The chorus is short, repeated and easy to take up, and the vamp invites the room in without a screen.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "Warm and unhurried",
+        "explanation": "The tone is intimate and settled rather than climactic, suited to a time of response or quiet adoration.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published in Bb, with A also available per PraiseCharts. Test the chorus against the congregation and choose the key that sits for them.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Bb (original per PraiseCharts); A also available",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The chorus returns about four times and a vamp follows, so repetition carries length the two verses do not. It stays on Jesus and the Spirit leading to the Father, so it is not empty.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Congregational in its words and its simple chorus, with a contemporary rhythmic feel and a studio arrangement that a band must decide how far to follow. The repeated chorus and vamp work well for response, but a leader should not let the loop substitute for a passage of teaching."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Jesus and the Spirit named, with the Father",
+        "explanation": "Jesus is addressed directly and the Spirit and the Father are named, so the song's addressee is never vague.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in what it says and who it addresses. Its imagery of breath, living water and a child held is biblical and easy to hear. What a visitor would not learn from it is the gospel, since the work of Christ is not stated."
+  },
+  "synthesis": {
+    "summary": "A warm, repetitive song addressed to Jesus about his love, the power and life of his name, and the Spirit leading believers to the Father. The trinitarian shape is sound, the imagery is biblical, and nothing in it is false. It is mostly the singer's testimony, and it does not state the incarnation, cross or resurrection. The chorus repeats heavily.",
+    "themes": [
+      "Christ",
+      "Trinity",
+      "Worship",
+      "Grace",
+      "Assurance"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Romans 8:14-16",
+        "relevance": "Led by the Spirit as God's children to the Father - the chorus's movement."
+      },
+      {
+        "reference": "John 7:37-38",
+        "relevance": "Living water given by Christ - the imagery of the chorus."
+      },
+      {
+        "reference": "Psalm 34:8",
+        "relevance": "Taste and see that the Lord is good - the experience of his care."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://essentialmusicpublishing.com/songs/heart-of-the-father/",
+      "title": "Heart of the Father",
+      "publisher": "Essential Music Publishing",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Publisher record: writers Ryan Ellis, Mac Montgomery and Mitch Wong, copyright dated 25 June 2021, publisher shares, CCLI 7179128.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.praisecharts.com/songs/details/76920/heart-of-the-father-sheet-music",
+      "title": "Heart of the Father - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers, CCLI 7179128, 2021 copyright line, album Heart of the Father, original key Bb with A also available.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel (Musixmatch)",
+      "url": "https://www.google.com/search?q=Heart+of+the+Father+Ryan+Ellis+lyrics"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Holy Is the Lord",
+    "artist": "Chris Tomlin",
+    "artistType": "INDIVIDUAL",
+    "album": "Arriving",
+    "releaseYear": 2005,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Chris Tomlin and Louie Giglio, who founded the Passion movement. Copyright line 2003 worshiptogether.com Songs and sixsteps Music, administered by Capitol CMG Publishing; CCLI 4158039 (PraiseCharts). Released in 2005 on Tomlin's album Arriving (sixsteps/Sparrow, produced by Ed Cash), so the copyright year precedes the release year. It reached No. 2 on Billboard's Hot Christian Songs, won GMA Dove Worship Song of the Year in 2007 and was RIAA Gold. The list's guess of Chris Tomlin is right for the recording churches know. Reviewed as the song, in the Tomlin/Passion version with the anthem tag.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "One verse, sung twice, then a chorus sung repeatedly, a short rising tag, a final chorus and a closing vamp on a single word. The verse is addressed to the congregation and describes its own acts of worship: standing, lifting hands, bowing, and the Lord's joy as the people's strength, with God declared great. The chorus is a shared declaration that the Lord is holy and almighty and that the earth is full of his glory. The tag says this praise rises among all peoples as the anthem of God's renown. God is named as Lord Almighty and called holy and glorious. No act of God is narrated: the incarnation, cross and resurrection are not reached, and nothing is said of how a sinful people approach a holy God.",
+    "claims": [
+      {
+        "claim": "The congregation stands, lifts its hands and bows before God in worship.",
+        "subject": "The congregation's posture of worship",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The joy of the Lord is his people's strength, and God is great.",
+        "subject": "God's joy and greatness",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The Lord is holy and almighty.",
+        "subject": "The holiness and power of God",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The whole earth is full of God's glory.",
+        "subject": "God's glory in creation",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The praise of God rises among all as the anthem of his renown.",
+        "subject": "Universal worship",
+        "location": "TAG",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "ABSENT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "God's attributes",
+        "title": "The holiness and glory of God declared together",
+        "explanation": "The chorus puts holiness, almighty power and the filling of the earth with glory into a single congregational confession. A congregation sings who God is, not how it feels, and the claim is stated plainly enough to teach.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 6:3",
+        "scriptureRationale": "The seraphs' cry of holy, holy, holy and the fullness of the earth with his glory - the chorus's claim."
+      },
+      {
+        "category": "Worship",
+        "title": "The joy of the Lord named as strength",
+        "explanation": "The verse ties the people's strength to the Lord's joy rather than to their own resolve, and bids the whole body respond bodily to God's greatness.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MINOR",
+        "scriptureReference": "Nehemiah 8:10",
+        "scriptureRationale": "The joy of the Lord is your strength - the verse's wording."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The holiness of God",
+      "The glory of God filling the earth",
+      "God as Lord Almighty",
+      "The greatness of God",
+      "Corporate worship of God"
+    ],
+    "assessment": "Nothing to correct. The song is a short, sound declaration of God's holiness, glory and power built on Isaiah 6, Revelation 4 and Nehemiah 8. It is thin rather than wrong: it narrates no act of God and does not touch the cross or how a sinful people come before a holy God, and its single verse is the congregation describing its own worship. No independent assessment of its teaching was found."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Simple and easy for a room to sing",
+        "explanation": "One verse and one chorus, with a short tag, make this learnable in a single hearing. It suits a gathered congregation as an opening or a call to worship.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "An opener that gathers the room",
+        "explanation": "The verse calls the people to stand and bow, then the chorus confesses holiness together, so the song moves a congregation into worship in a few lines.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published keys not verified from a chart. The tune is plain and the tag builds; keep the build modest so the room sings rather than watches.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not verified (no chart read)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The chorus returns several times and the song ends on a vamp of one word. The confession of holiness is worth repeating, but with one verse the repetition carries more of the song than the words do.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Written in a plural voice for a gathered people and easy to sing. The weight of repetition is the thing for a leader to manage: use the closing vamp to dwell on God's holiness, not to run out the time."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "God is named and the confession is plain",
+        "explanation": "The chorus names the Lord as holy and almighty without metaphor, so nobody is left wondering who is addressed or what is claimed.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear throughout. The verse's bodily actions and the chorus's confession are plain, and Scripture's own words carry most of the content. What the song leaves unsaid is why a holy God receives sinners, a gap a leader can fill."
+  },
+  "synthesis": {
+    "summary": "A short congregational declaration of God's holiness, almighty power and glory, with one verse describing the people's posture of worship. It rests on Isaiah 6, Revelation 4 and Nehemiah 8. Nothing in it is wrong. It narrates no act of God and does not reach the cross, and its repetition carries much of the song. No independent assessment of its content was found.",
+    "themes": [
+      "God",
+      "Holiness",
+      "Worship",
+      "Sovereignty"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Isaiah 6:3",
+        "relevance": "Holy, holy, holy, and the earth full of his glory - the chorus's claim."
+      },
+      {
+        "reference": "Revelation 4:8",
+        "relevance": "The heavenly worship of the Lord God Almighty - the title and the cry."
+      },
+      {
+        "reference": "Nehemiah 8:10",
+        "relevance": "The joy of the Lord as the people's strength - the verse's wording."
+      },
+      {
+        "reference": "Psalm 95:6",
+        "relevance": "Bowing down and kneeling before the Lord - the verse's posture."
+      },
+      {
+        "reference": "Habakkuk 2:14",
+        "relevance": "The earth filled with the knowledge of the glory of the Lord."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Holy_Is_the_Lord",
+      "title": "Holy Is the Lord",
+      "publisher": "Wikipedia",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writers Chris Tomlin and Louie Giglio; 2005 release on Arriving; Dove Worship Song of the Year 2007; Billboard No. 2; RIAA Gold.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Google lyrics panel (Musixmatch)",
+      "url": "https://www.google.com/search?q=Holy+Is+the+Lord+Chris+Tomlin+Louie+Giglio+lyrics"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "MEDIUM",
+    "title": "He Is Lord",
+    "artist": "Marvin V. Frey (attributed); traditional",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": null,
+    "genre": "Gospel chorus / Traditional",
+    "isPublicDomain": false,
+    "notes": "A short Philippians 2 chorus whose authorship is uncertain. Hymnary credits the first stanza to Marvin V. Frey (1918-1992), an evangelical minister who wrote many songs, and treats the further stanzas as anonymous; it records that Frey also claimed the tune but that it is unclear whether he adapted earlier material. The Praise! hymn page notes that commentators in the Companion to Church Hymnal say the claim to authorship cannot be substantiated, and that the chorus has been traced to Portland, Oregon in 1952. A separate unverified claim of a 1969 two-verse version could not be confirmed. No reliable composition date, publisher or CCLI number was established, so the year is left blank and the status of the text as traditional versus copyrighted is not settled. Reviewed as the song, not as any one recording; the best-known form is the single chorus stanza.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ABOUT_GOD",
+    "structuralNotes": "A single short chorus stanza, repeated freely as a loop; later variants add extra stanzas that were not part of the text read. It speaks in the third person, as a declaration to the congregation and the world rather than a prayer. It names Jesus as Lord, points to his resurrection, and looks ahead to the day when every knee will bow and every tongue confess his lordship. There is no singer's experience in it: it is a proclamation of who Christ is and what he has done. The cross, the incarnation, sin and the Spirit are not reached.",
+    "claims": [
+      {
+        "claim": "Jesus Christ is Lord.",
+        "subject": "The lordship of Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ has been raised from the dead.",
+        "subject": "The resurrection",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "One day every knee will bow and every tongue confess that he is Lord.",
+        "subject": "The universal confession of Christ's lordship",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Christology",
+        "title": "The earliest creed, sung",
+        "explanation": "The song is the confession of Christ's lordship and nothing else: who he is, that he was raised, and that all creation will acknowledge it. It is the shortest creed of the New Testament set to a melody a child can learn.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Philippians 2:10-11",
+        "scriptureRationale": "Every knee bowing and every tongue confessing that Jesus Christ is Lord - the confession the song voices."
+      },
+      {
+        "category": "Resurrection",
+        "title": "Lordship grounded in the resurrection",
+        "explanation": "The song ties Christ's lordship to his rising, as Paul does: he is Lord of the dead and the living because he died and lived again.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Romans 14:9",
+        "scriptureRationale": "Christ died and lived again to be Lord of both the dead and the living - the link the song makes."
+      },
+      {
+        "category": "Hope",
+        "title": "The end of history is a confession",
+        "explanation": "The song looks to the day when every tongue acknowledges Christ, so the congregation sings its confidence about the future rather than only its present feeling.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "1 Corinthians 15:20-22",
+        "scriptureRationale": "Christ the firstfruits of the resurrection, with all things put under him - the larger frame of the confession."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The lordship of Jesus Christ",
+      "The resurrection of Christ",
+      "The universal future confession of Christ as Lord"
+    ],
+    "assessment": "Nothing to correct. The chorus voices a New Testament confession in plain terms and adds nothing of its own beyond it. It does not reach the cross, sin or grace, so it works as a declaration of Christ's lordship, not as a statement of the gospel. Its uncertain authorship does not affect its content."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Learnable in one hearing",
+        "explanation": "The song is a single short phrase pattern that a room, children included, can sing from memory with no page or screen.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MAJOR"
+      },
+      {
+        "category": "Use",
+        "title": "A confession for any gathering",
+        "explanation": "Its third-person declaration of Christ's lordship suits a call to worship, a response after a reading, or a gathering of mixed ages and languages.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "No standard published key was established. The melody is short and stepwise by common use; choose a key that sits comfortably for the room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "No standard published key established",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The single stanza is looped by design, and each return is the same confession, which the room is meant to take up and keep singing. The words carry the weight; the repetition serves them.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Entirely congregational: no solo line, no build to manage, no range to protect. The loop can be extended or stopped by any leader without loss, and the song needs no accompaniment to work."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ is named and called Lord",
+        "explanation": "The one subject is Jesus and the one title is Lord. Nobody in the room can miss who is being confessed.",
+        "songLocation": "CHORUS",
+        "magnitude": "MAJOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear and unambiguous. The only thing a newcomer must be taught is what it means to call Jesus Lord, and the song's own allusion to the resurrection and the final confession supplies the beginning of that answer."
+  },
+  "synthesis": {
+    "summary": "A one-stanza chorus that confesses Jesus as Lord, points to his resurrection, and looks to the day every knee and tongue will acknowledge it. Third-person and credal, with no singer's experience in it. It does not reach the cross, sin or grace. Authorship and date are disputed (credited to Marvin Frey, but the claim is said to be unsubstantiated), and no concern was found in the text.",
+    "themes": [
+      "Christ",
+      "Resurrection",
+      "Worship",
+      "Hope",
+      "Sovereignty"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Philippians 2:10-11",
+        "relevance": "Every knee bowing and every tongue confessing Jesus Christ as Lord - the text of the song."
+      },
+      {
+        "reference": "Romans 14:9",
+        "relevance": "Christ died and rose to be Lord of the dead and the living."
+      },
+      {
+        "reference": "1 Corinthians 15:20-22",
+        "relevance": "Christ raised as firstfruits - the resurrection behind his lordship."
+      },
+      {
+        "reference": "Psalm 24",
+        "relevance": "The King of glory and the earth that is the Lord's."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://hymnary.org/person/Frey_MV",
+      "title": "Marvin V. Frey",
+      "publisher": "Hymnary.org",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_1",
+      "establishes": "Credits Frey (1918-1992) as author of the text; notes he was an evangelical minister who wrote many songs. Gives no composition date.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.praise.org.uk/hymns/he-is-lord-he-is-lord",
+      "title": "He Is Lord",
+      "publisher": "Praise! (praise.org.uk)",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Notes the Frey authorship claim cannot be substantiated and the chorus traced to Portland in 1952; lists the Scripture behind the text.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "praise.org.uk",
+      "url": "https://www.praise.org.uk/hymns/he-is-lord-he-is-lord"
+    }
+  ]
+}
