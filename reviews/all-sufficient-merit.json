@@ -1,0 +1,158 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "All Sufficient Merit",
+    "artist": "Shane & Shane",
+    "artistType": "GROUP",
+    "album": "Psalms, Hymns, and Spiritual Songs (Live)",
+    "releaseYear": 2023,
+    "genre": "Modern Hymn",
+    "isPublicDomain": false,
+    "notes": "Written by Shane Barnard, Bethany Barnard and Bryan Fowler; copyright 2023 Songs From Wellhouse and More Songs From Wellhouse (Capitol CMG Publishing), Be Essential Songs and bryanfowlersongs (Essential Music Publishing); CCLI 7212933. The list's guess of Shane & Shane / Bryan Fowler is right but incomplete: Bethany Barnard is a co-writer. It is a new song, one of two newly written tracks on the live album recorded at Liberty University and released as a single on 3 February 2023. No source read says it is built on an older hymn; the title echoes hymn vocabulary but no hymn source was found. Reviewed as the song, not any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "No lyric page was read; this is built from the publisher record and a CCM Magazine press piece. They describe a song centred on Christ's sacrifice on the cross as the ground of the believer's standing before God, contrasting human effort as insufficient with Christ's finished work as fully sufficient, and looking ahead to acceptance before God, resurrection and the joy of salvation. Verse-level wording was not examined.",
+    "claims": [
+      {
+        "claim": "Christ's sacrifice on the cross is the ground of the believer's standing before God.",
+        "subject": "Atonement and justification",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Human effort cannot secure that standing; Christ's finished work is fully sufficient.",
+        "subject": "Grace and the sufficiency of Christ",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The believer will be accepted before God and will rejoice in salvation.",
+        "subject": "Assurance and hope",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "The gospel",
+        "title": "Standing rests on Christ's work, not ours",
+        "explanation": "As described, the song puts the believer's acceptance wholly on the finished work of Christ and sets human effort aside. That is the centre of justification by grace, taught as a ground rather than a feeling.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Ephesians 2:8-9",
+        "scriptureRationale": "Salvation by grace through faith, not works - the contrast the song draws."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The sufficiency of Christ's sacrifice",
+      "Salvation by grace, not human effort",
+      "Acceptance before God through Christ",
+      "The believer's hope and joy in salvation"
+    ],
+    "assessment": "Nothing to correct was found in the sources read. The song, as described, locates the believer's standing in Christ's finished work and denies any contribution from human effort. The sources are a publisher record and a press piece, neither a theological assessment, so verse-level wording was not tested and the soundness is unverified by an independent review."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Use",
+        "title": "Fits a service of the cross and communion",
+        "explanation": "Its content on Christ's sacrifice and the believer's acceptance suits Good Friday, communion and any time the gospel is restated for the room.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Published original key is E (also F) in 6/8 per PraiseCharts; the live recording sits in lower keys. No chart was read; test the key with the room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "E, F (per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "Not examined line by line; judged from its form as a hymn-style song with a refrain.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Recorded live at a university and arranged for choir as well as band, so it is built for group singing. Judged from the published arrangements rather than a chart."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Christ's work is the stated subject",
+        "explanation": "Sources describe the song as plainly about Christ's sacrifice and the completeness of his work, so the grounds of salvation are not left to inference.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in its claim. The title uses older churchly vocabulary that may need a word of explanation."
+  },
+  "synthesis": {
+    "summary": "A 2023 song by Shane and Bethany Barnard and Bryan Fowler on the sufficiency of Christ's sacrifice, setting his finished work against human effort as the basis of acceptance before God. No concern was found, but the sources are a publisher record and press coverage; no independent assessment of its content was located and verse wording was not examined.",
+    "themes": [
+      "Cross",
+      "Grace",
+      "Salvation",
+      "Christ",
+      "Assurance"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Ephesians 2:8-9",
+        "relevance": "Salvation by grace, not works - the contrast the song draws."
+      },
+      {
+        "reference": "Hebrews 10:10-14",
+        "relevance": "One sacrifice that perfects for all time - the finished work."
+      },
+      {
+        "reference": "Romans 5:1-2",
+        "relevance": "Peace and standing with God through Christ."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.ccmmagazine.com/?p=57618",
+      "title": "Shane & Shane, Psalms, Hymns, and Spiritual Songs (Live)",
+      "publisher": "CCM Magazine",
+      "sourceType": "JOURNALISM",
+      "credibilityTier": "TIER_3",
+      "establishes": "Writers Bethany Barnard, Shane Barnard, Bryan Fowler; a new song on the Liberty University live album; single date 3 Feb 2023; celebrates Christ's finished work.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://praisecharts.com/songs/details/85276/all-sufficient-merit",
+      "title": "All Sufficient Merit - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers, 2023 copyright and publishers, CCLI 7212933, original key E, 6/8, themes of the cross and grace.",
+      "assessesContent": false
+    }
+  ]
+}

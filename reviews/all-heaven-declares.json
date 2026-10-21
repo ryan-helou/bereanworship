@@ -1,0 +1,167 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "All Heaven Declares",
+    "artist": "Noel Richards",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 1987,
+    "genre": "Contemporary Worship",
+    "isPublicDomain": false,
+    "notes": "Words and music by Noel and Tricia Richards; a hymnal database records the copyright as 1987 Thankyou Music (Kingsway). The list's guess of Noel Richards is right but incomplete: Tricia Richards is a co-author. It is one of the couple's best-known songs and is in several hymnals and the Spring Harvest Praise! collection. No source read gives the story of its writing or the recording it first appeared on, so album is left blank. The same database lists the key as Bb. Reviewed as the song, not any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "CORPORATE_WE",
+    "structuralNotes": "A short song in which the worshipping creation and the church declare the glory of the risen and exalted Christ. It speaks of Christ's resurrection and ascension and the hope of his return, as a hymnal database lists as its topics. It names Jesus, speaks of the Lamb and his exaltation, and calls the church to bow and worship. The voice is plural, and the whole song is about Christ and addressed to him. The cross as atonement is implied in the Lamb language and not narrated.",
+    "claims": [
+      {
+        "claim": "Heaven and creation declare the glory of Christ.",
+        "subject": "The glory of Christ",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ is risen and exalted.",
+        "subject": "The resurrection and ascension",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Christ will return, and every knee will bow.",
+        "subject": "The return of Christ",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Resurrection",
+        "title": "Christ risen, ascended and returning",
+        "explanation": "The song's topics, as a hymnal database records them, run from the resurrection through the ascension to the return, so it gives the congregation the whole arc of Christ's exaltation to sing about.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Philippians 2:9-11",
+        "scriptureRationale": "God exalted Christ and every knee will bow - the exaltation the song celebrates."
+      },
+      {
+        "category": "Worship",
+        "title": "Creation and church join one praise",
+        "explanation": "Heaven declares and the church answers, which is the Psalm's pattern of creation's witness and the congregation's response.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 19:1",
+        "scriptureRationale": "The heavens declare the glory of God - the opening move of the song."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "The resurrection of Christ",
+      "The ascension and exaltation of Christ",
+      "The return of Christ",
+      "The worthiness of the Lamb"
+    ],
+    "assessment": "Nothing to correct. A song of Christ's exaltation that runs from the resurrection to the ascension to the return, in the plural voice of the church. The atonement is carried by the Lamb imagery rather than narrated, and the song is more doxology than instruction. The sources read describe its topics but give no independent evaluation of its teaching."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Use",
+        "title": "A strong place in Easter, Ascension and Advent",
+        "explanation": "Its subject matter suits Easter, Ascension and the hope of Christ's return, and its plural voice suits a gathered church.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "The same database lists the key as Bb. No chart was read; check the top of the chorus with your own room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Bb (per a hymnal database)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "The refrain returns to the declaration of Christ's glory, and the repetition dwells on one confession rather than padding thin content.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Written for a congregation by a pastor-songwriting couple and carried into hymnals, with a plural voice and a declarative shape. It fits Easter, Ascension and any service lifting up Christ's reign and return."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "Jesus is the subject",
+        "explanation": "Christ is named as the one who is exalted, so the praise is never vague.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. Its imagery is biblical and its subject, the exalted Christ, is plain."
+  },
+  "synthesis": {
+    "summary": "A congregational song in which heaven and the church declare the glory of the risen, ascended Christ and look to his return. Jesus is named and the voice is plural. The atonement is carried by the Lamb imagery rather than narrated. No false claims found; the sources read give topics but no independent assessment of the content.",
+    "themes": [
+      "Christ",
+      "Resurrection",
+      "Worship",
+      "Hope",
+      "Heaven"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 19:1",
+        "relevance": "The heavens declare God's glory - the song's opening move."
+      },
+      {
+        "reference": "Philippians 2:9-11",
+        "relevance": "God exalted Christ and every knee will bow - the exaltation sung."
+      },
+      {
+        "reference": "Revelation 5:12",
+        "relevance": "The Lamb who was slain is worthy - the Lamb imagery."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Noel_Richards",
+      "title": "Noel Richards",
+      "publisher": "Wikipedia",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Lists the song among Noel Richards's songs in wide use in contemporary worship.",
+      "assessesContent": false
+    },
+    {
+      "url": "https://www.praise.org.uk/authors/richards-tricia",
+      "title": "Richards, Tricia",
+      "publisher": "Praise.org.uk",
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_3",
+      "establishes": "Biography of Tricia Richards as Noel's songwriting partner, listing her as co-author of the song.",
+      "assessesContent": false
+    }
+  ]
+}

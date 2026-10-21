@@ -1,0 +1,157 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "All My Ways Are Known to You",
+    "artist": "CityAlight",
+    "artistType": "GROUP",
+    "album": "Only a Holy God",
+    "releaseYear": 2016,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Michael Farren, Dustin Smith, Jonny Robinson and Rich Thompson; copyright 2016 CityAlight Music, Farren Love And War Publishing and Integrity's Alleluia! and Praise! Music, administered by Capitol CMG Publishing; CCLI 7073327. The list's guess of CityAlight is right for the recording churches know (album Only a Holy God, released 2017). The copyright year is 2016 and the album year 2017. Reviewed as the song, not any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "No lyric page was read; this is built from a published review and catalogue record. Challies describes the song as a celebration of God's complete knowledge, his power and his presence, and as a source of comfort for Christians because God knows the believer's whole life, failings included, without that diminishing his love. The detail of individual verses was not examined, so the claims below stay at the level the sources support.",
+    "claims": [
+      {
+        "claim": "God knows the believer completely, including every path of his life.",
+        "subject": "God's omniscience",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "God's power and presence are with the believer wherever he goes.",
+        "subject": "God's omnipotence and omnipresence",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "This knowledge is a comfort to the believer rather than a threat, in life and in death.",
+        "subject": "Assurance",
+        "location": "WHOLE_SONG",
+        "lyricExcerpt": null
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "God's attributes",
+        "title": "God's knowledge, power and presence",
+        "explanation": "The song sets the believer's comfort on who God is: he knows all, he is able, and he is near. That is a doctrine taught about God, not a mood described, and it is the ground on which the song asks the singer to rest.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 139:1-4",
+        "scriptureRationale": "God searching and knowing the psalmist, including every word and way - the idea the title and theme carry."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "God's omniscience",
+      "God's omnipotence",
+      "God's omnipresence",
+      "Comfort and assurance for the believer in God's knowledge"
+    ],
+    "assessment": "Nothing to correct was found in the sources read. The song teaches God's knowledge, power and presence and rests the believer's comfort on them. The one independent assessment reviewed found it sound and encouraging. No lyric page was read, so verse-level claims were not tested; the gospel is not stated in what the sources describe."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Use",
+        "title": "A song for the anxious and the aging",
+        "explanation": "Because the comfort rests on God's knowledge of the believer's whole life, it suits seasons of suffering, doubt and approaching death, and it can be sung by a whole room without needing to be translated.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "Published original key is Bb per PraiseCharts. No chart was read; test the key with the room.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Bb (original per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "PURPOSEFUL",
+    "repetitionAssessment": "Not examined line by line; judged from the song's structure as a verse-and-refrain congregational song.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Written by a church-based team for congregational use and sung widely in churches. Judged from structure and published description rather than a chart."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "The subject is plain",
+        "explanation": "The song's theme, that God knows and keeps his people, is easy to follow and states a single idea a visitor can grasp at once.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear in its theme. Sources describe no ambiguity."
+  },
+  "synthesis": {
+    "summary": "A CityAlight song on God's complete knowledge of his people, with his power and presence, offered as comfort in life and death. No theological concern was found in the sources read. The gospel is not stated in what they describe, and verse-level wording was not examined.",
+    "themes": [
+      "God",
+      "Providence",
+      "Assurance",
+      "Hope"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 139:1-4",
+        "relevance": "God knowing every way of the one he has searched - the idea the title carries."
+      },
+      {
+        "reference": "Psalm 139:7-10",
+        "relevance": "God's presence wherever the believer goes."
+      },
+      {
+        "reference": "Romans 8:38-39",
+        "relevance": "Nothing separating the believer from God's love in life or death."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://challies.com/articles/all-my-ways-are-known-to-you",
+      "title": "All my ways are known to you",
+      "publisher": "Tim Challies",
+      "sourceType": "BLOG",
+      "credibilityTier": "TIER_3",
+      "establishes": "A pastor-writer's commendation: the song celebrates God's omniscience, power and presence and comforts Christians in life and death. Names CityAlight and Only a Holy God.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://praisecharts.com/songs/details/73314/all-my-ways-are-known-to-you-chords",
+      "title": "All My Ways Are Known To You - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Farren, Smith, Robinson, Thompson; 2016 copyright and publishers; CCLI 7073327; original key Bb.",
+      "assessesContent": false
+    }
+  ]
+}
