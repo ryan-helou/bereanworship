@@ -1,0 +1,220 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "Your Name",
+    "artist": "Paul Baloche",
+    "artistType": "INDIVIDUAL",
+    "album": "A Greater Song",
+    "releaseYear": 2006,
+    "genre": "Modern Worship",
+    "isPublicDomain": false,
+    "notes": "Written by Paul Baloche and Glenn Packiam; copyright 2006 Integrity Worship Music and Integrity's Hosanna! Music, administered by Integrity Music; CCLI 4611679; original key Bb per PraiseCharts. The recording churches know is Baloche's live version on the 2006 album A Greater Song, with Kathryn Scott in the iWorship edition; Phillips, Craig and Dean also recorded it. A Christmas version appeared in 2013. This is not Blessed Be Your Name. The opening verse differs on some sites, so verse wording varies by recording; the reading here follows the live version, including its extended spontaneous outro. Reviewed as the song, not as any one recording.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "MIXED",
+    "structuralNotes": "Two verses, a chorus that returns many times, a short interlude, and in the live recording an extended spontaneous outro. The first verse is daily praise rising to God. The second is a congregational prayer, made in Jesus' name, for strength to live for him. The chorus declares the name of the Lord a place of safety, calls the nations to sing it, and says salvation is found in that name alone. The live outro lists what the name brings: strength, healing, salvation, comfort, joy and mercy, and shifts to a personal voice asking for daily strength. The verses use a corporate voice and speak directly to the Lord and Jesus throughout. The outro is free-form and optional for congregational use.",
+    "claims": [
+      {
+        "claim": "Praise is offered to God daily, rising from the congregation.",
+        "subject": "Daily praise",
+        "location": "VERSE_1",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The church prays in Jesus' name for strength to live for him.",
+        "subject": "Prayer in Jesus' name",
+        "location": "VERSE_2",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The name of the Lord is a place of safety for those who run to it.",
+        "subject": "The name as refuge",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The nations are called to sing the name of the Lord.",
+        "subject": "Global worship",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "Salvation is found in that name and in no other.",
+        "subject": "Exclusive salvation in Christ",
+        "location": "CHORUS",
+        "lyricExcerpt": null
+      },
+      {
+        "claim": "The name of Jesus brings strength, healing, salvation, comfort, joy and mercy.",
+        "subject": "What the name brings",
+        "location": "OUTRO",
+        "lyricExcerpt": null,
+        "locationDetail": "the live recording's extended outro"
+      }
+    ],
+    "gospelClarity": "IMPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": false,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": true,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Salvation",
+        "title": "Salvation in one name, stated plainly",
+        "explanation": "The chorus says salvation is found in the name of the Lord and nowhere else. It is the exclusive claim of Acts 4 sung without hedging, and a congregation repeats it until it is known.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Acts 4:12",
+        "scriptureRationale": "No other name under heaven by which we must be saved - the claim the chorus makes."
+      },
+      {
+        "category": "Prayer",
+        "title": "Prayer made in Jesus' name",
+        "explanation": "The second verse is a corporate prayer in Jesus' name for strength to live for him. It models asking on Christ's authority and turns the song from admiration to obedience.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MODERATE",
+        "scriptureReference": "John 14:13-14",
+        "scriptureRationale": "Asking in Jesus' name - the pattern of the second verse's prayer."
+      },
+      {
+        "category": "God",
+        "title": "The name as refuge",
+        "explanation": "The chorus takes the proverb that the Lord's name is a strong tower and sings it as the church's place of safety. The picture is biblical and gives the song a settled, confident tone.",
+        "songLocation": "CHORUS",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Proverbs 18:10",
+        "scriptureRationale": "The name of the Lord a strong tower to which the righteous run - the chorus's image."
+      },
+      {
+        "category": "Mission",
+        "title": "The nations called in",
+        "explanation": "The chorus calls the nations to sing the name, so the song carries the psalmist's global horizon and does not stay with private devotion.",
+        "songLocation": "CHORUS",
+        "magnitude": "MINOR",
+        "scriptureReference": "Psalm 96:1-3",
+        "scriptureRationale": "Sing to the Lord, declare his glory among the nations - the horizon of the chorus's call."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Salvation in the name of Jesus alone",
+      "The name of the Lord as a refuge",
+      "Prayer in Jesus' name",
+      "The worship of the nations"
+    ],
+    "assessment": "Nothing to correct. The exclusive-salvation claim and the name language are biblical. The outro's mention of healing in his name is general and sits within Scripture's own language; it is not a promise of health or wealth. The song states few acts of God, so its teaching is the name's authority and refuge rather than the story of the gospel."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Accessibility",
+        "title": "Very simple and memorable",
+        "explanation": "The tune and wording are short and easy to learn, and the chorus is quickly known by a room. It is among the most singable songs of its period.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Use",
+        "title": "An outward-facing call to worship",
+        "explanation": "The call to the nations and the corporate verses fit gathering and sending moments, and the prayer verse suits a prayerful turn in a service.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "EASY",
+    "vocalRangeNote": "Published in Bb per PraiseCharts. The live recording is led from the front with a free outro; leaders can keep to the written form and stay within a congregation's comfortable range.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Bb (original per PraiseCharts)",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "HEAVY",
+    "repetitionAssessment": "The chorus returns many times live and the outro adds declarations. The words confess whose name it is, but the length leans on repetition more than new content.",
+    "performanceOrientation": "BALANCED",
+    "assessment": "Written to be sung by a room, with a simple melody and corporate verses. The caution is the live arrangement: the extended spontaneous outro and heavy chorus return belong to a recording, and a congregation does not need them. Kept to its written form it is easy and usable at gathering, prayer and sending."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Naming",
+        "title": "The name of the Lord is the subject",
+        "explanation": "The song is about one thing, the name of the Lord and Jesus, and says what it does. A visitor knows what is being sung and to whom.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The language is direct and Scriptural. The outro's list of what the name brings is the only part that could be read broadly, and its terms are the Bible's own."
+  },
+  "synthesis": {
+    "summary": "A simple corporate song built on the name of the Lord: daily praise, a prayer in Jesus' name for strength, and a chorus naming the name as a refuge, calling the nations to sing, and locating salvation in that name alone. Nothing in it is false. It states little of what God has done, and the live outro repeats and extends it.",
+    "themes": [
+      "God",
+      "Christ",
+      "Worship",
+      "Salvation",
+      "Prayer",
+      "Mission"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Proverbs 18:10",
+        "relevance": "The name of the Lord as a strong tower - the chorus's image of refuge."
+      },
+      {
+        "reference": "Acts 4:12",
+        "relevance": "Salvation in no other name - the chorus's exclusive claim."
+      },
+      {
+        "reference": "John 14:13-14",
+        "relevance": "Asking in Jesus' name - the pattern of the second verse."
+      },
+      {
+        "reference": "Psalm 96:1-3",
+        "relevance": "The nations called to sing - the horizon of the chorus."
+      },
+      {
+        "reference": "Philippians 2:9-11",
+        "relevance": "The name above every name - the weight behind the song's theme."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.praisecharts.com/songs/details/2386/your-name-chords",
+      "title": "Your Name - song details",
+      "publisher": "PraiseCharts",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Catalogue record: writers Paul Baloche and Glenn Packiam, Integrity Music, 2006 copyright, CCLI 4611679, original key Bb, album A Greater Song.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Genius",
+      "url": "https://genius.com/Paul-baloche-your-name-lyrics"
+    }
+  ]
+}

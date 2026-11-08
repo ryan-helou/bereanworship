@@ -1,0 +1,246 @@
+{
+  "kind": "song",
+  "identification": {
+    "resolved": true,
+    "confidence": "HIGH",
+    "title": "O God, Be Merciful to Me (Psalm 51)",
+    "artist": "Matt Boswell",
+    "artistType": "INDIVIDUAL",
+    "album": null,
+    "releaseYear": 2026,
+    "genre": "Hymn",
+    "isPublicDomain": false,
+    "notes": "Text by Matthew Boswell, written to close his book Create in Me a Clean Heart (Crossway), set to Stuart Townend's melody for How Deep the Father's Love for Us, used with permission; Getty Music and Doxology and Theology credit it to Boswell and Townend. Published by Doxology and Theology in September 2026; a recording is reported for early 2027. It is not the older metrical hymn God, Be Merciful to Me (Indelible Grace and Jars of Clay) nor the Getty-Sing recording of it. No CCLI number or published key was found. Reviewed as the text.",
+    "notesExtra": null
+  },
+  "claims": {
+    "lyricsAvailable": true,
+    "perspective": "ADDRESSED_TO_GOD",
+    "structuralNotes": "Seven short stanzas with no chorus and no repeats; a metrical paraphrase of Psalm 51 moving through plea, confession, cleansing, renewal, sacrifice and testimony. The first stanza pleads for mercy on the ground of God's compassion and steadfast love. The second says nothing of the sinner's own can cleanse and that only Christ's blood makes him clean. The third confesses sin against God alone and the lifelong pull of pride and desire. The fourth asks for a clean heart, a renewed spirit and restored joy in God's presence. The fifth offers a broken heart as the only offering and asks for cleansing by holy fire. The sixth promises to proclaim God's mercy and give him praise. The voice is first person singular, a personal prayer of repentance addressed to God, in David's voice sung by the believer.",
+    "claims": [
+      {
+        "claim": "Mercy is pleaded for on the ground of God's compassion and steadfast love, not the sinner's merit.",
+        "subject": "Mercy",
+        "location": "VERSE_1",
+        "lyricExcerpt": null,
+        "locationDetail": "the first stanza"
+      },
+      {
+        "claim": "Nothing the sinner can do cleanses him; only the blood of Christ makes him clean.",
+        "subject": "Cleansing by Christ's blood",
+        "location": "VERSE_2",
+        "lyricExcerpt": null,
+        "locationDetail": "the second stanza"
+      },
+      {
+        "claim": "Sin is against God alone, and pride and desire have pulled the heart since youth.",
+        "subject": "Confession of sin",
+        "location": "VERSE_3",
+        "lyricExcerpt": null,
+        "locationDetail": "the third stanza"
+      },
+      {
+        "claim": "God is asked to create a clean heart and renew the spirit, restoring joy in his presence.",
+        "subject": "Renewal",
+        "location": "VERSE",
+        "lyricExcerpt": null,
+        "locationDetail": "the fourth stanza"
+      },
+      {
+        "claim": "A broken heart is the offering God accepts, and cleansing is asked by holy fire.",
+        "subject": "The sacrifice God requires",
+        "location": "VERSE",
+        "lyricExcerpt": null,
+        "locationDetail": "the fifth stanza"
+      },
+      {
+        "claim": "The forgiven sinner will proclaim God's mercy and give him praise.",
+        "subject": "Testimony and praise",
+        "location": "VERSE",
+        "lyricExcerpt": null,
+        "locationDetail": "the sixth stanza"
+      }
+    ],
+    "gospelClarity": "EXPLICIT"
+  },
+  "substance": {
+    "namesGod": true,
+    "statesAnAct": true,
+    "teachesDoctrine": true,
+    "godDirected": true,
+    "groundsItsClaims": true,
+    "corporateVoice": false,
+    "engagesScripture": true
+  },
+  "theological": {
+    "strengths": [
+      {
+        "category": "Sin",
+        "title": "Confession that pleads mercy, not merit",
+        "explanation": "The prayer rests the plea on God's compassion and steadfast love and not on anything the singer has done. That is the shape of repentance the psalm teaches.",
+        "songLocation": "VERSE_1",
+        "magnitude": "MAJOR",
+        "scriptureReference": "Psalm 51:1",
+        "scriptureRationale": "Mercy according to steadfast love - the ground of the opening plea."
+      },
+      {
+        "category": "Atonement",
+        "title": "Christ's blood read into the psalm",
+        "explanation": "The second stanza says nothing of the sinner's own can cleanse and that only Christ's blood makes him clean. It brings the psalm's cleansing language to its fulfilment in the cross, which is a sound Christian reading.",
+        "songLocation": "VERSE_2",
+        "magnitude": "MAJOR",
+        "scriptureReference": "1 John 1:7",
+        "scriptureRationale": "The blood of Jesus cleanses from all sin - the answer the stanza gives."
+      },
+      {
+        "category": "Repentance",
+        "title": "Sin against God alone, and from youth",
+        "explanation": "The third stanza takes the psalm's confession of sin against God alone and its root in the heart seriously. It does not shrink sin to mistakes.",
+        "songLocation": "VERSE_3",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 51:4-5",
+        "scriptureRationale": "Against you only have I sinned; sinful from the womb - the stanza's confession."
+      },
+      {
+        "category": "Scripture",
+        "title": "A psalm set closely",
+        "explanation": "Seven stanzas follow Psalm 51 in order from plea to praise, so a congregation prays the psalm through rather than a summary of it.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Psalm 51:10-17",
+        "scriptureRationale": "Clean heart, renewed spirit, broken heart as sacrifice - the stanzas' sequence."
+      },
+      {
+        "category": "Repentance",
+        "title": "A broken heart as the offering",
+        "explanation": "The fifth stanza offers a broken heart as the only sacrifice and asks for cleansing by fire, following the psalm and not claiming a work to earn pardon.",
+        "songLocation": "VERSE",
+        "magnitude": "MODERATE",
+        "scriptureReference": "Isaiah 6:6-7",
+        "scriptureRationale": "A coal cleansing the lips and taking away guilt - the image of cleansing by fire."
+      }
+    ],
+    "concerns": [],
+    "doctrinesAffirmed": [
+      "Salvation by God's mercy and not merit",
+      "Cleansing by the blood of Christ",
+      "Sin against God and the heart's bent to sin",
+      "The need for a new heart and renewed spirit",
+      "The broken heart as the sacrifice God accepts",
+      "Praise as the answer to forgiveness"
+    ],
+    "assessment": "Nothing to correct. Christ's blood is added to the psalm as a Christian reading, which is sound, and the offering image follows the psalm and not a works claim. Its weakness is of scope: it is a prayer of repentance and does not tell the whole gospel, and it speaks in the singular."
+  },
+  "communal": {
+    "strengths": [
+      {
+        "category": "Use",
+        "title": "A repentance hymn with a familiar tune",
+        "explanation": "Set to a melody many congregations already know, it gives churches a sung Psalm 51 for confession without a new tune to learn.",
+        "songLocation": "NOT_LYRICAL",
+        "magnitude": "MODERATE"
+      },
+      {
+        "category": "Structure",
+        "title": "A clear arc from plea to praise",
+        "explanation": "With no chorus, each stanza advances the prayer and the room always knows where it is in the psalm.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MINOR"
+      }
+    ],
+    "concerns": [],
+    "singability": "MODERATE",
+    "vocalRangeNote": "No published key was found. It uses the melody of How Deep the Father's Love for Us, so a leader should use the key already familiar to the congregation from that hymn.",
+    "range": {
+      "measured": false,
+      "lowestNote": null,
+      "highestNote": null,
+      "tessituraLow": null,
+      "tessituraHigh": null,
+      "key": "Not published; tune of How Deep the Father's Love",
+      "source": null,
+      "note": "No chart was read for this review, so the pitches are not stated."
+    },
+    "repetition": "NONE",
+    "repetitionAssessment": "There is no chorus and no repeated section, so every stanza carries new content.",
+    "performanceOrientation": "CONGREGATIONAL",
+    "assessment": "Congregational in form and tune, and it suits confession. It is text-heavy and reflective, and seven stanzas are dense for a first-time room, so it asks for a leader who will let it be slow. The familiar tune helps."
+  },
+  "clarity": {
+    "strengths": [
+      {
+        "category": "Structure",
+        "title": "The psalm's movement is easy to follow",
+        "explanation": "Each stanza has one job: plea, cleansing, confession, renewal, offering, praise. A congregation can tell where the prayer is going.",
+        "songLocation": "WHOLE_SONG",
+        "magnitude": "MODERATE"
+      }
+    ],
+    "concerns": [],
+    "ambiguityLevel": "LOW",
+    "assessment": "Clear. The images of fire and offering are the psalm's and Isaiah's and need teaching rather than correction. Christ is named only through his blood in the second stanza, which is where the gospel is stated."
+  },
+  "synthesis": {
+    "summary": "A seven-stanza paraphrase of Psalm 51, a prayer of repentance from plea to praise, with the cleansing read as Christ's blood and the broken heart as the offering God accepts. It sets the psalm closely to a familiar tune and has no chorus. Nothing in it is false; it speaks in the singular and states the gospel only in its cleansing stanza.",
+    "themes": [
+      "Repentance",
+      "Sin",
+      "Grace",
+      "Cross",
+      "Prayer",
+      "Scripture",
+      "Worship"
+    ],
+    "scriptureReferences": [
+      {
+        "reference": "Psalm 51",
+        "relevance": "The psalm the text paraphrases throughout, from plea for mercy to promised praise."
+      },
+      {
+        "reference": "1 John 1:7",
+        "relevance": "The blood of Jesus cleanses from all sin - the added Christian reading."
+      },
+      {
+        "reference": "Hebrews 9:14",
+        "relevance": "Christ's blood cleansing the conscience - behind the cleansing stanza."
+      },
+      {
+        "reference": "Isaiah 6:6-7",
+        "relevance": "Cleansing by a coal from the altar - the image of cleansing by fire."
+      },
+      {
+        "reference": "Romans 12:1",
+        "relevance": "Presenting oneself as an offering - the sacrifice stanza."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.crossway.org/articles/how-to-sing-psalm-51/",
+      "title": "How to Sing Psalm 51",
+      "publisher": "Crossway",
+      "sourceType": "PUBLICATION",
+      "credibilityTier": "TIER_3",
+      "establishes": "Publisher's article on the hymn: Boswell's text closes his book, set to Townend's melody with permission; summarises the stanzas' teaching on mercy, Christ's blood, confession, renewal and praise.",
+      "assessesContent": true
+    },
+    {
+      "url": "https://doxologyandtheology.org/articles/o-god-be-merciful-to-me-psalm-51",
+      "title": "O God, Be Merciful to Me (Psalm 51)",
+      "publisher": "Doxology & Theology",
+      "sourceType": "OFFICIAL_WEBSITE",
+      "credibilityTier": "TIER_1",
+      "establishes": "Original publication of the hymn with Boswell's author note; credits text to Boswell and tune to Stuart Townend, used with permission.",
+      "assessesContent": false
+    },
+    {
+      "sourceType": "OTHER",
+      "credibilityTier": "TIER_4",
+      "assessesContent": false,
+      "establishes": "Text read for this review",
+      "title": "Lyrics page read for this review",
+      "publisher": "Doxology & Theology",
+      "url": "https://doxologyandtheology.org/articles/o-god-be-merciful-to-me-psalm-51"
+    }
+  ]
+}
