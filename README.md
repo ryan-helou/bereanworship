@@ -31,6 +31,4 @@ A song is judged on its own words. Who wrote it never raises or lowers its score
 
 The site's methodology page lays out the full method, and the notes behind it are in the docs folder.
 
-## Where it stands
-
-The site is live and protected by a password. It is a work in progress.
+The live site sits behind a password.
